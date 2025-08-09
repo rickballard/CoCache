@@ -1,0 +1,3 @@
+path/to/missing/file1.ext !text !filter !merge !diff
+path/to/missing/file2.ext !text !filter !merge !diff
+path/to/missing/file3.ext !text !filter !merge !diff
