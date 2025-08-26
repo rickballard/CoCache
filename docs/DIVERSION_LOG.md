@@ -1,4 +1,5 @@
 # Diversion Backlog (Parking Lot)
+<<<<<<< HEAD
 > Single source of truth for “nice-to-haves” while the grand migration is in flight.
 > Status key: BACKLOG | DOING | DONE | PARKED
 
@@ -27,3 +28,11 @@
 * Status: BACKLOG
 * Notes: Extract anything useful, migrate issues/docs, mark repo deprecated, archive/private, then delete post-migration.
 
+=======
+
+* [2025-08-26 18:24:12-04:00] DIV-006 — Fix branch protection/required checks so asset-only PRs can merge (PR-labeler, yamllint).
+* [2025-08-26 18:24:12-04:00] DIV-007 — Ready-to-copy/collapsed paste UI that prevents partial copy.
+* [2025-08-26 18:24:12-04:00] DIV-008 — Paste Envelope guardrails (start/end markers, clipboard gating, length checks).
+* [2025-08-26 18:24:12-04:00] DIV-009 — Chat bloat: consolidate evidence, write mitigations, propose product changes.
+* [2025-08-26 18:24:12-04:00] DIV-010 — CoIndex polish (nightly refresh, link graph, encoding hardening).
+>>>>>>> 566f042 (docs(ops): capture chat-bloat summary + append diversions)
