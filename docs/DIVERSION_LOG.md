@@ -36,3 +36,4 @@
 * [2025-08-26 18:24:12-04:00] DIV-009 — Chat bloat: consolidate evidence, write mitigations, propose product changes.
 * [2025-08-26 18:24:12-04:00] DIV-010 — CoIndex polish (nightly refresh, link graph, encoding hardening).
 >>>>>>> 566f042 (docs(ops): capture chat-bloat summary + append diversions)
+* [2025-08-26 19:32:38-04:00] DIV-011 — Enable GitHub Pages and add favicons post-migration.
