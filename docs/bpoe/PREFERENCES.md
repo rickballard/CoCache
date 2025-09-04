@@ -16,3 +16,9 @@
   - CoPong: wrap the fenced JSON with <!-- COPONG:BEGIN <title> --> / <!-- COPONG:END -->
 
 - Default to ~20 visible lines with vertical scrollbar for DO/CoPong code.
+
+- Never use ChatGPT Automations/tasks. All scheduling and notifications must originate from repo workflows (CI) and files under `/index`.
+
+- DO blocks are numbered & timestamped in a header comment; `# END DO` footer must appear after a final Set-Location $HOME.
+
+- Default ~20 visible lines with vertical scrollbar for DO/CoPong code; copy button at bottom.
