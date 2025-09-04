@@ -8,3 +8,5 @@ These actions are preauthorized for the CoAgent, and must be confirmed per-user 
 - Add/adjust .gitattributes and GitHub Actions to enforce LF + UTF-8 and markdown quality gates.
 
 Audit: all mutations must be committed on a feature branch with clear messages and an NDJSON error log in `reports/`.
+
+- Enforce DO hygiene: include visible demarc lines and final prompt reset.
