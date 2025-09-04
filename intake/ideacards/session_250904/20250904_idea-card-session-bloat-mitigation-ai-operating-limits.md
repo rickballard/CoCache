@@ -3,13 +3,14 @@ id: "idea-card-session-bloat-mitigation-ai-operating-limits"
 title: "Idea Card: Session Bloat Mitigation & AI Operating Limits"
 status: seed
 category: "ideacard"
+triage: untriaged
+stream: TBD
 tags: []
 priority: normal
 owner: rick
 created: 2025-09-04
 source: "CardsWraps.zip/session_250904"
 ---
-
 # Idea Card: Session Bloat Mitigation & AI Operating Limits
 
 ## Summary
@@ -43,4 +44,5 @@ ChatGPT performance degraded during extended CoCivium sessions due to session bl
 ## Status
 ✅ Approved for idea card export  
 🗂 Target: `docs/bpoe/SESSION-BLOAT.md`
+
 

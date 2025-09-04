@@ -3,13 +3,14 @@ id: "idea-card-contributor-merge-policy-for-cocivium"
 title: "Idea Card: Contributor Merge Policy for CoCivium"
 status: seed
 category: "ideacard"
+triage: untriaged
+stream: TBD
 tags: []
 priority: normal
 owner: rick
 created: 2025-09-04
 source: "CardsWraps.zip/session_250904"
 ---
-
 # Idea Card: Contributor Merge Policy for CoCivium
 
 ## Summary
@@ -49,4 +50,5 @@ As the CoCivium repo begins receiving contributions through its workflow kit, a 
 ## Status
 ✅ Approved for idea card export  
 🗂 Ready for placement in `CoCivium/docs/ideas/`
+
 

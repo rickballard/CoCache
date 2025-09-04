@@ -3,13 +3,14 @@ id: "idea-card-silent-fail-diagnostics-file-visibility-checker"
 title: "Idea Card: Silent Fail Diagnostics & File Visibility Checker"
 status: seed
 category: "ideacard"
+triage: untriaged
+stream: TBD
 tags: []
 priority: normal
 owner: rick
 created: 2025-09-04
 source: "CardsWraps.zip/session_250904"
 ---
-
 # Idea Card: Silent Fail Diagnostics & File Visibility Checker
 
 ## Summary
@@ -40,4 +41,5 @@ During recent CoCivium work, a file placed under `docs/outreach/partners/` appea
 ## Status
 ✅ Approved  
 🗂 Repo placement: `CoCivium/docs/ideas/diagnostics`
+
 
