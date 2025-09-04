@@ -6,6 +6,8 @@ on:
       - 'index/INTAKE_MAP_session_*'
       - 'reports/**'
       - 'scripts/oe_status.ps1'
+      - 'scripts/trust_scan.ps1'
+      - 'docs/bpoe/trust/**'
   schedule:
     - cron: '*/20 * * * *'
 permissions:
@@ -15,16 +17,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Trust scan (session)
+        shell: pwsh
+        run: |
+          pwsh -NoLogo -NoProfile -File scripts/trust_scan.ps1 -RepoRoot . -Stamp "$(Get-Date -Format 'yyMMdd')"
       - name: Generate OE status
         shell: pwsh
         run: |
-          pwsh -NoLogo -NoProfile -File scripts/oe_status.ps1 -RepoRoot . -Stamp "250904"
+          pwsh -NoLogo -NoProfile -File scripts/oe_status.ps1 -RepoRoot . -Stamp "$(Get-Date -Format 'yyMMdd')"
           git config user.name  "oe-status-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add index/OE_STATUS.*
+          git add index/OE_STATUS.* index/TRUST_*
           if git diff --cached --quiet; then
             echo "No status changes."
           else
-            git commit -m "CI: update OE_STATUS (2025-09-04T13:27:17.2464067-04:00)"
+            git commit -m "CI: update OE/TRUST status ($(Get-Date -Format 'o'))"
             git push
           fi
