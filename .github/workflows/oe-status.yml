@@ -20,17 +20,17 @@ jobs:
       - name: Trust scan (session)
         shell: pwsh
         run: |
-          pwsh -NoLogo -NoProfile -File scripts/trust_scan.ps1 -RepoRoot . -Stamp "$(Get-Date -Format 'yyMMdd')"
+          pwsh -NoLogo -NoProfile -File scripts/trust_scan.ps1 -RepoRoot . -Stamp "250904"
       - name: Generate OE status
         shell: pwsh
         run: |
-          pwsh -NoLogo -NoProfile -File scripts/oe_status.ps1 -RepoRoot . -Stamp "$(Get-Date -Format 'yyMMdd')"
+          pwsh -NoLogo -NoProfile -File scripts/oe_status.ps1 -RepoRoot . -Stamp "250904"
           git config user.name  "oe-status-bot"
           git config user.email "actions@users.noreply.github.com"
           git add index/OE_STATUS.* index/TRUST_*
           if git diff --cached --quiet; then
             echo "No status changes."
           else
-            git commit -m "CI: update OE/TRUST status ($(Get-Date -Format 'o'))"
+            git commit -m "CI: update OE/TRUST status (2025-09-04T14:16:36.7416440-04:00)"
             git push
           fi
