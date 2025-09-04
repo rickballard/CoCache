@@ -43,30 +43,41 @@ if (Test-Path $logPath){
 }
 $mapOk = Test-Path $mapPath
 
-# Utilization across the three bloat axes (lines, files, stage size)
+# bloat utilization → Efficiency/Bloat
 $uLines = if($WarnLines   -gt 0 -and $mdLines  -gt 0){ [double]$mdLines  / [double]$WarnLines   } else { 0.0 }
 $uFiles = if($WarnFiles   -gt 0){ [double]$mdFiles / [double]$WarnFiles } else { 0.0 }
 $uStage = if($WarnStageMB -gt 0){ [double]$stageMB / [double]$WarnStageMB } else { 0.0 }
-$util   = [math]::Max($uLines, [math]::Max($uFiles, $uStage))   # “worst of” utilization
+$util   = [math]::Max($uLines, [math]::Max($uFiles, $uStage))
 $bloatPct = [int]([math]::Round([math]::Min(1.0,$util)*100,0))
 $effPct   = [int]([math]::Max(0, [math]::Min(100, 100 - $bloatPct)))
 
-# Human line (compact, untitled, one line)
-$one = "OE Status: Efficiency~{0}% SessionBloat~{1}% ErrorCount~{2} FilesAccessed~{3} FilesIC~{4} FilesCW~{5} Stage~{6}MB Map~{7}" -f `
-        $effPct, $bloatPct, $errCount, $mdFiles, $icCount, $cwCount, $stageMB, ($(if($mapOk){'OK'}else{'MISSING'}))
+# Trust read (optional)
+$trustJson = Join-Path $indexDir 'TRUST_FLAGS.json'
+$trustMd   = Join-Path $indexDir 'TRUST_STATUS.md'
+$trustLevel = 'OK'
+if (Test-Path $trustJson) {
+  try {
+    $trust = Get-Content $trustJson -Raw -EA Stop | ConvertFrom-Json
+    if ($trust.level) { $trustLevel = $trust.level }
+  } catch {}
+}
 
-# JSON for machines
+# One-liner (Trust is appended; link when WARN/DENY)
+$trustPart = if ($trustLevel -eq 'OK') { 'Trust~OK' } else { 'Trust~[WARN](index/TRUST_STATUS.md)' }
+if ($trustLevel -eq 'DENY') { $trustPart = 'Trust~[DENY](index/TRUST_STATUS.md)' }
+
+$one = "OE Status: Efficiency~{0}% SessionBloat~{1}% ErrorCount~{2} FilesAccessed~{3} FilesIC~{4} FilesCW~{5} Stage~{6}MB Map~{7} {8}" -f `
+        $effPct, $bloatPct, $errCount, $mdFiles, $icCount, $cwCount, $stageMB, ($(if($mapOk){'OK'}else{'MISSING'})), $trustPart
+
+# Machine JSON stays
 $jsonPath = Join-Path $indexDir 'OE_STATUS.json'
 @{
   ts=(Get-Date).ToString('o'); session=$Stamp;
-  metrics=@{
-    md_files=$mdFiles; md_lines=$mdLines; stage_mb=$stageMB;
-    ic=$icCount; cw=$cwCount; bpoe_errors=$errCount; map_exists=$mapOk
-  };
-  status=@{ efficiency=$effPct; session_bloat=$bloatPct }
+  metrics=@{ md_files=$mdFiles; md_lines=$mdLines; stage_mb=$stageMB; ic=$icCount; cw=$cwCount; bpoe_errors=$errCount; map_exists=$mapOk };
+  status =@{ efficiency=$effPct; session_bloat=$bloatPct; trust=$trustLevel }
 } | ConvertTo-Json -Depth 5 | Set-Content -Encoding UTF8 $jsonPath
 
-# MD for humans (just the one-liner, no title/table)
+# Human one-liner only
 $mdPath = Join-Path $indexDir 'OE_STATUS.md'
 $one | Set-Content -Encoding UTF8 $mdPath
 
