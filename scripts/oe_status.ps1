@@ -35,51 +35,39 @@ $stageBytes = 0L
 if (Test-Path $stageRaw){
   $stageBytes = (Get-ChildItem $stageRaw -File -Recurse -EA SilentlyContinue | Measure-Object -Sum Length).Sum
 }
-$stageMB   = [math]::Round(($stageBytes / 1MB),2)
+$stageMB = [math]::Round(($stageBytes / 1MB),2)
 
 $errCount = 0
 if (Test-Path $logPath){
-  $errCount = (Get-Content $logPath -EA SilentlyContinue |
-               Where-Object { $_ -match '\S' } |
-               Measure-Object).Count
+  $errCount = (Get-Content $logPath -EA SilentlyContinue | Where-Object { $_ -match '\S' } | Measure-Object).Count
 }
 $mapOk = Test-Path $mapPath
 
-# crude loop heuristic
-$loopWarn = $false
-if ($errCount -gt 0) {
-  try {
-    $msgs = Get-Content $logPath -EA Stop | ConvertFrom-Json | Select-Object -ExpandProperty message
-    $top  = $msgs | Group-Object | Sort-Object Count -Desc | Select-Object -First 1
-    if ($top.Count -ge 3) { $loopWarn = $true }
-  } catch { }
-}
+# Utilization across the three bloat axes (lines, files, stage size)
+$uLines = if($WarnLines   -gt 0 -and $mdLines  -gt 0){ [double]$mdLines  / [double]$WarnLines   } else { 0.0 }
+$uFiles = if($WarnFiles   -gt 0){ [double]$mdFiles / [double]$WarnFiles } else { 0.0 }
+$uStage = if($WarnStageMB -gt 0){ [double]$stageMB / [double]$WarnStageMB } else { 0.0 }
+$util   = [math]::Max($uLines, [math]::Max($uFiles, $uStage))   # “worst of” utilization
+$bloatPct = [int]([math]::Round([math]::Min(1.0,$util)*100,0))
+$effPct   = [int]([math]::Max(0, [math]::Min(100, 100 - $bloatPct)))
 
-$bloatLevel = if ($mdLines -gt $WarnLines -or $mdFiles -gt $WarnFiles -or $stageMB -gt $WarnStageMB) { "WARN" } else { "OK" }
-$loopLevel  = if ($loopWarn) { "WARN" } else { "OK" }
-$errLevel   = if ($errCount -gt 0) { "WARN" } else { "OK" }
+# Human line (compact, untitled, one line)
+$one = "OE Status: Efficiency~{0}% SessionBloat~{1}% ErrorCount~{2} FilesAccessed~{3} FilesIC~{4} FilesCW~{5} Stage~{6}MB Map~{7}" -f `
+        $effPct, $bloatPct, $errCount, $mdFiles, $icCount, $cwCount, $stageMB, ($(if($mapOk){'OK'}else{'MISSING'}))
 
-function Icon($lvl){ switch($lvl){ 'OK' {'✅'} 'WARN' {'🟡'} default {'🔴'} } }
-$line = "OE: bloat {0} {1} • loop {2} {3} • errors {4} {5} • files {6} (IC {7}, CW {8}) • stage {9} MB • map {10}" -f `
-        (Icon $bloatLevel), $bloatLevel, (Icon $loopLevel), $loopLevel, (Icon $errLevel), $errLevel, `
-        $mdFiles, $icCount, $cwCount, $stageMB, ($(if($mapOk){'✅'}else{'🔴'}))
-
-# Write artifacts
+# JSON for machines
 $jsonPath = Join-Path $indexDir 'OE_STATUS.json'
-$mdPath   = Join-Path $indexDir 'OE_STATUS.md'
-@{ ts=(Get-Date).ToString('o'); session=$Stamp; metrics=@{
-     md_files=$mdFiles; md_lines=$mdLines; stage_mb=$stageMB; ic=$icCount; cw=$cwCount; bpoe_errors=$errCount; map_exists=$mapOk
-   }; status=@{ bloat=$bloatLevel; loop=$loopLevel; errors=$errLevel } } |
-  ConvertTo-Json -Depth 5 | Set-Content -Encoding UTF8 $jsonPath
+@{
+  ts=(Get-Date).ToString('o'); session=$Stamp;
+  metrics=@{
+    md_files=$mdFiles; md_lines=$mdLines; stage_mb=$stageMB;
+    ic=$icCount; cw=$cwCount; bpoe_errors=$errCount; map_exists=$mapOk
+  };
+  status=@{ efficiency=$effPct; session_bloat=$bloatPct }
+} | ConvertTo-Json -Depth 5 | Set-Content -Encoding UTF8 $jsonPath
 
-@(
-  '# OE Status', '', '```text', $line, '```', '',
-  '| KPI | Status |','|---|---|',
-  ('| Bloat | {0} |' -f $bloatLevel),
-  ('| Loop  | {0} |' -f $loopLevel ),
-  ('| Errors| {0} |' -f $errLevel ),
-  '',
-  '> Auto-generated. Thresholds: lines>{0} or files>{1} or stage>{2}MB.' -f $WarnLines,$WarnFiles,$WarnStageMB
-) -join "`n" | Set-Content -Encoding UTF8 $mdPath
+# MD for humans (just the one-liner, no title/table)
+$mdPath = Join-Path $indexDir 'OE_STATUS.md'
+$one | Set-Content -Encoding UTF8 $mdPath
 
-Write-Host $line
+Write-Host $one
