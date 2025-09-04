@@ -1,0 +1,30 @@
+name: OE Status
+on:
+  push:
+    paths:
+      - 'intake/**'
+      - 'index/INTAKE_MAP_session_*'
+      - 'reports/**'
+      - 'scripts/oe_status.ps1'
+  schedule:
+    - cron: '*/20 * * * *'
+permissions:
+  contents: write
+jobs:
+  status:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate OE status
+        shell: pwsh
+        run: |
+          pwsh -NoLogo -NoProfile -File scripts/oe_status.ps1 -RepoRoot . -Stamp "250904"
+          git config user.name  "oe-status-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add index/OE_STATUS.*
+          if git diff --cached --quiet; then
+            echo "No status changes."
+          else
+            git commit -m "CI: update OE_STATUS (2025-09-04T13:27:17.2464067-04:00)"
+            git push
+          fi
