@@ -3,6 +3,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # MasterPlan: Rick Ballard
 
 ## Purpose
@@ -28,6 +29,7 @@ Unify civic tech, charity, pro-bono consulting, and personal ethos into a cohere
 - Work only on CoModules and CoCivium projects
 - Maintain coherence and visibility across repos
 - Archive public reflections in CoCache
+
 
 
 
