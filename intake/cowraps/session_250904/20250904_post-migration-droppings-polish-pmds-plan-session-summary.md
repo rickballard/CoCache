@@ -130,9 +130,9 @@ git status -sb; ''|Out-Null
 
 git checkout -b sweeps/pmds-setup-c1; ''|Out-Null
 $dirs = @(
-  "ideas","docsefactor","docslows","docs\policy","insights","proposals",
+  "ideas","docsefactor","docslows","docs\policy","insights","proposals",
   "tools\copush-ai","tools\cocleanse","metrics\evomap","reports\pmds","lexicon",
-  "outreachickpublic","outreachounders","outreach\case-studies"
+  "outreachickpublic","outreachounders","outreach\case-studies"
 )
 $dirs | ForEach-Object { New-Item -ItemType Directory -Force -Path $_ | Out-Null }; ''|Out-Null
 
@@ -153,7 +153,7 @@ next_actions: [ "[type:DOC] Draft /docs/..." ]
 "@ | Set-Content ideas\_TEMPLATE.ideacard.md -Encoding UTF8; ''|Out-Null
 
 "# RESTRUCTURE-MAP (PMDS)`n## Plan`n- (planned moves)`n## Applied`n- (commit-hash — move — reason)" |
-  Set-Content docsefactor\RESTRUCTURE-MAP.md -Encoding UTF8; ''|Out-Null
+  Set-Content docsefactor\RESTRUCTURE-MAP.md -Encoding UTF8; ''|Out-Null
 
 git add -A; ''|Out-Null
 git commit -m "PMDS: scaffolding (ideas/, refactor map, templates)"; ''|Out-Null

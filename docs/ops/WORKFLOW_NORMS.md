@@ -21,7 +21,7 @@
 - Allowed within Preauth. If GH settings just changed, wait a beat then retry merge if necessary.
 
 **Link hygiene:**  
-- Prefer relative links inside CoCivium; replace stale ickballard/CoCivium links with ickballard/CoCivium or relative paths.
+- Prefer relative links inside CoCivium; replace stale ickballard/CoCivium links with ickballard/CoCivium or relative paths.
 
 
 
