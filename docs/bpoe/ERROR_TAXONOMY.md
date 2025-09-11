@@ -4,6 +4,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # BPOE Error Taxonomy (v1)
 
 - PASTE_TRUNCATION: User paste interrupted or block partially copied.
@@ -14,6 +15,7 @@
 - CLASSIFIER_MISS: Heuristics misclassified an intake item.
 
 Each log line (NDJSON) SHOULD include: ts, stage, item, message, category, target, script, line, psver, cwd.
+
 
 
 

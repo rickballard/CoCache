@@ -4,6 +4,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 ---
 id: "cowrap-from-bloated-session"
 title: "CoWrap_From_Bloated_Session"
@@ -17,6 +18,7 @@ source: "CardsWraps.zip/session_250904"
 ---
 
 > Attachment captured from zip. See: `../attachments/session_250904/CoWrap_From_Bloated_Session.odt`
+
 
 
 

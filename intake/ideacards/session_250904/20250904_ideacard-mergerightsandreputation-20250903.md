@@ -4,6 +4,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 ---
 id: "ideacard-mergerightsandreputation-20250903"
 title: "IdeaCard_MergeRightsAndReputation_20250903"
@@ -18,6 +19,7 @@ created: 2025-09-04
 source: "CardsWraps.zip/session_250904"
 ---
 > Attachment captured from zip. See: `../attachments/session_250904/IdeaCard_MergeRightsAndReputation_20250903.docx`
+
 
 
 

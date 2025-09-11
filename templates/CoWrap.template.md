@@ -4,6 +4,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 ---
 session: "Grand Migration Cleanup"
 date: 2025-09-04
@@ -20,6 +21,7 @@ next_session_hint: ""
 ## What’s still messy
 
 ## Next steps (committable)
+
 
 
 
