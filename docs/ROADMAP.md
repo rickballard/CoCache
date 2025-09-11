@@ -3,6 +3,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
+<!-- status: stub; target: 150+ words -->
 # Roadmap (v0)
 
 ## NOW (execute without review under Preauth)
@@ -21,6 +22,7 @@
 - Pages launch + favicon/apple-touch integration.  
 - Trademark search & registration path for logo.  
 - Governance doc (stewardship, CLA/not-CLA stance).
+
 
 
 
