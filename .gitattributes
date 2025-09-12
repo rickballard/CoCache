@@ -21,3 +21,4 @@
 *.html text eol=lf
 *.htm text eol=lf
 
+docs/status/*.md text eol=lf
