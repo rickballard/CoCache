@@ -1,9 +1,9 @@
 # Repo Health
 
-- Updated 2025-09-12 20:22:50Z — _via Write-RepoHealth_
+- Updated 2025-09-12 20:23:30Z — _via Write-RepoHealth_
 - GM PR bloat: 0 open gm/* PR(s)
 - Open issues: 3
-- Advice/TODO hits: 4801 (TODO: 4482)
+- Advice/TODO hits: 14029 (TODO: 13602)
 
 ## Open Issues
 - [2](https://github.com/rickballard/CoCache/issues/2) Tracking: Grand migration plan v1 [migration]
@@ -11,7 +11,7 @@
 - [4](https://github.com/rickballard/CoCache/issues/4) Decide move method per component [migration]
 
 ## Branches (local, newest first)
-- gm/CoCache-20250911-172359 (2025-09-12 20:22:03Z)
+- gm/CoCache-20250911-172359 (2025-09-12 20:22:52Z)
 - gm/CoCache-20250911-171118 (2025-09-11 21:11:28Z)
 - gm/CoCache-20250911-165926 (2025-09-11 20:59:38Z)
 - gm/CoCache-20250911-145355 (2025-09-04 22:04:28Z)
