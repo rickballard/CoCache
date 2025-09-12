@@ -22,3 +22,4 @@
 *.htm text eol=lf
 
 docs/status/*.md text eol=lf
+docs/**/*.md text eol=lf
