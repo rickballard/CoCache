@@ -1,6 +1,3 @@
-# Stale gm/* Branches - sweep
+# STATUS (stub)
 
-_Any branch >= 7 days with no open PR was deleted (local + remote). Updated 
-
-| Repo | Branch | Where | Age (days) | Action |
-|---|---|---|---:|---|
+_Updated 2025-09-14 17:25:28Z_
