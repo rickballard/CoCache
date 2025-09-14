@@ -1,14 +1,15 @@
 # Master Manifest
 
-Updated: 2025-09-12 20:02:14Z
+Updated: 2025-09-14 01:54:57Z
 
 | Repo | gm/* | Issues | TODOs |
 |---|---:|---:|---:|
-| **CoAgent** | 0 | 7 | 17 |
-| **CoCache** | 0 | 3 | 207 |
-| **CoCivium** | 1 | 30 | 2244 |
-| **CoCivium-outreach** | 1 | 30 | 1047 |
-| **CoCivium.clean** | 1 | 30 | 347 |
-| **CoLaminar** | 0 | 1 | 4 |
-| **CoModules** | 0 | 5 | 36 |
-| **GIBindex** | 0 | 1 | 4 |
+| **CoAgent** | 0 | 7 | 32685 |
+| **CoCache** | 0 | 3 | 164082 |
+| **CoCivium** | 1 | 30 | 191087 |
+| **CoCivium-outreach** | 1 | 30 | 5250 |
+| **CoCivium-website** | 0 | 0 | 0 |
+| **CoCivium.clean** | 1 | 30 | 1748 |
+| **CoLaminar** | 0 | 1 | 31 |
+| **CoModules** | 0 | 5 | 233 |
+| **GIBindex** | 0 | 1 | 31 |
