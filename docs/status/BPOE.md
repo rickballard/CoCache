@@ -52,3 +52,13 @@
 
 - **GM PR bloat:** OK: none open — _as of 
 - [2025-09-12T21:42:32.6386625Z] Nightly refresh queued
+
+
+- **GM PR bloat:** OK: none open — _as of 
+- [2025-09-13T17:42:57.6009036Z] UX: standardize 5 blank lines between CoPing/CoPong blocks in PS7 transcripts.
+- [2025-09-13T19:11:09.3180307Z] UX: Adopt 'CoPong Demark' — 2 blank lines, rainbow rule with label, 2 blank lines. Use: CoPongDemark or alias 'cpd'.
+- [2025-09-13T19:19:19.2353666Z] UX: Adopt 'CoPong Demark' — 2 blank lines, rainbow rule with label, 2 blank lines. Use: CoPongDemark or alias 'cpd'.
+- [2025-09-14T00:46:43.4239007Z] CoTemp messages: use top-level 'inbox\\*.json' with keys: kind,to,session,tag,ts,summary,details.
+
+
+- **GM PR bloat:** OK: none open — _as of 
