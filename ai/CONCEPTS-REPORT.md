@@ -1,11 +1,5 @@
-# Concept Inventory (constellation)
+# Concept Inventory
 
-_Updated 
+_Updated 2025-09-14 17:25:28Z_
 
-Docs scanned: **232**
-Concept nodes (top): **120**
-Edges kept: **20**
-
-## Concepts at risk (only in deprecated content)
-
-_None detected under current heuristics._
+(placeholder)
