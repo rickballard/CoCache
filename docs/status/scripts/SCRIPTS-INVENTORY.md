@@ -3,6 +3,7 @@
 | Repo | Path | Size | Modified |
 |------|------|------|----------|
 | CoCache | $(@{Repo=CoCache; Rel=CoCache\scripts\ops\Invoke-RepoInventory.ps1; Length=1332; LastWriteTime=09/14/2025 17:58:52}.Rel) | 1,332 | 2025-09-14 17:58 |
+| CoCache | $(@{Repo=CoCache; Rel=CoCache\scripts\ops\Run-RepoInventory.ps1; Length=463; LastWriteTime=09/14/2025 18:11:18}.Rel) | 463 | 2025-09-14 18:11 |
 | CoCache | $(@{Repo=CoCache; Rel=CoCache\scripts\normalize_cardswraps.ps1; Length=6638; LastWriteTime=09/11/2025 19:23:32}.Rel) | 6,638 | 2025-09-11 19:23 |
 | CoCache | $(@{Repo=CoCache; Rel=CoCache\scripts\oe_status.ps1; Length=3470; LastWriteTime=09/11/2025 19:23:32}.Rel) | 3,470 | 2025-09-11 19:23 |
 | CoCache | $(@{Repo=CoCache; Rel=CoCache\scripts\trust_scan.ps1; Length=3244; LastWriteTime=09/11/2025 19:23:32}.Rel) | 3,244 | 2025-09-11 19:23 |
@@ -48,7 +49,7 @@
 | CoAgent | $(@{Repo=CoAgent; Rel=CoAgent\_vendor\migration_helper\tools\CoAgent.Assets.Migrate.ps1; Length=5797; LastWriteTime=09/12/2025 22:08:12}.Rel) | 5,797 | 2025-09-12 22:08 |
 | CoAgent | $(@{Repo=CoAgent; Rel=CoAgent\_vendor\migration_helper\tools\CoAgent.Breadcrumbs.Cleanup.ps1; Length=379; LastWriteTime=09/12/2025 22:08:12}.Rel) | 379 | 2025-09-12 22:08 |
 | CoAgent | $(@{Repo=CoAgent; Rel=CoAgent\scripts\Add-WatcherToProfile.ps1; Length=730; LastWriteTime=09/14/2025 01:49:18}.Rel) | 730 | 2025-09-14 01:49 |
-| CoAgent | $(@{Repo=CoAgent; Rel=CoAgent\scripts\Start-CoInboxWatcher.ps1; Length=3073; LastWriteTime=09/14/2025 03:13:19}.Rel) | 3,073 | 2025-09-14 03:13 |
+| CoAgent | $(@{Repo=CoAgent; Rel=CoAgent\scripts\Start-CoInboxWatcher.ps1; Length=117; LastWriteTime=09/14/2025 18:44:50}.Rel) | 117 | 2025-09-14 18:44 |
 | CoAgent | $(@{Repo=CoAgent; Rel=CoAgent\scripts\Start-Watcher.ps1; Length=225; LastWriteTime=09/14/2025 01:49:19}.Rel) | 225 | 2025-09-14 01:49 |
 | CoAgent | $(@{Repo=CoAgent; Rel=CoAgent\scripts\Stop-CoInboxWatcher.ps1; Length=324; LastWriteTime=09/14/2025 02:29:46}.Rel) | 324 | 2025-09-14 02:29 |
 | CoAgent | $(@{Repo=CoAgent; Rel=CoAgent\tools\_spinner.ps1; Length=614; LastWriteTime=09/14/2025 16:09:33}.Rel) | 614 | 2025-09-14 16:09 |
@@ -57,8 +58,8 @@
 | CoAgent | $(@{Repo=CoAgent; Rel=CoAgent\tools\CoBreadcrumb.ps1; Length=1435; LastWriteTime=09/14/2025 15:51:16}.Rel) | 1,435 | 2025-09-14 15:51 |
 | CoAgent | $(@{Repo=CoAgent; Rel=CoAgent\tools\Exec-Down.ps1; Length=112; LastWriteTime=09/13/2025 20:08:17}.Rel) | 112 | 2025-09-13 20:08 |
 | CoAgent | $(@{Repo=CoAgent; Rel=CoAgent\tools\Exec-Up.ps1; Length=113; LastWriteTime=09/13/2025 20:08:17}.Rel) | 113 | 2025-09-13 20:08 |
-| CoAgent | $(@{Repo=CoAgent; Rel=CoAgent\tools\Pair-CoSession.ps1; Length=1871; LastWriteTime=09/14/2025 17:00:45}.Rel) | 1,871 | 2025-09-14 17:00 |
-| CoAgent | $(@{Repo=CoAgent; Rel=CoAgent\tools\Section-Banners.ps1; Length=1347; LastWriteTime=09/14/2025 16:09:38}.Rel) | 1,347 | 2025-09-14 16:09 |
+| CoAgent | $(@{Repo=CoAgent; Rel=CoAgent\tools\Pair-CoSession.ps1; Length=2073; LastWriteTime=09/14/2025 23:30:34}.Rel) | 2,073 | 2025-09-14 23:30 |
+| CoAgent | $(@{Repo=CoAgent; Rel=CoAgent\tools\Section-Banners.ps1; Length=1902; LastWriteTime=09/15/2025 00:10:05}.Rel) | 1,902 | 2025-09-15 00:10 |
 | CoAgent | $(@{Repo=CoAgent; Rel=CoAgent\tools\Set-CoCursor.ps1; Length=518; LastWriteTime=09/14/2025 15:51:14}.Rel) | 518 | 2025-09-14 15:51 |
 | CoAgent | $(@{Repo=CoAgent; Rel=CoAgent\tools\Set-CoTabTitle.ps1; Length=306; LastWriteTime=09/14/2025 15:51:14}.Rel) | 306 | 2025-09-14 15:51 |
 | CoAgent | $(@{Repo=CoAgent; Rel=CoAgent\tools\Start-CoAgent.ps1; Length=410; LastWriteTime=09/14/2025 03:13:28}.Rel) | 410 | 2025-09-14 03:13 |
