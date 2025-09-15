@@ -12,10 +12,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Setup PowerShell
-        uses: PowerShell/PowerShell@v1
+        uses: actions/setup-powershell@v2
         with: { version: "7.4.x" }
       - name: Repo smoke (markdown + images)
         shell: pwsh
         run: |
           Import-Module "$PWD/module/BPOE.Autopilot/BPOE.Autopilot.psd1"
           Test-BPOERepoSmoke -Repo $PWD @(if ("${{ inputs.fail_external }}" -eq "true") { "-FailOnExternalLinks" })
+
