@@ -1,0 +1,21 @@
+﻿name: bpoe-safety-gate
+on:
+  workflow_call: {}
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - name: Light diff sanity
+        run: |
+          MAX=500000
+          SIZE=$(git diff --numstat origin/${{ github.base_ref }}...HEAD | awk '{s+=$1+$2} END {print s+0}')
+          echo "Changed lines: $SIZE"
+          test "$SIZE" -le "$MAX" || (echo "::error::Change too large ($SIZE > $MAX)." && exit 1)
+      - name: Secret scan (trufflehog light)
+        uses: trufflesecurity/trufflehog@v3.88.11
+        with:
+          path: .
+          base: ${{ github.event.pull_request.base.sha }}
+          head: ${{ github.sha }}
