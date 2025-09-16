@@ -1,13 +1,13 @@
 Param()
 [int64]$Limit = 100MB
-$lines = @(); while($l = [Console]::In.ReadLine()){ if($l.Trim()){ $lines += $l } }
+$lines = @(); while($l = [Console]::In.ReadLine()){ if($l -and $l.Trim()){ $lines += $l } }
 if($lines.Count -eq 0){ exit 0 }
 
 function Get-BatchCheck([string[]]$Shas){
   if(!$Shas){ return @() }
   $txt = ($Shas -join "`n") + "`n"
   $psi = New-Object System.Diagnostics.ProcessStartInfo
-  $psi.FileName = "git"; $psi.Arguments = "cat-file --batch-check"
+  $psi.FileName = 'git'; $psi.Arguments = 'cat-file --batch-check'
   $psi.UseShellExecute = $false; $psi.RedirectStandardInput = $true; $psi.RedirectStandardOutput = $true
   $p = [System.Diagnostics.Process]::Start($psi)
   $p.StandardInput.Write($txt); $p.StandardInput.Close()
@@ -39,9 +39,9 @@ foreach($ln in $lines){
 }
 
 if($found.Count -gt 0){
-  Write-Host "[BLOB-GUARD] Push blocked: blobs >= 100MB present." -ForegroundColor Red
+  Write-Host '[BLOB-GUARD] Push blocked: blobs >= 100MB present.' -ForegroundColor Red
   $found | Sort-Object mb -Descending | Format-Table -Auto sha,mb,path,local,remote | Out-String | Write-Host
-  Write-Host "See docs/bpoe/BLOB_GUARD.md for rewrite steps." -ForegroundColor Yellow
+  Write-Host 'See docs/bpoe/BLOB_GUARD.md for rewrite steps.' -ForegroundColor Yellow
   exit 1
 }
 exit 0
