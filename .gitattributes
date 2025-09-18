@@ -21,3 +21,4 @@
 *.html text eol=lf
 *.htm text eol=lf
 
+.github/workflows/* merge=theirs
