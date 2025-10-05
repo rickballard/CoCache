@@ -40,3 +40,17 @@ Two spaces after periods. No silent deletions. Deprecate instead.
 
 [![BPOE Sanity](https://github.com/rickballard/CoCache/actions/workflows/bpoe-sanity.yml/badge.svg?branch=main)](https://github.com/rickballard/CoCache/actions/workflows/bpoe-sanity.yml)
 
+
+### AB-bypass (air-bag branches)
+Branches starting with `ab/` or `ab-` can skip pre-push checks to let WIP land quickly.  
+The pre-push hook begins with:
+
+```powershell
+# --- AB bypass (must be first) ---
+$branch = (git rev-parse --abbrev-ref HEAD).Trim()
+if ($branch -match '^(ab/|ab-)') { if ($PSCommandPath) { exit 0 } else { return } }
+# --- end AB bypass ---
+```
+
+All other branches run the full hook.
+
