@@ -38,3 +38,18 @@
 - Confirm you pushed your branch and that `git log BASE..HEAD` shows commits.
 - Confirm `git ls-remote --heads origin YOUR_BRANCH` finds the head.
 - Confirm your base branch is the repo default (`git remote show origin`).
+<!-- BPOE_PASTE_SAFE_V1 -->
+## Paste-safe blocks & hook etiquette
+
+- Keep automation in files; paste only the call to them.
+- Use two independent `if` blocks instead of `-and`/`elseif` when pasting at a console.
+- Avoid `<placeholders>` in runnable lines; prefer `$VARIABLES` or ALL_CAPS.
+- Use `-LiteralPath` for file operations.
+- Prefer `-SimpleMatch` for literal marker searches.
+
+### Verify shell & repo before paste
+```powershell
+if ($PSVersionTable.PSEdition -ne "Core"){ Write-Warning "Start PowerShell 7+: type pwsh" }
+(git rev-parse --is-inside-work-tree) | Out-Null
+```
+
