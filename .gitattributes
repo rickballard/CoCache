@@ -22,3 +22,5 @@
 *.htm text eol=lf
 
 .github/workflows/* merge=theirs
+
+*.psd1 text eol=crlf
