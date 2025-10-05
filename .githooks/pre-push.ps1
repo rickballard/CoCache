@@ -1,8 +1,9 @@
+Param()
+
 # --- AB bypass (must be first) ---
 $branch = (git rev-parse --abbrev-ref HEAD).Trim()
 if ($branch -match '^(ab/|ab-)') { if ($PSCommandPath) { exit 0 } else { return } }
 # --- end AB bypass ---
-Param()
 [int64]$Limit = 100MB
 $lines = @(); while($l = [Console]::In.ReadLine()){ if($l -and $l.Trim()){ $lines += $l } }
 if($lines.Count -eq 0){ exit 0 }
