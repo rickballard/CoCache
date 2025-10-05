@@ -34,10 +34,10 @@ $hits = Get-ChildItem -Recurse -File |
   Select-String -SimpleMatch -Pattern '<branch>' -List
 if ($hits) { $errors += ('Found literal `<branch>` placeholder in repo: ' + ($hits.Path -join ', ')) }
 
-# 4) AB-bypass marker does not appear outside the hook
+# 4) AB-bypass marker does not appear outside the hook (also exclude this CI file)
 $hookPath = (Resolve-Path $Hook -ErrorAction SilentlyContinue)?.Path
 $leaks = Get-ChildItem -Recurse -File |
-  Where-Object { -not (Is-IgnoredPath $_.FullName) -and $hookPath -and $_.FullName -ne $hookPath } |
+  Where-Object { -not (Is-IgnoredPath $_.FullName) -and $hookPath -and $_.FullName -ne $hookPath -and $_.Name -ne $CiLeaf } |
   Select-String -SimpleMatch -Pattern $Marker -List
 if ($leaks) { $errors += ("AB-bypass marker found outside {0}: {1}" -f $Hook, ($leaks.Path -join ', ')) }
 
