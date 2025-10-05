@@ -37,3 +37,6 @@ Two spaces after periods. No silent deletions. Deprecate instead.
 
 - See **ISSUEOPS (Quick)** → `docs/ops/ISSUEOPS.md`
 
+
+[![BPOE Sanity](https://github.com/rickballard/CoCache/actions/workflows/bpoe-sanity.yml/badge.svg?branch=main)](https://github.com/rickballard/CoCache/actions/workflows/bpoe-sanity.yml)
+
