@@ -6,7 +6,7 @@ $errors = @()
 # Cross-platform paths
 $Hook   = Join-Path '.githooks' 'pre-push.ps1'
 $Bpoe   = Join-Path 'bpoe' 'BPOE_Git-PR-Rescue-Playbook.md'
-$Marker = '# --- AB bypass (must be first) ---'
+$Marker = '# AB-bypass (doc sample, not for hooks)'
 $CiLeaf = 'BpoeSanity.ps1'
 
 # 1) Hook has AB-bypass marker
@@ -63,3 +63,4 @@ if ($errors.Count) {
 } else {
   Write-Host "BPOE sanity passed."
 }
+
