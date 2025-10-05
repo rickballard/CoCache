@@ -1,0 +1,10 @@
+{
+  "advice_bomb_code": "AB-KA-01",
+  "name": "Insights Scaffold & Harvest Pack",
+  "version": "1.0",
+  "description": "Seed Insights folder with paired Thesis\u21c4OpsBrief docs + tools; non-destructive consolidation.",
+  "outputs": [
+    "out/report.md",
+    "out/out.txt"
+  ]
+}

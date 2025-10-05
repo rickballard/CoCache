@@ -19,6 +19,7 @@
 *.html text eol=lf
 *.htm text eol=lf
 .github/workflows/* merge=theirs
+*.psd1 text eol=crlf
 path/to/missing/file1.ext !text !filter !merge !diff
 path/to/missing/file2.ext !text !filter !merge !diff
 path/to/missing/file3.ext !text !filter !merge !diff

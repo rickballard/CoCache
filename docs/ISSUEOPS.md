@@ -1,7 +1,7 @@
 # ISSUEOPS quicksheet
 
 Dispatch smoke:
-  gh workflow run smoke.yml --ref <branch> -R OWNER/REPO
+  gh workflow run smoke.yml --ref YOUR_BRANCH -R OWNER/REPO
 
 Pin shims to current CoCache SHA:
   $sha = (git -C "C:\Users\Chris\Documents\GitHub\CoCache" rev-parse HEAD).Trim()
@@ -15,3 +15,4 @@ Pin shims to current CoCache SHA:
       }
     }
   }
+
