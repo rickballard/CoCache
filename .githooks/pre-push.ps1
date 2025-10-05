@@ -1,5 +1,4 @@
 Param()
-
 # --- AB bypass (must be first) ---
 $branch = (git rev-parse --abbrev-ref HEAD).Trim()
 if ($branch -match '^(ab/|ab-)') { if ($PSCommandPath) { exit 0 } else { return } }
@@ -50,4 +49,5 @@ if($found.Count -gt 0){
   exit 1
 }
 exit 0
+
 
