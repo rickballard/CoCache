@@ -1,0 +1,14 @@
+name: BPOE Sanity
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run BPOE sanity checks
+        shell: pwsh
+        run: ./scripts/ci/BpoeSanity.ps1
+
