@@ -46,11 +46,12 @@ Branches starting with `ab/` or `ab-` can skip pre-push checks to let WIP land q
 The pre-push hook begins with:
 
 ```powershell
-# --- AB bypass (must be first) ---
+# AB-bypass (doc sample; not for hooks)
 $branch = (git rev-parse --abbrev-ref HEAD).Trim()
 if ($branch -match '^(ab/|ab-)') { if ($PSCommandPath) { exit 0 } else { return } }
 # --- end AB bypass ---
 ```
 
 All other branches run the full hook.
+
 
