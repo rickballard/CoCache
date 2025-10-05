@@ -7,7 +7,6 @@
 *.ps1 text eol=crlf
 *.bat text eol=crlf
 *.sh  text eol=lf
-
 *.md text eol=lf
 *.markdown text eol=lf
 *.txt text eol=lf
@@ -20,6 +19,7 @@
 *.htm text eol=lf
 .github/workflows/* merge=theirs
 *.psd1 text eol=crlf
+AdviceBombs/**/*.zip filter=lfs diff=lfs merge=lfs -text
 path/to/missing/file1.ext !text !filter !merge !diff
 path/to/missing/file2.ext !text !filter !merge !diff
 path/to/missing/file3.ext !text !filter !merge !diff
