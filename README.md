@@ -89,6 +89,12 @@ All other branches run the full hook.
 | SP | [Speech & Moderation — Rights Across Borders](Insights/SP_Thesis_speech-moderation-rights-across-borders_v1.0.md) | [SpeechOps — Policies & Appeals](Insights/SP_OpsBrief_speechops-policies-appeals_v1.0.md) | Speech, Moderation |
 <!-- INSIGHTS_INDEX_END -->
 
+<!-- INSIGHTS_STORIES_BEGIN -->
+## Human Touch Stories
+
+- [Being Noname](Insights/BN_Story_being-noname_v1.0.md) — a girl without a name learns how names can be found, chosen, and earned.
+<!-- INSIGHTS_STORIES_END -->
+
 <!-- INSIGHTS_QUESTIONS_BEGIN -->
 ## What problems do these papers answer?
 
@@ -151,3 +157,4 @@ All other branches run the full hook.
 - **SP** — How do speech rights travel and get fairly enforced?  \n  _[Speech & Moderation — Rights Across Borders](Insights/SP_Thesis_speech-moderation-rights-across-borders_v1.0.md)_
 
 <!-- INSIGHTS_QUESTIONS_END -->
+
