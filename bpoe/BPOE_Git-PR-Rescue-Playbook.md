@@ -53,3 +53,10 @@ if ($PSVersionTable.PSEdition -ne "Core"){ Write-Warning "Start PowerShell 7+: t
 (git rev-parse --is-inside-work-tree) | Out-Null
 ```
 
+<!-- BPOE_CONSOLE_SAFE_V2 -->
+## Console-safe automation (lessons learned)
+- Keep pre-push bypass logic only in the hook file; never paste it.
+- Avoid `<placeholders>` in runnable lines; use `$VARS` or ALL_CAPS.
+- Use separate `if` blocks instead of `-and`/`elseif` at the console.
+- Search literals with `-SimpleMatch`; file ops use `-LiteralPath`.
+- Prefer arrays-of-lines over here-strings when pasting big blocks.
