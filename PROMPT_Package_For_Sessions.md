@@ -12,7 +12,7 @@ I (Chris) crashed from fatigue; thanks for your patience. CoCivium is a *multimi
 
 **How to use**
 1. Add the `PRINCIPLES/.PRINCIPLES_CoCivium_SEED.md` and `BPOE/_BPOE_Wisdom_Human-Limits_And_Ops.md` to repo.
-2. Start growing the `CC/..CC_Megascroll_SEED.md` by inlining “core” sections.
+2. Grow the `CC/..CC_Megascroll_SEED.md` by inlining “core” sections.
 3. If working late/tired, prefer issues/drafts over merges.
 
 **Filename markers (proposal)**
