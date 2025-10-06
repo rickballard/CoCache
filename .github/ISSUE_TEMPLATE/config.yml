@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Start here (parallel-session prompt)
+    url: ../PROMPT_Package_For_Sessions.md
+    about: Use this to coordinate 1-hour sprints.

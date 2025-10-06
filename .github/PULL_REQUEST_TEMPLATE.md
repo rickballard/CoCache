@@ -1,6 +1,21 @@
-### Launch / RickGuard checklist
-- [ ] If this PR is part of a **launch**, run:
-      `Set-RickGuardAll -Owner rickballard -Mode Off -CriticalSet @("CoCivium")`
-- [ ] If we’re entering **seeding** again, run:
-      `Set-RickGuardAll -Owner rickballard -Mode Seed -CriticalSet @("CoCivium")`
-- [ ] Confirm CoCivium remains **Critical** (checks + 1 review).
+## Summary
+<!-- What and why -->
+
+## Scope
+- [ ] Doc only
+- [ ] Policy/principles
+- [ ] CC megascroll component
+- [ ] Code/automation
+
+## Cool-down & Safety
+- [ ] I am not in cool-down, or this PR has a second review.
+- [ ] If late-hours (01:00–05:00 local), I paused for a sanity pass.
+
+## Being Noname (name integrity)
+- [ ] If this touches BN, the exact string **"Being Noname"** is preserved.
+
+## Canonicity
+- [ ] If changing `canon_level: pillar` or `chartered`, governance rules were followed.
+
+## Notes
+<!-- links, references -->

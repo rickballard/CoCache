@@ -1,0 +1,21 @@
+name: Idea / Smallest Useful Change
+description: Propose an idea or tiny improvement
+labels: ["idea"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What problem or improvement?
+      placeholder: Keep it small; reversible is best.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence / references (optional)
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety
+      options:
+        - label: I'm not in a cool-down state (or this is just notes).
