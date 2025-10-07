@@ -12,3 +12,9 @@ Thumbs.db
 
 
 
+
+# CoCivium local artifacts
+*_Package_*.zip
+CoCivium_*_v*.zip
+_forensics-*.csv
+_bn_history.diff
