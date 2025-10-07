@@ -1,94 +1,57 @@
-
+# CC_InlineCores.ps1 — inline core excerpts into megascroll
+[CmdletBinding()]
 param(
-  [string]$Repo = ".",
-  [string]$Megascroll = "CC\..CC_Megascroll_SEED.md",
-  [string]$Principles = "PRINCIPLES\.PRINCIPLES_CoCivium_SEED.md",
-  [string]$Bpoe = "BPOE\_BPOE_Wisdom_Human-Limits_And_Ops.md"
+  [Parameter(Mandatory=$true)][string]$Megascroll,
+  [Parameter(Mandatory=$true)][string]$Principles,
+  [Parameter(Mandatory=$true)][string]$Bpoe
 )
 
 $ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
 
-function Get-LinesNoFrontmatter {
-  param([string]$Path)
-  $t = Get-Content -LiteralPath $Path -Raw -ErrorAction Stop
-  $lines = $t -split "`r?`n"
-  if($t -match '^(?ms)^---\s*?\n.*?\n---\s*?\n'){
-    $after = $t -replace '^(?ms)^---\s*?\n.*?\n---\s*?\n', ''
-    return $after -split "`r?`n"
-  }
-  return $lines
+function Read-AllText([string]$path){
+  return Get-Content -LiteralPath $path -Raw -Encoding UTF8
 }
 
-function Get-Section {
-  param([string[]]$Lines,[string]$Heading)
-  $idx = ($Lines | Select-String -Pattern "^[\s#]*##\s+$([regex]::Escape($Heading))\b" -AllMatches).Matches | ForEach-Object { $_.LineNumber } | Select-Object -First 1
-  if(-not $idx){ return $null }
-  $start = [int]$idx
-  $next  = ($Lines | Select-String -Pattern "^[\s#]*##\s+" -AllMatches).Matches |
-           Where-Object { $_.LineNumber -gt $start } |
-           Select-Object -First 1
-  $end = if($next){ [int]$next.LineNumber - 1 } else { $Lines.Count }
-  return $Lines[($start-1)..($end-1)]
+function Extract-Section([string]$text,[string]$h){
+  $p = "(?ms)^\s*##\s+" + [regex]::Escape($h) + "\s*\r?\n(.*?)(?=^\s*##\s+|\Z)"
+  $m = [regex]::Match($text,$p)
+  if($m.Success){ return $m.Groups[1].Value.Trim() } else { return "" }
 }
 
-$repoRoot = (Resolve-Path $Repo).Path
-$megap    = Join-Path $repoRoot $Megascroll
-$ppath    = Join-Path $repoRoot $Principles
-$bpath    = Join-Path $repoRoot $Bpoe
+# Load sources
+$megaText = Read-AllText $Megascroll
+$prText   = Read-AllText $Principles
+$bpText   = Read-AllText $Bpoe
 
-if(-not (Test-Path $megap)){ throw "Megascroll not found: $Megascroll" }
-if(-not (Test-Path $ppath)){ throw "Principles not found: $Principles" }
-if(-not (Test-Path $bpath)){ throw "BPOE not found: $Bpoe" }
+# Compose excerpt block
+$parts = @()
 
-$megLines = Get-Content -LiteralPath $megap -Raw -ErrorAction Stop -Encoding UTF8 -ea Stop -TotalCount 999999
-$megArr   = $megLines -split "`r?`n"
+# From PRINCIPLES
+$secPillars    = Extract-Section $prText "Pillars"
+$secGuardrails = Extract-Section $prText "Guardrails"
+if($secPillars){   $parts += "# Core Principles — Pillars`r`n$secPillars" }
+if($secGuardrails){$parts += "# Core Principles — Guardrails`r`n$secGuardrails" }
 
-$pl = Get-LinesNoFrontmatter -Path $ppath
-$bl = Get-LinesNoFrontmatter -Path $bpath
+# From BPOE
+$secCD = Extract-Section $bpText "Cool-Down Trigger"
+$secRE = Extract-Section $bpText "Re-Entry Checklist"
+if($secCD){ $parts += "# BPOE — Cool-Down Trigger`r`n$secCD" }
+if($secRE){ $parts += "# BPOE — Re-Entry Checklist`r`n$secRE" }
 
-$p_pillars   = Get-Section -Lines $pl -Heading "Pillars"
-$p_guardrail = Get-Section -Lines $pl -Heading "Guardrails"
-if(-not $p_pillars){ $p_pillars = $pl }
-if(-not $p_guardrail){ $p_guardrail = @() }
+$block = "<!-- BEGIN:CORE_EXCERPTS -->`r`n" + ($parts -join "`r`n`r`n") + "`r`n<!-- END:CORE_EXCERPTS -->"
 
-$b_cool = Get-Section -Lines $bl -Heading "Cool-Down Trigger"
-$b_re   = Get-Section -Lines $bl -Heading "Re-Entry Checklist"
-if(-not $b_cool){ $b_cool = $bl }
-
-$excerpt = @()
-$excerpt += "<!-- BEGIN:CORE_EXCERPTS -->"
-$excerpt += "## Core Principles (excerpt)"
-$excerpt += ($p_pillars + '')
-if($p_guardrail.Count -gt 0){
-  $excerpt += ""
-  $excerpt += "### Guardrails (excerpt)"
-  $excerpt += ($p_guardrail + '')
-}
-$excerpt += ""
-$excerpt += "## BPOE Human Limits (excerpt)"
-$excerpt += ($b_cool + '')
-if($b_re.Count -gt 0){
-  $excerpt += ""
-  $excerpt += "### Re-Entry Checklist (excerpt)"
-  $excerpt += ($b_re + '')
-}
-$excerpt += "<!-- END:CORE_EXCERPTS -->"
-
-$beginIdx = ($megArr | Select-String -Pattern '<!--\s*BEGIN:CORE_EXCERPTS\s*-->' -AllMatches).Matches | ForEach-Object { $_.LineNumber } | Select-Object -First 1
-$endIdx   = ($megArr | Select-String -Pattern '<!--\s*END:CORE_EXCERPTS\s*-->'   -AllMatches).Matches | ForEach-Object { $_.LineNumber } | Select-Object -First 1
-
-if($beginIdx -and $endIdx -and $endIdx -gt $beginIdx){
-  $newMeg = @()
-  $newMeg += $megArr[0..($beginIdx-2)]
-  $newMeg += $excerpt
-  if($endIdx -lt $megArr.Count){
-    $newMeg += $megArr[$endIdx..($megArr.Count-1)]
-  }
-  $out = ($newMeg -join "`r`n")
+# Replace between markers (create markers if missing)
+if($megaText -notmatch "<!--\s*BEGIN:CORE_EXCERPTS\s*-->"){
+  $megaText = $megaText + "`r`n`r`n" + $block
 } else {
-  $out = ($megArr + @("", "") + $excerpt) -join "`r`n"
+  $megaText = [regex]::Replace(
+    $megaText,
+    "(?s)<!--\s*BEGIN:CORE_EXCERPTS\s*-->.*?<!--\s*END:CORE_EXCERPTS\s*-->",
+    [System.Text.RegularExpressions.MatchEvaluator]{ param($m) $block }
+  )
 }
 
-Set-Content -LiteralPath $megap -Value $out -Encoding UTF8
-Write-Host "Megascroll updated." -ForegroundColor Green
+# Save
+Set-Content -LiteralPath $Megascroll -Value $megaText -Encoding UTF8
+Write-Host "Megascroll updated."

@@ -1,22 +1,21 @@
-name: CoCivium Safety Checks
-
+name: Civium Safety
 on:
-  push:
   pull_request:
-
+    paths:
+      - 'Insights/**'
+      - 'PRINCIPLES/**'
+      - 'BPOE/**'
+      - 'CC/**'
 jobs:
   bn_name_guard:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Ensure "Being Noname" exact phrase exists in canonical file
+      - name: Ensure exact "Being Noname" appears if BN file is touched
         run: |
-          set -euo pipefail
-          file="Insights/BN_Story_being-noname_v1.0.md"
-          if [[ -f "$file" ]]; then
-            if ! grep -qiE '\bBeing[[:space:]]+Noname\b' "$file"; then
-              echo "Expected exact phrase 'Being Noname' not found in $file"
-              exit 1
+          set -e
+          if git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | grep -q '^Insights/BN_Story_being-noname_v1.0.md$'; then
+            if ! grep -qiE '\bBeing[[:space:]]+Noname\b' Insights/BN_Story_being-noname_v1.0.md; then
+              echo "BN guard: exact 'Being Noname' not found."; exit 1
             fi
-          else
-            echo "Canonical BN file not present; skipping check."
+          fi

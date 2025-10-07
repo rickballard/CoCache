@@ -1,6 +1,6 @@
 # CoCivium parallel-session starter
 
-**Context / apology**  
+**Context / apology**
 I (Chris) crashed from fatigue; thanks for your patience. CoCivium is a *multimind* environment; no single mind “owns” it. Please help reseed CC cleanly.
 
 **1-hour sprint goals**
