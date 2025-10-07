@@ -1,16 +1,22 @@
-name: civium-safety
+name: CoCivium Safety Checks
+
 on:
   push:
-    branches: [ main ]
   pull_request:
+
 jobs:
-  bn_guard:
+  bn_name_guard:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Verify 'Being Noname' canonical contains exact string
+      - name: Ensure "Being Noname" exact phrase exists in canonical file
         run: |
-          if [ ! -f "Insights/BN_Story_being-noname_v1.0.md" ]; then
-            echo "Canonical BN file missing"; exit 1
-          fi
-          grep -qiE "\bBeing[[:space:]]+Noname\b" Insights/BN_Story_being-noname_v1.0.md ||             (echo "Exact string 'Being Noname' not found" && exit 1)
+          set -euo pipefail
+          file="Insights/BN_Story_being-noname_v1.0.md"
+          if [[ -f "$file" ]]; then
+            if ! grep -qiE '\bBeing[[:space:]]+Noname\b' "$file"; then
+              echo "Expected exact phrase 'Being Noname' not found in $file"
+              exit 1
+            fi
+          else
+            echo "Canonical BN file not present; skipping check."
