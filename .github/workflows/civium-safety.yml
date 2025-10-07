@@ -1,0 +1,16 @@
+name: civium-safety
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+jobs:
+  bn_guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify 'Being Noname' canonical contains exact string
+        run: |
+          if [ ! -f "Insights/BN_Story_being-noname_v1.0.md" ]; then
+            echo "Canonical BN file missing"; exit 1
+          fi
+          grep -qiE "\bBeing[[:space:]]+Noname\b" Insights/BN_Story_being-noname_v1.0.md ||             (echo "Exact string 'Being Noname' not found" && exit 1)

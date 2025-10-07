@@ -1,16 +1,14 @@
 #!/bin/sh
-# .hooks/pre-commit.sample
 # Git runs shell hooks; use Git Bash on Windows.
-
 f="Insights/BN_Story_being-noname_v1.0.md"
 if test -f "$f"; then
-  grep -qiE '\bBeing[[:space:]]+Noname\b' "$f" || {
+  grep -qiE 'Being[[:space:]]+Noname' "$f" || {
     echo "Guard: canonical BN must contain exact 'Being Noname'." >&2
     exit 1
   }
 fi
 
-# Optional gentle nudge for late hours (Git Bash):
+# Optional gentle nudge for late hours:
 hour=$(date +%H 2>/dev/null || echo "99")
 if [ "$hour" -ge 1 ] && [ "$hour" -le 5 ]; then
   echo "Note: late hour detected; consider the BPOE cool-down before merging." >&2
