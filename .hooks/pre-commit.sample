@@ -1,14 +1,15 @@
 #!/bin/sh
-# Guard: canonical BN must contain exact 'Being Noname'.
+# Guard canonical BN literal
 f="Insights/BN_Story_being-noname_v1.0.md"
-test -f "$f" || exit 0
-if ! grep -qiE '\bBeing[[:space:]]+Noname\b' "$f"; then
-  echo "Guard: expected exact 'Being Noname' in $f" >&2
-  exit 1
+if test -f "$f"; then
+  grep -qiE '\bBeing[[:space:]]+Noname\b' "$f" || {
+    echo "Guard: canonical BN must contain exact 'Being Noname'." >&2
+    exit 1
+  }
 fi
 
-# Optional late-hour nudge
+# Optional nudge for late hours
 hour=$(date +%H 2>/dev/null || echo "99")
 if [ "$hour" -ge 1 ] && [ "$hour" -le 5 ]; then
-  echo "Note: late hour detected; consider BPOE cool-down before merging." >&2
+  echo "Note: late hour detected; consider the BPOE cool-down before merging." >&2
 fi
