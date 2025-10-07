@@ -1,68 +1,94 @@
-\
+
 param(
-  [string]$Repo = (git rev-parse --show-toplevel 2>$null)
+  [string]$Repo = ".",
+  [string]$Megascroll = "CC\..CC_Megascroll_SEED.md",
+  [string]$Principles = "PRINCIPLES\.PRINCIPLES_CoCivium_SEED.md",
+  [string]$Bpoe = "BPOE\_BPOE_Wisdom_Human-Limits_And_Ops.md"
 )
-$ErrorActionPreference = 'Stop'
+
+$ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
 
-if(-not $Repo){
-  $fallback = Join-Path $HOME "Documents\GitHub\CoCache"
-  if(Test-Path $fallback){ $Repo = $fallback } else { throw "Repo not found; run inside your repo." }
+function Get-LinesNoFrontmatter {
+  param([string]$Path)
+  $t = Get-Content -LiteralPath $Path -Raw -ErrorAction Stop
+  $lines = $t -split "`r?`n"
+  if($t -match '^(?ms)^---\s*?\n.*?\n---\s*?\n'){
+    $after = $t -replace '^(?ms)^---\s*?\n.*?\n---\s*?\n', ''
+    return $after -split "`r?`n"
+  }
+  return $lines
 }
-Set-Location $Repo
-
-$ccFile  = Join-Path $Repo "CC\..CC_Megascroll_SEED.md"
-$prFile  = Join-Path $Repo "PRINCIPLES\.PRINCIPLES_CoCivium_SEED.md"
-$bpoe    = Join-Path $Repo "BPOE\_BPOE_Wisdom_Human-Limits_And_Ops.md"
-
-if(-not (Test-Path $ccFile)){ throw "Megascroll seed not found: $ccFile" }
-if(-not (Test-Path $prFile)){ throw "Principles seed not found: $prFile" }
-if(-not (Test-Path $bpoe)){ throw "BPOE doc not found: $bpoe" }
-
-$cc  = Get-Content -Raw -LiteralPath $ccFile
-$pr  = Get-Content -Raw -LiteralPath $prFile
-$bw  = Get-Content -Raw -LiteralPath $bpoe
 
 function Get-Section {
-  param([string]$Text,[string]$Heading)  # Heading text after '## '
-  $pattern = "(?smi)^\s*##\s+$([regex]::Escape($Heading)).*?(?=^\s*##\s+|\Z)"
-  $m = [regex]::Match($Text,$pattern)
-  if($m.Success){ return $m.Value.Trim() } else { return $null }
+  param([string[]]$Lines,[string]$Heading)
+  $idx = ($Lines | Select-String -Pattern "^[\s#]*##\s+$([regex]::Escape($Heading))\b" -AllMatches).Matches | ForEach-Object { $_.LineNumber } | Select-Object -First 1
+  if(-not $idx){ return $null }
+  $start = [int]$idx
+  $next  = ($Lines | Select-String -Pattern "^[\s#]*##\s+" -AllMatches).Matches |
+           Where-Object { $_.LineNumber -gt $start } |
+           Select-Object -First 1
+  $end = if($next){ [int]$next.LineNumber - 1 } else { $Lines.Count }
+  return $Lines[($start-1)..($end-1)]
 }
 
-$pillars   = Get-Section $pr "Pillars"
-$guardrails= Get-Section $pr "Guardrails"
+$repoRoot = (Resolve-Path $Repo).Path
+$megap    = Join-Path $repoRoot $Megascroll
+$ppath    = Join-Path $repoRoot $Principles
+$bpath    = Join-Path $repoRoot $Bpoe
 
-$timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
-$header = @"
-<!-- BEGIN:INLINED_CORES -->
-<!-- auto-generated @ $timestamp -->
-## Core Principles (excerpt)
+if(-not (Test-Path $megap)){ throw "Megascroll not found: $Megascroll" }
+if(-not (Test-Path $ppath)){ throw "Principles not found: $Principles" }
+if(-not (Test-Path $bpath)){ throw "BPOE not found: $Bpoe" }
 
-$pillars
+$megLines = Get-Content -LiteralPath $megap -Raw -ErrorAction Stop -Encoding UTF8 -ea Stop -TotalCount 999999
+$megArr   = $megLines -split "`r?`n"
 
-$guardrails
+$pl = Get-LinesNoFrontmatter -Path $ppath
+$bl = Get-LinesNoFrontmatter -Path $bpath
 
-## BPOE: Human Limits (core)
-$bw
-<!-- END:INLINED_CORES -->
-"@
+$p_pillars   = Get-Section -Lines $pl -Heading "Pillars"
+$p_guardrail = Get-Section -Lines $pl -Heading "Guardrails"
+if(-not $p_pillars){ $p_pillars = $pl }
+if(-not $p_guardrail){ $p_guardrail = @() }
 
-# place or replace
-if($cc -match "(?s)<!-- BEGIN:INLINED_CORES -->.*?<!-- END:INLINED_CORES -->"){
-  $cc2 = [regex]::Replace($cc,"(?s)<!-- BEGIN:INLINED_CORES -->.*?<!-- END:INLINED_CORES -->",$header)
-} else {
-  # insert after 'Support Scroll Cores' section if present, else append
-  if($cc -match "(?s)(#\s*Support\s+Scroll\s+Cores.*)"){
-    $cc2 = $cc -replace "(?s)(<!-- END:INLINED_CORES -->)?\s*$","`r`n$header`r`n"
-  } else {
-    $cc2 = $cc + "`r`n`r`n" + $header + "`r`n"
+$b_cool = Get-Section -Lines $bl -Heading "Cool-Down Trigger"
+$b_re   = Get-Section -Lines $bl -Heading "Re-Entry Checklist"
+if(-not $b_cool){ $b_cool = $bl }
+
+$excerpt = @()
+$excerpt += "<!-- BEGIN:CORE_EXCERPTS -->"
+$excerpt += "## Core Principles (excerpt)"
+$excerpt += ($p_pillars + '')
+if($p_guardrail.Count -gt 0){
+  $excerpt += ""
+  $excerpt += "### Guardrails (excerpt)"
+  $excerpt += ($p_guardrail + '')
+}
+$excerpt += ""
+$excerpt += "## BPOE Human Limits (excerpt)"
+$excerpt += ($b_cool + '')
+if($b_re.Count -gt 0){
+  $excerpt += ""
+  $excerpt += "### Re-Entry Checklist (excerpt)"
+  $excerpt += ($b_re + '')
+}
+$excerpt += "<!-- END:CORE_EXCERPTS -->"
+
+$beginIdx = ($megArr | Select-String -Pattern '<!--\s*BEGIN:CORE_EXCERPTS\s*-->' -AllMatches).Matches | ForEach-Object { $_.LineNumber } | Select-Object -First 1
+$endIdx   = ($megArr | Select-String -Pattern '<!--\s*END:CORE_EXCERPTS\s*-->'   -AllMatches).Matches | ForEach-Object { $_.LineNumber } | Select-Object -First 1
+
+if($beginIdx -and $endIdx -and $endIdx -gt $beginIdx){
+  $newMeg = @()
+  $newMeg += $megArr[0..($beginIdx-2)]
+  $newMeg += $excerpt
+  if($endIdx -lt $megArr.Count){
+    $newMeg += $megArr[$endIdx..($megArr.Count-1)]
   }
+  $out = ($newMeg -join "`r`n")
+} else {
+  $out = ($megArr + @("", "") + $excerpt) -join "`r`n"
 }
 
-if($cc2 -ne $cc){
-  Set-Content -LiteralPath $ccFile -Value $cc2 -Encoding UTF8
-  "Megascroll updated."
-} else {
-  "Megascroll already up to date."
-}
+Set-Content -LiteralPath $megap -Value $out -Encoding UTF8
+Write-Host "Megascroll updated." -ForegroundColor Green
