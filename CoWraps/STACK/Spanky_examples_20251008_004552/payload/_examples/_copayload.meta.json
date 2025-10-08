@@ -1,0 +1,19 @@
+{
+  "wrap_version": "2.2",
+  "session_title": "Example Session",
+  "session_id": "EXAMPLE-SESSION-ID",
+  "source": "ChatGPT",
+  "created_utc": "2025-10-08T00:05:00Z",
+  "tags": [
+    "Spanky",
+    "CoWrap",
+    "session",
+    "archive",
+    "BPOE"
+  ],
+  "targets": {
+    "preferred_repo": "rickballard/CoCache",
+    "preferred_path": "CoWraps/STACK"
+  },
+  "priority": "Important"
+}
