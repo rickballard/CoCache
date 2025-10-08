@@ -1,0 +1,1 @@
+- English first (NA/EU/AUS); readers prefer snack-size clarity.
