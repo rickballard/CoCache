@@ -1,0 +1,3 @@
+Add community_references.md to /meta
+
+This file catalogs influential thinkers, governance models, and civic tools that align with Civium’s mission. It creates an anchor point for contributor orientation and potential outreach or citations.

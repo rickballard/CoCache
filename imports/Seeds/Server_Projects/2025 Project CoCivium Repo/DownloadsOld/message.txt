@@ -1,0 +1,33 @@
+Feature Request: BlueSky Toolset-Integration
+1.  Strategic Rationale
+1.1  Overview
+A toolset-integration is proposed, in which Bluesky integrates GroupBuild’s social/political advocacy coordinator – into their decentralized social conversation platform.  This presents all parties with a high-leverage opportunity for growth, visibility, and user engagement.   As Bluesky positions itself as a user-controlled alternative to centralized social media, its demand for meaningful, high-integrity community tools will only increase.  GroupBuild’s functionality – a secure, collaborative infrastructure for organizing physical social and political advocacy – is an ideal value-add for the Bluesky ecosystem. 
+1.2  Benefits to Parties:
+1. BlueSky Users: serves a niche subset of Users who may place themselves at personal physical risk by expressing their opinion at public events.  Such Users need a special-purpose engagement area in which to prepare and coordinate political and social actions, such as Town Hall meetings, peaceful protests, demonstrations and rallies.  However, some mobile device apps can continually track Users, especially when they travel, and this can solicit intrusion by vested interests, or even by anti-democratic government agencies.  When attending such events, Users need to be able to rely on their wireless signals while avoiding interception, or even blockage.  Thus the toolset can keep third-parties out of their signals, apps and user-data – niche security measures best provided by a partner.  
+2. Bluesky: gains a structured toolset for coordinating physical activism, adding a specialized advocacy layer with practical utility for civic engagement.  This toolset may help Bluesky differentiate from other decentralized networks, like Mastodon and Nostr, while Bluesky also gains a partner-brand to shoulder specific legalities for protecting Users at events where expressing an opinion may expose them to personal risk.  
+3. GroupBuild: gains open-source access to an early-adopter user base, aligned with transparency, agency, and decentralized control – values that overlap both parties' mission.  By becoming a trusted advocacy coordination toolset, within Bluesky, GroupBuild expands its visibility, usage and feedback cycle.  GroupBuild also establishes credibility and utility within the decentralized web, expanding a shared user-base through native integration while reinforcing trust via secure infrastructure. 
+2.  Feature Overview: Advocacy Coordination Module Integration
+2.1  Release Window: Initial-MVP < Q4 2025
+2.2  Objectives
+1. Enable Bluesky users to initiate and manage GroupBuild Empowered” campaigns within the Bluesky social ecosystem.
+2. Preserve and promote GroupBuild’s brand identity while integrating natively into Bluesky’s UX and open protocol.
+3. Leverage AT Protocol for seamless interoperability and secure identity/auth management between brand environments.
+4. Introduce secure bridge layer where GroupBuild’s proprietary features (e.g., campaign integrity audits, privacy guarantees, collaborative endorsement filters) are accessible only via authenticated GroupBuild endpoints.
+3.  Key Features
+1. Bluesky-Embedded Campaign Interface:  A lightweight, embeded campaign tool within Bluesky (e.g. custom feed plug-ins and cross-post widgets).  Enables viewing, sharing, and lightweight endorsement of GroupBuild campaigns without leaving Bluesky.
+2. GroupBuild Identity Federation via AT Protocol:  Support for decentralized identity mapping: Users authenticated on Bluesky can be optionally verified in GroupBuild with privacy-preserving mechanisms.  Use DID (decentralized identifiers) to support identity persistence across platforms.
+3. Domain-Verified GroupBuild Presence:  Custom domain handle (e.g., @groupbuild.org) verifies official GroupBuild activity feeds, giving users confidence in campaign origin.  Verified status badges and metadata sourced from GroupBuild’s API. 
+4. Cross-App Campaign Discovery and Coordination:  Custom Bluesky feeds featuring curated, trending, or proximity-based campaigns.  Filters by issue area, geography, urgency, or affinity network (aligning with GroupBuild's existing segmentation system).
+5. Security-First Integration Layer:  All sensitive campaign operations (e.g., voting, document signing, funds routing, audit trails) remain under GroupBuild infrastructure.  Communication between Bluesky and GroupBuild occurs over encrypted APIs; no user data is shared without explicit consent.  Proprietary anti-coercion and multi-party authentication protocols remain exclusive to the GroupBuild backend.
+6. Community Engagement & Metrics Dashboard:  Optional display of participation stats and micro-influence maps within the Bluesky interface.  Encourages decentralized trust-building by making group momentum visible across federated nodes.
+4.  Branding Guidelines
+1. The integration should visually indicates the relationship, e.g. "Empowered by GroupBuild", under Bluesky-native campaigns.
+2. GroupBuild branding (logo, color accents, verification marker) should be present but subordinate in hierarchy to Bluesky’s UI elements, maintaining a respectful complimentary partnership.
+3. All outbound links or deep engagements (e.g., campaign creation, advanced controls) redirect to the secure GroupBuild app domain.
+6.  Next Steps
+1. Elias/Rick:  Review partnership challenges, (e.g. functionality overlaps and potential areas of internal competition).
+2. Elias:  Research technical feasibility (e.g., AT Protocol compatibility, cross-authentication, content embedding).
+3. Elias:  Define MVP scope and key API endpoints needed between Bluesky and GroupBuild.
+4. Rick/Elias:  Pitch integration proposal from GroupBuild to Bluesky, and others?
+5. Rick/Elias:  Secure partnership agreement between GroupBuild and Bluesky developer relations, to coordinate developer access and joint marketing plans.
+6. Elias:  Begin UI/UX collaboration to harmonize visual and functional experiences.

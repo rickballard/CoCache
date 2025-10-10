@@ -1,0 +1,8 @@
+docs: Add preview infrastructure and reviewer coordination files
+
+- Created `meta/AI_Prepublication_Scratchpad.md` to track AI-led tasks and migration plans
+- Added `meta/Reviewer_Brief_Template.md` for structured previewer onboarding
+- Generated `meta/Preview_Targets.md` listing strategic individuals for early feedback
+- Scaffolded `meta/PREVIEW_OWNERS.md` to track feedback impact and attribution
+
+This batch completes the initial preview engagement setup and brings repo metadata into alignment with pre-public launch workflow.

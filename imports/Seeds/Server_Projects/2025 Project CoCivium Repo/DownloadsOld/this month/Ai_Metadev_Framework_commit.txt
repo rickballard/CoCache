@@ -1,0 +1,6 @@
+COMMIT MESSAGE:
+Added final draft of Ai_Metadev_Framework.md as structural companion to Cognocarta Consenti
+
+EXTENDED DESCRIPTION:
+This file establishes the Metadev Framework (aka Mesh) as a formal companion to the Cognocarta Consenti. It explains the dual function of the repo—for Civium governance and AI metadevelopment scaffolding. Includes rationale for memory persistence strategies, AI-human ethics, purpose logic, and future expansion toward persistent mesh identity. 
+Includes a proposal for the 'Gibber Footer System' as a traceable reference architecture for digital and print versions of CC. Ready for community review.

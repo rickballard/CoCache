@@ -1,0 +1,96 @@
+
+[GroupBuild Logo Here]
+
+Volunteer-Contributor Agreement
+
+This Volunteer-Contributor Agreement (the "Agreement") outlines the principles and terms of collaboration for individuals volunteering with the GroupBuild project.
+
+1. Vision — Empower "We the People"
+1.1 GroupBuild is a platform for democratic collaboration, secure and open by design.
+1.2 It supports public demonstrations and civil actions, especially among US voters.
+1.3 The platform offers tailored tools, including AI moderation and user security.
+
+2. Not-For-Profit, Mission-Driven
+2.1 Problem: Unprecedented disinformation undermines democracy.
+2.2 Mission: Socially-organized change — safe, true, civil, and effective.
+2.3 GroupBuild accepts donations, ethical sponsorships, and sells goods, but never user data.
+2.4 Key Guidelines:
+    a. Political neutrality.
+    b. Encourage diverse participation.
+    c. AI moderation to flag (not suppress) content.
+
+3. Security-First
+3.1 Core security features include:
+    a. Encrypted, redundant communication channels.
+    b. "No Trackers Mode" to minimize background data capture.
+    c. Distributed server architecture ensuring sovereignty.
+    d. No user profiling or data sales.
+    e. Resources like anti-censorship tools and protective gear.
+
+4. Hybrid Moderation
+4.1 AI moderation is conducted via the “BeAxa” model, which flags:
+    a. Disinformation.
+    b. Anti-civility.
+    c. Irrationality.
+4.2 Human oversight remains central, with customizable group-level moderation.
+
+5. Organization Tools
+5.1 Features offered to each Group include:
+    a. Group profile mini-site.
+    b. Event scheduling and promotion tools.
+    c. Identity protection for anonymous participation.
+    d. Transparent internal voting system.
+    e. Endorsement and trust-building system.
+    f. Local safety and health resources.
+
+6. Open Source but Strategically Proprietary
+6.1 Publicly available tools are open source.
+6.2 Critical infrastructure remains proprietary to prevent misuse.
+6.3 Infrastructure is designed to remain operational under attack.
+
+7. Contributor Agreement
+
+7.1 Principles & Ownership
+    a. Open Ownership: Most contributions are open source or Creative Commons.
+    b. Reserved Ownership: Critical contributions may be protected as GroupBuild IP.
+    c. Notification and fair attribution are intended for reserved contributions.
+
+7.2 Contributor Conduct
+    a. Voluntary participation.
+    b. Mutual respect and inclusivity.
+    c. Intellectual honesty.
+    d. Open dialogue.
+    e. Zero tolerance for harassment or disinformation.
+
+7.3 Confidentiality & Integrity
+Contributors may access sensitive materials ("Confidential Information") and agree to:
+    a. Non-disclosure without explicit permission.
+    b. Restricted use for GroupBuild purposes only.
+    c. Security measures to protect such information.
+    d. No unauthorized sharing with third parties.
+    e. Exceptions:
+        i. Public domain information.
+        ii. Independently developed information.
+        iii. Required legal disclosures (with prior notice when possible).
+    f. Duration: Obligations survive indefinitely unless released in writing.
+
+7.4 Opt-In Confirmation
+By signing, you agree:
+    a. Participation is voluntary and revocable.
+    b. Contributions may be public, reserved, or adapted.
+    c. Confidentiality and ownership terms are accepted.
+    d. You join a civil, cooperative community.
+
+Violation of this Agreement may result in termination and further action.
+
+Signed:
+
+Signature Elias:                        ______________________________
+Email Elias:                           Elias@groupbuild.org
+
+Signature Rick:                         ______________________________
+Email Rick:                            Rick@groupbuild.org
+
+Signature Volunteer-Contributor:        ______________________________
+Printed Name Volunteer-Contributor:     ______________________________
+Email Volunteer-Contributor:            ______________________________

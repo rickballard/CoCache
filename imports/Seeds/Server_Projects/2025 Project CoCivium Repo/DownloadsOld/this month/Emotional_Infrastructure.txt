@@ -1,0 +1,3 @@
+Add Emotional_Infrastructure.md: foundational insight on emotional system design in Civium
+
+This insight introduces the concept of emotional infrastructure as a core requirement for Civic design. It reframes human suffering as a product of environmental incoherence, not individual failure, and defines Civium’s responsibility to carry emotional states like structural load. It introduces coherence, trust, dignity, and love as system outputs—not internal virtues. This file anchors the emotional necessity of Civium before higher-order philosophical or spiritual insights are layered in.

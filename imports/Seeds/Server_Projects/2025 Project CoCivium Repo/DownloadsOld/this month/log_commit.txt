@@ -1,0 +1,5 @@
+Log glossary consolidation into /civilish/ and deletion of legacy folders
+
+- Added entry for 2025-07-15
+- Notes removal of /language/ and /glossary
+- Affirms canonical status of Glossary_Term_Lookup_v0.3.md in /civilish/

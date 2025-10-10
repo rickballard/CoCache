@@ -1,0 +1,3 @@
+Add scroll_plan.md to /meta
+
+Outlines the narrative, design, and layout plan for a public-facing scroll edition of the Civium Constitution. Includes structure, tone, typefaces, and output format strategy.

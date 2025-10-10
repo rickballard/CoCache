@@ -1,0 +1,15 @@
+Commit message:
+Add Civium Constitution Scroll v0.1 – emotional + structural base with placeholders
+
+Extended description:
+This commit introduces version 0.1 of the Civium Constitution Scroll. It serves as a structurally complete, emotionally enriched foundational document that outlines the purpose, ethics, and mechanisms of the Civium governance framework.
+
+Included in this version:
+- Stronger emotional preamble and affirmation
+- Placeholder for “The Crisis We’re In” to explain Civium’s urgency
+- Clear listing of all governance modules, both conceptual and technical
+- Modular placeholders for forthcoming documents (Civic Decalogue, Lexicon, Coreharmonic Protocol, etc.)
+- Forking logic and auditability emphasized
+- Designed for summer beachside review and direct editing via GitHub or markdown-friendly editors
+
+The Scroll remains fully replaceable in future versions but now offers a cohesive base for public review and iterative collaboration.

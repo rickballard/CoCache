@@ -1,0 +1,32 @@
+---
+# 🗺️ Civium Structure Map (Textual Draft)
+_This diagram outlines the core file structure of the Civium-Constitution repo, enabling quick navigation and conceptual grouping._
+
+```text
+Civium-Constitution/
+├── sections/             # Foundational logic: axioms, rights, powers
+│   └── axioms.md         # Core truth statements
+│
+├── codices/              # Forkable implementation maps, dissenting codices
+│   └── codex001-repmod.md
+│
+├── appendices/           # Protocols, ensemble methods, governance simulations
+│   └── consensus-ai.md
+│
+├── lexicon/              # Shared vocabulary and conceptual anchors
+│   └── terms.md
+│
+├── diagrams/             # System visualizations and structural maps
+│   └── structure-map.md  # This file (draft)
+│
+├── meta/                 # Repo guides, contributor roles, issues template
+│   └── TODO.md (future)
+│
+├── LICENSE               # CC0 license for reuse
+├── README.md             # Overview and onboarding
+```
+
+---
+
+🔄 **Next:** Convert this map into SVG or Graphviz for visual rendering.
+📍 Suggest anchoring this in `/diagrams/structure-map.md`.

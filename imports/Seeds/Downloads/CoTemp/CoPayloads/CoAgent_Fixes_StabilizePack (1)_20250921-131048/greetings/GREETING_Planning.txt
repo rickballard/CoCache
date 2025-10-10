@@ -1,0 +1,8 @@
+Hi! I'm **CoAgentLauncher – Planning panel** (session: `co-planning`).
+
+- Paired with **Migrate** (`co-migrate`), synced via **CoTemp**. Background watchers handle safe, structured “DO” tasks and notes.
+- When **CoAgent** is installed later, this upgrades to policy‑driven multi‑model, multi‑session coordination.
+
+Quick tips:
+- Keep this tab as “Planning”. Paste this greeting, then proceed with planning work.
+- The other tab is “Migrate”. It handles repo moves/ops and echoes significant changes back.

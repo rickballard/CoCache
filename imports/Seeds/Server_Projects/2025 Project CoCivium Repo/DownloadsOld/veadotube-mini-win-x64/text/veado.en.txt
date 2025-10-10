@@ -1,0 +1,67 @@
+veado:
+  misc:
+    on: on
+    off: off
+    auto: auto
+    transform: transform
+      position: position
+      rotation: rotation
+      skew: skew
+      scale: scale
+  menu:
+    file: file
+      newscene: new scene
+      openscene: open scene...
+      savescene: save scene
+      savesceneas: save scene as...
+      saveavataras: save avatar as...
+      newavatar: new avatar
+      newavatarmore: new avatar...
+      newwindow: new window...
+      openavatar: open avatar...
+      saveavatar: save avatar
+      closeavatar: close avatar
+      exit: exit
+    edit: edit
+      undo: undo
+      redo: redo
+    view: view
+  window:
+    livesettings: settings
+      language: language
+      websocket: websocket
+        address: websocket address
+        serveon: (serving at <>)
+        serveoff: (not serving)
+    livescene: scene preview
+    livesceneproperties: scene setup
+      display: display settings
+      scene: scene properties
+      fps:
+        mode: frame rate mode
+        vsync: v-sync
+        uncapped: uncapped
+        capped: capped
+        custom: custom frame rate
+      spout: spout server
+      syphon: syphon server
+      hideui: hide interface...
+      size: size
+    liveobjectlist: objects
+      import: select object file...
+    liveobjectproperties: object properties
+      source: source
+      size: size
+      objecttype: <> object
+    livestatelist: states
+      groupnum: state group #<>
+      create: create state group
+      empty: (off)
+      state: state
+      deletegroup: delete state group
+      delete: delete state
+    nodeeditor: node editor
+      create: create node
+      node: node
+      revertsize: revert size
+      delete: delete

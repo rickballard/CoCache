@@ -1,0 +1,7 @@
+Add Glossary_Term_Lookup_v0.3.md: updated Civium glossary with term evolution protocol
+
+- Adds terms: civiright, civilined, anonID, consensus shell, godstuff
+- Replaces aiveto with veto() taxonomy
+- Adds Appendix A: critique of pre-Civium rhetorical pathologies
+- Adds Appendix B: protocol for proposing, evolving, and deprecating terms
+- Reaffirms glossary as semantic infrastructure, not static dictionary

@@ -1,0 +1,291 @@
+nodes:
+  common:
+    any: (any)
+    none: (none)
+  point:
+    x: X value
+    y: Y value
+    z: Z value
+  constant: Constant
+    boolean: Boolean
+      output: boolean value
+      false: false
+      true: true
+    number: Number
+      output: number value
+  convert: Convert
+    combinepoint: Combine Point
+      input.x: X value
+      input.y: Y value
+      input.z: Z value
+      output: combined point
+  input: Input
+    cursor: Cursor
+      output: cursor position
+    gamepad: Gamepad
+      output: gamepad data
+      attinput: gamepad data
+      button: Button
+        output: button activity
+      stick: Stick
+        output: stick position & activity
+      north: North
+      south: South
+      east: East
+      west: West
+      start: Start
+      back: Back
+      guide: Guide
+      leftshoulder: L-Shoulder
+      rightshoulder: R-Shoulder
+      lefttrigger: L-Trigger
+      righttrigger: R-Trigger
+      dpad: D-Pad
+        up: [.] ↑
+        down: [.] ↓
+        left: [.] ←
+        right: [.] →
+      leftstick: L-Stick
+        up: [.] ↑
+        down: [.] ↓
+        left: [.] ←
+        right: [.] →
+      rightstick: R-Stick
+        up: [.] ↑
+        down: [.] ↓
+        left: [.] ←
+        right: [.] →
+    keyboard: Keyboard
+      output: keyboard data & activity
+      attinput: keyboard data
+      key: Key
+        output: key activity
+    midi: MIDI
+      output: MIDI data & activity
+      attinput: MIDI data
+      controller: Controller
+        output: controller value
+      note: Note
+        output: note value & activity
+      allchannels: All Channels
+      channel: Channel <>
+      pitchwheel: Pitch Wheel
+        positive: [.] +
+        negative: [.] -
+        output: pitch wheel value
+    mouse: Mouse
+      output: mouse button data & activity
+      attinput: mouse button data
+      button: Button
+        output: mouse button activity
+      left: Left
+      right: Right
+      middle: Middle
+      side: Side <>
+    microphone: Microphone
+      output: audio data & volume
+    camera: Camera
+      output: video feed
+    kinect: Kinect
+      output: kinect data & video feed (if selected)
+      space: tracking space
+        raw: raw
+        rawpitch: raw + pitch correction
+        color: adjusted to color video
+        depth: adjusted to depth video
+  ws: Websocket
+    name: name
+    id: id
+    boolean: Boolean
+      output: boolean value
+    number: Number
+      output: number value
+    stateevents: State Events
+      output: state events
+  logic: Logic
+    and: And
+      input.input: boolean value
+      output: logic AND between inputs
+    not: Negate
+      input.input: boolean value
+      output: logic NOT of input
+    or: Or
+      input.input: boolean value
+      output: logic OR between inputs
+    branch: Branch
+      input.condition: condition
+      input.false: value if false
+      input.true: value if true
+      output: chosen value
+    compare: Compare
+      input.a: first value
+      input.b: second value
+      output: boolean result
+      equal: equal to
+      notequal: not equal to
+      less: less than
+      lessequal: less than or equal to
+      greater: greater than
+      greaterequal: greater than or equal to
+  math: Math
+    add: Add
+      input.input: summand
+      output: sum of inputs
+    subtract: Subtract
+      input.input0: minuend
+      input.input1: subtrahend
+      output: difference of inputs
+    multiply: Multiply
+      input.input: factor
+      output: product of inputs
+    divide: Divide
+      input.input0: dividend
+      input.input1: divisor
+      output: quotient of inputs
+    remainder: Remainder
+      input.input0: dividend
+      input.input1: divisor
+      output: remainder of inputs
+    modulo: Modulo
+      input.input0: dividend
+      input.input1: divisor
+      output: modulo of inputs
+    negate: Negate
+      input.input: number value
+      output: negated input
+    oneminus: One Minus
+      input.input: number value
+      output: one minus input
+    clamp: Clamp
+      input.input: number value
+      input.min: minimum value
+      input.max: maximum value
+      output: clamped value
+    clamp01: Clamp 0 to 1
+      input.input: number value
+      output: clamped value
+    clamp11: Clamp -1 to 1
+      input.input: number value
+      output: clamped value
+    round: Round
+      input.input: number value
+      output: rounded value
+    floor: Floor
+      input.input: number value
+      output: number value
+    ceil: Ceiling
+      input.input: number value
+      output: number value
+    min: Min
+      input.input: number value
+      output: minimum of inputs
+    max: Max
+      input.input: number value
+      output: maximum of inputs
+    average: Average
+      input.input: number value
+      output: average of inputs
+    abs: Absolute
+      input.input: number value
+      output: absolute of input
+    length: Length
+      input.input: number value
+      output: length of input
+    sqrt: Square Root
+      input.input: number value
+      output: square root of input
+    sin: Sine
+      input.input: number value
+      output: sine of input
+    cos: Cosine
+      input.input: number value
+      output: cosine of input
+    tan: Tangent
+      input.input: number value
+      output: tangent of input
+    sincos: Sine & Cosine
+      input.input: number value
+      output: sine and cosine of input as XY
+    asin: Arcsine
+      input.input: number value
+      output: arcsine of input
+    acos: Arccosine
+      input.input: number value
+      output: arccosine of input
+    atan: Arctangent
+      input.input: number value
+      output: arctangent of input
+    normalize: Normalize
+      input.input: vector value
+      output: normalized vector
+    circletosquare: Circle to Square
+      input.input: vector value
+      output: square-fit result
+    squaretocircle: Square to Circle
+      input.input: vector value
+      output: circle-fit result
+    lerp: Lerp
+      input.a: number value at 0
+      input.b: number value at 1
+      input.t: interpolation value
+      output: interpolated value
+    unlerp: Unlerp
+      input.a: number value at 0
+      input.b: number value at 1
+      input.t: interpolation value
+      output: interpolated value
+  neural: Neural
+    ovrlipsync: Oculus Lipsync
+      input.input: audio data
+      output: Oculus Lipsync data & voice activity
+      attinput: Oculus Lipsync data
+      laughter: Laughter
+        output: laughter score
+      viseme: Viseme
+        output: viseme score
+    silerovad: Silero VAD
+      input.input: audio data
+      output: Silero VAD data & voice activity
+      attinput: Silero VAD data
+      activity: Activity
+        output: activity score
+      silence: Silence
+        output: silence score
+  state: State
+    events:
+      clear: clear
+      set: set
+      push: push
+      pop: pop
+      toggle: toggle
+    storage: State Storage
+      input.input: state events
+      output: current state in storage
+      ifempty: if empty...
+        keep: keep empty
+        add: add default state
+      stacklimit: stack limit
+    signalevents: Signal State Events
+      output: signal events
+      mode: mode
+        press: on press
+        release: on release
+        hold: while pressed
+    booleanevents: Boolean State Events
+      input.input: boolean value
+      output: signal events
+      state: state
+      on: on true
+      off: on false
+  time: Time
+    output: time in seconds since program started
+  volumefilter: Volume Filter
+    input.input: volume input
+    input.volume: volume cutoff (optional)
+    input.delay: delay cutoff (optional)
+    output: output activity
+  signal: Signal
+    output: signal activity
+    assign: assign
+    clear: clear
+    listening: listening...

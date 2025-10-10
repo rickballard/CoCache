@@ -1,0 +1,6 @@
+Subject: careerOS (Part 2) — Personalization Overlay
+1) Confirm Part 1 repo is set up (rainbow sample visible).
+2) Unzip to Downloads.
+3) PowerShell 7:
+   pwsh -File "$HOME/Downloads/careerOS_personalize/populate.ps1" -RepoPath "$HOME/Downloads/careerOS" -Confirm
+4) This replaces samples with your starter files and commits them (pushes if remote exists).

@@ -1,0 +1,3 @@
+Add SESSION_REGENERATION_PROTOCOL.md: defines how AI should restore repo memory
+
+This file formalizes a regeneration protocol for constrained AI systems interacting with the Civium Constitution repo. It defines canonical folders, file trust logic, and fallback behaviors to ensure continuity even when session memory resets. It is part of a long-term workaround strategy to keep Civium's evolution cumulative and internally coherent despite platform limitations.

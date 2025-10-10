@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "mode": "Adult",
+  "minVideoMinutes": 6,
+  "hide": [
+    "shorts",
+    "comments",
+    "home_recommendations",
+    "autoplay"
+  ],
+  "banPatterns": [
+    "DESTROYS",
+    "OWNED",
+    "celebrity",
+    "drama"
+  ],
+  "biasTriage": "multi-angle",
+  "youtubeWhitelistChannelIds": [
+    "UCX6b17PVsYBQ0ip5gyeme-Q",
+    "UC9-y-6csu5WGm29I7JiwpnA"
+  ],
+  "actions": [
+    "subscribe_whitelist",
+    "build_daily_learn_playlist"
+  ]
+}

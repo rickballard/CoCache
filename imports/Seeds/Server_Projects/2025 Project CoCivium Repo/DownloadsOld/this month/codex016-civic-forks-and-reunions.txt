@@ -1,0 +1,3 @@
+Add codex016-civic-forks-and-reunions.md to /codices
+
+Defines how and why communities may fork from the Civium system and the protocols for safe, ethical divergence. Includes pathways for reconciliation, dual recognition, and portable civic identity across forks.

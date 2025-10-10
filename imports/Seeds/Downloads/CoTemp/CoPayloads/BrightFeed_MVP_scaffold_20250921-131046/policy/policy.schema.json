@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BrightFeed Identity Policy",
+  "type": "object",
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "mode": {
+      "type": "string",
+      "enum": [
+        "Adult",
+        "Kid10"
+      ]
+    },
+    "minVideoMinutes": {
+      "type": "number",
+      "minimum": 0
+    },
+    "hide": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "banPatterns": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "biasTriage": {
+      "type": "string"
+    },
+    "youtubeWhitelistChannelIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "actions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "version",
+    "mode",
+    "minVideoMinutes",
+    "hide"
+  ]
+}

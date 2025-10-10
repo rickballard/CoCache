@@ -1,0 +1,3 @@
+🌈 SAMPLE
+
+# Pivot Log (Sample)

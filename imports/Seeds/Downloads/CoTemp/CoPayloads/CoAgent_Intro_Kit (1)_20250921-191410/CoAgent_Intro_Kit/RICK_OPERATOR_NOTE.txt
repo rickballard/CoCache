@@ -1,0 +1,10 @@
+Rick Operator Note
+
+Hi—I'm Rick. I'm new to operating CoAgent.
+If you want me to run something:
+- Please provide step-by-step instructions.
+- Prefer small, reversible tasks.
+- Include `_copayload.meta.json` with your session name (or use filename __FROM_<session>__).
+- Your ZIP must have a root-level `run.ps1` (PowerShell 7).
+
+CoAgent will run it and produce a CoPong summary automatically.

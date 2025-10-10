@@ -1,0 +1,3 @@
+Split structure.md → structure-folders.md
+
+Extracted folder architecture section from structure.md into its own dedicated file to clarify repo layout and usage for contributors.

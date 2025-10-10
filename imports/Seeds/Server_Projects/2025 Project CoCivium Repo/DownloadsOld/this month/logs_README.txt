@@ -1,0 +1,1 @@
+Add README.md to /logs to explain fork and override log functions

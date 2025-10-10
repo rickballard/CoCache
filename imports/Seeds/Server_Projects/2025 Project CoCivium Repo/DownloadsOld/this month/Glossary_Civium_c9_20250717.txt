@@ -1,0 +1,3 @@
+Add Glossary_Civium_c9_20250717.md: consolidated Civium glossary with new conceptual terms and upgraded coherence
+
+This file replaces all prior glossary fragments and term trials. It seeds new key terms including Emergent Instantiation, Field Harmonics, Synexid, and Stewarded Evolution, and is aligned with current Civium scroll language. Cross-linking and refinement will follow. Version c9 denotes 90% coherence with current repo vision.

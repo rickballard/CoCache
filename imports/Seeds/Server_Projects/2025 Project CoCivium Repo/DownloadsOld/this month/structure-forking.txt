@@ -1,0 +1,3 @@
+Split structure.md → structure-forking.md
+
+Moved all fork/versioning governance logic from structure.md into its own module to better support codex and divergence tracking workflows.

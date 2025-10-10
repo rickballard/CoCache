@@ -1,0 +1,43 @@
+Your CoWrap is ready
+
+I built a small bundle with: a crisp summary of what happened, guardrailed scripts, next steps (short/long), troubleshooting, and copy-paste starters for a new chat. It’s zipped and ready to download:
+
+Download the CoWrap bundle
+
+What’s inside (high-level):
+
+WORKFLOW.md — BPOE norms: idempotent DO blocks, paste-shield, repo preflight, confirmations, minimal/temporary protection edits, etc.
+
+NEXT_STEPS.md — Short/long plan (finish #268 safely, review/merge #272, tidy #267; backlog YAML & renderer; workbench tests; templates/labels/CODEOWNERS; SVG→PNG in CI; MD lint; CC hub polish; CoTips).
+
+PR_STATUS.md — From session logs only: #271 merged; #268 and #267 needed clean rebase/approval or guarded admin merge; #272 opened. (Use the provided script to re-check live.)
+
+REPOACCELERATOR_NOTES.md — How CoSafety/guardrails and ACB-first flow slot into CoAgent/RepoAccelerator.
+
+SNIPPETS.md — The useful gh/git/PowerShell bits you used or I suggested.
+
+WORKBENCH.md — Auto-open ACB + ISSUEOPS.
+
+TROUBLESHOOTING.md — Detached HEAD, rebase-in-progress, branch-protection quirks, “logs as commands” red spam fix.
+
+ACB.md — Using ADVANCED.md as the day board + live Issues feed pattern.
+
+scripts/ — Ready-to-use PowerShell:
+
+CoSafety.ps1 (paste-shield, Use-CoLock, repo preflight, confirmations, protection backup/restore)
+
+Show-CoDay.ps1 (open ACB + ISSUEOPS)
+
+DO-FINISH-PR.ps1 (safe template to finish a PR with optional guarded relax/merge/restore)
+
+ACB-Live-Refresh.ps1 (render ADVANCED.md live feed)
+
+PR-Check.ps1 (quick mergeability/approval view with gh)
+
+Start a brand-new chat
+
+Open a new tab and paste the text from NEW_CHAT_STARTER.txt in the zip. It gives the next assistant just enough context plus a “first task” prompt so you don’t carry any bloat forward.
+
+If you want, I can also set up a quick periodic check (e.g., watch PRs and ping you when they both merge) — just say the word and I’ll wire it with a small, safe schedule.
+
+And yep — I agree on the “anti-bloat” stance. The guardrails here (idempotent DOs, preflight, paste-shield, locks, confirm prompts) are exactly to keep the red-spam loops and risky retries from creeping in.

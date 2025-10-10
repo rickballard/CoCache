@@ -1,0 +1,29 @@
+GitHubPost.txt — Public Call for Contributors to GroupBuild
+
+Title: Build Democracy’s Immune System: Join GroupBuild
+
+---
+
+We're building GroupBuild — a decentralized, open-source platform to help communities self-organize in defence of Democracy, dignity, and digital privacy.
+
+Think of it as a secure civic stack for protests, petitions, whistleblower protection, and cooperative governance. Anonymous but accountable. Designed for resilience. Built by and for people who still give a damn.
+
+We need your help if you care about:
+- Building tech that can’t be hijacked by billionaires or regimes
+- Enabling secure protest coordination outside mainstream platforms
+- Designing tools that actually protect user anonymity while enabling trust
+- Resisting mass manipulation and preserving democratic agency
+
+GroupBuild is open-source, non-commercial, and mission-aligned. No VC. No extraction. Just tools that fight for the people who use them.
+
+We're calling developers, designers, and privacy-aware engineers who want to work on something meaningful. Whether you're a civic hacker, system architect, or crypto-anarchist tinkerer—we want you.
+
+🔒 Join pseudonymously. Contribute how you like. All skill levels welcome.
+
+📎 See full technical overview and contribution paths in README.txt.
+
+Questions? Want to lurk first? Email us: rick@groupbuild.org
+
+Together, let’s give the next generation tools to fight back.
+
+---

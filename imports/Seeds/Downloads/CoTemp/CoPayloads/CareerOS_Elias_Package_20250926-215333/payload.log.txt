@@ -1,0 +1,38 @@
+=== PAYLOAD: C:\Users\Chris\Downloads\CareerOS_Elias_Package.zip
+=== START:  2025-09-26T21:53:33.3732562-04:00
+Initialized empty Git repository in C:/Users/Chris/Downloads/CoTemp/CoPayloads/CareerOS_Elias_Package_20250926-215333/.git/
+[main (root-commit) 4c3c39d] CareerOS: initial scaffold
+ 22 files changed, 292 insertions(+)
+ create mode 100644 .github/workflows/quarterly-checkin.yml
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 email_instructions.txt
+ create mode 100644 networking/event-log.md
+ create mode 100644 networking/mentors.md
+ create mode 100644 networking/outreach-templates.md
+ create mode 100644 payload.log.txt
+ create mode 100644 profile/pitch.md
+ create mode 100644 profile/resume.md
+ create mode 100644 projects/ai-integration-demo/README.md
+ create mode 100644 projects/api-enabler-demo/README.md
+ create mode 100644 projects/edge-ai-demo/README.md
+ create mode 100644 reflections/lessons.md
+ create mode 100644 reflections/weekly-journal.md
+ create mode 100644 run.ps1
+ create mode 100644 strategy/job-targets.md
+ create mode 100644 strategy/learning-roadmap.md
+ create mode 100644 strategy/market-map.md
+ create mode 100644 strategy/pivot-log.md
+ create mode 100644 tools/Sync-Profile.ps1
+ create mode 100644 vision/life-vision.md
+https://github.com/rickballard/CareerOS-Elias
+branch 'main' set up to track 'origin/main'.
+Done. Repository pushed.
+
+
+=== STDERR ===
+Switched to a new branch 'main'
+To https://github.com/rickballard/CareerOS-Elias.git
+ * [new branch]      HEAD -> main
+
+=== EXIT:   0

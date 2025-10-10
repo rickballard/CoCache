@@ -1,0 +1,45 @@
+TargetList.txt — Tag and Contact Targets for GroupBuild Dev Recruitment
+
+---
+
+🌐 Fediverse / Mastodon
+- @democracylab@mastodon.social
+- @fosstodon.org (tag #opensource, #privacy, #activism)
+- @privacyguides@fosstodon.org
+- @radicalxchange@social.coop
+
+🧵 Reddit
+- r/privacy
+- r/opensource
+- r/civictech
+- r/anarchism
+- r/foss
+
+🗳️ Democracy + Civic Tech Orgs
+- DemocracyLab (GitHub and website contact)
+- Code for America (GitHub and Slack/Brigade leaders)
+- Open Source Design (opensourcedesign.net)
+- RadicalxChange Foundation (info@radicalxchange.org)
+
+💬 Matrix / Chatrooms
+- #privacy:matrix.org
+- #civictech:matrix.org
+- @privacyguides:matrix.org
+- #fediverse-dev:matrix.org
+
+🔐 Individual Contacts
+- Maintainers at Open Source Design
+- Hosts of “Tech Won’t Save Us” and “RadicalxChange” podcasts
+- Past collaborators from CivicTech Toronto, NYC, or Vancouver
+- Known devs or security folks from IFF, CCA, or TAILS OS contributors (via secure DM)
+
+🔁 Crossposts / Channels
+- Lemmy: c/digitaldemocracy, c/opensource, c/privacy
+- Gitcoin “Public Goods” channel
+- Open Source Collective Discord
+- Twitter/X fallback (only as redirect to Mastodon or GitHub)
+
+---
+
+Please use discretion and adapt tone per community culture.
+Avoid spam. Focus on shared values and invite participation, not just labor.

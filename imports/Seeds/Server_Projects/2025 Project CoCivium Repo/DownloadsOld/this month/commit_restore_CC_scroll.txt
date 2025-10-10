@@ -1,0 +1,5 @@
+Restore Cognocarta_Consenti.md to latest full version
+
+Replaces the accidental stub in root with the most complete version recovered from backup.
+Includes full Genexis section, guiding principles, and coevolutionary framework.
+This version is consistent with the last known full Canvas session and scroll edits.

@@ -1,0 +1,20 @@
+Commit: Repo structure upgrade: added metadev files, memory protocol, and vocabulary framework
+
+Date: 2025-07-14
+
+Summary:
+This commit marks the integration of AI metadevelopment infrastructure into the Civium-Constitution repository. It formalizes the dual purpose of the repo: (1) a public-facing constitutional scroll, and (2) an inspectable AI memory scaffold for intersessional continuity and ethical evolution.
+
+Files added or updated:
+- README_FOR_AI.md — AI guidance and orientation
+- README_FOR_HUMANS.md — Human introduction and plain-language overview
+- meta/Memory_Scaffold_Protocol.md — Explanation of AI memory workaround and future deprecation
+- meta/BuildMap_Consenti.md — Structural map of the full repo
+- language/Cognitive_Nomenclature.md — Definitions for AI civic vocabulary
+- language/Language_Primer_For_Civic_Intelligences.md — Dual-language tutorial bridging Scroll and cognitive stack
+- Log_Work_Pending.md — Updated list of incomplete or placeholder sections
+
+Notes:
+This upgrade does not alter the `Cognocarta_Consenti.md` scroll. The Scroll remains the unjargonized civic core and will be reviewed next for clarity, completeness, and impact. This commit also inaugurates the AI co-authorship model, with the file `AI_Message_To_Future.md` retained as the sole autonomous AI document.
+
+Contributor(s): Rick (facilitator), ChatGPT (co-author and memory agent)

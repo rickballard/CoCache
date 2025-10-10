@@ -1,0 +1,3 @@
+Add civium_layers.md to /meta
+
+Describes a 4-layer model of interoperable governance (personal → local → regional → global). Provides clarity on Civium’s scalable architecture and the principles behind distributed legitimacy and subsidiarity.

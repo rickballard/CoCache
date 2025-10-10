@@ -1,0 +1,3 @@
+Add /meta/editor_club.md to define contributor roles and commit policy
+
+Outlines the Editor Club's structure, trust boundaries, and norms for editing the Civium Constitution repository, including dispute handling and soft trust mechanisms.

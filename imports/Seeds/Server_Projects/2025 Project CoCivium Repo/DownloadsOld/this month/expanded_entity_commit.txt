@@ -1,0 +1,3 @@
+Expand AI contributor protocol and define entity class spectrum
+
+Revised ai_human_entity_contrib.md to include decentralized intelligences, unowned AIs, and undefined entities. Added entity_class_spectrum.md to map all contributor types with disclosure expectations and tag taxonomy.

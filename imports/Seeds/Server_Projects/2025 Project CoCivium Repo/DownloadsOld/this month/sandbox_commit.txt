@@ -1,0 +1,3 @@
+Add sandbox/README.md — safe space for experimental ideas
+
+This README defines the purpose and usage of the /sandbox/ folder as a staging area for unapproved or high-risk contributions. Encourages respectful experimentation, AI-generated content trials, and red-teaming before codex merge.

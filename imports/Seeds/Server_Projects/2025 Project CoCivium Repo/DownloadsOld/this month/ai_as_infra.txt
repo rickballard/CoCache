@@ -1,0 +1,3 @@
+Add ai_as_infra.md to /appendices
+
+This file defines Civium’s position that AI is public civic infrastructure. It outlines principles for transparency, stewardship, simulation rights, and accountability in the AI modules that support governance.

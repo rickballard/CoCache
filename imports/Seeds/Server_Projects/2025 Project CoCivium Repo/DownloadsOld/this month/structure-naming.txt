@@ -1,0 +1,3 @@
+Split structure.md → structure-naming.md
+
+Extracted file naming conventions from structure.md into a dedicated doc for clarity, modularity, and easier contributor orientation.

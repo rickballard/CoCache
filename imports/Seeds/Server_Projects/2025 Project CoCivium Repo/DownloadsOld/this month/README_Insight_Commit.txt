@@ -1,0 +1,3 @@
+Replace all prior README files in the insight folder with a unified README.md
+
+This README combines the evocative, soul-level orientation of README_Insight.md with the structural clarity and contributor guidance from the previous high-level insight folder READMEs. It sets tone, purpose, audience, and process for all insight documents, whether emotional, philosophical, or metaphysical. Designed to invite resonance, support serious inquiry, and clearly guide contributors. Replaces README_Insight.md, /insight/README.md, and any redundant summaries.

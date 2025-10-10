@@ -1,0 +1,3 @@
+Add AI_Prepublication_Scratchpad.md with preview engagement plan
+...
+including HackMD usage, feedback types, and contribution logging.

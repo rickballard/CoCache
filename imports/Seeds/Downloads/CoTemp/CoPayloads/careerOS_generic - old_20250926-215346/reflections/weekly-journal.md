@@ -1,0 +1,3 @@
+🌈 SAMPLE
+
+# Weekly Journal (Sample)

@@ -1,0 +1,12 @@
+restore: Re-sync essential scroll infra and metadata files
+
+Restored files previously created by AI in earlier prepublication sessions:
+- meta/AI_Prepublication_Scratchpad.md
+- meta/Reviewer_Brief_Template.md
+- meta/Preview_Targets.md
+- meta/PREVIEW_OWNERS.md
+- memory/contributors.yaml
+- meta/intersessional_log.md
+- language/scroll.md, civium.md, axiom.md, etc.
+
+Ensures alignment with cumulative authoring work to date.

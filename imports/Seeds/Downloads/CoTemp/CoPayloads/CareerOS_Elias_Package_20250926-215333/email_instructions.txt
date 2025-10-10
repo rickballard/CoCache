@@ -1,0 +1,18 @@
+Subject: Your CareerOS — quick setup
+
+1) Create a new GitHub repo named **CareerOS-Elias** (public for portfolio visibility is fine; you can switch later).
+2) Download the attached ZIP and unzip to your **Downloads** folder.
+3) Open **PowerShell 7**, run:
+   ```powershell
+   pwsh -File "$HOME/Downloads/CareerOS-Elias/run.ps1" -GitHubUser <your-gh-username> -RepoName CareerOS-Elias -RemoteVisibility public
+   ```
+   - Requires `git`. If you have `gh` CLI installed and logged in, the script will auto‑create/push; otherwise create the empty repo first and it will push.
+4) Visit the repo and enable GitHub Actions (if prompted). A **quarterly check‑in** issue will open on schedule.
+5) Start with:
+   - Edit `profile/resume.md` and `profile/pitch.md`.
+   - Choose 1–2 options in `strategy/market-map.md` as primary focus.
+   - Build a tiny demo in `projects/api-enabler-demo` or `projects/ai-integration-demo`.
+6) Keep targets updated in `strategy/job-targets.md` and record learning in `strategy/learning-roadmap.md`.
+7) Iterate monthly; the scheduled prompt will nudge a deeper review every quarter.
+
+The repo is designed to be supportive, focused, and practical.

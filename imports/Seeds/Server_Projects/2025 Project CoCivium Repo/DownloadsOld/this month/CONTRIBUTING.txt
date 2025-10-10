@@ -1,0 +1,3 @@
+Add CONTRIBUTING.md
+
+Outlines how contributors can propose, fork, or evolve logic in the Civium Constitution project. Includes structure overview, design principles, and codex-writing guidance.

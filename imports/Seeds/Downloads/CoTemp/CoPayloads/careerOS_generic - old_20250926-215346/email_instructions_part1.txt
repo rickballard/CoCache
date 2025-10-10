@@ -1,0 +1,8 @@
+Subject: careerOS (Part 1) — Rainbow Sample + Auto‑Bootstrap
+1) Create (or allow script to create) a public GitHub repo named careerOS.
+2) Unzip to Downloads.
+3) PowerShell 7:
+   pwsh -File "$HOME/Downloads/careerOS/tools/run.ps1" -RepoName careerOS -RemoteVisibility public
+4) Visit GitHub, enable Actions if prompted.
+5) Explore rainbow sample content.
+6) When ready, apply Part 2 to overwrite samples with your starter data.

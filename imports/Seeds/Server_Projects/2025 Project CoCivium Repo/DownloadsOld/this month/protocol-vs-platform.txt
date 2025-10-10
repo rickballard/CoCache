@@ -1,0 +1,3 @@
+Add protocol-vs-platform.md to /meta
+
+This document establishes that Civium is a governance protocol, not a platform. It contrasts platform logic with protocol logic and affirms Civium’s commitments to transparency, forkability, and civic legitimacy.

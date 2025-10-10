@@ -1,0 +1,3 @@
+Add ReBirth_Scroll_Human_Ed_c99.md: initial structured repo version of the Human Edition scroll
+
+This file brings the full content from the Substack essay into the repo format. It includes markdown formatting, a consistent header structure, placeholder for the comparison table, and Civium-style footer resonance tagging. Later updates will refine language, harmonize with CC, and tighten coherence throughout.

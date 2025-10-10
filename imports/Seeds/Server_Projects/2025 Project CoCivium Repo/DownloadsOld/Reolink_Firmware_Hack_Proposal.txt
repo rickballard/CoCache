@@ -1,0 +1,88 @@
+
+Technical Proposal – Firmware Enhancements for RTSP/ONVIF-Centric Doorbell Integration (AD410 or Successor)
+
+Overview:
+After extensive testing and partial reverse-engineering of the Reolink AD410 firmware (baseline firmware v3.1.x_230118), we've identified a clear opportunity to open Reolink’s hardware to a substantial and underserved segment of the prosumer surveillance market: local AI, NVR, and automation users leveraging Home Assistant, Frigate, Synology, or Blue Iris.
+
+This proposal outlines firmware-layer enhancements that would require no new hardware and only minor changes to your internal event handling and streaming services—many of which are already implemented but locked behind the app stack or disabled at the config layer.
+
+Firmware-Level Enhancements Proposed:
+
+1. RTSP Substream + Snapshot Endpoint Enablement
+Current State:
+- rtsp://<ip>/h264Preview_01_main is stable but bandwidth-heavy
+- No low-res substream exposed
+- No stable HTTP snapshot endpoint exposed (403 or 404 under tested URIs)
+
+Enhancement:
+- Expose h264Preview_01_sub RTSP endpoint with resolution ~640x360 @ 10fps
+- Expose http://<ip>/cgi-bin/api.cgi?cmd=Snap&channel=0 with digest auth or token
+- Optional: Append motion event metadata to snapshot filename or EXIF
+
+Impact:
+- Enables Frigate to reduce inference load
+- Allows event-accurate snapshots for Home Assistant + Telegram/Discord alerts
+- No added compute cost—just routing existing data
+
+2. ONVIF Profile S/T Compliance + Event Publishing
+Current State:
+ONVIF device discovery returns partial metadata; camera is not visible in Synology or Blue Iris as ONVIF-capable without manual override. Event notifications are either unimplemented or not exposed.
+
+Enhancement:
+- Complete ONVIF Profile S implementation (media, imaging, event service)
+- Optionally enable Profile T for motion and analytics events
+- Broadcast event metadata on detection using ONVIF-compliant XML format
+
+Impact:
+- Synology NAS and Blue Iris full integration
+- Compliance with ONVIF Discovery Tool and HA ONVIF integration
+- Eliminates need for API polling
+
+3. Local AI Event Trigger Output via MQTT or Webhook
+Current State:
+Person/vehicle/package detection works inside the Reolink app stack but is not exposed to LAN clients.
+
+Enhancement:
+- Add optional mqtt:// client mode in settings for local broker push
+- Publish detection events in JSON
+- Alternatively: POST JSON payloads to a user-defined webhook on detection events
+
+Impact:
+- Full Frigate integration using Reolink’s own AI (offloads inference)
+- Real-time HA automations for face/parcel/vehicle presence
+- Opens Reolink to local event-driven smart homes
+
+4. Two-Way Audio Stream Over ONVIF or SIP
+Current State:
+Two-way audio is accessible only via the Reolink app; SIP channel and ONVIF audio media substreams appear unsupported or unadvertised.
+
+Enhancement:
+- Advertise and allow session-based push-to-talk stream via ONVIF media
+- Optional: Enable raw audio port (e.g., RTP) on LAN
+- Fall back to local UDP or websocket stream with event control
+
+Impact:
+- Enables 2-way audio via Home Assistant, Synology, and custom dashboards
+- Makes Reolink doorbells competitive with UniFi G4
+
+Testing Environment Summary:
+- Frigate 0.13.1 on HA Yellow (Docker + Coral TPU)
+- Synology DS220+ Surveillance Station
+- Blue Iris v5.8
+- Reolink AD410, firmware v3.1.x_230118 + controlled traffic sniffing
+- RTSP + HTTP tested under VLAN-isolated camera segment
+
+Strategic Impact:
+By exposing the capabilities you already have—without adding new hardware—you could dominate the open smart home camera market before Amcrest, UniFi, or Axis gets there.
+
+You already own the budget/quality sweet spot. The only missing piece is software support for power users who want local-first, privacy-respecting, automation-ready gear.
+
+We respectfully suggest you either:
+- Release a "Frigate Edition" firmware with these flags exposed
+- Or collaborate with HA/Frigate devs for an open integration SDK
+
+I’m happy to test beta firmware or advise on implementation—this is a ready market with visible demand.
+
+Submitted by:
+[Your Name]
+[Your Email or GitHub]
