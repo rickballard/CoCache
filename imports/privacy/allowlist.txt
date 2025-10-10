@@ -1,2 +1,4 @@
-ROOT=\\Server\homes\RB
-SEGMENT_CONTAINS=project
+ROOT=\\Server\homes\RB;SEGMENT_CONTAINS=project
+ROOT=C:\Users\Chris\Desktop
+ROOT=C:\Users\Chris\Downloads
+ROOT=C:\Users\Chris\Documents\GitHub
