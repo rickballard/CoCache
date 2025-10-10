@@ -1,0 +1,9 @@
+will-rotate:
+  - id: seed-creds
+    location: HP57/locked/seed-creds.7z
+    rotate_by: before-public
+    notes: Temporary seed-only material (zip password Rick2025)
+  - id: seed-ci
+    location: HP57/locked/seed-ci.7z
+    rotate_by: before-public
+    notes: CI bootstrap
