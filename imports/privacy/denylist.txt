@@ -1,0 +1,47 @@
+\Pictures\
+\Photos\
+\DCIM\
+\Camera Roll\
+\OneDrive\Pictures\
+\iCloud Photos\
+\Google Photos\
+\Screenshots\
+\Saved Pictures\
+\Wallpapers\
+\Desktop\
+\Downloads\
+\Music\
+\Videos\
+\Movies\
+\TV\
+\Podcasts\
+\Audiobooks\
+\Books\
+\Games\
+\SteamLibrary\
+\Epic\
+\GOG\
+\Oculus\
+\Adobe\Lightroom\
+\Capture One\
+\Final Cut\
+\Premiere\
+\DaVinci\
+\.jpg$
+\.jpeg$
+\.heic$
+\.png$
+\.gif$
+\.tif$
+\.tiff$
+\.raw$
+\.cr2$
+\.nef$
+\.mp4$
+\.mov$
+\.avi$
+\.mkv$
+\.mp3$
+\.aac$
+\.wav$
+\.flac$

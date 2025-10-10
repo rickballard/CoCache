@@ -1,0 +1,2 @@
+ROOT=\\Server\homes\RB
+SEGMENT_CONTAINS=project
