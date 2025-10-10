@@ -1,20 +1,20 @@
-Files=3171  Size=701.0 MB
+Files=3225  Size=701.4 MB
 
 By root:
-Downloads          files=  1848 size=      97.4 MB
+Downloads          files=  1902 size=      97.7 MB
 Server_Projects    files=  1076 size=     602.7 MB
 Desktop            files=   246 size=       0.9 MB
 _inventory_summary.csv files=     1 size=       0.0 MB
 
 Top extensions:
-.md    files=   873
-.txt   files=   709
+.md    files=   886
+.txt   files=   728
 .png   files=   583
-.ps1   files=   372
+.ps1   files=   388
 .odt   files=   287
-.json  files=   222
+.json  files=   224
 .pdf   files=    83
+.csv   files=    21
 .svg   files=    18
-.csv   files=    17
 .ods   files=     4
 .odp   files=     3

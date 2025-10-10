@@ -5,3 +5,4 @@
 {"when":"2025-10-09T22:46:49","note":"checkpoint after bulk r9"}
 {"when":"2025-10-09T22:48:46","note":"bulk run heartbeat"}
 {"when":"2025-10-09T23:42:12","note":"queue_next batch done (1%)"}
+{"when":"2025-10-10T00:22:52","note":"queue_next pass (1%)"}
