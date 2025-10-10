@@ -4,7 +4,7 @@ on:
 permissions:
   contents: write
 jobs:
-  ping:
+  refresh:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout CoCache
