@@ -1,0 +1,102 @@
+{
+  "notes/ACCESSIBILITY.md": {
+    "bytes": 90,
+    "sha256": "1cdccbd8d1630be60e4bdd8625069944ecc6ce3a721d9345b043f67ba9cc420a"
+  },
+  "payload/CTA-Trio-Snippet.html": {
+    "bytes": 241,
+    "sha256": "0d63fd7f388cae9f31d3b896c7ab329fd7d1e970a92d1895ae9713290a888587"
+  },
+  "summaries/CHANGELOG.md": {
+    "bytes": 65,
+    "sha256": "f676f3bc0cdf9ee19d9bb909b171ba0b1dafbe2998d07d945a937180482b5ea0"
+  },
+  "_spanky/checksums.json": {
+    "bytes": 3569,
+    "sha256": "b504810a33aa1c27d588f34b3c95c5670b875a7754cd93cc1e24b323de57090b"
+  },
+  "payload/site.css.patch": {
+    "bytes": 866,
+    "sha256": "603608e71ca244e2e119b549d032392b574e97f65ca9483749b0db21453e4b85"
+  },
+  "payload/website_snapshot/WEBSITE_SNAPSHOT_TREE.txt": {
+    "bytes": 4385,
+    "sha256": "ea246e4eb4e39e338b889ec076fb43240aad3ebe432c957e4e2304326007d6f0"
+  },
+  "payload/MISSING_PROGRAMMATIC_DIAGRAMS.txt": {
+    "bytes": 81,
+    "sha256": "e503907e9184302c8048af4e816defa6113d35fde1cc69baf489498e9f6a908b"
+  },
+  "payload/website_snapshot/assets/maps/Map_Toronto_NY.png": {
+    "bytes": 3526172,
+    "sha256": "d7964fb9c4f263c1ce9713551586119059c701c980b2dafc7b5ccabe5b380b2b"
+  },
+  "payload/Cloudflare-Checklist.md": {
+    "bytes": 244,
+    "sha256": "9eb8787bb5d4c3e2fd7eddf0eee819334a0f89269aa2b40213b36170b59f71f1"
+  },
+  "payload/InSeed-EmailAuth-DNS.txt": {
+    "bytes": 354,
+    "sha256": "f9b65b1337e26b8268298986c50861bfc6c6f89ef83fb58f5f0ca5af8e20f6b7"
+  },
+  "_spanky/_copayload.meta.json": {
+    "bytes": 148,
+    "sha256": "489835106e969daee0994fd4118c0e5220871d775be32dffc2f0939e920e3e3d"
+  },
+  "payload/website_snapshot/assets/diagrams/services-flow.svg": {
+    "bytes": 1529,
+    "sha256": "0a2693164548cb4e3130bf3d24821263c4acde70cd59213cec274d1a233424f7"
+  },
+  "payload/website_snapshot/GIT_LOG_RECENT.txt": {
+    "bytes": 8626,
+    "sha256": "42c0571610420928ea17d9b017f3ce3842b924292bcc0ccc5aee8572eb343e19"
+  },
+  "_spanky/out.txt": {
+    "bytes": 197,
+    "sha256": "8e2c14431bc844a87b2f9f574cfa8bd17936c41c3d0482e7f1060172646884aa"
+  },
+  "payload/website_snapshot/assets/diagrams/Legacy-CEO-vs-CEOS.svg": {
+    "bytes": 413163,
+    "sha256": "26fe5525ddc275544b1f668de300aa541e4d59046b771118d648a548dadec1fa"
+  },
+  "notes/RELEASE_CHECKLIST.md": {
+    "bytes": 280,
+    "sha256": "19fadca0e82642337bdb34a492081b11f0a7db5cd6523bca1ce8f9173d820970"
+  },
+  "_spanky/_wrap.manifest.json": {
+    "bytes": 233,
+    "sha256": "089e8904eaff8f69c774bde663fe2ae0e0444dfd1c19f09ac043d08a10227e71"
+  },
+  "payload/website_snapshot/assets/diagrams/og-inseed-v4.png": {
+    "bytes": 67,
+    "sha256": "167c12a5391784d5a2f7192ef98c32fb054a529f6ef48b6ed2f5b2c2eb1eb619"
+  },
+  "payload/website_snapshot/assets/site.js": {
+    "bytes": 19378,
+    "sha256": "f793cedef4a636661ce057b6476d2dccf89fd6f33f9c64d26124bda0d23389ef"
+  },
+  "payload/website_snapshot/assets/diagrams/dog-racehorse-hero.svg": {
+    "bytes": 1099,
+    "sha256": "da50e60a513e08c0e3c02eb1351fb26beca73d80f2fd8eb83534c404ca73ef22"
+  },
+  "transcripts/session.md": {
+    "bytes": 794,
+    "sha256": "1192895073a0b7bd40794d38875478ac6159d11421083ca88f3894ba1eb5c270"
+  },
+  "payload/website_snapshot/assets/site.css": {
+    "bytes": 27526,
+    "sha256": "0e4f3feaa599233b0cb1e1b0af0936773a8b45b6d6266a466242574b6cae1546"
+  },
+  "payload/Header-Logo-DualMode-Snippet.html": {
+    "bytes": 186,
+    "sha256": "a28adbf60973652991abc62e564e323355e9aabce0e0a6b2ec49ed428053a8b4"
+  },
+  "notes/OPEN_ITEMS.md": {
+    "bytes": 179,
+    "sha256": "f3373b3c15e4057fb75a7a4f1e3a240c2d751447db3d9e5e7dc2ff3b928d8715"
+  },
+  "payload/website_snapshot/assets/diagrams/og-inseed-v4.svg": {
+    "bytes": 645,
+    "sha256": "0c44a2f037de9e2f84703d7f259bf4c625bf86f6a81a44aeaa671dfa5fe82034"
+  }
+}

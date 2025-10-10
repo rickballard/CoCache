@@ -1,0 +1,9 @@
+{
+  "description": "Informal documentation of MeritRank config; not a full JSON Schema.",
+  "required": [
+    "version",
+    "weights",
+    "transforms"
+  ],
+  "notes": "weights.override.json can override 'weights' only."
+}

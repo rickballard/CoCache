@@ -1,0 +1,63 @@
+# CoCivium: Housekeeping Run Prompt (v1)
+
+Use this prompt in a **separate chat/window** with the assistant to bring it fully up to date on the 4 repos and to produce a clean plan. Paste everything below the line into that window, fill the blanks, and follow the checklist.
+--------------------------------------------------------------------------------
+
+You are GPT. Run a **Housekeeping Up-to-Date pass** for the following repos and produce a single consolidated plan.
+
+## Repos (fill in URLs and access notes)
+1) CoCivium — URL: https://github.com/rickballard/CoCivium  — Public
+2) CoCache  — URL: https://github.com/rickballard/CoCache    — Private (sidecar)
+3) GIBindex — URL: https://github.com/rickballard/GIBindex   — Public (expected)
+4) Civium   — URL: https://github.com/rickballard/Civium     — Private (legacy)
+
+## What you should produce
+- A. **Sync Report**
+  - For each repo: latest `main` SHA (as provided), list of missing/misaligned files, and a short rationale.
+  - A table of diffs: Added / Modified / Deleted files since last sync (based on manifests provided).
+- B. **Workqueue (Next 1–2 weeks)**
+  - Prioritized list with 3 bands: Must, Should, Could. Each item has: file(s), outcome, est. effort.
+- C. **Risks & Blocks**
+  - Anything that needs Rick’s attention (e.g., license alignment, branch rules, missing assets).
+- D. **Ready-to-paste Git Bash blocks**
+  - Concrete, copy-safe commands for Rick to apply changes.
+- E. **Optional PR texts**
+  - If batches are large, prepare PR titles+descriptions per repo.
+
+## What I will provide you (paste/attach)
+For each repo:
+- (Option 1) **ZIP** of the repo tree (no `.git/`) — preferred when there are many changes.
+- (Option 2) **Diff manifest** since last sync: output of `git diff --name-status <LAST_SYNC_SHA>..HEAD`.
+- (Option 3) **Target file(s)** pasted inline if scope is small.
+
+I will also give you the **last sync manifest** if we have one in CoCache at `AI_Snapshot/<repo>/snapshot_manifest.json`. If not present, assume a full refresh.
+
+## How to run the analysis
+1) Acknowledge inputs and list what you received vs missing.
+2) If ZIPs are provided, **diff file-by-file** against prior manifest (if provided) or treat as new baseline.
+3) If only `--name-status` diffs are provided, request any missing files you need to reason about the change.
+4) Produce: A–E above in compact form, then ask if I want a download bundle of all updated docs/commands.
+5) If I say “bundle,” generate the bundle and provide download links.
+
+## Guardrails and preferences
+- Be explicit when you lack a file. Don’t guess. Request the exact path you need.
+- Keep commands **Windows Git Bash safe** (no fancy shell features).
+- Do not spam — keep the initial report to ≤ 200 lines, then offer drill-downs per repo on request.
+- Use **dated filenames** for new insights/docs (e.g., `_c3_YYYYMMDD.md`).
+
+## Current stage (context)
+- CoCivium is public, human-facing; use CC BY-SA 4.0.
+- CoCache is private sidecar (continuity, manifests, logs, workqueues).
+- GIBindex will become the versioned lexicon; start minimal scaffolding.
+- Civium is legacy; only mine it for material to port into CoCivium.
+
+## Inputs I will now provide (fill before sending)
+- CoCivium main SHA: ________
+- CoCache main SHA:  ________
+- GIBindex main SHA: ________
+- Civium main SHA:   ________
+
+- ZIPs and/or diffs attached: [list which for each repo]
+
+When ready, begin the Housekeeping pass.
+--------------------------------------------------------------------------------

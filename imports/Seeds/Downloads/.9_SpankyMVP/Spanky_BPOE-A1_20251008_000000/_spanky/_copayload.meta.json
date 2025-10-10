@@ -1,0 +1,45 @@
+{
+  "spec": "SpankyPack/1.0",
+  "name": "Spanky_BPOE-A1_20251008_000000",
+  "shortName": "BPOE-A1",
+  "generatedAt": "2025-10-08T03:49:14",
+  "timezone": "Eastern Standard Time",
+  "counts": {
+    "summaries": 3,
+    "items": 34,
+    "transcripts": 1,
+    "notes": 9,
+    "payload": 14
+  },
+  "required": {
+    "summaries": {
+      "TLDR.md": true,
+      "SOURCES.md": true,
+      "ROADMAP_NOTES.md": true
+    },
+    "payload": true,
+    "spankyMeta": true,
+    "transcripts": true,
+    "notes": {
+      "DECISIONS.md": false,
+      "DEPRECATED.md": false,
+      "DEPENDENCIES.md": false,
+      "ASSUMPTIONS.md": false,
+      "WEBSITE_MANIFEST.md": false,
+      "INTENTIONS.md": false,
+      "RISKS.md": false,
+      "BPOE.md": false,
+      "GLOSSARY.md": false
+    }
+  },
+  "missingMarkers": [
+    "MISSING_Advicebombs.txt",
+    "MISSING_Attachments.txt",
+    "MISSING_CoWraps.txt"
+  ],
+  "hashAlgorithm": "SHA-256",
+  "cdnDependencies": [
+    "mermaid@10 (viewer HTML)"
+  ],
+  "notes": "Zip-first BPOE; programmatic diagrams; idempotent installers; manifest+checksums required."
+}

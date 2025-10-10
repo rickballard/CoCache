@@ -1,0 +1,7 @@
+﻿CoWrap manifest — 2025-09-05 18:53:09 -04:00
+Repo: C:\Users\Chris\Documents\GitHub\CoModules
+Payload:
+ - tools/BPOE/CoHumanGate.psm1
+ - docs/methods/BPOE_HumanGate.md
+ - docs/methods/CoAgent_Product_Advisories.md
+ - tests/BPOE.HumanGate.Tests.ps1

@@ -1,0 +1,12 @@
+SPF:
+  inseed.com TXT => v=spf1 include:_spf.google.com ~all
+
+DKIM:
+  google._domainkey.inseed.com TXT => (Google DKIM public key)  ; selector = google
+
+DMARC:
+  _dmarc.inseed.com TXT => v=DMARC1; p=none; rua=mailto:dmarc@inseed.com; fo=1; aspf=s; adkim=s
+
+Action:
+  - Ensure dmarc@inseed.com exists (alias or Google Group) and forwards to your inbox.
+  - In Gmail, create label "DMARC", filter: query: has:report → apply label.

@@ -1,0 +1,1 @@
+# PowerShell script to auto-generate CoRef index files

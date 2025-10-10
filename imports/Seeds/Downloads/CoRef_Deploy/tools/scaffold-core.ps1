@@ -1,0 +1,1 @@
+# PowerShell script to scaffold a CoRef-compatible repo

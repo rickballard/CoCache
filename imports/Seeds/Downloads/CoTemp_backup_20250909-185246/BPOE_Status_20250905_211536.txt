@@ -1,0 +1,1 @@
+﻿BPOE → SET: IdleDots v2 (1s with : every 10th) + PSReadLine hook + CoWatchDownloads ON | HG=On; ExitHook=MISS; OE=None; Mods=16; Jobs=1; Events=0

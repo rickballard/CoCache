@@ -1,0 +1,7 @@
+{
+  "spanky_version": "2.2",
+  "short_name": "h -replace 'src=\"/assets/site\\.js(\\?[^\"]*)?\"',  \"src=\"\"/assets/site.js?v=$build\"\"\"",
+  "created_at": "20251008_041714",
+  "author": "CoWrap",
+  "schema": "Spanky/2.2"
+}

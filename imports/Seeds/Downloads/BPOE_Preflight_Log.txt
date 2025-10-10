@@ -1,0 +1,12 @@
+
+## BPOE Preflight (minimal) — 2025-09-05 18:00:40 -04:00
+- Exit hook: MISSING
+- OEStatusTimer: none
+- Crash sentinel file: False
+- Profile AST: ERROR
+
+## BPOE Preflight (minimal) — 2025-09-05 18:10:12 -04:00
+- Exit hook: MISSING
+- OEStatusTimer: none
+- Crash sentinel file: False
+- Profile AST: ERROR

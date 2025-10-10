@@ -1,0 +1,80 @@
+* 64abdc5 (HEAD -> main, origin/main, origin/HEAD) DO: automated pack ΓÇö css/html sweep + CTA + sitemap; cache-bust (20251006184831)
+* 7960212 home: centered CTA trio (+solutions); match sizing; cache-bust (20251006184831)
+* 97ef0de ux: kill fixed Billing chip; bigger logo; larger strap; CSP allow inline; cache-bust (20251006182816)
+* a3d32a3 cache-bust assets (20251006174238)
+* e1bff73 cleanup: hide deprecated/docs (noindex), fix whitepaper links, redirect /whitepaper ΓåÆ exec summary, remove lingering Week-0 corner link, refresh sitemap & cache (20251005205507)
+* 9c98625 cleanup: remove old strap/announce; bigger dual-mode logo; drop Engagement from nav except /engagement; remove floating CTA; fix whitepaper links; cache-bust (20251005202343)
+* 94dcb2f fix: footer centering/opacity; cache-bust (20251005195537)
+* b98678a revert to non-minified assets
+* cf56115 perf: regenerate minified assets; refresh querystrings (20251005195056)
+* 6df00d3 perf: self-minify CSS/JS and switch to .min assets; cache-bust (20251005193223)
+* 3af441c ux: 3x logo + light/dark swap; unify strap to 'TxO Steward ┬╖ Week-0 CoAudit ┬╖ Evidence cadence ┬╖ Portable artifacts'; remove deprecated strap; cache-bust (20251005191332)
+* 6160dc1 home: refresh strap + hero; cache-bust (20251005175642)
+* fc43512 seo: OG/Twitter/canonical; robots+sitemap; footer links; 404; cache-bust (20251005170530)
+* c627419 resources: add Discount policy & grants; link from Engagement; cache-bust (20251005120158)
+* cbe5845 ux: fix CTA contrast (brand button), adaptive email reveal pill for dark/light; cache-bust (20251005103442)
+* 3ae500a feedback: add budget/timing qualifiers + rates ack + honeypot; billing: robots noarchive; replace visible contact email with reveal placeholder; cache-bust (20251005093723)
+* ceaf2a7 feedback: typeable selects, 7=typical hints, stronger UserID, spam-safe email reveal; CTA contrast; footer ┬⌐ year + centering; TOW-AI->TxO Steward; email sweep; cache-bust (20251005093003)
+* a68721a billing: publish transparent rates page + PDF hook; engagement: add rates accordion; contact: optional static map; cache-bust (20251005092253)
+* 77f1023 contact: swap to static corridor map; billing page + PDF hook; engagement: add rates accordion; styles; cache-bust (20251005090340)
+* 6c288af copy: add/update Legacy-CEO grace note in whitepaper + exec summary; cache-bust (20251005081926)
+* 0319c56 copy: revise Legacy-CEO grace note to requested wording; cache-bust (20251005081126)
+* c0b7982 ux: hide 'On this page' label (accessible-only Contents); scoreboard WAU/MAU tooltips + verbose prose; wrap all H2 sections with brief/long; cache-bust (20251005080644)
+* 371ce4e ux: per-section Verbose toggles (briefΓåölong); hide global Plain-English; print shows long; seed long prose; cache-bust (20251005074318)
+* 48a9848 whitepaper: lede -> 'The Legacy CEO role is being automated.'; CSS: indent cleanup; cache-bust (20251005072952)
+* f10090f ux: Plain-English mode toggle; richer CEO glossary (+tooltips); sitewide sweep; print expansion; cache-bust (20251005072607)
+* 3e43c29 print: margins + break safety; cache-bust (20251005072002)
+* d28e72a resources: add vertical stubs (telecom/healthcare/finance/industrial/public); cache-bust (20251005071933)
+* 26985b3 ux: tooltip cursor -> pointer; cache-bust (20251005071347)
+* 67679c6 hotfix: apply CEO/L & Steward and TxO Steward terminology (corrected regex count); cache-bust (20251005071332)
+* acfbfc6 whitepaper: custom tooltips (no title overlay); terminology sweep (TxO Steward, CEO/L & Steward); de-indented layout; major prose expansion (functions, verticals, cadence, economics, data/safety, TxO); cache-bust (20251005070943)
+* a3493dc copy: add Legacy-CEO grace note + meta descriptions; cache-bust (20251005070208)
+* 0853010 exec-summary: add inline executive tooltips
+* c36626c whitepaper: add Print button
+* 6affda6 print: hide chrome, show link URLs; cache-bust (20251005061628)
+* fc2cd2d release: whitepaper expanded + diagrams; site UX polish; metadata; 404 & sitemap; audits; cache-bust
+* be10f54 ux: add section reactions + sticky feedback (print-smart); feedback prefill; cache-bust (20251005055103)
+* c560b55 whitepaper: add professional tooltips via <abbr>; print-smart expansion; cache-bust (20251005054338)
+* d7cfe8d whitepaper: clarify History in plain English; switch to solution-sourcing language; add plain-English glossary; cache-bust (20251005053300)
+* dd50427 docs: add release review dashboard
+* 6ef3a00 copy: shift language to solution sourcing sitewide (resources); cache-bust (20251005052317)
+* 8303509 exec-summary: align wording to solution sourcing; add slim hero; cache-bust (20251005052310)
+* 06044b5 whitepaper: set PNG hero (hierarchy vs network), add decision-making explainer, shift to 'solution sourcing', cache-bust (20251005051229)
+* 32c7c36 release-prep: expand whitepaper, add hero, css/js patches, audit report, cache-bust (20251005045245)
+* 411b4ff brand: add icon set via brand-kit zip; wire logo+favicons; cache-bust (20251005045245)
+* dad1a41 docs: clarify BPOE = Best-Practice Operating Environment
+* c1311ea brand: wire logo into topnav; add favicons/apple-touch; brand CSS; cache-bust (20251005042435)
+* d3f7e7f whitepaper: dedupe bio & assemble figure; enforce HistoryΓåÆAssemble order; author=Rick Ballard; cache-bust (20251005042425)
+* f4a76e7 whitepaper: restructure flow (shockΓåÆcontrastΓåÆhistoryΓåÆrisksΓåÆchecklistsΓåÆCTAΓåÆsingle bio), add Legacy-vs-Steward hero; normalize author; cache-bust (20251003215806)
+* be20955 a11y: visible focus for buttons
+* 6082e1d nav: add Engagement link to topnav sitewide
+* d827565 home: simplify CTA to Engagement; cache-bust (20251003214139)
+* a30b54a site: add Exec Summary (non-download), Engagement page+contract, darker CTA, footer rev+shared feedback, hero placeholders, landing cleanup, whitepaper print button, cache-bust (20251003212303)
+* f2f53c6 insights/survivor-guide: sharpen structure (pre-SI vs big consulting; Steward path w/ ticked checklists; risks), move history lower; author=Rick Ballard; add ticks styles; cache-bust
+* 284b5a8 chore: remove committed backup and ignore future backups
+* 6618290 style(bluepop): ensure palette+shadow injected for diagram-tos-ai.svg
+* 4b8befd style(bluepop): ensure palette+shadow injected for diagram-steward-loop.svg
+* b3cae1e style(bluepop): ensure palette+shadow injected for diagram-scoreboard.svg
+* 66e8095 style(bluepop): ensure palette+shadow injected for diagram-runway.svg
+* a69dfd1 style(bluepop): ensure palette+shadow injected for diagram-placeholder.svg
+* 0862e84 style(bluepop): ensure palette+shadow injected for diagram-make-vs-buy.svg
+* 062381f style(bluepop): ensure palette+shadow injected for diagram-coflow.svg
+* 15deb2b style(bluepop): ensure palette+shadow injected for diagram-about-timeline.svg
+* 45879e1 cache: bust assets sitewide (20251003202813)
+* 5a3cd37 about: consolidate to single narrative + single timeline figure; cache-bust
+* 5d1bced about: insert story-v1 fragment; remove old history/origins; cache-bust
+* 53a4cd2 style(bluepop): ensure palette+shadow injected for diagram-about-timeline.svg
+* 06d2c92 docs(bpoe): add Blue-Pop SVG, Diagram Workflow, Page Surgery, Cache Busting
+* f12ffab about(timeline): add blue-pop shadow + stroke tweak
+* 763151b about: update timeline with dated phases (1990ΓÇôpresent) + alt/caption; cache-bust
+* f1d5479 about: add Origins & intent (CoCivium + values); resources: add CoCivium page
+* fd37de3 insights: consolidate SurvivorΓÇÖs Guide (assemble vs buy, boutique vs big consult, Steward path, CoMirror) + diagrams
+* 727c283 about: add History & perspective section + blue-pop timeline; cache-bust; strapline audit
+* 0355850 insights: add Vendor Lock-in in the AI Era section + scoreboard figure
+* cf70aa6 style(diagrams): blue-pop palette + shadow inside diagram-scoreboard.svg; fix whitepaper cache-bust
+* d127869 content: add 30ΓÇô60ΓÇô90 Scoreboard diagram; keep strapline to top-level pages; cache-bust
+* dcc09a6 lang: dropdown shows [current] + [Gibberlink] on top; default dark + attention halo; two-line items; cache-bust
+* d4d0463 ui: add standard strapline under nav on top-level pages + styles; cache-bust
+* d9ee340 services/coflow: insert cadence diagram (H1 or <main> fallback); cache-bust
+* f9fa395 content: inject runway+coflow diagrams; css: responsive figures; a11y: language dropdown keyboard/aria; cache-bust
+* f174e38 assets: contextual SVG diagrams (runway, coflow, TOS-AI) + page wiring

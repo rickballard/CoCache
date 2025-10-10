@@ -1,0 +1,8 @@
+﻿Hello from DO in CoTemp - 2025-09-08T20:08:16.8457429-04:00
+
+Major  Minor  Build  Revision
+-----  -----  -----  --------
+5      1      26100  5770    
+
+
+

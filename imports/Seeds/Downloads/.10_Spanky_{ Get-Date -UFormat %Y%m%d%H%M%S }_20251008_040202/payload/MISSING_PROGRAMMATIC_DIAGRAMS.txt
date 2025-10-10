@@ -1,0 +1,1 @@
+If Mermaid/Graphviz or other generated diagrams existed outside /assets, capture source + renders here on next pass.

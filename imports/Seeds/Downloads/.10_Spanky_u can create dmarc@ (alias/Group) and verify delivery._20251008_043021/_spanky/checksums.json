@@ -1,0 +1,154 @@
+{
+  "_spanky/checksums.json": {
+    "sha256": "3940ce880831045ca29a1ebc04a9cb98e87ecddcf10b40c6f8a496fbec55e7dd",
+    "bytes": 3918
+  },
+  "payload/site.css.patch": {
+    "sha256": "8b0aa5e3e6608298fdf69d52295d1996a3655f36ae486f107f216fa3fe9f15c4",
+    "bytes": 1198
+  },
+  "payload/website_snapshot/assets/site.js": {
+    "sha256": "f793cedef4a636661ce057b6476d2dccf89fd6f33f9c64d26124bda0d23389ef",
+    "bytes": 19378
+  },
+  "payload/website_snapshot/assets/site.css": {
+    "sha256": "0e4f3feaa599233b0cb1e1b0af0936773a8b45b6d6266a466242574b6cae1546",
+    "bytes": 27526
+  },
+  "payload/Cloudflare-Checklist.md": {
+    "sha256": "3ad137f4cf447cec019562e5348bc799fe063193ab2a0c70c6dd00263da7984e",
+    "bytes": 385
+  },
+  "summaries/TLDR.md": {
+    "sha256": "248d658d519d7c8a287b0b40f8fd796eba4a9ecc65b7ee8ac02339e8f73f6970",
+    "bytes": 104
+  },
+  "notes/DEPRECATED.md": {
+    "sha256": "35f59cef0b1f9414f70440a4aaa5e20a9f2c312fc38ee9d346bfdad94d2e73cf",
+    "bytes": 94
+  },
+  "notes/GLOSSARY.md": {
+    "sha256": "7214ef471f7d991474655fa7576f038e901883c234624a765f1441bc6c91c6cd",
+    "bytes": 99
+  },
+  "payload/website_snapshot/assets/diagrams/dog-racehorse-hero.svg": {
+    "sha256": "da50e60a513e08c0e3c02eb1351fb26beca73d80f2fd8eb83534c404ca73ef22",
+    "bytes": 1099
+  },
+  "_spanky/_wrap.manifest.json": {
+    "sha256": "133bb710e528da0412ce342655cac6d24a82beb9bc563198b9d99a6dcb83bb60",
+    "bytes": 304
+  },
+  "payload/MISSING_PROGRAMMATIC_DIAGRAMS.txt": {
+    "sha256": "14260d7d861fbc3c7f3e1169f06ecef0a85f9770ac6317c8667ba415d68576d7",
+    "bytes": 117
+  },
+  "summaries/CHANGELOG.md": {
+    "sha256": "7e15e1b3863f7e0da96459567c3b673887b8c22ebb7af9e7fb7a024337808bca",
+    "bytes": 104
+  },
+  "notes/OPEN_ITEMS.md": {
+    "sha256": "d821a0130e0cb1f74e8488ed21584a082727125c947c8d0c82bc7bf44e80a66b",
+    "bytes": 223
+  },
+  "payload/InSeed-EmailAuth-DNS.txt": {
+    "sha256": "269b5438921a08c9c2f6e5ccaa8ffc713640395a4ab7bfcc64bc242593b94e9a",
+    "bytes": 430
+  },
+  "transcripts/console_log.md": {
+    "sha256": "cd412970aa01369faab80d97f2a3a9104535af5addd4dda5e9c52359ad0b039c",
+    "bytes": 207
+  },
+  "notes/DEPENDENCIES.md": {
+    "sha256": "0ef89da0c34c5e6db16980e994ee073f2bae47b1f8a2aa8b00063d1c084e0912",
+    "bytes": 91
+  },
+  "payload/website_snapshot/assets/diagrams/og-inseed-v4.png": {
+    "sha256": "167c12a5391784d5a2f7192ef98c32fb054a529f6ef48b6ed2f5b2c2eb1eb619",
+    "bytes": 67
+  },
+  "notes/INTENTIONS.md": {
+    "sha256": "46c3e9cf4890f38c4d92cae86cddb705a101ae6fdb60e922f426eaf2d74d4a14",
+    "bytes": 502
+  },
+  "summaries/SOURCES.md": {
+    "sha256": "d273da8d1db80f324c847281580170b2a56bfe8335568ae015a2a96edb2da292",
+    "bytes": 100
+  },
+  "payload/InSeed-SiteSweep.ps1": {
+    "sha256": "15fcbddee15e81cfc356242f5e88248625b9d079623116a2bd7488fe6facc1ac",
+    "bytes": 3827
+  },
+  "notes/RELEASE_CHECKLIST.md": {
+    "sha256": "4125beeedb993a2bdf3e5958885e6e300ba6b071129876ea0ca0f5a5675cba52",
+    "bytes": 432
+  },
+  "payload/website_snapshot/assets/diagrams/Legacy-CEO-vs-CEOS.svg": {
+    "sha256": "26fe5525ddc275544b1f668de300aa541e4d59046b771118d648a548dadec1fa",
+    "bytes": 413163
+  },
+  "payload/website_snapshot/assets/maps/Map_Toronto_NY.png": {
+    "sha256": "d7964fb9c4f263c1ce9713551586119059c701c980b2dafc7b5ccabe5b380b2b",
+    "bytes": 3526172
+  },
+  "payload/website_snapshot/GIT_LOG_RECENT.txt": {
+    "sha256": "42c0571610420928ea17d9b017f3ce3842b924292bcc0ccc5aee8572eb343e19",
+    "bytes": 8626
+  },
+  "_spanky/_copayload.meta.json": {
+    "sha256": "19a28b6e6b99b2ca1d169fc82bee7265ebdf470a534e5e19bce7648e6d8ddccd",
+    "bytes": 192
+  },
+  "payload/website_snapshot/WEBSITE_SNAPSHOT_TREE.txt": {
+    "sha256": "ea246e4eb4e39e338b889ec076fb43240aad3ebe432c957e4e2304326007d6f0",
+    "bytes": 4385
+  },
+  "notes/WEBSITE_MANIFEST.md": {
+    "sha256": "84999d154c0f56e9e36a815ec37fdab6ecc80d145b93938469a34d72efca818f",
+    "bytes": 276
+  },
+  "notes/BPOE.md": {
+    "sha256": "e05a076f4720923f2df08e2c759a2c22ff74e65a3210d8757921502716549e9a",
+    "bytes": 163
+  },
+  "payload/Header-Logo-DualMode-Snippet.html": {
+    "sha256": "a28adbf60973652991abc62e564e323355e9aabce0e0a6b2ec49ed428053a8b4",
+    "bytes": 186
+  },
+  "_spanky/out.txt": {
+    "sha256": "471f66243f9612ca1110960abddc1dd5cb2d6561df5c5174f7e3d78d948b5c67",
+    "bytes": 244
+  },
+  "summaries/ROADMAP_NOTES.md": {
+    "sha256": "a2fa33bc1276ee6a4ae36da2e17f15a3741ffe3e94daf3b9a6d8b0c2f96fb654",
+    "bytes": 200
+  },
+  "transcripts/session.md": {
+    "sha256": "0c9d84dd3d3a1feffc09e7ac4fcdd355fb335d65bec47b99f459a020c8d0af06",
+    "bytes": 1243
+  },
+  "notes/ASSUMPTIONS.md": {
+    "sha256": "31a7fb3deec67873726ff3fbc547808246bb94b46f3947b5112fc2e6e890e405",
+    "bytes": 177
+  },
+  "payload/CTA-Trio-Snippet.html": {
+    "sha256": "0d63fd7f388cae9f31d3b896c7ab329fd7d1e970a92d1895ae9713290a888587",
+    "bytes": 241
+  },
+  "payload/website_snapshot/assets/diagrams/og-inseed-v4.svg": {
+    "sha256": "0c44a2f037de9e2f84703d7f259bf4c625bf86f6a81a44aeaa671dfa5fe82034",
+    "bytes": 645
+  },
+  "notes/DECISIONS.md": {
+    "sha256": "3fc63243ae93baacd71f72ef5540d7eafa34674983eb8d18415376245db9dfbd",
+    "bytes": 108
+  },
+  "notes/ACCESSIBILITY.md": {
+    "sha256": "f8c7111b98d3ac489a3c98e68a289297e1e6709b3473793d743900ea48086628",
+    "bytes": 273
+  },
+  "payload/website_snapshot/assets/diagrams/services-flow.svg": {
+    "sha256": "0a2693164548cb4e3130bf3d24821263c4acde70cd59213cec274d1a233424f7",
+    "bytes": 1529
+  }
+}

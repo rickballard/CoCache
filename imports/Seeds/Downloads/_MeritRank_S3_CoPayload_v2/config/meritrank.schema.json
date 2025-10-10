@@ -1,0 +1,8 @@
+{
+  "description": "Informal documentation of MeritRank config; not a full JSON Schema.",
+  "required": [
+    "version",
+    "weights",
+    "transforms"
+  ]
+}

@@ -1,0 +1,10 @@
+﻿System.Collections.Hashtable.PSVersion : The term 'System.Collections.Hashtable.PSVersion' is not recognized as the name of a cmdlet, 
+function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct 
+and try again.
+At C:\Users\Chris\Downloads\CoTemp\sessions\co-migrate\inbox\DO_DO-Smoke_130008.ps1:11 char:1
++ System.Collections.Hashtable.PSVersion
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (System.Collections.Hashtable.PSVersion:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+

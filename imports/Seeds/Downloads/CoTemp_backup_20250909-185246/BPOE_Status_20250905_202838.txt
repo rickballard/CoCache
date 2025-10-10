@@ -1,0 +1,1 @@
+﻿BPOE → SET: Persisted prompt indicator + added DoPulse helper | HG=On; ExitHook=MISS; OE=None; Mods=14; Jobs=5; Events=0

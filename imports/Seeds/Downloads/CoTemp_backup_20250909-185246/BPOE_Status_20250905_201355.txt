@@ -1,0 +1,1 @@
+﻿BPOE → HG=On; ExitHook=MISS; OE=None; Mods=12; Jobs=5; Events=0

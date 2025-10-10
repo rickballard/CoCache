@@ -1,0 +1,10 @@
+## docs/bdbp-coagent-250905-1400...origin/docs/bdbp-coagent-250905-1400
+ M docs/methods/BPOE_LOG.md
+M  docs/methods/BPOE_Preflight.md
+ M scripts/pr-admin-merge.ps1
+ M scripts/pr-solo-merge.ps1
+A  tests/BPOE.Preflight.Tests.ps1
+A  tests/BPOE.ProfileEdit.Tests.ps1
+M  tools/Test-BPOE.ps1
+?? .hooks/
+?? testResults.xml

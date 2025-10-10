@@ -1,0 +1,3 @@
+Dear Committee,
+
+Please find enclosed the CoRef proposal for standardization...

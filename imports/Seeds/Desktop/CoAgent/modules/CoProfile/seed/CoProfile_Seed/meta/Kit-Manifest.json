@@ -1,0 +1,19 @@
+{
+  "name": "CoProfile Seed",
+  "version": "0.1.0",
+  "generated_at": "2025-09-10T15:59:52",
+  "files": [
+    "LICENSE.txt",
+    "VERSION.txt",
+    "do/DO_Smoke_LogEngine.ps1",
+    "docs/PLAN_CoProfile.md",
+    "examples/Rick.example.json",
+    "examples/Rick.example.yaml",
+    "notes/DECISIONS_20250910-1559.md",
+    "schemas/copref.v0.json",
+    "schemas/copref.v0.yaml",
+    "scripts/CoProfile.psm1",
+    "scripts/Install-CoProfile.ps1",
+    "scripts/Show-SetupToast.ps1"
+  ]
+}

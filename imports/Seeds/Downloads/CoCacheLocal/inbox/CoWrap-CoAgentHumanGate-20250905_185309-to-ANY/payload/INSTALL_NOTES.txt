@@ -1,0 +1,3 @@
+﻿INSTALL NOTES
+Run CoUnWrap on the receiver. It prefers CoWrap.latest.json, unpacks,
+renames the source zip to CoWrap_DELETABLE-*.zip, archives a copy, and writes a receipt.

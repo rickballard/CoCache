@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="540" viewBox="0 0 1100 540" role="img" aria-label="30–60–90 Scoreboard">
+  <defs>
+    <style>
+      :root {
+        --bg:#f7f8fb;
+        --panel:#ffffff;
+        --grid:#d4dae6;
+        --accent:#6b7bb8;
+        --ink:#1f2430;
+        --muted:#4a5468;
+      }
+      text { font-family: ui-sans-serif, system-ui, "Segoe UI", Arial; fill: var(--ink); }
+      .h1 { font-size: 22px; font-weight: 700; }
+      .h2 { font-size: 16px; font-weight: 700; fill: var(--muted); }
+      .pill { font-size: 12px; font-weight: 700; fill:#fff; }
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto">
+      <path d="M0,0 L0,8 L12,4 z" fill="var(--accent)"/>
+    </marker>
+  </defs>
+
+  <!-- frame -->
+  <rect x="10" y="10" width="1080" height="520" rx="16" fill="var(--bg)" stroke="var(--grid)"/>
+
+  <!-- column headers -->
+  <g transform="translate(160,40)">
+    <text class="h1">30–60–90 Scoreboard</text>
+  </g>
+  <g transform="translate(140,92)">
+    <text class="h2">30 days</text>
+  </g>
+  <g transform="translate(460,92)">
+    <text class="h2">60 days</text>
+  </g>
+  <g transform="translate(780,92)">
+    <text class="h2">90 days</text>
+  </g>
+
+  <!-- grid panels: 3 rows x 3 cols -->
+  <!-- dimensions -->
+  <g transform="translate(40,120)">
+    <text class="h2">Workflows</text>
+  </g>
+  <g transform="translate(40,240)">
+    <text class="h2">Guardrails</text>
+  </g>
+  <g transform="translate(40,360)">
+    <text class="h2">Scoreboard</text>
+  </g>
+
+  <!-- cells -->
+  <!-- row 1 -->
+  <rect x="120" y="120" width="280" height="90" rx="10" fill="var(--panel)" stroke="var(--grid)"/>
+  <rect x="440" y="120" width="280" height="90" rx="10" fill="var(--panel)" stroke="var(--grid)"/>
+  <rect x="760" y="120" width="280" height="90" rx="10" fill="var(--panel)" stroke="var(--grid)"/>
+  <!-- row 2 -->
+  <rect x="120" y="240" width="280" height="90" rx="10" fill="var(--panel)" stroke="var(--grid)"/>
+  <rect x="440" y="240" width="280" height="90" rx="10" fill="var(--panel)" stroke="var(--grid)"/>
+  <rect x="760" y="240" width="280" height="90" rx="10" fill="var(--panel)" stroke="var(--grid)"/>
+  <!-- row 3 -->
+  <rect x="120" y="360" width="280" height="120" rx="10" fill="var(--panel)" stroke="var(--grid)"/>
+  <rect x="440" y="360" width="280" height="120" rx="10" fill="var(--panel)" stroke="var(--grid)"/>
+  <rect x="760" y="360" width="280" height="120" rx="10" fill="var(--panel)" stroke="var(--grid)"/>
+
+  <!-- example bullets (replace freely) -->
+  <!-- 30 -->
+  <g transform="translate(140,140)">
+    <text>• Ship 1st slice for Workflow A</text>
+    <text y="20">• Access ok / owner named</text>
+  </g>
+  <g transform="translate(140,260)">
+    <text>• Draft TOS‑AI gates</text>
+    <text y="20">• Data map v0</text>
+  </g>
+  <g transform="translate(140,380)">
+    <text>• KPI baseline taken</text>
+    <text y="20">• “Decisions improved” rubric</text>
+  </g>
+
+  <!-- 60 -->
+  <g transform="translate(460,140)">
+    <text>• Ship 2nd slice + click‑through</text>
+    <text y="20">• Pick 2nd workflow</text>
+  </g>
+  <g transform="translate(460,260)">
+    <text>• TOS‑AI gates live (pilot)</text>
+    <text y="20">• Owners sign‑off path</text>
+  </g>
+  <g transform="translate(460,380)">
+    <text>• Lead time ↓, quality ↑</text>
+    <text y="20">• 3 decisions improved</text>
+  </g>
+
+  <!-- 90 -->
+  <g transform="translate(780,140)">
+    <text>• Service lane stood up</text>
+    <text y="20">• Weekly ship continues</text>
+  </g>
+  <g transform="translate(780,260)">
+    <text>• Guardrail audit v1</text>
+    <text y="20">• Incident playbook</text>
+  </g>
+  <g transform="translate(780,380)">
+    <text>• KPI delta reported</text>
+    <text y="20">• Adoption beyond pilot</text>
+  </g>
+
+  <!-- flow arrows between columns (row 1 as example) -->
+  <path d="M400 165 L440 165" stroke="var(--accent)" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M720 165 L760 165" stroke="var(--accent)" stroke-width="3" marker-end="url(#arrow)"/>
+</svg>

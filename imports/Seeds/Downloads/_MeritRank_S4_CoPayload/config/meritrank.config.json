@@ -1,0 +1,36 @@
+{
+  "$schema": "./meritrank.schema.json",
+  "version": "0.2.0",
+  "weights": {
+    "readme_length": 0.45,
+    "ps1_count": 0.25,
+    "md_count": 0.15,
+    "registry_points": 0.15
+  },
+  "transforms": {
+    "readme_length": {
+      "type": "sigmoid",
+      "k": 0.001,
+      "x0": 1000
+    },
+    "ps1_count": {
+      "type": "log",
+      "base": 10.0,
+      "scale": 1.0
+    },
+    "md_count": {
+      "type": "log",
+      "base": 10.0,
+      "scale": 1.0
+    },
+    "registry_points": {
+      "type": "log",
+      "base": 10.0,
+      "scale": 1.0
+    }
+  },
+  "fail_guard": {
+    "enabled": true,
+    "max_drop_pct": 10.0
+  }
+}

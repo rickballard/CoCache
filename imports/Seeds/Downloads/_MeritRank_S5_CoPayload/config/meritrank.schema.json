@@ -1,0 +1,8 @@
+{
+  "description": "MeritRank config doc (informal).",
+  "required": [
+    "version",
+    "weights",
+    "transforms"
+  ]
+}

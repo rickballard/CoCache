@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 300" width="980" height="300">
+  <style>
+    .box{rx:14; fill:#0f172a; stroke:#334155; stroke-width:2}
+    .t{font:600 18px system-ui,Segoe UI,Roboto,Arial; fill:#e5e7eb}
+    .s{font:14px system-ui,Segoe UI,Roboto,Arial; fill:#94a3b8}
+    .arrow{stroke:#64748b; stroke-width:2; marker-end:url(#a)}
+  </style>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+  </marker></defs>
+
+  <rect x="20"  y="60" width="280" height="180" class="box"/>
+  <text x="40"  y="100" class="t">CoAudit (Week 0)</text>
+  <text x="40"  y="130" class="s">Snapshot of product/process & risks.</text>
+  <text x="40"  y="150" class="s">Output: 30-60-90 plan + scoreboard.</text>
+
+  <rect x="350" y="60" width="280" height="180" class="box"/>
+  <text x="370" y="100" class="t">CoFlow (Execution cadence)</text>
+  <text x="370" y="130" class="s">Weekly upgrades + instrumentation.</text>
+  <text x="370" y="150" class="s">Output: shipped changes with metrics.</text>
+
+  <rect x="680" y="60" width="280" height="180" class="box"/>
+  <text x="700" y="100" class="t">CoMirror (Strategic reflection)</text>
+  <text x="700" y="130" class="s">Offsite day: principles, bets,</text>
+  <text x="700" y="150" class="s">constraints, 90-day commitments.</text>
+
+  <line x1="300" y1="150" x2="350" y2="150" class="arrow"/>
+  <line x1="630" y1="150" x2="680" y2="150" class="arrow"/>
+</svg>

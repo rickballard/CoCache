@@ -1,0 +1,9 @@
+CoWrap-Capsule.md
+SESSION-SNAPSHOT.md
+NEXT-STEPS.md
+.gitattributes
+.github/ISSUE_TEMPLATE/run-safe-bootstrap.yml
+.github/ISSUE_TEMPLATE/fix-gitattributes.yml
+.github/workflows/issueops.yml
+docs/ISSUEOPS.md
+tools/safe-bootstrap.ps1

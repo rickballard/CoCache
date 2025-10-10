@@ -1,0 +1,1 @@
+﻿BPOE → SET: Ring deprecated; IdleDots v2 wrapped (no prompt fallback); cross-pane ready | HG=On; ExitHook=OK; OE=None; Mods=11; Jobs=2; Events=1

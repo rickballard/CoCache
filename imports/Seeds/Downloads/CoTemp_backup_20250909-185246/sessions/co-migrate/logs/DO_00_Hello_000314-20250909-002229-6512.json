@@ -1,0 +1,26 @@
+{
+  "ts": "2025-09-09T00:22:29.7022439-04:00",
+  "session_id": "co-migrate",
+  "do_title": "DO_00_Hello_000314",
+  "repo_path": "",
+  "risk": {
+    "secrets": false,
+    "writes": false,
+    "destructive": false,
+    "network": false
+  },
+  "consent_effective": {
+    "allow_writes": false,
+    "allow_network": false
+  },
+  "events": [
+    {
+      "type": "error",
+      "msg": "completed",
+      "ts": "2025-09-09T00:22:29.7026027-04:00",
+      "elapsed_ms": 462,
+      "op": "run"
+    }
+  ],
+  "result": "fail"
+}

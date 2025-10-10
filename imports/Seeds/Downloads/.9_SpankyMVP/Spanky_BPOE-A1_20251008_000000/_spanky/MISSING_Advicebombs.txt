@@ -1,0 +1,2 @@
+Missing: Advicebombs content referenced during session.
+Action: Place relevant files under /payload/advicebombs/ and re-run the manifest refresh (see below).

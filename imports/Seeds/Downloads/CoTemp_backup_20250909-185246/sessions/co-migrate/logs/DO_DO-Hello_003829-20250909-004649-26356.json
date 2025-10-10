@@ -1,0 +1,26 @@
+﻿{
+    "ts":  "2025-09-09T00:46:49.1928320-04:00",
+    "session_id":  "co-migrate",
+    "do_title":  "DO_DO-Hello_003829",
+    "repo_path":  "",
+    "risk":  {
+                 "network":  false,
+                 "destructive":  false,
+                 "secrets":  false,
+                 "writes":  false
+             },
+    "consent_effective":  {
+                              "allow_network":  false,
+                              "allow_writes":  false
+                          },
+    "events":  [
+                   {
+                       "msg":  "completed",
+                       "op":  "run",
+                       "elapsed_ms":  29,
+                       "type":  "info",
+                       "ts":  "2025-09-09T00:46:49.1948268-04:00"
+                   }
+               ],
+    "result":  "pass"
+}

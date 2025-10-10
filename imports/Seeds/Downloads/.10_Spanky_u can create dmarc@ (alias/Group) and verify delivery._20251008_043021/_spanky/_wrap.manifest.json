@@ -1,0 +1,12 @@
+{
+  "wrap": {
+    "name": "u can create dmarc@ (alias/Group) and verify delivery.-wrap",
+    "version": "1.0.0",
+    "timestamp": "20251008_043021",
+    "notes": "Auto-built pack from New-SpankyPack_Full.ps1"
+  },
+  "build": {
+    "generator": "New-SpankyPack_Full.ps1",
+    "host": "X1"
+  }
+}

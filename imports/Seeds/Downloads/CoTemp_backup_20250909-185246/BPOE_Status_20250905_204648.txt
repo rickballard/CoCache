@@ -1,0 +1,1 @@
+﻿BPOE → SET: CoClaim enabled (cross-session breadcrumb) | HG=On; ExitHook=MISS; OE=None; Mods=14; Jobs=0; Events=0

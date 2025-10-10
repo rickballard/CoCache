@@ -1,0 +1,26 @@
+﻿{
+    "ts":  "2025-09-09T18:05:15.2851086-04:00",
+    "session_id":  "co-migrate",
+    "do_title":  "DO_Smoke_180513",
+    "repo_path":  "",
+    "risk":  {
+                 "network":  false,
+                 "destructive":  false,
+                 "secrets":  false,
+                 "writes":  false
+             },
+    "consent_effective":  {
+                              "allow_network":  false,
+                              "allow_writes":  false
+                          },
+    "events":  [
+                   {
+                       "msg":  "completed",
+                       "op":  "run",
+                       "elapsed_ms":  256,
+                       "type":  "info",
+                       "ts":  "2025-09-09T18:05:15.2851086-04:00"
+                   }
+               ],
+    "result":  "pass"
+}

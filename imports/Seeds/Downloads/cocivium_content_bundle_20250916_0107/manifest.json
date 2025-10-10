@@ -1,0 +1,28 @@
+﻿[
+    {
+        "Repo":  "Civium",
+        "File":  "docs\\bpoe\\CONTRIBUTING_PREFS.md",
+        "Title":  "CoVibe: Repo Preferences (edit as checkboxes)",
+        "LastChanged":  "2025-08-25 05:01",
+        "AgeDays":  22,
+        "DraftMarkers":  false,
+        "MissingLinks":  "",
+        "Score":  100,
+        "Preview":  "# CoVibe: Repo Preferences (edit as checkboxes)\n- [x] PRs required on main â€” All changes land via PRs; direct pushes blocked.\n- [x] 1 review minimum â€” Require 1 approving review to merge.\n- [x] CODEOWNERS required â€” Require code-owner review where applicable.\n- [x] Linear history â€” No merge commits to main.\n- [x] Disallow force-pushes â€” Keep main safe.\n- [x] Disallow branch deletions â€” Prevent accidental main deletion.\n- [x] README smoke test â€” Fail CI if README is missing/tiny.\n- [x] Link check on push â€” Catch broken links early.\n- [x] Normalize LF â€” Consistent line endings on text files.\n- [x] ASCII in reports â€” Avoid mojibake/encoding gremlins in logs.\n- [x] Wait notes in scripts â€” Long steps print a heads-up so contributors donâ€™t Ctrl-C.",
+        "AbsPath":  "C:\\Users\\Chris\\Documents\\GitHub\\Civium\\docs\\bpoe\\CONTRIBUTING_PREFS.md",
+        "RepoRoot":  "C:/Users/Chris/Documents/GitHub/Civium"
+    },
+    {
+        "Repo":  "Civium",
+        "File":  "docs\\bpoe\\Migration_Log.md",
+        "Title":  "Migration Log",
+        "LastChanged":  "2025-08-24 04:34",
+        "AgeDays":  23,
+        "DraftMarkers":  false,
+        "MissingLinks":  "",
+        "Score":  100,
+        "Preview":  "# Migration Log\n\n- 2025-08-24T00:27:23 â€” Baseline guardrails added.\n\n\n- 2025-08-24T00:33:35 â€” Synced shared ops files from CoCivium; normalized LF for *.md, *.yml, *.yaml, *.ps1, *.psm1, *.json.\n",
+        "AbsPath":  "C:\\Users\\Chris\\Documents\\GitHub\\Civium\\docs\\bpoe\\Migration_Log.md",
+        "RepoRoot":  "C:/Users/Chris/Documents/GitHub/Civium"
+    }
+]

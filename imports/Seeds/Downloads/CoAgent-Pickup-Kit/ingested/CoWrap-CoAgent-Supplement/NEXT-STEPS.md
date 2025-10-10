@@ -1,0 +1,33 @@
+# Next Steps (Day-0)
+
+1) **Verify panel build**
+   - `pushd "$HOME\Documents\GitHub\CoAgent\electron"`
+   - `npx electron-builder -w dir`
+   - Launch via desktop shortcut **CoAgent Panel (PS7 Tabs)**.
+
+2) **Exec backend (ttyd)**
+   - If Docker Desktop OFF, panel will still load; enable Docker to get live Exec.
+   - Script: `tools/Start-CoExec.ps1` / `Stop-CoExec.ps1`.
+
+3) **Chat drops (PS7)**
+   - `ChatGPT:` lines in PS7 log to `docs/status/chat-drops.log` (hardened profile snippet).
+
+4) **End-of-DO-set banner**
+   - `tools/Section-Banners.ps1` → `Write-EndOfSet` (rainbow, `-Colorblind` option).
+   - Call `End-Set`/`EndOfSet` at the end of each instruction block.
+
+5) **Icons + Shortcuts**
+   - Distinct icons installed (CatFace/CoAgent, CatPaw/PS7, CatEye/Dev 2-tab).
+   - Electron `build.icon` → `electron/build/icon.ico`.
+
+6) **Repository hygiene**
+   - Commit `tools/*` changes and `electron/package.json` icon set.
+   - Ensure LF/CRLF warnings are addressed via `.gitattributes` if needed.
+
+7) **Backlog picks (shortlist)**
+   - [ ] Electron window: graceful when Exec absent (stub page text refine)
+   - [ ] Panel status chip: session name, Exec up/down, Docker state
+   - [ ] One-click “Start Exec” (ttyd) + Docker detection UX
+   - [ ] CoBreadcrumb scheduled tasks healthcheck & “last run” badge
+   - [ ] In‑app **BPOE** tutorial + “End‑Of‑DO‑Set” demo
+   - [ ] Crash-safe spinner (IPC channel + timeout/error surface)

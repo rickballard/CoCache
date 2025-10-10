@@ -1,0 +1,12 @@
+{
+  "wrap": {
+    "name": "h -replace 'src=\"/assets/site\\.js(\\?[^\"]*)?\"',  \"src=\"\"/assets/site.js?v=$build\"\"\"-wrap",
+    "version": "1.0.0",
+    "timestamp": "20251008_041714",
+    "notes": "Auto-built pack with supplementals."
+  },
+  "build": {
+    "generator": "Augment-SpankyPack.ps1",
+    "host": "X1"
+  }
+}

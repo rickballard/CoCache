@@ -1,0 +1,49 @@
+param()
+
+$sb = "$HOME\Documents\GitHub\CoAgent\tools\Section-Banners.ps1"
+
+if (-not (Test-Path $sb)) {
+
+  Write-Warning "Not found: $sb"
+
+  exit 0
+
+}
+
+$raw = Get-Content $sb -Raw
+
+
+
+$replacement = @'
+
+function Write-EndOfSet([string]$text = "End of DO set", [switch]$Colorblind) {
+
+  $esc = [char]27
+
+  $w   = try { $Host.UI.RawUI.WindowSize.Width } catch { 80 }
+
+  $len = [Math]::Max(20, $w - 1)
+
+  $bar = '─' * $len
+
+
+
+  function Write-Rainbow([string]$s) {
+
+    $esc = [char]27
+
+    $L = $s.Length
+
+    for($i=0; $i -lt $L; $i++){
+
+      $h = [int](($i / [double]$L) * 360)
+
+      $c = 1; $x = 1 - [math]::Abs((($h / 60) % 2) - 1)
+
+      switch ([int]($h/60)) {
+
+        0 { $r=$c;$g=$x;$b=0 } 1 { $r=$x;$g=$c;$b=0 } 2 { $r=0;$g=$c;$b=$x }
+
+        3 { $r=0;$g=$x;$b=$c } 4 { $r=$x;$g=0;$b=$c } default { $r=$c;$g=0;$b=$x }
+
+      }

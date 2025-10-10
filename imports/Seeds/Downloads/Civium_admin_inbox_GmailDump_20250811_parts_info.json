@@ -1,0 +1,28 @@
+{
+  "zip_filename": "Civium_admin_inbox_GmailDump_20250811.zip",
+  "zip_size_bytes": 2879576,
+  "zip_sha256": "712829fe101b71eec852bd3a78dd688405726f1249575b762f4d60f319cdd2ca",
+  "parts": [
+    {
+      "filename": "/mnt/data/Civium_admin_inbox_GmailDump_20250811.zip.part01",
+      "sha256": "0f4e6a2d8dddc4274247a55eca798687b0857458ed209a48dafb6e8fe127a167",
+      "size_bytes": 921600
+    },
+    {
+      "filename": "/mnt/data/Civium_admin_inbox_GmailDump_20250811.zip.part02",
+      "sha256": "4dd8b736ad310b9b56df3fd60276582793c2d514bb172385f3de2a214d4cf924",
+      "size_bytes": 921600
+    },
+    {
+      "filename": "/mnt/data/Civium_admin_inbox_GmailDump_20250811.zip.part03",
+      "sha256": "599de374e5615320a43b87ec3e5c51e0da9b613c94952199e5a075e296466686",
+      "size_bytes": 921600
+    },
+    {
+      "filename": "/mnt/data/Civium_admin_inbox_GmailDump_20250811.zip.part04",
+      "sha256": "51fc900cac1a681c0a36e849ca5df24c20a2f29fb0c3d2cfc1bfe104929eb56d",
+      "size_bytes": 114776
+    }
+  ],
+  "reassemble_command_windows_gitbash": "cat ~/Downloads/Civium_admin_inbox_GmailDump_20250811.zip.part* > ~/Downloads/Civium_admin_inbox_GmailDump_20250811.zip && cd ~/Documents/GitHub/Civium && unzip -o ~/Downloads/Civium_admin_inbox_GmailDump_20250811.zip -d ."
+}

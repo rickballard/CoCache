@@ -1,0 +1,8 @@
+﻿Hello from Planning at 2025-09-09T00:46:49.1677729-04:00
+
+Major  Minor  Build  Revision
+-----  -----  -----  --------
+5      1      26100  5770    
+
+
+

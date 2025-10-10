@@ -1,0 +1,10 @@
+# Intentions
+- Keep rballard@ private; reveal contact@ on demand. (Done)
+- Feedback qualifiers + rates acknowledgement + honeypot. (Done)
+- Billing robots noarchive. (Done)
+- Header/logo/strap unify; dual-mode logos. (Done)
+- Engagement menu only on /engagement. (Done)
+- Whitepaper/survival → Exec Summary; /whitepaper redirect. (Done)
+- Footer centering. (Done)
+- Create/forward **dmarc@inseed.com**; label DMARC reports. (Unfinished)
+- Cloudflare auto-minify/Brotli if/when UI allows. (Unfinished)

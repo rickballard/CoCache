@@ -1,0 +1,272 @@
+…(truncated to 12000 chars)…
+ -ItemType Directory -Force -Path $outDir | Out-Null
+  $out = Join-Path $outDir ("copong_{0}.txt" -f (Get-Date -Format 'yyyyMMdd_HHmmss'))
+  $text | Set-Content $out -Encoding UTF8
+  Write-Host "✓ CoPong: copied ~${Lines} lines to clipboard. Saved: $out" -ForegroundColor Green
+}
+Set-Alias CoPong150 CoPong
+Set-StrictMode -Version Latest; $ErrorActionPreference='Stop'
+$root = Join-Path $HOME 'Documents\GitHub'
+# 1×1 transparent PNG and GIF placeholders (base64)
+$png1x1 = 'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAA
+AAC0lEQVR42mP8/x8AAucB9UqI2c0AAAAASUVORK5CYII=' -replace '\s',''
+$gif1x1 = 'R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==' 
+$targets = @(
+  @{ name='CoCivium'; branch='polish/crest-mentions-250904' ; fixChooser=$false },
+  @{ name='CoCache' ; branch='polish/boilerplate-250904'     ; fixChooser=$true  },
+  @{ name='GIBindex'; branch='polish/boilerplate-250904'     ; fixChooser=$false },
+  @{ name='Civium'  ; branch='polish/boilerplate-250904'     ; fixChooser=$true  }
+)
+foreach($t in $targets){
+  $repo = $t.name; $path = Join-Path $root $repo
+  if (!(Test-Path $path)) { Write-Host "Skip $repo (missing)" -ForegroundColor Yellow; continue }
+  Push-Location $path
+  try{
+    git switch -c $t.branch 2>$null | Out-Null
+
+    # Issue chooser
+    if ($t.fixChooser){
+      New-Item -ItemType Directory -Force -Path ".github\ISSUE_TEMPLATE" | Out-Null
+      @"
+blank_issues_enabled: false
+contact_links:
+  - name: Idea / Suggestion (fast)
+    url: https://github.com/rickballard/$repo/issues/new?template=idea.yml
+    about: Share a scoped idea to help $repo evolve.
+  - name: Questions / Discussions
+    url: https://github.com/rickballard/$repo/discussions
+    about: Ask questions or propose larger topics.
+"@ | Set-Content ".github\ISSUE_TEMPLATE\config.yml" -Encoding UTF8
+      git add ".github/ISSUE_TEMPLATE/config.yml"
+    }
+
+    # README mentions
+    $readme = "README.md"
+    if (Test-Path $readme){
+      $txt = Get-Content $readme -Raw
+      if ($txt -notmatch 'CC crest'){ $txt += "`n`n> CC crest: see `docs/cc-scroll-c2` and assets. (Temporary pointer)" }
+      if ($txt -notmatch 'Two Eyes'){ $txt += "`n`n> Two Eyes progress map: linked from `/docs/` (Eyes C1 series)." }
+      Set-Content $readme -Value $txt -Encoding UTF8
+      git add $readme
+    }
+
+    # Hero assets placeholders
+    $heroDir = 'assets\hero'
+    New-Item -ItemType Directory -Force -Path $heroDir | Out-Null
+    $pngPath = Join-Path $heroDir 'quote-960w.png'
+    $gifPath = Join-Path $heroDir 'hero.gif'
+    if (!(Test-Path $pngPath)){ [IO.File]::WriteAllBytes($pngPath, [Convert]::FromBase64String($png1x1)) }
+    if (!(Test-Path $gifPath)){ [IO.File]::WriteAllBytes($gifPath, [Convert]::FromBase64String($gif1x1)) }
+    git add $pngPath, $gifPath
+
+    # Commit & push (no-loss policy; placeholders are non-destructive)
+    if (git diff --cached --quiet) {
+      Write-Host "$repo: nothing to commit" -ForegroundColor DarkGray
+    } else {
+      git commit -m "polish: add issue chooser, hero placeholders, and README pointers (crest/Two Eyes)"
+      git push --set-upstream origin $t.branch
+    }
+  } finally { Pop-Location }
+}
+# Re-scan
+Import-Module (Join-Path (Join-Path $root 'CoCivium') 'tools\CoAgent\CoAgent.psm1') -Force
+Invoke-CoAgent -Cmd polish-scan
+CoPong150
+Write-Host "$repo: nothing to commit"Write-Host "$repo: nothing to commit"
+Write-Host "${repo}: nothing to commit"
+# or
+Write-Host ("{0}: nothing to commit" -f $repo)
+function Start-CoTranscript([string]$Tag='session'){
+  $dir = Join-Path $HOME 'Downloads\CoCivium-Logs'
+  New-Item -ItemType Directory -Force -Path $dir | Out-Null
+  $path = Join-Path $dir ("{0}-{1}.ps1log" -f $Tag,(Get-Date -Format 'yyyyMMdd_HHmmss'))
+  Start-Transcript -Path $path -IncludeInvocationHeader | Out-Null
+  $global:__CoPingLog = $path
+  Write-Host "→ Transcript: $path"
+}
+# CoPongPaste — Paste & Send to Chat
+## Option A — Bookmarklet (fastest)
+1. Show your bookmarks bar (`Ctrl+Shift+B` / `⌘+Shift+B`).
+2. Create a bookmark named **CoPongPaste** with this URL (exactly):
+function CoPong {
+  param([int]$Lines = 150, [switch]$CommandsOnly)
+  Set-StrictMode -Version Latest; $ErrorActionPreference="Stop"
+  $parts = @()
+
+  # Detect an active transcript safely
+  $logPath = $null
+  $v = Get-Variable -Name __CoPingLog -Scope Global -ErrorAction SilentlyContinue
+  if ($v -and $v.Value -and (Test-Path $v.Value)) { $logPath = $v.Value }
+
+  if ($logPath) {
+    # Pull extra so filtering still leaves ~Lines
+    $raw = Get-Content -Path $logPath -Tail ($Lines * 4)
+
+    # Strip banners / noise that cause re-pastes to snowball
+    $rxDrop = '^(PowerShell transcript (start|end)|\*{10,}|^→ Transcript:|^✓ CoPong:|^Command start time:|^<<< CoPong PS|^PS CoPong >>>)\b'
+    $raw = $raw | Where-Object { $_ -notmatch $rxDrop }
+
+    if ($CommandsOnly) {
+      # Keep prompts, continuations, and error frames only
+      $raw = $raw | Where-Object {
+        $_ -match '^\s*PS [^>]+>\s' -or $_ -match '^\s*>>' -or $_ -match '^\s*Line \|' -or $_ -match '^\s*At line'
+      }
+    }
+    $parts += $raw
+  }
+
+  # Also include current live command history tail (never the prior copong file)
+  try {
+    $hist = Get-History | Select-Object -Last $Lines | ForEach-Object { $_.CommandLine }
+    if ($hist) { $parts += '---- PS7 History tail ----'; $parts += $hist }
+  } catch {}
+
+  if (-not $parts) { $parts = @("(CoPong: nothing to copy — start Start-CoTranscript or run some commands.)") }
+
+  # Emit
+  $text = (($parts | Select-Object -Last $Lines) -join [Environment]::NewLine)
+  Set-Clipboard -Value $text
+  $dir = Join-Path $HOME 'Downloads\CoCivium-Logs'; New-Item -ItemType Directory -Force -Path $dir | Out-Null
+  $out = Join-Path $dir ("copong_{0}.txt" -f (Get-Date -Format 'yyyyMMdd_HHmmss'))
+  $text | Set-Content $out -Encoding UTF8
+  Write-Host "✓ CoPong: copied ~${Lines} lines to clipboard. Saved: $out" -ForegroundColor Green
+}
+Set-Alias CoPong150 CoPong
+function CoPong-Reset {
+  Set-StrictMode -Version Latest; $ErrorActionPreference="Stop"
+  Remove-Variable -Name __CoPingLog -Scope Global -ErrorAction SilentlyContinue
+  $dir = Join-Path $HOME 'Downloads\CoCivium-Logs'
+  if (Test-Path $dir) {
+    Get-ChildItem $dir -Filter 'copong_*.txt' -File -ErrorAction SilentlyContinue | Remove-Item -Force -ErrorAction SilentlyContinue
+  }
+  Write-Host "CoPong state reset." -ForegroundColor Cyan
+}
+CoPong-Reset
+CoPong150
+function CoPong {
+  param([int]$Lines = 150, [switch]$CommandsOnly)
+  Set-StrictMode -Version Latest; $ErrorActionPreference="Stop"
+  $parts = @()
+
+  # transcript (if active)
+  $logPath = ($v = Get-Variable __CoPingLog -Scope Global -ErrorAction SilentlyContinue) ? $v.Value : $null
+  if ($logPath -and (Test-Path $logPath)) {
+    $raw = Get-Content -Path $logPath -Tail ($Lines * 4)
+    $rxDrop = '^(PowerShell transcript (start|end)|\*{10,}|^→ Transcript:|^✓ CoPong:|^Command start time:|^<<< CoPong PS|^PS CoPong >>>)\b'
+    $raw = $raw | Where-Object { $_ -notmatch $rxDrop }
+    if ($CommandsOnly) {
+      $raw = $raw | Where-Object {
+        $_ -match '^\s*PS [^>]+>\s' -or $_ -match '^\s*>>' -or $_ -match '^\s*Line \|' -or $_ -match '^\s*At line'
+      }
+    }
+    $parts += $raw
+  }
+
+  # interactive history tail
+  try {
+    $hist = Get-History | Select-Object -Last $Lines | ForEach-Object { $_.CommandLine }
+    if ($hist) { $parts += $hist }
+  } catch {}
+
+  if (-not $parts -or ($parts -join '').Trim().Length -eq 0) {
+    $parts = @('(CoPong: nothing to copy — start Start-CoTranscript or run some commands.)')
+  }
+
+  $text = ($parts | Select-Object -Last $Lines) -join "`r`n"
+  Set-Clipboard -Value $text -AsPlainText      # <-- key change
+  $dir = Join-Path $HOME 'Downloads\CoCivium-Logs'; New-Item -ItemType Directory -Force -Path $dir | Out-Null
+  $out = Join-Path $dir ("copong_{0}.txt" -f (Get-Date -Format 'yyyyMMdd_HHmmss'))
+  $text | Set-Content $out -Encoding UTF8
+  Write-Host ("✓ CoPong: placed {0} chars on clipboard. Saved: {1}" -f $text.Length, $out) -ForegroundColor Green
+}
+Set-Alias CoPong150 CoPong
+$last = Get-ChildItem "$HOME\Downloads\CoCivium-Logs\copong_*.txt" | Sort-Object LastWriteTime -desc | Select-Object -First 1
+$clip = Get-Clipboard -Raw
+"Clipboard chars: $($clip.Length)"
+"File chars: $((Get-Content $last.FullName -Raw).Length)"
+$clip.Substring(0, [Math]::Min(120, $clip.Length))  # preview
+CoPong150
+function CoPong {
+  param([int]$Lines=150, [switch]$CommandsOnly, [int]$MaxChars=12000)
+  Set-StrictMode -Version Latest; $ErrorActionPreference="Stop"
+  $parts=@()
+
+  # transcript (if active)
+  $logPath = ($v = Get-Variable __CoPingLog -Scope Global -ErrorAction SilentlyContinue) ? $v.Value : $null
+  if ($logPath -and (Test-Path $logPath)) {
+    $raw = Get-Content -Path $logPath -Tail ($Lines * 4)
+    $rxDrop = '^(PowerShell transcript (start|end)|\*{10,}|^→ Transcript:|^✓ CoPong:|^Command start time:|^<<< CoPong PS|^PS CoPong >>>)\b'
+    $raw = $raw | Where-Object { $_ -notmatch $rxDrop }
+    if ($CommandsOnly) {
+      $raw = $raw | Where-Object { $_ -match '^\s*PS [^>]+>\s' -or $_ -match '^\s*>>' -or $_ -match '^\s*Line \|' -or $_ -match '^\s*At line' }
+    }
+    $parts += $raw
+  }
+
+  # interactive history
+  try {
+    $hist = Get-History | Select-Object -Last $Lines | ForEach-Object { $_.CommandLine }
+    if ($hist) { $parts += $hist }
+  } catch {}
+
+  if (-not $parts -or ($parts -join '').Trim().Length -eq 0) {
+    $parts = @('(CoPong: nothing to copy — start Start-CoTranscript or run some commands.)')
+  }
+
+  $text = ($parts | Select-Object -Last $Lines) -join "`r`n"
+  if($text.Length -gt $MaxChars){
+    $text = "…(truncated to $MaxChars chars)…`r`n" + $text.Substring($text.Length-$MaxChars)
+  }
+
+  Set-Clipboard -Value $text -AsPlainText
+  $dir = Join-Path $HOME 'Downloads\CoCivium-Logs'; New-Item -ItemType Directory -Force -Path $dir | Out-Null
+  $out = Join-Path $dir ("copong_{0}.txt" -f (Get-Date -Format 'yyyyMMdd_HHmmss'))
+  $text | Set-Content $out -Encoding UTF8
+  Write-Host ("✓ CoPong: placed {0} chars on clipboard. Saved: {1}" -f $text.Length, $out) -ForegroundColor Green
+}
+Set-Alias CoPong150 CoPong
+Co
+CoPong150
+$clip = Get-Clipboard -Raw
+"Clipboard chars: $($clip.Length)"
+$clip.Substring(0,[Math]::Min(120,$clip.Length))
+CoPong150
+function CoPong {
+  param([int]$Lines=150, [switch]$CommandsOnly, [int]$MaxChars=12000)
+  Set-StrictMode -Version Latest; $ErrorActionPreference="Stop"
+  $parts=@()
+
+  # transcript (if active)
+  $logPath = ($v = Get-Variable __CoPingLog -Scope Global -ErrorAction SilentlyContinue) ? $v.Value : $null
+  if ($logPath -and (Test-Path $logPath)) {
+    $raw = Get-Content -Path $logPath -Tail ($Lines * 4)
+    $rxDrop = '^(PowerShell transcript (start|end)|\*{10,}|^→ Transcript:|^✓ CoPong:|^Command start time:|^<<< CoPong PS|^PS CoPong >>>)\b'
+    $raw = $raw | Where-Object { $_ -notmatch $rxDrop }
+    if ($CommandsOnly) {
+      $raw = $raw | Where-Object { $_ -match '^\s*PS [^>]+>\s' -or $_ -match '^\s*>>' -or $_ -match '^\s*Line \|' -or $_ -match '^\s*At line' }
+    }
+    $parts += $raw
+  }
+
+  # interactive history
+  try {
+    $hist = Get-History | Select-Object -Last $Lines | ForEach-Object { $_.CommandLine }
+    if ($hist) { $parts += $hist }
+  } catch {}
+
+  if (-not $parts -or ($parts -join '').Trim().Length -eq 0) {
+    $parts = @('(CoPong: nothing to copy — start Start-CoTranscript or run some commands.)')
+  }
+
+  $text = ($parts | Select-Object -Last $Lines) -join "`r`n"
+  if($text.Length -gt $MaxChars){
+    $text = "…(truncated to $MaxChars chars)…`r`n" + $text.Substring($text.Length-$MaxChars)
+  }
+
+  Set-Clipboard -Value $text  # no -AsPlainText in PS7
+  $dir = Join-Path $HOME 'Downloads\CoCivium-Logs'; New-Item -ItemType Directory -Force -Path $dir | Out-Null
+  $out = Join-Path $dir ("copong_{0}.txt" -f (Get-Date -Format 'yyyyMMdd_HHmmss'))
+  $text | Set-Content $out -Encoding UTF8
+  Write-Host ("✓ CoPong: placed {0} chars on clipboard. Saved: {1}" -f $text.Length, $out) -ForegroundColor Green
+}
+Set-Alias CoPong150 CoPong

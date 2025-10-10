@@ -1,0 +1,1 @@
+﻿BPOE → SET: Ring removed from codebase; IdleDots v2 fixed; prompt preserved | HG=On; ExitHook=OK; OE=None; Mods=11; Jobs=2; Events=1

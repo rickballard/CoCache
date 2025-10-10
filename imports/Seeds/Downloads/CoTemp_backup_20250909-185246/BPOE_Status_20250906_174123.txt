@@ -1,0 +1,1 @@
+﻿BPOE → SET: Ring OFF by default; IdleDots v2 active; claims check ready | HG=On; ExitHook=OK; OE=None; Mods=11; Jobs=2; Events=1

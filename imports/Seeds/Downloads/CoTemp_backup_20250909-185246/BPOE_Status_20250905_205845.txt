@@ -1,0 +1,1 @@
+﻿BPOE → SET: IdleDots tuned + claims active | HG=On; ExitHook=MISS; OE=None; Mods=16; Jobs=1; Events=0

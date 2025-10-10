@@ -1,0 +1,1 @@
+﻿BPOE → SET: Ring purged; IdleDots v2 loaded; prompt restored | HG=On; ExitHook=OK; OE=None; Mods=12; Jobs=3; Events=2

@@ -1,0 +1,6 @@
+- [ ] One watcher per session (`Status-QuickCheck` shows exactly 2 jobs total)
+- [ ] `Drop-CoDO` and `Send-CoNote` available in both panes
+- [ ] Smoke DO logs `PowerShell $PSVersionTable.PSVersion` correctly
+- [ ] RepoScan (read‑only) works; logs <= 50 files; no mojibake
+- [ ] `README_FIRST` + Ops runbook reflect current flow
+- [ ] Public/Private BP split chosen and prepared (see `docs/BP_PublicPrivate_Plan.md`)

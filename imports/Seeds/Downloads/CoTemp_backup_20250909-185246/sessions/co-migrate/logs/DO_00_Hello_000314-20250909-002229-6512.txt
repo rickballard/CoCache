@@ -1,0 +1,9 @@
+System.Management.Automation.PSVersionHashTable.PSVersion: C:\Users\Chris\Downloads\CoTemp\sessions\co-migrate\inbox\DO_00_Hello_000314.ps1:11
+Line |
+  11 |  System.Management.Automation.PSVersionHashTable.PSVersion
+     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The term 'System.Management.Automation.PSVersionHashTable.PSVersion' is not recognized as a name of a cmdlet, function, script
+     | file, or executable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try
+     | again.
+
+

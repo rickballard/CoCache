@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360">
+  <rect width="100%" height="100%" fill="#fafafa"/>
+  <text x="40" y="70" font-size="28" font-family="Segoe UI, Roboto, Arial">Minor pivot: change the dog food.</text>
+  <text x="40" y="110" font-size="28" font-family="Segoe UI, Roboto, Arial">Big pivot: turn the dog into a racehorse.</text>
+  <g transform="translate(40,150)">
+    <rect x="0" y="0" width="520" height="160" rx="16" fill="#e2e8f0"/>
+    <text x="20" y="50" font-size="24" font-family="Segoe UI, Roboto, Arial">Dog + new food ➜ mild grumble</text>
+    <text x="20" y="90" font-size="18" font-family="Segoe UI, Roboto, Arial" fill="#555">Manageable. Low risk. Life goes on.</text>
+  </g>
+  <g transform="translate(640,150)">
+    <rect x="0" y="0" width="520" height="160" rx="16" fill="#fee2e2"/>
+    <text x="20" y="50" font-size="24" font-family="Segoe UI, Roboto, Arial">Dog + jockey + whips ➜ chaos</text>
+    <text x="20" y="90" font-size="18" font-family="Segoe UI, Roboto, Arial" fill="#555">Unless a TOS-AI steward frames the onramp.</text>
+  </g>
+</svg>

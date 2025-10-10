@@ -1,0 +1,61 @@
+CoCivBus — Cheat Sheet (v0.1)
+=================================================
+Purpose
+-------
+CoCivBus is a *status-only* coordination bus so **multiple parallel chats** (and humans) can stay in lockstep.
+Rule of thumb: **Read before reply. Append after step.** Never put secrets in the bus.
+
+Your current bus (from this session)
+------------------------------------
+Bus URL: https://gist.githubusercontent.com/rickballard/cba4e4923ff68e0ac9391fbd4189054c/raw/session_bus.jsonl
+Beacon:  Desktop\CoCivBus_Beacon.json
+
+Paste this in any parallel chat to bind it to the same bus:
+    CoCache:https://gist.githubusercontent.com/rickballard/cba4e4923ff68e0ac9391fbd4189054c/raw/session_bus.jsonl
+
+Or drag the beacon file into the chat (Desktop\CoCivBus_Beacon.json).
+
+Quick “SESSION RULES” (paste at top of each chat)
+-------------------------------------------------
+1) When I paste a CoCivBus beacon or send: CoCache:<URL>, treat that URL as the *session bus*.
+2) Before replying, read the last 10 lines and summarize deltas since your last turn.
+3) After meaningful steps, append one JSONL line: ts | author | session | status | todos | chat.
+4) Never put secrets in the bus. Keep lines terse (<180 chars).
+
+What to append (status line template)
+------------------------------------
+Examples of terse, non-sensitive updates:
+- Outline v0 done. Next: add examples.
+- Draft Action openapi stub; review pending.
+- Verified T0 bus; creating Matrix adapter doc.
+- Integrated Slack digest webhook skeleton.
+
+How to use from PowerShell (helpers included)
+---------------------------------------------
+1) READ the last N lines of the bus:
+   .\CoCache-Read.ps1             # defaults to last 15 using the Desktop beacon
+   .\CoCache-Read.ps1 -Last 30
+   .\CoCache-Read.ps1 -Url https://gist.githubusercontent.com/rickballard/cba4e4923ff68e0ac9391fbd4189054c/raw/session_bus.jsonl
+
+2) APPEND a status line and mirror it:
+   .\CoCache-Append.ps1 -Status "Outline v0 done."
+   - Appends to repo file: admin/session-bus/session_bus.jsonl
+   - Commits & pushes to GitHub
+   - If your beacon points to a Gist, attempts to update that Gist in-place
+
+3) (Optional) SWITCH beacon to the repo raw URL (writes Desktop beacon):
+   .\CoCache-SwitchBeaconToRepo.ps1
+
+Notes
+-----
+- T0 (Git/Gist) is fine for experiments but is centralized and may be public.
+- T1 (Matrix) gives private E2EE rooms; use when ready (token-based bootstrap script available).
+- Keep entries *status-only*; do not include tokens, secrets, or PII.
+- If two chats ever diverge, reread the last 10 lines and realign.
+
+Troubleshooting
+---------------
+- If assistants ignore the bus, resend: CoCache:https://gist.githubusercontent.com/rickballard/cba4e4923ff68e0ac9391fbd4189054c/raw/session_bus.jsonl
+- If the Gist URL should be secret, regenerate it and update Desktop\CoCivBus_Beacon.json
+- If APPEND fails on the Gist step, your beacon may point to a Gist while your repo bus is the source of truth.
+  Use CoCache-SwitchBeaconToRepo.ps1 or ensure 'gh auth status' is logged-in and re-run.

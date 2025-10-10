@@ -1,0 +1,13 @@
+{
+  "session": "20250905T230558Z-44c31b31-0273-41bb-9d04-515dbf7cfe4c",
+  "repo": "C:\\Users\\Chris\\Documents\\GitHub\\CoModules",
+  "branch": "docs/bdbp-coagent-250905-1400",
+  "paths": [
+    "tools",
+    "docs\\methods",
+    "tests"
+  ],
+  "message": "SET: CoWrap (BPOE-CoAgent-Advice) created for fresh session pickup",
+  "createdUtc": "2025-09-06T01:26:22.7746538Z",
+  "expiresUtc": "2025-09-06T01:56:22.7746719Z"
+}

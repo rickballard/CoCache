@@ -1,0 +1,8 @@
+{
+  "description": "Registry item minimal shape.",
+  "required": [
+    "id",
+    "name",
+    "points"
+  ]
+}

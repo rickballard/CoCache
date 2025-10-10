@@ -1,0 +1,5 @@
+# CoCache — BPOE drops
+
+- Path recommendation (example): `%USERPROFILE%\AppData\Local\CoCache\CoAgent`
+- Safe to write ephemeral artifacts (logs, temp state). Avoid secrets.
+- Keep repo copies of **summaries** only (no PII), under `docs/status/`.

@@ -1,0 +1,19 @@
+# CoCivium: Housekeeping Prompt (Mini)
+
+Paste this in a fresh chat to run a quick update if you’re in a rush.
+
+Goal: Get up-to-date on CoCivium / CoCache / GIBindex / Civium and output:
+- Sync deltas per repo
+- 1-week workqueue (Must/Should/Could)
+- Ready-to-paste Git Bash blocks
+
+Inputs I’ll provide now:
+- For each repo: either a ZIP of the tree (no .git) OR `git diff --name-status <LAST_SHA>..HEAD`.
+- Current main SHAs for each repo.
+
+Constraints:
+- Be explicit about missing files; request exact paths.
+- Keep initial output ≤ 120 lines; offer drill-down on request.
+- Prefer Windows Git Bash–safe commands.
+
+Begin when I paste SHAs and upload ZIPs/diffs.

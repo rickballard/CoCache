@@ -1,0 +1,12 @@
+{
+  "wrap": {
+    "name": "InSeed_Web-wrap",
+    "version": "1.0.0",
+    "timestamp": "20251008_140628",
+    "notes": "Create/augment"
+  },
+  "build": {
+    "generator": "Make-Or-Augment-Spanky.ps1",
+    "host": "X1"
+  }
+}

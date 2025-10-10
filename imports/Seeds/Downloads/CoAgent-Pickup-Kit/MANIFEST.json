@@ -1,0 +1,12 @@
+{
+  "generated": "2025-09-15 22:14:36",
+  "source_zips": [
+    "CoWrap-CoAgent-Supplement.zip",
+    "CoWrap-CoAgent-NextSession.zip"
+  ],
+  "counts": {
+    "files": 16,
+    "text_like": 13,
+    "code_like": 5
+  }
+}

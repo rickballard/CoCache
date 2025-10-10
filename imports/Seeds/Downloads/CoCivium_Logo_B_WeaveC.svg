@@ -1,0 +1,19 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect x="126.40" y="40.00" width="86.40" height="86.40" rx="18" fill="#BDBDBD" stroke="#222222" stroke-width="4"/>
+  <rect x="212.80" y="40.00" width="86.40" height="86.40" rx="18" fill="#BDBDBD" stroke="#222222" stroke-width="4"/>
+  <rect x="299.20" y="40.00" width="86.40" height="86.40" rx="18" fill="#BDBDBD" stroke="#222222" stroke-width="4"/>
+  <rect x="40.00" y="126.40" width="86.40" height="86.40" rx="18" fill="#BDBDBD" stroke="#222222" stroke-width="4"/>
+  <rect x="126.40" y="126.40" width="86.40" height="86.40" rx="18" fill="#BDBDBD" stroke="#222222" stroke-width="4"/>
+  <rect x="212.80" y="126.40" width="86.40" height="86.40" rx="18" fill="#BDBDBD" stroke="#222222" stroke-width="4"/>
+  <rect x="299.20" y="126.40" width="86.40" height="86.40" rx="18" fill="#BDBDBD" stroke="#222222" stroke-width="4"/>
+  <rect x="40.00" y="212.80" width="86.40" height="86.40" rx="18" fill="#BDBDBD" stroke="#222222" stroke-width="4"/>
+  <rect x="126.40" y="212.80" width="86.40" height="86.40" rx="18" fill="#BDBDBD" stroke="#222222" stroke-width="4"/>
+  <rect x="299.20" y="212.80" width="86.40" height="86.40" rx="18" fill="#BDBDBD" stroke="#222222" stroke-width="4"/>
+  <rect x="40.00" y="299.20" width="86.40" height="86.40" rx="18" fill="#BDBDBD" stroke="#222222" stroke-width="4"/>
+  <rect x="126.40" y="299.20" width="86.40" height="86.40" rx="18" fill="#BDBDBD" stroke="#222222" stroke-width="4"/>
+  <rect x="212.80" y="299.20" width="86.40" height="86.40" rx="18" fill="#BDBDBD" stroke="#222222" stroke-width="4"/>
+  <rect x="299.20" y="299.20" width="86.40" height="86.40" rx="18" fill="#BDBDBD" stroke="#222222" stroke-width="4"/>
+  <rect x="126.40" y="385.60" width="86.40" height="86.40" rx="18" fill="#BDBDBD" stroke="#222222" stroke-width="4"/>
+  <rect x="212.80" y="385.60" width="86.40" height="86.40" rx="18" fill="#BDBDBD" stroke="#222222" stroke-width="4"/>
+  <rect x="299.20" y="385.60" width="86.40" height="86.40" rx="18" fill="#BDBDBD" stroke="#222222" stroke-width="4"/>
+</svg>

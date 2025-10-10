@@ -1,0 +1,14 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .arc { fill: none; stroke: #222222; stroke-width: 36; stroke-linecap: round; }
+      .wave { fill: none; stroke: #222222; stroke-width: 21.599999999999998; stroke-linecap: round; }
+    </style>
+  </defs>
+  <path class="arc" d="M 460.8 256.0
+        A 204.8 204.8 0 1 1 51.19999999999999 256.0
+        A 204.8 204.8 0 1 1 460.8 256.0"
+        stroke-dasharray="1000.8416062636284 285.9547446467509"/>
+  <rect x="212.99" y="176.13" width="45.06" height="45.06" fill="#222222"/><rect x="180.22" y="227.33" width="36.86" height="36.86" fill="#222222"/><rect x="204.80" y="286.72" width="28.67" height="28.67" fill="#222222"/>
+  <path class="wave" d="M 204.80,307.20 C 266.24,327.68 286.72,184.32 245.76,194.56"/>
+</svg>

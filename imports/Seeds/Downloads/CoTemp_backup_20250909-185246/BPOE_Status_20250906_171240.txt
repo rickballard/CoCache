@@ -1,0 +1,1 @@
+﻿BPOE → SET: CoBloat guard demo (MaxLines=12) | HG=On; ExitHook=OK; OE=None; Mods=12; Jobs=2; Events=2

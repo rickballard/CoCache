@@ -1,0 +1,13 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .ring { fill: none; stroke: #222222; stroke-width: 44; stroke-linecap: round; }
+      .cut  { fill: none; stroke: #222222; stroke-width: 30.799999999999997; stroke-linecap: round; }
+    </style>
+  </defs>
+  <path class="ring" d="M 450.56 256.0
+        A 194.56 194.56 0 1 1 61.44 256.0
+        A 194.56 194.56 0 1 1 450.56 256.0"
+        stroke-dasharray="967.7780889138476 254.67844445101264"/>
+  <path class="cut" d="M 217.088 285.18399999999997 L 252.1088 324.096 L 324.096 226.816"/>
+</svg>

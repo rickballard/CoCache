@@ -1,0 +1,3 @@
+﻿Leftovers-CoDone manifest — 20250905_211936
+Repo: C:\Users\Chris\Documents\GitHub\CoModules
+Included: recent CoTemp breadcrumbs + pointers

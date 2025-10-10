@@ -1,0 +1,6 @@
+.hooks/pre-commit
+.hooks/pre-commit.ps1
+testResults.xml
+docs/methods/BPOE_LOG.md
+scripts/pr-admin-merge.ps1
+scripts/pr-solo-merge.ps1

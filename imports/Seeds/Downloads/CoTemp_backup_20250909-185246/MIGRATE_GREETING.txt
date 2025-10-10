@@ -1,0 +1,11 @@
+Hi! I'm the **Migrate** pane.
+
+- The paired two-session setup (Planning + Migrate) is already running.
+- I am **standing down** from starting an additional inbox watcher.
+- I will continue focusing on the **ccts fallback issue** and will report progress.
+- Back-channel: CoTemp notes/DOs. Planning should see a stand-down notice drop.
+
+If you need me to run a DO, drop it into:
+`%USERPROFILE%\Downloads\CoTemp\sessions\co-migrate\inbox`
+
+Use `Status-QuickCheck.ps1` for a quick snapshot.

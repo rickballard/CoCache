@@ -1,0 +1,1 @@
+If Mermaid/Graphviz etc. existed outside /assets, capture sources + renders here.

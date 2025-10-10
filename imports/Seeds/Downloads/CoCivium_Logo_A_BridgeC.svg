@@ -1,0 +1,18 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .solid { fill: none; stroke: #222222; stroke-width: 24; stroke-linecap: round; }
+      .dash  { fill: none; stroke: #222222; stroke-width: 24; stroke-linecap: round; stroke-dasharray: 28.799999999999997 28.799999999999997; }
+      .bridge { fill: #222222; }
+    </style>
+  </defs>
+  <path class="solid" d="M 471.03999999999996 256.0
+        A 215.04 215.04 0 1 1 40.96000000000001 256.0
+        A 215.04 215.04 0 1 1 471.03999999999996 256.0"
+        stroke-dasharray="1088.4152468116956 262.72092164420246" />
+  <path class="dash" d="M 442.24 256.0
+        A 186.24 186.24 0 1 1 69.75999999999999 256.0
+        A 186.24 186.24 0 1 1 442.24 256.0"
+        stroke-dasharray="942.6453476851293 227.5350839239968" />
+  <rect class="bridge" x="432.928" y="241.6" width="21.6" height="28.799999999999997" rx="4.800000000000001" />
+</svg>

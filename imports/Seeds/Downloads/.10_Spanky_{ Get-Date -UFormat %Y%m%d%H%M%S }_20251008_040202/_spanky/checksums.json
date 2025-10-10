@@ -1,0 +1,70 @@
+{
+  "notes/INTENTIONS.md": {
+    "sha256": "da3a39c5b5eb93e82809d3c4075985c5ce5d6ce8ed9c45087351369a79a4a2b8",
+    "bytes": 487
+  },
+  "notes/ASSUMPTIONS.md": {
+    "sha256": "32f0791423d01736ce87033cbccef94f22883eeabd29fbfa99499d2cb4efc36c",
+    "bytes": 81
+  },
+  "payload/MISSING_PROGRAMMATIC_DIAGRAMS.txt": {
+    "sha256": "9705a0f8d22c437897627ce73f565fdd1b4f8e0d7246d98d277a725794ab408c",
+    "bytes": 116
+  },
+  "transcripts/session.md": {
+    "sha256": "6c0d4fb542ee52cae888945a7db7cc1e06dd4444da709eb5ed4f5eb2a77dd419",
+    "bytes": 805
+  },
+  "notes/RISKS.md": {
+    "sha256": "6818de788892401325402e6154a065e87622448050cc291cb4bcf8476eb9c414",
+    "bytes": 164
+  },
+  "notes/GLOSSARY.md": {
+    "sha256": "4fa5c74337b0f6a004c6a8a3a034af1eb843d11d9d10a1fca8a0c80899ec65b4",
+    "bytes": 93
+  },
+  "notes/DEPRECATED.md": {
+    "sha256": "35f59cef0b1f9414f70440a4aaa5e20a9f2c312fc38ee9d346bfdad94d2e73cf",
+    "bytes": 94
+  },
+  "summaries/TLDR.md": {
+    "sha256": "248d658d519d7c8a287b0b40f8fd796eba4a9ecc65b7ee8ac02339e8f73f6970",
+    "bytes": 104
+  },
+  "_spanky/_copayload.meta.json": {
+    "sha256": "ba245650be1f84913dda35c207e26d680663fe147cd06aec38514c20673c8db8",
+    "bytes": 231
+  },
+  "notes/BPOE.md": {
+    "sha256": "337b0528cf10bbf61bd6abcb65c21ea91880c74668b5fd8082b3467065c86bb8",
+    "bytes": 196
+  },
+  "notes/DECISIONS.md": {
+    "sha256": "7e117e42c953f8d530f984811b08b3e3a462aa79782291066f50a9b0a2db43e4",
+    "bytes": 121
+  },
+  "summaries/SOURCES.md": {
+    "sha256": "42366f885e150ed0d54a8d8fb6fbab8432cfd0951b039b1f2fec36fb45e3c431",
+    "bytes": 96
+  },
+  "_spanky/_wrap.manifest.json": {
+    "sha256": "d78313c5f3c2af5857db0535cd77b925b423170bfc5ba7b11ad682922717f507",
+    "bytes": 333
+  },
+  "payload/InSeed-SiteSweep.ps1": {
+    "sha256": "87818cb94168e40c3e1d536980b879f81ace9670337cb3aab364f3496d793233",
+    "bytes": 3740
+  },
+  "summaries/ROADMAP_NOTES.md": {
+    "sha256": "d5777836a3cd2a3ec2e690f6451127cf0225a1eb9b60115eb0bebf778dee192d",
+    "bytes": 192
+  },
+  "notes/DEPENDENCIES.md": {
+    "sha256": "84acd7b33d5e485845411458371c27203bd1f740d0099cc53c28078a54f21870",
+    "bytes": 93
+  },
+  "notes/WEBSITE_MANIFEST.md": {
+    "sha256": "680c36900c544ab3ee8e99c9e68ab5da3b8352437dc58e89589a35ae193a1a7f",
+    "bytes": 276
+  }
+}

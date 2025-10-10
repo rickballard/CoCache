@@ -1,0 +1,16 @@
+﻿At C:\Users\Chris\Downloads\CoTemp\sessions\co-migrate\inbox\DO_DO-RepoScan-ReadOnly_192357.ps1:11 char:71
++ ... p\CoAgent_SandboxRepo" -Recurse -File -ErrorAction SilentlyContinue |
++                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The string is missing the terminator: ".
+
+At C:\Users\Chris\Downloads\CoTemp\sessions\co-migrate\inbox\DO_DO-RepoScan-ReadOnly_192357.ps1:10 char:53
++ ... 9:23:57.9936520-04:00 â€” C:\Users\Chris\Desktop\CoAgent_SandboxRepo"
++                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Unexpected token 'C:\Users\Chris\Desktop\CoAgent_SandboxRepo"
+Get-ChildItem -LiteralPath "C:\Users\Chris\Desktop\CoAgent_SandboxRepo" -Recurse -File -ErrorAction SilentlyContinue |
+  Select-Object FullName, Length, LastWriteTime -First 50
+' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParseException
+    + FullyQualifiedErrorId : TerminatorExpectedAtEndOfString
+ 
+

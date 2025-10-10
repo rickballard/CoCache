@@ -1,0 +1,575 @@
+# Self-test — this MUST fail the commit
+"should block" | Set-Content "plans\private\SHOULD_BLOCK.md"
+git add plans\private\SHOULD_BLOCK.md
+try { git commit -m "TEST: should fail — plaintext in plans/private" } catch { Write-Host "(Hook blocked as expected.)" -ForegroundColor Yellow }
+git restore --staged plans\private\SHOULD_BLOCK.md; Remove-Item plans\private\SHOULD_BLOCK.md -Force
+git status -sb
+CoPong150
+# REPOINT
+Set-StrictMode -Version Latest; $ErrorActionPreference='Stop'
+Set-Location "$HOME\Documents\GitHub\CoCivium"
+$hookDir = ".git\hooks"; New-Item -ItemType Directory -Force -Path $hookDir | Out-Null
+# A) Bash entrypoint (no extension). Single-quoted so $0 isn't expanded by PowerShell.
+@'
+#!/usr/bin/env bash
+exec pwsh -NoProfile -ExecutionPolicy Bypass -File "$(dirname "$0")/pre-commit.ps1"
+'@ | Set-Content "$hookDir\pre-commit" -Encoding ASCII
+# B) PowerShell shim (calls your repo guard script)
+@'
+Set-StrictMode -Version Latest; $ErrorActionPreference = "Stop"
+& "$PWD\tools\protect\Precommit-ProtectPlans.ps1"
+exit $LASTEXITCODE
+'@ | Set-Content "$hookDir\pre-commit.ps1" -Encoding UTF8
+# Make executable for Git Bash (safe no-op on Windows if bash isn't available)
+try { bash -lc "chmod +x .git/hooks/pre-commit" } catch {}
+# Self-test — MUST block plaintext under plans/private
+"should block" | Set-Content "plans\private\SHOULD_BLOCK.md"
+git add plans\private\SHOULD_BLOCK.md
+try { git commit -m "TEST: should fail — plaintext in plans/private" } catch { Write-Host "(Hook blocked as expected.)" -ForegroundColor Yellow }
+git restore --staged plans\private\SHOULD_BLOCK.md; Remove-Item plans\private\SHOULD_BLOCK.md -Force
+git status -sb
+Set-Location "$HOME\Documents\GitHub\CoCivium"
+# Merge docs-only PRs (already queued for auto-merge): 334, 335, 336
+# Reassert auto-merge if needed (no-op if already set)
+foreach($id in 334,335,336){ gh pr merge $id --squash --delete-branch --auto }
+# Packs (asset-only) after docs
+foreach($id in 339,337){
+  $files = gh api repos/rickballard/CoCivium/pulls/$id/files --paginate --jq '.[].filename'
+  $docOnly = -not ($files | Where-Object { $_ -notmatch '^(docs/|assets/|website/|\.github/)' -and $_ -notmatch '\.(md|gif|png|jpg|jpeg|svg|yml|yaml)$' })
+  if($docOnly){ gh pr merge $id --squash --delete-branch --auto }
+  else { gh pr edit $id --add-label needs-review }
+}
+# Canonical dump (#343) — already set to auto-merge; leave to checks
+# Watch checks (optional)
+# pwsh -NoProfile -File .\tools\Watch-Checks.ps1
+Set-Location "$HOME\Documents\GitHub\CoCache"
+gh pr merge 20 --squash --delete-branch --auto
+Set-Location "$HOME\Documents\GitHub\CoCivium"
+gh pr checkout 341
+# 1) Guard: files must be docs-only
+$files = gh api repos/rickballard/CoCivium/pulls/341/files --paginate --jq '.[].filename'
+$bad = $files | Where-Object { $_ -notmatch '^(docs/|README|CONTRIBUTING|\.github/)' -and $_ -notmatch '\.(md|png|svg|gif|jpg|jpeg|yml|yaml)$' }
+if($bad){ gh pr comment 341 --body ":warning: Non-doc paths present:`n`n$($bad -join "`n")"; return }
+# 2) Markdown link check (HTTP HEAD/GET)
+$md = git diff --name-only HEAD~1.. | Where-Object { $_ -match '\.md$' }
+$links = @()
+$rx = '\[[^\]]+\]\((?<url>https?://[^)]+)\)'
+foreach($f in $md){
+  $txt = Get-Content $f -Raw
+  foreach($m in [regex]::Matches($txt,$rx)){ $links += [pscustomobject]@{File=$f;Url=$m.Groups['url'].Value} }
+}
+$badLinks = @()
+$hc = New-Object System.Net.Http.HttpClient
+foreach($l in $links | Select-Object -Unique){
+  try{ $resp = $hc.SendAsync((New-Object System.Net.Http.HttpRequestMessage 'Head',$l.Url)).GetAwaiter().GetResult()
+       if(-not $resp.IsSuccessStatusCode){ $resp = $hc.GetAsync($l.Url).GetAwaiter().GetResult() }
+       if(-not $resp.IsSuccessStatusCode){ $badLinks += $l } }
+  catch{ $badLinks += $l }
+}
+if($badLinks){
+  $body = ":broken_heart: Link check failures:`n" + ($badLinks | ForEach-Object { "- [$($_.File)] $($_.Url)" } | Out-String)
+  gh pr comment 341 --body $body
+}
+# 3) Headings & anchors sanity
+$anchorWarn = @()
+foreach($f in $md){
+  $lines = Get-Content $f
+  if(-not ($lines -match '^\#\s+')){ $anchorWarn += "$f — missing H1" }
+  if($lines -match '^\>\s*Terms:'){ $anchorWarn += "$f — 'Terms:' blockquoted (should be plain)" }
+}
+if($anchorWarn){ gh pr comment 341 --body (":bookmark_tabs: Structural notes:`n" + ($anchorWarn -join "`n")) }
+# 4) Outcome
+gh pr comment 341 --body "Automated review pass complete: docs-only check, link check, headings/anchors. Address comments (if any) then ready to merge."
+Set-Location "$HOME\Documents\GitHub\CoCivium"
+New-Item -ItemType Directory -Force -Path "tools\CoAgent" | Out-Null
+@'
+# tools/CoAgent/CoAgent.psm1
+function Get-CoAgentStatus {
+  param([string[]]$Repos=@("CoCivium","CoCache","GIBindex","Civium"))
+  foreach($r in $Repos){
+    Write-Host "`n=== $r ===" -ForegroundColor Cyan
+    gh pr list    --repo "rickballard/$r" --limit 10
+    gh issue list --repo "rickballard/$r" --limit 10
+  }
+}
+function Invoke-CoAgentMergeDocs {
+  param([string]$Repo="CoCivium")
+  $prs = gh pr list --repo "rickballard/$Repo" --label docs --json number | ConvertFrom-Json
+  foreach($p in $prs){
+    $id = $p.number
+    $files = gh api "repos/rickballard/$Repo/pulls/$id/files" --paginate --jq '.[].filename'
+    $docOnly = -not ($files | Where-Object { $_ -notmatch '^(docs/|README|\.github/|assets/|website/)' -and $_ -notmatch '\.(md|gif|png|jpg|jpeg|svg|yml|yaml)$' })
+    if($docOnly){ gh pr merge $id --repo "rickballard/$Repo" --squash --delete-branch --auto }
+  }
+}
+Export-ModuleMember -Function Get-CoAgentStatus,Invoke-CoAgentMergeDocs
+'@ | Set-Content "tools\CoAgent\CoAgent.psm1" -Encoding UTF8
+# one-line loader
+'Import-Module (Join-Path $PWD "tools\CoAgent\CoAgent.psm1")' | Add-Content $PROFILE
+. $PROFILE
+@'
+function Invoke-CoAgent {
+  param([ValidateSet("status","merge-docs")][string]$Cmd="status",[string]$Repo="CoCivium")
+  switch($Cmd){
+    "status"     { Get-CoAgentStatus }
+    "merge-docs" { Invoke-CoAgentMergeDocs -Repo $Repo }
+  }
+}
+Export-ModuleMember -Function Invoke-CoAgent
+'@ | Add-Content "tools\CoAgent\CoAgent.psm1"
+. $PROFILE
+# Try it:
+Invoke-CoAgent -Cmd status
+Invoke-CoAgent -Cmd merge-docs -Repo CoCivium
+CoPong150
+# REPOINT
+Set-StrictMode -Version Latest; $ErrorActionPreference='Stop'
+Set-Location "$HOME\Documents\GitHub\CoCivium"
+$hookDir = ".git\hooks"; New-Item -ItemType Directory -Force -Path $hookDir | Out-Null
+# A) Bash entrypoint (no extension). Single-quoted so $0 isn't expanded.
+@'
+#!/usr/bin/env bash
+exec pwsh -NoProfile -ExecutionPolicy Bypass -File "$(dirname "$0")/pre-commit.ps1"
+'@ | Set-Content "$hookDir\pre-commit" -Encoding ASCII
+try { bash -lc "chmod +x .git/hooks/pre-commit" } catch {}
+# B) PowerShell shim — compute repo root from the hook location, then call the guard.
+@'
+Set-StrictMode -Version Latest; $ErrorActionPreference = "Stop"
+$repoRoot = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)  # .../.git/hooks -> repo root
+$guard = Join-Path $repoRoot "tools\protect\Precommit-ProtectPlans.ps1"
+if (!(Test-Path $guard)) {
+  Write-Host "⚠ Guard script not found: $guard" -ForegroundColor Yellow
+  exit 1
+}
+# Run the guard from the REPO ROOT so 'git diff --cached' sees the right index
+Push-Location $repoRoot
+try {
+  & $guard
+  $code = $LASTEXITCODE
+} finally {
+  Pop-Location
+}
+exit $code
+'@ | Set-Content "$hookDir\pre-commit.ps1" -Encoding UTF8
+# Self-test — MUST be blocked with a clear message from the guard
+"should block" | Set-Content "plans\private\SHOULD_BLOCK.md"
+git add plans\private\SHOULD_BLOCK.md
+try { git commit -m "TEST: should fail — plaintext in plans/private" } catch { "`n(Hook blocked as expected.)" | Write-Host -ForegroundColor Yellow }
+git restore --staged plans\private\SHOULD_BLOCK.md; Remove-Item plans\private\SHOULD_BLOCK.md -Force
+git status -sb
+Set-StrictMode -Version Latest; $ErrorActionPreference='Stop'
+Set-Location "$HOME\Documents\GitHub\CoCivium"
+# Reload the module to pick up the new exports
+Remove-Module CoAgent -ErrorAction SilentlyContinue
+Import-Module (Join-Path $PWD "tools\CoAgent\CoAgent.psm1") -Force
+# Sanity
+Get-Command -Module CoAgent | Format-Table Name, CommandType
+# Try it
+Invoke-CoAgent -Cmd status
+Invoke-CoAgent -Cmd merge-docs -Repo CoCivium
+@'
+function Test-CoRepoPolish {
+  param([string]$RepoPath = (Get-Location).Path)
+  Set-Location $RepoPath
+  $r = [ordered]@{}
+  $r.Repo = Split-Path -Leaf $RepoPath
+  $r.GitAttributesLF = Test-Path ".gitattributes" -PathType Leaf -and ((Get-Content .gitattributes -Raw) -match "eol=lf")
+  $r.IssueChooser     = Test-Path ".github\ISSUE_TEMPLATE\config.yml"
+  $r.HeroAssets       = (Test-Path "assets\hero\quote-960w.png") -and (Test-Path "assets\hero\hero.gif")
+  $r.CrestMention     = (Select-String -Path "README.md" -Pattern "CC crest" -SimpleMatch -Quiet)
+  $r.TwoEyesMention   = (Select-String -Path "README.md" -Pattern "Two Eyes" -SimpleMatch -Quiet)
+  [pscustomobject]$r
+}
+
+function Invoke-CoAgentPolishScan {
+  param([string[]]$Repos=@("CoCivium","CoCache","GIBindex","Civium"))
+  $root = Join-Path $HOME "Documents\GitHub"
+  $out = foreach($r in $Repos){ Test-CoRepoPolish -RepoPath (Join-Path $root $r) }
+  $out | Format-Table -AutoSize
+}
+
+function Invoke-CoAgentReview341 {
+  # Re-run the PR #341 checks quickly
+  Set-Location "$HOME\Documents\GitHub\CoCivium"
+  $files = gh api repos/rickballard/CoCivium/pulls/341/files --paginate --jq '.[].filename'
+  $bad = $files | Where-Object { $_ -notmatch '^(docs/|README|CONTRIBUTING|\.github/)' -and $_ -notmatch '\.(md|png|svg|gif|jpg|jpeg|yml|yaml)$' }
+  if($bad){ gh pr comment 341 --body ":warning: Non-doc paths present:`n`n$($bad -join "`n")" }
+
+  $md = $files | Where-Object { $_ -match '\.md$' }
+  $hc = New-Object System.Net.Http.HttpClient
+  $rx = '\[[^\]]+\]\((?<url>https?://[^)]+)\)'
+  $badLinks = @()
+  foreach($f in $md){
+    $txt = Get-Content $f -Raw
+    foreach($m in [regex]::Matches($txt,$rx)){
+      $u = $m.Groups['url'].Value
+      try{
+        $resp = $hc.SendAsync((New-Object System.Net.Http.HttpRequestMessage 'Head',$u)).GetAwaiter().GetResult()
+        if(-not $resp.IsSuccessStatusCode){ $resp = $hc.GetAsync($u).GetAwaiter().GetResult() }
+        if(-not $resp.IsSuccessStatusCode){ $badLinks += "$f → $u ($($resp.StatusCode))" }
+      } catch { $badLinks += "$f → $u (error)" }
+    }
+  }
+  if($badLinks){ gh pr comment 341 --body (":broken_heart: Link check failures:`n" + ($badLinks -join "`n")) }
+  gh pr comment 341 --body "CoAgent review pass done. Respond to comments, then we merge."
+}
+
+# Extend the front door
+function Invoke-CoAgent {
+  param([ValidateSet("status","merge-docs","polish-scan","review-341")] [string]$Cmd="status",
+        [string]$Repo="CoCivium")
+  switch($Cmd){
+    "status"      { Get-CoAgentStatus }
+    "merge-docs"  { Invoke-CoAgentMergeDocs -Repo $Repo }
+    "polish-scan" { Invoke-CoAgentPolishScan }
+    "review-341"  { Invoke-CoAgentReview341 }
+  }
+}
+Export-ModuleMember -Function Invoke-CoAgent,Invoke-CoAgentPolishScan,Invoke-CoAgentReview341,Test-CoRepoPolish
+'@ | Add-Content "tools\CoAgent\CoAgent.psm1"
+Remove-Module CoAgent -ErrorAction SilentlyContinue
+Import-Module (Join-Path $PWD "tools\CoAgent\CoAgent.psm1") -Force
+# Try the new commands
+Invoke-CoAgent -Cmd polish-scan
+Invoke-CoAgent -Cmd review-341
+CoPong150
+function CoPong {
+  param([int]$Lines = 150)
+  Set-StrictMode -Version Latest; $ErrorActionPreference="Stop"
+  $parts = @()
+
+  # 1) Transcript tail (if active/known)
+  if ($global:__CoPingLog -and (Test-Path $global:__CoPingLog)) {
+    $parts += Get-Content -Tail $Lines -Path $global:__CoPingLog
+  }
+
+  # 2) Live session history tail (commands typed)
+  try {
+    $hist = (Get-History | Select-Object -Last $Lines | ForEach-Object { $_.CommandLine })
+    if ($hist) { $parts += "---- PS7 History tail ----"; $parts += $hist }
+  } catch {}
+
+  # 3) Fallback to last saved CoPong artifact if present
+  $logDir = Join-Path $HOME "Downloads\CoCivium-Logs"
+  if (Test-Path $logDir) {
+    $last = Get-ChildItem $logDir -Filter "copong_*.txt" | Sort-Object LastWriteTime -Descending | Select-Object -First 1
+    if ($last) {
+      $parts += "---- Last copong file ----"
+      $parts += Get-Content $last.FullName -Tail $Lines
+    }
+  }
+
+  $text = ($parts | Select-Object -Last $Lines) -join [Environment]::NewLine
+  Set-Clipboard -Value $text
+  $out = Join-Path (Join-Path $HOME "Downloads\CoCivium-Logs") ("copong_$(Get-Date -Format yyyyMMdd_HHmmss).txt")
+  New-Item -ItemType Directory -Force -Path (Split-Path $out) | Out-Null
+  $text | Set-Content $out -Encoding UTF8
+  Write-Host "✓ CoPong: copied ~${Lines} lines (transcript+history) to clipboard. Saved: $out" -ForegroundColor Green
+}
+Set-Alias CoPong150 CoPong
+Set-Location "$HOME\Documents\GitHub\CoCivium"
+$hook = ".git\hooks\pre-commit.ps1"
+@'
+Set-StrictMode -Version Latest; $ErrorActionPreference="Stop"
+# Guard: forbid committing plaintext files in plans/private (allow only *.enc.*)
+$staged = git diff --cached --name-only
+$viol = $staged | Where-Object { $_ -like "plans/private/*" -and $_ -notmatch "\.enc\." }
+if($viol){
+  Write-Host "❌ Blocked: plaintext in plans/private — use SOPS to encrypt (*.enc.*)" -ForegroundColor Red
+  $viol | ForEach-Object { Write-Host " - $_" -ForegroundColor Yellow }
+  exit 1
+}
+exit 0
+'@ | Set-Content $hook -Encoding UTF8
+function Test-CoRepoPolish {
+  param([string]$RepoPath = (Get-Location).Path)
+  Push-Location $RepoPath
+  try{
+    $hasGA = Test-Path ".gitattributes" -PathType Leaf
+    $r = [ordered]@{}
+    $r.Repo            = Split-Path -Leaf $RepoPath
+    $r.GitAttributesLF = $hasGA -and ((Get-Content .gitattributes -Raw) -match 'eol=lf')
+    $r.IssueChooser    = Test-Path ".github\ISSUE_TEMPLATE\config.yml"
+    $r.HeroAssets      = (Test-Path "assets\hero\quote-960w.png") -and (Test-Path "assets\hero\hero.gif")
+    $r.CrestMention    = (Test-Path "README.md") -and (Select-String -Path "README.md" -Pattern "CC crest" -SimpleMatch -Quiet)
+    $r.TwoEyesMention  = (Test-Path "README.md") -and (Select-String -Path "README.md" -Pattern "Two Eyes" -SimpleMatch -Quiet)
+    [pscustomobject]$r
+  } finally { Pop-Location }
+}
+Remove-Module CoAgent -ErrorAction SilentlyContinue
+Import-Module (Join-Path $PWD "tools\CoAgent\CoAgent.psm1") -Force
+Invoke-CoAgent -Cmd polish-scan
+CoPong150
+Set-StrictMode -Version Latest; $ErrorActionPreference='Stop'
+Set-Location "$HOME\Documents\GitHub\CoCivium"
+$mod = "tools\CoAgent\CoAgent.psm1"
+@'
+# === CoAgent.psm1 (consolidated, corrected) ===
+function Get-CoAgentStatus {
+  param([string[]]$Repos=@("CoCivium","CoCache","GIBindex","Civium"))
+  foreach($r in $Repos){
+    Write-Host "`n=== $r ===" -ForegroundColor Cyan
+    gh pr list    --repo "rickballard/$r" --limit 10
+    gh issue list --repo "rickballard/$r" --limit 10
+  }
+}
+
+function Invoke-CoAgentMergeDocs {
+  param([string]$Repo="CoCivium")
+  $prs = gh pr list --repo "rickballard/$Repo" --label docs --json number | ConvertFrom-Json
+  foreach($p in $prs){
+    $id = $p.number
+    $files = gh api "repos/rickballard/$Repo/pulls/$id/files" --paginate --jq '.[].filename'
+    $docOnly = -not ($files | Where-Object { $_ -notmatch '^(docs/|README|\.github/|assets/|website/)' -and $_ -notmatch '\.(md|gif|png|jpg|jpeg|svg|yml|yaml)$' })
+    if($docOnly){ gh pr merge $id --repo "rickballard/$Repo" --squash --delete-branch --auto }
+  }
+}
+
+function Test-CoRepoPolish {
+  param([string]$RepoPath = (Get-Location).Path)
+  Push-Location $RepoPath
+  try{
+    $hasGA = Test-Path ".gitattributes" -PathType Leaf
+    $r = [ordered]@{}
+    $r.Repo            = Split-Path -Leaf $RepoPath
+    $r.GitAttributesLF = ($hasGA) -and ((Get-Content .gitattributes -Raw) -match 'eol=lf')
+    $r.IssueChooser    = Test-Path ".github\ISSUE_TEMPLATE\config.yml"
+    $r.HeroAssets      = (Test-Path "assets\hero\quote-960w.png") -and (Test-Path "assets\hero\hero.gif")
+    $r.CrestMention    = (Test-Path "README.md") -and (Select-String -Path "README.md" -Pattern "CC crest" -SimpleMatch -Quiet)
+    $r.TwoEyesMention  = (Test-Path "README.md") -and (Select-String -Path "README.md" -Pattern "Two Eyes" -SimpleMatch -Quiet)
+    [pscustomobject]$r
+  } finally { Pop-Location }
+}
+
+function Invoke-CoAgentPolishScan {
+  param([string[]]$Repos=@("CoCivium","CoCache","GIBindex","Civium"))
+  $root = Join-Path $HOME "Documents\GitHub"
+  $rows = foreach($r in $Repos){ Test-CoRepoPolish -RepoPath (Join-Path $root $r) }
+  $rows | Format-Table -AutoSize
+}
+
+function Invoke-CoAgentReview341 {
+  Set-Location "$HOME\Documents\GitHub\CoCivium"
+  $files = gh api repos/rickballard/CoCivium/pulls/341/files --paginate --jq '.[].filename'
+  $bad = $files | Where-Object { $_ -notmatch '^(docs/|README|CONTRIBUTING|\.github/)' -and $_ -notmatch '\.(md|png|svg|gif|jpg|jpeg|yml|yaml)$' }
+  if($bad){ gh pr comment 341 --body ":warning: Non-doc paths present:`n`n$($bad -join "`n")" }
+
+  $md = $files | Where-Object { $_ -match '\.md$' }
+  $hc = New-Object System.Net.Http.HttpClient
+  $rx = '\[[^\]]+\]\((?<url>https?://[^)]+)\)'
+  $badLinks = @()
+  foreach($f in $md){
+    $txt = Get-Content $f -Raw
+    foreach($m in [regex]::Matches($txt,$rx)){
+      $u = $m.Groups['url'].Value
+      try{
+        $resp = $hc.SendAsync((New-Object System.Net.Http.HttpRequestMessage 'Head',$u)).GetAwaiter().GetResult()
+        if(-not $resp.IsSuccessStatusCode){ $resp = $hc.GetAsync($u).GetAwaiter().GetResult() }
+        if(-not $resp.IsSuccessStatusCode){ $badLinks += "$f → $u ($($resp.StatusCode))" }
+      } catch { $badLinks += "$f → $u (error)" }
+    }
+  }
+  if($badLinks){ gh pr comment 341 --body (":broken_heart: Link check failures:`n" + ($badLinks -join "`n")) }
+  gh pr comment 341 --body "CoAgent review pass done. Respond to comments, then we merge."
+}
+
+function Invoke-CoAgent {
+  param([ValidateSet("status","merge-docs","polish-scan","review-341")] [string]$Cmd="status",
+        [string]$Repo="CoCivium")
+  switch($Cmd){
+    "status"      { Get-CoAgentStatus }
+    "merge-docs"  { Invoke-CoAgentMergeDocs -Repo $Repo }
+    "polish-scan" { Invoke-CoAgentPolishScan }
+    "review-341"  { Invoke-CoAgentReview341 }
+  }
+}
+
+Export-ModuleMember -Function `
+  Get-CoAgentStatus,Invoke-CoAgentMergeDocs,Test-CoRepoPolish,Invoke-CoAgentPolishScan,Invoke-CoAgentReview341,Invoke-CoAgent
+# === end ===
+'@ | Set-Content $mod -Encoding UTF8
+Remove-Module CoAgent -ErrorAction SilentlyContinue
+Import-Module (Join-Path $PWD $mod) -Force
+# Try it
+Invoke-CoAgent -Cmd polish-scan
+Set-Location "$HOME\Documents\GitHub\CoCivium"
+New-Item -ItemType Directory -Force -Path "plans\private" | Out-Null
+"plaintext" | Set-Content "plans\private\PLAINTEXT.md"
+git add plans\private\PLAINTEXT.md
+try { git commit -m "TEST: should fail" } catch { Write-Host "(Blocked as designed.)" -ForegroundColor Yellow }
+git restore --staged plans\private\PLAINTEXT.md; Remove-Item plans\private\PLAINTEXT.md -Force
+javascript:(async()=>{try{const t=await navigator.clipboard.readText();const isEditable=el=>el&&((el.tagName==='TEXTAREA'||el.tagName==='INPUT')||el.isContentEditable);let el=document.activeElement;if(!isEditable(el)){el=document.querySelector('textarea,[contenteditable="true"]');}if(!isEditable(el)){alert('No input found. Click the message box first.');return;}el.focus();if(el.tagName==='TEXTAREA'||el.tagName==='INPUT'){el.value=t;el.dispatchEvent(new Event('input',{bubbles:true}));}else{const s=window.getSelection();s.removeAllRanges();const r=document.createRange();r.selectNodeContents(el);r.collapse(false);s.addRange(r);document.execCommand('insertText',false,t);}const btn=document.querySelector('button[aria-label*="send" i],button[data-testid*="send" i],button:has(svg[aria-label*="send" i])');if(btn){btn.click()}else{el.dispatchEvent(new KeyboardEvent('keydown',{key:'Enter',code:'Enter',keyCode:13,which:13,bubbles:true}))}}catch(e){alert('Clipboard blocked: '+e);}})();
+CoPong150
+function CoPong {
+  param([int]$Lines = 150)
+  Set-StrictMode -Version Latest; $ErrorActionPreference="Stop"
+  $parts = @()
+
+  # Find an active transcript file path (var or last *.ps1log)
+  $logPath = $null
+  $v = Get-Variable -Name __CoPingLog -Scope Global -ErrorAction SilentlyContinue
+  if ($v -and $v.Value -and (Test-Path $v.Value)) { $logPath = $v.Value }
+  if (-not $logPath) {
+    $logDir = Join-Path $HOME 'Downloads\CoCivium-Logs'
+    if (Test-Path $logDir) {
+      $lastLog = Get-ChildItem $logDir -Filter *.ps1log -ErrorAction SilentlyContinue |
+                 Sort-Object LastWriteTime -Descending | Select-Object -First 1
+      if ($lastLog) { $logPath = $lastLog.FullName }
+    }
+  }
+  if ($logPath) { $parts += Get-Content -Tail $Lines -Path $logPath }
+
+  # Also include interactive history tail
+  try {
+    $hist = Get-History | Select-Object -Last $Lines | ForEach-Object { $_.CommandLine }
+    if ($hist) { $parts += '---- PS7 History tail ----'; $parts += $hist }
+  } catch {}
+
+  $text = ($parts | Select-Object -Last $Lines) -join [Environment]::NewLine
+  if (-not $text) { $text = "(CoPong: nothing to copy — no transcript or history found.)" }
+
+  Set-Clipboard -Value $text
+  $outDir = Join-Path $HOME 'Downloads\CoCivium-Logs'
+  New-Item -ItemType Directory -Force -Path $outDir | Out-Null
+  $out = Join-Path $outDir ("copong_{0}.txt" -f (Get-Date -Format 'yyyyMMdd_HHmmss'))
+  $text | Set-Content $out -Encoding UTF8
+  Write-Host "✓ CoPong: copied ~${Lines} lines to clipboard. Saved: $out" -ForegroundColor Green
+}
+Set-Alias CoPong150 CoPong
+Set-StrictMode -Version Latest; $ErrorActionPreference='Stop'
+$root = Join-Path $HOME 'Documents\GitHub'
+# 1×1 transparent PNG and GIF placeholders (base64)
+$png1x1 = 'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAA
+AAC0lEQVR42mP8/x8AAucB9UqI2c0AAAAASUVORK5CYII=' -replace '\s',''
+$gif1x1 = 'R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==' 
+$targets = @(
+  @{ name='CoCivium'; branch='polish/crest-mentions-250904' ; fixChooser=$false },
+  @{ name='CoCache' ; branch='polish/boilerplate-250904'     ; fixChooser=$true  },
+  @{ name='GIBindex'; branch='polish/boilerplate-250904'     ; fixChooser=$false },
+  @{ name='Civium'  ; branch='polish/boilerplate-250904'     ; fixChooser=$true  }
+)
+foreach($t in $targets){
+  $repo = $t.name; $path = Join-Path $root $repo
+  if (!(Test-Path $path)) { Write-Host "Skip $repo (missing)" -ForegroundColor Yellow; continue }
+  Push-Location $path
+  try{
+    git switch -c $t.branch 2>$null | Out-Null
+
+    # Issue chooser
+    if ($t.fixChooser){
+      New-Item -ItemType Directory -Force -Path ".github\ISSUE_TEMPLATE" | Out-Null
+      @"
+blank_issues_enabled: false
+contact_links:
+  - name: Idea / Suggestion (fast)
+    url: https://github.com/rickballard/$repo/issues/new?template=idea.yml
+    about: Share a scoped idea to help $repo evolve.
+  - name: Questions / Discussions
+    url: https://github.com/rickballard/$repo/discussions
+    about: Ask questions or propose larger topics.
+"@ | Set-Content ".github\ISSUE_TEMPLATE\config.yml" -Encoding UTF8
+      git add ".github/ISSUE_TEMPLATE/config.yml"
+    }
+
+    # README mentions
+    $readme = "README.md"
+    if (Test-Path $readme){
+      $txt = Get-Content $readme -Raw
+      if ($txt -notmatch 'CC crest'){ $txt += "`n`n> CC crest: see `docs/cc-scroll-c2` and assets. (Temporary pointer)" }
+      if ($txt -notmatch 'Two Eyes'){ $txt += "`n`n> Two Eyes progress map: linked from `/docs/` (Eyes C1 series)." }
+      Set-Content $readme -Value $txt -Encoding UTF8
+      git add $readme
+    }
+
+    # Hero assets placeholders
+    $heroDir = 'assets\hero'
+    New-Item -ItemType Directory -Force -Path $heroDir | Out-Null
+    $pngPath = Join-Path $heroDir 'quote-960w.png'
+    $gifPath = Join-Path $heroDir 'hero.gif'
+    if (!(Test-Path $pngPath)){ [IO.File]::WriteAllBytes($pngPath, [Convert]::FromBase64String($png1x1)) }
+    if (!(Test-Path $gifPath)){ [IO.File]::WriteAllBytes($gifPath, [Convert]::FromBase64String($gif1x1)) }
+    git add $pngPath, $gifPath
+
+    # Commit & push (no-loss policy; placeholders are non-destructive)
+    if (git diff --cached --quiet) {
+      Write-Host "$repo: nothing to commit" -ForegroundColor DarkGray
+    } else {
+      git commit -m "polish: add issue chooser, hero placeholders, and README pointers (crest/Two Eyes)"
+      git push --set-upstream origin $t.branch
+    }
+  } finally { Pop-Location }
+}
+# Re-scan
+Import-Module (Join-Path (Join-Path $root 'CoCivium') 'tools\CoAgent\CoAgent.psm1') -Force
+Invoke-CoAgent -Cmd polish-scan
+CoPong150
+Write-Host "$repo: nothing to commit"Write-Host "$repo: nothing to commit"
+Write-Host "${repo}: nothing to commit"
+# or
+Write-Host ("{0}: nothing to commit" -f $repo)
+function Start-CoTranscript([string]$Tag='session'){
+  $dir = Join-Path $HOME 'Downloads\CoCivium-Logs'
+  New-Item -ItemType Directory -Force -Path $dir | Out-Null
+  $path = Join-Path $dir ("{0}-{1}.ps1log" -f $Tag,(Get-Date -Format 'yyyyMMdd_HHmmss'))
+  Start-Transcript -Path $path -IncludeInvocationHeader | Out-Null
+  $global:__CoPingLog = $path
+  Write-Host "→ Transcript: $path"
+}
+# CoPongPaste — Paste & Send to Chat
+## Option A — Bookmarklet (fastest)
+1. Show your bookmarks bar (`Ctrl+Shift+B` / `⌘+Shift+B`).
+2. Create a bookmark named **CoPongPaste** with this URL (exactly):
+function CoPong {
+  param([int]$Lines = 150, [switch]$CommandsOnly)
+  Set-StrictMode -Version Latest; $ErrorActionPreference="Stop"
+  $parts = @()
+
+  # Detect an active transcript safely
+  $logPath = $null
+  $v = Get-Variable -Name __CoPingLog -Scope Global -ErrorAction SilentlyContinue
+  if ($v -and $v.Value -and (Test-Path $v.Value)) { $logPath = $v.Value }
+
+  if ($logPath) {
+    # Pull extra so filtering still leaves ~Lines
+    $raw = Get-Content -Path $logPath -Tail ($Lines * 4)
+
+    # Strip banners / noise that cause re-pastes to snowball
+    $rxDrop = '^(PowerShell transcript (start|end)|\*{10,}|^→ Transcript:|^✓ CoPong:|^Command start time:|^<<< CoPong PS|^PS CoPong >>>)\b'
+    $raw = $raw | Where-Object { $_ -notmatch $rxDrop }
+
+    if ($CommandsOnly) {
+      # Keep prompts, continuations, and error frames only
+      $raw = $raw | Where-Object {
+        $_ -match '^\s*PS [^>]+>\s' -or $_ -match '^\s*>>' -or $_ -match '^\s*Line \|' -or $_ -match '^\s*At line'
+      }
+    }
+    $parts += $raw
+  }
+
+  # Also include current live command history tail (never the prior copong file)
+  try {
+    $hist = Get-History | Select-Object -Last $Lines | ForEach-Object { $_.CommandLine }
+    if ($hist) { $parts += '---- PS7 History tail ----'; $parts += $hist }
+  } catch {}
+
+  if (-not $parts) { $parts = @("(CoPong: nothing to copy — start Start-CoTranscript or run some commands.)") }
+
+  # Emit
+  $text = (($parts | Select-Object -Last $Lines) -join [Environment]::NewLine)
+  Set-Clipboard -Value $text
+  $dir = Join-Path $HOME 'Downloads\CoCivium-Logs'; New-Item -ItemType Directory -Force -Path $dir | Out-Null
+  $out = Join-Path $dir ("copong_{0}.txt" -f (Get-Date -Format 'yyyyMMdd_HHmmss'))
+  $text | Set-Content $out -Encoding UTF8
+  Write-Host "✓ CoPong: copied ~${Lines} lines to clipboard. Saved: $out" -ForegroundColor Green
+}
+Set-Alias CoPong150 CoPong
+function CoPong-Reset {
+  Set-StrictMode -Version Latest; $ErrorActionPreference="Stop"
+  Remove-Variable -Name __CoPingLog -Scope Global -ErrorAction SilentlyContinue
+  $dir = Join-Path $HOME 'Downloads\CoCivium-Logs'
+  if (Test-Path $dir) {
+    Get-ChildItem $dir -Filter 'copong_*.txt' -File -ErrorAction SilentlyContinue | Remove-Item -Force -ErrorAction SilentlyContinue
+  }
+  Write-Host "CoPong state reset." -ForegroundColor Cyan
+}
+CoPong-Reset
