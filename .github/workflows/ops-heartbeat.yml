@@ -1,6 +1,7 @@
 name: ops-heartbeat
 
 on:
+  workflow_dispatch:
   schedule:
     # ~08:05 and ~13:35 Pacific (15:05/20:35 UTC) — adjust as needed
     - cron: "5 15 * * *"
@@ -38,3 +39,4 @@ jobs:
         shell: pwsh
         run: |
           ./tools/update-rickdo.ps1 -RickDoPath "$PWD/RickDo" -CoCachePath "$PWD" -Accel 3.0
+
