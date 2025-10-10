@@ -1,0 +1,9 @@
+0000000000000000000000000000000000000000 dbb862d988a34dc5ed12bae4106bea74200cf4bd Rick Ball <41898282+rickballard@users.noreply.github.com> 1757317996 -0400	commit (initial): init sandbox
+dbb862d988a34dc5ed12bae4106bea74200cf4bd 3c1ae1ad610a8126de8a8b5f207b755af19d5387 Rick Ball <41898282+rickballard@users.noreply.github.com> 1757318708 -0400	commit: simulated change before failure
+3c1ae1ad610a8126de8a8b5f207b755af19d5387 dbb862d988a34dc5ed12bae4106bea74200cf4bd Rick Ball <41898282+rickballard@users.noreply.github.com> 1757318710 -0400	reset: moving to HEAD~1
+dbb862d988a34dc5ed12bae4106bea74200cf4bd ec5e7a35f1e0e359cc86cbd178069e911c0c422c Rick Ball <41898282+rickballard@users.noreply.github.com> 1757319743 -0400	commit: simulated change before failure
+ec5e7a35f1e0e359cc86cbd178069e911c0c422c dbb862d988a34dc5ed12bae4106bea74200cf4bd Rick Ball <41898282+rickballard@users.noreply.github.com> 1757319744 -0400	reset: moving to HEAD~1
+dbb862d988a34dc5ed12bae4106bea74200cf4bd e50a5f6cdb0bf63a2519765d7ec392d7a5841669 Rick Ball <41898282+rickballard@users.noreply.github.com> 1757320200 -0400	commit: simulated change before failure
+e50a5f6cdb0bf63a2519765d7ec392d7a5841669 dbb862d988a34dc5ed12bae4106bea74200cf4bd Rick Ball <41898282+rickballard@users.noreply.github.com> 1757320201 -0400	reset: moving to HEAD~1
+dbb862d988a34dc5ed12bae4106bea74200cf4bd 4098182d0b053255a035e1a2091f60a11dc9b7ec Rick Ball <41898282+rickballard@users.noreply.github.com> 1757320214 -0400	commit: simulated change before failure
+4098182d0b053255a035e1a2091f60a11dc9b7ec dbb862d988a34dc5ed12bae4106bea74200cf4bd Rick Ball <41898282+rickballard@users.noreply.github.com> 1757320215 -0400	reset: moving to HEAD~1

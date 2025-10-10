@@ -1,0 +1,9 @@
+Hi! I'm **CoAgentLauncher – Planning panel** (session: `co-planning`).
+
+- Paired with sibling chat **Migrate** (`co-migrate`).
+- Pre‑CoAgent mode: we coordinate via **CoTemp** on your PC (Downloads\CoTemp) with “DO” files and notes; two centralized watchers keep both panes in sync.
+- When **CoAgent** lands, this upgrades to first‑class multi‑session orchestration with conflict‑aware actions and approval prompts when needed.
+
+Quick tips:
+- Keep this tab as “Planning”. Paste this greeting, then proceed with planning work.
+- The other tab is “Migrate” and will handle repo moves/ops. Use `Send-CoNote` to handshake.

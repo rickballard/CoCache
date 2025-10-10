@@ -1,0 +1,34 @@
+{
+  "session_key": "MultiSessionLockups",
+  "timestamp": "20251009_231947",
+  "structure": {
+    "_spanky": [
+      "_copayload.meta.json",
+      "_wrap.manifest.json",
+      "checksums.json",
+      "out.txt"
+    ],
+    "transcripts": [
+      "session.md"
+    ],
+    "payload": [
+      "QA_PROMPT.md"
+    ],
+    "notes": [
+      "BPOE.md",
+      "INTENTIONS.md",
+      "DEPENDENCIES.md",
+      "DECISIONS.md",
+      "ASSUMPTIONS.md",
+      "RISKS.md",
+      "GLOSSARY.md",
+      "WEBSITE_MANIFEST.md",
+      "DEPRECATED.md"
+    ],
+    "summaries": [
+      "TLDR.md",
+      "ROADMAP_NOTES.md",
+      "SOURCES.md"
+    ]
+  }
+}

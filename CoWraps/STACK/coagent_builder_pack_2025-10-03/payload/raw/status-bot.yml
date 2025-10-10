@@ -1,0 +1,33 @@
+name: status-bot
+on:
+  push:
+    branches: [ main ]
+    paths: ["**"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-status:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate status.json
+        shell: pwsh
+        run: pwsh -File tools/Write-Status.ps1
+      - name: Commit to a branch
+        run: |
+          git config user.name "coagent-status-bot"
+          git config user.email "status-bot@users.noreply.github.com"
+          BR="bot/status-update-$(date +%Y%m%d-%H%M%S)"
+          git checkout -b "$BR"
+          git add docs/status.json
+          git commit -m "docs: refresh status.json (bot)"
+          git push -u origin "$BR"
+          echo "BR=$BR" >> $GITHUB_ENV
+      - name: Open PR (or label if exists)
+        env: { GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} }
+        run: |
+          gh pr create --head "$BR" --base main             -t "docs: refresh status.json (bot)"             -b "Automated status refresh via status-bot." ||           gh pr edit --add-label "status-bot"

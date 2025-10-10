@@ -1,0 +1,19 @@
+{
+  "_spanky/_wrap.manifest.json": "d661248b411e09993576eedc7d8e2f590f22e016b5d37e364c9d63cad4efe576",
+  "_spanky/_copayload.meta.json": "268a67bb1c6078affe9dc036273d7a703a20d6d1f3e2c482f919468f56575344",
+  "_spanky/out.txt": "49dcc825d7a059ca7e450ec4abba02ac647cc11372b0c05a46eb579c9dcab69d",
+  "transcripts/session.md": "f267b9533e9a08c2407bf56ec142db544bbf08afda80e268348f6b25fdf1b2f4",
+  "payload/QA_PROMPT.md": "b7731830d9ad8aaa62133547800b21a7d8f088ba19000117fffdc9dd88fe3866",
+  "notes/BPOE.md": "2c3d16c9be6748c26bfacb49afcb4674e71898754d931cac712c4eb42180df9f",
+  "notes/INTENTIONS.md": "b43c2fa577c970c61d5faae55ee0b47c76edb661c4852988e9923b754b66fd31",
+  "notes/DEPENDENCIES.md": "1a1600cdf2751479f5456508eeda3f54d047b9c229e597b99bdef82ae39c94e5",
+  "notes/DECISIONS.md": "0d4c5648ac2db7fa019cb3fdec8b83da7e2684baa632954f13cdc99b99a7362f",
+  "notes/ASSUMPTIONS.md": "d61151c149ab57129f5cc12d3e5e12b7726eda2cd529d5c3af10868b9de8f631",
+  "notes/RISKS.md": "06e512af608491f868cbd9749492a42f9790e78de130189f0a1e56b412151f46",
+  "notes/GLOSSARY.md": "04eddf18788dbb832c45da41b6e61af2e63e67cc031a073b542decc7e0e38328",
+  "notes/WEBSITE_MANIFEST.md": "f0952b1046b94b676cda5a8b03d931f4d663e8f10f7f870c6d6a1ff6dc92f2cc",
+  "notes/DEPRECATED.md": "74cdbe8582c4db0ae0c60090a2d6fdc35f14879985306aa9c9b8ff2db2e4fd65",
+  "summaries/TLDR.md": "c85daf80e1099e098419821e62f9e64fef1b1e7f226ba38b6d547fda1569b349",
+  "summaries/ROADMAP_NOTES.md": "0fa68dea49751b49a59dba15bd52e5ae270b33b0c41cef2c5cda6b45955ed2a1",
+  "summaries/SOURCES.md": "1ebc2fa02bff5227958f482aa619807bce66b6bc24bfe4d3c49d117b5b8bd664"
+}

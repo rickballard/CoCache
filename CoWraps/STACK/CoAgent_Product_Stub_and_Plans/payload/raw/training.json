@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Welcome",
+    "body": "No commands to paste. The launcher handles setup."
+  },
+  {
+    "title": "Sandbox",
+    "body": "NO_NETWORK=1 for safe dry-runs."
+  },
+  {
+    "title": "MVP Smoke",
+    "body": "Ping pages and report."
+  },
+  {
+    "title": "First Policy",
+    "body": "Draft 2-3 sentences from a template."
+  }
+]

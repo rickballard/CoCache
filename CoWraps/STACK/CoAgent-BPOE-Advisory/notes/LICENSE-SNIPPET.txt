@@ -1,0 +1,4 @@
+This repository includes operational patterns (BPOE) that constitute proprietary know‑how.
+Vendors hosting CI may enforce presence checks; the heuristics and decision logic remain
+executed within CoAgent and are not licensed for external training or derivative services.
+Parallel implementations for user protection are explicitly reserved.

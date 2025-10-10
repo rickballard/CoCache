@@ -1,0 +1,49 @@
+param(
+
+  [string]$SessionName = "Productize backchatter"
+
+)
+
+
+
+$desktop = [Environment]::GetFolderPath('Desktop')
+
+$wt      = Join-Path $env:LOCALAPPDATA 'Microsoft\WindowsApps\wt.exe'     # Windows Terminal
+
+$pwsh    = (Get-Command pwsh).Source                                      # PowerShell 7
+
+$pair    = Join-Path $HOME 'Documents\GitHub\CoAgent\tools\Pair-CoSession.ps1'
+
+
+
+# Icons (in this folder)
+
+$thisDir = Split-Path -Parent $MyInvocation.MyCommand.Path
+
+$icoFace = Join-Path $thisDir 'CatFace.ico'
+
+$icoPaw  = Join-Path $thisDir 'CatPaw.ico'
+
+$icoEye  = Join-Path $thisDir 'CatEye.ico'
+
+
+
+# Ensure Electron build.icon points to our app icon
+
+$pkg = Join-Path $HOME 'Documents\GitHub\CoAgent\electron\package.json'
+
+if (Test-Path $pkg) {
+
+  try {
+
+    $j = Get-Content $pkg -Raw | ConvertFrom-Json
+
+    if (-not $j.PSObject.Properties.Match('build')) { $j | Add-Member build (@{}) }
+
+    $j.build.icon = "build/icon.ico"
+
+    ($j | ConvertTo-Json -Depth 10) | Set-Content $pkg -Encoding UTF8
+
+    Write-Host "Set build.icon = build/icon.ico in electron/package.json"
+
+  } catch {}

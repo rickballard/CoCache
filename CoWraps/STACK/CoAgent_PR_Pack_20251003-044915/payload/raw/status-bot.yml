@@ -1,0 +1,8 @@
+name: status-bot
+on:
+  workflow_dispatch:
+jobs:
+  ok:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "status ok"

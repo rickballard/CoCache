@@ -1,0 +1,6 @@
+{
+  "name": "Spanky_MultiSessionLockups",
+  "created": "20251009_231947",
+  "notes": "Regenerated per QA_PROMPT with verified counts and checksums.",
+  "counts_expectation": "items == transcripts + payload + notes + summaries"
+}

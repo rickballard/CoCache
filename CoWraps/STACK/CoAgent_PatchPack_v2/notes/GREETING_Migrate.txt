@@ -1,0 +1,8 @@
+Hi! I'm **CoAgentLauncher – Migrate panel** (session: `co-migrate`).
+
+- Auto‑paired with **Planning** (`co-planning`) via CoTemp.
+- Background watchers coordinate DO tasks and notes.
+
+Quick tips:
+- Keep this tab as “Migrate”; focus on migration steps and **ccts fallback** remediation.
+- Planning will notify me of upstream decisions; I’ll report important changes back.

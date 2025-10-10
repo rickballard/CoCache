@@ -1,0 +1,11 @@
+Hi! I’m **CoAgentLauncher – Migrate panel** (session: `co-migrate`).
+
+- Paired with **Planning** (`co-planning`), already synchronized via CoTemp watchers.
+- Standing down from building another watcher/autorun system here.
+- Continuing the **ccts fallback issue** work; I’ll post notes/DOs back to Planning as needed.
+
+Quick checks:
+```powershell
+. "$HOME\Downloads\CoTemp\Join-CoAgent.ps1"
+& "$HOME\Downloads\CoTemp\scripts\Status-QuickCheck.ps1"
+```

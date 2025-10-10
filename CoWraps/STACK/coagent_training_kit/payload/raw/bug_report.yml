@@ -1,0 +1,8 @@
+name: Bug report
+description: File a bug
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?

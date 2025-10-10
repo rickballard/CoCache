@@ -1,0 +1,32 @@
+{
+  "id": "CoAgent/docs/index/COAGENT-INDEX.md",
+  "path": "docs/index/COAGENT-INDEX.md",
+  "title": "COAGENT-INDEX",
+  "type": "policy",
+  "canonicality": 3,
+  "status": "active",
+  "version": "0.1.0",
+  "tags": [
+    "CoAgent",
+    "Roadmap"
+  ],
+  "owners": [],
+  "provenance": {
+    "author": "",
+    "generated_by": "RoadmapPack v1",
+    "source": "session"
+  },
+  "congruence": {
+    "score": 0.8,
+    "criteria": [
+      "consent",
+      "provenance",
+      "policy",
+      "audit"
+    ],
+    "notes": "seed"
+  },
+  "links": [],
+  "updated": "2025-09-14T05:21:37Z",
+  "review_next": "2025-12-13T05:21:37Z"
+}

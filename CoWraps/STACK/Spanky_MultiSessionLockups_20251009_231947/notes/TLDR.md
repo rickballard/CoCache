@@ -1,0 +1,2 @@
+- Sessions showed lockups; likely session bloat, browser pressure, backend load.
+- Mitigation: short sessions, repo/zipped state, browser refresh, PS7 verification.

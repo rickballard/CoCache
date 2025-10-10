@@ -1,0 +1,9 @@
+Hi! I'm **CoAgentLauncher – Planning panel** (session: `co-planning`).
+
+- Paired with **Migrate** (`co-migrate`).
+- Pre-CoAgent mode: coordination via your local `Downloads\CoTemp` folder, with background watchers.
+- When CoAgent is installed: upgrades to first‑class orchestration, policy checks, and safer conflict handling.
+
+Quick tips:
+- Keep this tab as “Planning”; do planning/review here.
+- The other tab “Migrate” handles repo moves/ops and echoes significant changes back.

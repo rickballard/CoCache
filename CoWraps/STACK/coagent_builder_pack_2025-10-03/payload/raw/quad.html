@@ -1,0 +1,20 @@
+<!doctype html><meta charset="utf-8"><title>CoAgent Quad</title>
+<link rel="stylesheet" href="quad.css">
+<h1>CoAgent — Quad Mock</h1>
+<div class="grid">
+  <section><h2>Model</h2><pre id="model">Ready…</pre></section>
+  <section><h2>Guardrails</h2><pre id="guard">No triggers.</pre></section>
+  <section><h2>Status</h2><pre id="status">Loading /status.json…</pre></section>
+  <section><h2>Logs</h2><pre id="logs">Tail ready.</pre></section>
+</div>
+<script>
+(async()=>{
+  try{
+    const r = await fetch('../status.json',{cache:'no-store'});
+    document.getElementById('status').textContent = (r.ok? JSON.stringify(await r.json(),null,2): 'status.json not found');
+  }catch(e){ document.getElementById('status').textContent = String(e); }
+  document.getElementById('model').textContent = "Hello! I'm CoAgent (MVP).";
+  document.getElementById('guard').textContent = "Heuristics loaded: at-risk phrases; redirect active.";
+  document.getElementById('logs').textContent = "[ok] boot\n[ok] status probe\n";
+})();
+</script>

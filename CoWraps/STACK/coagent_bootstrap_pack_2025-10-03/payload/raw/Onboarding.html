@@ -1,0 +1,30 @@
+<!doctype html><meta charset="utf-8">
+<title>CoAgent Onboarding Guide</title>
+<style>
+body{font:15px/1.45 system-ui,Segoe UI,Arial;margin:24px;max-width:900px}
+.card{border:1px solid #e5e7eb;border-radius:12px;padding:16px;margin:16px 0;background:#fff}
+h1{margin:0 0 8px 0}
+code,pre{background:#f6f8fa;border-radius:8px;padding:2px 6px}
+.step{display:flex;gap:12px;align-items:center}
+.step b{min-width:28px;height:28px;border-radius:999px;background:#111;color:#fff;display:inline-flex;align-items:center;justify-content:center}
+.note{color:#374151;font-size:14px}
+.ok{color:#065f46}
+</style>
+<h1>CoAgent – Onboarding</h1>
+<div class="card">
+  <div class="step"><b>1</b><div><strong>Create/Sign-in to GitHub</strong><br>
+    Open <a href="https://github.com/join" target="_blank" rel="noopener">github.com/join</a> (or <a href="https://github.com/login" target="_blank">login</a>) and finish any verification steps.
+    <div class="note">The setup script will detect completion using <code>gh auth status</code>.</div>
+  </div></div>
+  <div class="step"><b>2</b><div><strong>Authorize GitHub CLI</strong><br>
+    In PowerShell, the setup will run <code>gh auth login</code> (device flow). Follow the browser link and paste the code.
+  </div></div>
+  <div class="step"><b>3</b><div><strong>Create repo & enable Pages</strong><br>
+    Script will create <code>CoAgent</code> (public), relax branch protections initially, and enable Pages targeting <code>gh-pages</code>.<br>
+    It then seeds <code>docs/</code> with index, status viewer, and UI mock and will publish.
+  </div></div>
+  <div class="step"><b>4</b><div><strong>Verify</strong><br>
+    Your site should be at <code>https://&lt;yourUser&gt;.github.io/CoAgent</code>. The launcher opens it for you.
+  </div></div>
+</div>
+<p class="note">Generated 2025-10-03T01:29:15Z.</p>

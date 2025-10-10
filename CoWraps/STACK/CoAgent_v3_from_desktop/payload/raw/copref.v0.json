@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CoProfile schema (v0)",
+  "type": "object",
+  "required": [
+    "profile_version",
+    "user",
+    "bpoe",
+    "style"
+  ],
+  "properties": {
+    "profile_version": {
+      "type": "string"
+    },
+    "user": {
+      "type": "object",
+      "properties": {
+        "handle": {
+          "type": "string"
+        },
+        "display_name": {
+          "type": "string"
+        }
+      }
+    },
+    "bpoe": {
+      "type": "object",
+      "properties": {
+        "use_do_files": {
+          "type": "boolean"
+        },
+        "do_inbox": {
+          "type": "string"
+        },
+        "watcher_job_name": {
+          "type": "string"
+        },
+        "default_session": {
+          "type": "string"
+        },
+        "note_storage": {
+          "type": "string"
+        },
+        "avoid_chat_scheduling": {
+          "type": "boolean"
+        },
+        "default_tag": {
+          "type": "string"
+        }
+      }
+    },
+    "style": {
+      "type": "object",
+      "properties": {
+        "prefer_numbered_steps": {
+          "type": "boolean"
+        },
+        "two_spaces_after_periods": {
+          "type": "boolean"
+        },
+        "sections": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "buddy_mode": {
+          "type": "boolean"
+        },
+        "concise_default": {
+          "type": "boolean"
+        },
+        "minimal_confirmations": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

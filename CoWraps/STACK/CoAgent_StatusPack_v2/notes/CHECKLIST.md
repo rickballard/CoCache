@@ -1,0 +1,4 @@
+- [ ] One watcher per session (Status-QuickCheck clean)
+- [ ] `Drop-CoDO` and `Send-CoNote` available in both panes
+- [ ] Smoke DO shows `$PSVersionTable.PSVersion` correctly
+- [ ] README_FIRST + Ops runbook reflect current flow

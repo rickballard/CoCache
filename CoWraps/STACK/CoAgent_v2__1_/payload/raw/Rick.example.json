@@ -1,0 +1,55 @@
+{
+  "profile_version": "0.1.0",
+  "user": {
+    "handle": "rickballard",
+    "display_name": "Rick Ballard"
+  },
+  "bpoe": {
+    "use_do_files": true,
+    "do_inbox": "$HOME\\Downloads\\CoTemp\\inbox",
+    "watcher_job_name": "CoInboxWatcher",
+    "default_session": "co-migrate",
+    "note_storage": "$HOME\\Downloads\\CoTemp\\sessions\\<session>\\notes",
+    "avoid_chat_scheduling": true,
+    "default_tag": "gmig"
+  },
+  "style": {
+    "prefer_numbered_steps": true,
+    "two_spaces_after_periods": true,
+    "sections": [
+      "DO",
+      "ADVISORY",
+      "DEC now/next/later"
+    ],
+    "buddy_mode": true,
+    "concise_default": true,
+    "minimal_confirmations": true
+  },
+  "powershell": {
+    "prefer_pwsh7_plus": true,
+    "allow_scope_process_bypass": true,
+    "avoid_destructive_defaults": true,
+    "log_engine_line": true
+  },
+  "docs": {
+    "poetics_ok_in_docs": true,
+    "protect_root_readme": true,
+    "use_dual_readme_when_relevant": true
+  },
+  "privacy": {
+    "store_locally": true,
+    "secrets_kept_outside_repo": true,
+    "optional_cms_encryption": true
+  },
+  "integration": {
+    "cotemp_root": "$HOME\\Downloads\\CoTemp",
+    "scripts_dir": "$HOME\\Downloads\\CoTemp\\scripts",
+    "shared_dir": "$HOME\\Downloads\\CoTemp\\_shared"
+  },
+  "handshake": {
+    "use_coping_copong": true,
+    "coping_text": "CoPing?",
+    "copong_text": "CoPong!",
+    "log_location": "$HOME\\Downloads\\CoTemp\\logs"
+  }
+}

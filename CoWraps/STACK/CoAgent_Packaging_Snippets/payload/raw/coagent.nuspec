@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>coagent</id>
+    <version>0.1.0</version>
+    <title>CoAgent Starter Kit</title>
+    <authors>CoCivium</authors>
+    <owners>CoCivium</owners>
+    <projectUrl>https://example.com/</projectUrl>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Local two‑session runtime and tools that pave the way to full CoAgent.</description>
+    <summary>CoTemp-based local runtime, queue watchers, DO/Note bridge, launcher.</summary>
+    <tags>coagent cocivium runtime powershell</tags>
+  </metadata>
+  <files>
+    <!-- Put your ZIP next to this nuspec and include it -->
+    <file src="CoAgent_StarterKit_0.1.0.zip" target="tools" />
+    <file src="tools\chocolateyinstall.ps1" target="tools" />
+    <file src="tools\chocolateyuninstall.ps1" target="tools" />
+  </files>
+</package>

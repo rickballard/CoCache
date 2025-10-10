@@ -1,0 +1,2 @@
+# CoWrap placement
+Drop-in: CoCache/CoWraps/STACK/Spanky_All_ChatGPT_Data_de99e4a9479bf676d981222ae6c9521c87152289127db71ab19a0217b075e22b-2025-10-09-21-42-07-ec2bf9328acf439aa9298fa30c83ba6b/

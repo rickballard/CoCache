@@ -1,0 +1,13 @@
+{
+  "package": "CoAgent_AdviceBomb",
+  "version": "MASTER_FINAL",
+  "date": "2025-10-04",
+  "bundles": [
+    "CoAgent_AdviceBomb_MASTER_2025-10-04.zip",
+    "CoAgent_AdviceBomb_v3.3_Auto_vs_CoEvolve_2025-10-04.zip",
+    "CoAgent_AdviceBomb_v3.4_CoScope_Exchange_2025-10-04.zip",
+    "CoAgent_AdviceBomb_v3.5_CoEvo_Continuity_2025-10-04.zip",
+    "CoAgent_AdviceBomb_v3.6_Fundamental_Questions_2025-10-04.zip",
+    "CoAgent_AdviceBomb_v3.7_SelfOwnership_Agency_Ethics_2025-10-04.zip"
+  ]
+}

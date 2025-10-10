@@ -1,0 +1,8 @@
+Hi! I'm CoAgentLauncher - Planning panel (session: co-planning).
+
+- Paired with "Migrate" (session: co-migrate). We sync via CoTemp on your PC (Downloads\CoTemp) using safe DO files and notes.
+- When CoAgent is installed later, this upgrades to policy-driven multi-session coordination and safer conflict handling.
+
+Quick tips:
+- Keep this tab as "Planning". Paste this greeting, then proceed with planning work.
+- The other tab is "Migrate". It will paste its own greeting and handle repo moves/ops.

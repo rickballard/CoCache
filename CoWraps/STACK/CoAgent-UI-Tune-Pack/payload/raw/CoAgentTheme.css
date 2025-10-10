@@ -1,0 +1,45 @@
+
+:root {
+  --font-family: "Segoe UI Variable", "Segoe UI", system-ui, -apple-system, "Inter", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  --font-size: 13px;
+  --line-height: 1.35;
+  --bg: #0e1116;
+  --fg: #e6e9ef;
+  --muted: #a6adbb;
+  --panel-bg: #161a23;
+  --panel-fg: #e6e9ef;
+  --border: #2a2f3a;
+  --accent: #3ea6ff;
+  --accent-fg: #0b0e12;
+  color-scheme: dark;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #ffffff;
+    --fg: #0e1116;
+    --muted: #4b5565;
+    --panel-bg: #f4f6fa;
+    --panel-fg: #0e1116;
+    --border: #d6d9e0;
+    --accent: #0b6bcb;
+    --accent-fg: #ffffff;
+    color-scheme: light;
+  }
+}
+html[data-theme="dark"] {
+  --bg: #0e1116; --fg: #e6e9ef; --muted: #a6adbb; --panel-bg: #161a23; --panel-fg: #e6e9ef; --border: #2a2f3a; --accent: #3ea6ff; --accent-fg: #0b0e12; color-scheme: dark;
+}
+html[data-theme="light"] {
+  --bg: #ffffff; --fg: #0e1116; --muted: #4b5565; --panel-bg: #f4f6fa; --panel-fg: #0e1116; --border: #d6d9e0; --accent: #0b6bcb; --accent-fg: #ffffff; color-scheme: light;
+}
+html, body { font-family: var(--font-family); font-size: var(--font-size); line-height: var(--line-height); background: var(--bg); color: var(--fg); }
+*:where(button, input, select, textarea) { font: inherit; color: inherit; }
+h1, h2, h3, h4, h5, h6 { font-size: 1rem; line-height: var(--line-height); font-weight: 600; margin: 0.3rem 0; }
+.panel, .card, .popup, .sheet, .dialog, .sidebar { background: var(--panel-bg) !important; color: var(--panel-fg) !important; border: 1px solid var(--border); border-radius: 10px; }
+.menu, .menubar, .context-menu, .dropdown-menu { font-size: 0.95rem; background: var(--panel-bg); color: var(--panel-fg); border: 1px solid var(--border); }
+.muted, .subtle, .help, .hint { color: var(--muted); }
+.button, button, .btn { background: var(--panel-bg); color: var(--panel-fg); border: 1px solid var(--border); padding: 0.45rem 0.7rem; border-radius: 8px; }
+.button.primary, .btn-primary { background: var(--accent); color: var(--accent-fg); border-color: transparent; }
+input, textarea, select { background: color-mix(in srgb, var(--panel-bg), var(--bg) 40%); color: var(--panel-fg); border: 1px solid var(--border); padding: 0.4rem 0.55rem; border-radius: 8px; }
+.subtitle { font-size: 0.92rem; letter-spacing: 0.02em; color: var(--muted); }
+:where(.panel, .popup, .dialog) a { color: var(--accent); }

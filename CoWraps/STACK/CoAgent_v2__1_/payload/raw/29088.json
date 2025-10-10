@@ -1,0 +1,9 @@
+﻿{
+    "pid":  29088,
+    "name":  "Migrate",
+    "session_id":  "co-migrate",
+    "inbox":  "C:\\Users\\Chris\\Downloads\\CoTemp\\sessions\\co-migrate\\inbox",
+    "outbox":  "C:\\Users\\Chris\\Downloads\\CoTemp\\sessions\\co-migrate\\outbox",
+    "logs":  "C:\\Users\\Chris\\Downloads\\CoTemp\\sessions\\co-migrate\\logs",
+    "ts":  "2025-09-09T19:48:54.1480749-04:00"
+}

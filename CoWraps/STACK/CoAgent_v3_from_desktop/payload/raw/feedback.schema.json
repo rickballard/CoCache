@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Feedback",
+  "type": "object",
+  "properties": {
+    "ts": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "user_context": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "bug",
+        "idea",
+        "praise",
+        "ux",
+        "other"
+      ]
+    },
+    "message": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "consent_enterprise_contact": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "ts",
+    "category",
+    "message"
+  ]
+}

@@ -1,0 +1,9 @@
+docs/private/
+docs/*.private.md
+docs/*_PRIVATE.md
+docs/**/BP_Private.readme.md
+.DS_Store
+Thumbs.db
+__pycache__/
+*.log
+runtime/**/secrets.*

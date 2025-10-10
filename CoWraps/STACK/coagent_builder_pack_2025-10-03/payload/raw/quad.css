@@ -1,0 +1,6 @@
+body{font:14px/1.5 system-ui,Segoe UI,Arial;margin:24px;color:#111}
+h1{margin-bottom:16px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+section{border:1px solid #ddd;border-radius:12px;padding:12px;min-height:180px}
+pre{white-space:pre-wrap;background:#f6f8fa;border-radius:8px;padding:8px}
+@media(max-width:720px){.grid{grid-template-columns:1fr}}

@@ -1,0 +1,17 @@
+relpath,ext,size_bytes,is_text_like,is_code
+CoWrap-CoAgent-NextSession/CoWrap-CoAgent-NextSession/CatEye.ico,.ico,183806,False,False
+CoWrap-CoAgent-NextSession/CoWrap-CoAgent-NextSession/CatFace.ico,.ico,370070,False,False
+CoWrap-CoAgent-NextSession/CoWrap-CoAgent-NextSession/CatPaw.ico,.ico,254014,False,False
+CoWrap-CoAgent-NextSession/CoWrap-CoAgent-NextSession/Do-All.ps1,.ps1,517,True,True
+CoWrap-CoAgent-NextSession/CoWrap-CoAgent-NextSession/Install-Icons-And-Shortcuts.ps1,.ps1,3611,True,True
+CoWrap-CoAgent-NextSession/CoWrap-CoAgent-NextSession/Patch-Section-Banners.ps1,.ps1,1947,True,True
+CoWrap-CoAgent-NextSession/CoWrap-CoAgent-NextSession/README-CoWrap.md,.md,1337,True,False
+CoWrap-CoAgent-NextSession/CoWrap-CoAgent-NextSession/Repair-Profile-EnterKey.ps1,.ps1,1538,True,True
+CoWrap-CoAgent-Supplement/BPOE-GUIDE.md,.md,965,True,False
+CoWrap-CoAgent-Supplement/Check-Environment.ps1,.ps1,882,True,True
+CoWrap-CoAgent-Supplement/CoCache-NOTES.md,.md,249,True,False
+CoWrap-CoAgent-Supplement/NEXT-STEPS.md,.md,1459,True,False
+CoWrap-CoAgent-Supplement/README.md,.md,275,True,False
+CoWrap-CoAgent-Supplement/SCOPE-NEXT-SESSION.md,.md,538,True,False
+CoWrap-CoAgent-Supplement/TROUBLESHOOTING.md,.md,574,True,False
+CoWrap-CoAgent-Supplement/WORKFLOW.md,.md,539,True,False

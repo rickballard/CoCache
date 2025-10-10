@@ -1,0 +1,2 @@
+- QA rules: QA_PROMPT.md (included if present).
+- Context: current chat session.

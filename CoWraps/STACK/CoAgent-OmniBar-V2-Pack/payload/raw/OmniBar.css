@@ -1,0 +1,26 @@
+
+/* OmniBar v2 — single unified bottom bar */
+#coagent-omnibar { position: fixed; left: 0; right: 0; bottom: 0; height: 28px;
+  display: flex; align-items: center; gap: 10px; padding: 0 10px;
+  z-index: 2147483646; font-family: var(--font-family, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif);
+  font-size: 12.5px; line-height: 1; background: var(--panel-bg,#161a23); color: var(--panel-fg,#e6e9ef); border-top: 1px solid var(--border,#2a2f3a);
+}
+#coagent-omnibar .seg { display:inline-flex; align-items:center; gap:6px; padding:2px 6px; border:1px solid var(--border,#2a2f3a);
+  border-radius:999px; background: color-mix(in srgb, var(--panel-bg,#161a23), black 6%);
+}
+#coagent-omnibar .seg .dot { width:8px; height:8px; border-radius:50%; background:#6aa7ff; }
+#coagent-omnibar .dot.ok{background:#3bd671;} .dot.warn{background:#ffb44c;} .dot.bad{background:#ff5c7c;}
+#coagent-omnibar .title { font-weight:600; text-decoration:underline; cursor:pointer; }
+#coagent-omnibar .grow { flex:1 1 auto; }
+html, body { padding-bottom: 32px !important; } /* keep content above the bar */
+
+#coagent-omnibar .gi { display:inline-flex; align-items:center; gap:6px; }
+#coagent-omnibar .gi .gi-bar { position:relative; width:84px; height:10px; border-radius:999px; border:1px solid var(--border,#2a2f3a);
+  background: linear-gradient(90deg,#ff5c7c 0%,#ffb44c 50%,#3bd671 100%);
+  overflow:hidden;
+}
+#coagent-omnibar .gi .gi-thumb { position:absolute; top:-2px; width:2px; height:14px; background:var(--panel-fg,#e6e9ef); box-shadow:0 0 0 1px rgba(0,0,0,.35); }
+#coagent-omnibar .kpi { cursor:pointer; text-decoration:underline; }
+
+/* Ensure we don't double-stack older bars */
+#coagent-statusbar, #bpoe-statusbar { display:none !important; }

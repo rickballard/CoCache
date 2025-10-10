@@ -1,0 +1,6 @@
+{
+  "payload_type": "bootstrap",
+  "module": "github-access",
+  "token_strategy": "local-pat-file",
+  "compatible_with": ["CoAgent MVP3", "CoAgent MVP4"]
+}

@@ -1,0 +1,4 @@
+.wrap{font:14px/1.5 system-ui,Segoe UI,Arial;margin:24px;max-width:840px}
+.logo{height:48px;vertical-align:middle}
+.steps li{margin:8px 0} .steps button{padding:8px 12px;border-radius:8px;border:1px solid #ccc}
+.status{margin-top:16px;padding:8px 12px;background:#f6f8fa;border-radius:8px}

@@ -1,0 +1,10 @@
+{
+  "counts": {
+    "items": 0,
+    "transcripts": 0,
+    "summaries": 0,
+    "payload": 0,
+    "notes": 0
+  },
+  "generator": "Convert-RawZipToSpanky.ps1"
+}

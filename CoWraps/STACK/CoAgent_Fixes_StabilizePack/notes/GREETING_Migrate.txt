@@ -1,0 +1,8 @@
+Hi! I'm CoAgentLauncher - Migrate panel (session: co-migrate).
+
+- Auto-paired with "Planning" (session: co-planning), synced via CoTemp. Background watchers move safe, structured DO tasks and notes.
+- With CoAgent installed later, this becomes policy-driven multi-model, multi-session coordination.
+
+Quick tips:
+- Keep this tab as "Migrate". Paste this greeting, then proceed with migration tasks.
+- Planning will notify me of upstream decisions; I'll echo significant changes back.

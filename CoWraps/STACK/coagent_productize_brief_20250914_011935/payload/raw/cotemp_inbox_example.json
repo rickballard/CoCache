@@ -1,0 +1,12 @@
+{
+  "kind": "note",
+  "to": "productize",
+  "session": "co-productize",
+  "tag": "prod",
+  "priority": "high",
+  "topic": "UX report + operating directives",
+  "from": "Grand Migration session",
+  "ts": "2025-09-14 01:19:35Z",
+  "summary": "Boot popups & focus stealing; stealth-by-default; pairing rules; GM session priority.",
+  "details": "Use top-level CoTemp/inbox; watchers must be quiet and write acks to CoTemp/Logs."
+}

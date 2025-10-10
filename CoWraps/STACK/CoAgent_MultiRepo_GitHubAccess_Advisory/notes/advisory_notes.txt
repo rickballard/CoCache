@@ -1,0 +1,5 @@
+CoAgent GitHub Access Advisory Package
+
+- Ready to be dropped into a CoAgent productization or setup session.
+- Can be expanded into vault or GitHub App based flows post-MVP3.
+- See README for phased implementation strategy.

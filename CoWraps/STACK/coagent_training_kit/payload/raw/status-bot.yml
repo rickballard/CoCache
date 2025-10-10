@@ -1,0 +1,22 @@
+name: status-bot
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update status.json
+        shell: pwsh
+        run: |
+          if (Test-Path tools/Write-Status.ps1) {
+            pwsh -File tools/Write-Status.ps1
+            git config user.email "bot@example"; git config user.name "status-bot"
+            git add docs/status.json
+            git commit -m "bot: refresh status.json" || echo "no changes"
+            git push
+          } else {
+            echo "No Write-Status.ps1; skipping"
+          }

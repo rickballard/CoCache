@@ -1,0 +1,4 @@
+# Unfinished HH Elements (partial scan)
+- _stitch/0005_the_locational_table.md
+- gloss/narrative_stack.md
+- gibexport/ (partially populated)
