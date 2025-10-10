@@ -1,0 +1,23 @@
+name: initiatives-scan
+on:
+  schedule:
+    - cron: "7 3 * * *"   # daily 03:07 UTC
+  workflow_dispatch: {}
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-pwsh@v1
+      - name: Run scanner
+        run: pwsh -NoProfile -File ops/metrics/Scan-Initiatives.ps1
+      - name: Commit results
+        run: |
+          git config user.name  "co-cache-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/dashboards/initiatives_scan.*
+          git commit -m "metrics: refresh initiatives scan" || echo "no changes"
+          git push origin HEAD
