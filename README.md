@@ -158,3 +158,5 @@ All other branches run the full hook.
 
 <!-- INSIGHTS_QUESTIONS_END -->
 
+
+![ingest](STATUS/ingest_badge.svg)
