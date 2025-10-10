@@ -37,3 +37,4 @@ $zip = Join-Path $OutDir "CoSuite-SeedKit_$ts.zip"
 if(Test-Path $zip){ Remove-Item $zip -Force }
 Compress-Archive -Path (Join-Path $kit "*") -DestinationPath $zip
 Write-Host "==> DONE: Kit at $zip" -ForegroundColor Green
+
