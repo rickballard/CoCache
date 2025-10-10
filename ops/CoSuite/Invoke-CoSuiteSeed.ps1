@@ -39,6 +39,7 @@ foreach ($id in $items) {
 
 git add $logPath
 git commit -m "CoSuite seed runs logged $stamp" | Out-Null
-git push | Out-Null
+git push origin HEAD | Out-Null
+
 
 
