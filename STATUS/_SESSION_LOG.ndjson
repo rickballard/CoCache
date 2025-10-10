@@ -1,3 +1,5 @@
 {"when":"2025-10-09T20:37:41","wraps_count":90,"staged_zips":381,"git_branch":"main","git_head":"4a8669f","note":"Phase X complete (e.g., converted first 100 zips)"}
 2025-10-09T22:24:12 :: Resume kit loaded
 2025-10-09T22:32:44 :: ingest-batch heartbeat
+{"when":"2025-10-09T22:45:41","note":"batch-run ok"}
+{"when":"2025-10-09T22:46:49","note":"checkpoint after bulk r9"}
