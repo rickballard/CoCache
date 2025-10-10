@@ -1,0 +1,40 @@
+name: ops-heartbeat
+
+on:
+  schedule:
+    # ~08:05 and ~13:35 Pacific (15:05/20:35 UTC) — adjust as needed
+    - cron: "5 15 * * *"
+    - cron: "35 20 * * *"
+  push:
+    branches: [ main ]
+    paths:
+      - "STATUS/_SESSION_LOG.ndjson"
+      - "STATUS/ingest_progress.txt"
+      - "imports/_ingest_hashes.json"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-rickdo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout CoCache
+        uses: actions/checkout@v4
+
+      - name: Checkout RickDo (target repo)
+        uses: actions/checkout@v4
+        with:
+          repository: rickballard/RickDo
+          path: RickDo
+          token: ${{ secrets.COAGENT_BOT_TOKEN }}
+
+      - name: Setup Git identity
+        run: |
+          git config --global user.name  "coagent-bot"
+          git config --global user.email "coagent-bot@users.noreply.github.com"
+
+      - name: Run update script
+        shell: pwsh
+        run: |
+          ./tools/update-rickdo.ps1 -RickDoPath "$PWD/RickDo" -CoCachePath "$PWD" -Accel 3.0
