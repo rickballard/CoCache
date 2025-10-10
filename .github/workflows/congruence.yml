@@ -1,0 +1,20 @@
+name: congruence
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "patterns/**"
+      - ".github/workflows/congruence.yml"
+  pull_request:
+    paths:
+      - "patterns/**"
+      - ".github/workflows/congruence.yml"
+
+jobs:
+  congruence:
+    uses: rickballard/CoCore/.github/workflows/congruence.yml@main
+    with:
+      targets: |
+        patterns/**/congruence.json
+      write: false
+      strict: false
