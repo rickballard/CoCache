@@ -30,3 +30,8 @@ HP57/**/*.key
 HP57/**/*.pem
 HP57/**/*.pfx
 HP57/**/*.kdbx
+# large exports & raw dumps – never commit
+imports/Downloads_Staging/**
+CoWraps/STACK/**/payload/raw/chat.html
+CoWraps/STACK/**/payload/raw/conversations.json
+*.zip
