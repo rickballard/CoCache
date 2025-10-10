@@ -28,8 +28,8 @@ foreach($id in $repos){
   if(!(Test-Path $path)){ git clone "https://github.com/$owner/$name" $path | Out-Null }
 
   # file-scan buckets (adjust any time)
-  $idea     = Count-Files $path @('docs\idea*\*.md','docs\ideacards\*.md')
-  $insights = Count-Files $path @('docs\insights\*.md')
+  $idea     = Count-Files $path @('docs\idea*\*.md','docs\\ideacards\\*.md','docs\\**\\idea*\\*.md','docs\\**\\ideas\\*.md')
+  $insights = Count-Files $path @('docs\\insights\\*.md','docs\\**\\insight*\\*.md')
   $advice   = Count-Files $path @('docs\advice*\*.md','docs\advis*\*.md')  # fixed stray space
   $roadmap  = Count-Files $path @('docs\roadmap\*.md','ROADMAP.md')
   $scrolls  = Count-Files $path @('docs\cc\scroll\README.md')
@@ -70,3 +70,4 @@ CSV: docs/dashboards/initiatives_scan.csv
 "@ | Set-Content $md -Encoding UTF8
 
 Write-Host "==> DONE: initiatives scan written to $OutDir" -ForegroundColor Green
+
