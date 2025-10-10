@@ -25,7 +25,3 @@ $
         shell: pwsh
         run: |
           ./tools/update-rickdo.ps1 -RickDoPath "$PWD/RickDo" -CoCachePath "$PWD" -Accel 3.0
-
-
-
-
