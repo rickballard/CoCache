@@ -1,0 +1,30 @@
+name: ops-heartbeat-smoke
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout CoCache
+        uses: actions/checkout@v4
+      - name: Checkout RickDo
+        uses: actions/checkout@v4
+        with:
+          repository: rickballard/RickDo
+          path: RickDo
+          token: ${{ secrets.COAGENT_BOT_TOKEN }}
+      - name: Setup Git identity
+        run: |
+          git config --global user.name  "coagent-bot"
+          git config --global user.email "coagent-bot@users.noreply.github.com"
+      - name: Echo ping
+        run: echo "heartbeat smoke ✓"
+      - name: Update RickDo (same as main workflow)
+        shell: pwsh
+        run: |
+          ./tools/update-rickdo.ps1 -RickDoPath "$PWD/RickDo" -CoCachePath "$PWD" -Accel 3.0
