@@ -14,9 +14,7 @@ jobs:
         with:
           repository: rickballard/RickDo
           path: RickDo
-          token: 
-$
-{{ secrets.COAGENT_BOT_TOKEN }}
+          token: ${{ secrets.COAGENT_BOT_TOKEN }}
       - name: Setup Git identity
         run: |
           git config --global user.name  "coagent-bot"
