@@ -22,3 +22,11 @@ imports/Seeds/Downloads/CoTemp/
 imports/Seeds/**/DownloadsOld/
 !.github/workflows/**
 
+# local-only secrets
+.env
+.env.*
+HP57/local/**
+HP57/**/*.key
+HP57/**/*.pem
+HP57/**/*.pfx
+HP57/**/*.kdbx
