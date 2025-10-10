@@ -3,3 +3,5 @@
 2025-10-09T22:32:44 :: ingest-batch heartbeat
 {"when":"2025-10-09T22:45:41","note":"batch-run ok"}
 {"when":"2025-10-09T22:46:49","note":"checkpoint after bulk r9"}
+{"when":"2025-10-09T22:48:46","note":"bulk run heartbeat"}
+{"when":"2025-10-09T23:42:12","note":"queue_next batch done (1%)"}
