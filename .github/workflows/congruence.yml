@@ -1,5 +1,6 @@
 name: congruence
 on:
+  workflow_dispatch:
   push:
     paths:
       - "patterns/**"
@@ -15,5 +16,5 @@ jobs:
     with:
       targets: |
         patterns/**/congruence.json
-      write: false      # set true in maintenance branches only
-      strict: false     # allow partial during seed
+      write: false
+      strict: false
