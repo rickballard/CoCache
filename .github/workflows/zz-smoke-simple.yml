@@ -1,0 +1,8 @@
+name: zz-smoke-simple
+on:
+  workflow_dispatch:
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hello from zz-smoke-simple"
