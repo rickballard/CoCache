@@ -18,3 +18,5 @@ Thumbs.db
 CoCivium_*_v*.zip
 _forensics-*.csv
 _bn_history.diff
+imports/Seeds/Downloads/CoTemp/
+imports/Seeds/**/DownloadsOld/
