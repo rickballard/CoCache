@@ -14,13 +14,13 @@ jobs:
         with:
           repository: rickballard/RickDo
           path: RickDo
-          token: ${{ secrets.COAGENT_BOT_TOKEN }}
+          token: 
+$
+{{ secrets.COAGENT_BOT_TOKEN }}
       - name: Setup Git identity
         run: |
           git config --global user.name  "coagent-bot"
           git config --global user.email "coagent-bot@users.noreply.github.com"
-      - name: Echo ping
-        run: echo "heartbeat smoke ✓"
       - name: Update RickDo
         shell: pwsh
         run: |

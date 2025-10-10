@@ -1,0 +1,12 @@
+# 11e — commit & push CoCache + GIBindex
+$cache="$env:USERPROFILE\Documents\GitHub\CoCache"; $gib="$env:USERPROFILE\Documents\GitHub\GIBindex"
+cd $cache
+git add imports/Seeds imports/_ingest_hashes.json docs/_seeding/GIBindex_seed_manifest.jsonl STATUS/_SESSION_LOG.ndjson STATUS/ingest_progress.txt 2>$null
+git commit -m "Seeds: batch ingest (SLIM map) + status" || ""
+git push
+cd $gib
+git add core/manifest.gib.jsonl 2>$null
+git commit -m "GIBindex: register newly seeded gib://CoCache paths" || ""
+git push
+Write-Host "✅ Pushed CoCache + GIBindex."
+

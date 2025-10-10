@@ -1,0 +1,55 @@
+function Copy-OneFile([string]$src,[string]$tgt){
+  $dir = Split-Path $tgt -Parent
+  if(-not (Test-Path $dir)){ New-Item -ItemType Directory -Force -Path $dir | Out-Null }
+  if($src -like '\\\\*'){
+    # Robust single-file copy via robocopy (retry 1x, wait 1s, quiet logs)
+    $srcDir = Split-Path $src -Parent
+    $file   = Split-Path $src -Leaf
+    robocopy $srcDir $dir $file /R:1 /W:1 /NFL /NDL /NJH /NJS | Out-Null
+    if(-not (Test-Path $tgt)){ throw "robocopy failed for $src" }
+  } else {
+    Copy-OneFile $src $tgt
+  }
+}
+# 9d-RESUME (SLIM map, 2000/file batch, 1 dot/sec)
+Set-StrictMode -Version Latest; $ErrorActionPreference='Stop'
+$GH="$env:USERPROFILE\Documents\GitHub"; $cache=Join-Path $GH "CoCache"; $gib=Join-Path $GH "GIBindex"
+$csv=Join-Path $cache "imports/_discovery_map_SLIM.csv"; $dest=Join-Path $cache "imports/Seeds"
+$hashDb=Join-Path $cache "imports/_ingest_hashes.json"; $gibNDJ=Join-Path $gib "core/manifest.gib.jsonl"
+$ccNDJ=Join-Path $cache "docs/_seeding/GIBindex_seed_manifest.jsonl"
+New-Item -ItemType Directory -Force -Path $dest, (Split-Path $gibNDJ), (Split-Path $ccNDJ) | Out-Null
+if(-not (Test-Path $gibNDJ)){New-Item -ItemType File -Path $gibNDJ|Out-Null}
+if(-not (Test-Path $ccNDJ)){ New-Item -ItemType File -Path $ccNDJ |Out-Null}
+$hashes=@{}; if(Test-Path $hashDb){ try{$hashes=ConvertFrom-Json -AsHashtable -InputObject (Get-Content $hashDb -Raw)}catch{$hashes=@{}} }
+function Get-Sha256([string]$p){$sha=[Security.Cryptography.SHA256]::Create();$fs=[IO.File]::OpenRead($p);try{-join($sha.ComputeHash($fs)|%{$_.ToString('x2')})}finally{$fs.Dispose();$sha.Dispose()}}
+$BATCH = [int]($env:BATCH ?? 2000) ?? 2000); $DOT_SEC=1; $sw=[Diagnostics.Stopwatch]::StartNew(); $nextDot=0
+function Dot(){ if([math]::Floor($sw.Elapsed.TotalSeconds)-ge $nextDot){Write-Host -NoNewline "."; $script:nextDot=[math]::Floor($sw.Elapsed.TotalSeconds)+$DOT_SEC} }
+$rows=Import-Csv $csv; $processed=0; Write-Host ("Using map: " + $csvUse) $copied=0; $skipped=0; $errs=0
+foreach($r in $rows){
+  if (Test-Path 'C:\Users\Chris\Documents\GitHub\CoCache\STATUS\STOP.flag') { Write-Host "
+⏹ STOP.flag present — exiting batch"; break }
+  if($processed -ge $BATCH){break}
+  $src=$r.Path; if(-not(Test-Path $src)){$errs++;$processed++; Write-ProgressLite $processed $copied $skipped $errs; Dot;continue}
+  $h=Get-Sha256 $src; if($hashes.ContainsKey($h)){$skipped++;$processed++; Write-ProgressLite $processed $copied $skipped $errs; Dot;continue}
+  $rootLabel= if ($src -like "$($env:USERPROFILE)\Desktop*"){"Desktop"} elseif($src -like "$($env:USERPROFILE)\Downloads*"){"Downloads"} elseif($src -like "\\Server\homes\RB\2025 Project*"){"Server_Projects"} else {"Other"}
+  $rel=$src -replace [regex]::Escape("$($env:USERPROFILE)\Desktop\"),"" -replace [regex]::Escape("$($env:USERPROFILE)\Downloads\"),"" -replace '^\\\\Server\\homes\\RB\\','' -replace '[:*?"<>|]','_'
+  if([string]::IsNullOrWhiteSpace($rel)){$rel=(Split-Path $src -Leaf)}
+  $tgt=Join-Path $dest (Join-Path $rootLabel $rel); $tgtDir=Split-Path $tgt -Parent; New-Item -ItemType Directory -Force -Path $tgtDir|Out-Null
+  try{
+    Copy-OneFile $src $tgt
+    if(-not(Test-Path (Join-Path $tgtDir "README_SOURCE.txt"))){ "Seeded from $rootLabel via _discovery_map_SLIM.csv on $(Get-Date -Format s)" | Set-Content (Join-Path $tgtDir "README_SOURCE.txt") -Encoding UTF8 }
+    $hashes[$h]=@{path=$src;ingested=$tgt;when=(Get-Date).ToString('s')}
+    $relUnix=($tgt.Substring($cache.Length).TrimStart('\','/')) -replace '\\','/'; $gid="gib://CoCache$relUnix"
+    $rec=[ordered]@{id=$gid;repo="CoCache";kind="seed";path=$relUnix;bytes=(Get-Item $tgt).Length;modified=(Get-Item $tgt).LastWriteTime.ToString('s');sha256=(Get-FileHash -Algorithm SHA256 $tgt).Hash.ToLower()}
+    ($rec|ConvertTo-Json -Compress)|Add-Content -Path $gibNDJ; ($rec|ConvertTo-Json -Compress)|Add-Content -Path $ccNDJ; $copied++
+  }catch{$errs++}
+  $processed++; Write-ProgressLite $processed $copied $skipped $errs; Dot
+}
+($hashes|ConvertTo-Json -Depth 10)|Set-Content $hashDb -Encoding UTF8
+Dot; Write-Host "`n✅ Ingest batch complete -> $dest"; Write-Host "   processed=$processed  copied=$copied  skipped_dupe=$skipped  missing_or_errors=$errs"; Write-Host "   Re-run to process the next $BATCH files."
+
+
+
+
+
+

@@ -13678,5 +13678,180 @@
     "path": "C:\\Users\\Chris\\Downloads\\CoTemp\\CoPayloads\\CoAgent_MVP3_Supplement_20250923-070457\\User_Guide_Onboarding.md",
     "ingested": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\imports\\Seeds\\Downloads\\CoTemp\\CoPayloads\\CoAgent_MVP3_Supplement_20250923-070457\\User_Guide_Onboarding.md",
     "when": "2025-10-09T23:39:59"
+  },
+  "12d114fa1fdc25143233a0a096c0c7250a170e2018ba3b5e295248cb9ec411c1": {
+    "path": "C:\\Users\\Chris\\Downloads\\CoTemp\\CoPayloads\\CoAgent_PatchPack_20250921-131048\\README_MigrateStandDown.md",
+    "ingested": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\imports\\Seeds\\Downloads\\CoTemp\\CoPayloads\\CoAgent_PatchPack_20250921-131048\\README_MigrateStandDown.md",
+    "when": "2025-10-10T00:13:34"
+  },
+  "df60edd2bfbd40cd0580759b06a216f87ead39659d4663a506d4491a6d5b8afe": {
+    "path": "C:\\Users\\Chris\\Downloads\\CoTemp\\CoPayloads\\CoAgent_PatchPack_20250921-131048\\scripts\\Mark-MigrateStandDown.ps1",
+    "ingested": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\imports\\Seeds\\Downloads\\CoTemp\\CoPayloads\\CoAgent_PatchPack_20250921-131048\\scripts\\Mark-MigrateStandDown.ps1",
+    "when": "2025-10-10T00:13:34"
+  },
+  "715e00034daecaf83862609a44510d959cabe08bed6373b0c10b9cc22046b917": {
+    "path": "C:\\Users\\Chris\\Downloads\\CoTemp\\CoPayloads\\CoAgent_PatchPack_20250921-131048\\scripts\\Status-QuickCheck.ps1",
+    "ingested": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\imports\\Seeds\\Downloads\\CoTemp\\CoPayloads\\CoAgent_PatchPack_20250921-131048\\scripts\\Status-QuickCheck.ps1",
+    "when": "2025-10-10T00:13:34"
+  },
+  "56c0a5da3624528c29e3e2ea82f44b861d5d873632e600747a17374024ab1845": {
+    "path": "C:\\Users\\Chris\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Planning_Pack_20250921-131048\\scripts\\Enforce-SingleWatcher.ps1",
+    "ingested": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\imports\\Seeds\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Planning_Pack_20250921-131048\\scripts\\Enforce-SingleWatcher.ps1",
+    "when": "2025-10-10T00:13:34"
+  },
+  "5e57a234320c5afaa45fc2c4a8f4c97309c627af3f4bda49553964dfa8c1883b": {
+    "path": "C:\\Users\\Chris\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Planning_Pack_20250921-131048\\scripts\\New-DO-CCTS-Fallback-Test.ps1",
+    "ingested": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\imports\\Seeds\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Planning_Pack_20250921-131048\\scripts\\New-DO-CCTS-Fallback-Test.ps1",
+    "when": "2025-10-10T00:13:34"
+  },
+  "4c1c9d23d8e27645ddaaf52a5a930d6b9614a3b41764d54e7d787455e8c230b5": {
+    "path": "C:\\Users\\Chris\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Planning_Pack_20250921-131048\\scripts\\Status-QuickCheck-Alt.ps1",
+    "ingested": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\imports\\Seeds\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Planning_Pack_20250921-131048\\scripts\\Status-QuickCheck-Alt.ps1",
+    "when": "2025-10-10T00:13:34"
+  },
+  "6cafb08fba268ec194373e3092f789d6f22afaaf1692d93028b10686afdde3b8": {
+    "path": "C:\\Users\\Chris\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Planning_Pack_Hotfix_20250921-131048\\scripts\\New-DO-CCTS-Fallback-Test.ps1",
+    "ingested": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\imports\\Seeds\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Planning_Pack_Hotfix_20250921-131048\\scripts\\New-DO-CCTS-Fallback-Test.ps1",
+    "when": "2025-10-10T00:13:35"
+  },
+  "0378adaac480dc7ee0f69ebbb9b78c88120ae4aedca474c51b5102c51ea0e423": {
+    "path": "C:\\Users\\Chris\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Planning_Pack_min_20250908-101451_20250921-131048\\Build-CoAgent-PlanningDocs.ps1",
+    "ingested": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\imports\\Seeds\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Planning_Pack_min_20250908-101451_20250921-131048\\Build-CoAgent-PlanningDocs.ps1",
+    "when": "2025-10-10T00:17:09"
+  },
+  "bf7a0e026de7cf8e92111a47f903f08a3073a5dc09524a9b4ac16c9f789ee08d": {
+    "path": "C:\\Users\\Chris\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Planning_Pack_min_20250908-101451_20250921-131048\\CoTemp.Bootstrap.ps1",
+    "ingested": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\imports\\Seeds\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Planning_Pack_min_20250908-101451_20250921-131048\\CoTemp.Bootstrap.ps1",
+    "when": "2025-10-10T00:17:10"
+  },
+  "9f31329c6d0c1b733a23047f6679573323271f71d687029bb6de04d2206c422e": {
+    "path": "C:\\Users\\Chris\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Planning_Pack_min_20250908-101451_20250921-131048\\Join-CoAgent.ps1",
+    "ingested": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\imports\\Seeds\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Planning_Pack_min_20250908-101451_20250921-131048\\Join-CoAgent.ps1",
+    "when": "2025-10-10T00:17:10"
+  },
+  "2813c4a771dbedbba579812f81157f9ce865e595c7db178999033d303036fe95": {
+    "path": "C:\\Users\\Chris\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Planning_Sprint1_20250921-131048\\docs\\Market_Checks.md",
+    "ingested": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\imports\\Seeds\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Planning_Sprint1_20250921-131048\\docs\\Market_Checks.md",
+    "when": "2025-10-10T00:17:10"
+  },
+  "6aad0323edb78d494a960b1a6899cb08326f68c189f7172f4b4166281cd6d684": {
+    "path": "C:\\Users\\Chris\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Planning_Sprint1_20250921-131048\\docs\\Metrics.md",
+    "ingested": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\imports\\Seeds\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Planning_Sprint1_20250921-131048\\docs\\Metrics.md",
+    "when": "2025-10-10T00:17:10"
+  },
+  "dc5c0963dde416498353a4a7f72a2c76bc55b21d5bb1d7e336f98efd6012f2e6": {
+    "path": "C:\\Users\\Chris\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Planning_Sprint1_20250921-131048\\docs\\Packaging_Roadmap.md",
+    "ingested": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\imports\\Seeds\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Planning_Sprint1_20250921-131048\\docs\\Packaging_Roadmap.md",
+    "when": "2025-10-10T00:17:10"
+  },
+  "7410b05426d08226d8937651c7d7b6486cae72e3e5cf6129b25886a250ffa129": {
+    "path": "C:\\Users\\Chris\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Planning_Sprint1_20250921-131048\\docs\\PRD_CoAgent_MVP.md",
+    "ingested": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\imports\\Seeds\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Planning_Sprint1_20250921-131048\\docs\\PRD_CoAgent_MVP.md",
+    "when": "2025-10-10T00:17:10"
+  },
+  "7308f188ba9251948547fc4fd706b58d42253301ac3b5a785af3366004bcd880": {
+    "path": "C:\\Users\\Chris\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Planning_Sprint1_20250921-131048\\README_PLANNING.md",
+    "ingested": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\imports\\Seeds\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Planning_Sprint1_20250921-131048\\README_PLANNING.md",
+    "when": "2025-10-10T00:17:10"
+  },
+  "99081cbf039389f5b886655678bff9416188d3b9b8a09d3aac046fd5041d7458": {
+    "path": "C:\\Users\\Chris\\Downloads\\CoTemp\\CoPayloads\\CoAgent_PlanningDocs_20250921-131048\\DOC_INDEX.md",
+    "ingested": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\imports\\Seeds\\Downloads\\CoTemp\\CoPayloads\\CoAgent_PlanningDocs_20250921-131048\\DOC_INDEX.md",
+    "when": "2025-10-10T00:17:11"
+  },
+  "8eeae0edba379703449100228ee63a2ddb2d662e6d31d6d6040ef043537c6ba7": {
+    "path": "C:\\Users\\Chris\\Downloads\\CoTemp\\CoPayloads\\CoAgent_PlanningDocs_20250921-131048\\related_snippets\\BPOE_top30.csv",
+    "ingested": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\imports\\Seeds\\Downloads\\CoTemp\\CoPayloads\\CoAgent_PlanningDocs_20250921-131048\\related_snippets\\BPOE_top30.csv",
+    "when": "2025-10-10T00:17:11"
+  },
+  "1cab2ef89b25cde044bae49c79d284a99ee8e804a3e0c759a926c0fa7699a1ec": {
+    "path": "C:\\Users\\Chris\\Downloads\\CoTemp\\CoPayloads\\CoAgent_PlanningDocs_20250921-131048\\related_snippets\\CoModules_top30.csv",
+    "ingested": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\imports\\Seeds\\Downloads\\CoTemp\\CoPayloads\\CoAgent_PlanningDocs_20250921-131048\\related_snippets\\CoModules_top30.csv",
+    "when": "2025-10-10T00:17:11"
+  },
+  "d447580b9c3037e79517b0f3ed0c41e266262e1b212d39e7fe9153fc3a9a06cf": {
+    "path": "C:\\Users\\Chris\\Downloads\\CoTemp\\CoPayloads\\CoAgent_PlanningDocs_20250921-131048\\related_snippets\\Harvest_Index.csv",
+    "ingested": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\imports\\Seeds\\Downloads\\CoTemp\\CoPayloads\\CoAgent_PlanningDocs_20250921-131048\\related_snippets\\Harvest_Index.csv",
+    "when": "2025-10-10T00:17:11"
+  },
+  "182e92069559551073be6d849a80108e2a4db400b02bb617cc16a7aa8214c343": {
+    "path": "C:\\Users\\Chris\\Downloads\\CoTemp\\CoPayloads\\CoAgent_PlanningDocs_20250921-131048\\related_snippets\\Workflow_top30.csv",
+    "ingested": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\imports\\Seeds\\Downloads\\CoTemp\\CoPayloads\\CoAgent_PlanningDocs_20250921-131048\\related_snippets\\Workflow_top30.csv",
+    "when": "2025-10-10T00:17:11"
+  },
+  "aa105ca9caa43f85ca5e5afa573fa252f339b9c9b06be52a8a61711cd93bb843": {
+    "path": "C:\\Users\\Chris\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Productization_Pack_20250921-131051\\checklist\\CoAgent_Productization_Checklist.md",
+    "ingested": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\imports\\Seeds\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Productization_Pack_20250921-131051\\checklist\\CoAgent_Productization_Checklist.md",
+    "when": "2025-10-10T00:17:15"
+  },
+  "810591c284c980fb84fbc27d3d24a7dd741bdafd3aed8406b0229bf86338add6": {
+    "path": "C:\\Users\\Chris\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Productization_Pack_20250921-131051\\docs\\CoInboxWatcher.md",
+    "ingested": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\imports\\Seeds\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Productization_Pack_20250921-131051\\docs\\CoInboxWatcher.md",
+    "when": "2025-10-10T00:17:15"
+  },
+  "a1781f1f5b800b6067e65ac957ac9b33a4869159bbc549da4dff25760eb6c83a": {
+    "path": "C:\\Users\\Chris\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Productization_Pack_20250921-131051\\profile\\CoAgent-Panel-Profile.sample.ps1",
+    "ingested": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\imports\\Seeds\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Productization_Pack_20250921-131051\\profile\\CoAgent-Panel-Profile.sample.ps1",
+    "when": "2025-10-10T00:17:15"
+  },
+  "3ce3676be5a9427af10040b9f782965b41b11f9e258bfea5ec948fde3cc9fdcf": {
+    "path": "C:\\Users\\Chris\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Productization_Pack_20250921-131051\\README.md",
+    "ingested": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\imports\\Seeds\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Productization_Pack_20250921-131051\\README.md",
+    "when": "2025-10-10T00:17:15"
+  },
+  "6383839d96474743f43ef52bb1facd319fe0335485cd8a6d6048348f41dc2fcb": {
+    "path": "C:\\Users\\Chris\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Productization_Pack_20250921-131051\\scripts\\Ensure-InboxWatcher.ps1",
+    "ingested": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\imports\\Seeds\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Productization_Pack_20250921-131051\\scripts\\Ensure-InboxWatcher.ps1",
+    "when": "2025-10-10T00:17:15"
+  },
+  "6212cb6567925faf71983bdc8473d61c4f9703af535d35b5d9bcb4bc0ee80c1f": {
+    "path": "C:\\Users\\Chris\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Productization_Pack_20250921-131051\\scripts\\Seed-Article.ps1",
+    "ingested": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\imports\\Seeds\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Productization_Pack_20250921-131051\\scripts\\Seed-Article.ps1",
+    "when": "2025-10-10T00:17:15"
+  },
+  "1fb10b85cd2d828c43f2a760649fb585b07e204c4dad8b63c01b0f3a8d4cfe3d": {
+    "path": "C:\\Users\\Chris\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Productization_Pack_20250921-131051\\scripts\\Seed-BCGData.ps1",
+    "ingested": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\imports\\Seeds\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Productization_Pack_20250921-131051\\scripts\\Seed-BCGData.ps1",
+    "when": "2025-10-10T00:17:15"
+  },
+  "9f63f6eaf08e9d31ded0bd03ba4de04817dfd4ed310da20fff487138dbe02bef": {
+    "path": "C:\\Users\\Chris\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Productization_Pack_20250921-131051\\scripts\\Set-CoPanelTag.ps1",
+    "ingested": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\imports\\Seeds\\Downloads\\CoTemp\\CoPayloads\\CoAgent_Productization_Pack_20250921-131051\\scripts\\Set-CoPanelTag.ps1",
+    "when": "2025-10-10T00:17:15"
+  },
+  "fa44fb99763a26b7510b79634bc9b914c9e9850ca56434ece8e6c462f242d622": {
+    "path": "C:\\Users\\Chris\\Downloads\\CoTemp\\CoPayloads\\coagent_productize_brief_20250914_011935_20250921-131051\\bpoe\\UX-Demark-Guideline.md",
+    "ingested": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\imports\\Seeds\\Downloads\\CoTemp\\CoPayloads\\coagent_productize_brief_20250914_011935_20250921-131051\\bpoe\\UX-Demark-Guideline.md",
+    "when": "2025-10-10T00:17:16"
+  },
+  "3a952a8c803b5740070398676a9b49d05e235dbb0bb15833e9884a3a7bf72710": {
+    "path": "C:\\Users\\Chris\\Downloads\\CoTemp\\CoPayloads\\coagent_productize_brief_20250914_011935_20250921-131051\\brief\\What-We-Did.md",
+    "ingested": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\imports\\Seeds\\Downloads\\CoTemp\\CoPayloads\\coagent_productize_brief_20250914_011935_20250921-131051\\brief\\What-We-Did.md",
+    "when": "2025-10-10T00:17:16"
+  },
+  "c3b2829098cf4bcfd5c6a688713641baca3d9bf1c11d05c4c34e5f272b3b3a8f": {
+    "path": "C:\\Users\\Chris\\Downloads\\CoTemp\\CoPayloads\\coagent_productize_brief_20250914_011935_20250921-131051\\notes\\productize_note_example.json",
+    "ingested": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\imports\\Seeds\\Downloads\\CoTemp\\CoPayloads\\coagent_productize_brief_20250914_011935_20250921-131051\\notes\\productize_note_example.json",
+    "when": "2025-10-10T00:17:16"
+  },
+  "ec277d3b0b6805fe3b531d26f58ebbd05419081f8d736e6af34862ac3130f5e6": {
+    "path": "C:\\Users\\Chris\\Downloads\\CoTemp\\CoPayloads\\coagent_productize_brief_20250914_011935_20250921-131051\\notes\\profile_note_example.json",
+    "ingested": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\imports\\Seeds\\Downloads\\CoTemp\\CoPayloads\\coagent_productize_brief_20250914_011935_20250921-131051\\notes\\profile_note_example.json",
+    "when": "2025-10-10T00:17:16"
+  },
+  "e11770d73f8aec2f1a8097d9afd04a79e35b43d1f33b72ef88548c4451ee4179": {
+    "path": "C:\\Users\\Chris\\Downloads\\CoTemp\\CoPayloads\\coagent_productize_brief_20250914_011935_20250921-131051\\README.md",
+    "ingested": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\imports\\Seeds\\Downloads\\CoTemp\\CoPayloads\\coagent_productize_brief_20250914_011935_20250921-131051\\README.md",
+    "when": "2025-10-10T00:17:16"
+  },
+  "e1a04b84e6890720aebf02851d6ad9db56a553f149cd6572c793bf8dfca4fca0": {
+    "path": "C:\\Users\\Chris\\Downloads\\CoTemp\\CoPayloads\\coagent_productize_brief_20250914_011935_20250921-131051\\scripts\\Add-WatcherToProfile.ps1",
+    "ingested": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\imports\\Seeds\\Downloads\\CoTemp\\CoPayloads\\coagent_productize_brief_20250914_011935_20250921-131051\\scripts\\Add-WatcherToProfile.ps1",
+    "when": "2025-10-10T00:17:16"
+  },
+  "02745917a83c46602aa172f3e322082d79ae4d162649051c2d74f9e5c7eafcf9": {
+    "path": "C:\\Users\\Chris\\Downloads\\CoTemp\\CoPayloads\\coagent_productize_brief_20250914_011935_20250921-131051\\scripts\\Start-CoInboxWatcher.ps1",
+    "ingested": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\imports\\Seeds\\Downloads\\CoTemp\\CoPayloads\\coagent_productize_brief_20250914_011935_20250921-131051\\scripts\\Start-CoInboxWatcher.ps1",
+    "when": "2025-10-10T00:17:16"
   }
 }
