@@ -7,7 +7,7 @@ function Has($n){ (Get-Command $n -ErrorAction SilentlyContinue) -ne $null }
 if (-not (Has gh)) { Write-Host "WARNING: gh not installed; will print PR URLs instead of auto-merging." -ForegroundColor Yellow }
 
 $seedUrl = "https://raw.githubusercontent.com/rickballard/CoCache/main/HANDOVER/CoWrap-20251010-132935/ops/snippets/seed-finish.ps1"
-$logPath = "docs/bpoe/SEED_RUNS.md"
+$Root = (Resolve-Path (Join-Path $PSScriptRoot "..\..")).Path; $logPath = Join-Path $Root "docs\bpoe\SEED_RUNS.md"
 New-Item -ItemType Directory -Force -Path (Split-Path $logPath) | Out-Null
 
 $items = Get-Content $ListPath | Where-Object { $_ -and $_ -notmatch '^\s*#' } | ForEach-Object { $_.Trim() }
@@ -29,7 +29,7 @@ foreach ($id in $items) {
   } catch {
     $ok = $false
     $err = $_.Exception.Message
-    Write-Host "FAIL $id: $err" -ForegroundColor Red
+    Write-Host ("FAIL {0} — {1}" -f $id, $err) -ForegroundColor Red
     if ($StopOnError) { throw }
   } finally {
     $line = if ($ok) { "- $stamp — **OK** — $id merged to main" } else { "- $stamp — **FAIL** — $id — $err" }
@@ -40,3 +40,5 @@ foreach ($id in $items) {
 git add $logPath
 git commit -m "CoSuite seed runs logged $stamp" | Out-Null
 git push | Out-Null
+
+
