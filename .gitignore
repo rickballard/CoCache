@@ -18,3 +18,6 @@ Thumbs.db
 CoCivium_*_v*.zip
 _forensics-*.csv
 _bn_history.diff
+# Advice-bomb ingestion
+docs/advice_bombs/batch_*/.*.zip
+docs/advice_bombs/batch_*/*_*/        # skip extracted folders (keep mirrors + index + Actionables)
