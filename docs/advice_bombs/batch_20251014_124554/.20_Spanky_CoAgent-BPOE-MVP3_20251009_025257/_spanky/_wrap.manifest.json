@@ -1,0 +1,8 @@
+{
+  "order": [
+    "transcripts/session.md",
+    "payload/",
+    "notes/",
+    "summaries/"
+  ]
+}

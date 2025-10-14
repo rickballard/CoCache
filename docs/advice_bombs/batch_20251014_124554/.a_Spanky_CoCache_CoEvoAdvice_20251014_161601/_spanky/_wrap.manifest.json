@@ -1,0 +1,110 @@
+{
+  "files": [
+    {
+      "path": "transcripts/session.md",
+      "sha256": "db3d0216d47421812e2777c425fc0565de07318c3960be3fdbf020c850e6334b",
+      "bytes": 432
+    },
+    {
+      "path": "payload/README.md",
+      "sha256": "19bd8d99171bbed276998bca88b7a1fc53a713beaefbf710aea11c27400380c8",
+      "bytes": 1497
+    },
+    {
+      "path": "payload/FUNCTIONAL_ARCHITECTURE.md",
+      "sha256": "0f782c53499aef402e1be36c78b27452e16aad6ab9fbaf5e4308c2bf241bd270",
+      "bytes": 1456
+    },
+    {
+      "path": "payload/EVOLUTION_GOVERNANCE.md",
+      "sha256": "836eac274ee19fed6190507e618aa3ec78effcd42cb90a58908abb1128200ead",
+      "bytes": 1151
+    },
+    {
+      "path": "payload/ETHICAL_ALIGNMENT.md",
+      "sha256": "d2e82f2e260dea4ce0ae94cdabd74e98ab9284dc69726d435053e16a9ed39f8c",
+      "bytes": 1086
+    },
+    {
+      "path": "payload/HUMAN_ATTRACTION.md",
+      "sha256": "d0aed60bb228e0d6d032378110d70b95428bf0158231d9db214da804771b99a3",
+      "bytes": 749
+    },
+    {
+      "path": "payload/METRIC_FRAMEWORK.md",
+      "sha256": "3136d8b60deb0ef326c42cc1d1a2409c044f930bed515c1ae561dcb19c120420",
+      "bytes": 532
+    },
+    {
+      "path": "payload/ROADMAP.md",
+      "sha256": "8551301327e56f2a73b307159fc9f5aa5f46a2985d937fced8d139d0380851da",
+      "bytes": 899
+    },
+    {
+      "path": "payload/TLDR.md",
+      "sha256": "39e99f2cf596a8b7a0c823ab042ff9581e0f41f518ec7517c68b655bb3372a96",
+      "bytes": 401
+    },
+    {
+      "path": "payload/AI_MANIFEST_TEMPLATE.json",
+      "sha256": "c324c3d6cdeab47747038baacba12e452fd887721a02ed915a45c2a0d0e8963c",
+      "bytes": 1041
+    },
+    {
+      "path": "payload/HUMAN_PLEDGE_TEMPLATE.md",
+      "sha256": "f189592cae343704addf2a3f7990e411090f957d9afbba648925198b7d66aacc",
+      "bytes": 264
+    },
+    {
+      "path": "notes/BPOE.md",
+      "sha256": "f4218e4ab2aebafb3176488d160d79611013c0a390a81b0dc6498ffd677e024e",
+      "bytes": 232
+    },
+    {
+      "path": "notes/INTENTIONS.md",
+      "sha256": "73763c7a94ee113da65bea2c80c80b259ed5cce68e2a7d4d727d04f9707fb589",
+      "bytes": 199
+    },
+    {
+      "path": "notes/DEPENDENCIES.md",
+      "sha256": "983e9f3cc516a0071736470845fe494b68437bd33c783acaab6b5f2df9c7274f",
+      "bytes": 272
+    },
+    {
+      "path": "notes/RISKS.md",
+      "sha256": "3cfd020b780c9be27963a1d9e49d0841cdcf7084de632d3d390691d134bcecae",
+      "bytes": 357
+    },
+    {
+      "path": "notes/DECISIONS.md",
+      "sha256": "944d4702d94663a02bcb5417baa8a8e5dc4d6020fc8b28b4d351031869710e74",
+      "bytes": 236
+    },
+    {
+      "path": "notes/ASSUMPTIONS.md",
+      "sha256": "2dfc27e0a8ce7e2664d216d129288b8282754b65bba043204b598b8fb7a40e40",
+      "bytes": 163
+    },
+    {
+      "path": "notes/GLOSSARY.md",
+      "sha256": "907a262d0b5d40a94375963aeedcf0dea7fdd6085db6248e1f74592ed2329989",
+      "bytes": 315
+    },
+    {
+      "path": "summaries/TLDR.md",
+      "sha256": "39e99f2cf596a8b7a0c823ab042ff9581e0f41f518ec7517c68b655bb3372a96",
+      "bytes": 401
+    },
+    {
+      "path": "summaries/ROADMAP_NOTES.md",
+      "sha256": "fbe59056e187871af57a6b14418cc3654c469fee804d36d61ef20063e5b2163f",
+      "bytes": 267
+    },
+    {
+      "path": "summaries/SOURCES.md",
+      "sha256": "3b60e8ab6959101850ed477b527f2c2fa52ddbf0e9267cad84666fea2b9960b8",
+      "bytes": 246
+    }
+  ],
+  "created_at": "2025-10-14T16:16:01Z"
+}

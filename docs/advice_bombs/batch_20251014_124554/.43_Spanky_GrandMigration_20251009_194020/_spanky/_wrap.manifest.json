@@ -1,0 +1,43 @@
+{
+  "structure": {
+    "_spanky": [
+      "_copayload.meta.json",
+      "_wrap.manifest.json",
+      "out.txt",
+      "checksums.json"
+    ],
+    "transcripts": [
+      "session.md"
+    ],
+    "payload": [
+      "SESSION_PLAN_GrandMigration.md",
+      "HANDOFF_TEMPLATE_GenericAdvisory.md",
+      "LEFTOVERS_Register.md",
+      "DEPRECATE_Civium_Runbook.md",
+      "CIVIUM_ARCHIVED_POINTER.md",
+      "POWERSHELL_SCRIPTS.ps1"
+    ],
+    "notes": [
+      "BPOE.md",
+      "INTENTIONS.md",
+      "DEPENDENCIES.md",
+      "DECISIONS.md",
+      "ASSUMPTIONS.md",
+      "RISKS.md",
+      "GLOSSARY.md",
+      "WEBSITE_MANIFEST.md",
+      "DEPRECATED.md"
+    ],
+    "summaries": [
+      "TLDR.md",
+      "ROADMAP_NOTES.md",
+      "SOURCES.md"
+    ]
+  },
+  "rules": [
+    "Re-read from start; include early intentions, inferences, pivots.",
+    "Mark unfinished items in INTENTIONS.md (Unfinished).",
+    "If anything missing, include MISSING_<WHAT>.",
+    "out.txt must start with counts line."
+  ]
+}

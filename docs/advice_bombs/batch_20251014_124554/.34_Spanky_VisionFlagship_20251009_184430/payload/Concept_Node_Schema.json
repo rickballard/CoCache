@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ConceptNode",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "kind": {
+      "type": "string",
+      "enum": [
+        "problem",
+        "insight",
+        "practice",
+        "hypothesis",
+        "story"
+      ]
+    },
+    "evopath_waypoint": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "authors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "created": {
+      "type": "string",
+      "format": "date"
+    },
+    "updated": {
+      "type": "string",
+      "format": "date"
+    },
+    "links": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reptag": {
+      "type": "object",
+      "properties": {
+        "maturity": {
+          "type": "number"
+        },
+        "credibility": {
+          "type": "number"
+        }
+      }
+    },
+    "aura": {
+      "type": "object",
+      "properties": {
+        "color": {
+          "type": "string"
+        },
+        "intensity": {
+          "type": "number"
+        }
+      }
+    },
+    "media": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "id",
+    "title",
+    "kind",
+    "evopath_waypoint",
+    "created"
+  ]
+}

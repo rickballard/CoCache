@@ -1,0 +1,1 @@
+0–90 MVP flows; 90–180 implementers+adapters+Tender beta; 180–360 gallery+proof sprints+optional TEE/ZK.

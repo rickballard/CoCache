@@ -1,0 +1,11 @@
+{
+  "short_name": "examples",
+  "built_at": "20251008_004552",
+  "source_zip": "Spanky_Request_Pack_v2_2_2025-10-08.zip",
+  "items": {
+    "transcripts": 1,
+    "payload": 5,
+    "notes": 9,
+    "summaries": 3
+  }
+}

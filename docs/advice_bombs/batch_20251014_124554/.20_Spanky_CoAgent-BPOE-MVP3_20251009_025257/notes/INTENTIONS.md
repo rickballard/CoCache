@@ -1,0 +1,3 @@
+- Deliver AdviceBomb & checklist.
+- (Unfinished) React UI for checklist.
+- (Unfinished) JSON flags schema.

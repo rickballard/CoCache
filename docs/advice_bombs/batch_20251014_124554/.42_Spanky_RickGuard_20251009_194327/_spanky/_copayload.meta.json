@@ -1,0 +1,22 @@
+{
+  "short_name": "RickGuard",
+  "created_utc": "20251009_194327",
+  "owner": "rickballard",
+  "critical_set": [
+    "CoCivium"
+  ],
+  "mode_defaults": {
+    "seed": true,
+    "critical": [
+      "CoCivium"
+    ]
+  },
+  "tools": [
+    "PowerShell 7",
+    "GitHub CLI (gh)"
+  ],
+  "attachments_used": [
+    "ChromeExtensions_20251008_195356.md",
+    "PS7OutputLatest.odt?"
+  ]
+}

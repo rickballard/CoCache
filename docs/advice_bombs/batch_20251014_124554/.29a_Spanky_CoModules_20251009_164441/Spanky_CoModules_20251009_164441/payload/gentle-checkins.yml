@@ -1,0 +1,19 @@
+name: gentle-checkins
+on:
+  schedule:
+    - cron: "0 15 * * 1"
+  workflow_dispatch:
+jobs:
+  open-checkins:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Career check-in (gentle nudge)
+          content-filepath: .github/checkins/career.md
+      - uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Life check-in (gentle nudge)
+          content-filepath: .github/checkins/life.md
+

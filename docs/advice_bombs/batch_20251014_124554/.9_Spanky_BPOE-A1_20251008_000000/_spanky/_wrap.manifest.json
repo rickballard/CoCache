@@ -1,0 +1,150 @@
+[
+  {
+    "bytes": 258,
+    "path": "notes\\ASSUMPTIONS.md"
+  },
+  {
+    "bytes": 410,
+    "path": "notes\\BPOE.md"
+  },
+  {
+    "bytes": 320,
+    "path": "notes\\DECISIONS.md"
+  },
+  {
+    "bytes": 259,
+    "path": "notes\\DEPENDENCIES.md"
+  },
+  {
+    "bytes": 153,
+    "path": "notes\\DEPRECATED.md"
+  },
+  {
+    "bytes": 279,
+    "path": "notes\\GLOSSARY.md"
+  },
+  {
+    "bytes": 645,
+    "path": "notes\\INTENTIONS.md"
+  },
+  {
+    "bytes": 212,
+    "path": "notes\\RISKS.md"
+  },
+  {
+    "bytes": 291,
+    "path": "notes\\WEBSITE_MANIFEST.md"
+  },
+  {
+    "bytes": 1799,
+    "path": "payload\\app\\cocivium-overlay.js"
+  },
+  {
+    "bytes": 1772,
+    "path": "payload\\app\\demo-chip.js"
+  },
+  {
+    "bytes": 819,
+    "path": "payload\\app\\greeting.js"
+  },
+  {
+    "bytes": 851,
+    "path": "payload\\app\\sample-watermark.js"
+  },
+  {
+    "bytes": 1239,
+    "path": "payload\\app\\assets\\cocivium-overlay.css"
+  },
+  {
+    "bytes": 500,
+    "path": "payload\\app\\assets\\demo-chip.css"
+  },
+  {
+    "bytes": 768,
+    "path": "payload\\app\\assets\\sample-watermark.css"
+  },
+  {
+    "bytes": 30824,
+    "path": "payload\\attachments\\session-uploads\\PS7OutputLatest.odt"
+  },
+  {
+    "bytes": 3420,
+    "path": "payload\\attachments\\session-uploads\\Spanky_Request_Pack_v2_2_2025-10-08.zip"
+  },
+  {
+    "bytes": 1288,
+    "path": "payload\\diagrams\\Convert-DiagramJsonToMermaid.ps1"
+  },
+  {
+    "bytes": 2469,
+    "path": "payload\\diagrams\\out\\hello.html"
+  },
+  {
+    "bytes": 183,
+    "path": "payload\\diagrams\\out\\hello.mmd"
+  },
+  {
+    "bytes": 324,
+    "path": "payload\\diagrams\\samples\\hello.json"
+  },
+  {
+    "bytes": 2343,
+    "path": "payload\\diagrams\\templates\\diagram-viewer.html"
+  },
+  {
+    "bytes": 1365,
+    "path": "payload\\HH\\tools\\bpoe.ps1"
+  },
+  {
+    "bytes": 1701,
+    "path": "payload\\HH\\tools\\cli-utils.ps1"
+  },
+  {
+    "bytes": 285,
+    "path": "summaries\\ROADMAP_NOTES.md"
+  },
+  {
+    "bytes": 197,
+    "path": "summaries\\SOURCES.md"
+  },
+  {
+    "bytes": 271,
+    "path": "summaries\\TLDR.md"
+  },
+  {
+    "bytes": 147514,
+    "path": "transcripts\\history.txt"
+  },
+  {
+    "bytes": 1229,
+    "path": "transcripts\\session.md"
+  },
+  {
+    "bytes": 1126,
+    "path": "_spanky\\_copayload.meta.json"
+  },
+  {
+    "bytes": 2605,
+    "path": "_spanky\\_wrap.manifest.json"
+  },
+  {
+    "bytes": 4376,
+    "path": "_spanky\\checksums.json"
+  },
+  {
+    "bytes": 157,
+    "path": "_spanky\\MISSING_Advicebombs.txt"
+  },
+  {
+    "bytes": 175,
+    "path": "_spanky\\MISSING_Attachments.txt"
+  },
+  {
+    "bytes": 149,
+    "path": "_spanky\\MISSING_CoWraps.txt"
+  },
+  {
+    "bytes": 62,
+    "path": "_spanky\\out.txt"
+  }
+]

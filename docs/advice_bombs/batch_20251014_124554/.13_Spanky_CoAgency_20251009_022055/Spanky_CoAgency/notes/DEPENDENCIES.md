@@ -1,0 +1,2 @@
+- PowerShell 7.x, Git.
+- Inkscape (required) for pre-commit SVG→PNG local renders.

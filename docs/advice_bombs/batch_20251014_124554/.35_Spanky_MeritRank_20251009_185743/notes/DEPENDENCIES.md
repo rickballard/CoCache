@@ -1,0 +1,1 @@
+Python 3.11+, PowerShell 7+, git, gh, pytest; GitHub Actions.

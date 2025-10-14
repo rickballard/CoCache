@@ -1,0 +1,94 @@
+{
+  "_spanky/out.txt": {
+    "sha256": "e9c20d6b77500290195e9a05c36405ad24dd309b69276149bc919cce8a083daa",
+    "bytes": 62
+  },
+  "_spanky/_copayload.meta.json": {
+    "sha256": "89f594118580aef1d285690798fb11617d5b3a9e4aec4260a859d0bc25611002",
+    "bytes": 358
+  },
+  "_spanky/_wrap.manifest.json": {
+    "sha256": "bca51d88206bed59d181b1d87d97f6387827d4e22970a8a1bb4b89d28518bda5",
+    "bytes": 228
+  },
+  "transcripts/session.md": {
+    "sha256": "ba6c26adbce5a32c8d0c590b2f980c28a6ae07302a2a827ff5a7fd5ca3f9c1f4",
+    "bytes": 1889
+  },
+  "payload/HOWTO_Uninstall_Calculator.md": {
+    "sha256": "5674100d8b02e75c0f16bbd7dc2b508d8ddb53235394f2245135dc64558c5768",
+    "bytes": 276
+  },
+  "payload/advisories/AB-HealthGate-Scope-v1.0.md": {
+    "sha256": "9c1b8ef26c199b301195cd8df0f905f29186efc9d03278353f319a285c5aab18",
+    "bytes": 1484
+  },
+  "payload/advisories/AB-SessionStallouts-v1.0.md": {
+    "sha256": "adaa0a04546431d476e9466b0fc092f8b61d0703356572b0c4f17695a59f9d06",
+    "bytes": 1041
+  },
+  "payload/modules/HealthGate.ps1": {
+    "sha256": "fdfb4a6aef8523ce00da55fa9413c01e0d2a6ed2206ec3d61a1f4355c2ce12ac",
+    "bytes": 4642
+  },
+  "payload/tools/Run-HealthGate.ps1": {
+    "sha256": "6f9cff4ee6ca2b629c80bcb870b48498ff73cf83915ee32d10971778455d19a1",
+    "bytes": 238
+  },
+  "payload/tools/Watch-HotkeyStorm.ps1": {
+    "sha256": "54147526d3fba64ee28c57cd6f713b932080450dcded10d1675aaaad5b952038",
+    "bytes": 721
+  },
+  "payload/tools/Disable-AppKeyCalculator.ps1": {
+    "sha256": "23a140b2e744ee58a34a0b9063c7e75eab45638729a6902246921cd5ea74a74e",
+    "bytes": 552
+  },
+  "notes/BPOE.md": {
+    "sha256": "ac965b5aa17cb48ab34766c9e22026a5f1846274741e2c54b391c0b08fe1b147",
+    "bytes": 271
+  },
+  "notes/INTENTIONS.md": {
+    "sha256": "0d955e5bb3cbf2d1fbd0e2c72053f9f0351ecfc1ef3fe11d81149531e7c9be2a",
+    "bytes": 360
+  },
+  "notes/DEPENDENCIES.md": {
+    "sha256": "ee731bc69812acb1b16a3723e6855637ec72ad5ec766963b2e45a690153f285a",
+    "bytes": 132
+  },
+  "notes/DECISIONS.md": {
+    "sha256": "432ae68f4511ce764ae2b80748bb31d73f25c3c65b876cb3345a0bb81f8e406a",
+    "bytes": 173
+  },
+  "notes/ASSUMPTIONS.md": {
+    "sha256": "0400cc6a9a5794c8f04e1c3eb11d12744209f31260cf342a500c2c9cdc997fe7",
+    "bytes": 125
+  },
+  "notes/RISKS.md": {
+    "sha256": "a9e54db399bb7906d5f707d0b0bed72d153edeca8730ef4975e5605c74f5933a",
+    "bytes": 185
+  },
+  "notes/GLOSSARY.md": {
+    "sha256": "d1ade2b685ecc67d49067b867f02b645cb78bbbf32a666dfd02f04100631062f",
+    "bytes": 186
+  },
+  "notes/WEBSITE_MANIFEST.md": {
+    "sha256": "8cc8e3df848fd5247eef54b6c6529d7b3f80205dc479db120ff4915ad537b05b",
+    "bytes": 171
+  },
+  "notes/DEPRECATED.md": {
+    "sha256": "fe4b3e102800ecc47f7864681feac87856b19585633afe41bc53855c779949de",
+    "bytes": 110
+  },
+  "summaries/TLDR.md": {
+    "sha256": "1e7fba8a0a9700a92e4de6b62313e80e140b7388d8299e32ba38419d3315d694",
+    "bytes": 196
+  },
+  "summaries/ROADMAP_NOTES.md": {
+    "sha256": "fca3254d09e472a6de235c5d07cb43e7d16fabcf7b9d8f305222505f18393d85",
+    "bytes": 180
+  },
+  "summaries/SOURCES.md": {
+    "sha256": "4f5bf86bdfbd90aaf8ac34a5804aa938a9fc56a62368461e49b14f507c71f0de",
+    "bytes": 115
+  }
+}

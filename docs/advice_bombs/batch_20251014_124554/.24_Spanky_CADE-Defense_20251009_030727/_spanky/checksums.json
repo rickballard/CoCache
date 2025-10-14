@@ -1,0 +1,66 @@
+{
+  "_spanky/_wrap.manifest.json": {
+    "sha256": "bcbf3703b96b42a474872cb1127a74ef55b6ee9005282248d402eb9ddd30cffe",
+    "bytes": 704
+  },
+  "_spanky/_copayload.meta.json": {
+    "sha256": "4f021b1de8920e40623637f8cbeb9393156bfd46c889310a16195117af4e8c61",
+    "bytes": 179
+  },
+  "transcripts/session.md": {
+    "sha256": "6493152dad41a7cfdbd4efb803d19fe619647dbe47c1007cc0de9d08452dcce5",
+    "bytes": 131
+  },
+  "payload/attachments/session-uploads/Spanky_Request_Pack_v2_2_2025-10-08.zip": {
+    "sha256": "fbd18d0a01dd9074298d053c41f757ae5f708226d2ace4000f2e5127a7e7cd7f",
+    "bytes": 3420
+  },
+  "notes/BPOE.md": {
+    "sha256": "aec74f772234f10eff6ca2f1a4d1c33b23c230609175fe68087699217d351184",
+    "bytes": 986
+  },
+  "notes/INTENTIONS.md": {
+    "sha256": "17f4474d6f2c3d912062efc8f590556568c011fdf752e9231ddbe8cabd706e71",
+    "bytes": 287
+  },
+  "notes/DEPENDENCIES.md": {
+    "sha256": "9c344889f1ea35dbdd9223dbadca3487a8159c7f8052bae1bf6ca6b1d8fd634a",
+    "bytes": 170
+  },
+  "notes/DECISIONS.md": {
+    "sha256": "0335dbef54c8debf818d888713df47547f0a3fd1ef7602cdb35a4fc2ddff620a",
+    "bytes": 198
+  },
+  "notes/ASSUMPTIONS.md": {
+    "sha256": "331ed37bb178ee01df224a4af71d1387c1d763b293db678458856d15ad3458d1",
+    "bytes": 174
+  },
+  "notes/RISKS.md": {
+    "sha256": "a593ecb8abad2992a5bf18787022f464301b6404aa302502040b1869120a41fe",
+    "bytes": 218
+  },
+  "notes/GLOSSARY.md": {
+    "sha256": "60d0484a63a74c9100db5a3fbe430aa6ef231ec00aeb3d5e2bb7aa71a1836841",
+    "bytes": 163
+  },
+  "notes/WEBSITE_MANIFEST.md": {
+    "sha256": "05927f22ad52ae47ae1b0f74cceced2a4f38877e344175fea11ba04f5060361f",
+    "bytes": 153
+  },
+  "notes/DEPRECATED.md": {
+    "sha256": "9a6973d52249340a139d50f9b2f8a8b089d3b4a455ea87bea0d2a37636bf7ba3",
+    "bytes": 91
+  },
+  "summaries/TLDR.md": {
+    "sha256": "55b9b8f11e4a454b1ac4dcb650a6c1867461d28a932edb1d9013b91480aa4ed2",
+    "bytes": 82
+  },
+  "summaries/ROADMAP_NOTES.md": {
+    "sha256": "c8a605bfdd2c3c0afb103cc9e03b5f1e282c862e33d0e8decf02948de0df2283",
+    "bytes": 95
+  },
+  "summaries/SOURCES.md": {
+    "sha256": "5a2c2422fb21856a7900362dd6f816cf4d45e43788a582aab3d6c157bb752bc1",
+    "bytes": 230
+  }
+}

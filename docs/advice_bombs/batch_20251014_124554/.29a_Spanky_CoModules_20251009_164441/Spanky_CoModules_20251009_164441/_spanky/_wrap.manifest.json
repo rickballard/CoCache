@@ -1,0 +1,50 @@
+{
+  "repo_hint": "CoModules (rickballard/CoModules)",
+  "primary_artifacts_committed": [
+    "tools/zip-rebuild.ps1",
+    "CoCache/CoWrap.md",
+    "CoCache/RESUME.md",
+    "CoCache/README.md (auto index)",
+    "docs/best-practices/* (career, life, ai-ethics)",
+    "docs/best-practices/schemas/*",
+    ".github/workflows/gentle-checkins.yml",
+    ".github/checkins/*",
+    "careerOS/handoff/* (handoff zip)"
+  ],
+  "stable_release": {
+    "links": [
+      "careerOS_generic_v2.zip",
+      "careerOS_personalize_v2.zip"
+    ],
+    "tag": "v0.1.0"
+  },
+  "structure": {
+    "_spanky": [
+      "_copayload.meta.json",
+      "_wrap.manifest.json",
+      "out.txt",
+      "checksums.json"
+    ],
+    "summaries": [
+      "TLDR.md",
+      "ROADMAP_NOTES.md",
+      "SOURCES.md"
+    ],
+    "notes": [
+      "BPOE.md",
+      "INTENTIONS.md",
+      "DEPENDENCIES.md",
+      "DECISIONS.md",
+      "ASSUMPTIONS.md",
+      "RISKS.md",
+      "GLOSSARY.md",
+      "WEBSITE_MANIFEST.md",
+      "DEPRECATED.md"
+    ],
+    "transcripts": [
+      "session.md"
+    ],
+    "payload": "deliverables (md/ps1/json/svg/png/etc)"
+  }
+}
+

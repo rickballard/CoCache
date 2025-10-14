@@ -1,0 +1,2 @@
+- CoWrap: Session-level log & asset wrap
+- AdviceBomb: Actionable AI stimulus package

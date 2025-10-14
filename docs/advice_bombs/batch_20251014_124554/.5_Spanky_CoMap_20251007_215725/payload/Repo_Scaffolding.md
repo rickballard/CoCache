@@ -1,0 +1,25 @@
+# Repository Scaffolding (Target)
+
+- frontend/
+  - src/
+    - components/ (RadarChart, SlidersPanel, CompareOverlay, ExportBar)
+    - pages/ (Editor, Gallery, Templates)
+    - lib/ (metrics.ts, templates.ts, validation.ts)
+  - package.json
+- backend/
+  - api/
+    - templates.json
+    - models/
+  - app.json
+- maps/
+  - star_trek_federation.json
+  - star_wars_empire.json
+  - nordics.json
+  - usa.json
+  - cocivium_ideal.json
+- docs/
+  - methodology.md
+  - metrics_schema.json
+- dist/
+- insights/
+  - research_notes.md

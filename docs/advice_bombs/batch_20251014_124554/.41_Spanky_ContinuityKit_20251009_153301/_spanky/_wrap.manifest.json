@@ -1,0 +1,72 @@
+{
+  "files": [
+    {
+      "path": "transcripts/session.md",
+      "bytes": 1732
+    },
+    {
+      "path": "payload/Protect-Portfolio.ps1",
+      "bytes": 2963
+    },
+    {
+      "path": ".github/workflows/safetynet.yml",
+      "bytes": 2091
+    },
+    {
+      "path": "payload/Pack-Mirrors-ToZip.ps1",
+      "bytes": 721
+    },
+    {
+      "path": "notes/BPOE.md",
+      "bytes": 372
+    },
+    {
+      "path": "notes/INTENTIONS.md",
+      "bytes": 397
+    },
+    {
+      "path": "notes/DEPENDENCIES.md",
+      "bytes": 182
+    },
+    {
+      "path": "notes/DECISIONS.md",
+      "bytes": 196
+    },
+    {
+      "path": "notes/ASSUMPTIONS.md",
+      "bytes": 226
+    },
+    {
+      "path": "notes/RISKS.md",
+      "bytes": 212
+    },
+    {
+      "path": "notes/GLOSSARY.md",
+      "bytes": 307
+    },
+    {
+      "path": "notes/WEBSITE_MANIFEST.md",
+      "bytes": 198
+    },
+    {
+      "path": "notes/DEPRECATED.md",
+      "bytes": 54
+    },
+    {
+      "path": "summaries/TLDR.md",
+      "bytes": 234
+    },
+    {
+      "path": "summaries/ROADMAP_NOTES.md",
+      "bytes": 294
+    },
+    {
+      "path": "summaries/SOURCES.md",
+      "bytes": 282
+    },
+    {
+      "path": "_spanky/_copayload.meta.json",
+      "bytes": 252
+    }
+  ]
+}

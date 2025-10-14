@@ -1,0 +1,58 @@
+name: safetynet-mirror-and-archive
+on:
+  schedule:
+    - cron: "37 3 * * *"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - name: Fetch all refs
+        run: |
+          git fetch --all --prune
+          git config --global user.email "bot@yourorg.local"
+          git config --global user.name  "SafetyNet Bot"
+      - name: Push --mirror to secondary remote(s)
+        env:
+          MIRROR1_URL: ${{ secrets.MIRROR1_URL }}
+          MIRROR2_URL: ${{ secrets.MIRROR2_URL }}
+          SSH_PRIVATE_KEY: ${{ secrets.MIRROR_SSH_KEY }}
+        run: |
+          mkdir -p ~/.ssh && chmod 700 ~/.ssh
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          printf "Host *\n  StrictHostKeyChecking no\n" > ~/.ssh/config
+          git remote add mirror1 "$MIRROR1_URL" || git remote set-url mirror1 "$MIRROR1_URL"
+          git push --mirror mirror1 || true
+          if [ -n "$MIRROR2_URL" ]; then
+            git remote add mirror2 "$MIRROR2_URL" || git remote set-url mirror2 "$MIRROR2_URL"
+            git push --mirror mirror2 || true
+          fi
+  archive:
+    runs-on: ubuntu-latest
+    needs: mirror
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - name: Bundle + tar the repo
+        run: |
+          mkdir -p out
+          git bundle create out/repo-full.bundle --all
+          tar -czf out/repo-snapshot-$(date -u +%Y%m%d-%H%M%S).tar.gz .git
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: safetynet-archive
+          path: out/*
+      - name: Sync to Object Storage (optional)
+        if: ${{ secrets.RCLONE_CONF && secrets.RCLONE_REMOTE }}
+        env:
+          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+          RCLONE_REMOTE: ${{ secrets.RCLONE_REMOTE }}
+        run: |
+          echo "$RCLONE_CONF" > rclone.conf
+          rclone --config rclone.conf copy out "$RCLONE_REMOTE:/gh-archives/${{ github.repository }}"

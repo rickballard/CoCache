@@ -1,0 +1,19 @@
+{
+  "name": "Spanky_CoCivium",
+  "short_name": "CoCivium",
+  "created_utc": "20251008_020616",
+  "generator": "ChatGPT",
+  "attached_request_pack_seen": [
+    "01_INSTRUCTION_BLOCK.md",
+    "01_INSTRUCTION_BLOCK.txt",
+    "_examples/_copayload.meta.json",
+    "_examples/_wrap.manifest.json",
+    "forms/notes/DEPRECATED.md"
+  ],
+  "counts": {
+    "transcripts": 1,
+    "payload": 6,
+    "notes": 9,
+    "summaries": 3
+  }
+}

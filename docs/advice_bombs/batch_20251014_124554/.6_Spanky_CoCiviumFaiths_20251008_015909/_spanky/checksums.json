@@ -1,0 +1,74 @@
+{
+  "_spanky/_copayload.meta.json": {
+    "bytes": 468,
+    "sha256": "84485e4b5ca2431f1261e9f9782e198a60da22eccf716f57b0062efcf22c175a"
+  },
+  "_spanky/_wrap.manifest.json": {
+    "bytes": 527,
+    "sha256": "997bb4263b6d46c7d2dd2fb7e2300455fa71fb1f078eb02b1391700f59048e6c"
+  },
+  "_spanky/out.txt": {
+    "bytes": 62,
+    "sha256": "1c59cd25cb0f8f1d8e59120acf9273216fb323619c10f1916cad0da45eaaabfd"
+  },
+  "notes/ASSUMPTIONS.md": {
+    "bytes": 223,
+    "sha256": "47226b11f605fdaa178d0507ff0baa97bae60068ebcb772c789650f4e6e0b10f"
+  },
+  "notes/BPOE.md": {
+    "bytes": 455,
+    "sha256": "b720669cecfadbefdd2ed6f1ec02c046977f3897ba6bc838a48ba862ba310a82"
+  },
+  "notes/DECISIONS.md": {
+    "bytes": 280,
+    "sha256": "05b72f86af63cf6b97153d86c8b2ca52d3fae73268b0b642002f2eceb393d845"
+  },
+  "notes/DEPENDENCIES.md": {
+    "bytes": 191,
+    "sha256": "f5fcf24afe82fecebd903638214c87b31e43cf300aa69d0adb739f4460edd44f"
+  },
+  "notes/DEPRECATED.md": {
+    "bytes": 134,
+    "sha256": "05671ec569d67979d50d78cb7b565dbffff9451d2e29c1cafb60fb80bb1d978e"
+  },
+  "notes/GLOSSARY.md": {
+    "bytes": 308,
+    "sha256": "8f1d3ab3b80b982958f67bbec8fe26032339ef1b50a44af49766fd6fb2eb4825"
+  },
+  "notes/INTENTIONS.md": {
+    "bytes": 919,
+    "sha256": "ca700fe9900e0c6d9c3db2012d81a1b8802145edcb42df6833e1d5b348188b78"
+  },
+  "notes/RISKS.md": {
+    "bytes": 213,
+    "sha256": "574a8b943e6f9da86b05f305e421390cae7f27eaf8b3ba4779fa13faf3b65a0c"
+  },
+  "notes/WEBSITE_MANIFEST.md": {
+    "bytes": 229,
+    "sha256": "79befa9fb3869d538e41e3e44bf4f5730edb7149c0407e2240d047ed00d78f60"
+  },
+  "payload/MISSING_EMBEDDED_REPO_COPIES.txt": {
+    "bytes": 67,
+    "sha256": "55f416efe09be0f1fe174ee1a77100e62007652305f79066334c54c91e545936"
+  },
+  "payload/PAYLOAD_INDEX.md": {
+    "bytes": 1179,
+    "sha256": "35ab31e0665e7420e911c100428d1066009a21afdbf27ae5ccb95ab6418fe651"
+  },
+  "summaries/ROADMAP_NOTES.md": {
+    "bytes": 213,
+    "sha256": "a1c5c9c77d3141dd6479aec26e5669fb01a3a48bac32eae8b232d2183345fa6d"
+  },
+  "summaries/SOURCES.md": {
+    "bytes": 155,
+    "sha256": "902da956adf3703a5bd75d01c88231713efdec702b00edbf4701dd49991d77e2"
+  },
+  "summaries/TLDR.md": {
+    "bytes": 271,
+    "sha256": "0f53bf5aa79d72f128decd76aa7b4fd91c81aa389fa1d50358ff03fc8ddef762"
+  },
+  "transcripts/session.md": {
+    "bytes": 2385,
+    "sha256": "7fca1c31060cd43cea9bfd67b527fcf2860ec9c01feb8c8b984df669758667d5"
+  }
+}

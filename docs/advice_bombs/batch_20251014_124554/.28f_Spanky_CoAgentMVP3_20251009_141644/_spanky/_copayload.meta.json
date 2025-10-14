@@ -1,0 +1,11 @@
+{
+  "kind": "copayload-meta",
+  "created": "2025-10-09T12:57:55",
+  "producer": "ChatGPT (DO)",
+  "counts": {
+    "transcripts": 0,
+    "payload": 0,
+    "notes": 0,
+    "summaries": 0
+  }
+}

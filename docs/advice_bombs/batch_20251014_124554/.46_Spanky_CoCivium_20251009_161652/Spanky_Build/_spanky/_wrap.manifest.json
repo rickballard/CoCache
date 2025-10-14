@@ -1,0 +1,95 @@
+{
+  "generated_at": "2025-10-09T16:16:52.409248-04:00",
+  "timezone": "America/Toronto",
+  "package": "Spanky_CoCivium_20251009_161652.zip",
+  "structure": {
+    "_spanky": [
+      "_copayload.meta.json",
+      "_wrap.manifest.json",
+      "out.txt",
+      "checksums.json"
+    ],
+    "transcripts": [
+      "session.md"
+    ],
+    "payload": "deliverables and source attachment",
+    "notes": [
+      "BPOE.md",
+      "INTENTIONS.md",
+      "DEPENDENCIES.md",
+      "DECISIONS.md",
+      "ASSUMPTIONS.md",
+      "RISKS.md",
+      "GLOSSARY.md",
+      "WEBSITE_MANIFEST.md",
+      "DEPRECATED.md"
+    ],
+    "summaries": [
+      "TLDR.md",
+      "ROADMAP_NOTES.md",
+      "SOURCES.md"
+    ]
+  },
+  "files": [
+    {
+      "path": "transcripts/session.md",
+      "size": 779
+    },
+    {
+      "path": "payload/source/Spanky_Request_Pack_v2_2_2025-10-08.zip",
+      "size": 3420
+    },
+    {
+      "path": "notes/BPOE.md",
+      "size": 222
+    },
+    {
+      "path": "notes/INTENTIONS.md",
+      "size": 238
+    },
+    {
+      "path": "notes/DEPENDENCIES.md",
+      "size": 128
+    },
+    {
+      "path": "notes/DECISIONS.md",
+      "size": 134
+    },
+    {
+      "path": "notes/ASSUMPTIONS.md",
+      "size": 139
+    },
+    {
+      "path": "notes/RISKS.md",
+      "size": 141
+    },
+    {
+      "path": "notes/GLOSSARY.md",
+      "size": 176
+    },
+    {
+      "path": "notes/WEBSITE_MANIFEST.md",
+      "size": 126
+    },
+    {
+      "path": "notes/DEPRECATED.md",
+      "size": 56
+    },
+    {
+      "path": "notes/MISSING_CoCivium_Advisories_Pack_V@.md",
+      "size": 38
+    },
+    {
+      "path": "summaries/TLDR.md",
+      "size": 221
+    },
+    {
+      "path": "summaries/ROADMAP_NOTES.md",
+      "size": 234
+    },
+    {
+      "path": "summaries/SOURCES.md",
+      "size": 182
+    }
+  ]
+}

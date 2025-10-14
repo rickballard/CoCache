@@ -1,0 +1,3 @@
+[STATUS] items=2 transcripts=1 payload=0 notes=1 summaries=0
+Session parked. No DO blocks executed.
+Plan exported for post-migration sweep.

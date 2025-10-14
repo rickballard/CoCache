@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EvolutionRegistry",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "repo": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string",
+      "enum": [
+        "idea",
+        "proposal",
+        "plan",
+        "initiative",
+        "close"
+      ]
+    },
+    "intent": {
+      "type": "string"
+    },
+    "C": {
+      "type": "number"
+    },
+    "C_axes": {
+      "type": "object"
+    },
+    "PE": {
+      "type": "number"
+    },
+    "DR": {
+      "type": "object",
+      "properties": {
+        "semantic": {
+          "type": "number"
+        },
+        "contract": {
+          "type": "number"
+        }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "properties": {
+        "level": {
+          "type": "string"
+        }
+      }
+    },
+    "trust_radius": {
+      "type": "number"
+    },
+    "contracts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "overlap_vector": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    },
+    "race": {
+      "type": "object",
+      "properties": {
+        "evi": {
+          "type": "number"
+        }
+      }
+    },
+    "sde": {
+      "type": "object",
+      "properties": {
+        "state": {
+          "type": "string"
+        }
+      }
+    },
+    "policy_version": {
+      "type": "string"
+    },
+    "audit": {
+      "type": "object",
+      "properties": {
+        "hash": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "required": [
+    "id",
+    "repo",
+    "state",
+    "C",
+    "PE",
+    "DR",
+    "evidence",
+    "policy_version"
+  ]
+}

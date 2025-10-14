@@ -1,0 +1,28 @@
+{
+  "name": "Spanky_CoAgentBranding_20251009_022926",
+  "session": "CoAgent Branding",
+  "created_at": "2025-10-09T02:29:26",
+  "producer": "ChatGPT",
+  "includes": {
+    "transcripts": [
+      "transcripts/session.md"
+    ],
+    "payload": [],
+    "notes": [
+      "notes/BPOE.md",
+      "notes/INTENTIONS.md",
+      "notes/DEPENDENCIES.md",
+      "notes/DECISIONS.md",
+      "notes/ASSUMPTIONS.md",
+      "notes/RISKS.md",
+      "notes/GLOSSARY.md",
+      "notes/WEBSITE_MANIFEST.md",
+      "notes/DEPRECATED.md"
+    ],
+    "summaries": [
+      "summaries/TLDR.md",
+      "summaries/ROADMAP_NOTES.md",
+      "summaries/SOURCES.md"
+    ]
+  }
+}

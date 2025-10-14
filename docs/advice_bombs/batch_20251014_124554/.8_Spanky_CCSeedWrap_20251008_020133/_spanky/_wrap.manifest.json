@@ -1,0 +1,49 @@
+{
+  "structure": {
+    "_spanky": [
+      "_copayload.meta.json",
+      "_wrap.manifest.json",
+      "out.txt",
+      "checksums.json"
+    ],
+    "transcripts": [
+      "transcripts/session.md"
+    ],
+    "payload": [
+      "payload/.canon.CoCivium_Principles_v0.1.md",
+      "payload/.cc.CC_Megascroll_Seed_v0.1.md",
+      "payload/BPOE_Wisdom_Snippets.md",
+      "payload/CoWrap-Finish.ps1",
+      "payload/_Filename_Conventions.md",
+      "payload/docs/.do/DO-CC-Seed.md",
+      "payload/docs/.do/DO-Canon-Change.md",
+      "payload/docs/.do/DO-Rest-Policy.md",
+      "payload/tools/cc/Audit-Overlap.ps1",
+      "payload/tools/cc/Seed-CC.ps1",
+      "payload/tools/do/DoKit.psm1"
+    ],
+    "notes": [
+      "notes/ASSUMPTIONS.md",
+      "notes/BPOE.md",
+      "notes/DECISIONS.md",
+      "notes/DEPENDENCIES.md",
+      "notes/DEPRECATED.md",
+      "notes/GLOSSARY.md",
+      "notes/INTENTIONS.md",
+      "notes/RISKS.md",
+      "notes/WEBSITE_MANIFEST.md"
+    ],
+    "summaries": [
+      "summaries/ROADMAP_NOTES.md",
+      "summaries/SOURCES.md",
+      "summaries/TLDR.md"
+    ]
+  },
+  "counts": {
+    "transcripts": 1,
+    "payload": 11,
+    "notes": 9,
+    "summaries": 3,
+    "items": 24
+  }
+}

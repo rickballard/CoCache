@@ -1,0 +1,20 @@
+{
+  "transcripts/session.md": "b652ac3c630e4a638a530697a97884cc2f425c2535ce0bac83428a79c8b3d9a5",
+  "payload/Protect-Portfolio.ps1": "f58bd5fe2fa1b0b7b71603c1a61a33d6b9f9d385cc781b3db88991efeca8d2ae",
+  ".github/workflows/safetynet.yml": "1a2cc72383cac6b8c095fe32d2f159ec60dce63196b285883f4480260f954aba",
+  "payload/Pack-Mirrors-ToZip.ps1": "171b3ac6f2288e72cfba2703019bac559dfee57105901cd605805c92fecdf638",
+  "notes/BPOE.md": "5bdee749e74bc2ce1564b1ce0a258528c498e72256e50d50a41a2f5927caf0ab",
+  "notes/INTENTIONS.md": "68e7eaeda79ca918e86c451ca14e44faff24f46a281f6d4260c052335a7e2bb8",
+  "notes/DEPENDENCIES.md": "745b54578c5127d96903118b045ac4e4ef75570ab357bb1d10011cde412e7638",
+  "notes/DECISIONS.md": "f511014917cb60ba0aa85c92ef025a87225ded6b18790ac91eeb0e613c7541d2",
+  "notes/ASSUMPTIONS.md": "76aadf1a359f9705efefaddd292d3f297df04167b7663f01c4826e55e9478285",
+  "notes/RISKS.md": "5e888ac44816b38b6790d971662c8122d68bde9a7c9900623c83167102e74714",
+  "notes/GLOSSARY.md": "b831276f8bcb846239bd2c8a36729a3c388c14557ffafec72c0af403636eb719",
+  "notes/WEBSITE_MANIFEST.md": "f21ecee63d511602fe4e1757887f020e7adf3abf79749ed5e5385233a412583f",
+  "notes/DEPRECATED.md": "c7f3877b11e111b05da5c758c9ced36ca315a8c2979d5ba3420748b474de2156",
+  "summaries/TLDR.md": "b596ee4545c7f7f39006213d33c39e5bd14c3815a6910562a28509a4fe7ff714",
+  "summaries/ROADMAP_NOTES.md": "27bfa212647d449d633fb05e6f2b959b6ecf1d444785e1a6826dd6de97c7bb26",
+  "summaries/SOURCES.md": "022515f41d27520647537d6166f2f8fa7951eae5e5ae08113742750fa95146e2",
+  "_spanky/_copayload.meta.json": "7fdfe6a199b5911161255d5013b7b4b1931437d592f1a8942ca00ede46b2359e",
+  "_spanky/_wrap.manifest.json": "bd184823b5da6ada84154b02a0ec485d86b044f2c6ac928e7c300813636e9ba3"
+}

@@ -1,0 +1,74 @@
+{
+  "_spanky/_copayload.meta.json": {
+    "sha256": "521557ad54a20a4d9b95a900a2dd0091543e76eb6e55410b4b875d8fd3a4266e",
+    "bytes": 366
+  },
+  "_spanky/_wrap.manifest.json": {
+    "sha256": "01c3ac353138e89d3938272c01f15f4950df6c4b4c3a419fa2a888aa2f420f6e",
+    "bytes": 526
+  },
+  "_spanky/checksums.json": {
+    "sha256": "17acd43ced2269a6dae4394f18c1c8f8f6d2edff7dc5fec9a946b6e298f53f8b",
+    "bytes": 2139
+  },
+  "_spanky/out.txt": {
+    "sha256": "6f4ed5a6caa5c09e76b226fa074c83aab24732d490d885c2f34193c17c278f30",
+    "bytes": 114
+  },
+  "transcripts/session.md": {
+    "sha256": "74a195402369b093d66ee047bc4604bf5404a524b2cf25b97fbdb09655ec12cc",
+    "bytes": 899
+  },
+  "payload/MISSING_PAYLOAD_DELIVERABLES.txt": {
+    "sha256": "4f060c6305cffb5b86972dc0ae4f2c7f8204930bd80a52ea9eaec90127e6898b",
+    "bytes": 118
+  },
+  "notes/BPOE.md": {
+    "sha256": "d3e5c916d93d392bc218ad9eff6a991e2621a6ca55e3dcb130fcc3551447179a",
+    "bytes": 292
+  },
+  "notes/INTENTIONS.md": {
+    "sha256": "0e279b155aa1936caf8bf632b9942630135e060ef877046afc00cc86dee09937",
+    "bytes": 249
+  },
+  "notes/DEPENDENCIES.md": {
+    "sha256": "f7f9ffc71ecb35b8785600f97d9b5696011422f0547089e492ebcbc9706d6b00",
+    "bytes": 230
+  },
+  "notes/DECISIONS.md": {
+    "sha256": "c53fca6aabb1b6b78405357aebf19542ca59c07fd456a24ec5c36724c1dfdd88",
+    "bytes": 186
+  },
+  "notes/ASSUMPTIONS.md": {
+    "sha256": "fbf86b121d9590cd2adf46a8365f4351fac0a8b37cbe4cb57bd8dc4847c775e1",
+    "bytes": 182
+  },
+  "notes/RISKS.md": {
+    "sha256": "bb9f680a6d556289d494495ea3b1f01655c1b445a1b931652460681a98ddb32f",
+    "bytes": 201
+  },
+  "notes/GLOSSARY.md": {
+    "sha256": "44b2c47266129193ea074d0a60a18716cf36897fe7c7f21a61cbe4504f9d197f",
+    "bytes": 203
+  },
+  "notes/WEBSITE_MANIFEST.md": {
+    "sha256": "506271b634a50a122713cc1f04b8a7c07f5d381991f9cfa96b805d4b6dd23722",
+    "bytes": 143
+  },
+  "notes/DEPRECATED.md": {
+    "sha256": "3f6d3351c5e26821b7bf491e266c1e6af117afebac4203a19820a4f4e3814cd5",
+    "bytes": 66
+  },
+  "summaries/TLDR.md": {
+    "sha256": "2d798d4c00ce2a6e607bfbe4dfc926ec501ccd8d3bcf7ccbe098e12241058b0e",
+    "bytes": 157
+  },
+  "summaries/ROADMAP_NOTES.md": {
+    "sha256": "558e435af258b393a3f885e44c61fc7285c210fd2e44f28871b2495a3532c095",
+    "bytes": 263
+  },
+  "summaries/SOURCES.md": {
+    "sha256": "169cb3124f14a341d711b22c91fdba2399d375abc89c05c214776b8285d32f01",
+    "bytes": 125
+  }
+}
