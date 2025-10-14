@@ -1,0 +1,6 @@
+{
+  "source_session": "CoCore Planning",
+  "type": "spanky_export",
+  "trigger": "manual_handoff",
+  "next_stage": "sweeper_post_migration"
+}

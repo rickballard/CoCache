@@ -1,0 +1,4 @@
+- **Role name:** TOS-AI (Transition Office Steward — AI pivots) instead of CoCEO.
+- **Logo standard:** dark/black on white when available; square 160×160 transparent canvas with ~12px inset.
+- **CTA intake:** prefilled GitHub issue with labels `tos-ai`, `help wanted`.
+- **Degradation:** prefer initials-badge fallback over missing logos.

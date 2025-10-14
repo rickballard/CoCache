@@ -1,0 +1,12 @@
+{
+  "name": "Spanky_CoCivOutreach",
+  "created_local": "2025-10-09 20:18:20",
+  "source_zip": "Spanky_Request_Pack_v2_2_2025-10-08.zip",
+  "intent": "Session close-out; preserve deliverables for repo transfer.",
+  "counts": {
+    "transcripts": 1,
+    "payload": 0,
+    "notes": 9,
+    "summaries": 3
+  }
+}

@@ -1,0 +1,3 @@
+- Attached bundle present: True
+- Attached filename: Spanky_Request_Pack_v2_2_2025-10-08.zip
+- This session up to 20251009_184459 UTC.

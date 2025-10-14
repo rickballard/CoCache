@@ -1,0 +1,21 @@
+{
+  "_spanky/_copayload.meta.json": "6f6131e059300e740df560919f8deea5d6851f58a52dd876c5364f071795bb48",
+  "transcripts/session.md": "3321d270c89c53f4535c922b24450014b969931cc4d560f35a18513000b4034f",
+  "payload/Spanky_Request_Pack_v2_2_2025-10-08.zip": "fbd18d0a01dd9074298d053c41f757ae5f708226d2ace4000f2e5127a7e7cd7f",
+  "payload/CoAgent_Intro_Handshake.md": "1351a7fae5937ccc2b38b0dff523de6f9e68b6df50719dbe67905ac4ab1f4561",
+  "payload/tools/CoPayloadRunner.ps1": "fb7b53fec9607bc3f2de1f06bf20640440d8a189a9fea25694d22cdd136911ef",
+  "payload/tools/CoAgent_HealthCheck.ps1": "4c748b09e66debd7cd85694bffc47ec1f73701ea7c59167f1b784937c8a00351",
+  "payload/samples/SAMPLE_HH_Payload/run.ps1": "c32f6fa81ca71562cdce9c1885cae00fd86965e48fb7a6e65dd7d7969be2784b",
+  "notes/INTENTIONS.md": "0399ca291473290a17c9b2d655b7fca3bc714caa2f343de80d692b94658f263f",
+  "notes/BPOE.md": "ce85520aa66980a3d2e68df50506cedc5ba9e1069272ebe8c45e6264c4957129",
+  "notes/DEPENDENCIES.md": "e6749cb9d9d316db93f3b96c4f52c3303b146b1d748a12a49697efa4850704df",
+  "notes/DECISIONS.md": "24c9c812dd60f3130e8a7411381143eb8b8ffd23a3a3f67a73d4fb1736096781",
+  "notes/ASSUMPTIONS.md": "848175f7e25846e682e711a0a26305f878f36ebd18fba83a03598ac3f46c1be7",
+  "notes/RISKS.md": "04d46e9a0cbd2e0f63f98564306f7d70693af5cf5eb232d4b2b2ba719e36fbca",
+  "notes/GLOSSARY.md": "c98903ca2e20c4db2a832d11be786f3b3ad2acf26b662a447a3ee52b5defbb54",
+  "notes/WEBSITE_MANIFEST.md": "acfc80fe432fca89eed0f298274b1936dc936a1168688cb2563db50529e53329",
+  "notes/DEPRECATED.md": "1db595f0a8ac23285f5250d9aac1312c9cdf701504dcbee07dd3f66f1fd8af46",
+  "summaries/TLDR.md": "d11754aaecd5fb659bd70c3b2cc50c32e44c37093872f99025863d3c96f0f6f2",
+  "summaries/ROADMAP_NOTES.md": "342dcc474566142c67cec429417f902f06979fb748b7e0f904a4333065468b78",
+  "summaries/SOURCES.md": "40f214f5f426ff6caae74145ed0b027e83900beb1636fcf59fdc052747f653c6"
+}

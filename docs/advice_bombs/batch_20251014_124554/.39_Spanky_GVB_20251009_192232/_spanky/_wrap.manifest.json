@@ -1,0 +1,41 @@
+{
+  "structure": {
+    "_spanky": [
+      "_copayload.meta.json",
+      "_wrap.manifest.json",
+      "out.txt",
+      "checksums.json"
+    ],
+    "transcripts": [
+      "session.md"
+    ],
+    "payload": [
+      "7742cf74-8e06-4274-9a9b-849a38fc964c.png",
+      "OldeVillagePeople.png",
+      "cea73f29-eb48-49ff-8540-b35c569d1e96.png",
+      "do_blocks.ps1",
+      "global-village-buyback.md",
+      "site_audio_embed.html",
+      "soundtrack.css",
+      "soundtrack.js",
+      "soundtrack_link.txt"
+    ],
+    "notes": [
+      "ASSUMPTIONS.md",
+      "BPOE.md",
+      "DECISIONS.md",
+      "DEPENDENCIES.md",
+      "DEPRECATED.md",
+      "GLOSSARY.md",
+      "INTENTIONS.md",
+      "RISKS.md",
+      "Spanky_Request_Pack_v2_2_2025-10-08.zip",
+      "WEBSITE_MANIFEST.md"
+    ],
+    "summaries": [
+      "ROADMAP_NOTES.md",
+      "SOURCES.md",
+      "TLDR.md"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "spec": "spanky.v1",
+  "created_local": "2025-10-09 16:13:59Z",
+  "short_name": "CoCivOutreach",
+  "source_zip": null,
+  "files_total": 13,
+  "roots": [
+    "_spanky",
+    "transcripts",
+    "payload",
+    "notes",
+    "summaries"
+  ]
+}

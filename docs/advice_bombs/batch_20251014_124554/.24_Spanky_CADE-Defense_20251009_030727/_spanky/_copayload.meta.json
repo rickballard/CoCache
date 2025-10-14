@@ -1,0 +1,6 @@
+{
+  "shortname": "CADE-Defense",
+  "session": "CADE packaging",
+  "no_local_exec": true,
+  "out_format": "[STATUS] items=<#> transcripts=<#> payload=<#> notes=<#> summaries=<#>"
+}

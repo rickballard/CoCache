@@ -1,0 +1,35 @@
+{
+  "name": "Spanky_CADE-Defense_20251009_030727",
+  "created": "2025-10-09T03:07:27.535900",
+  "structure": {
+    "_spanky": [
+      "_copayload.meta.json",
+      "_wrap.manifest.json",
+      "out.txt",
+      "checksums.json"
+    ],
+    "transcripts": [
+      "session.md"
+    ],
+    "payload": [
+      "attachments/"
+    ],
+    "notes": [
+      "BPOE.md",
+      "INTENTIONS.md",
+      "DEPENDENCIES.md",
+      "DECISIONS.md",
+      "ASSUMPTIONS.md",
+      "RISKS.md",
+      "GLOSSARY.md",
+      "WEBSITE_MANIFEST.md",
+      "DEPRECATED.md"
+    ],
+    "summaries": [
+      "TLDR.md",
+      "ROADMAP_NOTES.md",
+      "SOURCES.md"
+    ]
+  },
+  "include_upload": "Spanky_Request_Pack_v2_2_2025-10-08.zip"
+}

@@ -1,0 +1,24 @@
+You are a continuity and synthesis session. Your task is to produce a **zip‑ready Advice Bomb** that other sessions can ingest with minimal friction.
+
+### Scope
+- Re‑read the full conversation.
+- Extract **insights, decisions, open questions, and intended directions**.
+- Convert them into **actionable, repo‑aware guidance**.
+
+### Required Outputs (exact paths)
+- `/summaries/TLDR.md` — 12–20 bullet executive summary.
+- `/payload/MAIN_SUMMARY.md` — detailed synthesis (what/why).
+- `/payload/ADVICE_AND_STRATEGY.md` — time‑phased moves.
+- `/payload/REPO_IMPACTS.md` — CoAgent, CoCache, CoCore, CoRef, CoCivium.
+- `/payload/IMPLEMENTATION_HANDOFF.md` — checklist for implementers.
+- `/notes/INTENTIONS.md`, `/notes/DECISIONS.md`, `/notes/RISKS.md`, `/notes/DEPENDENCIES.md`, `/notes/GLOSSARY.md`.
+- `_spanky/_copayload.meta.json`, `_spanky/_wrap.manifest.json`, `_spanky/out.txt`, `_spanky/checksums.json`.
+
+### Constraints
+- Prefer **evidence and references**; separate conjecture vs. fact.
+- Use **congruence** (non‑coercive, transparent) as the governing principle.
+- Keep autonomy guidance behind **safety preflight** gates.
+
+### Final Line (stdout)
+Print a single line:
+`Spanky ready: <zipname> ([STATUS] items=<n> transcripts=<T> payload=<P> notes=<N> summaries=<S>)`

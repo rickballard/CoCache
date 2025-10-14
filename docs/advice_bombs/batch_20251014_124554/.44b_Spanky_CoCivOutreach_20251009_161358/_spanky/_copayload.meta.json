@@ -1,0 +1,11 @@
+{
+  "counts": {
+    "transcripts": 0,
+    "payload": 0,
+    "notes": 0,
+    "summaries": 0
+  },
+  "kind": "copayload-meta",
+  "producer": "ChatGPT (session wrap)",
+  "created": "2025-10-09T14:16:34"
+}

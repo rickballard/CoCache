@@ -1,0 +1,1 @@
+- Requires secure PAT or GitHub App.

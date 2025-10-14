@@ -1,0 +1,23 @@
+{
+  "MISSING_CC_INLINECORES_PARAMS": "ac8c114fbf4f9beeb844008b4ec54e006e5d469f1cd1f062d9fb9e934de9908c",
+  "_spanky/_copayload.meta.json": "e6a14a036f096c2e35f41d5636eb7246543807c533294f458b87f52a92f53c23",
+  "transcripts/session.md": "e7d7703fdf69cda64355b4c2fded91f12c0b9846394341deaa28de575e188796",
+  "payload/Run-CoCiviumCycle.ps1": "b4adbdacf2b6c0f8aab0c2c90b00de0d00137a58e170f3ffca0acac6703246c7",
+  "payload/Run-CoCiviumPackage.ps1": "c04ac0059d9b75ac9815bf9cc1a6bd7fba453424407a6a3885ad20bfb17c7060",
+  "payload/do_cowrap.ps1": "7dec4d048cd18088ade3155e25ac623c8a8172546a126a725011f40e5ba63df4",
+  "payload/CC_InlineCores.ps1": "5237edfc9d6aa995f1c2655a96b87d60d188ebfaf442ec6d20fbee88a809ef60",
+  "payload/BN_Canonical_Pull.ps1": "1309ba7cb138d4f511719fa4da8acb8f99bb644a986f7b007b48e1135ff88fe1",
+  "payload/.github_workflow_civium-safety.yml": "7b92a726b7063425f8729b8e6bc55b7af573e368eaa0e5f9b69b13a48088bb00",
+  "notes/BPOE.md": "270419a0cdc6d69865061c99e1a9ed1052a69f5805cd78fbb85039b9d670b33b",
+  "notes/INTENTIONS.md": "7fcbd48df9c0e59b45503098d3afaa04707272bf9c0b55f81ef5fcc12a64eea9",
+  "notes/DEPENDENCIES.md": "0f906c9ce762f5bab26d3df61d0524cc95e64f67288f4e5489801ddfaa6e90e8",
+  "notes/DECISIONS.md": "83b0daf18d0fdbdedd0037c23ec0d254e2c15a7cfbbf3ac28eb13bee898d9955",
+  "notes/ASSUMPTIONS.md": "666a25b6d83272a592b2f5fa2f51ffcbb403f36051c57cd666f2b414af885b62",
+  "notes/RISKS.md": "10b3f11afaac19bde7741cd7705250ee2f873353dde260aaef2a5be667a39abe",
+  "notes/GLOSSARY.md": "f0d4555310ea26f9bf8a30cef7c8ecc004acd74da38261dda2d5482b12cce097",
+  "notes/WEBSITE_MANIFEST.md": "498e55262ebd3635316ac4fb26d70443b2d0fc460b454ca6de3a4fdb3555ff8a",
+  "notes/DEPRECATED.md": "744998b787ab067047133d40cea28e2c3e4c3924a87aa02169d364f957a5c1cf",
+  "summaries/TLDR.md": "59c5b09a433f44de5f509c778173704690bd753ed812142405aab60f7f5695a7",
+  "summaries/ROADMAP_NOTES.md": "4b772bd450eee28902a8bb47b42997e7f4008b6ac55b8507f924d5c99b6a997e",
+  "summaries/SOURCES.md": "86f3287c753ed1680c5c298b6503f3e18430089ceea1d162c112837815710da6"
+}

@@ -1,0 +1,1 @@
+CoCore is the backend civic knowledge graph. Start English-first, US/UK focus. Keep DB clean (models + hooks), push tools outside. Do one deep case study per cluster; provide extendable templates for the rest. Parked until Grand Migration finishes; handoff to Upsweep/Downsweep session with dual indexing (human/AI).

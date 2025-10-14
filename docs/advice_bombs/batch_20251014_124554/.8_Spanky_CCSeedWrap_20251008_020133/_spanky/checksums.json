@@ -1,0 +1,98 @@
+{
+  "transcripts/session.md": {
+    "sha256": "9e63b0213fed70e54429857ceb27ecd634059d44c646317ec2fb3ea15cd89142",
+    "bytes": 2525
+  },
+  "payload/tools/do/DoKit.psm1": {
+    "sha256": "b3fe1f718f36492aa8d3f94e743e059265daab9a816c70fb3f5bc203dab01283",
+    "bytes": 3748
+  },
+  "payload/tools/cc/Audit-Overlap.ps1": {
+    "sha256": "b4f5ff3400b7a5f7069189bb44353688cc20a66c2fb29905bff39a1dc89a9108",
+    "bytes": 1770
+  },
+  "payload/tools/cc/Seed-CC.ps1": {
+    "sha256": "6396c7cd949c92b5caa9bc79a73da66cf4f7ec15ed2861229e1e526dd9eb07e7",
+    "bytes": 3006
+  },
+  "payload/CoWrap-Finish.ps1": {
+    "sha256": "ce69d510827c8daf66398cbd21eced92fa463844d1fee2454f53ecda2ca74aab",
+    "bytes": 710
+  },
+  "payload/docs/.do/DO-Canon-Change.md": {
+    "sha256": "756689d9bc769af92ad7488f1a9f373d09eb33c50150dbd64d4c935984cca2c6",
+    "bytes": 51
+  },
+  "payload/docs/.do/DO-CC-Seed.md": {
+    "sha256": "756689d9bc769af92ad7488f1a9f373d09eb33c50150dbd64d4c935984cca2c6",
+    "bytes": 51
+  },
+  "payload/docs/.do/DO-Rest-Policy.md": {
+    "sha256": "756689d9bc769af92ad7488f1a9f373d09eb33c50150dbd64d4c935984cca2c6",
+    "bytes": 51
+  },
+  "payload/.canon.CoCivium_Principles_v0.1.md": {
+    "sha256": "ea22174df3e91eb023f42879c05e77504565fecfe80c8301fb6847bf4c271528",
+    "bytes": 52
+  },
+  "payload/.cc.CC_Megascroll_Seed_v0.1.md": {
+    "sha256": "86951738de4a98650204fb78770097e9d4b424c597b4aec85e31d88161cf2e5a",
+    "bytes": 57
+  },
+  "payload/BPOE_Wisdom_Snippets.md": {
+    "sha256": "d2fb8f5be1bef0138cb9c85218d77761517c71319d507891f39df665909b5221",
+    "bytes": 55
+  },
+  "payload/_Filename_Conventions.md": {
+    "sha256": "fa4a09a707bd6ce4dd4db924599bc1d3609695773e237759b549d35a3e1aba73",
+    "bytes": 53
+  },
+  "notes/BPOE.md": {
+    "sha256": "1b9546639c9e53dbf032187b9fa6e81da22a6f66c9fdbc03751345c12d760ec2",
+    "bytes": 318
+  },
+  "notes/INTENTIONS.md": {
+    "sha256": "e644b82ed2ba5a0a401e81376b5abdade0e16b5e5c16a5b194e574e03f507347",
+    "bytes": 602
+  },
+  "notes/DEPENDENCIES.md": {
+    "sha256": "8dd658bcc7005c79bd0387960d468b5c9acab04875704e2ce636d1f7e941a510",
+    "bytes": 274
+  },
+  "notes/DECISIONS.md": {
+    "sha256": "291f9643153de4ff1eba683aff2107630e834a43bc5db3bba02deccd36d0fb63",
+    "bytes": 282
+  },
+  "notes/ASSUMPTIONS.md": {
+    "sha256": "dfb7fd7dc2f6303939cf60e0e3b4fad68b265e094d9f04c9180573141e9fd621",
+    "bytes": 212
+  },
+  "notes/RISKS.md": {
+    "sha256": "3eaf661ca0091de8787504c3af14cafc34047c198edfb06067c10eb045dbacd9",
+    "bytes": 231
+  },
+  "notes/GLOSSARY.md": {
+    "sha256": "2397eafc5ca68962ef71cf8bdbb46bd90c70f834f8d501eccff851b7e61189fe",
+    "bytes": 402
+  },
+  "notes/WEBSITE_MANIFEST.md": {
+    "sha256": "23d8a6bbfa186c79317c90c8131173cbf3f6f4d594837e47f46dde73ec0c1110",
+    "bytes": 300
+  },
+  "notes/DEPRECATED.md": {
+    "sha256": "82d175e8e4d13e54c8232e2ee396692f4e8a14284d65236c2bc5c2f1b5a08478",
+    "bytes": 177
+  },
+  "summaries/TLDR.md": {
+    "sha256": "d6c27f2bd1dfb9a5c366c0f54398a1a9111491d712b35866160b60a6755b7350",
+    "bytes": 310
+  },
+  "summaries/ROADMAP_NOTES.md": {
+    "sha256": "0dc94f196c467097e1ecb13b1cd5efad2be60a6faf6fd29c4db927755a7e28d2",
+    "bytes": 348
+  },
+  "summaries/SOURCES.md": {
+    "sha256": "66a6a0f75216966e2da22f452fb5951694d34f29f9d57cf3595b7d0622c490a0",
+    "bytes": 191
+  }
+}

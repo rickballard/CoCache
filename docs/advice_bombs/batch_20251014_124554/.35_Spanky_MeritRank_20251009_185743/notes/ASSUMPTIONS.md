@@ -1,0 +1,1 @@
+- Repo layout present; gh authenticated; pip network ok.

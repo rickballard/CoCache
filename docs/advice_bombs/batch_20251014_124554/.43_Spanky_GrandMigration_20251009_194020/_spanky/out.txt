@@ -1,0 +1,24 @@
+[STATUS] items=19 transcripts=1 payload=6 notes=9 summaries=3
+
+Files:
+_spanky/_copayload.meta.json
+_spanky/_wrap.manifest.json
+notes/ASSUMPTIONS.md
+notes/BPOE.md
+notes/DECISIONS.md
+notes/DEPENDENCIES.md
+notes/DEPRECATED.md
+notes/GLOSSARY.md
+notes/INTENTIONS.md
+notes/RISKS.md
+notes/WEBSITE_MANIFEST.md
+payload/CIVIUM_ARCHIVED_POINTER.md
+payload/DEPRECATE_Civium_Runbook.md
+payload/HANDOFF_TEMPLATE_GenericAdvisory.md
+payload/LEFTOVERS_Register.md
+payload/POWERSHELL_SCRIPTS.ps1
+payload/SESSION_PLAN_GrandMigration.md
+summaries/ROADMAP_NOTES.md
+summaries/SOURCES.md
+summaries/TLDR.md
+transcripts/session.md

@@ -1,0 +1,32 @@
+{
+  "version": "1.0",
+  "timestamp": "2025-10-09T03:26:36.093410Z",
+  "structure": {
+    "_spanky": [
+      "_copayload.meta.json",
+      "_wrap.manifest.json",
+      "out.txt",
+      "checksums.json"
+    ],
+    "transcripts": [
+      "session.md"
+    ],
+    "payload": "deliverables (ps1/js/yml/html/md/png/svg/json)",
+    "notes": [
+      "BPOE.md",
+      "INTENTIONS.md",
+      "DEPENDENCIES.md",
+      "DECISIONS.md",
+      "ASSUMPTIONS.md",
+      "RISKS.md",
+      "GLOSSARY.md",
+      "WEBSITE_MANIFEST.md",
+      "DEPRECATED.md"
+    ],
+    "summaries": [
+      "TLDR.md",
+      "ROADMAP_NOTES.md",
+      "SOURCES.md"
+    ]
+  }
+}

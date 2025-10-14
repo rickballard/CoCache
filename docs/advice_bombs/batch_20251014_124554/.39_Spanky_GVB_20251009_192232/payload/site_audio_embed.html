@@ -1,0 +1,10 @@
+<!-- Include on CoCivium site (not Substack) -->
+<link rel="stylesheet" href="/insights/assets/css/soundtrack.css">
+<script src="/insights/assets/js/soundtrack.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function(){
+    initSoundtrack('/insights/audio/come_together_theme.mp3', { volume: 0.35, loop: true });
+  });
+</script>
+<button id="soundtrack-toggle" onclick="(function(b){if(!window.__snd)return;
+  if(__snd.paused){__snd.play();b.textContent='♪';}else{__snd.pause();b.textContent='⏸';}})(this)">♪</button>

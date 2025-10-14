@@ -1,0 +1,22 @@
+{
+  "items": [
+    "notes/ASSUMPTIONS.md",
+    "notes/BPOE.md",
+    "notes/DECISIONS.md",
+    "notes/DEPENDENCIES.md",
+    "notes/DEPRECATED.md",
+    "notes/GLOSSARY.md",
+    "notes/INTENTIONS.md",
+    "notes/RISKS.md",
+    "notes/WEBSITE_MANIFEST.md",
+    "summaries/ROADMAP_NOTES.md",
+    "summaries/SOURCES.md",
+    "summaries/TLDR.md",
+    "transcripts/session.md"
+  ],
+  "rules": [
+    "Re-read from the start; include intentions, inferences, pivots.",
+    "Mark unfinished items in INTENTIONS.md (Unfinished).",
+    "If anything\u2019s missing, include MISSING_<WHAT>."
+  ]
+}

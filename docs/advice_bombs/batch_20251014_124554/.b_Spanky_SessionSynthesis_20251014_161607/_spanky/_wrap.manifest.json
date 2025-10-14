@@ -1,0 +1,28 @@
+{
+  "package": "Spanky_SessionSynthesis_20251014_161607",
+  "created_utc": "2025-10-14T16:16:07.447435Z",
+  "structure": {
+    "folders": [
+      "_spanky",
+      "transcripts",
+      "payload",
+      "notes",
+      "summaries"
+    ]
+  },
+  "files": [
+    "notes/DECISIONS.md",
+    "notes/DEPENDENCIES.md",
+    "notes/GLOSSARY.md",
+    "notes/INTENTIONS.md",
+    "notes/RISKS.md",
+    "payload/ADVICE_AND_STRATEGY.md",
+    "payload/AI_PARTNERSHIP_DECLARATION.md",
+    "payload/GENERIC_DEEP_ANALYSIS_PROMPT.txt",
+    "payload/IMPLEMENTATION_HANDOFF.md",
+    "payload/MAIN_SUMMARY.md",
+    "payload/REPO_IMPACTS.md",
+    "summaries/TLDR.md",
+    "transcripts/session_stub.md"
+  ]
+}

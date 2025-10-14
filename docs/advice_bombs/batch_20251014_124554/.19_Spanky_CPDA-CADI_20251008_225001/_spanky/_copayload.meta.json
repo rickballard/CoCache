@@ -1,0 +1,10 @@
+{
+  "session": "CPDA/CADI seed scaffold",
+  "owner": "CoCivium (commons) \u2014 no kings",
+  "licenses": {
+    "code": "Apache-2.0 or MPL-2.0",
+    "docs": "CC BY-SA 4.0",
+    "data": "ODC-BY/ODbL"
+  },
+  "notes": "Deliverable built from session context; safe to paste into fresh repos."
+}

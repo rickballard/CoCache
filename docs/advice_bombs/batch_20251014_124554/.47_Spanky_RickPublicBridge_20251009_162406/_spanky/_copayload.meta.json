@@ -1,0 +1,17 @@
+{
+  "kind": "spanky",
+  "short_name": "RickPublicBridge",
+  "created_local": "2025-10-09T16:24:06",
+  "session": "RickPublic\u2194CoCivium Messaging",
+  "producer": "ChatGPT (GPT-5 Thinking)",
+  "contract": {
+    "zip_must_include": [
+      "_spanky",
+      "transcripts",
+      "payload",
+      "notes",
+      "summaries"
+    ],
+    "out_status_format": "[STATUS] items=<#> transcripts=<#> payload=<#> notes=<#> summaries=<#>"
+  }
+}

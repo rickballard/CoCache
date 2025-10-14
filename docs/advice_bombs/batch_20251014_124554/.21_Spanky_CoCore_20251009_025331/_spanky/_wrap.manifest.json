@@ -1,0 +1,10 @@
+{
+  "includes": [
+    "_spanky",
+    "transcripts",
+    "payload",
+    "notes",
+    "summaries"
+  ],
+  "notes": "Auto-generated from incomplete ZIP with missing files marked."
+}

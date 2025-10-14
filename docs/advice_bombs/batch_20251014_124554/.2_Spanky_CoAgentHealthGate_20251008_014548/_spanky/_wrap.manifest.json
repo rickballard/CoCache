@@ -1,0 +1,11 @@
+{
+  "format_version": "1.0",
+  "generated_at": "20251008_014548",
+  "root": {
+    "spanky_dir": "/_spanky",
+    "transcripts": "/transcripts",
+    "payload": "/payload",
+    "notes": "/notes",
+    "summaries": "/summaries"
+  }
+}

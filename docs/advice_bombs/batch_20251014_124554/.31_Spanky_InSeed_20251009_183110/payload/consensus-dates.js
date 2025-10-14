@@ -1,0 +1,1 @@
+(function(){function a(d,m){const x=new Date(d);x.setMonth(x.getMonth()+m);return x;}function f(d){return d.toLocaleString(undefined,{month:'short',year:'numeric'});}const n=new Date(),s=a(n,22),e=a(s,30);const S=document.getElementById('consensus-start');const E=document.getElementById('consensus-end');if(S)S.textContent=f(s);if(E)E.textContent=f(e);})();

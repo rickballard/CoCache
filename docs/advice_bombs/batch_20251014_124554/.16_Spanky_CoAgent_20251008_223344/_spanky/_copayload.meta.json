@@ -1,0 +1,15 @@
+{
+  "package": "Spanky",
+  "short_name": "CoAgent",
+  "created_at": "2025-10-08T22:33:44.583411-04:00",
+  "timezone": "America/Toronto",
+  "counts": {
+    "items": 14,
+    "transcripts": 1,
+    "payload": 1,
+    "notes": 9,
+    "summaries": 3
+  },
+  "bundled_zips_found": [],
+  "user_attachment_detected": true
+}
