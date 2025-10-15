@@ -1,0 +1,13 @@
+name: Heartbeat Presence
+on:
+  schedule: [{cron: '0 23 * * *'}]
+  workflow_dispatch:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ensure today's heartbeat exists (UTC date)
+        run: |
+          d=$(date -u +"%Y-%m-%d")
+          test -f heartbeats/$d.md || (echo "Missing heartbeats/$d.md" && exit 1)

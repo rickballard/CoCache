@@ -1,0 +1,8 @@
+denominator,domain,definition,unit_example
+per_100k_population,Health/PublicSafety,Per 100,000 residents,incidents/100k
+per_$1M_spend,Finance/GovOps,Per $1 million in comparable costs,$/1M
+per_tonne_co2e,Environment,Per metric tonne CO₂-equivalent,$/tCO2e
+per_kwh,Energy,Per kilowatt-hour,$/kWh
+per_student_year,Education,Per full-time equivalent student-year,units/student-year
+per_case,Health/Justice,Per confirmed or adjudicated case,units/case
+per_km_network,Infrastructure,Per kilometer of network length,units/km
