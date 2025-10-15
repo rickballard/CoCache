@@ -46,7 +46,7 @@ try{
       path     = $rel
       name     = $name
       kind     = $kind
-      origin   = $env.COMPUTERNAME
+      origin   = ($env:COMPUTERNAME ?? $env:HOSTNAME ?? "unknown-host")
       stamp    = $stamp
       semver   = $null
       state    = 'draft'
@@ -65,3 +65,4 @@ try{
   Write-Host "VA index written: index/va_manifest.csv, index/va_manifest.json" -f Green
 }
 finally{ Pop-Location }
+
