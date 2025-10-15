@@ -1,9 +1,0 @@
-name: civium-safety
-on: [push, pull_request]
-jobs:
-  guard:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Late-hour nudge (log only)
-        run: echo "Consider BPOE cool-down label for late-hour merges."

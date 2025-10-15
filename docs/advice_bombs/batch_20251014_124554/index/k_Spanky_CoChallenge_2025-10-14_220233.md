@@ -7,5 +7,6 @@
 
 ## Tree (top)
 - CoChallenge_Strategic_Package.md
-- CoChallenge_Strategic_Package.pdf
+- CoChallenge_Strategic_Package_2025-10-14_124554.pdf
+
 

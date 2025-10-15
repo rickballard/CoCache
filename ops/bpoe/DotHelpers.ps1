@@ -10,3 +10,5 @@ function Invoke-WithDots([scriptblock]$Work,[object[]]$Args){
     $o
   } finally { Stop-DotTicker }
 }
+$env:ADVICE_BOMBS_SKIP = '1'
+. "C:\Users\Chris\Documents\GitHub\CoCache\ops\bpoe\PermissiveVersionRegex.ps1"
