@@ -1,0 +1,20 @@
+active:
+  - id: coagent-mvp3
+    owner: steward
+    goal: "MVP3 demo: run.ps1 → artifact + status panel"
+    next_commit: "CI posts PR artifacts from end-to-end flow"
+    dod: "templates/DoD.md#coagent-mvp3"
+  - id: cocore-v0.2
+    owner: steward
+    goal: "3 exemplar models + validators"
+    next_commit: "validator CI green on PR"
+    dod: "templates/DoD.md#cocore-v0.2"
+  - id: proof-object-1
+    owner: steward
+    goal: "10-min clone→run→artifact demo"
+    next_commit: "publish screen-capture + badge"
+    dod: "templates/DoD.md#proof-object-1"
+backlog:
+  - id: cadi
+  - id: marketing-kit
+  - id: congruence-v0
