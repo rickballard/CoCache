@@ -9,17 +9,17 @@ jobs:
     steps:
       - name: Checkout CoCache
         uses: actions/checkout@v4
-      - name: Checkout RickDo
+      - name: Checkout CoSteward
         uses: actions/checkout@v4
         with:
-          repository: rickballard/RickDo
-          path: RickDo
+          repository: rickballard/CoSteward
+          path: CoSteward
           token: ${{ secrets.COAGENT_BOT_TOKEN }}
       - name: Setup Git identity
         run: |
           git config --global user.name  "coagent-bot"
           git config --global user.email "coagent-bot@users.noreply.github.com"
-      - name: Update RickDo
+      - name: Update CoSteward
         shell: pwsh
         run: |
-          ./tools/update-rickdo.ps1 -RickDoPath "$PWD/RickDo" -CoCachePath "$PWD" -Accel 3.0
+          ./tools/update-CoSteward.ps1 -RickDoPath "$PWD/CoSteward" -CoCachePath "$PWD" -Accel 3.0

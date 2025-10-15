@@ -1,0 +1,4 @@
+PromiseID,Domain,Claim,LeadingIndicators,LaggingMetrics,Falsifier,Owner,ReviewCadence
+P1,Efficiency,Protocols reduce coordination cost,Time-to-integrate(days);API adoption half-life,TFP;Capex productivity,No improvement vs baseline after 4 quarters,Ops Lead,Q
+P2,Equity,Reputation-weighting improves parity,Parity index;Retention by decile,Gini;Mobility index,Top decile locks >80% with <30% contribution for 4q,Governance,Q
+P3,Resilience,Polycentric design reduces single points of failure,Chaos pass rate;Maintainer redundancy,Crisis frequency;Recovery half-life,>72h critical outage or irreversible data loss,SRE,Q
