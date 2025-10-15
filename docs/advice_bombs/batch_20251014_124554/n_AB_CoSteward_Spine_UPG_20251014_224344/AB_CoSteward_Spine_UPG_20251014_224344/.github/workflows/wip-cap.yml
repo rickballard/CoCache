@@ -1,0 +1,11 @@
+name: WIP Cap (Human)
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install deps
+        run: python3 -m pip install pyyaml
+      - name: Check WIP cap
+        run: python3 scripts/check_wip.py streams.yml

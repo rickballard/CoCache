@@ -1,0 +1,96 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Exemplar Record Metadata",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "title",
+    "version",
+    "status",
+    "domain",
+    "created",
+    "updated"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "concept",
+        "prototype",
+        "pilot",
+        "observational",
+        "rct",
+        "scaled",
+        "deprecated"
+      ]
+    },
+    "domain": {
+      "type": "string"
+    },
+    "subdomain": {
+      "type": "string"
+    },
+    "jurisdictions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "owner_roles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "created": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "license": {
+      "type": "string"
+    },
+    "links": {
+      "type": "object"
+    },
+    "provenance": {
+      "type": "object"
+    },
+    "attestation": {
+      "type": "object"
+    },
+    "readiness": {
+      "type": "object"
+    },
+    "congruence": {
+      "type": "object"
+    },
+    "metrics": {
+      "type": "object"
+    },
+    "costs": {
+      "type": "object"
+    },
+    "replicability": {
+      "type": "object"
+    },
+    "review": {
+      "type": "object"
+    }
+  }
+}
