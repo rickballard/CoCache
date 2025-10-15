@@ -4,3 +4,12 @@
 *.ps1 text eol=crlf
 .gitattributes text eol=lf
 .editorconfig text eol=lf
+*           text=auto
+*.ps1       text eol=lf
+*.psm1      text eol=lf
+*.sh        text eol=lf
+*.md        text eol=lf
+*.yml       text eol=lf
+*.yaml      text eol=lf
+*.json      text eol=lf
+*.csv       text eol=lf
