@@ -18,7 +18,7 @@ $ts = (Get-Date).ToString('yyyy-MM-dd HH:mm:ss zzz')
 $sb = New-Object System.Text.StringBuilder
 $nl = [Environment]::NewLine
 $sb.AppendLine("# Session Regroup Plan") | Out-Null
-$sb.AppendLine("_Generated: $ts_") | Out-Null
+$sb.AppendLine("_Generated: $($ts)_") | Out-Null
 $sb.AppendLine() | Out-Null
 
 $sb.AppendLine("## Snapshot") | Out-Null
@@ -41,3 +41,4 @@ $sb.AppendLine("- CoRef cross-repo index design → incremental adoption.") | Ou
 
 [IO.File]::WriteAllText($OutPath,$sb.ToString(),(New-Object System.Text.UTF8Encoding($false)))
 Write-Host "Wrote $OutPath" -ForegroundColor Green
+
