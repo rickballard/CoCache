@@ -1,0 +1,25 @@
+
+limits:
+  max_items_per_day: 50
+  max_prs_per_day: 3
+  max_issue_opens_per_day: 5
+  keep_raw_days: 60
+  keep_weekly_summaries: 730
+routing_thresholds:
+  pr_min_score: 4.2
+  issue_min_score: 3.0
+  auto_merge_class: ["citations_only", "notes_only", "diffusion_row"]
+  human_review_class: ["threshold_change", "guardrail_change", "metric_change"]
+storage:
+  mode: "thin"
+  fields: [title, url, source_id, date, score, tags, summary_250c, evidence_class]
+  payload_policy: "no_full_text"
+editorial:
+  brief_word_limit: 600
+  top_signals_max: 5
+  diffusion_max: 3
+  risks_max: 3
+staleness_sla:
+  fast_days: 90
+  medium_days: 365
+  slow_days: 1095

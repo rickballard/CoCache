@@ -1,0 +1,26 @@
+
+- id: arxiv.ai.policy
+  url: https://export.arxiv.org/api/query?search_query=cat:cs.CY+AND+ti:policy&max_results=25
+  cadence: weekly
+  parser: atom
+  route: research
+- id: oecd.open_gov
+  url: https://www.oecd.org/gov/open-government/rss.xml
+  cadence: weekly
+  parser: rss
+  route: policy
+- id: nvd.cve
+  url: https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=@yesterday
+  cadence: daily
+  parser: json
+  route: security
+- id: canada_gazette
+  url: https://gazette.gc.ca/rss/index-eng.html
+  cadence: daily
+  parser: rss
+  route: policy
+- id: municipal_oakville_procurement
+  url: https://bids.oakville.ca/opportunities.rss
+  cadence: daily
+  parser: rss
+  route: municipal

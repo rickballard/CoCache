@@ -1,0 +1,14 @@
+{
+  "name": "CoCivium Investor/Outreach Advice Bomb",
+  "id": "AdviceBomb_InvestorPack_CoCivium_20251016_160530",
+  "version": "1.0.0",
+  "created_at": "20251016_160530",
+  "author": "ChatGPT (on request by Rick)",
+  "intent": [
+    "Prepare raise materials for impact and commercial lanes",
+    "Preserve no\u2011capture governance for the unowned core",
+    "Enable repeatable outreach & KPI tracking"
+  ],
+  "humangate": true,
+  "notes": "Review legal/compliance sections with counsel before use."
+}
