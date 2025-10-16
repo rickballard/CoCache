@@ -1,4 +1,11 @@
 # Genexis
+Last updated: 2025-10-15 22:45:13 -04:00
+
+> Assembled from VA manifest; curate freely.
+
+---
+## Source: CC/sections/Genexis.md
+# Genexis
 Last updated: 2025-10-15 22:24:03 -04:00
 
 > Assembled from VA manifest; curate freely.
@@ -32,6 +39,8 @@ _Last updated: PLACEHOLDER_
 > v0 assembled automatically from seeds and recovery notes. Curate freely.
 
 <!-- GENEXIS-AUTO-INCLUDE -->
+
+
 
 
 
