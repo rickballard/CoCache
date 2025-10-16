@@ -1,3 +1,2 @@
 #!/usr/bin/env bash
-set -euo pipefail
-exec pwsh -NoProfile -File "$(dirname "$0")/pre-push.ps1"
+exec pwsh -NoProfile -ExecutionPolicy Bypass -File "${BASH_SOURCE%/*}/pre-push.ps1" "$@"

@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+exec pwsh -NoProfile -ExecutionPolicy Bypass -File "${BASH_SOURCE%/*}/commit-msg.ps1" "$@"
