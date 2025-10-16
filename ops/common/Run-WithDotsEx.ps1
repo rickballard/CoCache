@@ -51,3 +51,16 @@ function Run-WithDotsEx {
     Remove-Job $job -ErrorAction SilentlyContinue | Out-Null
   }
 }
+# --- learn PredictSec from history (median of last 10 for this label)
+$hist = "admin/durations.csv"; New-Item -ItemType Directory -Force admin | Out-Null
+if(Test-Path $hist){
+  $rows = Import-Csv $hist | ? { $_.Label -eq $Label } | Select-Object -Last 10
+  if($rows){ $PredictSec = [int]([Linq.Enumerable]::Average(([int[]]($rows | % Seconds))).ToString("0")) }
+}
+# … existing run logic …
+# on success/finally append:
+try{
+  $elapsed=[int]$sw.Elapsed.TotalSeconds
+  $rec=[pscustomobject]@{Timestamp=(Get-Date).ToString("s");Label=$Label;Seconds=$elapsed}
+  if(Test-Path $hist){ $rec | Export-Csv $hist -Append -NoTypeInformation } else { $rec | Export-Csv $hist -NoTypeInformation }
+}catch{}
