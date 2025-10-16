@@ -26,3 +26,7 @@ docs/advice_bombs/batch_*/.*.zip
 docs/advice_bombs/batch_*/*_*/
 !docs/advice_bombs/batch_*/index/
 !docs/advice_bombs/batch_*/Actionables.md
+
+# allow AdviceBomb zips
+!advice-bombs/raw/
+!advice-bombs/raw/*.zip
