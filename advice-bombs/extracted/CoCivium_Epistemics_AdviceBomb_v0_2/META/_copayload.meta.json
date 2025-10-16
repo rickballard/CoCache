@@ -1,0 +1,7 @@
+{
+  "name": "CoCivium_Epistemics_AdviceBomb",
+  "version": "0.2",
+  "created": "2025-10-16",
+  "session": "advice-epistemics",
+  "notes": "Adds CI linter, semantic drift monitor, thresholds, and stronger ingest-gate stub."
+}
