@@ -1,21 +1,29 @@
+# Normalize text; keep LF in repo (Windows can still checkout CRLF locally)
 * text=auto eol=lf
-*.md text
-*.sh text eol=lf
-*.ps1 text eol=crlf
-.gitattributes text eol=lf
-.editorconfig text eol=lf
-*           text=auto
-*.ps1       text eol=lf
-*.psm1      text eol=lf
-*.sh        text eol=lf
-*.md        text eol=lf
-*.yml       text eol=lf
-*.yaml      text eol=lf
-*.json      text eol=lf
-*.csv       text eol=lf
-*.zip filter=lfs diff=lfs merge=lfs -text
-*.zip binary
 
+# Mark common binaries
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.webp binary
+*.ico  binary
+*.pdf  binary
+*.zip  binary
+*.woff binary
+*.woff2 binary
+# Keep scripts & web text normalized
+*.ps1  text eol=lf
+*.psm1 text eol=lf
+*.sh   text eol=lf
+*.bash text eol=lf
+*.bat  text eol=lf
+*.html text eol=lf
+*.css  text eol=lf
+*.js   text eol=lf
+*.md   text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
 path/to/missing/file1.ext !text !filter !merge !diff
 path/to/missing/file2.ext !text !filter !merge !diff
 path/to/missing/file3.ext !text !filter !merge !diff
