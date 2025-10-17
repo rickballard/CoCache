@@ -16,3 +16,6 @@
 - Backlog: ./BACKLOG.md
 - Diagram briefs: ./DIAGRAM_BRIEFS.md
 - Private HP plan: (private repo link / encrypted path)
+## Review 2025-10-16 20:02 (UTC)
+- Status: Epistemics ZIP tracked; InSeed diagram ingest stable; timeline generator wrapper fixed.
+- Next AM: run wrapper, commit SVG + gallery; CoWrap into fresh driver session; continue CoCivium scaffold.
