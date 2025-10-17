@@ -53,7 +53,7 @@ foreach($r in $Repos){
       foreach($w in $wfs){ $lines += "  - $([IO.Path]::GetFileNameWithoutExtension($w.Name)) — `.github/workflows/$($w.Name)`" }
     }
   }
-  $sdir = Join-Path $r "scripts"
+  $sdir = Join-Path $r "scripts";
   if(Test-Path $sdir){
     $scr = Get-ChildItem $sdir -File -EA SilentlyContinue
     if($scr){

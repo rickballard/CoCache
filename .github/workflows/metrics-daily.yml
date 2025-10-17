@@ -1,21 +1,26 @@
-name: metrics-harvest
+name: metrics-daily
 on:
   push:
     branches: [ main ]
+  schedule:
+    - cron: "0 9 * * *"   # 09:00 UTC daily
 jobs:
-  harvest:
+  check-metrics:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Verify registry log paths exist
-        shell: bash
-        run: |
-          set -e
-          jq -r '.[].log_path' metrics/registry.json | while read p; do
-            if [ ! -f "$p" ]; then
-              echo "Missing metric log: $p"; exit 1
-            fi
-          done
-      - name: Run harvester (PowerShell)
+      - name: Run harvester
         shell: pwsh
         run: ./scripts/metrics_harvest.ps1 -Root "$PWD"
+      - name: Stale tracker (fail if stale)
+        shell: pwsh
+        run: |
+          ./scripts/metrics_stale_check.ps1 -Root "$PWD" -Days 30
+          $data = Get-Content metrics/stale.json -Raw | ConvertFrom-Json
+          if($null -ne $data){
+            if($data -is [array]){ if($data.Count -gt 0){ Write-Error "Found stale trackers (>30 days): $($data.id -join ', ')" } }
+            else { Write-Error "Found stale trackers (>30 days): $($data.id)" }
+          }
+      - name: Render sparklines (sanity)
+        shell: pwsh
+        run: ./scripts/render_sparklines.ps1 -HistoryDir "$PWD/metrics/history" -OutDir "$PWD/docs/assets/metrics"
