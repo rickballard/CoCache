@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Org Footprint",
+  "type": "object",
+  "required": [
+    "name",
+    "kind",
+    "domains",
+    "alignment",
+    "sources"
+  ],
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "kind": {
+      "type": "string",
+      "enum": [
+        "Nonprofit",
+        "Research Lab",
+        "Public Agency",
+        "Company",
+        "Foundation",
+        "Network"
+      ]
+    },
+    "domains": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "system_domains": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "alignment": {
+      "type": "object",
+      "required": [
+        "fit",
+        "summary"
+      ],
+      "properties": {
+        "fit": {
+          "type": "string",
+          "enum": [
+            "Strong",
+            "Medium",
+            "Weak"
+          ]
+        },
+        "summary": {
+          "type": "string"
+        }
+      }
+    },
+    "logo_url": {
+      "type": "string"
+    },
+    "sheet_url": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "last_checked": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

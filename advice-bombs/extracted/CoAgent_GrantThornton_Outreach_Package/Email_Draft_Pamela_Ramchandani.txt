@@ -1,0 +1,31 @@
+Subject: No‑cost, no‑strings evaluation: a tiny pilot your Business Transformation team can run next door
+
+Hi Pamela —
+
+We’re neighbours, and I’d love to offer your Business Transformation team a no‑cost, no‑obligation look at a tool I’m building called CoAgent.
+
+What it is (in one paragraph)
+CoAgent is an AI‑assisted execution shell that turns natural‑language intent into repeatable, governable workflows. It wraps your existing tools (Office, PDFs, Git, browsers, scripts) and produces artifacts you can inspect, version, and re‑use — without introducing another platform to “own” your processes.
+
+Why it’s relevant to Grant Thornton
+• Your mandate is business transformation at scale with practical governance and measurable outcomes.
+• Your team’s hiring signals suggest appetite for pragmatic acceleration and tooling.
+• GT’s advisory network is an ideal place to run small, structured experiments that show client‑facing impact quickly.
+
+A tiny pilot (2–4 weeks)
+• Choose one non‑sensitive, annoying workflow (e.g., weekly roll‑ups, slide clean‑up, or a RAID summary).
+• Run CoAgent on a non‑prod workstation; we use sample/redacted files only.
+• Measure cycle‑time and quality before/after.
+• Keep anything you make; there are no fees or strings attached.
+
+Guardrails
+• No data leaves your perimeter. No vendor lock‑in. All artifacts remain yours under a permissive license.
+• Human‑in‑the‑loop checkpoints; we avoid any automated posting or system changes.
+
+If any of this is interesting, I can drop by for 30 minutes to show it working and let one of your vibe‑coding savvy practitioners “drive.”
+If it’s not a fit, no worries — you’ll at least leave with a repeatable micro‑workflow you can keep.
+
+Best,
+Rick
+Richard (Rick) Ballard
+InSeed.com • rballard@inseed.com • +1 (xxx) xxx‑xxxx

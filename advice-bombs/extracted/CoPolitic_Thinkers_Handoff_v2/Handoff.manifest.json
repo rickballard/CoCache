@@ -1,0 +1,21 @@
+{
+  "created_at": "2025-10-16T21:19:48.795387Z",
+  "repos": {
+    "copolitic": {
+      "thinkers_page": "docs/thinkers/index.html",
+      "data_local_preview": "docs/assets/thinkers/thinkers.json",
+      "branch": "feature/thinkers-page-20251016-1633"
+    },
+    "cocore": {
+      "dataset": "best-practices/thinkers/thinkers.json",
+      "sheets_dir": "docs/thinkers/sheets/",
+      "cdn_latest": "https://cdn.jsdelivr.net/gh/rickballard/CoCore@main/best-practices/thinkers/thinkers.json"
+    }
+  },
+  "decisions": [
+    "CoCore is source of truth; CoPolitic fetches from CDN",
+    "Per-thinker HTML sheets generated into CoCore docs/thinkers/sheets",
+    "Cards link to sheet_url when present",
+    "Local preview served from CoPolitic/docs via simple http server"
+  ]
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Center for Humane Technology",
+    "kind": "Nonprofit",
+    "domains": [
+      "Humane Tech",
+      "AI Governance"
+    ],
+    "system_domains": [
+      "governance.incentives",
+      "infra.portability"
+    ],
+    "alignment": {
+      "fit": "Strong",
+      "summary": "Advocates incentive realignment and humane defaults; good partner for CoAgent UX."
+    },
+    "website": "https://www.humanetech.com/",
+    "logo_url": "https://www.humanetech.com/favicon.ico",
+    "sources": [
+      {
+        "label": "Website",
+        "url": "https://www.humanetech.com/"
+      }
+    ],
+    "provenance": {
+      "last_checked": "2025-10-16T21:29:10.011711Z"
+    }
+  }
+]

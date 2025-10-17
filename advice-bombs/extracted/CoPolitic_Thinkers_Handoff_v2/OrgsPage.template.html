@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Exemplar Organizations · CoPolitic</title>
+<style>
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:#0e0e10;color:#eee;margin:0;padding:0}
+main{max-width:1080px;margin:0 auto;padding:24px 16px 80px}
+h1{font-size:28px;margin:0 0 8px}
+.sub{opacity:.8;margin:0 0 16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
+.card{background:#141418;border:1px solid #23232a;border-radius:16px;padding:16px;box-shadow:0 1px 0 #1b1b20 inset}
+.badge{display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;border:1px solid #2b2b32;margin-left:8px;opacity:.9}
+.pill{display:inline-block;padding:4px 10px;border-radius:999px;font-size:12px;background:#1c1c22;margin:2px 6px 0 0}
+a{color:#74b9ff;text-decoration:none} a:hover{text-decoration:underline}
+.meta{font-size:12px;opacity:.8;margin-top:10px}
+</style>
+</head><body>
+<main>
+  <h1>Exemplar Organizations / Potential Sponsors</h1>
+  <p class="sub">Profiles fetched from CoCore. Cards link to deeper sheets hosted by CoCore.</p>
+  <div class="controls">
+    <input id="q" placeholder="Search names, domains…" />
+    <select id="domain"><option value="">All domains</option></select>
+    <select id="fit"><option value="">Any fit</option><option>Strong</option><option>Medium</option><option>Weak</option></select>
+  </div>
+  <div id="grid" class="grid"></div>
+</main>
+<script>
+const state={data:[],q:'',domain:'',fit:''};
+const grid=document.getElementById('grid');
+const q=document.getElementById('q');
+const d=document.getElementById('domain');
+const f=document.getElementById('fit');
+q.addEventListener('input',()=>{state.q=q.value.toLowerCase();render()});
+d.addEventListener('change',()=>{state.domain=d.value;render()});
+f.addEventListener('change',()=>{state.fit=f.value;render()});
+
+function matches(t,n){return (t||'').toLowerCase().includes(n)}
+
+function render(){
+  let rows=state.data;
+  if(state.q){ rows=rows.filter(r=>matches(r.name,state.q)||matches((r.domains||[]).join(' '),state.q)||matches(r.alignment?.summary,state.q)); }
+  if(state.domain){ rows=rows.filter(r=>(r.domains||[]).includes(state.domain)); }
+  if(state.fit){ rows=rows.filter(r=>(r.alignment?.fit||'').toLowerCase()===state.fit.toLowerCase()); }
+  grid.innerHTML=rows.map(r=>`
+    <div class="card">
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <h3 style="margin:0">${r.sheet_url?`<a href="${r.sheet_url}" target="_blank" rel="noopener">${r.name}</a>`:r.name}</h3>
+        <span class="badge">${r.alignment?.fit||'n/a'}</span>
+      </div>
+      <div class="meta">${(r.domains||[]).map(x=>`<span class="pill">${x}</span>`).join('')}</div>
+      <p style="margin-top:10px">${r.alignment?.summary||''}</p>
+    </div>
+  `).join('');
+  const uniq=[...new Set(state.data.flatMap(r=>r.domains||[]))].sort();
+  d.innerHTML='<option value="">All domains</option>'+uniq.map(x=>`<option ${x===state.domain?'selected':''}>${x}</option>`).join('');
+}
+
+// Default: CoCore CDN path (adjust orgs path/filename as you publish it)
+fetch('https://cdn.jsdelivr.net/gh/rickballard/CoCore@main/best-practices/orgs/orgs.json',{cache:'no-store'})
+  .then(r=>r.json()).then(data=>{state.data=data;render()})
+  .catch(e=>{grid.innerHTML='<div style="opacity:.8">Could not load orgs.json.</div>'});
+</script>
+</body></html>
