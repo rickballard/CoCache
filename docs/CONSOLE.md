@@ -33,3 +33,5 @@ _Feedback routes:_ open an Issue in **CoSteward** (preferred), or in the relevan
 - ![HB fsMs](assets/metrics/heartbeat.fsMs.svg)  *(I/O latency lower is better)*
 
 **Stale trackers:** see [docs/STALE_TRACKERS.md](STALE_TRACKERS.md)
+
+**Trends:** see [docs/TOP_MOVERS.md](TOP_MOVERS.md)
