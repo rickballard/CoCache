@@ -19,3 +19,6 @@
 ## Review 2025-10-16 20:02 (UTC)
 - Status: Epistemics ZIP tracked; InSeed diagram ingest stable; timeline generator wrapper fixed.
 - Next AM: run wrapper, commit SVG + gallery; CoWrap into fresh driver session; continue CoCivium scaffold.
+### Heartbeat 2025-10-17 15:36:43Z
+- Raw zips: 7
+- InSeed diagrams: 9
