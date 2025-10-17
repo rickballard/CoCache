@@ -1,0 +1,33 @@
+Proposed outreach phase of CoCivim Email to Arthur Thompson, DNC CTO
+
+Subject: Strategic Civic Tech for the Infrastructure You’re Already Building
+
+Hi Arthur,
+
+I’m Rick Ballard, founder of GroupBuild, a civic-tech platform built to strengthen ethical, reputation-aware participation—especially when central platforms are compromised or weaponized. Our approach blends meritocratic voting, anonymized identity layers, and AI-enhanced moderation into tools that help communities self-organize under pressure.
+
+You’ve spoken publicly about the DNC’s dual mandate: securing digital infrastructure while exploring generative AI responsibly. GroupBuild was built specifically for that intersection—and I believe it could help advance the standards you're already pushing for:
+
+Our AI moderation system (BeAxa) is designed to curb misinformation and elevate trusted contributors without platform bias.
+Our AnonID framework protects identity while preserving civic accountability—crucial for high-risk organizing.
+Our architecture naturally “leans into truth,” which tends to benefit Democrats more than Republicans in today’s info-warfare climate.
+Your job is high-risk and high-visibility: You’re expected to futureproof Democratic infrastructure while avoiding missteps with experimental tech. GroupBuild isn’t asking you to take a risk—it’s designed to give you a low-friction, high-integrity option you can pilot discreetly, with full control. If nothing else, it may validate or pressure-test some of the assumptions behind existing DNC tooling.
+
+What I’m Proposing
+A 15-minute walkthrough tailored to your current stack and stressors.
+A sandbox demo for internal vetting.
+A whitepaper summary on where our ethics architecture overlaps with DNC priorities.
+If this resonates, I’d be glad to share credentials and set up a time.
+
+Thanks for pushing boundaries without losing the plot. GroupBuild was built to help with exactly that.​
+
+
+
+Step	Channel	Strategy
+1	LinkedIn	Send InMail to Arthur, referencing his RFP/public event participation and expressing a willingness to also submit via official RFP.
+
+2	RFP Submission	Submit GroupBuild doc through DNC’s organizational tools RFP. Include “GroupBuild for RFP” as the subject.
+
+3	Partner Org Intro	Request intro via Higher Ground Labs or civic-tech network contacts.
+
+4	DNC Tech Desk Email	Send summary email via DNC press/innovation desk with request to forward to Arthur and team, or Dir Eng Catherine Kahle
