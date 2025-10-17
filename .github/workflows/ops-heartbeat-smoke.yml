@@ -22,4 +22,5 @@ jobs:
       - name: Update CoSteward
         shell: pwsh
         run: |
-          ./tools/update-CoSteward.ps1 -RickDoPath "$PWD/CoSteward" -CoCachePath "$PWD" -Accel 3.0
+          ./tools/update-CoSteward.ps1 -CoStewardPath "$PWD/CoSteward" -CoCachePath "$PWD" -Accel 3.0
+

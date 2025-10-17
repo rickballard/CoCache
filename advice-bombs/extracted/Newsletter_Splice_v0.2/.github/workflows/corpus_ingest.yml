@@ -21,7 +21,7 @@ jobs:
           python CoCache/scripts/compose_weekly.py --ingest CoCache/ingest --out CoCache/synth/weekly_summaries
       - name: Prepare PRs
         run: |
-          python CoCache/scripts/triage_and_raise.py --week latest --rickpublic RickPublic --rickdo RickDo
+          python CoCache/scripts/triage_and_raise.py --week latest --rickpublic RickPublic --CoSteward CoSteward
       - name: Commit summary (if any changes)
         run: |
           git config user.name "CoCivium Bot"
@@ -29,3 +29,4 @@ jobs:
           git add -A
           git commit -m "chore(corpus): weekly brief" || true
           git push || true
+

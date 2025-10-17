@@ -1,5 +1,5 @@
 
-# CoSteward (formerly RickDo) - Front Door
+# CoSteward (formerly CoSteward) - Front Door
 Operational notes, playbooks, and links to weekly CoCivium briefs.
 
 ## CoCivium Weekly Briefs
@@ -9,3 +9,4 @@ Operational notes, playbooks, and links to weekly CoCivium briefs.
 
 [![Latest Weekly Brief](https://img.shields.io/badge/CoCivium-Weekly_Brief-blue)](https://github.com/rickballard/RickPublic/tree/main/issues)
 [![Live Signals](https://img.shields.io/badge/Signals-Live-lightgrey)](https://github.com/rickballard/CoCache/tree/main/synth/weekly_summaries)
+
