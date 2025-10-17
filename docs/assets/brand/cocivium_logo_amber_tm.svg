@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 18 18' role='img' aria-label='warn'>
+  <circle cx='9' cy='9' r='8' fill='#FFB000' />
+  <text x='9' y='11' text-anchor='middle' font-size='8' font-family='Segoe UI, Arial' fill='white'>CC</text>
+</svg>
