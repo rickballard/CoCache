@@ -1,0 +1,21 @@
+name: metrics-harvest
+on:
+  push:
+    branches: [ main ]
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify registry log paths exist
+        shell: bash
+        run: |
+          set -e
+          jq -r '.[].log_path' metrics/registry.json | while read p; do
+            if [ ! -f "$p" ]; then
+              echo "Missing metric log: $p"; exit 1
+            fi
+          done
+      - name: Run harvester (PowerShell)
+        shell: pwsh
+        run: ./scripts/metrics_harvest.ps1 -Root "$PWD"
