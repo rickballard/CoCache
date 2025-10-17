@@ -1,0 +1,6 @@
+{
+  "heartbeat.core":        { "kind": "lower_is_better", "field": "fsMs",   "warn": 20,  "crit": 100 },
+  "git.sanity.cocache":    { "kind": "zero_is_best",    "field": "behind", "warn": 1,   "crit": 3   },
+  "git.sanity.inseed":     { "kind": "zero_is_best",    "field": "behind", "warn": 1,   "crit": 3   },
+  "_stale_days":           { "warn": 14, "crit": 30 }
+}
