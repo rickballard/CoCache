@@ -1,13 +1,13 @@
 ---
 runbook: Deprecate Civium (private + archived)
-repo: rickballard/CoCivium
+repo: rickballard/CoCivium™
 created_local: 2025-09-18T23:11:36Z
 version: v1
 ---
 
 # Civium Deprecation Runbook
 
-> Goal: make **CoCivium** private and archived, with backups and clear pointers.
+> Goal: make **CoCivium™** private and archived, with backups and clear pointers.
 
 ## 0) Preflight (local)
 - [ ] Create full backup bundle:

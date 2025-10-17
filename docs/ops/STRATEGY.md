@@ -5,13 +5,13 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
-# CoCivium – Migration & Build-out Strategy (v0)
-**Intent:** finish CoCivium→CoCivium migration, stabilize workflows, then progress on product/docs/brand with minimal owner involvement.
+# CoCivium™ – Migration & Build-out Strategy (v0)
+**Intent:** finish CoCivium™→CoCivium™ migration, stabilize workflows, then progress on product/docs/brand with minimal owner involvement.
 
 **Goals (phase 1):**
-- Content parity with CoCivium (tracked files) with clear provenance.
+- Content parity with CoCivium™ (tracked files) with clear provenance.
 - Clean landing visuals + brand pack staged (no Pages yet).
-- Working link structure (no stale CoCivium pointers).
+- Working link structure (no stale CoCivium™ pointers).
 - CI noise quarantined (non-blocking), essential checks green.
 - Ops norms documented so small changes can be merged fast.
 

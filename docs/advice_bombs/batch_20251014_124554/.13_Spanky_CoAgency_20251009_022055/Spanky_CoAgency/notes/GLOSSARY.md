@@ -1,4 +1,4 @@
-- CoAgency — CoCivium's agency/personhood initiative.
+- CoAgency — CoCivium™'s agency/personhood initiative.
 - TrustFlag — Public authenticity indicator.
 - Congruence Engine — Scores actions against values/plan.
 - GIBindex — Cross-repo term index system.

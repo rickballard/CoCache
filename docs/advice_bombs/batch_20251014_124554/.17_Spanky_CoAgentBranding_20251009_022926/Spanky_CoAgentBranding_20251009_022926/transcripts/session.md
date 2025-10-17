@@ -8,7 +8,7 @@
 - Produced assets for **light** (black/gray on transparent) and **dark** (white on transparent) backgrounds.
 - Created **paired wide mark** with optional **lightning bolt** used as *status/active transmission* indicator.
 - Delivered **favicons (16/32/64)** using minimal head+arcs for small-scale clarity.
-- Packaged **CoCivium grayscale references** and defined **brand hierarchy**: CoCivium (master grayscale) → CoAgent (rainbow-capable child) → CoModules (family geometry with accents).
+- Packaged **CoCivium™ grayscale references** and defined **brand hierarchy**: CoCivium™ (master grayscale) → CoAgent (rainbow-capable child) → CoModules (family geometry with accents).
 
 ## Key Decisions
 - Two export sets (light/dark).  

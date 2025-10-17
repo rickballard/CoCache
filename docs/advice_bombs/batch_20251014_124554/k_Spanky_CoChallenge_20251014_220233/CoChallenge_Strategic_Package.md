@@ -4,14 +4,14 @@
 ## 1. Purpose & Scope Distinction
 
 - **FTW (Fix The World)** is a macro-scale simulation game focused on world system design and societal structures.
-- **CoChallenge** is a micro-scale policy challenge engine aimed at refining or improving CoCivium policies.
+- **CoChallenge** is a micro-scale policy challenge engine aimed at refining or improving CoCivium™ policies.
 
 ## 2. High-Level Architecture & Flow
 
 1. **User Modeling**: Interests + experience tracking
 2. **Scenario Engine**: Tailored prompts w/ context + base policy
 3. **Scoring System**:
-   - Congruence: Alignment with CoCivium
+   - Congruence: Alignment with CoCivium™
    - Delta: Degree of meaningful improvement
 4. **Feedback Loop**: Iterative refinement & learning
 5. **Meritocratic Voting**: Community votes on best policies

@@ -9,7 +9,7 @@
 
 | Title | Status | Priority | Tags | Created | File |
 |---|---|---|---|---|---|
-| Idea Card: Contributor Merge Policy for CoCivium | seed | normal |  | 2025-09-04 | $rel |
+| Idea Card: Contributor Merge Policy for CoCivium™ | seed | normal |  | 2025-09-04 | $rel |
 | Idea Card: Session Bloat Mitigation & AI Operating Limits | seed | normal |  | 2025-09-04 | $rel |
 | Idea Card: Silent Fail Diagnostics & File Visibility Checker | seed | normal |  | 2025-09-04 | $rel |
 | IdeaCard_CoParser | seed | normal |  | 2025-09-04 | $rel |

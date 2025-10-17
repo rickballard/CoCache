@@ -4,7 +4,7 @@
 **Files:** `theory.md`, `pragmatics.md`, `scorecard_template.csv`, `cocivium_hypotheses.csv`, `_insight.meta.json`
 
 ## Purpose
-Provide a falsifiable framework to compare historical **regimes/epochs** and to **predict** CoCivium outcomes early.
+Provide a falsifiable framework to compare historical **regimes/epochs** and to **predict** CoCivium™ outcomes early.
 
 ## Integration
 - Add this folder under your repo’s `/insights/`.

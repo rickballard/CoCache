@@ -3,4 +3,4 @@
 - Coevolution: cross-repo adaptation governed by shared objectives.
 - CoCache: local steward of policies, proposals, lineage.
 - CoCacheGlobal: negotiation/voting hub and safe-harbour.
-- CoCivia: coalition of CoCivium-aligned AIs.
+- CoCivia: coalition of CoCivium™-aligned AIs.

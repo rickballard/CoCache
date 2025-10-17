@@ -15,7 +15,7 @@
 - You decided to park the work for a week and requested a single “Spanky” deliverable zip with transcripts, payload, notes, and summaries.
 
 ## Early Intentions & Pivots
-- Intent: fast, policy-compliant survivability for CoCivium assets.
+- Intent: fast, policy-compliant survivability for CoCivium™ assets.
 - Pivot: from full automation to **MVP easy path** (manual zips to Synology, Action later).
 
 ## Outstanding Items (marked in INTENTIONS.md as Unfinished)

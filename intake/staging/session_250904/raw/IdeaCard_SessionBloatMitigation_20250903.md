@@ -2,7 +2,7 @@
 # Idea Card: Session Bloat Mitigation & AI Operating Limits
 
 ## Summary
-ChatGPT performance degraded during extended CoCivium sessions due to session bloat, leading to latency, lost responses, and dropped file references. A structured plan is needed to address this technically and behaviorally.
+ChatGPT performance degraded during extended CoCivium™ sessions due to session bloat, leading to latency, lost responses, and dropped file references. A structured plan is needed to address this technically and behaviorally.
 
 ## Problems
 - Message lag and timeouts due to large in-session memory and conversation state.

@@ -19,7 +19,7 @@ next_session_hint: ""
 This chat session became bloated.  To make handoff to a fresh session clean, here is a concise, ready‑to‑run plan plus a record of what we completed, what remains, and what we intended to do next.
 
 ### What we did
-- Created a **pilot “Dropped Idea Cards” sweep** from recent CoCivium‑relevant chats, and flagged 15 items as **Missing** or **Partial**, each with a next action.  
+- Created a **pilot “Dropped Idea Cards” sweep** from recent CoCivium™‑relevant chats, and flagged 15 items as **Missing** or **Partial**, each with a next action.  
 - Reframed the effort as a **post‑migration polishing process (PMDS)** rather than an all‑history crawl.  
 - Produced a **clean, minimal PMDS plan** with schema, target repo layout, and a paste‑safe PowerShell scaffold to add `ideas/` and refactor logs.  
 
@@ -41,7 +41,7 @@ This chat session became bloated.  To make handoff to a fresh session clean, her
 
 # PMDS (Post‑Migration Droppings & Polish) — Clean Plan
 
-**Goal.** After migration is closed, sweep CoCivium‑relevant chats in small batches, capture any still‑untracked ideas as **IdeaCards**, and polish the repo structure with tiny, safe PRs.  Chats are inputs.  The repo is ground truth.
+**Goal.** After migration is closed, sweep CoCivium™‑relevant chats in small batches, capture any still‑untracked ideas as **IdeaCards**, and polish the repo structure with tiny, safe PRs.  Chats are inputs.  The repo is ground truth.
 
 **Run when.** Only **after** the migration is closed and `main` is green/protected.
 
@@ -55,7 +55,7 @@ This chat session became bloated.  To make handoff to a fresh session clean, her
 ## Workflow (7 steps)
 
 1) **Gate.** Migration closed; `main` protected; labels ready (`ideas`, `docs`, `refactor`, `pmds`, `content`).  
-2) **Collect (batched).** Start with the most recent chats, then move backward in batches.  Extract only CoCivium‑relevant ideas.  
+2) **Collect (batched).** Start with the most recent chats, then move backward in batches.  Extract only CoCivium™‑relevant ideas.  
 3) **Normalize.** Canonicalize names, add IDs, and dedupe by title/keywords.  
 4) **Match.** Compare each candidate to repo artifacts (files, Issues, PRs, Wiki).  Assign one of: **Present**, **Partial**, **Missing**, **N/A**.  
 5) **Act.**  

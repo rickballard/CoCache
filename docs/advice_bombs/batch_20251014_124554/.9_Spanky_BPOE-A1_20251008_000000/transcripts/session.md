@@ -7,7 +7,7 @@
 
 ## Mid-Session Pivots
 - Switched from big DO monoliths to **zip-first** packs.
-- Implemented **CoAgent G2** (daily greeting + CoCivium overlay).
+- Implemented **CoAgent G2** (daily greeting + CoCivium™ overlay).
 - Added **SAMPLE watermark + demo chip + print rules** (Alt+S toggle, ?params).
 - Introduced **HH BPOE Core** (Start/End gates, log), and **CLI utils** (spinner + git helpers).
 - Fixed PS7 here-string pitfalls and quoting; moved Mermaid nodes to **square brackets** to avoid escaping errors.

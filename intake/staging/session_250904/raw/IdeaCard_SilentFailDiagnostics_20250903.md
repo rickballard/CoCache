@@ -2,7 +2,7 @@
 # Idea Card: Silent Fail Diagnostics & File Visibility Checker
 
 ## Summary
-During recent CoCivium work, a file placed under `docs/outreach/partners/` appeared to be committed locally but failed to render on GitHub. Multiple rounds of verification failed due to GitHub cache, broken links, or session bloat.
+During recent CoCivium™ work, a file placed under `docs/outreach/partners/` appeared to be committed locally but failed to render on GitHub. Multiple rounds of verification failed due to GitHub cache, broken links, or session bloat.
 
 ## Problems
 - Files show as committed but 404 on GitHub.

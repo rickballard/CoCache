@@ -56,7 +56,7 @@ Each regime implicitly promises: sustained productivity, broad sharing, reduced 
 ## The Interims (transition names)
 - **Interregnum**, **Great Fragmentation**, **Security–Industrial Turn**, **Polycrisis Decade**, **Protocol‑vs‑Platform Fork**.
 
-## CoCivium’s Theoretical Label
+## CoCivium™’s Theoretical Label
 **Polycentric Civic–Technological Mutualism (PCTM)** — a protocol‑first, polycentric governance‑economy where communities, firms, public bodies, and **AI agents** co‑produce public goods on open rails (identity, reputation, finance, audit).
 
 ## Why every epoch fails “future‑proof”
@@ -67,7 +67,7 @@ Each regime implicitly promises: sustained productivity, broad sharing, reduced 
 ### CoSuite Footer
 
 - **Provenance:** Generated collaboratively by GPT‑5 Thinking with Rick (Steward).
-- **License:** CC‑BY‑4.0. Please attribute “CoCivium / InSeed”.
+- **License:** CC‑BY‑4.0. Please attribute “CoCivium™ / InSeed”.
 - **Change Policy:** Backwards‑incompatible changes require a major version bump.
 - **Safeguards:** Run stress‑tests before scaling. See `pragmatics.md` §B5 for kill‑switches.
 - **Contact:** Open a discussion in the CoSuite repos with tag `insights-epochs-regimes`.

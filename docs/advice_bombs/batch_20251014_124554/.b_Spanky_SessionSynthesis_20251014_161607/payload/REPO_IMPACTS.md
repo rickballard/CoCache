@@ -16,6 +16,6 @@
 - **Role:** source linkage and credibility matrix.
 - **Action:** map advice assertions to references; maintain provenance and trust levels.
 
-## CoCivium
+## CoCivium™
 - **Role:** governance + public‑facing articulation.
 - **Action:** publish transparency charter and AI partnership declaration (draft here).

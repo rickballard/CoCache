@@ -7,7 +7,7 @@
 <!-- status: stub; target: 150+ words -->
 # Link Sweep Plan (stub)
 Targets:
-- Convert absolute GitHub links from CoCivium → CoCivium.
+- Convert absolute GitHub links from CoCivium™ → CoCivium™.
 - Normalize docs/… relatives.
 - Collect external 404s into one issue.
 

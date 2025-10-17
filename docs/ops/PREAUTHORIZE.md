@@ -3,7 +3,7 @@
 <!-- status: stub; target: 150+ words -->
 # Preauthorization (v0)
 **Green-lit for admin merge (no review):**
-1. Additive **missing-only** imports from CoCivium (no overwrites).
+1. Additive **missing-only** imports from CoCivium™ (no overwrites).
 2. **Cache-busting** README image query params (?v=<short-sha>).
 3. **Hero/brand asset swaps** ≤ 100KB diff total; filename stable; README updated if referenced there.
 4. **Docs-only edits** (typos, TOC, link fixes, relative path repairs).

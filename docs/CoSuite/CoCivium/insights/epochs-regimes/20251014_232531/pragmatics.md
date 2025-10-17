@@ -16,7 +16,7 @@ review_cadence: "Quarterly metrics; Annual composite scoring"
 > CoSuite header: This file follows the Insights pair format (Theory + Pragmatics).     Edits that change scoring rules require **HumanGate** review and a version bump.
 
 # Paper B — PRAGMATICS / OPERATIONAL PLAYBOOK
-**Objective:** Score historical regimes consistently and **predict** CoCivium’s success/failure early.
+**Objective:** Score historical regimes consistently and **predict** CoCivium™’s success/failure early.
 
 ## B1. Criteria, Metrics, and Falsifiers
 We track each dimension with Lagging Outcomes, Leading Indicators, Stress Tests, and a hard **Falsifier** line.
@@ -71,7 +71,7 @@ We track each dimension with Lagging Outcomes, Leading Indicators, Stress Tests,
 - Quarterly: leading indicators, stress‑tests, audits → `/insights/epochs-and-regimes/scorecards/YYYYQ#.csv`
 - Annual: lagging outcomes; composite score; narrative post‑mortem.
 
-## B4. CoCivium Predictive Protocol
+## B4. CoCivium™ Predictive Protocol
 - Pre‑register hypotheses (see `cocivium_hypotheses.csv`).
 - **Kill‑switches:** auto de‑promote failing modules; throttle budgets.
 - **Decision gates:** move‑to‑scale only if Resilience≥4 and Capture‑Resistance≥4 proven twice in distinct demographics.
@@ -88,7 +88,7 @@ We track each dimension with Lagging Outcomes, Leading Indicators, Stress Tests,
 ### CoSuite Footer
 
 - **Provenance:** Generated collaboratively by GPT‑5 Thinking with Rick (Steward).
-- **License:** CC‑BY‑4.0. Please attribute “CoCivium / InSeed”.
+- **License:** CC‑BY‑4.0. Please attribute “CoCivium™ / InSeed”.
 - **Change Policy:** Backwards‑incompatible changes require a major version bump.
 - **Safeguards:** Run stress‑tests before scaling. See `pragmatics.md` §B5 for kill‑switches.
 - **Contact:** Open a discussion in the CoSuite repos with tag `insights-epochs-regimes`.

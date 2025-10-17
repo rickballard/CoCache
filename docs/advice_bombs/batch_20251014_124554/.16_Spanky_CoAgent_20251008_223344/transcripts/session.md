@@ -2,7 +2,7 @@
 # Session Transcript (narrative) — 2025-10-08T22:33:44.583411-04:00
 
 ## Early Intentions
-- Position CoAgent; vibecoding best practices; roadmap for CoCivium; default front-end.
+- Position CoAgent; vibecoding best practices; roadmap for CoCivium™; default front-end.
 
 ## Inferences
 - Governance (AE/CE) and belts/streams are essential; memory anti-entropy is a moat.

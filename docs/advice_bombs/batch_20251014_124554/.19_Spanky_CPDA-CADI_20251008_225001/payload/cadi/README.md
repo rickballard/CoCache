@@ -1,4 +1,4 @@
-# CADI — CoCivium Asteroid Defence Initiative
+# CADI — CoCivium™ Asteroid Defence Initiative
 
 **Mission:** Plan and publish open, reproducible models for asteroid threat assessment and mitigation, under neutral, anti-capture governance.
 

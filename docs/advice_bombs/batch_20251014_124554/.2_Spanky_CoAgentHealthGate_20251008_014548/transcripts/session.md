@@ -1,7 +1,7 @@
 # Session Transcript (Condensed)
 
 **Window:** start→now  
-**Focus:** PC performance reliability for CoAgent/CoCivium BPOE workflows; Calculator spam root-cause; HealthGate preflight; repo advisories; PR automation; stall-out guidance.
+**Focus:** PC performance reliability for CoAgent/CoCivium™ BPOE workflows; Calculator spam root-cause; HealthGate preflight; repo advisories; PR automation; stall-out guidance.
 
 ## Key Steps
 1. Captured symptoms: mouse multi-clicks, PrintScreen failing, Calculator auto-spawning (20–30 instances), PS profile errors, DISM freeze, Defender exclusions failing, network OK.
@@ -17,7 +17,7 @@
    - `tools/Watch-HotkeyStorm.ps1` (traces Calculator spawns)
    - `tools/Disable-AppKeyCalculator.ps1` (neutralizes AppKey 18)
 8. Rebuilt `HealthGate.ps1` markdown builder (parser-safe). Verified run.
-9. Lessons learned recorded in **CoCivium** insights.
+9. Lessons learned recorded in **CoCivium™** insights.
 
 ## Notable Outputs
 - HealthGate reports: markdown + JSON; verdict PASS/WARN with issues list.

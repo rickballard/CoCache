@@ -1,12 +1,12 @@
 <!-- status: stub; target: 150+ words -->
-# CoCivium Master Plan (v0)
+# CoCivium™ Master Plan (v0)
 
 **Source of truth:** this file (CoCache repo). Subordinate plans must link back here.
 
 ## Repos & Roles
 - **CoCache** — planning, intake, indices, BPOE, CI status (OE/Trust).
-- **CoCivium** — product docs & implementation (active).
-- **CoCivium** — deprecated; migrate useful docs then archive.
+- **CoCivium™** — product docs & implementation (active).
+- **CoCivium™** — deprecated; migrate useful docs then archive.
 
 ## Operating Model
 1) Intake zips → `scripts/normalize_cardswraps.ps1` → front-matter MD + attachments.
@@ -18,12 +18,12 @@
 - M1: Intake pipeline stable (✅).
 - M2: CI guards in place (✅ map + status).
 - M3: IdeaCards triaged → streams (Product, Infra, BizDev, Ops).
-- M4: CoCivium deprecation plan executed.
+- M4: CoCivium™ deprecation plan executed.
 
 ## Workstreams (seed)
 - **Session Stability** — SessionBloat*, Session Resilience, Silent Fail Diagnostics.
 - **Contribution Model** — Contributor Merge Policy, Merge Rights & Reputation.
-- **Monetization** — Monetization Optioning (CoCivium).
+- **Monetization** — Monetization Optioning (CoCivium™).
 - **Partnering** — KickOpenAI partnership req & workflow issues.
 - **Tooling** — CoParser, PMDS Plan.
 

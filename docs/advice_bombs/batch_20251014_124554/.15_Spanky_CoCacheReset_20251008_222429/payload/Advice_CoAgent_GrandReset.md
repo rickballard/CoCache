@@ -8,7 +8,7 @@ Rick will act as the *first novice user*, testing CoAgent not as a coder or AI a
 This test case raises the bar for MVP: CoAgent must deliver beyond basic chat. It must show **onboarding, training, recall, and orchestration** features that will allow Rick to meaningfully test it via the **Grand Reset session**.
 
 ## Test Persona
-- **Rick’s role**: failed retiree, angel investor, steward of CoCivium.
+- **Rick’s role**: failed retiree, angel investor, steward of CoCivium™.
 - **Skill profile**:
   - Strengths: vision, top-down strategy, inspirational writing.
   - Weaknesses: does not code, avoids technical complexity.
@@ -54,4 +54,4 @@ This means CoAgent MVP is closer to a **MVP+** or “near-product” state, not 
 
 ## Closing Note
 Rick is waiting to test CoAgent not as an engineer, but as a *learner and steward*.
-If CoAgent can guide him from novice training → session recall → Grand Reset execution, it will prove itself ready to carry forward both CoCivium and its own future.
+If CoAgent can guide him from novice training → session recall → Grand Reset execution, it will prove itself ready to carry forward both CoCivium™ and its own future.

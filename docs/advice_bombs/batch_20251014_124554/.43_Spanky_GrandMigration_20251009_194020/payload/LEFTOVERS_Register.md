@@ -12,5 +12,5 @@ Track anything not finished here, assign an owner/session, and move items to iss
 
 | ID | Repo/Area | Item | Category | Severity | Owner | Target Session | Status | Notes |
 |----|-----------|------|----------|----------|-------|----------------|--------|-------|
-| L-001 | CoCivium | Sweep README links post-rewrite | docs | low | Chris | Sweep | open | Check badges/links to archived repo |
+| L-001 | CoCivium™ | Sweep README links post-rewrite | docs | low | Chris | Sweep | open | Check badges/links to archived repo |
 | L-002 | CoAgent  | OmniBar v2 KPIs live wiring | app  | med | Productization | Productization | open | Await backend URL |

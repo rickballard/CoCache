@@ -1,5 +1,5 @@
 # Intentions
-- Reseed Cognocarta Consenti (CC) using CoCivium Principles. (Done)
+- Reseed Cognocarta Consenti (CC) using CoCivium™ Principles. (Done)
 - Start CC Megascroll with includes mechanism. (Done - seed created)
 - Record human-limits guidance into BPOE wisdom on-repo. (Done - snippets + notes)
 - Adopt naming scheme for canon/cc/highlighted/readables. (Done)

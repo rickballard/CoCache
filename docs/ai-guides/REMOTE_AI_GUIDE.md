@@ -1,6 +1,6 @@
 <!-- status: stub; target: 150+ words -->
-# CoCivium Remote AI Guide (v0)
-Use this when *your* AI is helping a user in CoCivium repos.
+# CoCivium™ Remote AI Guide (v0)
+Use this when *your* AI is helping a user in CoCivium™ repos.
 
 ## Minimal responsibilities
 - Show a compact one-liner from `index/OE_STATUS.md` verbatim.

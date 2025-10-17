@@ -1,7 +1,7 @@
 # Session Transcript (Concise Capture)
 
 **When:** 2025-10-09T16:24:06.181757 (America/Toronto assumed)  
-**Focus:** Automating RickPublic ↔ CoCivium weekly messaging; baseline + between-article experimentation; packaging outputs for repo handoff.
+**Focus:** Automating RickPublic ↔ CoCivium™ weekly messaging; baseline + between-article experimentation; packaging outputs for repo handoff.
 
 ## Actions
 - Authored Idea Card (baseline spec, pipeline, metrics, safety gates, speaking pipeline).

@@ -1,7 +1,7 @@
 # CPDA Constitution (Skeleton)
 
 ## Preamble
-CPDA exists to advance planetary safety and open governance as a public commons; it is scaffolding for the community known as **CoCivium**.
+CPDA exists to advance planetary safety and open governance as a public commons; it is scaffolding for the community known as **CoCivium™**.
 
 ## Article 1 — Non-Ownership & Asset Lock
 No shares. Assets held in trust for humanity. Dissolution -> transfer to aligned commons entities.

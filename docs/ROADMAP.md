@@ -15,8 +15,8 @@
 
 ## NEXT (still Preauth unless noted)
 - **Brand pack**: keep in repo; wire into README only (no Pages yet).  
-- **CoIndex**: nightly/cronable script in CoCache; read-only publish into CoCivium.  
-- **Issue import**: recreate open CoCivium issues with backlinks.  
+- **CoIndex**: nightly/cronable script in CoCache; read-only publish into CoCivium™.  
+- **Issue import**: recreate open CoCivium™ issues with backlinks.  
 - Prepare **GH Pages** scaffolding (no enable) + favicons (DIV-011).
 
 ## LATER (needs your review)

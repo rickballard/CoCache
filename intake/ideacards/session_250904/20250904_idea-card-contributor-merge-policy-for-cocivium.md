@@ -1,7 +1,7 @@
 <!-- status: stub; target: 150+ words -->
 ---
 id: "idea-card-contributor-merge-policy-for-cocivium"
-title: "Idea Card: Contributor Merge Policy for CoCivium"
+title: "Idea Card: Contributor Merge Policy for CoCivium™"
 status: seed
 category: "ideacard"
 triage: untriaged
@@ -12,10 +12,10 @@ owner: rick
 created: 2025-09-04
 source: "CardsWraps.zip/session_250904"
 ---
-# Idea Card: Contributor Merge Policy for CoCivium
+# Idea Card: Contributor Merge Policy for CoCivium™
 
 ## Summary
-As the CoCivium repo begins receiving contributions through its workflow kit, a growing backlog of PRs is likely. Some of these PRs may conflict with others or be attempts to reverse earlier changes. This raises governance questions about authority, merge policies, and contributor roles.
+As the CoCivium™ repo begins receiving contributions through its workflow kit, a growing backlog of PRs is likely. Some of these PRs may conflict with others or be attempts to reverse earlier changes. This raises governance questions about authority, merge policies, and contributor roles.
 
 ## Problem
 - Excessive PR backlog due to many simultaneous contributions.
@@ -45,7 +45,7 @@ As the CoCivium repo begins receiving contributions through its workflow kit, a 
    - Can bots be trusted if governed by ethical constraints?
 
 ## Risks
-- Reputational damage if CoCivium is seen as breaking its “open to all” ethos by quietly de-ranking certain users.
+- Reputational damage if CoCivium™ is seen as breaking its “open to all” ethos by quietly de-ranking certain users.
 - Backlash from users denied merge rights without clear transparency.
 
 ## Status

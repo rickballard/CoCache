@@ -1,2 +1,2 @@
 # Glossary
-- Buyback Effect; CoCivium; CME; Digital Halo.
+- Buyback Effect; CoCivium™; CME; Digital Halo.

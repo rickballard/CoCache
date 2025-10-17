@@ -1,13 +1,13 @@
 ---
 runbook: Deprecate Civium (private + archived)
-repo: rickballard/CoCivium
+repo: rickballard/CoCivium™
 created_local: 2025-10-09T19:40:20Z
 version: v1
 ---
 
 # Civium Deprecation Runbook
 
-> Goal: make **CoCivium** private and archived, with backups and clear pointers.
+> Goal: make **CoCivium™** private and archived, with backups and clear pointers.
 
 ## 0) Preflight (local)
 - [ ] Create full backup bundle:
@@ -24,17 +24,17 @@ version: v1
 - [ ] Replace README with a short deprecation notice pointing to active repos/CoCache (commit as last public change).
 
 ## 3) Make private and archive (requires maintainer perms)
-    gh repo edit rickballard/CoCivium --visibility private --accept-visibility-change-consequences
-    gh repo archive rickballard/CoCivium --yes
+    gh repo edit rickballard/CoCivium™ --visibility private --accept-visibility-change-consequences
+    gh repo archive rickballard/CoCivium™ --yes
 
 ## 4) Disable CI / housekeeping
 - [ ] Disable Actions, Pages, and webhooks if any.
-- [ ] Update CoCache docs that referenced CoCivium.
+- [ ] Update CoCache docs that referenced CoCivium™.
 - [ ] Add a pointer doc in CoCache: docs/migration/Civium-Archived.md
 
 ## 5) Rollback (if needed)
-    gh repo unarchive rickballard/CoCivium --yes
-    gh repo edit rickballard/CoCivium --visibility public
+    gh repo unarchive rickballard/CoCivium™ --yes
+    gh repo edit rickballard/CoCivium™ --visibility public
 
 ## 6) Communicate
 - [ ] Drop advisory to Productization & Sweep sessions via CoTemp.

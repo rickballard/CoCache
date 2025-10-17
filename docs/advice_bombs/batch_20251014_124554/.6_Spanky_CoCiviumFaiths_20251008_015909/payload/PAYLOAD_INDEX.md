@@ -2,7 +2,7 @@
 
 This Spanky pack references artifacts that live in public repositories to keep this bundle lean. Paths below are canonical pointers:
 
-- **CoCivium**
+- **CoCivium™**
   - insights/Congruence/FaithsInDialogue/faiths-in-dialogue.md
   - insights/Congruence/FaithsInDialogue/faiths-in-dialogue.coref.json
   - insights/Congruence/FaithsInDialogue/faiths-in-dialogue_crosswalk.md (+ *.coref.json)

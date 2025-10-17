@@ -2,7 +2,7 @@
 
 > A girl without a name learns how names can be found, chosen, and earned.
 
-_This narrative is part of CoCivium’s “Human Touch” track—stories that
+_This narrative is part of CoCivium™’s “Human Touch” track—stories that
 ground the technical stack in lived, felt experience._
 
 - **Theme:** identity, dignity, agency, belonging

@@ -9,10 +9,10 @@
 **Date:** 2025-08-09
 
 ## Current Focus
-- Initialize CoCache and link it to CoCivium/GIB workflows.
+- Initialize CoCache and link it to CoCivium™/GIB workflows.
 
 ## Active Projects
-- [CoC] CoCivium
+- [CoC] CoCivium™
 - [GIB] GIB (AI-first content)
 - [GLX] gibindex (registry)
 

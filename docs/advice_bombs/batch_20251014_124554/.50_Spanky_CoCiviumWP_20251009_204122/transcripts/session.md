@@ -1,4 +1,4 @@
-# Session Transcript (Condensed) — CoCivium → Wikipedia
+# Session Transcript (Condensed) — CoCivium™ → Wikipedia
 
 **Window:** 2025-10-09 (single-session capture)
 
@@ -16,6 +16,6 @@
 - Status file, manifest, and checksums to comply with Spanky v2.2.
 
 ## Next recommended moves
-1. Create a Wikidata item for CoCivium (low bar, factual).
+1. Create a Wikidata item for CoCivium™ (low bar, factual).
 2. Produce an externally led pilot or evaluation and seek independent write-ups.
-3. Target at least 3 strong, editorially controlled articles about CoCivium before AfC submission.
+3. Target at least 3 strong, editorially controlled articles about CoCivium™ before AfC submission.

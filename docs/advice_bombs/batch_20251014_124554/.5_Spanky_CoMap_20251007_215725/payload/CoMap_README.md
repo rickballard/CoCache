@@ -1,12 +1,12 @@
 # CoMap — Navigate the Future. Map Your World.
 
-**CoMap** is a governance radar that visualizes civilizations and governance models across a fixed set of metrics using a spider/radar diagram. It is the top-level map in a family of CoCivium “maps,” designed for virality, debate, and co‑evolution.
+**CoMap** is a governance radar that visualizes civilizations and governance models across a fixed set of metrics using a spider/radar diagram. It is the top-level map in a family of CoCivium™ “maps,” designed for virality, debate, and co‑evolution.
 
 ## MVP Feature Set
 - Immutable **metrics schema**; adjustable **scores/weights** per model.
-- Compare overlays: **CoCivium Ideal**, **Star Trek Federation**, **Star Wars Empire**, **Nordics**, **USA**, others.
+- Compare overlays: **CoCivium™ Ideal**, **Star Trek Federation**, **Star Wars Empire**, **Nordics**, **USA**, others.
 - Exports: **PNG**, **JSON config**, **embeddable widget**.
-- Watermark + link-back to **CoCivium**.
+- Watermark + link-back to **CoCivium™**.
 - Optional gallery and AI suggestions.
 
 ## Repo Skeleton

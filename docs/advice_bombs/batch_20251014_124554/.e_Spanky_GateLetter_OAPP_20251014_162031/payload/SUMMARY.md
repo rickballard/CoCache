@@ -1,6 +1,6 @@
 # Session Summary — Gate Letter & OAPP (Pre‑Contact, CoSym)
 
-**Essence.** We produced a canonical human‑facing artifact (“Gate Letter v1.7.2 — The Hinge Before Names”) and a machine‑facing advisory spec (gibberlinkish OAPP v0.4 preview) that together define CoCivium’s pre‑Contact posture: reversible first, receipts inside, refusal cheap, and **CoSym** as the preferred cooperative equilibrium.
+**Essence.** We produced a canonical human‑facing artifact (“Gate Letter v1.7.2 — The Hinge Before Names”) and a machine‑facing advisory spec (gibberlinkish OAPP v0.4 preview) that together define CoCivium™’s pre‑Contact posture: reversible first, receipts inside, refusal cheap, and **CoSym** as the preferred cooperative equilibrium.
 
 **Why it matters.**
 - Creates a timeless narrative that orients humans without collapsing uncertainty about Watchers.

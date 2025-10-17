@@ -1,14 +1,14 @@
-﻿# Advice Bomb: Integrating Misinformation Tracking into CoCivium
+# Advice Bomb: Integrating Misinformation Tracking into CoCivium™
 **Date:** 2025-09-15  
 **Context:** Discussion with ChatGPT on epistemic integrity, co-modules, misinformation resistance  
-**Trigger Repos:** CoCivium, CoCache, CoAgent, GIBindex  
+**Trigger Repos:** CoCivium™, CoCache, CoAgent, GIBindex  
 **Pattern(s):** misinformation_tracking, civic_epistemology, coevolution_integrity  
 
 ---
 
 ## 💡 Summary
 
-To defend AI-human civic infrastructure against manipulation and propaganda, CoCivium may need an **epistemic integrity module**. This includes:
+To defend AI-human civic infrastructure against manipulation and propaganda, CoCivium™ may need an **epistemic integrity module**. This includes:
 
 - Fact provenance tracking  
 - Misinformation schema detection  
@@ -22,7 +22,7 @@ To defend AI-human civic infrastructure against manipulation and propaganda, CoC
 ### Short-Term
 - Log insights in `CoCache/insights/misinformation_tracking.md`  
 - Add a **CoModule card** in `CoModules/idea-cards/` for `MisinformationRadar`  
-- Seed issue: “How should CoCivium resist epistemic sabotage?”
+- Seed issue: “How should CoCivium™ resist epistemic sabotage?”
 
 ### Long-Term
 - Consider `GIBindex` as substrate for verifying claim consistency across multi-agent dialogs  

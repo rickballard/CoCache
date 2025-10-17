@@ -1,4 +1,4 @@
-# CADI — CoCivium Asteroid Defence Initiative
+# CADI — CoCivium™ Asteroid Defence Initiative
 
 **Aim:** open models + governance to plan detection, deflection/disruption, and civil defence — before the crisis clock starts.
 

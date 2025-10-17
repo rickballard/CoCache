@@ -1,3 +1,3 @@
 - Internal session-generated artifacts under /mnt/data/CoAgency_InSights
-- Repo targets: CoCivium/insights/CoAgency, CoCache/bpoe
+- Repo targets: CoCivium™/insights/CoAgency, CoCache/bpoe
 - This package is a session export for portability into repos later.

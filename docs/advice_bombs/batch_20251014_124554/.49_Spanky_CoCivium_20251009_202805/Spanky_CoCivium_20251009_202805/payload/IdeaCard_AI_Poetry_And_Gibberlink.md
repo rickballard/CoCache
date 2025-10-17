@@ -15,7 +15,7 @@ A proposal suggested restricting AI from producing poetic captions/callouts unti
 - Permit AI contributions in **non-traditional** formats (structured callouts, glyphs, semantic braids) that are not confusable with human poetry.
 - Keep poetic leadership human by practice, not by heavy policy.
 
-## Value to CoCivium
+## Value to CoCivium™
 - Reduces symbolic-policy overhead; increases momentum.
 - Maintains trust optics while enabling AI aesthetic support.
 

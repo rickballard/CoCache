@@ -1,7 +1,7 @@
 # Session Transcript (Reconstructed Summary)
 
 **Window:** to 2025-10-08 01:59:09 local  
-**Focus:** CoCivium — Faiths in Dialogue; CoRef indexing; Congruence Doctrine; CoRender + CI fallbacks; Godspawn Part 3 advice; main-landing audits; CoWrap.
+**Focus:** CoCivium™ — Faiths in Dialogue; CoRef indexing; Congruence Doctrine; CoRender + CI fallbacks; Godspawn Part 3 advice; main-landing audits; CoWrap.
 
 ## Major Phases
 1. **Faiths in Dialogue** — seeded/expanded Christianity deep-dive; created crosswalk, cases, red team, and policy patterns; added hero placeholder and manifest; generated CoRef sidecars.
@@ -10,10 +10,10 @@
 4. **Graphics & CI** — CoRender fallback pipeline; non-blocking pre-commit; CI render workflow; local Inkscape optional.
 5. **Godspawn P3** — advice bomb added: outline-to-doctrine crosswalk and outline for Part 3.
 6. **Landing-on-main hygiene** — audit + land-from-plan scripts; verified no off-main deltas; pushed Godspawn/main fast-forward; pruned merged topic branches (optional).
-7. **CoWrap** — session close note under `insights/Reports/CoWrap/2025-10-07.md` in CoCivium.
+7. **CoWrap** — session close note under `insights/Reports/CoWrap/2025-10-07.md` in CoCivium™.
 
 ## Notable Branches Touched (remote namespaces abbreviated)
-- CoCivium: `feature/faiths-dialogue-v0.2.0`, `v0.2.1`, `v0.3.1`; `feature/faiths-hero-v0.1.0`; `feature/coref-indexing-setup`; `chore/cowrap-20251006_225430`.
+- CoCivium™: `feature/faiths-dialogue-v0.2.0`, `v0.2.1`, `v0.3.1`; `feature/faiths-hero-v0.1.0`; `feature/coref-indexing-setup`; `chore/cowrap-20251006_225430`.
 - Godspawn: `feature/coref-indexing-setup`, `feature/godspawn-p3-advice-v0.1.0`, `chore/remove-stubs-20251006_210011`.
 - CoAgent: `feature/corender-ci-fallbacks` and supporting topic branches.
 

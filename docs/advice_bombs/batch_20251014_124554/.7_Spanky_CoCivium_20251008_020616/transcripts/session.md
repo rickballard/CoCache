@@ -1,6 +1,6 @@
 # Session Transcript (Condensed)
 
-This transcript summarizes the packaging workflow for **CoCivium/CoCache** using ZIP cycles and `do.ps1` launchers from Downloads, auto-version selection, and cleanup.
+This transcript summarizes the packaging workflow for **CoCivium™/CoCache** using ZIP cycles and `do.ps1` launchers from Downloads, auto-version selection, and cleanup.
 
 ## Early intentions
 - Batch work per cycle with **single-run DO blocks** from Downloads.

@@ -1,7 +1,7 @@
 # INTENTIONS.md
 
 ## Session Purpose
-To stage the post-migration CoCivium repo grooming coordination, business plan finalization, indexing sweeps, and prepare for a full UpSweep/DownSweep audit after the Grand Migration session closes.
+To stage the post-migration CoCivium™ repo grooming coordination, business plan finalization, indexing sweeps, and prepare for a full UpSweep/DownSweep audit after the Grand Migration session closes.
 
 ## Key Intentions (Status)
 - [x] Generate and download a session plan in JSON

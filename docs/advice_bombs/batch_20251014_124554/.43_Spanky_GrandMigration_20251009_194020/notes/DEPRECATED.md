@@ -1,2 +1,2 @@
 # Deprecated
-- CoCivium (private + archived). See `final-public` for last public snapshot.
+- CoCivium™ (private + archived). See `final-public` for last public snapshot.

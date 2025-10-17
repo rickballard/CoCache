@@ -2,7 +2,7 @@
 title: "Cognocarta: Consenti"
 canonical_slug: cognocarta-consenti
 source:
-  repo: CoCivium
+  repo: CoCivium™
   original_path: ./scroll/Cognocarta_Consenti.md
   imported_on: 2025-08-14
   version: c2
@@ -21,7 +21,7 @@ supersedes: []
 
 ## Preamble
 
-CoCivium is a covenant to do work in common without recreating the old pyramid.  
+CoCivium™ is a covenant to do work in common without recreating the old pyramid.  
 We prefer clarity to charisma, roles to titles, and **consent before coercion**.  
 We practice subsidiarity (decide at the edge), federation (interoperate, don’t centralize),  
 and stewardship (authority as **maintained trust**, always time-boxed and recallable).
@@ -89,7 +89,7 @@ I leave the role healthier than I found it.
 
 - You may adopt, adapt, or federate with this charter. Keep provenance and change notes.  
 - **Version:** c2 (2025-08-14).  
-- **Next:** see **[CoCivium Vision](../docs/vision/CoCivium_Vision.md)** for the long arc, and the Curation Playbook for change practice.
+- **Next:** see **[CoCivium™ Vision](../docs/vision/CoCivium_Vision.md)** for the long arc, and the Curation Playbook for change practice.
 
 *Amendments are welcomed via PR with clear rationale and a proposed review date.*
 ## Decision diagram

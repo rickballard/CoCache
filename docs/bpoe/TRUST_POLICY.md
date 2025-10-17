@@ -6,7 +6,7 @@
 <!-- status: stub; target: 150+ words -->
 <!-- status: stub; target: 150+ words -->
 # Trust Policy (seed)
-We flag sources that may conflict with CoCivium’s ethics/principles. This scanner is conservative:
+We flag sources that may conflict with CoCivium™’s ethics/principles. This scanner is conservative:
 - **allow.txt** — domains considered OK (no flag)
 - **warn.txt**  — domains that may be OK but need a look (flag: WARN)
 - **deny.txt**  — domains we avoid unless explicitly justified (flag: DENY)

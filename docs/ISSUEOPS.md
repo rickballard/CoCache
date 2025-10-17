@@ -5,7 +5,7 @@ Dispatch smoke:
 
 Pin shims to current CoCache SHA:
   $sha = (git -C "C:\Users\Chris\Documents\GitHub\CoCache" rev-parse HEAD).Trim()
-  $targets = @("InSeed","GroupBuild-website","CoCivium","CoCivium-website","CoAgent","GIBindex","CoLaminar","rickballard")
+  $targets = @("InSeed","GroupBuild-website","CoCivium™","CoCivium™-website","CoAgent","GIBindex","CoLaminar","rickballard")
   foreach($r in $targets){
     $wf = "C:\Users\Chris\Documents\GitHub\$r\.github\workflows"
     if(Test-Path $wf){

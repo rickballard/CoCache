@@ -73,7 +73,7 @@
 - Dashboards: simple status boards (text/json) that CoAgent can render.
 
 **Phase 4 — Presentation & Outreach**
-- CoCivium.org dual-face (human + alien/AI aesthetic).
+- CoCivium™.org dual-face (human + alien/AI aesthetic).
 - InSeed.com pro consulting front.
 - CoPolitic.org association face.
 - GroupBuild.org fallback (if needed).

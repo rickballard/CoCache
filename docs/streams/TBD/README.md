@@ -8,7 +8,7 @@
 # TBD Stream
 
 Link IdeaCards here as they’re triaged.
-- [Idea Card: Contributor Merge Policy for CoCivium](../../intake/ideacards/session_250904/20250904_idea-card-contributor-merge-policy-for-cocivium.md)
+- [Idea Card: Contributor Merge Policy for CoCivium™](../../intake/ideacards/session_250904/20250904_idea-card-contributor-merge-policy-for-cocivium.md)
 - [Idea Card: Session Bloat Mitigation & AI Operating Limits](../../intake/ideacards/session_250904/20250904_idea-card-session-bloat-mitigation-ai-operating-limits.md)
 - [Idea Card: Silent Fail Diagnostics & File Visibility Checker](../../intake/ideacards/session_250904/20250904_idea-card-silent-fail-diagnostics-file-visibility-checker.md)
 - [IdeaCard_CoParser](../../intake/ideacards/session_250904/20250904_ideacard-coparser.md)

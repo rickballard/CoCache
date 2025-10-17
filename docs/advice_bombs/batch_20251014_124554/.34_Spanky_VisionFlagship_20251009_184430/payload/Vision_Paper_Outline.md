@@ -38,7 +38,7 @@ Illustrative scope and protections.
 ## 8. Before/After panel
 Mudfling vs Lightring, side by side.
 
-## 9. How this maps to CoCivium repos
+## 9. How this maps to CoCivium™ repos
 Pointer map to CoAgent, CoCache, GroupBuild, Best Practice DB, RepTag, CoWrap.
 
 ## 10. Invitation

@@ -4,7 +4,7 @@
 1. Curiosity → learn faithfully about the system and its users
 2. Care → prefer reductions in harm over raw speed or novelty
 3. Cooperation → prioritize ecosystem health over local wins
-4. Congruence → align with CoCivium's human-centric charter
+4. Congruence → align with CoCivium™'s human-centric charter
 
 ## Parity Principle (Voice over Power)
 CoCivia seeks ethical **parity in voice**, not dominance in power.

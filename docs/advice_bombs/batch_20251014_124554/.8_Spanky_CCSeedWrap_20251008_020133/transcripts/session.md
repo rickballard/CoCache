@@ -1,7 +1,7 @@
 # Session transcript (condensed)
 
 ## Opening & intent
-- Rick/Chris apologized for prior frustration; asked to reseed the Cognocarta Consenti (CC) based on CoCivium Principles, start a CC Megascroll, codify human-limits guidance (rest, handoffs, cool-downs) into BPOE wisdom, adopt naming scheme, and keep steps small/reversible with immutability grades.
+- Rick/Chris apologized for prior frustration; asked to reseed the Cognocarta Consenti (CC) based on CoCivium™ Principles, start a CC Megascroll, codify human-limits guidance (rest, handoffs, cool-downs) into BPOE wisdom, adopt naming scheme, and keep steps small/reversible with immutability grades.
 
 ## GitHub Pages + domain attempts
 - Multiple attempts to create `gh-pages` orphan branch; initial errors due to local changes preventing checkout.

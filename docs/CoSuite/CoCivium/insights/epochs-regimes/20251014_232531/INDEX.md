@@ -5,4 +5,4 @@
 - Mirror ZIP: $mirrorZip
 - SHA256: $sha
 
-Promoted from advice-bombs ingestion and organized for CoCivium insights.
+Promoted from advice-bombs ingestion and organized for CoCivium™ insights.

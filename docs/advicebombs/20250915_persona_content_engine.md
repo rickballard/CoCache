@@ -1,8 +1,8 @@
-﻿# Advice Bomb: Persona-Seeding Content Engine for CoAgent + Repos
+# Advice Bomb: Persona-Seeding Content Engine for CoAgent + Repos
 
 ## Summary
 
-This document captures a strategy discussed with ChatGPT on how to seed GitHub repositories (especially those in the CoCivium ecosystem) with simulated contributions from a diverse set of personas, to help test structure, workflows, and documentation resilience.
+This document captures a strategy discussed with ChatGPT on how to seed GitHub repositories (especially those in the CoCivium™ ecosystem) with simulated contributions from a diverse set of personas, to help test structure, workflows, and documentation resilience.
 
 ## Use Case
 

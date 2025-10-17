@@ -1,4 +1,4 @@
-# CoCivium / CoSuite — Value Proposition
+# CoCivium™ / CoSuite — Value Proposition
 
 **Core:** A hybrid debate-to-policy commons where humans and AIs co-evolve.  
 - **Humans:** transparent debate, multimodal tagging, friendly RepTags.  

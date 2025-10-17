@@ -7,8 +7,8 @@
 <!-- status: stub; target: 150+ words -->
 # Session Checkpoint — 2025-08-16_0655
 
-**Repos:** CoCivium / GIBindex / CoCache / CoCivium  
-**Highlight:** Pages previews green except CoCivium PR still pending merge window.
+**Repos:** CoCivium™ / GIBindex / CoCache / CoCivium™  
+**Highlight:** Pages previews green except CoCivium™ PR still pending merge window.
 
 ## Status
 - rickballard/CoCivium @ ci/pages-preview: success — https://github.com/rickballard/CoCivium/actions/runs/17007417389
@@ -17,7 +17,7 @@
 - rickballard/CoCivium @ chore/pages-preview:  — https://github.com/rickballard/CoCivium/actions/runs/17007360608
 
 ## Next session
-- Merge CoCivium PR #116 when mergeable.
+- Merge CoCivium™ PR #116 when mergeable.
 - Move symbol manifest/checks into **GIBindex**; expose as reusable action.
 - Keep CoCache as sidecar (session notes + CI snapshots).
 
