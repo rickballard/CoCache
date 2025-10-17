@@ -9,10 +9,10 @@ $brandDir   = Join-Path $Root "docs\\assets\\brand"
 
 function Get-Badge([string]$level){
   switch($level){
-    'crit' { return "assets/brand/cocivium_logo_red.svg" }
-    'warn' { return "assets/brand/cocivium_logo_amber.svg" }
-    'ok'   { return "assets/brand/cocivium_logo_green.svg" }
-    default{ return "assets/brand/cocivium_logo_gray.svg" }
+    'crit' { return "assets/brand/cocivium_logo_red_tm.svg" }
+    'warn' { return "assets/brand/cocivium_logo_amber_tm.svg" }
+    'ok'   { return "assets/brand/cocivium_logo_green_tm.svg" }
+    default{ return "assets/brand/cocivium_logo_gray_tm.svg" }
   }
 }
 
@@ -80,5 +80,6 @@ if($latest){
 
 # also create a default for unknown metrics if needed later
 $out | ConvertTo-Json -Depth 5
+
 
 
