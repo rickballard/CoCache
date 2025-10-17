@@ -1,0 +1,47 @@
+[
+  {
+    "fields": [
+      "ts",
+      "memMB",
+      "handles",
+      "fsMs",
+      "zips",
+      "diagrams",
+      "handoff"
+    ],
+    "log_path": "docs/HEARTBEATS/heartbeat.log",
+    "writer": "co_monitor_*.ps1",
+    "cadence": "on-demand",
+    "id": "heartbeat.core",
+    "retention_days": 120,
+    "repo": "CoCache"
+  },
+  {
+    "fields": [
+      "ts",
+      "statusMs",
+      "ahead",
+      "behind"
+    ],
+    "log_path": "docs/HEARTBEATS/git_cocache.log",
+    "writer": "co_git_sanity_*.ps1",
+    "cadence": "on-demand",
+    "id": "git.sanity.cocache",
+    "retention_days": 120,
+    "repo": "CoCache"
+  },
+  {
+    "fields": [
+      "ts",
+      "statusMs",
+      "ahead",
+      "behind"
+    ],
+    "log_path": "../InSeed/docs/HEARTBEATS/git_inseed.log",
+    "writer": "co_git_sanity_*.ps1",
+    "cadence": "on-demand",
+    "id": "git.sanity.inseed",
+    "retention_days": 120,
+    "repo": "InSeed"
+  }
+]
