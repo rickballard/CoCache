@@ -4,7 +4,7 @@ import argparse, os
 parser = argparse.ArgumentParser()
 parser.add_argument("--week", default="latest")
 parser.add_argument("--rickpublic", required=True)
-parser.add_argument("--rickdo", required=True)
+parser.add_argument("--CoSteward", required=True)
 args = parser.parse_args()
 
 summ_dir = "CoCache/synth/weekly_summaries"
@@ -30,8 +30,8 @@ with open(dest_issue, "w", encoding="utf-8") as f:
     f.write(header + "\n" + body.split("---\n",2)[-1])
 print(f"Prepared: {dest_issue}")
 
-# Update RickDo README
-do_readme = os.path.join(args.rickdo, "README.md")
+# Update CoSteward README
+do_readme = os.path.join(args.CoSteward, "README.md")
 existing = ""
 if os.path.exists(do_readme):
     existing = open(do_readme,"r",encoding="utf-8").read()
@@ -56,8 +56,9 @@ block = "## CoCivium Weekly Briefs\n" + "\n".join(lines) + """
 if "## CoCivium Weekly Briefs" in existing:
     new = existing.split("## CoCivium Weekly Briefs")[0] + block
 else:
-    new = "# CoSteward (formerly RickDo) - Front Door\n\n" + block
+    new = "# CoSteward (formerly CoSteward) - Front Door\n\n" + block
 
 with open(do_readme,"w",encoding="utf-8") as f:
     f.write(new)
-print("Updated RickDo README list.")
+print("Updated CoSteward README list.")
+
