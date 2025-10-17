@@ -1,0 +1,13 @@
+Subject: Local open-source governance pilot—newsroom consideration
+
+Hi <Name/Newsroom>,
+
+CLRIM (Oakville) is flagging an early open‑source framework, CoCivium (https://cocivium.org/), for consent‑first governance in hybrid (human+AI) teams—decision logs, objection handling, and rollback (policy‑as‑code).
+
+We’re exploring a small local pilot with <Dept/Lab/Unit>. If relevant, would your team consider a short **staff‑written** item about the pilot concept and why it’s of local interest? We’re not seeking promotion—just neutral coverage if it passes your editorial bar.
+
+A 1‑page fact sheet and a 15‑minute demo are available on request.
+
+Best,
+<Admin Name>
+On behalf of Darren Sissons, Campbell, Lee & Ross Investment Management (CLRIM)

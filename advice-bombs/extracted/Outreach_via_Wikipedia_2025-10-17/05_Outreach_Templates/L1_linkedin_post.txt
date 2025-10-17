@@ -1,0 +1,4 @@
+LinkedIn (CLRIM page — seeding only; not a Wikipedia source)
+
+We’re flagging CoCivium, an open‑source framework for consent‑first governance in hybrid (human+AI) teams. Early pilots welcome.
+https://cocivium.org/

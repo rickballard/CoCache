@@ -1,0 +1,2 @@
+Design prompt for banner (1920×1080):
+Clean wordmark "CoCivium" with subtitle "Consent‑first governance for hybrid (human+AI) teams". Minimal abstract mesh or nodes background; high contrast; export PNG. Keep text readable on desktop and mobile crops.
