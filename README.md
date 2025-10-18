@@ -1,3 +1,26 @@
+## CoAgent • Start Here (MANDATORY)
+
+[![Metrics Index](https://github.com/rickballard/CoCache/actions/workflows/metrics-index.yml/badge.svg)](https://github.com/rickballard/CoCache/actions/workflows/metrics-index.yml)
+
+**Follow this learning path in order (required for any new session):**
+1. **Read:** Giant Metrics Index → https://github.com/rickballard/CoCache/blob/main/docs/METRICS_INDEX.md  
+   - Confirm timestamp freshness and scan status icons.
+2. **Read:** Control Room → https://github.com/rickballard/CoCache/blob/main/docs/CONSOLE.md  
+   - Understand dashboards and where jobs/logs live.
+3. **Read:** Intent Manifest → https://github.com/rickballard/CoCache/blob/main/docs/intent/manifest.json  
+   - Skim all actions; start with those marked \	odo/needs-verify\.
+4. **Read:** Previous Handoffs → https://github.com/rickballard/CoCache/tree/main/docs/HANDOFFS  
+   - Open the latest handoff to see context and recent decisions.
+
+**First Actions (do these before anything else):**
+- Open an issue for each \	odo\ you will tackle; reference the intent \id\.
+- If you create/modify any .ps1/.md, begin the file with a **BPOE DO BLOCK** header.
+- For operational changes, commit with messages like: \docs(BPOE[ID]): ...\ or \ci(BPOE[ID]): ...\.
+
+**Repos under stewardship (local clones expected):**
+- CoCache · InSeed · CoCivium · CoPolitic · CoSteward
+
+---
 ## CoAgent • Start Here
 
 - [![Metrics Index](https://github.com/rickballard/CoCache/actions/workflows/metrics-index.yml/badge.svg)](https://github.com/rickballard/CoCache/actions/workflows/metrics-index.yml)
