@@ -1,5 +1,29 @@
 # CoSuite Metrics & Watchers Index
 
+> ### How to read this page
+> - **Metrics table**: each row is a metric/watcher.
+>   - **status** = health badge (green/amber/red/gray).
+>   - **id** = metric name.
+>   - **cadence** = expected run frequency.
+>   - **latest ts / latest fields** = most recent reading.
+>   - **history** = CSV timeline for analysis; **log** = latest job/heartbeat log.
+> - **Heartbeats & CoPingPong**: quick liveness check; newest timestamps should keep moving.
+> - **Launchers & Jobs**:
+>   - **Workflows** run in GitHub Actions.
+>   - **Scripts** run locally; paths are shown for fast navigation.
+>
+> **Legend**
+> - ![](assets/brand/cocivium_logo_green_tm.svg) = healthy ·
+>   ![](assets/brand/cocivium_logo_amber_tm.svg) = attention ·
+>   ![](assets/brand/cocivium_logo_red_tm.svg) = failing ·
+>   ![](assets/brand/cocivium_logo_gray_tm.svg) = unknown
+>
+> **Tips**
+> - Click a **history** link to download the CSV; open in Excel/Sheets for trends.
+> - Click a **log** to see the last run details/errors.
+> - Not seeing a metric? Add it to metrics/registry.json, then regenerate.
+# CoSuite Metrics & Watchers Index
+
 _Generated: 2025-10-17 20:51:36Z_
 
 ## Metrics (from registry)
@@ -60,3 +84,4 @@ _Generated: 2025-10-17 20:51:36Z_
 - Regenerate: pwsh -File scripts/metrics_index.ps1
 - Retention: 90 days via scripts/metrics_harvest.ps1
 - Staged scripts manifest: metrics/coops_manifest.json
+
