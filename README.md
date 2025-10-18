@@ -1,3 +1,11 @@
+## CoAgent • Start Here
+
+- [![Metrics Index](https://github.com/rickballard/CoCache/actions/workflows/metrics-index.yml/badge.svg)](https://github.com/rickballard/CoCache/actions/workflows/metrics-index.yml)
+- **Giant Metrics Index:** https://github.com/rickballard/CoCache/blob/main/docs/METRICS_INDEX.md
+- **Control Room:** https://github.com/rickballard/CoCache/blob/main/docs/CONSOLE.md
+- **Intent Manifest:** https://github.com/rickballard/CoCache/blob/main/docs/intent/manifest.json
+- **Handoffs:** https://github.com/rickballard/CoCache/tree/main/docs/HANDOFFS
+
 # CoCache
 
 
