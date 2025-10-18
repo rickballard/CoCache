@@ -1,0 +1,23 @@
+{
+  "actions": [
+    {
+      "desc": "Add ™ to CoCivium mentions",
+      "ts": "2025-10-18T00:25:05.9946624Z",
+      "repos": [
+        "CoCache",
+        "InSeed",
+        "CoCivium",
+        "CoPolitic",
+        "CoSteward"
+      ],
+      "id": "tm-rollout"
+    },
+    {
+      "desc": "Generate Giant Metrics Index",
+      "status": "needs-verify",
+      "repo": "CoCache",
+      "ts": "2025-10-18T00:25:05.9947413Z",
+      "id": "metrics-index"
+    }
+  ]
+}
