@@ -70,11 +70,14 @@ $cycle   = if($ping.PSObject.Properties.Name -contains "cycle_id" -and $ping.cyc
 $attempt = if($ping.PSObject.Properties.Name -contains "attempt"   -and $ping.attempt){ [int]$ping.attempt } else { 1 }
 $prev    = if($ping.PSObject.Properties.Name -contains "prev"      -and $ping.prev){ $ping.prev } else { "-" }
 
-# Always print a copy-perfect block with blank lines; color header if possible
-$esc=[char]27; $supportsVT = $Host.Name -ne "ConsoleHost" -or $PSStyle.OutputRendering -ne "PlainText"
-$on="$esc[38;5;135m"; $off="$esc[0m"; if(-not $supportsVT){ $on=''; $off='' }
+# Suppress internal printing when emit=external (one-receipt policy)
+$suppress = ($ping.PSObject.Properties.Name -contains "emit" -and $ping.emit -eq "external")
 
-$plain = @"
+if(-not $suppress){
+  $esc=[char]27; $supportsVT = $Host.Name -ne "ConsoleHost" -or $PSStyle.OutputRendering -ne "PlainText"
+  $on="$esc[38;5;135m"; $off="$esc[0m"; if(-not $supportsVT){ $on=""; $off="" }
+
+  $plain = @"
 ===== CoPONG RECEIPT BEGIN =====
 session_id: $($ping.session_id)  cycle_id: $cycle  attempt: $attempt  status: ready
 commit: prev $prev -> new $sha  repo: CoCache  branch: $branch
@@ -85,12 +88,13 @@ TTL: 3d
 ===== CoPONG RECEIPT END =====
 "@.Trim()
 
-Write-Host ""
-Write-Host ($on + ('='*64)) -NoNewline; Write-Host $off
-Write-Host ($on + "   CoPONG RECEIPT  ($($ping.session_id)/$cycle  ready)   ") -NoNewline; Write-Host $off
-Write-Host ($on + ('='*64)) -NoNewline; Write-Host $off
-Write-Host ""
-$plain | Write-Output
-Write-Host ""
-Pop-Location
+  Write-Host ""
+  Write-Host ($on + ('='*64)) -NoNewline; Write-Host $off
+  Write-Host ($on + "   CoPONG RECEIPT  ($($ping.session_id)/$cycle  ready)   ") -NoNewline; Write-Host $off
+  Write-Host ($on + ('='*64)) -NoNewline; Write-Host $off
+  Write-Host ""
+  $plain | Write-Output
+  Write-Host ""
+}
 
+Pop-Location
