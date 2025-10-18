@@ -65,29 +65,13 @@ try {
 $hLen=(Get-Item $H).Length; $cLen=(Get-Item $C).Length
 $hHash=Sha12 $H; $cHash=Sha12 $C
 $branch=(git rev-parse --abbrev-ref HEAD)
-$cycle   = if($ping.PSObject.Properties.Name -contains ''cycle_id'' -and $ping.cycle_id){ $ping.cycle_id } else { ''0000'' }
-$attempt = if($ping.PSObject.Properties.Name -contains ''attempt''   -and $ping.attempt)  { [int]$ping.attempt } else { 1 }
-$prev    = if($ping.PSObject.Properties.Name -contains ''prev''      -and $ping.prev)     { $ping.prev } else { ''-'' }
+$cycle   = if($ping.PSObject.Properties.Name -contains "cycle_id" -and $ping.cycle_id){ $ping.cycle_id } else { "0000" }
+$attempt = if($ping.PSObject.Properties.Name -contains "attempt"   -and $ping.attempt){ [int]$ping.attempt } else { 1 }
+$prev    = if($ping.PSObject.Properties.Name -contains "prev"      -and $ping.prev){ $ping.prev } else { "-" }
 
-function Write-ColoredReceipt {
-  param([string]$PlainBlock, [ValidateSet('violet','orange')][string]$Theme='violet')
-  $esc=[char]27
-  $supportsVT = $Host.Name -ne 'ConsoleHost' -or $PSStyle.OutputRendering -ne 'PlainText'
-  $color = if($Theme -eq 'orange'){ '38;5;208' } else { '38;5;135' } # orange or violet (256-color)
-  $on  = $supportsVT ? "$esc[${color}m" : ''
-  $off = $supportsVT ? "$esc[0m"        : ''
-
-  # Visible header/footer
-  Write-Host ""
-  Write-Host ($on + ('='*64)) -NoNewline; Write-Host $off
-  Write-Host ($on + "   CoPONG RECEIPT  ($($ping.session_id)/$cycle  $($ping.status ?? 'ready'))   ") -NoNewline; Write-Host $off
-  Write-Host ($on + ('='*64)) -NoNewline; Write-Host $off
-
-  # Copy-perfect fenced block with extra blank line before/after as requested
-  Write-Host ""
-  $PlainBlock | Write-Output
-  Write-Host ""
-}
+# Always print a copy-perfect block with blank lines; color header if possible
+$esc=[char]27; $supportsVT = $Host.Name -ne "ConsoleHost" -or $PSStyle.OutputRendering -ne "PlainText"
+$on="$esc[38;5;135m"; $off="$esc[0m"; if(-not $supportsVT){ $on=''; $off='' }
 
 $plain = @"
 ===== CoPONG RECEIPT BEGIN =====
@@ -100,10 +84,11 @@ TTL: 3d
 ===== CoPONG RECEIPT END =====
 "@.Trim()
 
-Write-ColoredReceipt -PlainBlock $plain -Theme 'violet'
+Write-Host ""
+Write-Host ($on + ('='*64)) -NoNewline; Write-Host $off
+Write-Host ($on + "   CoPONG RECEIPT  ($($ping.session_id)/$cycle  ready)   ") -NoNewline; Write-Host $off
+Write-Host ($on + ('='*64)) -NoNewline; Write-Host $off
+Write-Host ""
+$plain | Write-Output
+Write-Host ""
 Pop-Location
-
-
-
-
-
