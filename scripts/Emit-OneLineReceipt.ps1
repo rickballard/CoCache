@@ -36,6 +36,7 @@ Write-Host ($on + ('='*64)) -NoNewline; Write-Host $off
 Write-Host ($on + "   CoPONG (one-line follows)   ") -NoNewline; Write-Host $off
 Write-Host ($on + ('='*64)) -NoNewline; Write-Host $off
 
-& (Join-Path $Here 'Emit-CoPongReceipt.ps1') @PSBoundParameters -OneLine -ColorizeOneLine -Thick 3
+& (Join-Path $Here 'Emit-CoPongReceipt.ps1') @PSBoundParameters -OneLine -ColorizeOneLine -Thick 3 -Thick 3
+
 
 
