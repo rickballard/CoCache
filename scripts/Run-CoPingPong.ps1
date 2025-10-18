@@ -11,6 +11,7 @@ git pull --ff-only | Out-Null
 
 if(!(Test-Path $I)){ Write-Host "[idle] no CoPing.in.json"; Pop-Location; exit 0 }
 $ping = Get-Content $I -Raw | ConvertFrom-Json
+if(-not ($ping.PSObject.Properties.Name -contains "emit")){ $ping | Add-Member -NotePropertyName emit -NotePropertyValue "external" }
 if(($ping.status ?? 'pending') -ne 'pending'){ Write-Host "[skip] status=$($ping.status)"; Pop-Location; exit 0 }
 
 # --- Very lean actions (bootstrap-from-readmes / refresh-* / metrics-scan) ---
@@ -92,3 +93,4 @@ Write-Host ""
 $plain | Write-Output
 Write-Host ""
 Pop-Location
+
