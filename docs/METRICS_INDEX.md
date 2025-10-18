@@ -1,6 +1,8 @@
 # CoSuite Metrics & Watchers Index
 
 > ### How to read this page
+
+> **Jump to:** [Metrics (from registry)](#metrics-from-registry) · [Heartbeats & CoPingPong](#heartbeats--copingpong) · [Launchers & Jobs](#launchers--jobs-workflows--scripts) · [Notes](#notes)
 > - **Metrics table**: each row is a metric/watcher.
 >   - **status** = health badge (green/amber/red/gray).
 >   - **id** = metric name.
@@ -84,4 +86,5 @@ _Generated: 2025-10-17 20:51:36Z_
 - Regenerate: pwsh -File scripts/metrics_index.ps1
 - Retention: 90 days via scripts/metrics_harvest.ps1
 - Staged scripts manifest: metrics/coops_manifest.json
+
 
