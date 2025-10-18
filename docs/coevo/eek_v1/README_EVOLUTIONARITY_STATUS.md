@@ -1,0 +1,3 @@
+# CoCivium Evolutionarity Status
+
+This readiness audit identifies areas where CoCivium is not yet evolution-enabled...

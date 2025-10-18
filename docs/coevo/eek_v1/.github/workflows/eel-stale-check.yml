@@ -1,0 +1,9 @@
+name: Stale Evolution Scrolls
+on:
+  schedule:
+    - cron: '0 0 * * 0'
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'Scan for stale advice bombs...'
