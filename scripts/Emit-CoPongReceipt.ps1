@@ -1,4 +1,3 @@
-$ErrorActionPreference='Stop'; Set-StrictMode -Version Latest
 param(
   [string]$SessionId, [string]$CycleId, [int]$Attempt=1, [string]$Status='ready',
   [string]$RepoName='CoCache', [string]$Branch='main',
@@ -6,6 +5,8 @@ param(
   [string]$LinesUp='', [string]$LinesDown='',
   [ValidateSet('violet','orange')] [string]$Theme='violet'
 )
+$ErrorActionPreference='Stop'; Set-StrictMode -Version Latest
+
 if(-not $NewSha){ $NewSha = (git rev-parse --short HEAD) }
 $esc=[char]27; $supportsVT = $Host.Name -ne 'ConsoleHost' -or $PSStyle.OutputRendering -ne 'PlainText'
 $color = if($Theme -eq 'orange'){ '38;5;208' } else { '38;5;135' }
