@@ -27,6 +27,24 @@ Write-Host ""
 Write-Host ($on + ('='*64)) -NoNewline; Write-Host $off
 Write-Host ($on + "   CoPONG RECEIPT  ($SessionId/$CycleId  $Status)   ") -NoNewline; Write-Host $off
 Write-Host ($on + ('='*64)) -NoNewline; Write-Host $off
-Write-Host ""
-$plain | Write-Output
-Write-Host ""
+if($OneLine){
+  # Compact, single-line comment — triple-click friendly
+  $compact = ("# CoPONG:" +
+    " session_id=" + $SessionId +
+    " cycle_id="   + $CycleId +
+    " attempt="    + $Attempt +
+    " status="     + $Status +
+    " commit_prev=" + $Prev +
+    " commit_new="  + $NewSha +
+    " repo="        + $RepoName +
+    " branch="      + $Branch +
+    " " + ($LinesUp -replace "`n"," ") +
+    " " + ($LinesDown -replace "`n"," ")
+  ).Trim()
+  Write-Host ""; Write-Output $compact; Write-Host ""
+} else {
+  Write-Host ""
+  $plain | Write-Output
+  Write-Host ""
+}
+
