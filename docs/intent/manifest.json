@@ -10,7 +10,8 @@
         "CoPolitic",
         "CoSteward"
       ],
-      "id": "tm-rollout"
+      "id": "tm-rollout",
+      "status": "todo"
     },
     {
       "desc": "Generate Giant Metrics Index",
@@ -20,7 +21,7 @@
       "id": "metrics-index"
     },
     {
-      "ts": "2025-10-18T03:43:04.6789650Z",
+      "ts": "2025-10-18T03:43:04.678965Z",
       "desc": "Daily CI refresh for Giant Metrics Index",
       "status": "live",
       "repo": "CoCache",
