@@ -1,0 +1,21 @@
+name: guard-handoff
+on:
+  push:
+    paths:
+      - "docs/HANDOFFS/HANDOFF_LATEST.md"
+      - "docs/HANDOFFS/SessionContract.json"
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: size caps
+        run: |
+          HL=docs/HANDOFFS/HANDOFF_LATEST.md
+          CJ=docs/HANDOFFS/SessionContract.json
+          [ -f "$HL" ] && [ $(wc -c < "$HL") -le 10240 ] || { echo "Handoff too big"; exit 1; }
+          [ -f "$CJ" ] && [ $(wc -c < "$CJ") -le 4096 ] || { echo "Contract too big"; exit 1; }
+      - name: block code fences in handoff
+        run: |
+          HL=docs/HANDOFFS/HANDOFF_LATEST.md
+          if grep -q '```' "$HL"; then echo "Code fence found in handoff"; exit 1; fi
