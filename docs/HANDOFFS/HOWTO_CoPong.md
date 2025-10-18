@@ -1,11 +1,6 @@
-# HOWTO: CoPingPong (Receipt-Only)
 
-- Paste **CoPings** from chat into PS7.
-- Let the watcher/processes run quietly.
-- Emit **one** receipt at end of cycle with:
-  \$Root\scripts\Emit-CoPongReceipt.ps1 -OneLine ...\
-- Triple-click the printed line (starts with \# CoPONG:\) and paste it in chat.
+# HOWTO: CoPong receipts (triple‑click mode)
 
-**Policy**
-- \mit: "external"\ in CoPing.in.json ⇒ watcher does **not** print.
-- Only the emitter prints, once, at the end.
+- Receipts can be printed as **single-line** comments (triple-click to copy).
+- Only emit **one receipt per cycle**. For watchers that print internally, set `emit=external` in the ping.
+- Prefer violet theme for visibility; use `-OneLine` to reduce copy errors.

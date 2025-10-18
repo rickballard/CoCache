@@ -1,0 +1,3 @@
+# CoEvo DNA
+
+Assumptions and patterns that shape how CoCivium evolves itself...

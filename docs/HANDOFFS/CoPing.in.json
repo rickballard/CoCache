@@ -1,0 +1,39 @@
+{
+  "session_id": "coagent-2025w42-sLead",
+  "cycle_id": "0003",
+  "attempt": 1,
+  "status": "done",
+  "repos": [
+    "CoCache"
+  ],
+  "intent": [
+    "install-workflows-from-kit",
+    "register-all-repos-manifest",
+    "update-index-and-ethos",
+    "emit-receipt"
+  ],
+  "next_actions": [
+    {
+      "id": "EK-01",
+      "desc": "Copy intent-consult.yml, stale-check.yml into .github/workflows",
+      "own": "CoCache"
+    },
+    {
+      "id": "EK-02",
+      "desc": "Seed docs/intent/repos.json (AllRepos manifest)",
+      "own": "CoCache"
+    },
+    {
+      "id": "EK-03",
+      "desc": "Link scrolls in README and HANDOFF_LATEST.md",
+      "own": "CoCache"
+    },
+    {
+      "id": "EK-04",
+      "desc": "Bump index_manifest.json with kit assets",
+      "own": "CoCache"
+    }
+  ],
+  "emit": "external",
+  "processed_sha": "5e4cb03"
+}

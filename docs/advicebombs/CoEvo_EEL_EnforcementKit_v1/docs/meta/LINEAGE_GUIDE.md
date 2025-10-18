@@ -1,0 +1,3 @@
+# Lineage Tagging Guide
+
+To ensure every asset has a traceable ancestry...

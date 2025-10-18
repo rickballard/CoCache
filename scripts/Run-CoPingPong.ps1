@@ -1,6 +1,8 @@
+
 $ErrorActionPreference='Stop'; Set-StrictMode -Version Latest
 function ShortSha(){ (git rev-parse --short HEAD) }
 function Sha12($p){ if(Test-Path $p){ (Get-FileHash $p -Algorithm SHA256).Hash.Substring(0,12) } }
+
 $Repo="$HOME\Documents\GitHub\CoCache"
 $H  = Join-Path $Repo 'docs\HANDOFFS\HANDOFF_LATEST.md'
 $C  = Join-Path $Repo 'docs\HANDOFFS\SessionContract.json'
@@ -14,12 +16,10 @@ $ping = Get-Content $I -Raw | ConvertFrom-Json
 if(-not ($ping.PSObject.Properties.Name -contains "emit")){ $ping | Add-Member -NotePropertyName emit -NotePropertyValue "external" }
 if(($ping.status ?? 'pending') -ne 'pending'){ Write-Host "[skip] status=$($ping.status)"; Pop-Location; exit 0 }
 
-# --- Very lean actions (bootstrap-from-readmes / refresh-* / metrics-scan) ---
+# --- Lean actions (bootstrap / refresh / metrics-scan) ---
 $now = Get-Date -Format o
-# Ensure handoffs dir
 New-Item -Force -ItemType Directory (Split-Path $H) | Out-Null
 
-# HANDOFF_LATEST.md (≤10 KB, lean pointers)
 $handoff = @"
 # Handoff (LEAN)
 Updated: $now
@@ -33,7 +33,6 @@ Session: $($ping.session_id)
 "@
 $handoff | Out-File -Encoding UTF8 $H
 
-# SessionContract.json (≤4 KB)
 $contract = [ordered]@{
   session_id   = $ping.session_id
   ts           = $now
@@ -57,26 +56,19 @@ $sha = ShortSha
 
 # Mark processed
 $ping.status = 'done'
-try {
-  $ping | Add-Member -NotePropertyName processed_sha -NotePropertyValue $sha -Force
-} catch {}
+try { $ping | Add-Member -NotePropertyName processed_sha -NotePropertyValue $sha -Force } catch {}
 ($ping | ConvertTo-Json -Depth 6) | Out-File -Encoding UTF8 $I
 
-# Emit CoPong receipt (fenced)
-$hLen=(Get-Item $H).Length; $cLen=(Get-Item $C).Length
-$hHash=Sha12 $H; $cHash=Sha12 $C
-$branch=(git rev-parse --abbrev-ref HEAD)
-$cycle   = if($ping.PSObject.Properties.Name -contains "cycle_id" -and $ping.cycle_id){ $ping.cycle_id } else { "0000" }
-$attempt = if($ping.PSObject.Properties.Name -contains "attempt"   -and $ping.attempt){ [int]$ping.attempt } else { 1 }
-$prev    = if($ping.PSObject.Properties.Name -contains "prev"      -and $ping.prev){ $ping.prev } else { "-" }
-
-# Suppress internal printing when emit=external (one-receipt policy)
-$suppress = ($ping.PSObject.Properties.Name -contains "emit" -and $ping.emit -eq "external")
-
-if(-not $suppress){
+# Internal printing only if emit != external
+if($ping.emit -ne "external"){
+  $hLen=(Get-Item $H).Length; $cLen=(Get-Item $C).Length
+  $hHash=Sha12 $H; $cHash=Sha12 $C
+  $branch=(git rev-parse --abbrev-ref HEAD)
+  $cycle   = if($ping.PSObject.Properties.Name -contains "cycle_id" -and $ping.cycle_id){ $ping.cycle_id } else { "0000" }
+  $attempt = if($ping.PSObject.Properties.Name -contains "attempt"   -and $ping.attempt){ [int]$ping.attempt } else { 1 }
+  $prev    = if($ping.PSObject.Properties.Name -contains "prev"      -and $ping.prev){ $ping.prev } else { "-" }
   $esc=[char]27; $supportsVT = $Host.Name -ne "ConsoleHost" -or $PSStyle.OutputRendering -ne "PlainText"
   $on="$esc[38;5;135m"; $off="$esc[0m"; if(-not $supportsVT){ $on=""; $off="" }
-
   $plain = @"
 ===== CoPONG RECEIPT BEGIN =====
 session_id: $($ping.session_id)  cycle_id: $cycle  attempt: $attempt  status: ready
@@ -87,14 +79,9 @@ links: https://github.com/rickballard/CoCache/blob/main/docs/HANDOFFS/HANDOFF_LA
 TTL: 3d
 ===== CoPONG RECEIPT END =====
 "@.Trim()
-
-  Write-Host ""
-  Write-Host ($on + ('='*64)) -NoNewline; Write-Host $off
-  Write-Host ($on + "   CoPONG RECEIPT  ($($ping.session_id)/$cycle  ready)   ") -NoNewline; Write-Host $off
-  Write-Host ($on + ('='*64)) -NoNewline; Write-Host $off
-  Write-Host ""
-  $plain | Write-Output
-  Write-Host ""
+  Write-Host ""; Write-Host ($on+('='+(''=0)[0]*63)) -NoNewline; Write-Host $off
+  Write-Host ($on+"   CoPONG RECEIPT  ($($ping.session_id)/$cycle  ready)   ")-NoNewline; Write-Host $off
+  Write-Host ($on+('='+(''=0)[0]*63)) -NoNewline; Write-Host $off
+  Write-Host ""; $plain | Write-Output; Write-Host ""
 }
-
 Pop-Location

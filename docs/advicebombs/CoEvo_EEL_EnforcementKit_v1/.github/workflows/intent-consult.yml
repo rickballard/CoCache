@@ -1,0 +1,8 @@
+name: Intent Consult Check
+on: [pull_request]
+jobs:
+  consult:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ensure upstream intent is referenced
+        run: echo 'Check for reflexivity...'

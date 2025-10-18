@@ -1,14 +1,10 @@
-# Canonical LF for text files
-* text=auto eol=lf
 
-# Explicit LF for our core file types
+* text=auto eol=lf
 *.md   text eol=lf
 *.json text eol=lf
 *.yml  text eol=lf
 *.yaml text eol=lf
 *.ps1  text eol=lf
-
-# Keep binaries untouched
 *.png binary
 *.jpg binary
 *.zip binary
