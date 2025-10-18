@@ -57,3 +57,11 @@ _(Content map will grow as repo fills out.)_
 ### Ethos Scrolls
 - [Scroll_Evolution_Is_CoCivium](docs/ethos/Scroll_Evolution_Is_CoCivium.md)
 - [Scroll_Evolution_Or_Obsolescence](docs/ethos/Scroll_Evolution_Or_Obsolescence.md)
+
+
+---
+
+### Ops Quick Links
+- [AllRepos](docs/intent/repos.json) · [Index Manifest](docs/index_manifest.json) · [Metrics](docs/METRICS_INDEX.md)
+- [Operator HOWTO](docs/HANDOFFS/HOWTO_CoPong.md) · [Intent README](docs/intent/README.md)
+- Ethos: [Scroll_Evolution_Is_CoCivium](docs/ethos/Scroll_Evolution_Is_CoCivium.md) · [Scroll_Evolution_Or_Obsolescence](docs/ethos/Scroll_Evolution_Or_Obsolescence.md)
