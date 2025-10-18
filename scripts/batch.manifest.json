@@ -1,0 +1,49 @@
+{
+  "tasks": [
+    {
+      "name": "indexer:touch-repos",
+      "script": "pwsh",
+      "args": [
+        "-NoProfile",
+        "-Command",
+        "$j=Get-Content docs/intent/repos.json -Raw | ConvertFrom-Json; $j.updated=Get-Date -Format o; ($j|ConvertTo-Json -Depth 8)|Set-Content -Encoding UTF8 docs/intent/repos.json"
+      ],
+      "cwd": ".",
+      "timeout": 120,
+      "mutex": "git-stage",
+      "env": {}
+    },
+    {
+      "name": "indexer:commit-push",
+      "script": "pwsh",
+      "args": [
+        "-NoProfile",
+        "-Command",
+        "git add -- docs/intent/repos.json; git diff --cached --quiet || git commit -m 'batch: touch'; git push"
+      ],
+      "cwd": ".",
+      "timeout": 180,
+      "mutex": "git-stage",
+      "needs": [
+        "indexer:touch-repos"
+      ],
+      "env": {}
+    },
+    {
+      "name": "handshake:refresh",
+      "script": "pwsh",
+      "args": [
+        "-NoProfile",
+        "-File",
+        "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\scripts\\Handshake-Refresh.ps1",
+        "-CoCacheRepos",
+        "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\repos.json",
+        "-OutHandshake",
+        "C:\\Users\\Chris\\Documents\\GitHub\\CoAgent\\docs\\HANDOFFS\\HANDSHAKE.md"
+      ],
+      "cwd": "$HOME\\Documents\\GitHub\\CoAgent",
+      "timeout": 300,
+      "env": {}
+    }
+  ]
+}
