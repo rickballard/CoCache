@@ -52,3 +52,8 @@ _(Content map will grow as repo fills out.)_
 - Seed-kit: see CoCache → ops/kits/Build-CoSuiteSeedKit.ps1.
 
 </details>
+
+
+### Ethos Scrolls
+- [Scroll_Evolution_Is_CoCivium](docs/ethos/Scroll_Evolution_Is_CoCivium.md)
+- [Scroll_Evolution_Or_Obsolescence](docs/ethos/Scroll_Evolution_Or_Obsolescence.md)

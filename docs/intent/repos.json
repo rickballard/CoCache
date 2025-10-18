@@ -1,0 +1,15 @@
+{
+  "updated": "2025-10-18T10:07:37.8578664-04:00",
+  "repos": [
+    {
+      "role": "index/canon",
+      "name": "CoCache",
+      "path": "~/Documents/GitHub/CoCache"
+    },
+    {
+      "role": "agent/product",
+      "name": "CoAgent",
+      "path": "~/Documents/GitHub/CoAgent"
+    }
+  ]
+}
