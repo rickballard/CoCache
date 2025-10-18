@@ -65,11 +65,14 @@ try {
 $hLen=(Get-Item $H).Length; $cLen=(Get-Item $C).Length
 $hHash=Sha12 $H; $cHash=Sha12 $C
 $branch=(git rev-parse --abbrev-ref HEAD)
+$cycle   = if($ping.PSObject.Properties.Name -contains 'cycle_id' -and $ping.cycle_id){ $ping.cycle_id } else { '0000' }
+$attempt = if($ping.PSObject.Properties.Name -contains 'attempt'   -and $ping.attempt)  { [int]$ping.attempt } else { 1 }
+$prev    = if($ping.PSObject.Properties.Name -contains 'prev'      -and $ping.prev)     { $ping.prev } else { '-' }
 
 @"
 ===== CoPONG RECEIPT BEGIN =====
-session_id: $($ping.session_id)  cycle_id: 0001  attempt: 1  status: ready
-commit: prev $($ping.prev ?? '-') -> new $sha  repo: CoCache  branch: $branch
+session_id: $($ping.session_id)  cycle_id: $cycle  attempt: $attempt  status: ready
+commit: prev $prev -> new $sha  repo: CoCache  branch: $branch
 wrote: HANDOFF_LATEST.md ($hLen B, sha256:$hHash)  SessionContract.json ($cLen B, sha256:$cHash)
 metrics_index_rows: $rows  headings: $hdgs  last_updated: $now
 links: https://github.com/rickballard/CoCache/blob/main/docs/HANDOFFS/HANDOFF_LATEST.md | https://github.com/rickballard/CoCache/blob/main/docs/HANDOFFS/SessionContract.json
@@ -77,4 +80,7 @@ TTL: 3d
 ===== CoPONG RECEIPT END =====
 "@ | Write-Output
 Pop-Location
+
+
+
 
