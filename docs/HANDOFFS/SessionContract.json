@@ -1,31 +1,34 @@
 {
   "session_id": "coagent-2025w42-sLead",
-  "ts": "2025-10-18T09:59:38.6189010-04:00",
+  "ts": "2025-10-18T09:59:50.1130796-04:00",
   "repos": [
-    "CoCache",
-    "CoAgent"
+    "CoCache"
   ],
   "intent": [
-    "bootstrap-from-readmes",
-    "refresh-handoff",
-    "refresh-contract",
-    "metrics-scan",
+    "install-workflows-from-kit",
+    "register-all-repos-manifest",
+    "update-index-and-ethos",
     "emit-receipt"
   ],
   "next_actions": [
     {
-      "id": "HO-01",
-      "desc": "Overwrite HANDOFF_LATEST.md (≤10KB) with lean pointers",
+      "id": "EK-01",
+      "desc": "Copy intent-consult.yml, stale-check.yml into .github/workflows",
       "own": "CoCache"
     },
     {
-      "id": "SC-01",
-      "desc": "Rewrite SessionContract.json (≤4KB), TTL=3d",
+      "id": "EK-02",
+      "desc": "Seed docs/intent/repos.json (AllRepos manifest)",
       "own": "CoCache"
     },
     {
-      "id": "MI-01",
-      "desc": "Scan metrics and update counters in receipt",
+      "id": "EK-03",
+      "desc": "Link scrolls in README and HANDOFF_LATEST.md",
+      "own": "CoCache"
+    },
+    {
+      "id": "EK-04",
+      "desc": "Bump index_manifest.json with kit assets",
       "own": "CoCache"
     }
   ],
