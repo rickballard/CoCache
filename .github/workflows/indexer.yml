@@ -1,0 +1,26 @@
+name: indexer
+on:
+  push:
+    paths:
+      - "docs/intent/repos.json"
+  workflow_dispatch:
+  schedule:
+    - cron: "14 * * * *"
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: run indexer
+        shell: pwsh
+        run: pwsh -NoProfile -File scripts/Index-Repos.ps1 `
+             -ReposPath "docs/intent/repos.json" `
+             -ManifestPath "docs/index_manifest.json" `
+             -MetricsPath "docs/METRICS_INDEX.md"
+      - name: commit updates
+        run: |
+          git config user.name "actions-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/index_manifest.json docs/METRICS_INDEX.md
+          git diff --cached --quiet || git commit -m "indexer: refresh manifest/metrics"
+          git push
