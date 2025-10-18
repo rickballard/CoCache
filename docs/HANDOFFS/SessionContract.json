@@ -1,0 +1,37 @@
+{
+  "session_id": "coagent-2025w42-sLead",
+  "ts": "2025-10-18T09:57:49.7266381-04:00",
+  "repos": [
+    "CoCache",
+    "CoAgent"
+  ],
+  "intent": [
+    "bootstrap-from-readmes",
+    "refresh-handoff",
+    "refresh-contract",
+    "metrics-scan",
+    "emit-receipt"
+  ],
+  "next_actions": [
+    {
+      "id": "HO-01",
+      "desc": "Overwrite HANDOFF_LATEST.md (≤10KB) with lean pointers",
+      "own": "CoCache"
+    },
+    {
+      "id": "SC-01",
+      "desc": "Rewrite SessionContract.json (≤4KB), TTL=3d",
+      "own": "CoCache"
+    },
+    {
+      "id": "MI-01",
+      "desc": "Scan metrics and update counters in receipt",
+      "own": "CoCache"
+    }
+  ],
+  "ttl_days": 3,
+  "pointers": {
+    "contract_json": "docs/HANDOFFS/SessionContract.json",
+    "handoff_latest": "docs/HANDOFFS/HANDOFF_LATEST.md"
+  }
+}
