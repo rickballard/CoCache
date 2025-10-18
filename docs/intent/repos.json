@@ -1,10 +1,10 @@
 {
-  "updated": "2025-10-18T10:09:16.8149637-04:00",
+  "updated": "2025-10-18T10:19:26.0718544-04:00",
   "repos": [
     {
       "name": "CoAgent",
       "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoAgent",
-      "role": "unknown"
+      "role": "agent/product"
     },
     {
       "name": "CoAgent__mvp3_resume-20250923-111953Z",
@@ -14,12 +14,12 @@
     {
       "name": "CoCache",
       "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache",
-      "role": "unknown"
+      "role": "index/canon"
     },
     {
       "name": "CoCivium",
       "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoCivium",
-      "role": "unknown"
+      "role": "ethos/civium"
     },
     {
       "name": "CoCivium-outreach",
@@ -54,7 +54,7 @@
     {
       "name": "CoPolitic",
       "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoPolitic",
-      "role": "unknown"
+      "role": "policy"
     },
     {
       "name": "CoRef",
@@ -64,7 +64,7 @@
     {
       "name": "CoSteward",
       "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoSteward",
-      "role": "unknown"
+      "role": "ops/steward"
     }
   ]
 }
