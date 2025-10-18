@@ -1,6 +1,6 @@
 {
   "session_id": "coagent-2025w42-sLead",
-  "ts": "2025-10-18T10:00:49.7341912-04:00",
+  "ts": "2025-10-18T10:04:08.1591921-04:00",
   "repos": [
     "CoCache"
   ],
@@ -34,7 +34,7 @@
   ],
   "ttl_days": 3,
   "pointers": {
-    "contract_json": "docs/HANDOFFS/SessionContract.json",
-    "handoff_latest": "docs/HANDOFFS/HANDOFF_LATEST.md"
+    "handoff_latest": "docs/HANDOFFS/HANDOFF_LATEST.md",
+    "contract_json": "docs/HANDOFFS/SessionContract.json"
   }
 }
