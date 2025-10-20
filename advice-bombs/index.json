@@ -1,6 +1,41 @@
 {
-  "generatedUtc": "2025-10-20T18:22:35.0971124Z",
+  "generatedUtc": "2025-10-20T21:38:51.8240142Z",
   "items": [
+    {
+      "name": "AB_CoCache_IndexingSystem_20251020.zip",
+      "pathInRepo": "advice-bombs/raw/AB_CoCache_IndexingSystem_20251020.zip",
+      "sha256": "6AAED01281811C383029631BE27AE52AA1E4BE38AB102E848018ADD1ADD01CE8",
+      "fileCount": 6,
+      "topLevelDirs": "AB_CoCache_IndexingSystem_20251020",
+      "hasReadme": false,
+      "sampledItems": [
+        {
+          "path": "AB_CoCache_IndexingSystem_20251020/MANIFEST.json",
+          "bytes": 211
+        },
+        {
+          "path": "AB_CoCache_IndexingSystem_20251020/README.md",
+          "bytes": 289
+        },
+        {
+          "path": "AB_CoCache_IndexingSystem_20251020/TLDR.md",
+          "bytes": 374
+        },
+        {
+          "path": "AB_CoCache_IndexingSystem_20251020/docs/ADVISORY_NOTES.md",
+          "bytes": 388
+        },
+        {
+          "path": "AB_CoCache_IndexingSystem_20251020/docs/ASSEMBLY_CONSIDERATIONS.md",
+          "bytes": 422
+        },
+        {
+          "path": "AB_CoCache_IndexingSystem_20251020/docs/REPO_INTEGRATION_GUIDE.md",
+          "bytes": 299
+        }
+      ],
+      "createdUtc": "2025-10-20T21:38:43.0769502Z"
+    },
     {
       "name": "AB_CoCivium_OptimalDebt_20251020.zip",
       "pathInRepo": "advice-bombs/raw/AB_CoCivium_OptimalDebt_20251020.zip",
