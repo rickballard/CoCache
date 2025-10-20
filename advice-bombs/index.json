@@ -1,5 +1,5 @@
 {
-  "generatedUtc": "2025-10-20T04:04:46.1301829Z",
+  "generatedUtc": "2025-10-20T04:04:58.7400174Z",
   "items": [
     {
       "name": "AdviceBomb_CoAgentMVP4_Godspawn.zip",
@@ -260,6 +260,66 @@
         }
       ],
       "createdUtc": "2025-10-20T04:04:29.749863Z"
+    },
+    {
+      "name": "CoWrap_CoAudit_PrimePackage.zip",
+      "pathInRepo": "advice-bombs/raw/CoWrap_CoAudit_PrimePackage.zip",
+      "sha256": "43D0FAB8D178A04995D34004B81446330F39411E713BCD4A23D3CB6D7925F988",
+      "fileCount": 11,
+      "topLevelDirs": [
+        "notes",
+        "scripts",
+        "verify",
+        "workflows"
+      ],
+      "hasReadme": true,
+      "sampledItems": [
+        {
+          "path": "CoWrap_SessionSummary.md",
+          "bytes": 2822
+        },
+        {
+          "path": "metadata.json",
+          "bytes": 419
+        },
+        {
+          "path": "README.md",
+          "bytes": 622
+        },
+        {
+          "path": "notes/NEXT_STEPS.md",
+          "bytes": 397
+        },
+        {
+          "path": "notes/PHILOSOPHY.md",
+          "bytes": 410
+        },
+        {
+          "path": "scripts/Discover-Metrics.ps1",
+          "bytes": 5204
+        },
+        {
+          "path": "scripts/smoke.ps1",
+          "bytes": 395
+        },
+        {
+          "path": "verify/gh_commands.ps1",
+          "bytes": 958
+        },
+        {
+          "path": "verify/VERIFY_CHECKLIST.md",
+          "bytes": 903
+        },
+        {
+          "path": "workflows/coaudit_audit.yml",
+          "bytes": 720
+        },
+        {
+          "path": "workflows/cocache_ingest_artifact.yml",
+          "bytes": 1620
+        }
+      ],
+      "createdUtc": "2025-10-20T04:04:55.2890442Z"
     },
     {
       "name": "InSeed_Flagship_ServiceLine_Pkg.zip",
