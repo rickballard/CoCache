@@ -1,0 +1,55 @@
+{
+  "name": "AB_CoCivium_OptimalDebt_20251020.zip",
+  "pathInRepo": "advice-bombs/raw/AB_CoCivium_OptimalDebt_20251020.zip",
+  "sha256": "B0ED968BCEE6AE404F03CDFDFED5A3F7710811441FA2809BCC4BD3D5B4F3A0E0",
+  "fileCount": 11,
+  "topLevelDirs": "AB_CoCivium_OptimalDebt_20251020",
+  "hasReadme": false,
+  "sampledItems": [
+    {
+      "path": "AB_CoCivium_OptimalDebt_20251020/_copayload.meta.json",
+      "bytes": 470
+    },
+    {
+      "path": "AB_CoCivium_OptimalDebt_20251020/Deployment_Notes.md",
+      "bytes": 677
+    },
+    {
+      "path": "AB_CoCivium_OptimalDebt_20251020/Insight_OptimalDebt_Philosophy.md",
+      "bytes": 1015
+    },
+    {
+      "path": "AB_CoCivium_OptimalDebt_20251020/Insight_OptimalDebt_Practice.md",
+      "bytes": 1428
+    },
+    {
+      "path": "AB_CoCivium_OptimalDebt_20251020/out.txt",
+      "bytes": 222
+    },
+    {
+      "path": "AB_CoCivium_OptimalDebt_20251020/README.md",
+      "bytes": 877
+    },
+    {
+      "path": "AB_CoCivium_OptimalDebt_20251020/scripts/Install-InsightPair.ps1",
+      "bytes": 1941
+    },
+    {
+      "path": "AB_CoCivium_OptimalDebt_20251020/scripts/Verify-AdviceBomb.ps1",
+      "bytes": 679
+    },
+    {
+      "path": "AB_CoCivium_OptimalDebt_20251020/_spanky/manifest.json",
+      "bytes": 775
+    },
+    {
+      "path": "AB_CoCivium_OptimalDebt_20251020/_spanky/notes.md",
+      "bytes": 1249
+    },
+    {
+      "path": "AB_CoCivium_OptimalDebt_20251020/_spanky/readme.txt",
+      "bytes": 301
+    }
+  ],
+  "createdUtc": "2025-10-20T18:22:10.9921073Z"
+}
