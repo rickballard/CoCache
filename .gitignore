@@ -1,32 +1,8 @@
+# local scratch
+.work/
+
+# OS/editor noise
 .DS_Store
-*.log
-.env
-__pycache__/
-*.tmp
-*.bak
-node_modules/
-dist/
-build/
-# OS / tooling
 Thumbs.db
+*.tmp
 
-
-
-
-# CoCivium local artifacts
-*_Package_*.zip
-CoCivium_*_v*.zip
-_forensics-*.csv
-_bn_history.diff
-# Advice-bomb ingestion
-docs/advice_bombs/batch_*/.*.zip
-docs/advice_bombs/batch_*/*_*/        # skip extracted folders (keep mirrors + index + Actionables)
-# Advice-bomb ingestion
-docs/advice_bombs/batch_*/.*.zip
-docs/advice_bombs/batch_*/*_*/
-!docs/advice_bombs/batch_*/index/
-!docs/advice_bombs/batch_*/Actionables.md
-
-# allow AdviceBomb zips
-!advice-bombs/raw/
-!advice-bombs/raw/*.zip
