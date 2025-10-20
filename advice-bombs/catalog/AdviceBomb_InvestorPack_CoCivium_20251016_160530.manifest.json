@@ -1,0 +1,107 @@
+{
+  "name": "AdviceBomb_InvestorPack_CoCivium_20251016_160530.zip",
+  "pathInRepo": "advice-bombs/raw/AdviceBomb_InvestorPack_CoCivium_20251016_160530.zip",
+  "sha256": "85ECCCD06FFF8E353B23CDB985E9DB9CAD0DF757660FD6F0D2A238E1B2558FAF",
+  "fileCount": 24,
+  "topLevelDirs": "AdviceBomb_InvestorPack_CoCivium_20251016_160530",
+  "hasReadme": false,
+  "sampledItems": [
+    {
+      "path": "AdviceBomb_InvestorPack_CoCivium_20251016_160530/INDEX.md",
+      "bytes": 468
+    },
+    {
+      "path": "AdviceBomb_InvestorPack_CoCivium_20251016_160530/INTENTIONS.md",
+      "bytes": 495
+    },
+    {
+      "path": "AdviceBomb_InvestorPack_CoCivium_20251016_160530/LICENSE.txt",
+      "bytes": 184
+    },
+    {
+      "path": "AdviceBomb_InvestorPack_CoCivium_20251016_160530/README.md",
+      "bytes": 1354
+    },
+    {
+      "path": "AdviceBomb_InvestorPack_CoCivium_20251016_160530/comms/hero_images/README.md",
+      "bytes": 149
+    },
+    {
+      "path": "AdviceBomb_InvestorPack_CoCivium_20251016_160530/comms/press_notes/Press_OneLiners.md",
+      "bytes": 215
+    },
+    {
+      "path": "AdviceBomb_InvestorPack_CoCivium_20251016_160530/compliance/Regulatory_Notes_ON_CA_US.md",
+      "bytes": 511
+    },
+    {
+      "path": "AdviceBomb_InvestorPack_CoCivium_20251016_160530/datapack/financials/Budget_Template.csv",
+      "bytes": 219
+    },
+    {
+      "path": "AdviceBomb_InvestorPack_CoCivium_20251016_160530/datapack/financials/Capital_Plan.md",
+      "bytes": 409
+    },
+    {
+      "path": "AdviceBomb_InvestorPack_CoCivium_20251016_160530/datapack/governance/Governance_Principles.md",
+      "bytes": 600
+    },
+    {
+      "path": "AdviceBomb_InvestorPack_CoCivium_20251016_160530/datapack/legal/Entity_Split_and_IP_Licensing_Template.md",
+      "bytes": 614
+    },
+    {
+      "path": "AdviceBomb_InvestorPack_CoCivium_20251016_160530/datapack/tech/CoSuite_Architecture_Map.md",
+      "bytes": 459
+    },
+    {
+      "path": "AdviceBomb_InvestorPack_CoCivium_20251016_160530/deck/CoCivium_10slide_outline.md",
+      "bytes": 1360
+    },
+    {
+      "path": "AdviceBomb_InvestorPack_CoCivium_20251016_160530/DO/run.ps1",
+      "bytes": 2136
+    },
+    {
+      "path": "AdviceBomb_InvestorPack_CoCivium_20251016_160530/faq/Investor_FAQ.md",
+      "bytes": 496
+    },
+    {
+      "path": "AdviceBomb_InvestorPack_CoCivium_20251016_160530/NOTES/Educational_Notes.md",
+      "bytes": 326
+    },
+    {
+      "path": "AdviceBomb_InvestorPack_CoCivium_20251016_160530/outreach/Email_Templates.md",
+      "bytes": 1117
+    },
+    {
+      "path": "AdviceBomb_InvestorPack_CoCivium_20251016_160530/outreach/Funnel_KPIs.csv",
+      "bytes": 212
+    },
+    {
+      "path": "AdviceBomb_InvestorPack_CoCivium_20251016_160530/outreach/Target_List_Template.csv",
+      "bytes": 352
+    },
+    {
+      "path": "AdviceBomb_InvestorPack_CoCivium_20251016_160530/risk/Risks_and_Mitigations.md",
+      "bytes": 430
+    },
+    {
+      "path": "AdviceBomb_InvestorPack_CoCivium_20251016_160530/two_pager/CoCivium_2pager.md",
+      "bytes": 1384
+    },
+    {
+      "path": "AdviceBomb_InvestorPack_CoCivium_20251016_160530/video/founder_talk_6min_script.md",
+      "bytes": 737
+    },
+    {
+      "path": "AdviceBomb_InvestorPack_CoCivium_20251016_160530/video/teaser_30sec_script.md",
+      "bytes": 305
+    },
+    {
+      "path": "AdviceBomb_InvestorPack_CoCivium_20251016_160530/_meta/_copayload.meta.json",
+      "bytes": 503
+    }
+  ],
+  "createdUtc": "2025-10-20T03:14:32.3571537Z"
+}
