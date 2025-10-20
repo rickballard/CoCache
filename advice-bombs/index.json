@@ -1,5 +1,5 @@
 {
-  "generatedUtc": "2025-10-20T03:19:32.8431181Z",
+  "generatedUtc": "2025-10-20T04:04:33.3222119Z",
   "items": [
     {
       "name": "AdviceBomb_CoAgentMVP4_Godspawn.zip",
@@ -217,6 +217,49 @@
         }
       ],
       "createdUtc": "2025-10-20T03:14:32.3571537Z"
+    },
+    {
+      "name": "CoAudit_AdviceBomb_20251019_185428_v3.zip",
+      "pathInRepo": "advice-bombs/raw/CoAudit_AdviceBomb_20251019_185428_v3.zip",
+      "sha256": "F027914B0B9A374060CF84F69CCEC61315B8BC8037CE3D0ECEBF686F8215388C",
+      "fileCount": 8,
+      "topLevelDirs": "CoAudit_AdviceBomb_20251019_185428_v3",
+      "hasReadme": false,
+      "sampledItems": [
+        {
+          "path": "CoAudit_AdviceBomb_20251019_185428_v3/docs/14_Epistemic_Threats.md",
+          "bytes": 46
+        },
+        {
+          "path": "CoAudit_AdviceBomb_20251019_185428_v3/docs/15_Trust_Signal_Heuristics.md",
+          "bytes": 64
+        },
+        {
+          "path": "CoAudit_AdviceBomb_20251019_185428_v3/docs/16_Revocation_Registry_Design.md",
+          "bytes": 40
+        },
+        {
+          "path": "CoAudit_AdviceBomb_20251019_185428_v3/docs/17_CoCache_Interop.md",
+          "bytes": 38
+        },
+        {
+          "path": "CoAudit_AdviceBomb_20251019_185428_v3/docs/18_Forward_Risk_Modeling.md",
+          "bytes": 49
+        },
+        {
+          "path": "CoAudit_AdviceBomb_20251019_185428_v3/docs/19_Evidence_Sanitization.md",
+          "bytes": 44
+        },
+        {
+          "path": "CoAudit_AdviceBomb_20251019_185428_v3/docs/20_Signing_Ceremony_Protocol.md",
+          "bytes": 66
+        },
+        {
+          "path": "CoAudit_AdviceBomb_20251019_185428_v3/docs/21_Donor_Transparency_Feeds.md",
+          "bytes": 38
+        }
+      ],
+      "createdUtc": "2025-10-20T04:04:29.749863Z"
     }
   ]
 }
