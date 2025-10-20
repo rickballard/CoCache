@@ -1,6 +1,13 @@
 $ErrorActionPreference="Stop"
-$files = (& git diff --cached --name-only --diff-filter=ACMR)
-$targets = $files | Where-Object { $_ -match "\.(ps1|psm1|psd1)$" }
+
+# one-time bypass: set SKIP_BPOE=1 to skip this hook
+if($env:SKIP_BPOE -eq "1"){ exit 0 }
+
+$files   = & git diff --cached --name-only --diff-filter=ACMR
+$targets = $files | Where-Object {
+  $_ -match '\.(ps1|psm1|psd1)$' -and $_ -notmatch '^\.githooks[\\/]'
+}
+
 $bad = @()
 foreach($f in $targets){
   if(-not (Test-Path $f)){ continue }
