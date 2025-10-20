@@ -1,0 +1,51 @@
+{
+  "name": "CoWrap_Plane_AdviceBomb_v2.zip",
+  "pathInRepo": "advice-bombs/raw/CoWrap_Plane_AdviceBomb_v2.zip",
+  "sha256": "912ACA3E080A49E9120CE1FB4EC30938B56A59AB8D1ABD298C450507A7DB10B3",
+  "fileCount": 10,
+  "topLevelDirs": "scripts",
+  "hasReadme": false,
+  "sampledItems": [
+    {
+      "path": "BPOE-Lessons.md",
+      "bytes": 1146
+    },
+    {
+      "path": "CHANGELOG-snippet.md",
+      "bytes": 276
+    },
+    {
+      "path": "Data-Schema.json",
+      "bytes": 2169
+    },
+    {
+      "path": "Example-entities.v1.json",
+      "bytes": 924
+    },
+    {
+      "path": "README-CoWrap-Plane.md",
+      "bytes": 1532
+    },
+    {
+      "path": "Status.md",
+      "bytes": 1124
+    },
+    {
+      "path": "Troubleshooting.md",
+      "bytes": 1100
+    },
+    {
+      "path": "scripts/DO_BLOCKS.ps1",
+      "bytes": 1858
+    },
+    {
+      "path": "scripts/NAV_FIX.ps1",
+      "bytes": 984
+    },
+    {
+      "path": "scripts/VERIFY.ps1",
+      "bytes": 285
+    }
+  ],
+  "createdUtc": "2025-10-20T18:22:25.2482654Z"
+}
