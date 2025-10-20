@@ -1,0 +1,23 @@
+{
+  "name": "AdviceBomb_CoAgentMVP4_Godspawn.zip",
+  "pathInRepo": "advice-bombs/raw/AdviceBomb_CoAgentMVP4_Godspawn.zip",
+  "sha256": "CE29D8C540C1227CDABEA61C5EC69AB26B5E046B24C09F7286495C876749B6DC",
+  "fileCount": 3,
+  "topLevelDirs": null,
+  "hasReadme": false,
+  "sampledItems": [
+    {
+      "path": "_copayload.meta.json",
+      "bytes": 169
+    },
+    {
+      "path": "AdviceBomb_CoAgentMVP4_Godspawn.txt",
+      "bytes": 428
+    },
+    {
+      "path": "README_START_HERE.md",
+      "bytes": 206
+    }
+  ],
+  "createdUtc": "2025-10-20T03:14:17.5689192Z"
+}
