@@ -1,6 +1,61 @@
 {
-  "generatedUtc": "2025-10-20T17:58:25.3692589Z",
+  "generatedUtc": "2025-10-20T18:22:35.0971124Z",
   "items": [
+    {
+      "name": "AB_CoCivium_OptimalDebt_20251020.zip",
+      "pathInRepo": "advice-bombs/raw/AB_CoCivium_OptimalDebt_20251020.zip",
+      "sha256": "B0ED968BCEE6AE404F03CDFDFED5A3F7710811441FA2809BCC4BD3D5B4F3A0E0",
+      "fileCount": 11,
+      "topLevelDirs": "AB_CoCivium_OptimalDebt_20251020",
+      "hasReadme": false,
+      "sampledItems": [
+        {
+          "path": "AB_CoCivium_OptimalDebt_20251020/_copayload.meta.json",
+          "bytes": 470
+        },
+        {
+          "path": "AB_CoCivium_OptimalDebt_20251020/Deployment_Notes.md",
+          "bytes": 677
+        },
+        {
+          "path": "AB_CoCivium_OptimalDebt_20251020/Insight_OptimalDebt_Philosophy.md",
+          "bytes": 1015
+        },
+        {
+          "path": "AB_CoCivium_OptimalDebt_20251020/Insight_OptimalDebt_Practice.md",
+          "bytes": 1428
+        },
+        {
+          "path": "AB_CoCivium_OptimalDebt_20251020/out.txt",
+          "bytes": 222
+        },
+        {
+          "path": "AB_CoCivium_OptimalDebt_20251020/README.md",
+          "bytes": 877
+        },
+        {
+          "path": "AB_CoCivium_OptimalDebt_20251020/scripts/Install-InsightPair.ps1",
+          "bytes": 1941
+        },
+        {
+          "path": "AB_CoCivium_OptimalDebt_20251020/scripts/Verify-AdviceBomb.ps1",
+          "bytes": 679
+        },
+        {
+          "path": "AB_CoCivium_OptimalDebt_20251020/_spanky/manifest.json",
+          "bytes": 775
+        },
+        {
+          "path": "AB_CoCivium_OptimalDebt_20251020/_spanky/notes.md",
+          "bytes": 1249
+        },
+        {
+          "path": "AB_CoCivium_OptimalDebt_20251020/_spanky/readme.txt",
+          "bytes": 301
+        }
+      ],
+      "createdUtc": "2025-10-20T18:22:10.9921073Z"
+    },
     {
       "name": "AdviceBomb_CoAgentMVP4_Godspawn.zip",
       "pathInRepo": "advice-bombs/raw/AdviceBomb_CoAgentMVP4_Godspawn.zip",
@@ -320,6 +375,57 @@
         }
       ],
       "createdUtc": "2025-10-20T04:04:55.2890442Z"
+    },
+    {
+      "name": "CoWrap_Plane_AdviceBomb_v2.zip",
+      "pathInRepo": "advice-bombs/raw/CoWrap_Plane_AdviceBomb_v2.zip",
+      "sha256": "912ACA3E080A49E9120CE1FB4EC30938B56A59AB8D1ABD298C450507A7DB10B3",
+      "fileCount": 10,
+      "topLevelDirs": "scripts",
+      "hasReadme": false,
+      "sampledItems": [
+        {
+          "path": "BPOE-Lessons.md",
+          "bytes": 1146
+        },
+        {
+          "path": "CHANGELOG-snippet.md",
+          "bytes": 276
+        },
+        {
+          "path": "Data-Schema.json",
+          "bytes": 2169
+        },
+        {
+          "path": "Example-entities.v1.json",
+          "bytes": 924
+        },
+        {
+          "path": "README-CoWrap-Plane.md",
+          "bytes": 1532
+        },
+        {
+          "path": "Status.md",
+          "bytes": 1124
+        },
+        {
+          "path": "Troubleshooting.md",
+          "bytes": 1100
+        },
+        {
+          "path": "scripts/DO_BLOCKS.ps1",
+          "bytes": 1858
+        },
+        {
+          "path": "scripts/NAV_FIX.ps1",
+          "bytes": 984
+        },
+        {
+          "path": "scripts/VERIFY.ps1",
+          "bytes": 285
+        }
+      ],
+      "createdUtc": "2025-10-20T18:22:25.2482654Z"
     },
     {
       "name": "InSeed_Flagship_ServiceLine_Pkg.zip",
