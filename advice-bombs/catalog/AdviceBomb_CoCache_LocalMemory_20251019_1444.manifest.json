@@ -1,0 +1,87 @@
+{
+  "name": "AdviceBomb_CoCache_LocalMemory_20251019_1444.zip",
+  "pathInRepo": "advice-bombs/raw/AdviceBomb_CoCache_LocalMemory_20251019_1444.zip",
+  "sha256": "E7096B5EA649239B80AA749D71DC88108345ED344A5E2C2DD8A79011B1D92C89",
+  "fileCount": 19,
+  "topLevelDirs": "AdviceBomb_CoCache_LocalMemory_20251019_1444",
+  "hasReadme": false,
+  "sampledItems": [
+    {
+      "path": "AdviceBomb_CoCache_LocalMemory_20251019_1444/manifest.json",
+      "bytes": 344
+    },
+    {
+      "path": "AdviceBomb_CoCache_LocalMemory_20251019_1444/README.md",
+      "bytes": 1621
+    },
+    {
+      "path": "AdviceBomb_CoCache_LocalMemory_20251019_1444/status.out.txt",
+      "bytes": 27
+    },
+    {
+      "path": "AdviceBomb_CoCache_LocalMemory_20251019_1444/artifacts/INDEX.tsv.template",
+      "bytes": 52
+    },
+    {
+      "path": "AdviceBomb_CoCache_LocalMemory_20251019_1444/artifacts/SESSION.txt.template",
+      "bytes": 145
+    },
+    {
+      "path": "AdviceBomb_CoCache_LocalMemory_20251019_1444/docs/00_Executive_Summary.md",
+      "bytes": 1089
+    },
+    {
+      "path": "AdviceBomb_CoCache_LocalMemory_20251019_1444/docs/01_Local_Footprint_Strategy.md",
+      "bytes": 2098
+    },
+    {
+      "path": "AdviceBomb_CoCache_LocalMemory_20251019_1444/docs/02_Temp_Install_and_Zero_Footprint.md",
+      "bytes": 1142
+    },
+    {
+      "path": "AdviceBomb_CoCache_LocalMemory_20251019_1444/docs/03_CoTemp_Design_Options.md",
+      "bytes": 532
+    },
+    {
+      "path": "AdviceBomb_CoCache_LocalMemory_20251019_1444/docs/04_Policies_and_TTLs.md",
+      "bytes": 893
+    },
+    {
+      "path": "AdviceBomb_CoCache_LocalMemory_20251019_1444/docs/05_Security_and_Trust.md",
+      "bytes": 513
+    },
+    {
+      "path": "AdviceBomb_CoCache_LocalMemory_20251019_1444/docs/06_Cleanup_and_Audit.md",
+      "bytes": 833
+    },
+    {
+      "path": "AdviceBomb_CoCache_LocalMemory_20251019_1444/docs/07_Cross-Platform_Notes.md",
+      "bytes": 506
+    },
+    {
+      "path": "AdviceBomb_CoCache_LocalMemory_20251019_1444/ops/Cleanup-CoTemp.ps1",
+      "bytes": 1267
+    },
+    {
+      "path": "AdviceBomb_CoCache_LocalMemory_20251019_1444/ops/List-CoTempSessions.ps1",
+      "bytes": 728
+    },
+    {
+      "path": "AdviceBomb_CoCache_LocalMemory_20251019_1444/ops/New-CoTempSession.ps1",
+      "bytes": 658
+    },
+    {
+      "path": "AdviceBomb_CoCache_LocalMemory_20251019_1444/ops/README.md",
+      "bytes": 444
+    },
+    {
+      "path": "AdviceBomb_CoCache_LocalMemory_20251019_1444/pastebins/Handoff_to_PrimeSession.txt",
+      "bytes": 383
+    },
+    {
+      "path": "AdviceBomb_CoCache_LocalMemory_20251019_1444/pastebins/PR_Body.md",
+      "bytes": 603
+    }
+  ],
+  "createdUtc": "2025-10-20T03:14:25.0751962Z"
+}
