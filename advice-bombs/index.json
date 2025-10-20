@@ -1,5 +1,5 @@
 {
-  "generatedUtc": "2025-10-20T04:04:33.3222119Z",
+  "generatedUtc": "2025-10-20T04:04:46.1301829Z",
   "items": [
     {
       "name": "AdviceBomb_CoAgentMVP4_Godspawn.zip",
@@ -260,6 +260,37 @@
         }
       ],
       "createdUtc": "2025-10-20T04:04:29.749863Z"
+    },
+    {
+      "name": "InSeed_Flagship_ServiceLine_Pkg.zip",
+      "pathInRepo": "advice-bombs/raw/InSeed_Flagship_ServiceLine_Pkg.zip",
+      "sha256": "E21A6CA74899B8FEAE57DFDDB2AC7A27E09B783DC07692A54FC052908836E7EA",
+      "fileCount": 5,
+      "topLevelDirs": "InSeed_Flagship_Repos",
+      "hasReadme": false,
+      "sampledItems": [
+        {
+          "path": "InSeed_Flagship_Repos/CiEvolve/README.md",
+          "bytes": 441
+        },
+        {
+          "path": "InSeed_Flagship_Repos/CiEvolve/docs/intro.md",
+          "bytes": 287
+        },
+        {
+          "path": "InSeed_Flagship_Repos/CoAudit/README-CoFlow-and-CiEvolve.md",
+          "bytes": 606
+        },
+        {
+          "path": "InSeed_Flagship_Repos/CoFlow/README.md",
+          "bytes": 476
+        },
+        {
+          "path": "InSeed_Flagship_Repos/CoFlow/docs/intro.md",
+          "bytes": 371
+        }
+      ],
+      "createdUtc": "2025-10-20T04:04:42.6898336Z"
     }
   ]
 }
