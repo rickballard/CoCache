@@ -1,7 +1,7 @@
 {
-  "generatedUtc": "2025-10-21T17:22:35.2508723Z",
+  "generatedUtc": "2025-10-21T17:57:00.3968844Z",
   "score": 50,
-  "status": "AMBER",
+  "status": "RED",
   "components": {
     "dupes": 1,
     "missingManifests": 21,
