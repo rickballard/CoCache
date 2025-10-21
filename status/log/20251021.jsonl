@@ -67,3 +67,10 @@
     "raw": "<JSON from me>"
   }
 }
+{
+  "ts": "2025-10-21T20:14:00.3365625Z",
+  "event": "use",
+  "asset": "advice-bombs/raw/CoWrap_Plane_AdviceBomb_v2.zip",
+  "consumer": "CoAgent",
+  "purpose": "ingest"
+}
