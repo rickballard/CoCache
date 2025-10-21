@@ -7,3 +7,56 @@
     "repo": "CoCache"
   }
 }
+{
+  "ts": "2025-10-21T18:53:23.2211835Z",
+  "event": "cosync.assist",
+  "data": {
+    "session": "CoCache/main",
+    "actor": "Chris",
+    "coSyncAssist": true,
+    "events": [
+      {
+        "type": "ingest",
+        "files": [
+          "CoCivium_Academy_AdviceBomb_v1_1_20251021_155909.zip",
+          "AB_CoCache_IndexingSystem_20251020.zip",
+          "AB_CoCivium_OptimalDebt_20251020.zip",
+          "CoWrap_Plane_AdviceBomb_v2.zip"
+        ]
+      },
+      {
+        "type": "catalog.backfill",
+        "manifestsAdded": 21
+      },
+      {
+        "type": "tags.backfill",
+        "tagsAdded": 8
+      },
+      {
+        "type": "index.rebuilt",
+        "path": "advice-bombs/index.json"
+      },
+      {
+        "type": "policy",
+        "hook": "pre-commit",
+        "rule": "ban here-strings (anchored, staged scan)"
+      },
+      {
+        "type": "docs",
+        "files": [
+          "docs/CoSync.md",
+          "BPOE_RULES.md"
+        ]
+      }
+    ],
+    "cdi": {
+      "score": 50,
+      "status": "RED"
+    },
+    "notes": [
+      "Global alias git cosync installed; coup kept as shim.",
+      "README status block auto-refreshed.",
+      "Receipts written to status/log/YYYYMMDD.jsonl"
+    ]
+  }
+}
