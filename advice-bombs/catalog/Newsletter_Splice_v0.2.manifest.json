@@ -1,0 +1,94 @@
+{
+  "name": "Newsletter_Splice_v0.2.zip",
+  "pathInRepo": "advice-bombs/raw/Newsletter_Splice_v0.2.zip",
+  "sha256": "9A375B9CEAC005FE980D5DBB43976154C843D5B9E389A67612607B7EFD7C6D39",
+  "fileCount": 19,
+  "topLevelDirs": [
+    ".github",
+    "CoCache",
+    "Corpus_Sweep",
+    "RickDo",
+    "RickPublic",
+    "tools"
+  ],
+  "hasReadme": false,
+  "sampledItems": [
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 298
+    },
+    {
+      "path": "EDITORIAL_STANDARDS.md",
+      "bytes": 188
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "bytes": 306
+    },
+    {
+      "path": ".github/workflows/corpus_ingest.yml",
+      "bytes": 998
+    },
+    {
+      "path": "CoCache/README.md",
+      "bytes": 295
+    },
+    {
+      "path": "CoCache/ingest/2025-10-16/normalized.jsonl",
+      "bytes": 1510
+    },
+    {
+      "path": "CoCache/scripts/compose_weekly.py",
+      "bytes": 2228
+    },
+    {
+      "path": "CoCache/scripts/triage_and_raise.py",
+      "bytes": 2332
+    },
+    {
+      "path": "CoCache/synth/weekly_summaries/2025-W42.md",
+      "bytes": 1755
+    },
+    {
+      "path": "Corpus_Sweep/curation_rules.md",
+      "bytes": 499
+    },
+    {
+      "path": "Corpus_Sweep/live_sources.yml",
+      "bytes": 689
+    },
+    {
+      "path": "Corpus_Sweep/livewisdom.policy.yml",
+      "bytes": 643
+    },
+    {
+      "path": "Corpus_Sweep/readers_guide.md",
+      "bytes": 308
+    },
+    {
+      "path": "Corpus_Sweep/README.md",
+      "bytes": 398
+    },
+    {
+      "path": "RickDo/README.md",
+      "bytes": 759
+    },
+    {
+      "path": "RickPublic/README.md",
+      "bytes": 214
+    },
+    {
+      "path": "RickPublic/issues/2025-W42.md",
+      "bytes": 1488
+    },
+    {
+      "path": "tools/lint_citations.ps1",
+      "bytes": 388
+    },
+    {
+      "path": "tools/lint_size.ps1",
+      "bytes": 362
+    }
+  ],
+  "createdUtc": "2025-10-21T17:08:53.1739436Z"
+}

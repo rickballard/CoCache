@@ -1,0 +1,214 @@
+{
+  "name": "Desktop_Roundup_20251017_105715.zip",
+  "pathInRepo": "advice-bombs/raw/Desktop_Roundup_20251017_105715.zip",
+  "sha256": "C4CC1B77B2F06CAD919451C458C3067CC141A148BE2DAFA711C4FA99BF2FF891",
+  "fileCount": 50,
+  "topLevelDirs": [
+    "InSeed Site Design",
+    "RickPads"
+  ],
+  "hasReadme": false,
+  "sampledItems": [
+    {
+      "path": "BeAxa_Implementation_Whitepaper_v1.odt",
+      "bytes": 38448
+    },
+    {
+      "path": "BrandSheet.md",
+      "bytes": 2408
+    },
+    {
+      "path": "CoCivium_Adaptive_Defense_Ecology_v1.zip",
+      "bytes": 10865
+    },
+    {
+      "path": "CoCivium_CTA_Content_Pack.zip",
+      "bytes": 22
+    },
+    {
+      "path": "CONGRUENCE_HEART_C99_20250719.md",
+      "bytes": 1681
+    },
+    {
+      "path": "GroupBuild_CivicTechLessons.odt",
+      "bytes": 37662
+    },
+    {
+      "path": "GS3intro.odt",
+      "bytes": 28085
+    },
+    {
+      "path": "IdeaCard_AI_Poetry_And_Gibberlink.md",
+      "bytes": 2511
+    },
+    {
+      "path": "IdeaCard_Automated_RickPublic_Article_Suggestions.md",
+      "bytes": 4132
+    },
+    {
+      "path": "IdeaCard_CoEvoluion_Of_Documents.md",
+      "bytes": 4518
+    },
+    {
+      "path": "IdeaCard_Portable_ScripTagger_App.odt",
+      "bytes": 19449
+    },
+    {
+      "path": "InSeed_Logo_Shadow.png",
+      "bytes": 6924
+    },
+    {
+      "path": "Insight_Story_Being_Noname_c2_20250801.md",
+      "bytes": 7932
+    },
+    {
+      "path": "Likely_Deprecated_Thoughts_StartupsBoard.txt",
+      "bytes": 10541
+    },
+    {
+      "path": "notess.odt",
+      "bytes": 31618
+    },
+    {
+      "path": "Outreach_Proposed_Email_Arthur_Thompson.txt",
+      "bytes": 2528
+    },
+    {
+      "path": "Outreach_Proposed_Emails_Dream_Team.txt",
+      "bytes": 3275
+    },
+    {
+      "path": "Outreach_ShadSharma_Email_Proposal.txt",
+      "bytes": 3150
+    },
+    {
+      "path": "OutreachJPybusEmail.odt",
+      "bytes": 26506
+    },
+    {
+      "path": "README_Civium.md",
+      "bytes": 4987
+    },
+    {
+      "path": "RickPrefs.odt",
+      "bytes": 45160
+    },
+    {
+      "path": "RickPublic_CMD_Economy.odt",
+      "bytes": 17593
+    },
+    {
+      "path": "RickRefs.odt",
+      "bytes": 24254
+    },
+    {
+      "path": "ScottChacon_Invite_CoCivium.txt",
+      "bytes": 6566
+    },
+    {
+      "path": "Spanky_Request_Pack_v2_2_2025-10-08.zip",
+      "bytes": 3420
+    },
+    {
+      "path": "USER_GUIDE (1).md",
+      "bytes": 13787
+    },
+    {
+      "path": "InSeed Site Design/inseed_site_dropin_v1a.zip",
+      "bytes": 7928
+    },
+    {
+      "path": "InSeed Site Design/InSeed_Site_Supplemental_Advisory.md",
+      "bytes": 2185
+    },
+    {
+      "path": "InSeed Site Design/InSeedSiteContentProposal.odt",
+      "bytes": 31001
+    },
+    {
+      "path": "RickPads/BeachIdeaCard.odt",
+      "bytes": 31054
+    },
+    {
+      "path": "RickPads/FixTheWorld_Game_IdeaCard_v2.md",
+      "bytes": 5319
+    },
+    {
+      "path": "RickPads/IdeaCard_BPOE_Status_Microtext.odt",
+      "bytes": 26335
+    },
+    {
+      "path": "RickPads/IdeaCard_Browser_Wait.odt",
+      "bytes": 13013
+    },
+    {
+      "path": "RickPads/IdeaCard_Main_Root_README_AB.odt",
+      "bytes": 30877
+    },
+    {
+      "path": "RickPads/Notes.odt",
+      "bytes": 31497
+    },
+    {
+      "path": "RickPads/RickPad_20250818_1602Z.odt",
+      "bytes": 63610
+    },
+    {
+      "path": "RickPads/RickPad_20250820.odt",
+      "bytes": 44883
+    },
+    {
+      "path": "RickPads/RickPad_20250821b.md",
+      "bytes": 10027
+    },
+    {
+      "path": "RickPads/RickPad_20250821c.md",
+      "bytes": 11652
+    },
+    {
+      "path": "RickPads/RickPad_20250821d.md",
+      "bytes": 11923
+    },
+    {
+      "path": "RickPads/RickPad_20250821e.md",
+      "bytes": 15620
+    },
+    {
+      "path": "RickPads/RickPad_20250821f.md",
+      "bytes": 21241
+    },
+    {
+      "path": "RickPads/RickPad_20250822.md",
+      "bytes": 22127
+    },
+    {
+      "path": "RickPads/RickPad_20250822b_polished.md",
+      "bytes": 28039
+    },
+    {
+      "path": "RickPads/RickPad_20250822b.md",
+      "bytes": 28057
+    },
+    {
+      "path": "RickPads/RickPad_20250824.md",
+      "bytes": 30570
+    },
+    {
+      "path": "RickPads/RickPad_20250824b.md",
+      "bytes": 37220
+    },
+    {
+      "path": "RickPads/RickPad_AltAI_20250825 (1).md",
+      "bytes": 4733
+    },
+    {
+      "path": "RickPads/RickPads.zip",
+      "bytes": 668269
+    },
+    {
+      "path": "RickPads/RickPadZip.zip",
+      "bytes": 477469
+    }
+  ],
+  "createdUtc": "2025-10-21T17:08:51.8216207Z"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "CoAgent_GrantThornton_Outreach_Package.zip",
+  "pathInRepo": "advice-bombs/raw/CoAgent_GrantThornton_Outreach_Package.zip",
+  "sha256": "26A2251D8A745AA30583C2A41C25B2849E67366779D439369E6EADC3EB6CD20A",
+  "fileCount": 5,
+  "topLevelDirs": null,
+  "hasReadme": false,
+  "sampledItems": [
+    {
+      "path": "Demo_Agenda_30min.md",
+      "bytes": 426
+    },
+    {
+      "path": "Email_Draft_Pamela_Ramchandani.txt",
+      "bytes": 1892
+    },
+    {
+      "path": "LinkedIn_DM_Pamela_Ramchandani.txt",
+      "bytes": 624
+    },
+    {
+      "path": "Pamela_Ramchandani_Outreach_Package.pdf",
+      "bytes": 6202
+    },
+    {
+      "path": "Pilot_Evaluation_Plan.md",
+      "bytes": 1402
+    }
+  ],
+  "createdUtc": "2025-10-21T17:08:48.0055177Z"
+}

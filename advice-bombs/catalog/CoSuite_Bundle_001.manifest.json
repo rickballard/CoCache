@@ -1,0 +1,70 @@
+{
+  "name": "CoSuite_Bundle_001.zip",
+  "pathInRepo": "advice-bombs/raw/CoSuite_Bundle_001.zip",
+  "sha256": "A09E762B84195B07A7BB19796CF23D38654F9CB32A8973F64B2B9C6EC48A10F3",
+  "fileCount": 14,
+  "topLevelDirs": [
+    "CoAgent",
+    "CoCache"
+  ],
+  "hasReadme": false,
+  "sampledItems": [
+    {
+      "path": "README_BUNDLE.md",
+      "bytes": 2478
+    },
+    {
+      "path": "CoAgent/.gitattributes",
+      "bytes": 154
+    },
+    {
+      "path": "CoAgent/.github/workflows/guard-handshake.yml",
+      "bytes": 525
+    },
+    {
+      "path": "CoAgent/.github/workflows/handshake-refresh.yml",
+      "bytes": 1072
+    },
+    {
+      "path": "CoAgent/docs/intent/README.md",
+      "bytes": 135
+    },
+    {
+      "path": "CoAgent/scripts/Consume-CoCacheRepos.ps1",
+      "bytes": 816
+    },
+    {
+      "path": "CoAgent/scripts/Emit-CoPongReceipt.ps1",
+      "bytes": 2671
+    },
+    {
+      "path": "CoCache/.gitattributes",
+      "bytes": 154
+    },
+    {
+      "path": "CoCache/.github/workflows/guard-handoff.yml",
+      "bytes": 731
+    },
+    {
+      "path": "CoCache/.github/workflows/indexer.yml",
+      "bytes": 809
+    },
+    {
+      "path": "CoCache/docs/HANDOFFS/HOWTO_CoPong.md",
+      "bytes": 311
+    },
+    {
+      "path": "CoCache/scripts/Emit-CoPongReceipt.ps1",
+      "bytes": 2671
+    },
+    {
+      "path": "CoCache/scripts/Index-Repos.ps1",
+      "bytes": 954
+    },
+    {
+      "path": "CoCache/scripts/Run-CoPingPong.ps1",
+      "bytes": 3909
+    }
+  ],
+  "createdUtc": "2025-10-21T17:08:50.5052659Z"
+}

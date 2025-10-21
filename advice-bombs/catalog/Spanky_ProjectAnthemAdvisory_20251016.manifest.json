@@ -1,0 +1,15 @@
+{
+  "name": "Spanky_ProjectAnthemAdvisory_20251016.zip",
+  "pathInRepo": "advice-bombs/raw/Spanky_ProjectAnthemAdvisory_20251016.zip",
+  "sha256": "A7868812B9649319ABD588BD12B26DD3F23B839AE89B572B708673E50AACC9D8",
+  "fileCount": 1,
+  "topLevelDirs": null,
+  "hasReadme": false,
+  "sampledItems": [
+    {
+      "path": "ProjectAnthem_Advisory.md",
+      "bytes": 3585
+    }
+  ],
+  "createdUtc": "2025-10-21T17:08:53.7131350Z"
+}

@@ -1,0 +1,88 @@
+{
+  "name": "Outreach_via_Wikipedia_2025-10-17.zip",
+  "pathInRepo": "advice-bombs/raw/Outreach_via_Wikipedia_2025-10-17.zip",
+  "sha256": "B3F9BE34DD7D4D8DF37EA0A7D970748D7592F96758FE122D6898525603F3C150",
+  "fileCount": 18,
+  "topLevelDirs": [
+    "04_Press_Kit",
+    "05_Outreach_Templates",
+    "06_Wikipedia",
+    "07_Assets"
+  ],
+  "hasReadme": true,
+  "sampledItems": [
+    {
+      "path": "01_Checklist.md",
+      "bytes": 1128
+    },
+    {
+      "path": "02_Neutral_Summary.md",
+      "bytes": 1134
+    },
+    {
+      "path": "03_Fact_Sheet_CoCivium.md",
+      "bytes": 1353
+    },
+    {
+      "path": "08_Comms_Policy.md",
+      "bytes": 351
+    },
+    {
+      "path": "09_Target_Tracker.csv",
+      "bytes": 91
+    },
+    {
+      "path": "10_Schedule.md",
+      "bytes": 519
+    },
+    {
+      "path": "DO_CopyToWeb.ps1",
+      "bytes": 724
+    },
+    {
+      "path": "README.md",
+      "bytes": 1162
+    },
+    {
+      "path": "04_Press_Kit/about.html",
+      "bytes": 961
+    },
+    {
+      "path": "04_Press_Kit/press.html",
+      "bytes": 669
+    },
+    {
+      "path": "05_Outreach_Templates/L1_linkedin_post.txt",
+      "bytes": 221
+    },
+    {
+      "path": "05_Outreach_Templates/N1_university_municipal_newsroom.txt",
+      "bytes": 767
+    },
+    {
+      "path": "05_Outreach_Templates/T1_trade_press.txt",
+      "bytes": 568
+    },
+    {
+      "path": "06_Wikipedia/AfC_steps.md",
+      "bytes": 442
+    },
+    {
+      "path": "06_Wikipedia/sandbox_article_outline.md",
+      "bytes": 782
+    },
+    {
+      "path": "07_Assets/alt-text.txt",
+      "bytes": 150
+    },
+    {
+      "path": "07_Assets/banner_prompt.txt",
+      "bytes": 255
+    },
+    {
+      "path": "07_Assets/logo_guidance.md",
+      "bytes": 176
+    }
+  ],
+  "createdUtc": "2025-10-21T17:08:53.5592270Z"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "CoAgent_Branding_Package_20251017_175916.zip",
+  "pathInRepo": "advice-bombs/raw/CoAgent_Branding_Package_20251017_175916.zip",
+  "sha256": "AB3AA318AD85F9FD287203B0964A38F20F9E0ECAA6878258574E9799CFB632AF",
+  "fileCount": 11,
+  "topLevelDirs": [
+    "brand",
+    "docs",
+    "scripts",
+    "stories"
+  ],
+  "hasReadme": true,
+  "sampledItems": [
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 262
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 216
+    },
+    {
+      "path": "README.md",
+      "bytes": 1779
+    },
+    {
+      "path": "VERSION",
+      "bytes": 4
+    },
+    {
+      "path": "brand/CoAgent_Taglines.md",
+      "bytes": 887
+    },
+    {
+      "path": "brand/COMPARE_CHECKLIST.md",
+      "bytes": 652
+    },
+    {
+      "path": "brand/MESSAGING_PLAIN.md",
+      "bytes": 5539
+    },
+    {
+      "path": "brand/VISUAL_IDENTITY_NOTES.md",
+      "bytes": 572
+    },
+    {
+      "path": "docs/WEBSITE_HERO_SNIPPETS.md",
+      "bytes": 579
+    },
+    {
+      "path": "scripts/Deploy-CoAgentBranding.ps1",
+      "bytes": 1511
+    },
+    {
+      "path": "stories/Maya_Homework_Club.md",
+      "bytes": 480
+    }
+  ],
+  "createdUtc": "2025-10-21T17:08:47.7861553Z"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "CoPolitic_Thinkers_Handoff_v2.zip",
+  "pathInRepo": "advice-bombs/raw/CoPolitic_Thinkers_Handoff_v2.zip",
+  "sha256": "843F6CD5A4787DA899352E473E539C88E9773CB28B1F65B6BABA7EC329CE24B3",
+  "fileCount": 13,
+  "topLevelDirs": null,
+  "hasReadme": true,
+  "sampledItems": [
+    {
+      "path": "Generate-OrgsSheets.ps1",
+      "bytes": 2852
+    },
+    {
+      "path": "Generate-ThinkersSheets.ps1",
+      "bytes": 3302
+    },
+    {
+      "path": "Handoff.manifest.json",
+      "bytes": 772
+    },
+    {
+      "path": "org.footprint.schema.json",
+      "bytes": 1561
+    },
+    {
+      "path": "orgs.sample.json",
+      "bytes": 680
+    },
+    {
+      "path": "OrgsPage.template.html",
+      "bytes": 3499
+    },
+    {
+      "path": "Patch-CoPoliticPage.ps1",
+      "bytes": 1080
+    },
+    {
+      "path": "README-ORGS.md",
+      "bytes": 1143
+    },
+    {
+      "path": "README.md",
+      "bytes": 3201
+    },
+    {
+      "path": "Test-Links.ps1",
+      "bytes": 616
+    },
+    {
+      "path": "THINKERS_DOMAINS.md",
+      "bytes": 2480
+    },
+    {
+      "path": "thinkers.domains.json",
+      "bytes": 385
+    },
+    {
+      "path": "Validate-ThinkersData.ps1",
+      "bytes": 1163
+    }
+  ],
+  "createdUtc": "2025-10-21T17:08:50.1527271Z"
+}

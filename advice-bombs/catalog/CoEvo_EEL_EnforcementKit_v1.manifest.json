@@ -1,0 +1,89 @@
+{
+  "name": "CoEvo_EEL_EnforcementKit_v1.zip",
+  "pathInRepo": "advice-bombs/raw/CoEvo_EEL_EnforcementKit_v1.zip",
+  "sha256": "F103702BCB6FA275FF01AA8558B29B18FEC7FC8ED206E73D48982FCEA1051C79",
+  "fileCount": 18,
+  "topLevelDirs": [
+    "_spanky",
+    ".github",
+    "docs",
+    "quotes",
+    "tools"
+  ],
+  "hasReadme": true,
+  "sampledItems": [
+    {
+      "path": "README_EVOLUTIONARITY_STATUS.md",
+      "bytes": 118
+    },
+    {
+      "path": "README.md",
+      "bytes": 95
+    },
+    {
+      "path": ".github/workflows/eel-stale-check.yml",
+      "bytes": 172
+    },
+    {
+      "path": ".github/workflows/intent-consult.yml",
+      "bytes": 196
+    },
+    {
+      "path": "docs/ethos/Scroll_Evolution_Is_CoCivium.md",
+      "bytes": 91
+    },
+    {
+      "path": "docs/ethos/Scroll_Evolution_Or_Obsolescence.md",
+      "bytes": 101
+    },
+    {
+      "path": "docs/index/CoEvo_Tags.json",
+      "bytes": 87
+    },
+    {
+      "path": "docs/index/index_manifest.patch.json",
+      "bytes": 72
+    },
+    {
+      "path": "docs/insights/CoEvo_Primer.md",
+      "bytes": 93
+    },
+    {
+      "path": "docs/intent/CoEvo_DNA.md",
+      "bytes": 79
+    },
+    {
+      "path": "docs/meta/LINEAGE_GUIDE.md",
+      "bytes": 74
+    },
+    {
+      "path": "docs/meta/README_ethos.md",
+      "bytes": 90
+    },
+    {
+      "path": "docs/_scan/PreExistence_Checklist.md",
+      "bytes": 90
+    },
+    {
+      "path": "quotes/evolution_quotes.json",
+      "bytes": 88
+    },
+    {
+      "path": "tools/bootstrap-eel.ps1",
+      "bytes": 85
+    },
+    {
+      "path": "tools/CoReconcile.ps1",
+      "bytes": 82
+    },
+    {
+      "path": "tools/IndexHook_CoEvoEnforcer.ps1",
+      "bytes": 90
+    },
+    {
+      "path": "_spanky/manifest.json",
+      "bytes": 197
+    }
+  ],
+  "createdUtc": "2025-10-21T17:08:49.7181223Z"
+}

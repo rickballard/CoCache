@@ -1,0 +1,40 @@
+{
+  "name": "CoCivium_Epistemics_AdviceBomb_v0_2.zip",
+  "pathInRepo": "advice-bombs/raw/CoCivium_Epistemics_AdviceBomb_v0_2.zip",
+  "sha256": "4A996EA3BD69C299DF567C779EE70C3039D7F3081A36602F6BD54E50756F25AF",
+  "fileCount": 6,
+  "topLevelDirs": [
+    ".github",
+    "META",
+    "METRICS",
+    "TOOLS"
+  ],
+  "hasReadme": true,
+  "sampledItems": [
+    {
+      "path": "README.md",
+      "bytes": 294
+    },
+    {
+      "path": ".github/workflows/provenance-lint.yml",
+      "bytes": 1214
+    },
+    {
+      "path": "META/_copayload.meta.json",
+      "bytes": 224
+    },
+    {
+      "path": "METRICS/thresholds.json",
+      "bytes": 360
+    },
+    {
+      "path": "METRICS/scripts/semantic_drift_monitor.py",
+      "bytes": 1180
+    },
+    {
+      "path": "TOOLS/ingest-gate-stub.ps1",
+      "bytes": 966
+    }
+  ],
+  "createdUtc": "2025-10-21T17:08:49.2572530Z"
+}
