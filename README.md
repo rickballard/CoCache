@@ -65,3 +65,13 @@ _(Content map will grow as repo fills out.)_
 - [AllRepos](docs/intent/repos.json) · [Index Manifest](docs/index_manifest.json) · [Metrics](docs/METRICS_INDEX.md)
 - [Operator HOWTO](docs/HANDOFFS/HOWTO_CoPong.md) · [Intent README](docs/intent/README.md)
 - Ethos: [Scroll_Evolution_Is_CoCivium](docs/ethos/Scroll_Evolution_Is_CoCivium.md) · [Scroll_Evolution_Or_Obsolescence](docs/ethos/Scroll_Evolution_Or_Obsolescence.md)
+
+<!-- BEGIN: STATUS -->
+### Operational Status
+CoDrift Index: 50 (AMBER)
+- Dupes: 1
+- Missing manifests: 21
+- Missing tags: 3
+- Here-strings hits: 4
+<!-- END: STATUS -->
+
