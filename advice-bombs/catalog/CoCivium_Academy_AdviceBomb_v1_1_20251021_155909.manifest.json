@@ -1,0 +1,113 @@
+{
+  "name": "CoCivium_Academy_AdviceBomb_v1_1_20251021_155909.zip",
+  "pathInRepo": "advice-bombs/raw/CoCivium_Academy_AdviceBomb_v1_1_20251021_155909.zip",
+  "sha256": "9B3CF721A1E5BF08359042657158ADE3FB393F119ED6FEDF2E857E1FF5616488",
+  "fileCount": 24,
+  "topLevelDirs": [
+    "academy",
+    "docs",
+    "payload",
+    "site",
+    "tools"
+  ],
+  "hasReadme": false,
+  "sampledItems": [
+    {
+      "path": "_hp.manifest.json",
+      "bytes": 294
+    },
+    {
+      "path": "academy/PAIR/ECO-020_money_in_politics/answer_current.md",
+      "bytes": 417
+    },
+    {
+      "path": "academy/PAIR/ECO-020_money_in_politics/ask_template.md",
+      "bytes": 404
+    },
+    {
+      "path": "academy/PAIR/ECO-020_money_in_politics/exemplars.md",
+      "bytes": 25
+    },
+    {
+      "path": "academy/PAIR/ECO-020_money_in_politics/manifest.json",
+      "bytes": 293
+    },
+    {
+      "path": "academy/PAIR/ECO-020_money_in_politics/qloop_checklist.md",
+      "bytes": 186
+    },
+    {
+      "path": "academy/PAIR/ECO-020_money_in_politics/history/README.md",
+      "bytes": 12
+    },
+    {
+      "path": "docs/cocore/BEST_PRACTICES_MAPPING.md",
+      "bytes": 201
+    },
+    {
+      "path": "docs/cocore/MAP.json",
+      "bytes": 166
+    },
+    {
+      "path": "docs/cocore/REMEDIES_PLAYBOOK.md",
+      "bytes": 133
+    },
+    {
+      "path": "docs/domains/CoNeura.v1.json",
+      "bytes": 1476
+    },
+    {
+      "path": "docs/domains/README.md",
+      "bytes": 298
+    },
+    {
+      "path": "docs/domains/RFC_TEMPLATE.md",
+      "bytes": 186
+    },
+    {
+      "path": "docs/gibindex/SCHEMA.json",
+      "bytes": 875
+    },
+    {
+      "path": "docs/gibindex/TERMS.json",
+      "bytes": 2050
+    },
+    {
+      "path": "docs/gibindex/TERMS.md",
+      "bytes": 996
+    },
+    {
+      "path": "docs/PROCESS/AMBIGUITY_LOG.md",
+      "bytes": 97
+    },
+    {
+      "path": "docs/PROCESS/DECISION_RATIONALE_TEMPLATE.md",
+      "bytes": 117
+    },
+    {
+      "path": "payload/run.ps1",
+      "bytes": 1356
+    },
+    {
+      "path": "site/assets/css/gibindex.css",
+      "bytes": 62
+    },
+    {
+      "path": "site/assets/js/gibindex.js",
+      "bytes": 656
+    },
+    {
+      "path": "tools/auto/auto_gibindex.py",
+      "bytes": 1011
+    },
+    {
+      "path": "tools/auto/auto_pair.py",
+      "bytes": 907
+    },
+    {
+      "path": "tools/auto/evo_loop_monitor.py",
+      "bytes": 895
+    }
+  ],
+  "createdUtc": "2025-10-21T16:49:14.7616660Z"
+}
