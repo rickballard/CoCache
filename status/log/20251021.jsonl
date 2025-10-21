@@ -60,3 +60,10 @@
     ]
   }
 }
+{
+  "ts": "2025-10-21T19:07:11.4063212Z",
+  "event": "cosync.assist",
+  "data": {
+    "raw": "<JSON from me>"
+  }
+}
