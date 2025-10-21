@@ -74,3 +74,10 @@
   "consumer": "CoAgent",
   "purpose": "ingest"
 }
+{
+  "ts": "2025-10-21T22:22:02.2661205Z",
+  "event": "use",
+  "asset": "<path>",
+  "consumer": "<tool>",
+  "purpose": "<verb>"
+}

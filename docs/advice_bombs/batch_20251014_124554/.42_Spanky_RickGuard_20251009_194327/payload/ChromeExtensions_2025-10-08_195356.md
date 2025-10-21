@@ -1,0 +1,18 @@
+# Old Chrome Extensions (reinstall fresh)
+*(Click an ID to open the Web Store; install only what you actually need.)*
+
+- [aciahcmjmecflokailenpkdchphgkefd](https://chromewebstore.google.com/detail/aciahcmjmecflokailenpkdchphgkefd)
+- [ckkdlimhmcjmikdlpkmbgfkaikojcbjk](https://chromewebstore.google.com/detail/ckkdlimhmcjmikdlpkmbgfkaikojcbjk)
+- [ejcfepkfckglbgocfkanmcdngdijcgld](https://chromewebstore.google.com/detail/ejcfepkfckglbgocfkanmcdngdijcgld)
+- [ghbmnnjooekpmoecnnnilnnbdlolhkhi](https://chromewebstore.google.com/detail/ghbmnnjooekpmoecnnnilnnbdlolhkhi)
+- [giljefjcheohhamkjphiebfjnlphnokk](https://chromewebstore.google.com/detail/giljefjcheohhamkjphiebfjnlphnokk)
+- [hlepfoohegkhhmjieoechaddaejaokhf](https://chromewebstore.google.com/detail/hlepfoohegkhhmjieoechaddaejaokhf)
+- [iaiomicjabeggjcfkbimgmglanimpnae](https://chromewebstore.google.com/detail/iaiomicjabeggjcfkbimgmglanimpnae)
+- [jjdnakkfjnnbbckhifcfchagnpofjffo](https://chromewebstore.google.com/detail/jjdnakkfjnnbbckhifcfchagnpofjffo)
+- [jlmilmpimaepjkihnncinbaooibgelhm](https://chromewebstore.google.com/detail/jlmilmpimaepjkihnncinbaooibgelhm)
+- [mkaakpdehdafacodkgkpghoibnmamcme](https://chromewebstore.google.com/detail/mkaakpdehdafacodkgkpghoibnmamcme)
+- [mpiodijhokgodhhofbcjdecpffjipkle](https://chromewebstore.google.com/detail/mpiodijhokgodhhofbcjdecpffjipkle)
+- [nfcidnhfgllloclgemladhopcimnmokl](https://chromewebstore.google.com/detail/nfcidnhfgllloclgemladhopcimnmokl)
+- [nmmhkkegccagdldgiimedpiccmgmieda](https://chromewebstore.google.com/detail/nmmhkkegccagdldgiimedpiccmgmieda)
+- [nngceckbapebfimnlniiiahkandclblb](https://chromewebstore.google.com/detail/nngceckbapebfimnlniiiahkandclblb)
+- [oaogphgfdbdbmhkiplemgehihiiececj](https://chromewebstore.google.com/detail/oaogphgfdbdbmhkiplemgehihiiececj)
