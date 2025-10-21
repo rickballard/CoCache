@@ -1,0 +1,14 @@
+{
+  "generatedUtc": "2025-10-21T17:18:14.9143570Z",
+  "score": 50,
+  "status": "AMBER",
+  "components": {
+    "dupes": 1,
+    "missingManifests": 21,
+    "missingTags": 3,
+    "indexStaleDays": 0,
+    "hereStrings": 4,
+    "hooksOk": true,
+    "remoteHttpsOk": true
+  }
+}
