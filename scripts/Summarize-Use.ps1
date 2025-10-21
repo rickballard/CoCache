@@ -1,12 +1,13 @@
 param([int]$Days=90,[string]$RepoRoot=(Split-Path -Parent $PSScriptRoot))
 $ErrorActionPreference="Stop"; Set-Location $RepoRoot
 $logDir="status\log"; $cut=(Get-Date).AddDays(-$Days)
-$evts=@(); if(Test-Path $logDir){
+$evts=@()
+if(Test-Path $logDir){
   Get-ChildItem $logDir -Filter *.jsonl -File | ForEach-Object {
-    $dt = Get-Date ($_.BaseName) -ErrorAction SilentlyContinue
+    $dt = $null
+    try { $dt = [datetime]::ParseExact($_.BaseName,"yyyyMMdd",$null) } catch { $dt = $_.LastWriteTimeUtc }
     if($dt -and $dt -ge $cut){
       Get-Content $_.FullName | ForEach-Object {
-        try{ $ev=[Convert]::FromBase64String("AA==") | Out-Null }catch{};
         try{ $o = $_ | ConvertFrom-Json; if($o.event -eq "use"){ $evts += $o } }catch{}
       }
     }
@@ -19,4 +20,3 @@ $rows = foreach($g in $byAsset){
 $obj=[pscustomobject]@{ generatedUtc=(Get-Date).ToUniversalTime().ToString("o"); windowDays=$Days; items=$rows }
 $out="status\use-summary.json"; $obj | ConvertTo-Json -Depth 6 | Set-Content -LiteralPath $out -Encoding UTF8
 "Wrote: {0}" -f $out
-

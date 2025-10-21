@@ -74,3 +74,11 @@ CoDrift Index: 50 (RED)
 - Here-strings hits: 4
 <!-- END: STATUS -->
 
+<!-- BEGIN: USAGE -->
+### Usage Activity (last 
+90
+ days)
+Asset | Uses | Last
+---|---:|---
+<!-- END: USAGE -->
+

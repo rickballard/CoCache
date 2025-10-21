@@ -20,3 +20,18 @@ if($bad.Count){
   exit 1
 }
 exit 0
+
+# BPOE: ban Unicode emdashes in staged text files
+$emdashBad = @()
+foreach($f in $files){
+  if($f -notmatch '\.(md|mdx|txt|ps1|psm1|psd1|json|ya?ml|ts|js|css|html)$'){ continue }
+  $blob = & git show (":" + $f) 2>$null
+  if([string]::IsNullOrEmpty($blob)){ continue }
+  if($blob -match [char]0x2014){ $emdashBad += $f }
+}
+if($emdashBad.Count){
+  Write-Error ("BPOE: emdashes are not allowed. Files:" + [Environment]::NewLine + (" - " + ($emdashBad -join ([Environment]::NewLine + " - "))))
+  exit 1
+}
+
+
