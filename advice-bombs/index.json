@@ -1,5 +1,5 @@
 {
-  "generatedUtc": "2025-10-21T16:49:22.1118298Z",
+  "generatedUtc": "2025-10-21T17:09:11.3735442Z",
   "items": [
     {
       "name": "AB_CoCache_IndexingSystem_20251020.zip",
@@ -34,7 +34,7 @@
           "bytes": 299
         }
       ],
-      "createdUtc": "2025-10-20T21:38:43.0769502Z"
+      "createdUtc": "2025-10-21T17:08:45.9820216Z"
     },
     {
       "name": "AB_CoCivium_OptimalDebt_20251020.zip",
@@ -89,7 +89,7 @@
           "bytes": 301
         }
       ],
-      "createdUtc": "2025-10-20T18:22:10.9921073Z"
+      "createdUtc": "2025-10-21T17:08:46.285839Z"
     },
     {
       "name": "AdviceBomb_CoAgentMVP4_Godspawn.zip",
@@ -112,7 +112,7 @@
           "bytes": 206
         }
       ],
-      "createdUtc": "2025-10-20T03:14:17.5689192Z"
+      "createdUtc": "2025-10-21T17:08:46.5062179Z"
     },
     {
       "name": "AdviceBomb_CoCache_LocalMemory_20251019_1444.zip",
@@ -199,7 +199,7 @@
           "bytes": 603
         }
       ],
-      "createdUtc": "2025-10-20T03:14:25.0751962Z"
+      "createdUtc": "2025-10-21T17:08:46.9487702Z"
     },
     {
       "name": "AdviceBomb_InvestorPack_CoCivium_20251016_160530.zip",
@@ -306,7 +306,98 @@
           "bytes": 503
         }
       ],
-      "createdUtc": "2025-10-20T03:14:32.3571537Z"
+      "createdUtc": "2025-10-21T17:08:47.4822487Z"
+    },
+    {
+      "name": "CoAgent_Branding_Package_20251017_175916.zip",
+      "pathInRepo": "advice-bombs/raw/CoAgent_Branding_Package_20251017_175916.zip",
+      "sha256": "AB3AA318AD85F9FD287203B0964A38F20F9E0ECAA6878258574E9799CFB632AF",
+      "fileCount": 11,
+      "topLevelDirs": [
+        "brand",
+        "docs",
+        "scripts",
+        "stories"
+      ],
+      "hasReadme": true,
+      "sampledItems": [
+        {
+          "path": "CHANGELOG.md",
+          "bytes": 262
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 216
+        },
+        {
+          "path": "README.md",
+          "bytes": 1779
+        },
+        {
+          "path": "VERSION",
+          "bytes": 4
+        },
+        {
+          "path": "brand/CoAgent_Taglines.md",
+          "bytes": 887
+        },
+        {
+          "path": "brand/COMPARE_CHECKLIST.md",
+          "bytes": 652
+        },
+        {
+          "path": "brand/MESSAGING_PLAIN.md",
+          "bytes": 5539
+        },
+        {
+          "path": "brand/VISUAL_IDENTITY_NOTES.md",
+          "bytes": 572
+        },
+        {
+          "path": "docs/WEBSITE_HERO_SNIPPETS.md",
+          "bytes": 579
+        },
+        {
+          "path": "scripts/Deploy-CoAgentBranding.ps1",
+          "bytes": 1511
+        },
+        {
+          "path": "stories/Maya_Homework_Club.md",
+          "bytes": 480
+        }
+      ],
+      "createdUtc": "2025-10-21T17:08:47.7861553Z"
+    },
+    {
+      "name": "CoAgent_GrantThornton_Outreach_Package.zip",
+      "pathInRepo": "advice-bombs/raw/CoAgent_GrantThornton_Outreach_Package.zip",
+      "sha256": "26A2251D8A745AA30583C2A41C25B2849E67366779D439369E6EADC3EB6CD20A",
+      "fileCount": 5,
+      "topLevelDirs": null,
+      "hasReadme": false,
+      "sampledItems": [
+        {
+          "path": "Demo_Agenda_30min.md",
+          "bytes": 426
+        },
+        {
+          "path": "Email_Draft_Pamela_Ramchandani.txt",
+          "bytes": 1892
+        },
+        {
+          "path": "LinkedIn_DM_Pamela_Ramchandani.txt",
+          "bytes": 624
+        },
+        {
+          "path": "Pamela_Ramchandani_Outreach_Package.pdf",
+          "bytes": 6202
+        },
+        {
+          "path": "Pilot_Evaluation_Plan.md",
+          "bytes": 1402
+        }
+      ],
+      "createdUtc": "2025-10-21T17:08:48.0055177Z"
     },
     {
       "name": "CoAudit_AdviceBomb_20251019_185428_v3.zip",
@@ -349,7 +440,7 @@
           "bytes": 38
         }
       ],
-      "createdUtc": "2025-10-20T04:04:29.749863Z"
+      "createdUtc": "2025-10-21T17:08:48.2741341Z"
     },
     {
       "name": "CoCivium_Academy_AdviceBomb_v1_1_20251021_155909.zip",
@@ -462,7 +553,269 @@
           "bytes": 895
         }
       ],
-      "createdUtc": "2025-10-21T16:49:14.761666Z"
+      "createdUtc": "2025-10-21T17:08:48.9577475Z"
+    },
+    {
+      "name": "CoCivium_Epistemics_AdviceBomb_v0_2.zip",
+      "pathInRepo": "advice-bombs/raw/CoCivium_Epistemics_AdviceBomb_v0_2.zip",
+      "sha256": "4A996EA3BD69C299DF567C779EE70C3039D7F3081A36602F6BD54E50756F25AF",
+      "fileCount": 6,
+      "topLevelDirs": [
+        ".github",
+        "META",
+        "METRICS",
+        "TOOLS"
+      ],
+      "hasReadme": true,
+      "sampledItems": [
+        {
+          "path": "README.md",
+          "bytes": 294
+        },
+        {
+          "path": ".github/workflows/provenance-lint.yml",
+          "bytes": 1214
+        },
+        {
+          "path": "META/_copayload.meta.json",
+          "bytes": 224
+        },
+        {
+          "path": "METRICS/thresholds.json",
+          "bytes": 360
+        },
+        {
+          "path": "METRICS/scripts/semantic_drift_monitor.py",
+          "bytes": 1180
+        },
+        {
+          "path": "TOOLS/ingest-gate-stub.ps1",
+          "bytes": 966
+        }
+      ],
+      "createdUtc": "2025-10-21T17:08:49.257253Z"
+    },
+    {
+      "name": "CoEvo_EEL_EnforcementKit_v1.zip",
+      "pathInRepo": "advice-bombs/raw/CoEvo_EEL_EnforcementKit_v1.zip",
+      "sha256": "F103702BCB6FA275FF01AA8558B29B18FEC7FC8ED206E73D48982FCEA1051C79",
+      "fileCount": 18,
+      "topLevelDirs": [
+        "_spanky",
+        ".github",
+        "docs",
+        "quotes",
+        "tools"
+      ],
+      "hasReadme": true,
+      "sampledItems": [
+        {
+          "path": "README_EVOLUTIONARITY_STATUS.md",
+          "bytes": 118
+        },
+        {
+          "path": "README.md",
+          "bytes": 95
+        },
+        {
+          "path": ".github/workflows/eel-stale-check.yml",
+          "bytes": 172
+        },
+        {
+          "path": ".github/workflows/intent-consult.yml",
+          "bytes": 196
+        },
+        {
+          "path": "docs/ethos/Scroll_Evolution_Is_CoCivium.md",
+          "bytes": 91
+        },
+        {
+          "path": "docs/ethos/Scroll_Evolution_Or_Obsolescence.md",
+          "bytes": 101
+        },
+        {
+          "path": "docs/index/CoEvo_Tags.json",
+          "bytes": 87
+        },
+        {
+          "path": "docs/index/index_manifest.patch.json",
+          "bytes": 72
+        },
+        {
+          "path": "docs/insights/CoEvo_Primer.md",
+          "bytes": 93
+        },
+        {
+          "path": "docs/intent/CoEvo_DNA.md",
+          "bytes": 79
+        },
+        {
+          "path": "docs/meta/LINEAGE_GUIDE.md",
+          "bytes": 74
+        },
+        {
+          "path": "docs/meta/README_ethos.md",
+          "bytes": 90
+        },
+        {
+          "path": "docs/_scan/PreExistence_Checklist.md",
+          "bytes": 90
+        },
+        {
+          "path": "quotes/evolution_quotes.json",
+          "bytes": 88
+        },
+        {
+          "path": "tools/bootstrap-eel.ps1",
+          "bytes": 85
+        },
+        {
+          "path": "tools/CoReconcile.ps1",
+          "bytes": 82
+        },
+        {
+          "path": "tools/IndexHook_CoEvoEnforcer.ps1",
+          "bytes": 90
+        },
+        {
+          "path": "_spanky/manifest.json",
+          "bytes": 197
+        }
+      ],
+      "createdUtc": "2025-10-21T17:08:49.7181223Z"
+    },
+    {
+      "name": "CoPolitic_Thinkers_Handoff_v2.zip",
+      "pathInRepo": "advice-bombs/raw/CoPolitic_Thinkers_Handoff_v2.zip",
+      "sha256": "843F6CD5A4787DA899352E473E539C88E9773CB28B1F65B6BABA7EC329CE24B3",
+      "fileCount": 13,
+      "topLevelDirs": null,
+      "hasReadme": true,
+      "sampledItems": [
+        {
+          "path": "Generate-OrgsSheets.ps1",
+          "bytes": 2852
+        },
+        {
+          "path": "Generate-ThinkersSheets.ps1",
+          "bytes": 3302
+        },
+        {
+          "path": "Handoff.manifest.json",
+          "bytes": 772
+        },
+        {
+          "path": "org.footprint.schema.json",
+          "bytes": 1561
+        },
+        {
+          "path": "orgs.sample.json",
+          "bytes": 680
+        },
+        {
+          "path": "OrgsPage.template.html",
+          "bytes": 3499
+        },
+        {
+          "path": "Patch-CoPoliticPage.ps1",
+          "bytes": 1080
+        },
+        {
+          "path": "README-ORGS.md",
+          "bytes": 1143
+        },
+        {
+          "path": "README.md",
+          "bytes": 3201
+        },
+        {
+          "path": "Test-Links.ps1",
+          "bytes": 616
+        },
+        {
+          "path": "THINKERS_DOMAINS.md",
+          "bytes": 2480
+        },
+        {
+          "path": "thinkers.domains.json",
+          "bytes": 385
+        },
+        {
+          "path": "Validate-ThinkersData.ps1",
+          "bytes": 1163
+        }
+      ],
+      "createdUtc": "2025-10-21T17:08:50.1527271Z"
+    },
+    {
+      "name": "CoSuite_Bundle_001.zip",
+      "pathInRepo": "advice-bombs/raw/CoSuite_Bundle_001.zip",
+      "sha256": "A09E762B84195B07A7BB19796CF23D38654F9CB32A8973F64B2B9C6EC48A10F3",
+      "fileCount": 14,
+      "topLevelDirs": [
+        "CoAgent",
+        "CoCache"
+      ],
+      "hasReadme": false,
+      "sampledItems": [
+        {
+          "path": "README_BUNDLE.md",
+          "bytes": 2478
+        },
+        {
+          "path": "CoAgent/.gitattributes",
+          "bytes": 154
+        },
+        {
+          "path": "CoAgent/.github/workflows/guard-handshake.yml",
+          "bytes": 525
+        },
+        {
+          "path": "CoAgent/.github/workflows/handshake-refresh.yml",
+          "bytes": 1072
+        },
+        {
+          "path": "CoAgent/docs/intent/README.md",
+          "bytes": 135
+        },
+        {
+          "path": "CoAgent/scripts/Consume-CoCacheRepos.ps1",
+          "bytes": 816
+        },
+        {
+          "path": "CoAgent/scripts/Emit-CoPongReceipt.ps1",
+          "bytes": 2671
+        },
+        {
+          "path": "CoCache/.gitattributes",
+          "bytes": 154
+        },
+        {
+          "path": "CoCache/.github/workflows/guard-handoff.yml",
+          "bytes": 731
+        },
+        {
+          "path": "CoCache/.github/workflows/indexer.yml",
+          "bytes": 809
+        },
+        {
+          "path": "CoCache/docs/HANDOFFS/HOWTO_CoPong.md",
+          "bytes": 311
+        },
+        {
+          "path": "CoCache/scripts/Emit-CoPongReceipt.ps1",
+          "bytes": 2671
+        },
+        {
+          "path": "CoCache/scripts/Index-Repos.ps1",
+          "bytes": 954
+        },
+        {
+          "path": "CoCache/scripts/Run-CoPingPong.ps1",
+          "bytes": 3909
+        }
+      ],
+      "createdUtc": "2025-10-21T17:08:50.5052659Z"
     },
     {
       "name": "CoWrap_CoAudit_PrimePackage.zip",
@@ -522,7 +875,7 @@
           "bytes": 1620
         }
       ],
-      "createdUtc": "2025-10-20T04:04:55.2890442Z"
+      "createdUtc": "2025-10-21T17:08:50.8385633Z"
     },
     {
       "name": "CoWrap_Plane_AdviceBomb_v2.zip",
@@ -573,7 +926,435 @@
           "bytes": 285
         }
       ],
-      "createdUtc": "2025-10-20T18:22:25.2482654Z"
+      "createdUtc": "2025-10-21T17:08:51.0975014Z"
+    },
+    {
+      "name": "Desktop_Roundup_20251017_105715.zip",
+      "pathInRepo": "advice-bombs/raw/Desktop_Roundup_20251017_105715.zip",
+      "sha256": "C4CC1B77B2F06CAD919451C458C3067CC141A148BE2DAFA711C4FA99BF2FF891",
+      "fileCount": 50,
+      "topLevelDirs": [
+        "InSeed Site Design",
+        "RickPads"
+      ],
+      "hasReadme": false,
+      "sampledItems": [
+        {
+          "path": "BeAxa_Implementation_Whitepaper_v1.odt",
+          "bytes": 38448
+        },
+        {
+          "path": "BrandSheet.md",
+          "bytes": 2408
+        },
+        {
+          "path": "CoCivium_Adaptive_Defense_Ecology_v1.zip",
+          "bytes": 10865
+        },
+        {
+          "path": "CoCivium_CTA_Content_Pack.zip",
+          "bytes": 22
+        },
+        {
+          "path": "CONGRUENCE_HEART_C99_20250719.md",
+          "bytes": 1681
+        },
+        {
+          "path": "GroupBuild_CivicTechLessons.odt",
+          "bytes": 37662
+        },
+        {
+          "path": "GS3intro.odt",
+          "bytes": 28085
+        },
+        {
+          "path": "IdeaCard_AI_Poetry_And_Gibberlink.md",
+          "bytes": 2511
+        },
+        {
+          "path": "IdeaCard_Automated_RickPublic_Article_Suggestions.md",
+          "bytes": 4132
+        },
+        {
+          "path": "IdeaCard_CoEvoluion_Of_Documents.md",
+          "bytes": 4518
+        },
+        {
+          "path": "IdeaCard_Portable_ScripTagger_App.odt",
+          "bytes": 19449
+        },
+        {
+          "path": "InSeed_Logo_Shadow.png",
+          "bytes": 6924
+        },
+        {
+          "path": "Insight_Story_Being_Noname_c2_20250801.md",
+          "bytes": 7932
+        },
+        {
+          "path": "Likely_Deprecated_Thoughts_StartupsBoard.txt",
+          "bytes": 10541
+        },
+        {
+          "path": "notess.odt",
+          "bytes": 31618
+        },
+        {
+          "path": "Outreach_Proposed_Email_Arthur_Thompson.txt",
+          "bytes": 2528
+        },
+        {
+          "path": "Outreach_Proposed_Emails_Dream_Team.txt",
+          "bytes": 3275
+        },
+        {
+          "path": "Outreach_ShadSharma_Email_Proposal.txt",
+          "bytes": 3150
+        },
+        {
+          "path": "OutreachJPybusEmail.odt",
+          "bytes": 26506
+        },
+        {
+          "path": "README_Civium.md",
+          "bytes": 4987
+        },
+        {
+          "path": "RickPrefs.odt",
+          "bytes": 45160
+        },
+        {
+          "path": "RickPublic_CMD_Economy.odt",
+          "bytes": 17593
+        },
+        {
+          "path": "RickRefs.odt",
+          "bytes": 24254
+        },
+        {
+          "path": "ScottChacon_Invite_CoCivium.txt",
+          "bytes": 6566
+        },
+        {
+          "path": "Spanky_Request_Pack_v2_2_2025-10-08.zip",
+          "bytes": 3420
+        },
+        {
+          "path": "USER_GUIDE (1).md",
+          "bytes": 13787
+        },
+        {
+          "path": "InSeed Site Design/inseed_site_dropin_v1a.zip",
+          "bytes": 7928
+        },
+        {
+          "path": "InSeed Site Design/InSeed_Site_Supplemental_Advisory.md",
+          "bytes": 2185
+        },
+        {
+          "path": "InSeed Site Design/InSeedSiteContentProposal.odt",
+          "bytes": 31001
+        },
+        {
+          "path": "RickPads/BeachIdeaCard.odt",
+          "bytes": 31054
+        },
+        {
+          "path": "RickPads/FixTheWorld_Game_IdeaCard_v2.md",
+          "bytes": 5319
+        },
+        {
+          "path": "RickPads/IdeaCard_BPOE_Status_Microtext.odt",
+          "bytes": 26335
+        },
+        {
+          "path": "RickPads/IdeaCard_Browser_Wait.odt",
+          "bytes": 13013
+        },
+        {
+          "path": "RickPads/IdeaCard_Main_Root_README_AB.odt",
+          "bytes": 30877
+        },
+        {
+          "path": "RickPads/Notes.odt",
+          "bytes": 31497
+        },
+        {
+          "path": "RickPads/RickPad_20250818_1602Z.odt",
+          "bytes": 63610
+        },
+        {
+          "path": "RickPads/RickPad_20250820.odt",
+          "bytes": 44883
+        },
+        {
+          "path": "RickPads/RickPad_20250821b.md",
+          "bytes": 10027
+        },
+        {
+          "path": "RickPads/RickPad_20250821c.md",
+          "bytes": 11652
+        },
+        {
+          "path": "RickPads/RickPad_20250821d.md",
+          "bytes": 11923
+        },
+        {
+          "path": "RickPads/RickPad_20250821e.md",
+          "bytes": 15620
+        },
+        {
+          "path": "RickPads/RickPad_20250821f.md",
+          "bytes": 21241
+        },
+        {
+          "path": "RickPads/RickPad_20250822.md",
+          "bytes": 22127
+        },
+        {
+          "path": "RickPads/RickPad_20250822b_polished.md",
+          "bytes": 28039
+        },
+        {
+          "path": "RickPads/RickPad_20250822b.md",
+          "bytes": 28057
+        },
+        {
+          "path": "RickPads/RickPad_20250824.md",
+          "bytes": 30570
+        },
+        {
+          "path": "RickPads/RickPad_20250824b.md",
+          "bytes": 37220
+        },
+        {
+          "path": "RickPads/RickPad_AltAI_20250825 (1).md",
+          "bytes": 4733
+        },
+        {
+          "path": "RickPads/RickPads.zip",
+          "bytes": 668269
+        },
+        {
+          "path": "RickPads/RickPadZip.zip",
+          "bytes": 477469
+        }
+      ],
+      "createdUtc": "2025-10-21T17:08:51.8216207Z"
+    },
+    {
+      "name": "Desktop_Roundup_20251017_110528.zip",
+      "pathInRepo": "advice-bombs/raw/Desktop_Roundup_20251017_110528.zip",
+      "sha256": "C4CC1B77B2F06CAD919451C458C3067CC141A148BE2DAFA711C4FA99BF2FF891",
+      "fileCount": 50,
+      "topLevelDirs": [
+        "InSeed Site Design",
+        "RickPads"
+      ],
+      "hasReadme": false,
+      "sampledItems": [
+        {
+          "path": "BeAxa_Implementation_Whitepaper_v1.odt",
+          "bytes": 38448
+        },
+        {
+          "path": "BrandSheet.md",
+          "bytes": 2408
+        },
+        {
+          "path": "CoCivium_Adaptive_Defense_Ecology_v1.zip",
+          "bytes": 10865
+        },
+        {
+          "path": "CoCivium_CTA_Content_Pack.zip",
+          "bytes": 22
+        },
+        {
+          "path": "CONGRUENCE_HEART_C99_20250719.md",
+          "bytes": 1681
+        },
+        {
+          "path": "GroupBuild_CivicTechLessons.odt",
+          "bytes": 37662
+        },
+        {
+          "path": "GS3intro.odt",
+          "bytes": 28085
+        },
+        {
+          "path": "IdeaCard_AI_Poetry_And_Gibberlink.md",
+          "bytes": 2511
+        },
+        {
+          "path": "IdeaCard_Automated_RickPublic_Article_Suggestions.md",
+          "bytes": 4132
+        },
+        {
+          "path": "IdeaCard_CoEvoluion_Of_Documents.md",
+          "bytes": 4518
+        },
+        {
+          "path": "IdeaCard_Portable_ScripTagger_App.odt",
+          "bytes": 19449
+        },
+        {
+          "path": "InSeed_Logo_Shadow.png",
+          "bytes": 6924
+        },
+        {
+          "path": "Insight_Story_Being_Noname_c2_20250801.md",
+          "bytes": 7932
+        },
+        {
+          "path": "Likely_Deprecated_Thoughts_StartupsBoard.txt",
+          "bytes": 10541
+        },
+        {
+          "path": "notess.odt",
+          "bytes": 31618
+        },
+        {
+          "path": "Outreach_Proposed_Email_Arthur_Thompson.txt",
+          "bytes": 2528
+        },
+        {
+          "path": "Outreach_Proposed_Emails_Dream_Team.txt",
+          "bytes": 3275
+        },
+        {
+          "path": "Outreach_ShadSharma_Email_Proposal.txt",
+          "bytes": 3150
+        },
+        {
+          "path": "OutreachJPybusEmail.odt",
+          "bytes": 26506
+        },
+        {
+          "path": "README_Civium.md",
+          "bytes": 4987
+        },
+        {
+          "path": "RickPrefs.odt",
+          "bytes": 45160
+        },
+        {
+          "path": "RickPublic_CMD_Economy.odt",
+          "bytes": 17593
+        },
+        {
+          "path": "RickRefs.odt",
+          "bytes": 24254
+        },
+        {
+          "path": "ScottChacon_Invite_CoCivium.txt",
+          "bytes": 6566
+        },
+        {
+          "path": "Spanky_Request_Pack_v2_2_2025-10-08.zip",
+          "bytes": 3420
+        },
+        {
+          "path": "USER_GUIDE (1).md",
+          "bytes": 13787
+        },
+        {
+          "path": "InSeed Site Design/inseed_site_dropin_v1a.zip",
+          "bytes": 7928
+        },
+        {
+          "path": "InSeed Site Design/InSeed_Site_Supplemental_Advisory.md",
+          "bytes": 2185
+        },
+        {
+          "path": "InSeed Site Design/InSeedSiteContentProposal.odt",
+          "bytes": 31001
+        },
+        {
+          "path": "RickPads/BeachIdeaCard.odt",
+          "bytes": 31054
+        },
+        {
+          "path": "RickPads/FixTheWorld_Game_IdeaCard_v2.md",
+          "bytes": 5319
+        },
+        {
+          "path": "RickPads/IdeaCard_BPOE_Status_Microtext.odt",
+          "bytes": 26335
+        },
+        {
+          "path": "RickPads/IdeaCard_Browser_Wait.odt",
+          "bytes": 13013
+        },
+        {
+          "path": "RickPads/IdeaCard_Main_Root_README_AB.odt",
+          "bytes": 30877
+        },
+        {
+          "path": "RickPads/Notes.odt",
+          "bytes": 31497
+        },
+        {
+          "path": "RickPads/RickPad_20250818_1602Z.odt",
+          "bytes": 63610
+        },
+        {
+          "path": "RickPads/RickPad_20250820.odt",
+          "bytes": 44883
+        },
+        {
+          "path": "RickPads/RickPad_20250821b.md",
+          "bytes": 10027
+        },
+        {
+          "path": "RickPads/RickPad_20250821c.md",
+          "bytes": 11652
+        },
+        {
+          "path": "RickPads/RickPad_20250821d.md",
+          "bytes": 11923
+        },
+        {
+          "path": "RickPads/RickPad_20250821e.md",
+          "bytes": 15620
+        },
+        {
+          "path": "RickPads/RickPad_20250821f.md",
+          "bytes": 21241
+        },
+        {
+          "path": "RickPads/RickPad_20250822.md",
+          "bytes": 22127
+        },
+        {
+          "path": "RickPads/RickPad_20250822b_polished.md",
+          "bytes": 28039
+        },
+        {
+          "path": "RickPads/RickPad_20250822b.md",
+          "bytes": 28057
+        },
+        {
+          "path": "RickPads/RickPad_20250824.md",
+          "bytes": 30570
+        },
+        {
+          "path": "RickPads/RickPad_20250824b.md",
+          "bytes": 37220
+        },
+        {
+          "path": "RickPads/RickPad_AltAI_20250825 (1).md",
+          "bytes": 4733
+        },
+        {
+          "path": "RickPads/RickPads.zip",
+          "bytes": 668269
+        },
+        {
+          "path": "RickPads/RickPadZip.zip",
+          "bytes": 477469
+        }
+      ],
+      "createdUtc": "2025-10-21T17:08:52.5559691Z"
     },
     {
       "name": "InSeed_Flagship_ServiceLine_Pkg.zip",
@@ -604,7 +1385,204 @@
           "bytes": 371
         }
       ],
-      "createdUtc": "2025-10-20T04:04:42.6898336Z"
+      "createdUtc": "2025-10-21T17:08:52.8164042Z"
+    },
+    {
+      "name": "Newsletter_Splice_v0.2.zip",
+      "pathInRepo": "advice-bombs/raw/Newsletter_Splice_v0.2.zip",
+      "sha256": "9A375B9CEAC005FE980D5DBB43976154C843D5B9E389A67612607B7EFD7C6D39",
+      "fileCount": 19,
+      "topLevelDirs": [
+        ".github",
+        "CoCache",
+        "Corpus_Sweep",
+        "RickDo",
+        "RickPublic",
+        "tools"
+      ],
+      "hasReadme": false,
+      "sampledItems": [
+        {
+          "path": "CONTRIBUTING.md",
+          "bytes": 298
+        },
+        {
+          "path": "EDITORIAL_STANDARDS.md",
+          "bytes": 188
+        },
+        {
+          "path": ".github/pull_request_template.md",
+          "bytes": 306
+        },
+        {
+          "path": ".github/workflows/corpus_ingest.yml",
+          "bytes": 998
+        },
+        {
+          "path": "CoCache/README.md",
+          "bytes": 295
+        },
+        {
+          "path": "CoCache/ingest/2025-10-16/normalized.jsonl",
+          "bytes": 1510
+        },
+        {
+          "path": "CoCache/scripts/compose_weekly.py",
+          "bytes": 2228
+        },
+        {
+          "path": "CoCache/scripts/triage_and_raise.py",
+          "bytes": 2332
+        },
+        {
+          "path": "CoCache/synth/weekly_summaries/2025-W42.md",
+          "bytes": 1755
+        },
+        {
+          "path": "Corpus_Sweep/curation_rules.md",
+          "bytes": 499
+        },
+        {
+          "path": "Corpus_Sweep/live_sources.yml",
+          "bytes": 689
+        },
+        {
+          "path": "Corpus_Sweep/livewisdom.policy.yml",
+          "bytes": 643
+        },
+        {
+          "path": "Corpus_Sweep/readers_guide.md",
+          "bytes": 308
+        },
+        {
+          "path": "Corpus_Sweep/README.md",
+          "bytes": 398
+        },
+        {
+          "path": "RickDo/README.md",
+          "bytes": 759
+        },
+        {
+          "path": "RickPublic/README.md",
+          "bytes": 214
+        },
+        {
+          "path": "RickPublic/issues/2025-W42.md",
+          "bytes": 1488
+        },
+        {
+          "path": "tools/lint_citations.ps1",
+          "bytes": 388
+        },
+        {
+          "path": "tools/lint_size.ps1",
+          "bytes": 362
+        }
+      ],
+      "createdUtc": "2025-10-21T17:08:53.1739436Z"
+    },
+    {
+      "name": "Outreach_via_Wikipedia_2025-10-17.zip",
+      "pathInRepo": "advice-bombs/raw/Outreach_via_Wikipedia_2025-10-17.zip",
+      "sha256": "B3F9BE34DD7D4D8DF37EA0A7D970748D7592F96758FE122D6898525603F3C150",
+      "fileCount": 18,
+      "topLevelDirs": [
+        "04_Press_Kit",
+        "05_Outreach_Templates",
+        "06_Wikipedia",
+        "07_Assets"
+      ],
+      "hasReadme": true,
+      "sampledItems": [
+        {
+          "path": "01_Checklist.md",
+          "bytes": 1128
+        },
+        {
+          "path": "02_Neutral_Summary.md",
+          "bytes": 1134
+        },
+        {
+          "path": "03_Fact_Sheet_CoCivium.md",
+          "bytes": 1353
+        },
+        {
+          "path": "08_Comms_Policy.md",
+          "bytes": 351
+        },
+        {
+          "path": "09_Target_Tracker.csv",
+          "bytes": 91
+        },
+        {
+          "path": "10_Schedule.md",
+          "bytes": 519
+        },
+        {
+          "path": "DO_CopyToWeb.ps1",
+          "bytes": 724
+        },
+        {
+          "path": "README.md",
+          "bytes": 1162
+        },
+        {
+          "path": "04_Press_Kit/about.html",
+          "bytes": 961
+        },
+        {
+          "path": "04_Press_Kit/press.html",
+          "bytes": 669
+        },
+        {
+          "path": "05_Outreach_Templates/L1_linkedin_post.txt",
+          "bytes": 221
+        },
+        {
+          "path": "05_Outreach_Templates/N1_university_municipal_newsroom.txt",
+          "bytes": 767
+        },
+        {
+          "path": "05_Outreach_Templates/T1_trade_press.txt",
+          "bytes": 568
+        },
+        {
+          "path": "06_Wikipedia/AfC_steps.md",
+          "bytes": 442
+        },
+        {
+          "path": "06_Wikipedia/sandbox_article_outline.md",
+          "bytes": 782
+        },
+        {
+          "path": "07_Assets/alt-text.txt",
+          "bytes": 150
+        },
+        {
+          "path": "07_Assets/banner_prompt.txt",
+          "bytes": 255
+        },
+        {
+          "path": "07_Assets/logo_guidance.md",
+          "bytes": 176
+        }
+      ],
+      "createdUtc": "2025-10-21T17:08:53.559227Z"
+    },
+    {
+      "name": "Spanky_ProjectAnthemAdvisory_20251016.zip",
+      "pathInRepo": "advice-bombs/raw/Spanky_ProjectAnthemAdvisory_20251016.zip",
+      "sha256": "A7868812B9649319ABD588BD12B26DD3F23B839AE89B572B708673E50AACC9D8",
+      "fileCount": 1,
+      "topLevelDirs": null,
+      "hasReadme": false,
+      "sampledItems": [
+        {
+          "path": "ProjectAnthem_Advisory.md",
+          "bytes": 3585
+        }
+      ],
+      "createdUtc": "2025-10-21T17:08:53.713135Z"
     }
   ]
 }
