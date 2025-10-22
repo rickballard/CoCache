@@ -1,14 +1,8 @@
 {
-  "generatedUtc": "2025-10-21T23:26:32.9258629Z",
-  "score": 50,
-  "status": "RED",
+  "generatedUtc": "2025-10-22T00:26:34.9312573Z",
+  "score": 15,
+  "status": "AMBER",
   "components": {
-    "dupes": 1,
-    "missingManifests": 21,
-    "missingTags": 3,
-    "indexStaleDays": 0,
-    "hereStrings": 4,
-    "hooksOk": true,
-    "remoteHttpsOk": true
+    "sample": 1
   }
 }

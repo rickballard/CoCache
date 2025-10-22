@@ -67,13 +67,12 @@ _(Content map will grow as repo fills out.)_
 - Ethos: [Scroll_Evolution_Is_CoCivium](docs/ethos/Scroll_Evolution_Is_CoCivium.md) · [Scroll_Evolution_Or_Obsolescence](docs/ethos/Scroll_Evolution_Or_Obsolescence.md)
 <!-- BEGIN: STATUS -->
 ### Operational Status
-CoDrift Index: 50 (RED)
-- Dupes: 1
-- Missing manifests: 21
-- Missing tags: 3
-- Here-strings hits: 4
+CoDrift Index: 15 (AMBER)
+- Dupes: 
+- Missing manifests: 
+- Missing tags: 
+- Here-strings hits: 
 <!-- END: STATUS -->
-
 <!-- BEGIN: USAGE -->
 ### Usage Activity (last 
 90
@@ -81,4 +80,5 @@ CoDrift Index: 50 (RED)
 Asset | Uses | Last
 ---|---:|---
 <!-- END: USAGE -->
+
 
