@@ -19,3 +19,15 @@
     }
   }
 }
+{
+  "ts": "2025-10-22T18:47:39.0967158Z",
+  "event": "plane-app:status",
+  "data": {
+    "area": "plane-app",
+    "type": "status",
+    "summary": "Adapter online (json)",
+    "data": {
+      "repo": "CoCache"
+    }
+  }
+}
