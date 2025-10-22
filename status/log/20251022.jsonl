@@ -55,3 +55,30 @@
     }
   }
 }
+{
+  "ts": "2025-10-22T19:17:19.4354918Z",
+  "event": "plane-app:status",
+  "data": {
+    "area": "plane-app",
+    "type": "status",
+    "summary": "Nightly builder ready",
+    "data": {
+      "outputs": [
+        "plane-app/data/entities.v2.json"
+      ],
+      "script": "tools/Build-PlaneData.ps1"
+    }
+  }
+}
+{
+  "ts": "2025-10-22T19:17:19.9723132Z",
+  "event": "plane-app:status",
+  "data": {
+    "area": "plane-app",
+    "type": "status",
+    "summary": "Adapter online (json)",
+    "data": {
+      "repo": "CoCache"
+    }
+  }
+}
