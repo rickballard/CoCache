@@ -7,3 +7,15 @@
     "version": 2
   }
 }
+{
+  "ts": "2025-10-22T18:47:27.0177513Z",
+  "event": "plane-app:status",
+  "data": {
+    "area": "plane-app",
+    "type": "status",
+    "summary": "Adapter online (hashtable)",
+    "data": {
+      "repo": "CoCache"
+    }
+  }
+}
