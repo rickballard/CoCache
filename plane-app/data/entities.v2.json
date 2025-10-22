@@ -1,0 +1,48 @@
+{
+  "weights": {
+    "commons": 1,
+    "crown": 1,
+    "commerce": 1,
+    "club": 1
+  },
+  "updated": "2025-10-21",
+  "version": 2,
+  "entities": [
+    {
+      "sources": [
+        {
+          "date": "2025-10-21",
+          "title": "Platform",
+          "url": "https://example.org/dem"
+        }
+      ],
+      "id": "us-democrats",
+      "scores": {
+        "commons": 0.58,
+        "crown": 0.41,
+        "commerce": 0.5,
+        "club": 0.46
+      },
+      "label": "US Democrats",
+      "group": "party"
+    },
+    {
+      "sources": [
+        {
+          "date": "2025-10-21",
+          "title": "Platform",
+          "url": "https://example.org/rep"
+        }
+      ],
+      "id": "us-republicans",
+      "scores": {
+        "commons": 0.4,
+        "crown": 0.62,
+        "commerce": 0.59,
+        "club": 0.52
+      },
+      "label": "US Republicans",
+      "group": "party"
+    }
+  ]
+}
