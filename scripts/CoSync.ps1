@@ -1,22 +1,37 @@
 param([string]$RepoRoot = (Split-Path -Parent $PSScriptRoot))
-$ErrorActionPreference="Stop"
+$ErrorActionPreference='Stop'
 Set-Location $RepoRoot
-# 1) Refresh CDI
-if(Test-Path "scripts/Measure-CoDrift.ps1"){ pwsh -NoProfile -ExecutionPolicy Bypass -File "scripts/Measure-CoDrift.ps1" | Out-Host }
-# 2) Update README status block
-if(Test-Path "scripts/Update-StatusBlock.ps1"){ pwsh -NoProfile -ExecutionPolicy Bypass -File "scripts/Update-StatusBlock.ps1" | Out-Host }
-# 3) Stage/commit/push status artifacts
-$hadChanges=$false
-git add status/ README.md 2>$null | Out-Null
-if(git diff --cached --name-only){
-  $hadChanges=$true
-  $msg="status: CoSync"
-  if(Test-Path "status/codrift.json"){ try{ $j=Get-Content "status/codrift.json" -Raw | ConvertFrom-Json; $msg=("status: CoSync (CDI {0}% {1})" -f [int]$j.score,[string]$j.status) }catch{} }
-  git commit -m $msg | Out-Null
+
+# Refresh CoDrift Index, if present
+$codrift = Join-Path $RepoRoot 'scripts\Measure-CoDrift.ps1'
+if (Test-Path $codrift) { & $codrift }
+
+# Update README status block, if present
+$upd = Join-Path $RepoRoot 'scripts\Update-StatusBlock.ps1'
+if (Test-Path $upd) { & $upd }
+
+# Ensure opt-in marker exists
+$allow1 = Join-Path $RepoRoot '.cosync.ok'
+$allow2 = Join-Path $RepoRoot '.cosync-allow'
+if (-not (Test-Path $allow1) -and -not (Test-Path $allow2)) {
+  Set-Content -Path $allow1 -Value '' -NoNewline
+  git add $allow1 | Out-Null
 }
-$pushed=$false
-try{ if($hadChanges){ git push | Out-Null; $pushed=$true } }catch{}
-# 4) Print concise summary
-$cdi="n/a"; $stat="n/a"
-if(Test-Path "status/codrift.json"){ try{ $j=Get-Content "status/codrift.json" -Raw | ConvertFrom-Json; $cdi=[int]$j.score; $stat=[string]$j.status }catch{} }
-Write-Host ("CoSync: CDI {0}% ({1}); committed: {2}; pushed: {3}" -f $cdi,$stat,([bool]$hadChanges),([bool]$pushed))
+
+# Stage, commit, push
+git add status README.md 2>$null
+$changed = git status --porcelain
+$did = $false
+if ($changed) { git commit -m "CoSync: status + README refresh" | Out-Null; $did = $true }
+if ($did) { git push | Out-Null }
+
+# Friendly summary
+$codriftJson = Join-Path $RepoRoot 'status\codrift.json'
+if (Test-Path $codriftJson) {
+  try {
+    $c = Get-Content $codriftJson -Raw | ConvertFrom-Json
+    Write-Host ("CoSync: CDI {0}% ({1}); committed: {2}; pushed: {3}" -f $c.cdi, $c.status, $did, $did)
+  } catch { Write-Host ("CoSync: committed: {0}; pushed: {1}" -f $did, $did) }
+} else {
+  Write-Host ("CoSync: committed: {0}; pushed: {1}" -f $did, $did)
+}
