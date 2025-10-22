@@ -34,4 +34,17 @@ if($emdashBad.Count){
   exit 1
 }
 
+# BPOE: emdash ban (staged-only, scan index blobs)
+$files = (& git diff --cached --name-only).Trim().Split([Environment]::NewLine) | Where-Object { $_ }
+$bad = @()
+foreach($f in $files){
+  if($f -notmatch '\.(md|mdx|txt|ps1|psm1|psd1|json|ya?ml|ts|js|css|html)$'){ continue }
+  $blob = & git show (":" + $f) 2>$null
+  if([string]::IsNullOrEmpty($blob)){ continue }
+  if($blob -match [char]0x2014){ $bad += $f }
+}
+if($bad.Count){
+  Write-Error ("BPOE: emdashes are not allowed in staged files:" + [Environment]::NewLine + " - " + ($bad -join ([Environment]::NewLine + " - ")))
+  exit 1
+}
 
