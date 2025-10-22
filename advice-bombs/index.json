@@ -445,7 +445,7 @@
     {
       "name": "CoCivium_Academy_AdviceBomb_v1_1_20251021_155909.zip",
       "pathInRepo": "advice-bombs/raw/CoCivium_Academy_AdviceBomb_v1_1_20251021_155909.zip",
-      "sha256": "9B3CF721A1E5BF08359042657158ADE3FB393F119ED6FEDF2E857E1FF5616488",
+      "sha256": "48E615BF1978F84FB7D8CFD94FA1ECBAD6D729B75E37DDA91AC28A80B3A2483D",
       "fileCount": 24,
       "topLevelDirs": [
         "academy",
@@ -553,7 +553,8 @@
           "bytes": 895
         }
       ],
-      "createdUtc": "2025-10-21T17:08:48.9577475Z"
+      "createdUtc": "2025-10-21T17:08:48.9577475Z",
+      "lastUpdatedUtc": "2025-10-22T15:21:23.9314378Z"
     },
     {
       "name": "CoCivium_Epistemics_AdviceBomb_v0_2.zip",
