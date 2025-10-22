@@ -84,3 +84,14 @@ Asset | Uses | Last
 
 
 
+## Games (New)
+
+- **FTW — Fix The World (the Game)**
+  Repo: https://github.com/rickballard/Games  
+  Project: /FTW/ → design, specs, prototypes  
+  Seed tag: tw-seed-initial  
+  Status: see section below.
+
+<!-- BEGIN: FTW_STATUS -->
+(pending first refresh)
+<!-- END: FTW_STATUS -->
