@@ -93,8 +93,12 @@ Asset | Uses | Last
   Status: see section below.
 
 <!-- BEGIN: FTW_STATUS -->
-(pending first refresh)
+**FTW — Fix The World (the Game) — Status**
+- Repo: rickballard/Games
+- Latest tag: ftw-seed-initial
+- Last change to FTW/: 2025-10-22T13:44:50-04:00 (e19ffc7)
 <!-- END: FTW_STATUS -->
+
 
 
 
