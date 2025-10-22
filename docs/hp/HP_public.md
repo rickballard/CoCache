@@ -1,7 +1,10 @@
 <!-- SOURCE: ../index/INTRO.md -->
 
-# CoSuite — Introduction
-(Stub) This section introduces the HP. Replace with the real intro.
+# CoSuite — Introduction (stub)
+
+Visible intro paragraph.
+
+[redacted]
 
 
 
