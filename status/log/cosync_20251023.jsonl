@@ -837,3 +837,17 @@
   }
 }
 
+{
+  "repo": "CoCache",
+  "commit": "558500b",
+  "when": "2025-10-23T11:58:14.2310785-04:00",
+  "area": "coordination",
+  "type": "note",
+  "summary": "Freeze posted: RickPublic/InSights speeches regimes",
+  "data": {
+    "notice": "freeze_RickPublic_InSights_20251023_115813.md",
+    "until": "2025-10-30T23:59:59-04:00",
+    "tz": "America/Toronto"
+  }
+}
+
