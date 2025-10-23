@@ -851,3 +851,15 @@
   }
 }
 
+{
+  "repo": "CoCache",
+  "commit": "6bea678",
+  "when": "2025-10-23T12:50:18.6543015-04:00",
+  "area": "reflex",
+  "type": "note",
+  "summary": "Reflex BPOE notice recorded",
+  "data": {
+    "notice": "reflex_BPOE_notice_20251023_125017.md"
+  }
+}
+
