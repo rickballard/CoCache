@@ -1,0 +1,14 @@
+{
+  "repo": "CoCache",
+  "commit": "dab1024",
+  "when": "2025-10-23T10:43:13.4241576-04:00",
+  "area": "advice",
+  "type": "note",
+  "summary": "AdviceBomb ingested",
+  "data": {
+    "bytes": 8790,
+    "sha256": "93FF68847A9BBE08EB4F7A26704839AB7AA3A5BDFA23D5195B917350FC917CAE",
+    "file": "AdviceBomb_WealthMgmt_AI_Shock_Pivot_20251023_143006.zip"
+  }
+}
+
