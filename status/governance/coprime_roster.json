@@ -1,0 +1,36 @@
+{
+  "entries": [
+    {
+      "session": "RickPublic/InSights speeches regimes",
+      "actor": "Chris + CoPrime assistant",
+      "scope": [
+        {
+          "repo": "RickPublic",
+          "paths": [
+            "sotw/**",
+            "indexes/**",
+            "advicebombs/2025-10-23_RickPublic_AI_Access_v3/**",
+            "tools/**",
+            "scripts/**"
+          ]
+        },
+        {
+          "repo": "CoCivium",
+          "paths": [
+            "insights/**",
+            "insight/**"
+          ]
+        }
+      ],
+      "window": {
+        "start": "2025-10-23T13:52:26.8409127-04:00",
+        "until": "2025-10-30T23:59:59-04:00",
+        "tz": "America/Toronto"
+      },
+      "reflex": {
+        "required": true,
+        "policy": "Run on asset logic change; log receipts; register hashes."
+      }
+    }
+  ]
+}
