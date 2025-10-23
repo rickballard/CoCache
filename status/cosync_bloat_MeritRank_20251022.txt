@@ -1,0 +1,16 @@
+CoSync Bloat Report — MeritRank — 2025-10-22T20:41:41
+Repo Size (excl .git): 22.41 MB
+
+Top 12 files (MB):
+  0.28  C:\Users\Chris\Documents\GitHub\MeritRank\.venv\Lib\site-packages\pip\_vendor\certifi\cacert.pem
+  0.26  C:\Users\Chris\Documents\GitHub\MeritRank\.venv\Scripts\python.exe
+  0.25  C:\Users\Chris\Documents\GitHub\MeritRank\.venv\Scripts\pythonw.exe
+  0.23  C:\Users\Chris\Documents\GitHub\MeritRank\.venv\Lib\site-packages\pip\_vendor\idna\uts46data.py
+   0.2  C:\Users\Chris\Documents\GitHub\MeritRank\.venv\Lib\site-packages\pip\_vendor\rich\__pycache__\_emoji_codes.cpython-312.pyc
+  0.17  C:\Users\Chris\Documents\GitHub\MeritRank\.venv\Lib\site-packages\pip\_vendor\distlib\t64-arm.exe
+  0.16  C:\Users\Chris\Documents\GitHub\MeritRank\.venv\Lib\site-packages\pip\_vendor\distlib\w64-arm.exe
+  0.15  C:\Users\Chris\Documents\GitHub\MeritRank\.venv\Lib\site-packages\pip\_vendor\pkg_resources\__pycache__\__init__.cpython-312.pyc
+  0.15  C:\Users\Chris\Documents\GitHub\MeritRank\.venv\Lib\site-packages\pip\_vendor\idna\__pycache__\uts46data.cpython-312.pyc
+  0.15  C:\Users\Chris\Documents\GitHub\MeritRank\.venv\Lib\site-packages\pygments\lexers\lisp.py
+  0.13  C:\Users\Chris\Documents\GitHub\MeritRank\.venv\Lib\site-packages\pip\_vendor\rich\_emoji_codes.py
+  0.13  C:\Users\Chris\Documents\GitHub\MeritRank\.venv\Lib\site-packages\pygments\lexers\_lasso_builtins.py

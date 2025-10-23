@@ -1,0 +1,16 @@
+CoSync Bloat Report — CoLaminar — 2025-10-22T20:41:37
+Repo Size (excl .git): 0.08 MB
+
+Top 12 files (MB):
+  0.01  C:\Users\Chris\Documents\GitHub\CoLaminar\docs\index\ADVICE-INDEX.md
+  0.01  C:\Users\Chris\Documents\GitHub\CoLaminar\docs\index\TODO-INDEX.md
+     0  C:\Users\Chris\Documents\GitHub\CoLaminar\shared\tools\CoStack-SmokeTest.ps1
+     0  C:\Users\Chris\Documents\GitHub\CoLaminar\docs\business\BusinessPlan.md
+     0  C:\Users\Chris\Documents\GitHub\CoLaminar\extension\content.js
+     0  C:\Users\Chris\Documents\GitHub\CoLaminar\webapp\index.html
+     0  C:\Users\Chris\Documents\GitHub\CoLaminar\extension\icons\icon128.png
+     0  C:\Users\Chris\Documents\GitHub\CoLaminar\extension\options.js
+     0  C:\Users\Chris\Documents\GitHub\CoLaminar\docs\status\BPOE.md
+     0  C:\Users\Chris\Documents\GitHub\CoLaminar\docs\status\stubs-2025-09-11_211410Z.csv
+     0  C:\Users\Chris\Documents\GitHub\CoLaminar\policy\policy.schema.json
+     0  C:\Users\Chris\Documents\GitHub\CoLaminar\docs\status\stubs-2025-09-11_212632Z.csv

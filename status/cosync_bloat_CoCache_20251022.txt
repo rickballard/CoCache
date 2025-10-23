@@ -1,0 +1,16 @@
+CoSync Bloat Report — CoCache — 2025-10-22T20:41:34
+Repo Size (excl .git): 16.97 MB
+
+Top 12 files (MB):
+  2.22  C:\Users\Chris\Documents\GitHub\CoCache\docs\advice_bombs\batch_20251014_124554\39_Spanky_GVB_20251009_192232_20251014_124554_2025-10-14_124554.zip
+  1.68  C:\Users\Chris\Documents\GitHub\CoCache\advice-bombs\raw\Desktop_Roundup_20251017_110528.zip
+  1.68  C:\Users\Chris\Documents\GitHub\CoCache\advice-bombs\raw\Desktop_Roundup_20251017_105715.zip
+  1.59  C:\Users\Chris\Documents\GitHub\CoCache\docs\advice_bombs\batch_20251014_124554\.39_Spanky_GVB_20251009_192232\payload\OldeVillagePeople.png
+  0.69  C:\Users\Chris\Documents\GitHub\CoCache\index\va_manifest.json
+  0.64  C:\Users\Chris\Documents\GitHub\CoCache\advice-bombs\extracted\Desktop_Roundup_20251017_105715\RickPads\RickPads.zip
+  0.64  C:\Users\Chris\Documents\GitHub\CoCache\advice-bombs\extracted\Desktop_Roundup_20251017_110528\RickPads\RickPads.zip
+  0.51  C:\Users\Chris\Documents\GitHub\CoCache\index\coindex_master.json
+  0.46  C:\Users\Chris\Documents\GitHub\CoCache\advice-bombs\extracted\Desktop_Roundup_20251017_105715\RickPads\RickPadZip.zip
+  0.46  C:\Users\Chris\Documents\GitHub\CoCache\advice-bombs\extracted\Desktop_Roundup_20251017_110528\RickPads\RickPadZip.zip
+  0.38  C:\Users\Chris\Documents\GitHub\CoCache\index\va_manifest.csv
+  0.33  C:\Users\Chris\Documents\GitHub\CoCache\docs\advice_bombs\batch_20251014_124554\.39_Spanky_GVB_20251009_192232\payload\cea73f29-eb48-49ff-8540-b35c569d1e96.png

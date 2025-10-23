@@ -1,0 +1,16 @@
+CoSync Bloat Report — Godspawn — 2025-10-22T20:41:40
+Repo Size (excl .git): 413.87 MB
+
+Top 12 files (MB):
+ 20.37  C:\Users\Chris\Documents\GitHub\Godspawn\GODSPAWN 2006\old gs\Jun2004 MS Publisher15c.doc
+  20.2  C:\Users\Chris\Documents\GitHub\Godspawn\GODSPAWN 2006\GODSPAWN\e-book apps\hiebookSDK_Setup.exe
+ 18.27  C:\Users\Chris\Documents\GitHub\Godspawn\GODSPAWN 2006\GODSPAWN COVER.psd
+ 16.45  C:\Users\Chris\Documents\GitHub\Godspawn\2Flashbacks.psd
+ 14.47  C:\Users\Chris\Documents\GitHub\Godspawn\1ShinyManHandInSpaceShipCell.psd
+ 14.47  C:\Users\Chris\Documents\GitHub\Godspawn\DanZen\storyboard\storyboard\1ShinyManHandInSpaceShipCell.psd
+ 13.76  C:\Users\Chris\Documents\GitHub\Godspawn\GodspawnLogo.psd
+     9  C:\Users\Chris\Documents\GitHub\Godspawn\GODSPAWN 2006\GODSPAWN.pmd
+  8.93  C:\Users\Chris\Documents\GitHub\Godspawn\GODSPAWN 2006\GODSPAWN evalcopy.pmd
+  7.76  C:\Users\Chris\Documents\GitHub\Godspawn\GODSPAWN 2006\GODSPAWN adobe evalcopy.pmd
+  7.21  C:\Users\Chris\Documents\GitHub\Godspawn\gs_storyboard001.doc
+  7.15  C:\Users\Chris\Documents\GitHub\Godspawn\GODSPAWN 2006\old gs\GODSPAWN 040941.pmd

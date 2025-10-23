@@ -1,0 +1,11 @@
+CoSync Bloat Report — CoSuiteBackup — 2025-10-22T20:41:38
+Repo Size (excl .git): 0 MB
+
+Top 12 files (MB):
+     0  C:\Users\Chris\Documents\GitHub\CoSuiteBackup\scripts\CoSync.ps1
+     0  C:\Users\Chris\Documents\GitHub\CoSuiteBackup\scripts\Update-StatusBlock.ps1
+     0  C:\Users\Chris\Documents\GitHub\CoSuiteBackup\scripts\Measure-CoDrift.ps1
+     0  C:\Users\Chris\Documents\GitHub\CoSuiteBackup\.githooks\pre-commit.ps1
+     0  C:\Users\Chris\Documents\GitHub\CoSuiteBackup\status\codrift.json
+     0  C:\Users\Chris\Documents\GitHub\CoSuiteBackup\README.md
+     0  C:\Users\Chris\Documents\GitHub\CoSuiteBackup\.cosync-allow

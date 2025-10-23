@@ -1,0 +1,16 @@
+CoSync Bloat Report — EntMent — 2025-10-22T20:41:39
+Repo Size (excl .git): 0.03 MB
+
+Top 12 files (MB):
+     0  C:\Users\Chris\Documents\GitHub\EntMent\assets\js\contact-embed.js
+     0  C:\Users\Chris\Documents\GitHub\EntMent\contact.html
+     0  C:\Users\Chris\Documents\GitHub\EntMent\index.html
+     0  C:\Users\Chris\Documents\GitHub\EntMent\404.html
+     0  C:\Users\Chris\Documents\GitHub\EntMent\assets\css\base.css
+     0  C:\Users\Chris\Documents\GitHub\EntMent\web\intake\index.html
+     0  C:\Users\Chris\Documents\GitHub\EntMent\scripts\CoSync.ps1
+     0  C:\Users\Chris\Documents\GitHub\EntMent\scripts\Update-StatusBlock.ps1
+     0  C:\Users\Chris\Documents\GitHub\EntMent\README.md
+     0  C:\Users\Chris\Documents\GitHub\EntMent\profiles\schemas\ent.schema.json
+     0  C:\Users\Chris\Documents\GitHub\EntMent\scripts\Measure-CoDrift.ps1
+     0  C:\Users\Chris\Documents\GitHub\EntMent\profiles\schemas\ment.schema.json

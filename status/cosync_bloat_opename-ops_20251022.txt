@@ -1,0 +1,13 @@
+CoSync Bloat Report — opename-ops — 2025-10-22T20:41:41
+Repo Size (excl .git): 0.01 MB
+
+Top 12 files (MB):
+     0  C:\Users\Chris\Documents\GitHub\opename-ops\README.md
+     0  C:\Users\Chris\Documents\GitHub\opename-ops\scripts\CoSync.ps1
+     0  C:\Users\Chris\Documents\GitHub\opename-ops\scripts\Update-StatusBlock.ps1
+     0  C:\Users\Chris\Documents\GitHub\opename-ops\scripts\Measure-CoDrift.ps1
+     0  C:\Users\Chris\Documents\GitHub\opename-ops\.githooks\pre-commit.ps1
+     0  C:\Users\Chris\Documents\GitHub\opename-ops\status\codrift.json
+     0  C:\Users\Chris\Documents\GitHub\opename-ops\SECURITY.md
+     0  C:\Users\Chris\Documents\GitHub\opename-ops\LICENSE
+     0  C:\Users\Chris\Documents\GitHub\opename-ops\.cosync-allow

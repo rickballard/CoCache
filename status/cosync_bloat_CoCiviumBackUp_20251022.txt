@@ -1,0 +1,16 @@
+CoSync Bloat Report — CoCiviumBackUp — 2025-10-22T20:41:36
+Repo Size (excl .git): 33.85 MB
+
+Top 12 files (MB):
+  9.31  C:\Users\Chris\Documents\GitHub\CoCiviumBackUp\site\assets\cognocarta_scroll_og_src.png
+  3.31  C:\Users\Chris\Documents\GitHub\CoCiviumBackUp\assets\img\consenti-scroll.png
+  2.15  C:\Users\Chris\Documents\GitHub\CoCiviumBackUp\legacy\Civium\admin\inbox\GmailDump_20250811\originals\PXL_20250805_191804037.jpg
+  2.15  C:\Users\Chris\Documents\GitHub\CoCiviumBackUp\staging\_imported\Civium\admin\inbox\GmailDump_20250811\originals\PXL_20250805_191804037.jpg
+  2.15  C:\Users\Chris\Documents\GitHub\CoCiviumBackUp\legacy\CoCivium\_pr\ci_og-image-20250813_2231\legacy\Civium\admin\inbox\GmailDump_20250811\originals\PXL_20250805_191804037.jpg
+  1.44  C:\Users\Chris\Documents\GitHub\CoCiviumBackUp\legacy\Civium\projects\website\Evomap_Mockup_v1.png
+  1.44  C:\Users\Chris\Documents\GitHub\CoCiviumBackUp\legacy\CoCivium\_pr\ci_og-image-20250813_2231\legacy\Civium\projects\website\Evomap_Mockup_v1.png
+  1.44  C:\Users\Chris\Documents\GitHub\CoCiviumBackUp\staging\_imported\Civium\projects\website\Evomap_Mockup_v1.png
+  1.05  C:\Users\Chris\Documents\GitHub\CoCiviumBackUp\legacy\Civium\projects\website\Logo_v1.png
+  1.05  C:\Users\Chris\Documents\GitHub\CoCiviumBackUp\legacy\CoCivium\_pr\ci_og-image-20250813_2231\legacy\Civium\projects\website\Logo_v1.png
+  1.05  C:\Users\Chris\Documents\GitHub\CoCiviumBackUp\staging\_imported\Civium\projects\website\Logo_v1.png
+  0.39  C:\Users\Chris\Documents\GitHub\CoCiviumBackUp\site\assets\cognocarta_4k_wallpaper.jpg

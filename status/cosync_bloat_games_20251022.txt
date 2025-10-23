@@ -1,8 +1,7 @@
-CoSync Bloat Report — Games (FTW) — 2025-10-22T20:20:53
+CoSync Bloat Report — Games — 2025-10-22T20:41:39
 Repo Size (excl .git): 3.81 MB
-FTW/export size: 0 MB
 
-Top 15 largest files (MB):
+Top 12 files (MB):
   3.79  C:\Users\Chris\Documents\GitHub\Games\FTW\design\+\docs\index\ADVICE-INDEX.md
   0.01  C:\Users\Chris\Documents\GitHub\Games\FTW\design\+\advice-bombs\extracted\Desktop_Roundup_20251017_110528\RickPads\FixTheWorld_Game_IdeaCard_v2.md
   0.01  C:\Users\Chris\Documents\GitHub\Games\FTW\design\+\advice-bombs\extracted\Desktop_Roundup_20251017_105715\RickPads\FixTheWorld_Game_IdeaCard_v2.md
@@ -15,13 +14,3 @@ Top 15 largest files (MB):
      0  C:\Users\Chris\Documents\GitHub\Games\FTW\_provenance\SEED_SOURCES.md
      0  C:\Users\Chris\Documents\GitHub\Games\FTW\design\+\docs\ideas\20250826-0407Z-ftw-game.md
      0  C:\Users\Chris\Documents\GitHub\Games\.githooks\pre-commit.ps1
-     0  C:\Users\Chris\Documents\GitHub\Games\FTW\design\+\docs\ideas\REGISTRY.md
-     0  C:\Users\Chris\Documents\GitHub\Games\README.md
-     0  C:\Users\Chris\Documents\GitHub\Games\FTW\GameDesignDoc.md
-
-Suggested ignores (if binary/export grows):
-  FTW/export/
-  *.zip
-  *.mp4
-  *.png
-  *.jpg

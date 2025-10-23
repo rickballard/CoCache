@@ -1,0 +1,16 @@
+CoSync Bloat Report — GroupBuild-website — 2025-10-22T20:41:40
+Repo Size (excl .git): 8.16 MB
+
+Top 12 files (MB):
+  0.71  C:\Users\Chris\Documents\GitHub\GroupBuild-website\friendly-proposal\discord-screens\Screenshot 2025-09-14 210519.png
+  0.58  C:\Users\Chris\Documents\GitHub\GroupBuild-website\friendly-proposal\discord-screens\Screenshot 2025-09-14 210454.png
+  0.56  C:\Users\Chris\Documents\GitHub\GroupBuild-website\friendly-proposal\discord-screens\Screenshot 2025-09-14 210611.png
+  0.52  C:\Users\Chris\Documents\GitHub\GroupBuild-website\friendly-proposal\discord-screens\Screenshot 2025-09-14 210601.png
+   0.5  C:\Users\Chris\Documents\GitHub\GroupBuild-website\friendly-proposal\discord-screens\Screenshot 2025-09-14 210304.png
+  0.47  C:\Users\Chris\Documents\GitHub\GroupBuild-website\friendly-proposal\discord-screens\Screenshot 2025-09-14 210553.png
+  0.46  C:\Users\Chris\Documents\GitHub\GroupBuild-website\friendly-proposal\discord-screens\Screenshot 2025-09-14 210653.png
+  0.43  C:\Users\Chris\Documents\GitHub\GroupBuild-website\friendly-proposal\discord-screens\Screenshot 2025-09-14 210347.png
+  0.36  C:\Users\Chris\Documents\GitHub\GroupBuild-website\friendly-proposal\discord-screens\Screenshot 2025-09-14 210249.png
+  0.36  C:\Users\Chris\Documents\GitHub\GroupBuild-website\friendly-proposal\discord-screens\Screenshot 2025-09-14 210539.png
+  0.35  C:\Users\Chris\Documents\GitHub\GroupBuild-website\friendly-proposal\discord-screens\Screenshot 2025-09-14 210327.png
+  0.27  C:\Users\Chris\Documents\GitHub\GroupBuild-website\friendly-proposal\discord-screens\Screenshot 2025-09-14 210508.png

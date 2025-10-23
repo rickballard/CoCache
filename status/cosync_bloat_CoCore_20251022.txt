@@ -1,0 +1,16 @@
+CoSync Bloat Report — CoCore — 2025-10-22T20:41:36
+Repo Size (excl .git): 3.15 MB
+
+Top 12 files (MB):
+  1.02  C:\Users\Chris\Documents\GitHub\CoCore\references\mirrors\eu\gdpr.html
+  0.98  C:\Users\Chris\Documents\GitHub\CoCore\references\mirrors\w3c\vc-data-model-2.html
+   0.7  C:\Users\Chris\Documents\GitHub\CoCore\references\mirrors\w3c\did-core.html
+   0.2  C:\Users\Chris\Documents\GitHub\CoCore\references\mirrors\ietf\rfc6749.txt
+  0.06  C:\Users\Chris\Documents\GitHub\CoCore\references\mirrors\ghg\corporate-standard.html
+  0.06  C:\Users\Chris\Documents\GitHub\CoCore\references\mirrors\bis\bcbs238.html
+  0.05  C:\Users\Chris\Documents\GitHub\CoCore\references\mirrors\nist\sp800-53r5.html
+  0.05  C:\Users\Chris\Documents\GitHub\CoCore\references\mirrors\bis\d295.html
+     0  C:\Users\Chris\Documents\GitHub\CoCore\tools\ps\DO-NewPattern.ps1
+     0  C:\Users\Chris\Documents\GitHub\CoCore\tools\ps\DO-FetchReferences.ps1
+     0  C:\Users\Chris\Documents\GitHub\CoCore\tools\congruence\calc.py
+     0  C:\Users\Chris\Documents\GitHub\CoCore\references\catalog.yaml

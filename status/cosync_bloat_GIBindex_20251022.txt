@@ -1,0 +1,16 @@
+CoSync Bloat Report — GIBindex — 2025-10-22T20:41:39
+Repo Size (excl .git): 4.21 MB
+
+Top 12 files (MB):
+  1.73  C:\Users\Chris\Documents\GitHub\GIBindex\core\seedpaths\seed-map.ndjson
+  1.41  C:\Users\Chris\Documents\GitHub\GIBindex\core\seedpaths\summary.csv
+  1.04  C:\Users\Chris\Documents\GitHub\GIBindex\core\manifest.gib.jsonl
+     0  C:\Users\Chris\Documents\GitHub\GIBindex\tools\CoStack-SmokeTest.ps1
+     0  C:\Users\Chris\Documents\GitHub\GIBindex\README.md
+     0  C:\Users\Chris\Documents\GitHub\GIBindex\scripts\validate_entries.py
+     0  C:\Users\Chris\Documents\GitHub\GIBindex\docs\status\HEALTH.json
+     0  C:\Users\Chris\Documents\GitHub\GIBindex\scripts\CoSync.ps1
+     0  C:\Users\Chris\Documents\GitHub\GIBindex\scripts\Update-StatusBlock.ps1
+     0  C:\Users\Chris\Documents\GitHub\GIBindex\docs\status\stubs-2025-09-11_212726Z.csv
+     0  C:\Users\Chris\Documents\GitHub\GIBindex\docs\status\stubs-2025-09-11_211519Z.csv
+     0  C:\Users\Chris\Documents\GitHub\GIBindex\.github\workflows\auto-add-to-project.yml

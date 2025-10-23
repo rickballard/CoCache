@@ -1,0 +1,16 @@
+CoSync Bloat Report — CoRef — 2025-10-22T20:41:38
+Repo Size (excl .git): 0.82 MB
+
+Top 12 files (MB):
+  0.74  C:\Users\Chris\Documents\GitHub\CoRef\index.json
+  0.05  C:\Users\Chris\Documents\GitHub\CoRef\assets\interop.svg
+  0.03  C:\Users\Chris\Documents\GitHub\CoRef\assets\CoRef_InteropStack_Dark_v2.png
+     0  C:\Users\Chris\Documents\GitHub\CoRef\scripts\CoSync.ps1
+     0  C:\Users\Chris\Documents\GitHub\CoRef\scripts\Update-StatusBlock.ps1
+     0  C:\Users\Chris\Documents\GitHub\CoRef\.github\workflows\build-index.yml
+     0  C:\Users\Chris\Documents\GitHub\CoRef\scripts\Measure-CoDrift.ps1
+     0  C:\Users\Chris\Documents\GitHub\CoRef\ops\build.ps1
+     0  C:\Users\Chris\Documents\GitHub\CoRef\.githooks\pre-commit.ps1
+     0  C:\Users\Chris\Documents\GitHub\CoRef\docs\interop.md
+     0  C:\Users\Chris\Documents\GitHub\CoRef\README.md
+     0  C:\Users\Chris\Documents\GitHub\CoRef\CoRef-Index.schema.json
