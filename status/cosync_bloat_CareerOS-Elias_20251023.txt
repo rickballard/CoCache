@@ -1,0 +1,16 @@
+CoSync Bloat Report — CareerOS-Elias — 2025-10-23T09:43:10
+Repo Size (excl .git): 0.01 MB
+
+Top 12 files (MB):
+     0  C:\Users\Chris\Documents\GitHub\CareerOS-Elias\README.md
+     0  C:\Users\Chris\Documents\GitHub\CareerOS-Elias\run.ps1
+     0  C:\Users\Chris\Documents\GitHub\CareerOS-Elias\scripts\CoSync.ps1
+     0  C:\Users\Chris\Documents\GitHub\CareerOS-Elias\.github\workflows\quarterly-checkin.yml
+     0  C:\Users\Chris\Documents\GitHub\CareerOS-Elias\strategy\market-map.md
+     0  C:\Users\Chris\Documents\GitHub\CareerOS-Elias\email_instructions.txt
+     0  C:\Users\Chris\Documents\GitHub\CareerOS-Elias\scripts\Update-StatusBlock.ps1
+     0  C:\Users\Chris\Documents\GitHub\CareerOS-Elias\profile\resume.md
+     0  C:\Users\Chris\Documents\GitHub\CareerOS-Elias\scripts\Measure-CoDrift.ps1
+     0  C:\Users\Chris\Documents\GitHub\CareerOS-Elias\strategy\learning-roadmap.md
+     0  C:\Users\Chris\Documents\GitHub\CareerOS-Elias\.githooks\pre-commit.ps1
+     0  C:\Users\Chris\Documents\GitHub\CareerOS-Elias\networking\outreach-templates.md

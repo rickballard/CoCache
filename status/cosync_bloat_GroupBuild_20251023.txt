@@ -1,0 +1,16 @@
+CoSync Bloat Report — GroupBuild — 2025-10-23T09:43:16
+Repo Size (excl .git): 0.03 MB
+
+Top 12 files (MB):
+     0  C:\Users\Chris\Documents\GitHub\GroupBuild\assets\js\contact-embed.js
+     0  C:\Users\Chris\Documents\GitHub\GroupBuild\contact.html
+     0  C:\Users\Chris\Documents\GitHub\GroupBuild\index.html
+     0  C:\Users\Chris\Documents\GitHub\GroupBuild\.github\workflows\self-evolve.yml
+     0  C:\Users\Chris\Documents\GitHub\GroupBuild\404.html
+     0  C:\Users\Chris\Documents\GitHub\GroupBuild\assets\css\base.css
+     0  C:\Users\Chris\Documents\GitHub\GroupBuild\scripts\CoSync.ps1
+     0  C:\Users\Chris\Documents\GitHub\GroupBuild\scripts\Update-StatusBlock.ps1
+     0  C:\Users\Chris\Documents\GitHub\GroupBuild\.github\workflows\safety-gate.yml
+     0  C:\Users\Chris\Documents\GitHub\GroupBuild\.github\workflows\smoke.yml
+     0  C:\Users\Chris\Documents\GitHub\GroupBuild\scripts\Measure-CoDrift.ps1
+     0  C:\Users\Chris\Documents\GitHub\GroupBuild\site.webmanifest

@@ -1,0 +1,16 @@
+CoSync Bloat Report — CoAgent__mvp3_resume-20250923-111953Z — 2025-10-23T09:43:11
+Repo Size (excl .git): 82.59 MB
+
+Top 12 files (MB):
+ 15.34  C:\Users\Chris\Documents\GitHub\CoAgent__mvp3_resume-20250923-111953Z\tools\Start-MVP3-Orchestrator.ps1
+  15.2  C:\Users\Chris\Documents\GitHub\CoAgent__mvp3_resume-20250923-111953Z\tools\Start-MVP3-Orchestrator.ps1.bak_20250926-204255
+  15.2  C:\Users\Chris\Documents\GitHub\CoAgent__mvp3_resume-20250923-111953Z\tools\Start-MVP3-Orchestrator.ps1.bak_20250926-203420
+  15.2  C:\Users\Chris\Documents\GitHub\CoAgent__mvp3_resume-20250923-111953Z\tools\Start-MVP3-Orchestrator.ps1.bak_20250926-201832
+  15.2  C:\Users\Chris\Documents\GitHub\CoAgent__mvp3_resume-20250923-111953Z\tools\Start-MVP3-Orchestrator.ps1.bak_20250926-192511
+  3.02  C:\Users\Chris\Documents\GitHub\CoAgent__mvp3_resume-20250923-111953Z\docs\index\ADVICE-INDEX.md
+  3.01  C:\Users\Chris\Documents\GitHub\CoAgent__mvp3_resume-20250923-111953Z\docs\index\TODO-INDEX.md
+  0.14  C:\Users\Chris\Documents\GitHub\CoAgent__mvp3_resume-20250923-111953Z\src\CoAgent.Launcher\obj\Release\net8.0-windows\apphost.exe
+  0.14  C:\Users\Chris\Documents\GitHub\CoAgent__mvp3_resume-20250923-111953Z\src\CoAgent.Launcher\bin\Release\net8.0-windows\CoAgent.exe
+  0.01  C:\Users\Chris\Documents\GitHub\CoAgent__mvp3_resume-20250923-111953Z\src\CoAgent.Launcher\obj\Release\net8.0-windows\CoAgent.pdb
+  0.01  C:\Users\Chris\Documents\GitHub\CoAgent__mvp3_resume-20250923-111953Z\src\CoAgent.Launcher\bin\Release\net8.0-windows\CoAgent.pdb
+  0.01  C:\Users\Chris\Documents\GitHub\CoAgent__mvp3_resume-20250923-111953Z\src\CoTray\Program.cs

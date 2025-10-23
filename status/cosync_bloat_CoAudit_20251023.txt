@@ -1,0 +1,16 @@
+CoSync Bloat Report — CoAudit — 2025-10-23T09:43:11
+Repo Size (excl .git): 0.02 MB
+
+Top 12 files (MB):
+  0.01  C:\Users\Chris\Documents\GitHub\CoAudit\scripts\Discover-Metrics.ps1
+     0  C:\Users\Chris\Documents\GitHub\CoAudit\advice-bombs\uploads\InSeed_Flagship_ServiceLine_Pkg.zip
+     0  C:\Users\Chris\Documents\GitHub\CoAudit\advice-bombs\uploads\CoAudit_AdviceBomb_20251019_185428_v3.zip
+     0  C:\Users\Chris\Documents\GitHub\CoAudit\README.md
+     0  C:\Users\Chris\Documents\GitHub\CoAudit\scripts\CoSync.ps1
+     0  C:\Users\Chris\Documents\GitHub\CoAudit\scripts\Update-StatusBlock.ps1
+     0  C:\Users\Chris\Documents\GitHub\CoAudit\LICENSE
+     0  C:\Users\Chris\Documents\GitHub\CoAudit\reports\2025-10-19\metrics.discovery.json
+     0  C:\Users\Chris\Documents\GitHub\CoAudit\schemas\metrics.schema.json
+     0  C:\Users\Chris\Documents\GitHub\CoAudit\2025-10-20\metrics.discovery.json
+     0  C:\Users\Chris\Documents\GitHub\CoAudit\.github\workflows\audit.yml
+     0  C:\Users\Chris\Documents\GitHub\CoAudit\scripts\Measure-CoDrift.ps1

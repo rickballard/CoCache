@@ -1,0 +1,16 @@
+CoSync Bloat Report — CoModules — 2025-10-23T09:43:15
+Repo Size (excl .git): 0.12 MB
+
+Top 12 files (MB):
+  0.01  C:\Users\Chris\Documents\GitHub\CoModules\LICENSE
+  0.01  C:\Users\Chris\Documents\GitHub\CoModules\modules\FixTheWorld\FTW_Game_IdeaCard_v2.md
+     0  C:\Users\Chris\Documents\GitHub\CoModules\tools\zip-rebuild.ps1
+     0  C:\Users\Chris\Documents\GitHub\CoModules\scripts\gen_ideacard.mjs
+     0  C:\Users\Chris\Documents\GitHub\CoModules\docs\status\stubs-2025-09-11_212659Z.csv
+     0  C:\Users\Chris\Documents\GitHub\CoModules\docs\status\HEALTH.json
+     0  C:\Users\Chris\Documents\GitHub\CoModules\docs\status\stubs-2025-09-11_211449Z.csv
+     0  C:\Users\Chris\Documents\GitHub\CoModules\tools\facade\src\__pycache__\main.cpython-312.pyc
+     0  C:\Users\Chris\Documents\GitHub\CoModules\docs\status\stubs-2025-09-11_210237Z.csv
+     0  C:\Users\Chris\Documents\GitHub\CoModules\docs\constitution\scroll.html
+     0  C:\Users\Chris\Documents\GitHub\CoModules\FTWTG\docs\ideas\FTWTG_IdeaCard.json
+     0  C:\Users\Chris\Documents\GitHub\CoModules\tools\build-index.ps1

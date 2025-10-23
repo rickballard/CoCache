@@ -1,0 +1,13 @@
+CoSync Bloat Report — BeAxa — 2025-10-23T09:43:10
+Repo Size (excl .git): 0 MB
+
+Top 12 files (MB):
+     0  C:\Users\Chris\Documents\GitHub\BeAxa\scripts\CoSync.ps1
+     0  C:\Users\Chris\Documents\GitHub\BeAxa\scripts\Update-StatusBlock.ps1
+     0  C:\Users\Chris\Documents\GitHub\BeAxa\scripts\Measure-CoDrift.ps1
+     0  C:\Users\Chris\Documents\GitHub\BeAxa\.githooks\pre-commit.ps1
+     0  C:\Users\Chris\Documents\GitHub\BeAxa\status\codrift.json
+     0  C:\Users\Chris\Documents\GitHub\BeAxa\README.md
+     0  C:\Users\Chris\Documents\GitHub\BeAxa\.github\CODEOWNERS
+     0  C:\Users\Chris\Documents\GitHub\BeAxa\.cosync-allow
+     0  C:\Users\Chris\Documents\GitHub\BeAxa\.cosync.ok

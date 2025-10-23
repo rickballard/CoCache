@@ -1,0 +1,16 @@
+CoSync Bloat Report — CoPolitic — 2025-10-23T09:43:15
+Repo Size (excl .git): 4.9 MB
+
+Top 12 files (MB):
+  2.32  C:\Users\Chris\Documents\GitHub\CoPolitic\assets\img\hero_roundtable.png
+  1.61  C:\Users\Chris\Documents\GitHub\CoPolitic\assets\img\logo_angels.png
+  0.23  C:\Users\Chris\Documents\GitHub\CoPolitic\assets\img\icon-512.png
+  0.21  C:\Users\Chris\Documents\GitHub\CoPolitic\assets\img\logo_angels.webp
+   0.1  C:\Users\Chris\Documents\GitHub\CoPolitic\assets\img\hero_roundtable.webp
+  0.08  C:\Users\Chris\Documents\GitHub\CoPolitic\assets\img\copolitic_hero.png
+  0.04  C:\Users\Chris\Documents\GitHub\CoPolitic\assets\img\apple-touch-icon.png
+  0.03  C:\Users\Chris\Documents\GitHub\CoPolitic\index.backup.20251016004317.html
+  0.03  C:\Users\Chris\Documents\GitHub\CoPolitic\index.html
+  0.01  C:\Users\Chris\Documents\GitHub\CoPolitic\assets\img\copolitic_hero.webp
+  0.01  C:\Users\Chris\Documents\GitHub\CoPolitic\plane-app\plane-safe.js
+  0.01  C:\Users\Chris\Documents\GitHub\CoPolitic\plane-app\preview\plane-safe.js

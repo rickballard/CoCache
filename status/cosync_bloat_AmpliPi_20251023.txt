@@ -1,0 +1,16 @@
+CoSync Bloat Report — AmpliPi — 2025-10-23T09:43:10
+Repo Size (excl .git): 61.31 MB
+
+Top 12 files (MB):
+  6.67  C:\Users\Chris\Documents\GitHub\AmpliPi\docs\imgs\app_demos\load_preset\load_preset.xcf
+  5.33  C:\Users\Chris\Documents\GitHub\AmpliPi\docs\imgs\app_demos\settings_update_pandora\settings_update_pandora.xcf.tar.gz
+  4.03  C:\Users\Chris\Documents\GitHub\AmpliPi\hw\diagrams\signal_diagram.drawio.svg
+  3.19  C:\Users\Chris\Documents\GitHub\AmpliPi\docs\imgs\app_demos\change_source\change_source.xcf
+  2.21  C:\Users\Chris\Documents\GitHub\AmpliPi\hw\diagrams\rear_panel_labelled.drawio.svg
+  1.91  C:\Users\Chris\Documents\GitHub\AmpliPi\docs\imgs\app_demos\expand_group_and_change_vols\expand_group_and_change_vols.xcf
+  1.78  C:\Users\Chris\Documents\GitHub\AmpliPi\docs\imgs\app_demos\settings_update_input1\settings_update_input1.xcf.tar.gz
+  1.61  C:\Users\Chris\Documents\GitHub\AmpliPi\docs\imgs\backpanel.png
+  1.39  C:\Users\Chris\Documents\GitHub\AmpliPi\hw\diagrams\internals_photo_labelled.drawio.svg
+  1.23  C:\Users\Chris\Documents\GitHub\AmpliPi\docs\imgs\app_demos\settings_update_pandora.gif
+  1.06  C:\Users\Chris\Documents\GitHub\AmpliPi\docs\imgs\app_demos\add_group_to_source\add_group_to_source.xcf
+  0.88  C:\Users\Chris\Documents\GitHub\AmpliPi\web\static\css\libs\font-awesome\webfonts\fa-solid-900.svg
