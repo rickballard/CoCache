@@ -1,0 +1,18 @@
+name: Reflex Smoke
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'stage/**'
+      - '.github/workflows/reflex-smoke.yml'
+jobs:
+  reflex:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Reflex (zip or folder under ./stage)
+        shell: pwsh
+        run: |
+          pwsh -NoLogo -NoProfile -Command 
+            "$CC = "C:\Users\Chris\Documents\GitHub\CoCache"; 
+             & "C:\Users\Chris\Documents\GitHub\CoCache\tools\Run-Reflex.ps1" -StagePath ".\stage" -AssetId "RickPublic/AdviceBombs" -Version "2025-10-23_AI_Access_v3""
