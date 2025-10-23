@@ -863,3 +863,17 @@
   }
 }
 
+{
+  "repo": "CoCache",
+  "commit": "c2bf84f",
+  "when": "2025-10-23T12:57:56.2078798-04:00",
+  "area": "advice",
+  "type": "note",
+  "summary": "AdviceBomb import REPORT ingested",
+  "data": {
+    "bytes": 7452,
+    "sha256": "3F4575609D5E7ACD72088FFF12CBDC4A047B4589C829463C80FCF88E9133D239",
+    "file": "RickPublic_AdviceBomb_import_REPORT.md"
+  }
+}
+
