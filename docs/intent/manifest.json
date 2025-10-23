@@ -34,5 +34,17 @@
       "repo": "CoCache",
       "id": "handoff-2025-10-17T234302"
     }
+  ],
+  "reflex": [
+    {
+      "asset": "RickPublic/AdviceBombs",
+      "version": "2025-10-23_AI_Access_v3",
+      "stage": "docs/Reflex/BPOE_Reflex_AdviceBomb_20251023_164549.zip",
+      "outputs": [
+        "out.txt",
+        ".sig.json"
+      ],
+      "hashStore": "docs/reflex/hashes"
+    }
   ]
 }
