@@ -1,0 +1,10 @@
+[
+  {"id":"content","label":"Content Volume","desc":"Indexed content + footprint"},
+  {"id":"ambition","label":"Ambition Span","desc":"Breadth of programs/streams"},
+  {"id":"reflex","label":"CoReflex Coverage","desc":"Reflex packages + hashes"},
+  {"id":"engagement","label":"CoEngagement","desc":"Synthetic pulse / bandwidth"},
+  {"id":"velocity","label":"Shipping Velocity","desc":"Recent commit energy"},
+  {"id":"bloat","label":"Bloat Discipline","desc":"Size control / drift"},
+  {"id":"freeze","label":"Freeze Discipline","desc":"Hygiene under freeze"},
+  {"id":"sync","label":"Cross-Repo Sync","desc":"Heartbeats/coord receipts"}
+]
