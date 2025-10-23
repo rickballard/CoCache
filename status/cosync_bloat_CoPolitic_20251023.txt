@@ -1,4 +1,4 @@
-CoSync Bloat Report — CoPolitic — 2025-10-23T09:43:15
+CoSync Bloat Report — CoPolitic — 2025-10-23T10:43:37
 Repo Size (excl .git): 4.9 MB
 
 Top 12 files (MB):

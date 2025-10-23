@@ -1,4 +1,4 @@
-CoSync Bloat Report — CoAgent — 2025-10-23T09:43:11
+CoSync Bloat Report — CoAgent — 2025-10-23T10:43:28
 Repo Size (excl .git): 21.71 MB
 
 Top 12 files (MB):

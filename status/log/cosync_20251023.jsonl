@@ -12,3 +12,828 @@
   }
 }
 
+{
+  "repo": "AmpliPi",
+  "commit": "9d6a5ca",
+  "when": "2025-10-23T10:43:25.7853916-04:00",
+  "area": "general",
+  "type": "intent",
+  "summary": "all-repos sweep",
+  "data": {
+    "branch": "main"
+  }
+}
+
+{
+  "repo": "AmpliPi",
+  "commit": "9d6a5ca",
+  "when": "2025-10-23T10:43:25.9391328-04:00",
+  "area": "general",
+  "type": "progress",
+  "summary": "heartbeat",
+  "data": {
+    "sha": "9d6a5ca",
+    "lastChange": "2025-10-22T13:11:00-04:00"
+  }
+}
+
+{
+  "repo": "BeAxa",
+  "commit": "d554798",
+  "when": "2025-10-23T10:43:26.4514687-04:00",
+  "area": "general",
+  "type": "intent",
+  "summary": "all-repos sweep",
+  "data": {
+    "branch": "main"
+  }
+}
+
+{
+  "repo": "BeAxa",
+  "commit": "d554798",
+  "when": "2025-10-23T10:43:26.5362991-04:00",
+  "area": "general",
+  "type": "progress",
+  "summary": "heartbeat",
+  "data": {
+    "sha": "d554798",
+    "lastChange": "2025-10-22T14:02:21-04:00"
+  }
+}
+
+{
+  "repo": "CareerOS-Elias",
+  "commit": "7768aaf",
+  "when": "2025-10-23T10:43:26.9625259-04:00",
+  "area": "general",
+  "type": "intent",
+  "summary": "all-repos sweep",
+  "data": {
+    "branch": "main"
+  }
+}
+
+{
+  "repo": "CareerOS-Elias",
+  "commit": "7768aaf",
+  "when": "2025-10-23T10:43:27.0649819-04:00",
+  "area": "general",
+  "type": "progress",
+  "summary": "heartbeat",
+  "data": {
+    "sha": "7768aaf",
+    "lastChange": "2025-10-22T14:02:23-04:00"
+  }
+}
+
+{
+  "repo": "Civium",
+  "commit": "4502733",
+  "when": "2025-10-23T10:43:27.4356428-04:00",
+  "area": "general",
+  "type": "intent",
+  "summary": "all-repos sweep",
+  "data": {
+    "branch": "main"
+  }
+}
+
+{
+  "repo": "Civium",
+  "commit": "4502733",
+  "when": "2025-10-23T10:43:27.5370981-04:00",
+  "area": "general",
+  "type": "progress",
+  "summary": "heartbeat",
+  "data": {
+    "sha": "4502733",
+    "lastChange": "2025-10-22T14:02:24-04:00"
+  }
+}
+
+{
+  "repo": "Civium-Constitution",
+  "commit": "375db40",
+  "when": "2025-10-23T10:43:28.0286534-04:00",
+  "area": "general",
+  "type": "intent",
+  "summary": "all-repos sweep",
+  "data": {
+    "branch": "gm/preflight-20250813_2024"
+  }
+}
+
+{
+  "repo": "Civium-Constitution",
+  "commit": "375db40",
+  "when": "2025-10-23T10:43:28.1293759-04:00",
+  "area": "general",
+  "type": "progress",
+  "summary": "heartbeat",
+  "data": {
+    "sha": "375db40",
+    "lastChange": "2025-10-22T14:02:25-04:00"
+  }
+}
+
+{
+  "repo": "CoAgent",
+  "commit": "369b00a",
+  "when": "2025-10-23T10:43:28.5588958-04:00",
+  "area": "general",
+  "type": "intent",
+  "summary": "all-repos sweep",
+  "data": {
+    "branch": "main"
+  }
+}
+
+{
+  "repo": "CoAgent",
+  "commit": "369b00a",
+  "when": "2025-10-23T10:43:28.6694127-04:00",
+  "area": "general",
+  "type": "progress",
+  "summary": "heartbeat",
+  "data": {
+    "sha": "369b00a",
+    "lastChange": "2025-10-22T14:02:31-04:00"
+  }
+}
+
+{
+  "repo": "CoAgent__mvp3_resume-20250923-111953Z",
+  "commit": "dbdff29",
+  "when": "2025-10-23T10:43:29.1706572-04:00",
+  "area": "general",
+  "type": "intent",
+  "summary": "all-repos sweep",
+  "data": {
+    "branch": "fix/empty-pipe"
+  }
+}
+
+{
+  "repo": "CoAgent__mvp3_resume-20250923-111953Z",
+  "commit": "dbdff29",
+  "when": "2025-10-23T10:43:29.2708952-04:00",
+  "area": "general",
+  "type": "progress",
+  "summary": "heartbeat",
+  "data": {
+    "sha": "dbdff29",
+    "lastChange": "2025-10-22T14:02:37-04:00"
+  }
+}
+
+{
+  "repo": "CoAudit",
+  "commit": "cc153ae",
+  "when": "2025-10-23T10:43:29.7299276-04:00",
+  "area": "general",
+  "type": "intent",
+  "summary": "all-repos sweep",
+  "data": {
+    "branch": "main"
+  }
+}
+
+{
+  "repo": "CoAudit",
+  "commit": "cc153ae",
+  "when": "2025-10-23T10:43:29.8303848-04:00",
+  "area": "general",
+  "type": "progress",
+  "summary": "heartbeat",
+  "data": {
+    "sha": "cc153ae",
+    "lastChange": "2025-10-22T13:11:24-04:00"
+  }
+}
+
+{
+  "repo": "CoCache",
+  "commit": "4203cf2",
+  "when": "2025-10-23T10:43:30.2168799-04:00",
+  "area": "general",
+  "type": "intent",
+  "summary": "all-repos sweep",
+  "data": {
+    "branch": "main"
+  }
+}
+
+{
+  "repo": "CoCache",
+  "commit": "4203cf2",
+  "when": "2025-10-23T10:43:30.3125977-04:00",
+  "area": "general",
+  "type": "progress",
+  "summary": "heartbeat",
+  "data": {
+    "sha": "4203cf2",
+    "lastChange": "2025-10-23T10:43:14-04:00"
+  }
+}
+
+{
+  "repo": "CoCivium",
+  "commit": "25b74488",
+  "when": "2025-10-23T10:43:31.5483904-04:00",
+  "area": "general",
+  "type": "intent",
+  "summary": "all-repos sweep",
+  "data": {
+    "branch": "main"
+  }
+}
+
+{
+  "repo": "CoCivium",
+  "commit": "25b74488",
+  "when": "2025-10-23T10:43:31.6500492-04:00",
+  "area": "general",
+  "type": "progress",
+  "summary": "heartbeat",
+  "data": {
+    "sha": "25b74488",
+    "lastChange": "2025-10-22T14:02:42-04:00"
+  }
+}
+
+{
+  "repo": "CoCivium-outreach",
+  "commit": "21539ffc",
+  "when": "2025-10-23T10:43:32.6669725-04:00",
+  "area": "general",
+  "type": "intent",
+  "summary": "all-repos sweep",
+  "data": {
+    "branch": "outreach/linkedin-reconnect-auto-20250912-0039"
+  }
+}
+
+{
+  "repo": "CoCivium-outreach",
+  "commit": "21539ffc",
+  "when": "2025-10-23T10:43:32.7717496-04:00",
+  "area": "general",
+  "type": "progress",
+  "summary": "heartbeat",
+  "data": {
+    "sha": "21539ffc",
+    "lastChange": "2025-10-22T14:02:49-04:00"
+  }
+}
+
+{
+  "repo": "CoCivium-website",
+  "commit": "ab726f0",
+  "when": "2025-10-23T10:43:33.6606397-04:00",
+  "area": "general",
+  "type": "intent",
+  "summary": "all-repos sweep",
+  "data": {
+    "branch": "main"
+  }
+}
+
+{
+  "repo": "CoCivium-website",
+  "commit": "ab726f0",
+  "when": "2025-10-23T10:43:33.7637111-04:00",
+  "area": "general",
+  "type": "progress",
+  "summary": "heartbeat",
+  "data": {
+    "sha": "ab726f0",
+    "lastChange": "2025-10-22T14:02:55-04:00"
+  }
+}
+
+{
+  "repo": "CoCivium.clean",
+  "commit": "7a6dcf4",
+  "when": "2025-10-23T10:43:34.1834049-04:00",
+  "area": "general",
+  "type": "intent",
+  "summary": "all-repos sweep",
+  "data": {
+    "branch": "gm/CoCivium.clean-20250911-172359"
+  }
+}
+
+{
+  "repo": "CoCivium.clean",
+  "commit": "7a6dcf4",
+  "when": "2025-10-23T10:43:34.2964655-04:00",
+  "area": "general",
+  "type": "progress",
+  "summary": "heartbeat",
+  "data": {
+    "sha": "7a6dcf4",
+    "lastChange": "2025-10-22T14:02:57-04:00"
+  }
+}
+
+{
+  "repo": "CoCiviumBackUp",
+  "commit": "6133cf4",
+  "when": "2025-10-23T10:43:35.1042920-04:00",
+  "area": "general",
+  "type": "intent",
+  "summary": "all-repos sweep",
+  "data": {
+    "branch": "main"
+  }
+}
+
+{
+  "repo": "CoCiviumBackUp",
+  "commit": "6133cf4",
+  "when": "2025-10-23T10:43:35.2014003-04:00",
+  "area": "general",
+  "type": "progress",
+  "summary": "heartbeat",
+  "data": {
+    "sha": "6133cf4",
+    "lastChange": "2025-10-22T14:03:01-04:00"
+  }
+}
+
+{
+  "repo": "CoCore",
+  "commit": "3e7e42c",
+  "when": "2025-10-23T10:43:35.9603379-04:00",
+  "area": "general",
+  "type": "intent",
+  "summary": "all-repos sweep",
+  "data": {
+    "branch": "main"
+  }
+}
+
+{
+  "repo": "CoCore",
+  "commit": "3e7e42c",
+  "when": "2025-10-23T10:43:36.0582059-04:00",
+  "area": "general",
+  "type": "progress",
+  "summary": "heartbeat",
+  "data": {
+    "sha": "3e7e42c",
+    "lastChange": "2025-10-22T14:03:04-04:00"
+  }
+}
+
+{
+  "repo": "CoLaminar",
+  "commit": "a37814d",
+  "when": "2025-10-23T10:43:36.4646542-04:00",
+  "area": "general",
+  "type": "intent",
+  "summary": "all-repos sweep",
+  "data": {
+    "branch": "main"
+  }
+}
+
+{
+  "repo": "CoLaminar",
+  "commit": "a37814d",
+  "when": "2025-10-23T10:43:36.5635753-04:00",
+  "area": "general",
+  "type": "progress",
+  "summary": "heartbeat",
+  "data": {
+    "sha": "a37814d",
+    "lastChange": "2025-10-22T14:03:06-04:00"
+  }
+}
+
+{
+  "repo": "CoModules",
+  "commit": "2684a87",
+  "when": "2025-10-23T10:43:36.9652067-04:00",
+  "area": "general",
+  "type": "intent",
+  "summary": "all-repos sweep",
+  "data": {
+    "branch": "main"
+  }
+}
+
+{
+  "repo": "CoModules",
+  "commit": "2684a87",
+  "when": "2025-10-23T10:43:37.0726523-04:00",
+  "area": "general",
+  "type": "progress",
+  "summary": "heartbeat",
+  "data": {
+    "sha": "2684a87",
+    "lastChange": "2025-10-22T14:03:08-04:00"
+  }
+}
+
+{
+  "repo": "CoPolitic",
+  "commit": "e1f90f2",
+  "when": "2025-10-23T10:43:37.6156127-04:00",
+  "area": "plane-app",
+  "type": "intent",
+  "summary": "all-repos sweep",
+  "data": {
+    "branch": "main"
+  }
+}
+
+{
+  "repo": "CoPolitic",
+  "commit": "e1f90f2",
+  "when": "2025-10-23T10:43:37.7215045-04:00",
+  "area": "plane-app",
+  "type": "progress",
+  "summary": "heartbeat",
+  "data": {
+    "sha": "e1f90f2",
+    "lastChange": "2025-10-22T16:49:14-04:00"
+  }
+}
+
+{
+  "repo": "CoRef",
+  "commit": "7b4d702",
+  "when": "2025-10-23T10:43:38.2374254-04:00",
+  "area": "general",
+  "type": "intent",
+  "summary": "all-repos sweep",
+  "data": {
+    "branch": "main"
+  }
+}
+
+{
+  "repo": "CoRef",
+  "commit": "7b4d702",
+  "when": "2025-10-23T10:43:38.3709408-04:00",
+  "area": "general",
+  "type": "progress",
+  "summary": "heartbeat",
+  "data": {
+    "sha": "7b4d702",
+    "lastChange": "2025-10-22T14:03:13-04:00"
+  }
+}
+
+{
+  "repo": "CoSteward",
+  "commit": "3bd2c90",
+  "when": "2025-10-23T10:43:38.7502045-04:00",
+  "area": "general",
+  "type": "intent",
+  "summary": "all-repos sweep",
+  "data": {
+    "branch": "main"
+  }
+}
+
+{
+  "repo": "CoSteward",
+  "commit": "3bd2c90",
+  "when": "2025-10-23T10:43:38.8517861-04:00",
+  "area": "general",
+  "type": "progress",
+  "summary": "heartbeat",
+  "data": {
+    "sha": "3bd2c90",
+    "lastChange": "2025-10-22T14:03:15-04:00"
+  }
+}
+
+{
+  "repo": "CoSuiteBackup",
+  "commit": "6472548",
+  "when": "2025-10-23T10:43:39.2240050-04:00",
+  "area": "general",
+  "type": "intent",
+  "summary": "all-repos sweep",
+  "data": {
+    "branch": "master"
+  }
+}
+
+{
+  "repo": "CoSuiteBackup",
+  "commit": "6472548",
+  "when": "2025-10-23T10:43:39.3242933-04:00",
+  "area": "general",
+  "type": "progress",
+  "summary": "heartbeat",
+  "data": {
+    "sha": "6472548",
+    "lastChange": "2025-10-22T14:03:18-04:00"
+  }
+}
+
+{
+  "repo": "EntMent",
+  "commit": "cb5eaf2",
+  "when": "2025-10-23T10:43:39.7290324-04:00",
+  "area": "general",
+  "type": "intent",
+  "summary": "all-repos sweep",
+  "data": {
+    "branch": "main"
+  }
+}
+
+{
+  "repo": "EntMent",
+  "commit": "cb5eaf2",
+  "when": "2025-10-23T10:43:39.8315484-04:00",
+  "area": "general",
+  "type": "progress",
+  "summary": "heartbeat",
+  "data": {
+    "sha": "cb5eaf2",
+    "lastChange": "2025-10-22T14:03:21-04:00"
+  }
+}
+
+{
+  "repo": "Games",
+  "commit": "31fa822",
+  "when": "2025-10-23T10:43:40.2147795-04:00",
+  "area": "FTW",
+  "type": "intent",
+  "summary": "all-repos sweep",
+  "data": {
+    "branch": "main"
+  }
+}
+
+{
+  "repo": "Games",
+  "commit": "31fa822",
+  "when": "2025-10-23T10:43:40.3092242-04:00",
+  "area": "FTW",
+  "type": "progress",
+  "summary": "heartbeat",
+  "data": {
+    "sha": "31fa822",
+    "lastChange": "2025-10-22T17:46:00-04:00"
+  }
+}
+
+{
+  "repo": "GIBindex",
+  "commit": "f003406",
+  "when": "2025-10-23T10:43:40.6830740-04:00",
+  "area": "general",
+  "type": "intent",
+  "summary": "all-repos sweep",
+  "data": {
+    "branch": "main"
+  }
+}
+
+{
+  "repo": "GIBindex",
+  "commit": "f003406",
+  "when": "2025-10-23T10:43:40.7759476-04:00",
+  "area": "general",
+  "type": "progress",
+  "summary": "heartbeat",
+  "data": {
+    "sha": "f003406",
+    "lastChange": "2025-10-22T14:03:26-04:00"
+  }
+}
+
+{
+  "repo": "Godspawn",
+  "commit": "c86a4dc",
+  "when": "2025-10-23T10:43:41.1492989-04:00",
+  "area": "general",
+  "type": "intent",
+  "summary": "all-repos sweep",
+  "data": {
+    "branch": "main"
+  }
+}
+
+{
+  "repo": "Godspawn",
+  "commit": "c86a4dc",
+  "when": "2025-10-23T10:43:41.2384431-04:00",
+  "area": "general",
+  "type": "progress",
+  "summary": "heartbeat",
+  "data": {
+    "sha": "c86a4dc",
+    "lastChange": "2025-10-22T16:17:51-04:00"
+  }
+}
+
+{
+  "repo": "GroupBuild",
+  "commit": "ef3e0a1",
+  "when": "2025-10-23T10:43:41.6213746-04:00",
+  "area": "general",
+  "type": "intent",
+  "summary": "all-repos sweep",
+  "data": {
+    "branch": "polish/bootstrap-20250915"
+  }
+}
+
+{
+  "repo": "GroupBuild",
+  "commit": "ef3e0a1",
+  "when": "2025-10-23T10:43:41.7329407-04:00",
+  "area": "general",
+  "type": "progress",
+  "summary": "heartbeat",
+  "data": {
+    "sha": "ef3e0a1",
+    "lastChange": "2025-10-22T14:03:35-04:00"
+  }
+}
+
+{
+  "repo": "GroupBuild-website",
+  "commit": "a1a9f6f",
+  "when": "2025-10-23T10:43:42.0273592-04:00",
+  "area": "general",
+  "type": "intent",
+  "summary": "all-repos sweep",
+  "data": {
+    "branch": "main"
+  }
+}
+
+{
+  "repo": "GroupBuild-website",
+  "commit": "a1a9f6f",
+  "when": "2025-10-23T10:43:42.1000030-04:00",
+  "area": "general",
+  "type": "progress",
+  "summary": "heartbeat",
+  "data": {
+    "sha": "a1a9f6f",
+    "lastChange": "2025-10-22T14:03:36-04:00"
+  }
+}
+
+{
+  "repo": "InSeed",
+  "commit": "ee94b47",
+  "when": "2025-10-23T10:43:42.3742797-04:00",
+  "area": "general",
+  "type": "intent",
+  "summary": "all-repos sweep",
+  "data": {
+    "branch": "main"
+  }
+}
+
+{
+  "repo": "InSeed",
+  "commit": "ee94b47",
+  "when": "2025-10-23T10:43:42.4473131-04:00",
+  "area": "general",
+  "type": "progress",
+  "summary": "heartbeat",
+  "data": {
+    "sha": "ee94b47",
+    "lastChange": "2025-10-22T14:03:38-04:00"
+  }
+}
+
+{
+  "repo": "MeritRank",
+  "commit": "d063e0d",
+  "when": "2025-10-23T10:43:42.7300862-04:00",
+  "area": "general",
+  "type": "intent",
+  "summary": "all-repos sweep",
+  "data": {
+    "branch": "main"
+  }
+}
+
+{
+  "repo": "MeritRank",
+  "commit": "d063e0d",
+  "when": "2025-10-23T10:43:42.7965923-04:00",
+  "area": "general",
+  "type": "progress",
+  "summary": "heartbeat",
+  "data": {
+    "sha": "d063e0d",
+    "lastChange": "2025-10-22T14:03:40-04:00"
+  }
+}
+
+{
+  "repo": "Opename",
+  "commit": "a174a1a",
+  "when": "2025-10-23T10:43:43.2326871-04:00",
+  "area": "general",
+  "type": "intent",
+  "summary": "all-repos sweep",
+  "data": {
+    "branch": "main"
+  }
+}
+
+{
+  "repo": "Opename",
+  "commit": "a174a1a",
+  "when": "2025-10-23T10:43:43.3007271-04:00",
+  "area": "general",
+  "type": "progress",
+  "summary": "heartbeat",
+  "data": {
+    "sha": "a174a1a",
+    "lastChange": "2025-10-22T14:03:42-04:00"
+  }
+}
+
+{
+  "repo": "opename-ops",
+  "commit": "0d31884",
+  "when": "2025-10-23T10:43:43.5592800-04:00",
+  "area": "general",
+  "type": "intent",
+  "summary": "all-repos sweep",
+  "data": {
+    "branch": "main"
+  }
+}
+
+{
+  "repo": "opename-ops",
+  "commit": "0d31884",
+  "when": "2025-10-23T10:43:43.6260766-04:00",
+  "area": "general",
+  "type": "progress",
+  "summary": "heartbeat",
+  "data": {
+    "sha": "0d31884",
+    "lastChange": "2025-10-22T14:03:44-04:00"
+  }
+}
+
+{
+  "repo": "rickballard",
+  "commit": "feed5e2",
+  "when": "2025-10-23T10:43:43.8991761-04:00",
+  "area": "general",
+  "type": "intent",
+  "summary": "all-repos sweep",
+  "data": {
+    "branch": "main"
+  }
+}
+
+{
+  "repo": "rickballard",
+  "commit": "feed5e2",
+  "when": "2025-10-23T10:43:43.9692952-04:00",
+  "area": "general",
+  "type": "progress",
+  "summary": "heartbeat",
+  "data": {
+    "sha": "feed5e2",
+    "lastChange": "2025-10-22T14:03:46-04:00"
+  }
+}
+
+{
+  "repo": "RickPublic",
+  "commit": "9a9524c",
+  "when": "2025-10-23T10:43:44.2324316-04:00",
+  "area": "general",
+  "type": "intent",
+  "summary": "all-repos sweep",
+  "data": {
+    "branch": "main"
+  }
+}
+
+{
+  "repo": "RickPublic",
+  "commit": "9a9524c",
+  "when": "2025-10-23T10:43:44.3101704-04:00",
+  "area": "general",
+  "type": "progress",
+  "summary": "heartbeat",
+  "data": {
+    "sha": "9a9524c",
+    "lastChange": "2025-10-22T14:03:47-04:00"
+  }
+}
+
