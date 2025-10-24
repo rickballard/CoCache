@@ -23,3 +23,30 @@
   "sha256": "682D92EC3744961E9C244511173FEDC9944B3607B1327BFD4DE6A7FBC47559D5"
 }
 
+{
+  "file": "RP_AdviceBomb_v1.zip",
+  "kind": "advicebomb-zip",
+  "repo": "CoAgent",
+  "added": "2025-10-24T14:45:31.0588545Z",
+  "size": 2620,
+  "sha256": "B0323B4E6919FE1A6090FF80EE7B141F5D063933E150122AC3ABC646C91C3399"
+}
+
+{
+  "file": "AdviceBomb_CoTheory_Mythos_20251024.zip",
+  "kind": "advicebomb-zip",
+  "repo": "CoAgent",
+  "added": "2025-10-24T14:45:31.5318787Z",
+  "size": 2177,
+  "sha256": "22536F4EDBFAE8E918ED689007F0AD99FE34D260BA7AAAE2EAAF91AB37B797CE"
+}
+
+{
+  "file": "AdviceBomb_CoAgent_Outreach_CLRIM_20251024_124930.zip",
+  "kind": "advicebomb-zip",
+  "repo": "CoAgent",
+  "added": "2025-10-24T14:45:31.7275498Z",
+  "size": 10871,
+  "sha256": "682D92EC3744961E9C244511173FEDC9944B3607B1327BFD4DE6A7FBC47559D5"
+}
+
