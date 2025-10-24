@@ -1,0 +1,16 @@
+CoSync Bloat Report — CoAgent — 2025-10-24T09:15:15
+Repo Size (excl .git): 21.71 MB
+
+Top 12 files (MB):
+  15.2  C:\Users\Chris\Documents\GitHub\CoAgent\tools\Start-MVP3-Orchestrator.ps1
+  3.02  C:\Users\Chris\Documents\GitHub\CoAgent\docs\index\ADVICE-INDEX.md
+  3.01  C:\Users\Chris\Documents\GitHub\CoAgent\docs\index\TODO-INDEX.md
+  0.14  C:\Users\Chris\Documents\GitHub\CoAgent\src\CoAgent.Launcher\bin\Release\net8.0-windows\CoAgent.exe
+  0.14  C:\Users\Chris\Documents\GitHub\CoAgent\src\CoAgent.Launcher\obj\Release\net8.0-windows\apphost.exe
+  0.01  C:\Users\Chris\Documents\GitHub\CoAgent\src\CoAgent.Launcher\bin\Release\net8.0-windows\CoAgent.pdb
+  0.01  C:\Users\Chris\Documents\GitHub\CoAgent\src\CoAgent.Launcher\obj\Release\net8.0-windows\CoAgent.pdb
+  0.01  C:\Users\Chris\Documents\GitHub\CoAgent\src\CoTray\Program.cs
+  0.01  C:\Users\Chris\Documents\GitHub\CoAgent\src\CoAgent.Launcher\bin\Release\net8.0-windows\CoAgent.dll
+  0.01  C:\Users\Chris\Documents\GitHub\CoAgent\src\CoAgent.Launcher\obj\Release\net8.0-windows\CoAgent.dll
+  0.01  C:\Users\Chris\Documents\GitHub\CoAgent\src\CoAgent.Launcher\obj\Release\net8.0-windows\ref\CoAgent.dll
+  0.01  C:\Users\Chris\Documents\GitHub\CoAgent\src\CoAgent.Launcher\obj\Release\net8.0-windows\refint\CoAgent.dll

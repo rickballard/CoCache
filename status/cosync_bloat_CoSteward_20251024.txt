@@ -1,0 +1,16 @@
+CoSync Bloat Report — CoSteward — 2025-10-24T09:15:36
+Repo Size (excl .git): 0.01 MB
+
+Top 12 files (MB):
+     0  C:\Users\Chris\Documents\GitHub\CoSteward\README.md
+     0  C:\Users\Chris\Documents\GitHub\CoSteward\scripts\CoSync.ps1
+     0  C:\Users\Chris\Documents\GitHub\CoSteward\scripts\Update-StatusBlock.ps1
+     0  C:\Users\Chris\Documents\GitHub\CoSteward\scripts\Measure-CoDrift.ps1
+     0  C:\Users\Chris\Documents\GitHub\CoSteward\.githooks\pre-commit.ps1
+     0  C:\Users\Chris\Documents\GitHub\CoSteward\STATUS\badges\eta_badge.svg
+     0  C:\Users\Chris\Documents\GitHub\CoSteward\STATUS\badges\sanitation_badge.svg
+     0  C:\Users\Chris\Documents\GitHub\CoSteward\STATUS\badges\hitchhiker_badge.svg
+     0  C:\Users\Chris\Documents\GitHub\CoSteward\STATUS\badges\last_tick_badge.svg
+     0  C:\Users\Chris\Documents\GitHub\CoSteward\STATUS\badges\throughput_badge.svg
+     0  C:\Users\Chris\Documents\GitHub\CoSteward\docs\HUMANS.md
+     0  C:\Users\Chris\Documents\GitHub\CoSteward\STATUS\notices\2025-10-10.md

@@ -1,0 +1,16 @@
+CoSync Bloat Report — RickPublic — 2025-10-24T09:15:47
+Repo Size (excl .git): 12.51 MB
+
+Top 12 files (MB):
+  1.33  C:\Users\Chris\Documents\GitHub\RickPublic\tools\node_modules\playwright\lib\transform\babelBundleImpl.js
+   0.9  C:\Users\Chris\Documents\GitHub\RickPublic\tools\node_modules\playwright-core\types\types.d.ts
+  0.72  C:\Users\Chris\Documents\GitHub\RickPublic\tools\node_modules\playwright-core\types\protocol.d.ts
+   0.6  C:\Users\Chris\Documents\GitHub\RickPublic\tools\node_modules\playwright-core\lib\vite\traceViewer\assets\defaultSettingsView-w0zYjHsW.js
+  0.49  C:\Users\Chris\Documents\GitHub\RickPublic\tools\node_modules\playwright-core\lib\vite\htmlReport\index.html
+  0.45  C:\Users\Chris\Documents\GitHub\RickPublic\tools\node_modules\playwright-core\lib\utilsBundleImpl\index.js
+  0.35  C:\Users\Chris\Documents\GitHub\RickPublic\tools\node_modules\playwright\types\test.d.ts
+  0.34  C:\Users\Chris\Documents\GitHub\RickPublic\tools\node_modules\playwright-core\lib\vite\recorder\assets\index-Y-X2TGJv.js
+  0.31  C:\Users\Chris\Documents\GitHub\RickPublic\tools\node_modules\playwright\ThirdPartyNotices.txt
+  0.29  C:\Users\Chris\Documents\GitHub\RickPublic\tools\node_modules\playwright-core\lib\generated\injectedScriptSource.js
+  0.28  C:\Users\Chris\Documents\GitHub\RickPublic\tools\node_modules\playwright\lib\mcpBundleImpl.js
+  0.28  C:\Users\Chris\Documents\GitHub\RickPublic\tools\node_modules\playwright-core\lib\vite\traceViewer\assets\codeMirrorModule-eyVcHN77.js
