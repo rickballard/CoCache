@@ -908,3 +908,31 @@
   "source": "agent"
 }
 
+{
+  "repo": "CoCivium",
+  "commit": "465f8691",
+  "when": "2025-10-24T10:45:45.8360528-04:00",
+  "area": "viz",
+  "type": "progress",
+  "summary": "Updated hero data",
+  "data": {
+    "file": "site/hero/data.json"
+  }
+}
+
+{
+  "repo": "CoCache",
+  "commit": "fa3bb64",
+  "when": "2025-10-24T16:20:04.9350641Z",
+  "area": "advice",
+  "type": "note",
+  "summary": "SeedCrystal AdviceBomb ingested",
+  "data": {
+    "bytes": 3179,
+    "rel": "advice/incoming/Advice_SeedCrystal_20251024_153510.zip",
+    "file": "Advice_SeedCrystal_20251024_153510.zip",
+    "sha256": "CEA1FF83C8200616CF8B0870621D26967F29B48BF5D685BE3B39C65948A6E32E"
+  },
+  "source": "agent"
+}
+
