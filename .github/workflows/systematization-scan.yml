@@ -1,0 +1,22 @@
+name: Systematization Scan (weekly)
+on:
+  schedule: [{ cron: "20 5 * * 1" }]
+  workflow_dispatch:
+permissions: { contents: write }
+jobs:
+  scan:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run scan
+        shell: pwsh
+        run: pwsh -NoLogo -NoProfile -File "tools/Systematization-Scan.ps1"
+      - name: Commit dashboard
+        shell: pwsh
+        run: |
+          git config user.name  "systematization-bot"
+          git config user.email "system-bot@users.noreply.github.com"
+          git add docs/dashboards/systematization_scan.csv docs/intent/systematization_manifest.json status/log/*.jsonl
+          if (git diff --cached --quiet) { exit 0 }
+          git commit -m "systematization: weekly refresh"
+          git push
