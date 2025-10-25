@@ -1,0 +1,14 @@
+# CoEvo Loop Governance Bomb (v1)
+
+This AdviceBomb defines and scaffolds a CoEvolution Loop (CoEvoLoop) governance framework for use within CoSuite. It includes protocols for:
+
+- Managing AI-human iterative deliverable evolution
+- Preventing runaway productivity, divergence, or unsustainable forking
+- Maintaining transparency, congruence, and pacing via BPOE
+- Anchoring all loops in trustable audit trails and convergence pathways
+
+See `LOOP_GUIDE.md` for concept-level governance, and `GOVERNANCE_PLAN.md` for implementation guidance.
+
+---
+Drop zone: `CoCache/advice/inbox/`
+Trigger: CoPing/Watcher/Advice-Inbox handler

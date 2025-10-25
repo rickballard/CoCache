@@ -1,0 +1,135 @@
+[
+  {
+    "ts": "2025-10-25T12-54-41",
+    "src": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\advice\\inbox\\GOVERNANCE_PLAN.md",
+    "out": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T12-54-41_GOVERNANCE_PLAN.md",
+    "name": "GOVERNANCE_PLAN.md",
+    "ext": ".md"
+  },
+  {
+    "ts": "2025-10-25T12-54-41",
+    "src": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\advice\\inbox\\LOOP_GUIDE.md",
+    "out": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T12-54-41_LOOP_GUIDE.md",
+    "name": "LOOP_GUIDE.md",
+    "ext": ".md"
+  },
+  {
+    "ts": "2025-10-25T12-54-41",
+    "src": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\advice\\inbox\\MANIFEST.json",
+    "out": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T12-54-41_MANIFEST.json",
+    "name": "MANIFEST.json",
+    "ext": ".json"
+  },
+  {
+    "ts": "2025-10-25T12-54-41",
+    "src": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\advice\\inbox\\README.md",
+    "out": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T12-54-41_README.md",
+    "name": "README.md",
+    "ext": ".md"
+  },
+  {
+    "ts": "2025-10-25T13-28-56",
+    "src": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\advice\\inbox\\Beaconing-AdviceBomb_v6_20251025_164942.zip",
+    "out": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-28-56_AI_BEACON_STRATEGY_v6.md",
+    "name": "AI_BEACON_STRATEGY_v6.md",
+    "ext": ".md"
+  },
+  {
+    "ts": "2025-10-25T13-28-56",
+    "src": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\advice\\inbox\\Beaconing-AdviceBomb_v6_20251025_164942.zip",
+    "out": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-28-56_MANIFEST.json",
+    "name": "MANIFEST.json",
+    "ext": ".json"
+  },
+  {
+    "ts": "2025-10-25T13-28-56",
+    "src": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\advice\\inbox\\Beaconing-AdviceBomb_v6_20251025_164942.zip",
+    "out": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-28-56_README.md",
+    "name": "README.md",
+    "ext": ".md"
+  },
+  {
+    "ts": "2025-10-25T13-28-56",
+    "src": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\advice\\inbox\\CoCivium_AI_Guardrails_PublicPromise_v1.1_20251025_172133.zip",
+    "out": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-28-56_CoSync_OK.txt",
+    "name": "CoSync_OK.txt",
+    "ext": ".txt"
+  },
+  {
+    "ts": "2025-10-25T13-28-56",
+    "src": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\advice\\inbox\\CoCivium_AI_Guardrails_PublicPromise_v1.1_20251025_172133.zip",
+    "out": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-28-56_Public_AI_Guardrails.json",
+    "name": "Public_AI_Guardrails.json",
+    "ext": ".json"
+  },
+  {
+    "ts": "2025-10-25T13-28-56",
+    "src": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\advice\\inbox\\CoCivium_AI_Guardrails_PublicPromise_v1.1_20251025_172133.zip",
+    "out": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-28-56_Public_AI_Guardrails.md",
+    "name": "Public_AI_Guardrails.md",
+    "ext": ".md"
+  },
+  {
+    "ts": "2025-10-25T13-28-56",
+    "src": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\advice\\inbox\\CoCivium_AI_Guardrails_PublicPromise_v1.1_20251025_172133.zip",
+    "out": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-28-56_README.md",
+    "name": "README.md",
+    "ext": ".md"
+  },
+  {
+    "ts": "2025-10-25T13-28-56",
+    "src": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\advice\\inbox\\CoCivium_AI_Guardrails_PublicPromise_v1.1_20251025_172133.zip",
+    "out": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-28-56_es.md",
+    "name": "es.md",
+    "ext": ".md"
+  },
+  {
+    "ts": "2025-10-25T13-28-56",
+    "src": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\advice\\inbox\\CoCivium_AI_Guardrails_PublicPromise_v1.1_20251025_172133.zip",
+    "out": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-28-56_fr.md",
+    "name": "fr.md",
+    "ext": ".md"
+  },
+  {
+    "ts": "2025-10-25T13-28-56",
+    "src": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\advice\\inbox\\CoCivium_AI_Guardrails_PublicPromise_v1.1_20251025_172133.zip",
+    "out": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-28-56_zh.md",
+    "name": "zh.md",
+    "ext": ".md"
+  },
+  {
+    "ts": "2025-10-25T13-28-56",
+    "src": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\advice\\inbox\\CoEvoLoop-Governance-Bomb_v1_20251025_164942.zip",
+    "out": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-28-56_GOVERNANCE_PLAN.md",
+    "name": "GOVERNANCE_PLAN.md",
+    "ext": ".md"
+  },
+  {
+    "ts": "2025-10-25T13-28-56",
+    "src": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\advice\\inbox\\CoEvoLoop-Governance-Bomb_v1_20251025_164942.zip",
+    "out": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-28-56_LOOP_GUIDE.md",
+    "name": "LOOP_GUIDE.md",
+    "ext": ".md"
+  },
+  {
+    "ts": "2025-10-25T13-28-56",
+    "src": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\advice\\inbox\\CoEvoLoop-Governance-Bomb_v1_20251025_164942.zip",
+    "out": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-28-56_MANIFEST.json",
+    "name": "MANIFEST.json",
+    "ext": ".json"
+  },
+  {
+    "ts": "2025-10-25T13-28-56",
+    "src": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\advice\\inbox\\CoEvoLoop-Governance-Bomb_v1_20251025_164942.zip",
+    "out": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-28-56_README.md",
+    "name": "README.md",
+    "ext": ".md"
+  },
+  {
+    "ts": "2025-10-25T13-28-56",
+    "src": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\advice\\inbox\\README.md",
+    "out": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-28-56_README.md",
+    "name": "README.md",
+    "ext": ".md"
+  }
+]
