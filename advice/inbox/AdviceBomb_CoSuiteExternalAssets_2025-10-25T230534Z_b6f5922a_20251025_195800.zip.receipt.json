@@ -1,0 +1,10 @@
+{
+  "sha256": "b6f5922a428e71fc54251a1d826b7404dc580d1e1a81f9c98fe0d9177b901a48",
+  "inbox_file": "AdviceBomb_CoSuiteExternalAssets_2025-10-25T230534Z_b6f5922a_20251025_195800.zip",
+  "size_bytes": 6718,
+  "source_path": "C:\\Users\\Chris\\Downloads\\AdviceBomb_CoSuiteExternalAssets_2025-10-25T230534Z.zip",
+  "notes": "Auto-ingested per CoCache advice/inbox README; payload contains run.ps1 and docs.",
+  "created_utc": "2025-10-25T23:58:01.2174206Z",
+  "name": "AdviceBomb_CoSuiteExternalAssets_2025-10-25T230534Z",
+  "kind": "AdviceBombReceipt"
+}
