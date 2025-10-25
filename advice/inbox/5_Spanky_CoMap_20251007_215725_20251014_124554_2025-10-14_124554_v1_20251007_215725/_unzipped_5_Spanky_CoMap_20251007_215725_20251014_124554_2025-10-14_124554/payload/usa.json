@@ -1,0 +1,16 @@
+{
+  "name": "USA (Approximation)",
+  "version": "demo",
+  "scores": {
+    "copolitic": 65,
+    "cofinance": 65,
+    "cosociety": 65,
+    "coinnovate": 65,
+    "cosustain": 65,
+    "cohealth": 65,
+    "coeducate": 65,
+    "coculture": 65,
+    "cosafe": 65,
+    "codiversity": 65
+  }
+}

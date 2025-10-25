@@ -1,0 +1,5 @@
+- Establish CoAgency core visuals + docs in repo.
+- Provide terms for GIBindex coherence.
+- (Unfinished) Recognition White Paper.
+- (Unfinished) TrustFlag public site + signing proofs.
+- (Unfinished) Congruence Engine MVP.

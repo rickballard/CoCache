@@ -1,0 +1,14 @@
+{
+  "from": "CoCacheReset",
+  "purpose": "Advise CoAgent Productization on MVP+ testing needs",
+  "testPersona": "novice_non_coder",
+  "priority": "high",
+  "requirements": [
+    "built-in onboarding tutorial",
+    "session recall (start with CoCache Reset)",
+    "sidecar storage integration",
+    "support repo reset workflows",
+    "enable session-led coevolution of CoAgent"
+  ],
+  "implication": "Raises MVP bar; CoAgent must be nearly product-ready"
+}

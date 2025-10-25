@@ -1,0 +1,40 @@
+{
+  "name": "insights/epochs-and-regimes",
+  "title": "Political\u2013Economic Regimes & Falsifiers \u2014 Insights Pair",
+  "version": "0.1.0",
+  "created_utc": "2025-10-14T23:25:31.098116Z",
+  "authors": [
+    "CoCivium / InSeed (Rick, steward)",
+    "GPT-5 Thinking"
+  ],
+  "license": "CC-BY-4.0",
+  "tags": [
+    "insights",
+    "political-economy",
+    "regimes",
+    "falsifiers",
+    "governance",
+    "metrics",
+    "CoSuite"
+  ],
+  "gibberlink": {
+    "concept": "REGIME.FALSIFIER.FRAME",
+    "aliases": [
+      "EPOCH.SCORECARD",
+      "PCTM.FRAME"
+    ]
+  },
+  "cosuite": {
+    "module": "Insights",
+    "pairing": {
+      "theory": "theory.md",
+      "pragmatics": "pragmatics.md"
+    },
+    "scorecards": [
+      "scorecard_template.csv",
+      "cocivium_hypotheses.csv"
+    ],
+    "human_gate": true,
+    "review_cadence": "Quarterly metrics; Annual composite scoring"
+  }
+}

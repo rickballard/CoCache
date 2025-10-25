@@ -1,0 +1,11 @@
+name: standards_gate
+on: [pull_request]
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check required artifacts
+        run: |
+          test -f standards_map.yaml || (echo "missing standards_map.yaml" && exit 1)
+          echo "OK"

@@ -1,0 +1,26 @@
+{
+  "root": "Spanky_examples_20251008_004552",
+  "tree": [
+    "_spanky/_copayload.meta.json",
+    "_spanky/checksums.json",
+    "notes/ASSUMPTIONS.md",
+    "notes/BPOE.md",
+    "notes/DECISIONS.md",
+    "notes/DEPENDENCIES.md",
+    "notes/DEPRECATED.md",
+    "notes/GLOSSARY.md",
+    "notes/INTENTIONS.md",
+    "notes/RISKS.md",
+    "notes/WEBSITE_MANIFEST.md",
+    "payload/01_INSTRUCTION_BLOCK.md",
+    "payload/01_INSTRUCTION_BLOCK.txt",
+    "payload/_examples/_copayload.meta.json",
+    "payload/_examples/_wrap.manifest.json",
+    "payload/forms/notes/DEPRECATED.md",
+    "summaries/ROADMAP_NOTES.md",
+    "summaries/SOURCES.md",
+    "summaries/TLDR.md",
+    "transcripts/session.md"
+  ],
+  "version": "1.0"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "AdviceBomb_EvoPath_CoSuite",
+  "version": "0.1.0",
+  "created": "20251014_161623",
+  "origin_session": "CoSuite Strategic Summary",
+  "purpose": "Summarize insights, positioning for CoAgent vs ChatGPT, and beaconing plan for GitHub/org visibility. Ready for ingestion by other sessions.",
+  "entrypoints": [
+    "payload/PLAN.md"
+  ],
+  "tags": [
+    "CoCivium",
+    "CoAgent",
+    "CoCore",
+    "GIBindex",
+    "CoRef",
+    "InSeed",
+    "RickPublic",
+    "Academy",
+    "EvoPath",
+    "Beaconing",
+    "OrgSetup"
+  ]
+}

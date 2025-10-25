@@ -1,0 +1,3 @@
+- Perception risk if autonomy exceeds human oversight.
+- Delay risk without Recognition White Paper owner.
+- Asset drift risk if visuals change without doc sync.

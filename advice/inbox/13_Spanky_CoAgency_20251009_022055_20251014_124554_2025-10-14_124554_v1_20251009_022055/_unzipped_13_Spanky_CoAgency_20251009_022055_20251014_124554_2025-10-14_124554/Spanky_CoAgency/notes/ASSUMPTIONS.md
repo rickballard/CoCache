@@ -1,0 +1,2 @@
+- Standards bodies value auditability, continuity, representation, accountability.
+- CI can render PNG from SVG if local tools absent.

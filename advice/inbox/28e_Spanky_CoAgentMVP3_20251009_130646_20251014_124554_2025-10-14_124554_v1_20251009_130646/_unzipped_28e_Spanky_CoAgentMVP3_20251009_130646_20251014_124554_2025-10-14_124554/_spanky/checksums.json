@@ -1,0 +1,30 @@
+{
+  "_spanky": {
+    "_copayload.meta.json": "e32e4fb452ab8d78e08ee0719fa3cdf9eeaa43f97539d3cf86c12a62f3f74642",
+    "_wrap.manifest.json": "a7079dc31aa4ab0c741daf2094247e8072dd6e12f69c417f74aa8234f9117cd6",
+    "checksums.json": "eaf9a22db05ee0c765aaad9a7e7b20b085a80e18de62f14eaa6ab1f0b2e21c76",
+    "out.txt": "d5d9de651d4a2ae736fe4478cee7754f694b351e4d246d82bb07bd46cdc0b835"
+  },
+  "transcripts": {
+    "session.md": "628302c921443444b4f1ab6722e506b609b6673cf9c594e3fa224e75dbc11f2f"
+  },
+  "payload": {
+    "MISSING_PAYLOAD.md": "2c21b9144a6c33a7e35bb9300cd2ab4eef83f959232f5d0a0a17523d4299b525"
+  },
+  "notes": {
+    "ASSUMPTIONS.md": "4b798012e899096c37b1805a6eaa2eb561d8611f8850e74f3c515f2cbff6a48c",
+    "BPOE.md": "49e94776a8c0938ea3796c80a1774958a98a0cc74492142419c8bfca047e3594",
+    "DECISIONS.md": "2aa830ff96d928232d414cfd70ac032c229d86fdad8d1ee51e9a74d176b82527",
+    "DEPENDENCIES.md": "94e972b69d7175581aa37f64c4496d98effa1928ad22bc6ddfcc3c58f0fd9313",
+    "DEPRECATED.md": "18d780fcbd621f9c85e92c0dacaeafa1a9e6e5fab33e1a2c531747853e2fe336",
+    "GLOSSARY.md": "ec0f1903e7709ba20dd0b32e4f3374761ebb646e6b323fc2e14566fd198b48bc",
+    "INTENTIONS.md": "4125aa7ff28006010e0a0bb24f986479e716666101c7492270b5f77699a08b40",
+    "RISKS.md": "42413a1f1b8562d81ecded7a07393a5bf1c47fdd6f53db72a4a53f86b896b264",
+    "WEBSITE_MANIFEST.md": "2507d80cd5daf3e6b97c5517c82ef2755b6913168b265379b4bc7c4b18e30eaa"
+  },
+  "summaries": {
+    "ROADMAP_NOTES.md": "9606af5db523db649c471716fbeb9fc9dfc443be13f32ca221c84c6b43860749",
+    "SOURCES.md": "1108773bae673a9a73b970d02c8df7d1ab104f2a20a99f7dd4b7795423b80b19",
+    "TLDR.md": "c0bc40518c8fe4f19cb756a20790355571d9f95477b591c4e6bbce106cf0e5c8"
+  }
+}

@@ -1,0 +1,2 @@
+# TL;DR
+Define CoGenes + lineage; enforce tiered change thresholds; human-gate significant edits; add metadata/UX; align with hybrid minds & biotech guardrails. Deliverables queued; implementation deferred.

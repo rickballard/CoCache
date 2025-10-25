@@ -1,0 +1,3 @@
+- Use collective personhood framing (humans + AIs).
+- Keep diagram uncluttered; orbit categories listed outside rings.
+- Store under `insights/CoAgency/`.

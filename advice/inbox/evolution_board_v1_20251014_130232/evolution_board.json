@@ -1,0 +1,24 @@
+{
+  "panels": [
+    {
+      "name": "Congruence",
+      "metric": "C"
+    },
+    {
+      "name": "Positive Evolution",
+      "metric": "PE"
+    },
+    {
+      "name": "Drift Risk",
+      "metric": "DR"
+    },
+    {
+      "name": "Evidence Level",
+      "metric": "E"
+    },
+    {
+      "name": "EVI",
+      "metric": "EVI"
+    }
+  ]
+}

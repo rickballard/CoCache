@@ -1,0 +1,13 @@
+# MANIFEST.json
+{
+  "name": "Beaconing-AdviceBomb_v6",
+  "version": "6.0",
+  "date": "2025-10-25",
+  "files": [
+    "README.md",
+    "AI_BEACON_STRATEGY_v6.md"
+  ],
+  "target_repo": "rickballard/CoCache",
+  "target_path": "advice/inbox",
+  "trigger": "CoPing/Watcher/Advice-Inbox"
+}

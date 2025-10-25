@@ -1,0 +1,8 @@
+Please undertake a thorough analysis of the session’s discussions. Extract main insights, directions, and key points. Produce:
+1) EXEC_SUMMARY.md (≤250 words);
+2) ACTIONS.md (who/what/when, next 2 weeks);
+3) RISKS.md with mitigations;
+4) METRICS.md with falsifiable targets;
+5) DELIVERABLES/ (2‑pager, demo storyboard, checklists);
+6) DO SCRIPTS to stage into CoCache/AdviceBombs/<Area>/<Topic>/.
+Avoid manifesto language; use market‑structure framing; include abort conditions and a pre‑send verifier. Output a zip with the above structure.

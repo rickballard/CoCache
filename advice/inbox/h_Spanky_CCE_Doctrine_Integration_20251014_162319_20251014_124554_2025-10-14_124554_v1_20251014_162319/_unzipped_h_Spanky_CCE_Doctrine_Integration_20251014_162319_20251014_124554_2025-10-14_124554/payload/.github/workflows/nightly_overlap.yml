@@ -1,0 +1,10 @@
+name: nightly_overlap
+on:
+  schedule: [{cron: "0 3 * * *"}]
+jobs:
+  overlap:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Calc overlap
+        run: python tools/calc_overlap.py

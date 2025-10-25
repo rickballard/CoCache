@@ -1,0 +1,122 @@
+{
+  "_spanky/_wrap.manifest.json": {
+    "sha256": "d1fd55e900fde9e0dc3a9b5a2b81cc772bd8eb060c26675ba1bd7450c06014c9",
+    "bytes": 711
+  },
+  "_spanky/_copayload.meta.json": {
+    "sha256": "3c0112736b680d3350aa1feb5cae28fa10e51517d078a7c03fd78719d6719363",
+    "bytes": 289
+  },
+  "transcripts/session.md": {
+    "sha256": "4e0149d510e74f8a311da77331aaf348ec9b295a31752e619fed09388a4222ec",
+    "bytes": 1357
+  },
+  "payload/attachments/session-uploads/Spanky_Request_Pack_v2_2_2025-10-08.zip": {
+    "sha256": "fbd18d0a01dd9074298d053c41f757ae5f708226d2ace4000f2e5127a7e7cd7f",
+    "bytes": 3420
+  },
+  "payload/cpda/README.md": {
+    "sha256": "eb02782332cb5ef5674c410e102f681f5d6aa56e6863102f5ba71e6181ebd7fe",
+    "bytes": 680
+  },
+  "payload/cpda/charter/constitution.md": {
+    "sha256": "5fa9a6b02ab2bc96d180f80daa7f9af517cce08829f92bd01a22e9af6f671ab0",
+    "bytes": 962
+  },
+  "payload/cpda/governance/roles.md": {
+    "sha256": "eac378de8c9cc0fe65487c41c945512551265765e3e989550163cf4a563eac52",
+    "bytes": 420
+  },
+  "payload/cpda/docs/index.md": {
+    "sha256": "1476abe6624b42d4e599d5141233c6260abb57fde87f39503ac688c124d80c54",
+    "bytes": 860
+  },
+  "payload/cpda/docs/initiatives/cadi.md": {
+    "sha256": "171eea7c698702972aee3b9b8f943cc8d61f27a20d8dc98047ebdaa72b7ca901",
+    "bytes": 715
+  },
+  "payload/cpda/docs/assets/quadrant-plot.svg": {
+    "sha256": "d39d338d1b875a40e4c844c824c93e6304ac65c51b191936313cafd07fcde7be",
+    "bytes": 1141
+  },
+  "payload/cpda/docs/assets/radar-readiness.svg": {
+    "sha256": "40d7d0fd46ada184363fb071d00620748b9067d4b5bd0cf9c42dcdf90024baf2",
+    "bytes": 1157
+  },
+  "payload/cadi/README.md": {
+    "sha256": "fa0825d51283cbe313e00fe541ec20222f18434006487ac4f02b317c3901cc17",
+    "bytes": 738
+  },
+  "payload/cadi/docs/index.md": {
+    "sha256": "d0c3a3f089ab8b902762bdc96452b4e9efca690463423aea447cfb76506ddfb8",
+    "bytes": 325
+  },
+  "payload/cadi/docs/assets/quad.svg": {
+    "sha256": "d39d338d1b875a40e4c844c824c93e6304ac65c51b191936313cafd07fcde7be",
+    "bytes": 1141
+  },
+  "payload/cadi/docs/assets/radar.svg": {
+    "sha256": "40d7d0fd46ada184363fb071d00620748b9067d4b5bd0cf9c42dcdf90024baf2",
+    "bytes": 1157
+  },
+  "payload/cadi/specs/threat-models.md": {
+    "sha256": "cf2165a11722925bdc6b1ea5af1258d5269ab6aeaf39b3059acd059bf2db71e3",
+    "bytes": 116
+  },
+  "payload/cadi/specs/mitigation-options.md": {
+    "sha256": "8779cadced5d0359d0f54c77ec754b4e30091367b287caf9099a92e20b622d1e",
+    "bytes": 170
+  },
+  "payload/cadi/specs/triggers-and-thresholds.md": {
+    "sha256": "ebe8d212e24881a508df79e86c3f692dd82ef107ec46d308a5f70a004ce61f16",
+    "bytes": 176
+  },
+  "notes/BPOE.md": {
+    "sha256": "a6001f75bfc5455288b4e84ca6d88921e7efaf8d3fd0c23a4645e35f5258e16d",
+    "bytes": 211
+  },
+  "notes/INTENTIONS.md": {
+    "sha256": "0c60aa5573a04d92071a4ce79b373dfce0feb1cb178859e307532b06e2c54713",
+    "bytes": 234
+  },
+  "notes/DEPENDENCIES.md": {
+    "sha256": "00ebfbe383f170130624caa0d646a46d473768a3690491ec1ed4557f47008e89",
+    "bytes": 164
+  },
+  "notes/DECISIONS.md": {
+    "sha256": "f72c54e9a56323ea4e5b4d66cc245cb3cc48e5644bffece64f7fc7c4ff8a114f",
+    "bytes": 215
+  },
+  "notes/ASSUMPTIONS.md": {
+    "sha256": "1713c8d3bf01172436584662cb5f81a56c61ca7559dd9bfa977e11573b22fced",
+    "bytes": 195
+  },
+  "notes/RISKS.md": {
+    "sha256": "35d7fa0ec449f071884ee3f5e50cfc1397671c8ae1d6b178bb930ee9b871425d",
+    "bytes": 220
+  },
+  "notes/GLOSSARY.md": {
+    "sha256": "3c484b2f0e9e86b7291b46063c5311e8797e02ab8e8b6ccb3d5a046a760e5517",
+    "bytes": 329
+  },
+  "notes/WEBSITE_MANIFEST.md": {
+    "sha256": "657ef935142860369a6cfa3b3920c4bcfb4b57286033a1a0a51f4ea9104d78c6",
+    "bytes": 237
+  },
+  "notes/DEPRECATED.md": {
+    "sha256": "4a07713e1b696de02390b33dd6255501a72993a7d4f925ff418dfdfdb33adb7c",
+    "bytes": 38
+  },
+  "summaries/TLDR.md": {
+    "sha256": "b03d3827d7ada0c777adff311b9cb30f35b0bd99cad534aa3171906ae37d11bd",
+    "bytes": 253
+  },
+  "summaries/ROADMAP_NOTES.md": {
+    "sha256": "f3ffdb8a690746f6fdfbffbfc1a2a2f56588fff6415fe4bc3eb0d74fa1cb1479",
+    "bytes": 251
+  },
+  "summaries/SOURCES.md": {
+    "sha256": "719f6d40a802fd5a0ee23a5721da6822c968268952e9e04f46f9933b609da53a",
+    "bytes": 208
+  }
+}

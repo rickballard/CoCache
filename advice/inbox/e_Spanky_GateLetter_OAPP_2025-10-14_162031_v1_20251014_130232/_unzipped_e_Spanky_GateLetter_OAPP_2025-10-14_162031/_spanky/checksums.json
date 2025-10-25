@@ -1,0 +1,15 @@
+{
+  "_spanky/_wrap.manifest.json": "321b20eecfe7977128a95ece9b525118905bf68872ab44a4ece88f9db97704bf",
+  "_spanky/_copayload.meta.json": "a8fb548c37a8712888d3b7c09fbc18c60d157e4a31949cf8cfcaf9716ecfdc07",
+  "_spanky/out.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+  "transcripts/session.md": "3cab174aa8c5e32871be4c1fc06e7f23f2c34ab3557ab24ea819517221f0f467",
+  "payload/SUMMARY.md": "504cd7d1fb324070c20bde9f6f6a6f7776e64dcb663b7e6460351c4e448d617c",
+  "payload/ADVICE.md": "de96a251a38028399ba6b83109ac79a9ad6a288556a7fc3c48f0b3b929d6888a",
+  "payload/RISKS.md": "1f03c04c3dffe8dcd816d1aef58cc3c8bc9e023ca0d22d3d415f683b0ae1c4c5",
+  "payload/DECISIONS.md": "6c96e83783ab6f049391e21a84c849e4a1193077f70ab73926ba6c73ec576a8a",
+  "payload/DO.ps1": "b593023209a8472a365e6a12d3559ea24a9e0950ffddd678d1a06a90aaf3185e",
+  "payload/OAPP_STAMP.gib": "0987696f947ea8415841b69287fc460eaab941745c5693180cb6cdbf0e3c6d35",
+  "payload/Gate-Letter_v1.7.2.md": "c1569e9722a6e63ed045f896ecda6cc5d13414f59934121eb7e6bf5bd5c9f8cd",
+  "notes/RECEIPTS.md": "427ca9edce7f73b289f0a21175539bcf22f8efc03d210505f3a1c7a99b152dc4",
+  "notes/CHANGELOG.md": "ce23f5462991459744f7c42254343e610f5ea6a74bda4d8011adbd78d8ac06e1"
+}

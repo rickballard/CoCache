@@ -1,0 +1,16 @@
+<!-- Analytics events + UTM capture -->
+<script>
+(()=>{
+  const qs=new URLSearchParams(location.search);
+  ['utm_source','utm_medium','utm_campaign','utm_content'].forEach(k=>{const v=qs.get(k); if(v) localStorage.setItem(k,v)});
+  if(document.referrer) localStorage.setItem('referrer', document.referrer);
+  if(location.pathname.startsWith('/sponsors')) plausible('Sponsor Page');
+  if(location.pathname.includes('/docs/defs/TOS-AI_OnePager')) plausible('One-Pager Read');
+  document.addEventListener('click',(e)=>{
+    const a=e.target.closest('a'); if(!a) return;
+    const href=a.getAttribute('href')||'';
+    if(href.startsWith('mailto:')){plausible('Email Click',{props:{to:href}});}
+    else if(/^https?:\/\//.test(href) && !href.includes(location.host)){try{plausible('Outbound Link',{props:{to:new URL(href).hostname}})}catch{}}
+  });
+})();
+</script>

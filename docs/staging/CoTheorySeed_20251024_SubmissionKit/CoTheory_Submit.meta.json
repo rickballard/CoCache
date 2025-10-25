@@ -1,0 +1,16 @@
+{
+  "type": "trigger",
+  "target": "Reflex",
+  "readyToSubmit": false,
+  "submissionCriteria": [
+    "3+ mature domain examples",
+    "peer feedback complete",
+    "submission narrative layered and reviewed"
+  ],
+  "preferredJournals": [
+    "Futures (Elsevier)",
+    "AI & Society",
+    "Technological Forecasting and Social Change"
+  ],
+  "lastUpdated": "2025-10-24"
+}

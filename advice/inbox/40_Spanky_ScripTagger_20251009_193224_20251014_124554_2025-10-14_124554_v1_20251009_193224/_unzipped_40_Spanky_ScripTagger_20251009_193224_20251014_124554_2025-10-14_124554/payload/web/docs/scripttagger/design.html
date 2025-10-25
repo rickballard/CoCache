@@ -1,0 +1,33 @@
+<!doctype html><html lang="en"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ScripTagger Design — Opename</title>
+<link rel="stylesheet" href="https://opename.org/assets/style.css">
+<body>
+<header><nav>
+  <a class="brand" href="https://opename.org/"><img src="/assets/opename-192.png" alt="Opename logo" class="brand-logo"><span>Opename</span></a>
+  <a href="https://opename.org/reptag/">RepTag</a>
+  <a href="https://opename.org/docs/scripttagger/">Overview</a>
+</nav></header>
+
+<main class="card">
+  <h1>ScripTagger: design notes</h1>
+  <h2>Summary-first, transcript optional</h2>
+  <ul><li>Default output: <strong>Best claims</strong> & <strong>Questions to verify</strong>.</li>
+      <li>Transcript is off by default; reveal/export later.</li></ul>
+  <h2>Speaker inference</h2>
+  <p>Infer via shared URL & page metadata; record as <code>speaker_hypothesis</code> with confidence.</p>
+  <h2>Consensus & positive-only publication</h2>
+  <pre><code>score = mean_i ( user_weight_i × evidence_weight_i × rating_i )
+user_weight = f(RepTag⁺)   # bounded
+evidence_weight = g(citations, independence, cross-agreement)
+publish if support ≥ threshold & independence ≥ min → mint positive RepTag
+</code></pre>
+  <h2>Consent & safety</h2>
+  <ul>
+    <li>“Assistance, not verdicts.”</li>
+    <li>Local-first; opt-in contributions signed & hash-anchored.</li>
+  </ul>
+  <p><a class="btn" href="/downloads/scripttagger.html">Get the app (pre-alpha apology)</a></p>
+</main>
+<footer><div>© 2025 Opename · <a href="https://opename.org/privacy.html">Privacy</a> · <a href="https://opename.org/terms.html">Terms</a></div></footer>
+</body></html>

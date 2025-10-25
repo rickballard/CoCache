@@ -1,0 +1,36 @@
+{
+  "transcripts": [
+    "transcripts/session.md"
+  ],
+  "payload": [
+    "payload/AI_Visitor_Tax_and_Guardrails.md",
+    "payload/Best_Practice_Sweep_Plan.md",
+    "payload/CoSuite_Value_Proposition.md",
+    "payload/Congruence_Placeholder.md",
+    "payload/Contribution_Vectors_and_CoAgent.md",
+    "payload/Day1_Recipe_CoCivium_com.md",
+    "payload/Dual_Approval_Protocol.md",
+    "payload/Dual_Layer_Flagships.md",
+    "payload/RepTag_System_Spec.md",
+    "payload/Repo_Archetypes_and_Branch_Safety.md",
+    "payload/Semantic_Weaving_GIBindex.md"
+  ],
+  "notes": [
+    "notes/ASSUMPTIONS.md",
+    "notes/BPOE.md",
+    "notes/DECISIONS.md",
+    "notes/DEPENDENCIES.md",
+    "notes/DEPRECATED.md",
+    "notes/GLOSSARY.md",
+    "notes/INTENTIONS.md",
+    "notes/RISKS.md",
+    "notes/WEBSITE_MANIFEST.md"
+  ],
+  "summaries": [
+    "summaries/ROADMAP_NOTES.md",
+    "summaries/SOURCES.md",
+    "summaries/TLDR.md"
+  ],
+  "out": "_spanky/out.txt",
+  "checksums": "_spanky/checksums.json"
+}

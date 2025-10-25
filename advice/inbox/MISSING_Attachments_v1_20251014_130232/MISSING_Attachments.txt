@@ -1,0 +1,2 @@
+Missing: additional attachments or files dragged into the session (beyond CoWraps/Advicebombs).
+Action: Place them under /payload/attachments/ and re-run the manifest refresh.

@@ -1,0 +1,18 @@
+{
+  "wrap_version": "2.2",
+  "session_title": "Multi-Session Lockups",
+  "session_id": "SPANKY-20251008_015230",
+  "source": "ChatGPT",
+  "created_utc": "2025-10-08T01:52:30Z",
+  "tags": [
+    "Spanky",
+    "CoWrap",
+    "session",
+    "archive",
+    "BPOE"
+  ],
+  "targets": {
+    "preferred_repo": "rickballard/CoCache",
+    "preferred_path": "CoWraps/STACK"
+  }
+}

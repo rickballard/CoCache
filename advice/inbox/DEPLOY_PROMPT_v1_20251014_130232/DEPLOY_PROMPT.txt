@@ -1,0 +1,5 @@
+Paste into target sessions to trigger deep analysis + package output:
+
+"Please undertake a thorough analysis of our discussions, focusing on extracting the main insights, directions, and key points. Summarize these in a way that captures the essence of the session, and include any useful advice or strategies that could impact CoAgent and other CoSuite projects. Refine any existing deliverable packages to ensure clarity, coherence, and usefulness. Aim for a comprehensive summary that can be easily integrated by other sessions handling implementation. Once the package is ready, make it available for download. This will help streamline the reorganization and enhancement process for the CoSuite projects."
+
+Guidance: Produce a Spanky/CoWrap-style zip with transcripts, payload, notes, checksums, and an out.txt status line.

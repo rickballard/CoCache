@@ -1,0 +1,98 @@
+{
+  "notes/GLOSSARY.md": {
+    "sha256": "a175011d6cfb7b2e14abbc6c4b63518e7f660a1978550c7aebf4bac9a94ffdd2",
+    "bytes": 94
+  },
+  "payload/nudge-elias.md": {
+    "sha256": "a656f67091b4935ed7b1f835dd5cfebffe067e25ea3a7cb1a97fe68a810889cc",
+    "bytes": 82
+  },
+  "_spanky/_wrap.manifest.json": {
+    "sha256": "15f0e5b4e897e37d406203a05c585396b988f74744dc89b56845b24f3a338c17",
+    "bytes": 1161
+  },
+  "notes/ASSUMPTIONS.md": {
+    "sha256": "e713567435782915c7d42f6fb51a6e40a956a7c7347a6308434f896900a9b477",
+    "bytes": 89
+  },
+  "summaries/TLDR.md": {
+    "sha256": "fe17b0efb12de7fc4f5637e17c8db13662b012a356a1b10d68aef306cde7f63c",
+    "bytes": 133
+  },
+  "payload/best_practices_career.md": {
+    "sha256": "fee648ae82c155264d8aa87670f33d6970d5c8aec194e9f09b2ad7cc3794e105",
+    "bytes": 96
+  },
+  "payload/tools_zip-rebuild.ps1": {
+    "sha256": "13e82584a955d169f441636d6cea96fb584dae437de483cc3203a8708f10c842",
+    "bytes": 359
+  },
+  "payload/best_practices_ai_ethics.md": {
+    "sha256": "6855bd35e225431807c4b48abc929820111239d198ab15a85762bfeb27430a63",
+    "bytes": 97
+  },
+  "payload/schemas_careerOS.advice.request.schema.json": {
+    "sha256": "07ef3c22a0f3103d4b968fbb6461fa32ad353d27d1d8aaeaee0ae06721523afb",
+    "bytes": 989
+  },
+  "payload/best_practices_life.md": {
+    "sha256": "9c984965f63f4b02ddc35766d8985f80809d28ce85a2144edd48684a7799bcc3",
+    "bytes": 94
+  },
+  "summaries/ROADMAP_NOTES.md": {
+    "sha256": "508bd8bed4cbe927e95d4e08139f3fbe710b6909f852c70639ade1dbafdd9352",
+    "bytes": 98
+  },
+  "notes/WEBSITE_MANIFEST.md": {
+    "sha256": "94290285949be471b76c6e2c49832049b61a22a76cccff1459f067d0fff895ef",
+    "bytes": 80
+  },
+  "payload/schemas_lifeOS.routine.plan.schema.json": {
+    "sha256": "afcd51055e1be6d4f03cf1d43ce6babb8f1c3bd76ae425692160e6d25797a4dc",
+    "bytes": 697
+  },
+  "summaries/SOURCES.md": {
+    "sha256": "41782159a8776294f1e82f6d10f1146b2432cec98668082eaf3946877246f5ff",
+    "bytes": 91
+  },
+  "transcripts/session.md": {
+    "sha256": "c9d7b6df7421114c30ca069a66f1c5f3bef3163ff48e8f0a1bae7b62453150ea",
+    "bytes": 1307
+  },
+  "notes/INTENTIONS.md": {
+    "sha256": "b7ac31b3df0d5e9dca3af845b9713f359d8c260232ab09682476a5e7cb242c18",
+    "bytes": 426
+  },
+  "notes/DEPRECATED.md": {
+    "sha256": "38843f792baa5cfc9efd4754137cd25f10fbc9a64da19e09a2649652d0198708",
+    "bytes": 76
+  },
+  "notes/BPOE.md": {
+    "sha256": "adf8d0dfdfb2f772bcd848b9efe16dab63e772c3864c7c2fa10a13f04b4fb916",
+    "bytes": 340
+  },
+  "_spanky/checksums.json": {
+    "sha256": "0eb2c6daadd89a770228b8144e1e89d6e3513d9afb651466dbe1fe2ba0bf1a16",
+    "bytes": 3377
+  },
+  "notes/RISKS.md": {
+    "sha256": "04853280df7e0aae41380dc9735b348155b890f0785f9589d5e3b17eefbea24f",
+    "bytes": 66
+  },
+  "_spanky/_copayload.meta.json": {
+    "sha256": "a6f420e6258536c5cc8e710f77d21d24b7dc0988bdb94591b62858c2ecd3d8cf",
+    "bytes": 316
+  },
+  "notes/DEPENDENCIES.md": {
+    "sha256": "98bf9b05b9a4418249048878580357ae3602d825dc46d2b29c0678397c0e70c8",
+    "bytes": 57
+  },
+  "notes/DECISIONS.md": {
+    "sha256": "3b78e59fae3df51b3446ee96ee55a9d93b6fff636996b65b1c581fb457cba7e6",
+    "bytes": 91
+  },
+  "payload/gentle-checkins.yml": {
+    "sha256": "571a7baa2d1321287e3486e070d4630317f1d27aef848a3682ab0c25d58d1bfc",
+    "bytes": 515
+  }
+}

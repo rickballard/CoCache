@@ -1,0 +1,17 @@
+{
+  "name": "CoPolitic / CAP session payload",
+  "created_utc": "2025-10-09T03:26:36.093410Z",
+  "generator": "ChatGPT \u2013 Spanky pack builder",
+  "short_name": "CAP",
+  "session_context": {
+    "domain": "copolitic.org",
+    "repo": "rickballard/CoPolitic",
+    "highlights": [
+      "Manifest-driven logo grid with auto-tone and padding",
+      "Plausible analytics with custom events and UTM capture",
+      "Lead-only daily GitHub Actions email alert",
+      "Transparency page + branded 404",
+      "Cloudflare Worker for IP\u2192company enrichment (optional)"
+    ]
+  }
+}

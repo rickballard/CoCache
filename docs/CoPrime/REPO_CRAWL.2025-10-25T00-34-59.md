@@ -1,0 +1,154 @@
+# CoPrime Repo Crawl (2025-10-25T00-34-59)
+
+## Repos summary
+
+- **AmpliPi** — branch: $(@{name=AmpliPi; path=C:/Users/Chris/Documents/GitHub/AmpliPi; branch=main; sha=9d6a5ca; dirty=True; markers=System.Object[]}.branch), sha: $(@{name=AmpliPi; path=C:/Users/Chris/Documents/GitHub/AmpliPi; branch=main; sha=9d6a5ca; dirty=True; markers=System.Object[]}.sha), dirty:True
+  - C:\Users\Chris\Documents\GitHub\AmpliPi\README.md
+  - C:\Users\Chris\Documents\GitHub\AmpliPi\amplipi\display\README.md
+  - C:\Users\Chris\Documents\GitHub\AmpliPi\amplipi\updater\README.md
+  - C:\Users\Chris\Documents\GitHub\AmpliPi\bin\README.md
+  - C:\Users\Chris\Documents\GitHub\AmpliPi\fw\README.md
+- **BeAxa** — branch: $(@{name=BeAxa; path=C:/Users/Chris/Documents/GitHub/BeAxa; branch=main; sha=d554798; dirty=True; markers=C:\Users\Chris\Documents\GitHub\BeAxa\README.md}.branch), sha: $(@{name=BeAxa; path=C:/Users/Chris/Documents/GitHub/BeAxa; branch=main; sha=d554798; dirty=True; markers=C:\Users\Chris\Documents\GitHub\BeAxa\README.md}.sha), dirty:True
+  - C:\Users\Chris\Documents\GitHub\BeAxa\README.md
+- **CareerOS-Elias** — branch: $(@{name=CareerOS-Elias; path=C:/Users/Chris/Documents/GitHub/CareerOS-Elias; branch=main; sha=7768aaf; dirty=True; markers=System.Object[]}.branch), sha: $(@{name=CareerOS-Elias; path=C:/Users/Chris/Documents/GitHub/CareerOS-Elias; branch=main; sha=7768aaf; dirty=True; markers=System.Object[]}.sha), dirty:True
+  - C:\Users\Chris\Documents\GitHub\CareerOS-Elias\README.md
+  - C:\Users\Chris\Documents\GitHub\CareerOS-Elias\projects\ai-integration-demo\README.md
+  - C:\Users\Chris\Documents\GitHub\CareerOS-Elias\projects\api-enabler-demo\README.md
+  - C:\Users\Chris\Documents\GitHub\CareerOS-Elias\projects\edge-ai-demo\README.md
+  - C:\Users\Chris\Documents\GitHub\CareerOS-Elias\strategy\learning-roadmap.md
+- **Civium** — branch: $(@{name=Civium; path=C:/Users/Chris/Documents/GitHub/Civium; branch=main; sha=4502733; dirty=True; markers=System.Object[]}.branch), sha: $(@{name=Civium; path=C:/Users/Chris/Documents/GitHub/Civium; branch=main; sha=4502733; dirty=True; markers=System.Object[]}.sha), dirty:True
+  - C:\Users\Chris\Documents\GitHub\Civium\admin\TODO_Outreach_Hinton_Civium.md
+  - C:\Users\Chris\Documents\GitHub\Civium\admin\TODO_Regrooming_CC.md
+  - C:\Users\Chris\Documents\GitHub\Civium\admin\TODO_Spider_Radial_Diagram.md
+  - C:\Users\Chris\Documents\GitHub\Civium\admin\TODO_Stnexid_Civium_Rollup_20250802.md
+  - C:\Users\Chris\Documents\GitHub\Civium\admin\TODO_Story_Noname_Publish.md
+- **Civium-Constitution** — branch: $(@{name=Civium-Constitution; path=C:/Users/Chris/Documents/GitHub/Civium-Constitution; branch=gm/preflight-20250813_2024; sha=375db40; dirty=True; markers=System.Object[]}.branch), sha: $(@{name=Civium-Constitution; path=C:/Users/Chris/Documents/GitHub/Civium-Constitution; branch=gm/preflight-20250813_2024; sha=375db40; dirty=True; markers=System.Object[]}.sha), dirty:True
+  - C:\Users\Chris\Documents\GitHub\Civium-Constitution\meta\ToDo_AI_Log.md
+  - C:\Users\Chris\Documents\GitHub\Civium-Constitution\README_FILEMAP.md
+  - C:\Users\Chris\Documents\GitHub\Civium-Constitution\README_FOR_AI.md
+  - C:\Users\Chris\Documents\GitHub\Civium-Constitution\README_FOR_HUMANS.md
+  - C:\Users\Chris\Documents\GitHub\Civium-Constitution\README_HARMONICS.md
+- **CoAgent** — branch: $(@{name=CoAgent; path=C:/Users/Chris/Documents/GitHub/CoAgent; branch=advice/mirror-20251024_213256; sha=369b00a; dirty=True; markers=System.Object[]}.branch), sha: $(@{name=CoAgent; path=C:/Users/Chris/Documents/GitHub/CoAgent; branch=advice/mirror-20251024_213256; sha=369b00a; dirty=True; markers=System.Object[]}.sha), dirty:True
+  - C:\Users\Chris\Documents\GitHub\CoAgent\docs\index\TODO-INDEX.md
+  - C:\Users\Chris\Documents\GitHub\CoAgent\payloads\mvp3-resume\CoAgent_MVP3_CoWrap_full_20250922-185516\TODO.md
+  - C:\Users\Chris\Documents\GitHub\CoAgent\README.md
+  - C:\Users\Chris\Documents\GitHub\CoAgent\docs\README.md
+  - C:\Users\Chris\Documents\GitHub\CoAgent\docs\index\README.md
+- **CoAgent__mvp3_resume-20250923-111953Z** — branch: $(@{name=CoAgent__mvp3_resume-20250923-111953Z; path=C:/Users/Chris/Documents/GitHub/CoAgent__mvp3_resume-20250923-111953Z; branch=fix/empty-pipe; sha=dbdff29; dirty=True; markers=System.Object[]}.branch), sha: $(@{name=CoAgent__mvp3_resume-20250923-111953Z; path=C:/Users/Chris/Documents/GitHub/CoAgent__mvp3_resume-20250923-111953Z; branch=fix/empty-pipe; sha=dbdff29; dirty=True; markers=System.Object[]}.sha), dirty:True
+  - C:\Users\Chris\Documents\GitHub\CoAgent__mvp3_resume-20250923-111953Z\docs\index\TODO-INDEX.md
+  - C:\Users\Chris\Documents\GitHub\CoAgent__mvp3_resume-20250923-111953Z\payloads\mvp3-resume\CoAgent_MVP3_CoWrap_full_20250922-185516\TODO.md
+  - C:\Users\Chris\Documents\GitHub\CoAgent__mvp3_resume-20250923-111953Z\README.md
+  - C:\Users\Chris\Documents\GitHub\CoAgent__mvp3_resume-20250923-111953Z\docs\README.md
+  - C:\Users\Chris\Documents\GitHub\CoAgent__mvp3_resume-20250923-111953Z\docs\index\README.md
+- **CoAudit** — branch: $(@{name=CoAudit; path=C:/Users/Chris/Documents/GitHub/CoAudit; branch=main; sha=cc153ae; dirty=True; markers=System.Object[]}.branch), sha: $(@{name=CoAudit; path=C:/Users/Chris/Documents/GitHub/CoAudit; branch=main; sha=cc153ae; dirty=True; markers=System.Object[]}.sha), dirty:True
+  - C:\Users\Chris\Documents\GitHub\CoAudit\README.md
+  - C:\Users\Chris\Documents\GitHub\CoAudit\advice-bombs\README.md
+- **CoCache** — branch: $(@{name=CoCache; path=C:/Users/Chris/Documents/GitHub/CoCache; branch=main; sha=9c88270; dirty=True; markers=System.Object[]}.branch), sha: $(@{name=CoCache; path=C:/Users/Chris/Documents/GitHub/CoCache; branch=main; sha=9c88270; dirty=True; markers=System.Object[]}.sha), dirty:True
+  - C:\Users\Chris\Documents\GitHub\CoCache\HANDOVER\CoWrap-20251010-132935\ops\TODO.md
+  - C:\Users\Chris\Documents\GitHub\CoCache\admin\sessions\SESSION_HANDOFF_2025-10-16_0012.md
+  - C:\Users\Chris\Documents\GitHub\CoCache\docs\advice_bombs\batch_20251014_124554\.43_Spanky_GrandMigration_20251009_194020\payload\HANDOFF_TEMPLATE_GenericAdvisory.md
+  - C:\Users\Chris\Documents\GitHub\CoCache\docs\advice_bombs\batch_20251014_124554\.b_Spanky_SessionSynthesis_20251014_161607\payload\IMPLEMENTATION_HANDOFF.md
+  - C:\Users\Chris\Documents\GitHub\CoCache\docs\advice_bombs\batch_20251014_124554\.f_Spanky_CoSuite-Summary_20251014_161916\Spanky_CoSuite-Summary_20251014_161916\checklists\HANDOFF_IMPL.md
+- **CoCivium** — branch: $(@{name=CoCivium; path=C:/Users/Chris/Documents/GitHub/CoCivium; branch=main; sha=32836c27; dirty=True; markers=System.Object[]}.branch), sha: $(@{name=CoCivium; path=C:/Users/Chris/Documents/GitHub/CoCivium; branch=main; sha=32836c27; dirty=True; markers=System.Object[]}.sha), dirty:True
+  - C:\Users\Chris\Documents\GitHub\CoCivium\admin\TODO_BPOE_20250812.md
+  - C:\Users\Chris\Documents\GitHub\CoCivium\admin\TODO_Outreach_Hinton_Civium.md
+  - C:\Users\Chris\Documents\GitHub\CoCivium\admin\TODO_Regrooming_CC.md
+  - C:\Users\Chris\Documents\GitHub\CoCivium\admin\TODO_Spider_Radial_Diagram.md
+  - C:\Users\Chris\Documents\GitHub\CoCivium\admin\TODO_Stnexid_Civium_Rollup_20250802.md
+- **CoCivium-outreach** — branch: $(@{name=CoCivium-outreach; path=C:/Users/Chris/Documents/GitHub/CoCivium-outreach; branch=outreach/linkedin-reconnect-auto-20250912-0039; sha=21539ffc; dirty=True; markers=System.Object[]}.branch), sha: $(@{name=CoCivium-outreach; path=C:/Users/Chris/Documents/GitHub/CoCivium-outreach; branch=outreach/linkedin-reconnect-auto-20250912-0039; sha=21539ffc; dirty=True; markers=System.Object[]}.sha), dirty:True
+  - C:\Users\Chris\Documents\GitHub\CoCivium-outreach\admin\TODO_BPOE_20250812.md
+  - C:\Users\Chris\Documents\GitHub\CoCivium-outreach\admin\TODO_Outreach_Hinton_Civium.md
+  - C:\Users\Chris\Documents\GitHub\CoCivium-outreach\admin\TODO_Regrooming_CC.md
+  - C:\Users\Chris\Documents\GitHub\CoCivium-outreach\admin\TODO_Spider_Radial_Diagram.md
+  - C:\Users\Chris\Documents\GitHub\CoCivium-outreach\admin\TODO_Stnexid_Civium_Rollup_20250802.md
+- **CoCivium-website** — branch: $(@{name=CoCivium-website; path=C:/Users/Chris/Documents/GitHub/CoCivium-website; branch=main; sha=ab726f0; dirty=True; markers=System.Object[]}.branch), sha: $(@{name=CoCivium-website; path=C:/Users/Chris/Documents/GitHub/CoCivium-website; branch=main; sha=ab726f0; dirty=True; markers=System.Object[]}.sha), dirty:True
+  - C:\Users\Chris\Documents\GitHub\CoCivium-website\docs\index\TODO-INDEX.md
+  - C:\Users\Chris\Documents\GitHub\CoCivium-website\README.md
+  - C:\Users\Chris\Documents\GitHub\CoCivium-website\docs\index\README.md
+- **CoCivium.clean** — branch: $(@{name=CoCivium.clean; path=C:/Users/Chris/Documents/GitHub/CoCivium.clean; branch=gm/CoCivium.clean-20250911-172359; sha=7a6dcf4; dirty=True; markers=System.Object[]}.branch), sha: $(@{name=CoCivium.clean; path=C:/Users/Chris/Documents/GitHub/CoCivium.clean; branch=gm/CoCivium.clean-20250911-172359; sha=7a6dcf4; dirty=True; markers=System.Object[]}.sha), dirty:True
+  - C:\Users\Chris\Documents\GitHub\CoCivium.clean\admin\TODO_BPOE_20250812.md
+  - C:\Users\Chris\Documents\GitHub\CoCivium.clean\admin\TODO.md
+  - C:\Users\Chris\Documents\GitHub\CoCivium.clean\docs\index\TODO-INDEX.md
+  - C:\Users\Chris\Documents\GitHub\CoCivium.clean\legacy\Civium\admin\TODO_Outreach_Hinton_Civium.md
+  - C:\Users\Chris\Documents\GitHub\CoCivium.clean\legacy\Civium\admin\TODO_Regrooming_CC.md
+- **CoCiviumBackUp** — branch: $(@{name=CoCiviumBackUp; path=C:/Users/Chris/Documents/GitHub/CoCiviumBackUp; branch=main; sha=6133cf4; dirty=True; markers=System.Object[]}.branch), sha: $(@{name=CoCiviumBackUp; path=C:/Users/Chris/Documents/GitHub/CoCiviumBackUp; branch=main; sha=6133cf4; dirty=True; markers=System.Object[]}.sha), dirty:True
+  - C:\Users\Chris\Documents\GitHub\CoCiviumBackUp\admin\TODO_BPOE_20250812.md
+  - C:\Users\Chris\Documents\GitHub\CoCiviumBackUp\admin\TODO.md
+  - C:\Users\Chris\Documents\GitHub\CoCiviumBackUp\legacy\Civium\admin\TODO_Outreach_Hinton_Civium.md
+  - C:\Users\Chris\Documents\GitHub\CoCiviumBackUp\legacy\Civium\admin\TODO_Regrooming_CC.md
+  - C:\Users\Chris\Documents\GitHub\CoCiviumBackUp\legacy\Civium\admin\TODO_Spider_Radial_Diagram.md
+- **CoCore** — branch: $(@{name=CoCore; path=C:/Users/Chris/Documents/GitHub/CoCore; branch=main; sha=3e7e42c; dirty=True; markers=System.Object[]}.branch), sha: $(@{name=CoCore; path=C:/Users/Chris/Documents/GitHub/CoCore; branch=main; sha=3e7e42c; dirty=True; markers=System.Object[]}.sha), dirty:True
+  - C:\Users\Chris\Documents\GitHub\CoCore\README.md
+  - C:\Users\Chris\Documents\GitHub\CoCore\docs\ADVICEBOMB_GUIDE.md
+- **CoLaminar** — branch: $(@{name=CoLaminar; path=C:/Users/Chris/Documents/GitHub/CoLaminar; branch=main; sha=a37814d; dirty=True; markers=System.Object[]}.branch), sha: $(@{name=CoLaminar; path=C:/Users/Chris/Documents/GitHub/CoLaminar; branch=main; sha=a37814d; dirty=True; markers=System.Object[]}.sha), dirty:True
+  - C:\Users\Chris\Documents\GitHub\CoLaminar\docs\index\TODO-INDEX.md
+  - C:\Users\Chris\Documents\GitHub\CoLaminar\README.md
+  - C:\Users\Chris\Documents\GitHub\CoLaminar\docs\index\README.md
+  - C:\Users\Chris\Documents\GitHub\CoLaminar\docs\status\README.md
+  - C:\Users\Chris\Documents\GitHub\CoLaminar\shared\README.md
+- **CoModules** — branch: $(@{name=CoModules; path=C:/Users/Chris/Documents/GitHub/CoModules; branch=main; sha=2684a87; dirty=True; markers=System.Object[]}.branch), sha: $(@{name=CoModules; path=C:/Users/Chris/Documents/GitHub/CoModules; branch=main; sha=2684a87; dirty=True; markers=System.Object[]}.sha), dirty:True
+  - C:\Users\Chris\Documents\GitHub\CoModules\modules\CoFit\TODO.md
+  - C:\Users\Chris\Documents\GitHub\CoModules\modules\CoFit\docs\TODO.md
+  - C:\Users\Chris\Documents\GitHub\CoModules\modules\CoFit\HANDOFF.md
+  - C:\Users\Chris\Documents\GitHub\CoModules\modules\CoFit\docs\HANDOFF.md
+  - C:\Users\Chris\Documents\GitHub\CoModules\README.md
+- **CoPolitic** — branch: $(@{name=CoPolitic; path=C:/Users/Chris/Documents/GitHub/CoPolitic; branch=main; sha=3e5d1bb; dirty=True; markers=System.Object[]}.branch), sha: $(@{name=CoPolitic; path=C:/Users/Chris/Documents/GitHub/CoPolitic; branch=main; sha=3e5d1bb; dirty=True; markers=System.Object[]}.sha), dirty:True
+  - C:\Users\Chris\Documents\GitHub\CoPolitic\README.md
+  - C:\Users\Chris\Documents\GitHub\CoPolitic\initiatives\README.md
+  - C:\Users\Chris\Documents\GitHub\CoPolitic\pitch\README.md
+  - C:\Users\Chris\Documents\GitHub\CoPolitic\transparency\README.md
+  - C:\Users\Chris\Documents\GitHub\CoPolitic\assets\img\exemplars\_manifest.json
+- **CoRef** — branch: $(@{name=CoRef; path=C:/Users/Chris/Documents/GitHub/CoRef; branch=main; sha=7b4d702; dirty=True; markers=C:\Users\Chris\Documents\GitHub\CoRef\README.md}.branch), sha: $(@{name=CoRef; path=C:/Users/Chris/Documents/GitHub/CoRef; branch=main; sha=7b4d702; dirty=True; markers=C:\Users\Chris\Documents\GitHub\CoRef\README.md}.sha), dirty:True
+  - C:\Users\Chris\Documents\GitHub\CoRef\README.md
+- **CoSteward** — branch: $(@{name=CoSteward; path=C:/Users/Chris/Documents/GitHub/CoSteward; branch=main; sha=204008f; dirty=True; markers=C:\Users\Chris\Documents\GitHub\CoSteward\README.md}.branch), sha: $(@{name=CoSteward; path=C:/Users/Chris/Documents/GitHub/CoSteward; branch=main; sha=204008f; dirty=True; markers=C:\Users\Chris\Documents\GitHub\CoSteward\README.md}.sha), dirty:True
+  - C:\Users\Chris\Documents\GitHub\CoSteward\README.md
+- **CoSuiteBackup** — branch: $(@{name=CoSuiteBackup; path=C:/Users/Chris/Documents/GitHub/CoSuiteBackup; branch=master; sha=6472548; dirty=True; markers=C:\Users\Chris\Documents\GitHub\CoSuiteBackup\README.md}.branch), sha: $(@{name=CoSuiteBackup; path=C:/Users/Chris/Documents/GitHub/CoSuiteBackup; branch=master; sha=6472548; dirty=True; markers=C:\Users\Chris\Documents\GitHub\CoSuiteBackup\README.md}.sha), dirty:True
+  - C:\Users\Chris\Documents\GitHub\CoSuiteBackup\README.md
+- **EntMent** — branch: $(@{name=EntMent; path=C:/Users/Chris/Documents/GitHub/EntMent; branch=main; sha=cb5eaf2; dirty=True; markers=C:\Users\Chris\Documents\GitHub\EntMent\README.md}.branch), sha: $(@{name=EntMent; path=C:/Users/Chris/Documents/GitHub/EntMent; branch=main; sha=cb5eaf2; dirty=True; markers=C:\Users\Chris\Documents\GitHub\EntMent\README.md}.sha), dirty:True
+  - C:\Users\Chris\Documents\GitHub\EntMent\README.md
+- **Games** — branch: $(@{name=Games; path=C:/Users/Chris/Documents/GitHub/Games; branch=main; sha=0a8e2b1; dirty=True; markers=System.Object[]}.branch), sha: $(@{name=Games; path=C:/Users/Chris/Documents/GitHub/Games; branch=main; sha=0a8e2b1; dirty=True; markers=System.Object[]}.sha), dirty:True
+  - C:\Users\Chris\Documents\GitHub\Games\README.md
+  - C:\Users\Chris\Documents\GitHub\Games\FTW\README.md
+- **GIBindex** — branch: $(@{name=GIBindex; path=C:/Users/Chris/Documents/GitHub/GIBindex; branch=main; sha=f003406; dirty=True; markers=System.Object[]}.branch), sha: $(@{name=GIBindex; path=C:/Users/Chris/Documents/GitHub/GIBindex; branch=main; sha=f003406; dirty=True; markers=System.Object[]}.sha), dirty:True
+  - C:\Users\Chris\Documents\GitHub\GIBindex\README.md
+  - C:\Users\Chris\Documents\GitHub\GIBindex\docs\status\README.md
+  - C:\Users\Chris\Documents\GitHub\GIBindex\lexicon\README.md
+  - C:\Users\Chris\Documents\GitHub\GIBindex\sessions\README.md
+  - C:\Users\Chris\Documents\GitHub\GIBindex\core\manifest.gib.json
+- **Godspawn** — branch: $(@{name=Godspawn; path=C:/Users/Chris/Documents/GitHub/Godspawn; branch=main; sha=c86a4dc; dirty=True; markers=System.Object[]}.branch), sha: $(@{name=Godspawn; path=C:/Users/Chris/Documents/GitHub/Godspawn; branch=main; sha=c86a4dc; dirty=True; markers=System.Object[]}.sha), dirty:True
+  - C:\Users\Chris\Documents\GitHub\Godspawn\README.md
+  - C:\Users\Chris\Documents\GitHub\Godspawn\HH\gibexport\README.md
+  - C:\Users\Chris\Documents\GitHub\Godspawn\HH\gloss\README.md
+  - C:\Users\Chris\Documents\GitHub\Godspawn\Vision_Flagship\README.md
+- **GroupBuild** — branch: $(@{name=GroupBuild; path=C:/Users/Chris/Documents/GitHub/GroupBuild; branch=polish/bootstrap-20250915; sha=ef3e0a1; dirty=True; markers=C:\Users\Chris\Documents\GitHub\GroupBuild\README.md}.branch), sha: $(@{name=GroupBuild; path=C:/Users/Chris/Documents/GitHub/GroupBuild; branch=polish/bootstrap-20250915; sha=ef3e0a1; dirty=True; markers=C:\Users\Chris\Documents\GitHub\GroupBuild\README.md}.sha), dirty:True
+  - C:\Users\Chris\Documents\GitHub\GroupBuild\README.md
+- **GroupBuild-website** — branch: $(@{name=GroupBuild-website; path=C:/Users/Chris/Documents/GitHub/GroupBuild-website; branch=main; sha=a1a9f6f; dirty=True; markers=System.Object[]}.branch), sha: $(@{name=GroupBuild-website; path=C:/Users/Chris/Documents/GitHub/GroupBuild-website; branch=main; sha=a1a9f6f; dirty=True; markers=System.Object[]}.sha), dirty:True
+  - C:\Users\Chris\Documents\GitHub\GroupBuild-website\docs\ops\TODO.md
+  - C:\Users\Chris\Documents\GitHub\GroupBuild-website\README.md
+  - C:\Users\Chris\Documents\GitHub\GroupBuild-website\friendly-proposal\00_README.md
+  - C:\Users\Chris\Documents\GitHub\GroupBuild-website\friendly-proposal\09_Roadmap_MVP_V2_V3.md
+- **InSeed** — branch: $(@{name=InSeed; path=C:/Users/Chris/Documents/GitHub/InSeed; branch=main; sha=ee94b47; dirty=True; markers=System.Object[]}.branch), sha: $(@{name=InSeed; path=C:/Users/Chris/Documents/GitHub/InSeed; branch=main; sha=ee94b47; dirty=True; markers=System.Object[]}.sha), dirty:True
+  - C:\Users\Chris\Documents\GitHub\InSeed\docs\ops\TODO.md
+  - C:\Users\Chris\Documents\GitHub\InSeed\README.md
+- **MeritRank** — branch: $(@{name=MeritRank; path=C:/Users/Chris/Documents/GitHub/MeritRank; branch=main; sha=d063e0d; dirty=True; markers=System.Object[]}.branch), sha: $(@{name=MeritRank; path=C:/Users/Chris/Documents/GitHub/MeritRank; branch=main; sha=d063e0d; dirty=True; markers=System.Object[]}.sha), dirty:True
+  - C:\Users\Chris\Documents\GitHub\MeritRank\README.md
+  - C:\Users\Chris\Documents\GitHub\MeritRank\.pytest_cache\README.md
+  - C:\Users\Chris\Documents\GitHub\MeritRank\components\seeder\README.md
+  - C:\Users\Chris\Documents\GitHub\MeritRank\docs\brand\README_SNIPPET.md
+  - C:\Users\Chris\Documents\GitHub\MeritRank\tools\score_demo\README.md
+- **Opename** — branch: $(@{name=Opename; path=C:/Users/Chris/Documents/GitHub/Opename; branch=main; sha=a174a1a; dirty=True; markers=C:\Users\Chris\Documents\GitHub\Opename\README.md}.branch), sha: $(@{name=Opename; path=C:/Users/Chris/Documents/GitHub/Opename; branch=main; sha=a174a1a; dirty=True; markers=C:\Users\Chris\Documents\GitHub\Opename\README.md}.sha), dirty:True
+  - C:\Users\Chris\Documents\GitHub\Opename\README.md
+- **opename-ops** — branch: $(@{name=opename-ops; path=C:/Users/Chris/Documents/GitHub/opename-ops; branch=main; sha=0d31884; dirty=True; markers=C:\Users\Chris\Documents\GitHub\opename-ops\README.md}.branch), sha: $(@{name=opename-ops; path=C:/Users/Chris/Documents/GitHub/opename-ops; branch=main; sha=0d31884; dirty=True; markers=C:\Users\Chris\Documents\GitHub\opename-ops\README.md}.sha), dirty:True
+  - C:\Users\Chris\Documents\GitHub\opename-ops\README.md
+- **rickballard** — branch: $(@{name=rickballard; path=C:/Users/Chris/Documents/GitHub/rickballard; branch=main; sha=feed5e2; dirty=True; markers=C:\Users\Chris\Documents\GitHub\rickballard\README.md}.branch), sha: $(@{name=rickballard; path=C:/Users/Chris/Documents/GitHub/rickballard; branch=main; sha=feed5e2; dirty=True; markers=C:\Users\Chris\Documents\GitHub\rickballard\README.md}.sha), dirty:True
+  - C:\Users\Chris\Documents\GitHub\rickballard\README.md
+- **RickPublic** — branch: $(@{name=RickPublic; path=C:/Users/Chris/Documents/GitHub/RickPublic; branch=main; sha=df775ad; dirty=True; markers=System.Object[]}.branch), sha: $(@{name=RickPublic; path=C:/Users/Chris/Documents/GitHub/RickPublic; branch=main; sha=df775ad; dirty=True; markers=System.Object[]}.sha), dirty:True
+  - C:\Users\Chris\Documents\GitHub\RickPublic\HANDOFF.md
+  - C:\Users\Chris\Documents\GitHub\RickPublic\README.md
+  - C:\Users\Chris\Documents\GitHub\RickPublic\advicebombs\2025-10-23_RickPublic_AI_Access_v3\README.md
+  - C:\Users\Chris\Documents\GitHub\RickPublic\advicebombs\2025-10-23_RickPublic_AI_Access_v3\ai-access\README.md
+  - C:\Users\Chris\Documents\GitHub\RickPublic\advicebombs\2025-10-23_RickPublic_AI_Access_v3\ai-access\coref\README.md
+
+## CoCivium/games handoffs
+
+- C:\Users\Chris\Documents\GitHub\CoCivium\games\GamesHandoff_20251025_042342_Recovery\GamesHandoff_20251025_042342_Recovery\GamesHandoff.md

@@ -1,0 +1,60 @@
+{
+  "version": "0.1.0",
+  "metrics": [
+    {
+      "key": "copolitic",
+      "label": "Governance & Participation",
+      "desc": "Democracy, transparency, civic agency, rule of law."
+    },
+    {
+      "key": "cofinance",
+      "label": "Economic Vitality & Fairness",
+      "desc": "Stability, opportunity, inclusion, anti-capture."
+    },
+    {
+      "key": "cosociety",
+      "label": "Social Equity & Mobility",
+      "desc": "Access to services, equality before the law, mobility."
+    },
+    {
+      "key": "coinnovate",
+      "label": "Innovation & Knowledge",
+      "desc": "STEM quality, R&D intensity, openness, IP balance."
+    },
+    {
+      "key": "cosustain",
+      "label": "Ecology & Sustainability",
+      "desc": "Climate action, biodiversity, long-termism."
+    },
+    {
+      "key": "cohealth",
+      "label": "Health & Wellbeing",
+      "desc": "Longevity, access, mental health, resilience."
+    },
+    {
+      "key": "coeducate",
+      "label": "Education & Literacy",
+      "desc": "K\u201112/HE quality, lifelong learning, civic literacy."
+    },
+    {
+      "key": "coculture",
+      "label": "Liberty & Culture",
+      "desc": "Expression, assembly, digital rights, minority protections."
+    },
+    {
+      "key": "cosafe",
+      "label": "Safety & Security",
+      "desc": "Public safety, accountability, non-militarized order."
+    },
+    {
+      "key": "codiversity",
+      "label": "Inclusivity & Pluralism",
+      "desc": "Representation, anti\u2011discrimination, accessibility."
+    }
+  ],
+  "scale": {
+    "min": 0,
+    "max": 100,
+    "interpretation": "0=misaligned;100=aligned with CoCivium ideals"
+  }
+}

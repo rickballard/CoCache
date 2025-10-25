@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "parts": [
+    "_spanky",
+    "transcripts",
+    "payload",
+    "notes",
+    "summaries"
+  ]
+}

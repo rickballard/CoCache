@@ -1,0 +1,51 @@
+[
+  {
+    "type": "zip-preview",
+    "pointer": "C:\\Users\\Chris\\Downloads\\CoTheoryAB_CoAxa_20251025_ScaffoldFix_20251025_022033.zip",
+    "extracted": "C:\\Users\\Chris\\AppData\\Local\\Temp\\CoPrime_binuhaje",
+    "manifests": null,
+    "action": "triage"
+  },
+  {
+    "type": "zip-preview",
+    "pointer": "C:\\Users\\Chris\\Downloads\\CoTheoryAB_CoAxa_20251025_20251025_020840.zip",
+    "extracted": "C:\\Users\\Chris\\AppData\\Local\\Temp\\CoPrime_21qjkmzr",
+    "manifests": "C:\\Users\\Chris\\AppData\\Local\\Temp\\CoPrime_21qjkmzr\\MANIFEST.json",
+    "action": "triage"
+  },
+  {
+    "type": "zip-preview",
+    "pointer": "C:\\Users\\Chris\\Downloads\\CoTheoryAB_BuilderChecklists_20251025_020335.zip",
+    "extracted": "C:\\Users\\Chris\\AppData\\Local\\Temp\\CoPrime_fz1dwn0l",
+    "manifests": null,
+    "action": "triage"
+  },
+  {
+    "type": "zip-preview",
+    "pointer": "C:\\Users\\Chris\\Downloads\\CoTheoryAB_CoNeuraDomains_20251025_015728.zip",
+    "extracted": "C:\\Users\\Chris\\AppData\\Local\\Temp\\CoPrime_kulhdozx",
+    "manifests": null,
+    "action": "triage"
+  },
+  {
+    "type": "zip-preview",
+    "pointer": "C:\\Users\\Chris\\Downloads\\CoPolitic-prime-handoff-20251024-224212.zip",
+    "extracted": "C:\\Users\\Chris\\AppData\\Local\\Temp\\CoPrime_snatfk4e",
+    "manifests": null,
+    "action": "triage"
+  },
+  {
+    "type": "zip-preview",
+    "pointer": "C:\\Users\\Chris\\Downloads\\CoTheoryAB_CoAxa_20251025_FlatFix.zip",
+    "extracted": "C:\\Users\\Chris\\AppData\\Local\\Temp\\CoPrime_tuaala4a",
+    "manifests": null,
+    "action": "triage"
+  },
+  {
+    "type": "zip-preview",
+    "pointer": "C:\\Users\\Chris\\Downloads\\CoTheoryAB_CoAxa_20251025_ScaffoldFix_20251025_022033 (1).zip",
+    "extracted": "C:\\Users\\Chris\\AppData\\Local\\Temp\\CoPrime_xeurnayt",
+    "manifests": null,
+    "action": "triage"
+  }
+]

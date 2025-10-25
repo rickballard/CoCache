@@ -1,0 +1,254 @@
+[
+  {
+    "name": "AmpliPi",
+    "ssh_url": "git@github.com:rickballard/AmpliPi.git",
+    "clone_url": "https://github.com/rickballard/AmpliPi.git",
+    "default_branch": "main",
+    "archived": false,
+    "disabled": false,
+    "updated_at": "2025-10-22T17:11:08Z"
+  },
+  {
+    "name": "BeAxa",
+    "ssh_url": "git@github.com:rickballard/BeAxa.git",
+    "clone_url": "https://github.com/rickballard/BeAxa.git",
+    "default_branch": "main",
+    "archived": false,
+    "disabled": false,
+    "updated_at": "2025-10-22T18:02:28Z"
+  },
+  {
+    "name": "CareerOS-Elias",
+    "ssh_url": "git@github.com:rickballard/CareerOS-Elias.git",
+    "clone_url": "https://github.com/rickballard/CareerOS-Elias.git",
+    "default_branch": "main",
+    "archived": false,
+    "disabled": false,
+    "updated_at": "2025-10-22T18:02:30Z"
+  },
+  {
+    "name": "CoAgent",
+    "ssh_url": "git@github.com:rickballard/CoAgent.git",
+    "clone_url": "https://github.com/rickballard/CoAgent.git",
+    "default_branch": "main",
+    "archived": false,
+    "disabled": false,
+    "updated_at": "2025-10-03T22:03:59Z"
+  },
+  {
+    "name": "CoAudit",
+    "ssh_url": "git@github.com:rickballard/CoAudit.git",
+    "clone_url": "https://github.com/rickballard/CoAudit.git",
+    "default_branch": "main",
+    "archived": false,
+    "disabled": false,
+    "updated_at": "2025-10-22T17:11:31Z"
+  },
+  {
+    "name": "CoCache",
+    "ssh_url": "git@github.com:rickballard/CoCache.git",
+    "clone_url": "https://github.com/rickballard/CoCache.git",
+    "default_branch": "main",
+    "archived": false,
+    "disabled": false,
+    "updated_at": "2025-10-25T22:09:32Z"
+  },
+  {
+    "name": "CoCivium",
+    "ssh_url": "git@github.com:rickballard/CoCivium.git",
+    "clone_url": "https://github.com/rickballard/CoCivium.git",
+    "default_branch": "main",
+    "archived": false,
+    "disabled": false,
+    "updated_at": "2025-10-25T04:31:25Z"
+  },
+  {
+    "name": "CoCivium-website",
+    "ssh_url": "git@github.com:rickballard/CoCivium-website.git",
+    "clone_url": "https://github.com/rickballard/CoCivium-website.git",
+    "default_branch": "main",
+    "archived": false,
+    "disabled": false,
+    "updated_at": "2025-09-19T01:22:33Z"
+  },
+  {
+    "name": "CoCiviumBackUp",
+    "ssh_url": "git@github.com:rickballard/CoCiviumBackUp.git",
+    "clone_url": "https://github.com/rickballard/CoCiviumBackUp.git",
+    "default_branch": "main",
+    "archived": false,
+    "disabled": false,
+    "updated_at": "2025-10-22T18:03:09Z"
+  },
+  {
+    "name": "CoCore",
+    "ssh_url": "git@github.com:rickballard/CoCore.git",
+    "clone_url": "https://github.com/rickballard/CoCore.git",
+    "default_branch": "main",
+    "archived": false,
+    "disabled": false,
+    "updated_at": "2025-10-22T18:03:11Z"
+  },
+  {
+    "name": "CoLaminar",
+    "ssh_url": "git@github.com:rickballard/CoLaminar.git",
+    "clone_url": "https://github.com/rickballard/CoLaminar.git",
+    "default_branch": "main",
+    "archived": false,
+    "disabled": false,
+    "updated_at": "2025-10-23T19:43:40Z"
+  },
+  {
+    "name": "CoModules",
+    "ssh_url": "git@github.com:rickballard/CoModules.git",
+    "clone_url": "https://github.com/rickballard/CoModules.git",
+    "default_branch": "main",
+    "archived": false,
+    "disabled": false,
+    "updated_at": "2025-10-22T18:03:18Z"
+  },
+  {
+    "name": "CoPolitic",
+    "ssh_url": "git@github.com:rickballard/CoPolitic.git",
+    "clone_url": "https://github.com/rickballard/CoPolitic.git",
+    "default_branch": "main",
+    "archived": false,
+    "disabled": false,
+    "updated_at": "2025-10-25T04:21:13Z"
+  },
+  {
+    "name": "CoRef",
+    "ssh_url": "git@github.com:rickballard/CoRef.git",
+    "clone_url": "https://github.com/rickballard/CoRef.git",
+    "default_branch": "main",
+    "archived": false,
+    "disabled": false,
+    "updated_at": "2025-10-22T18:03:20Z"
+  },
+  {
+    "name": "CoSteward",
+    "ssh_url": "git@github.com:rickballard/CoSteward.git",
+    "clone_url": "https://github.com/rickballard/CoSteward.git",
+    "default_branch": "main",
+    "archived": false,
+    "disabled": false,
+    "updated_at": "2025-10-24T16:37:05Z"
+  },
+  {
+    "name": "CoSuiteBackup",
+    "ssh_url": "git@github.com:rickballard/CoSuiteBackup.git",
+    "clone_url": "https://github.com/rickballard/CoSuiteBackup.git",
+    "default_branch": "master",
+    "archived": false,
+    "disabled": false,
+    "updated_at": "2025-10-22T18:03:26Z"
+  },
+  {
+    "name": "EntMent",
+    "ssh_url": "git@github.com:rickballard/EntMent.git",
+    "clone_url": "https://github.com/rickballard/EntMent.git",
+    "default_branch": "main",
+    "archived": false,
+    "disabled": false,
+    "updated_at": "2025-10-22T18:03:28Z"
+  },
+  {
+    "name": "Games",
+    "ssh_url": "git@github.com:rickballard/Games.git",
+    "clone_url": "https://github.com/rickballard/Games.git",
+    "default_branch": "main",
+    "archived": false,
+    "disabled": false,
+    "updated_at": "2025-10-23T15:10:22Z"
+  },
+  {
+    "name": "GIBindex",
+    "ssh_url": "git@github.com:rickballard/GIBindex.git",
+    "clone_url": "https://github.com/rickballard/GIBindex.git",
+    "default_branch": "main",
+    "archived": false,
+    "disabled": false,
+    "updated_at": "2025-10-22T18:03:33Z"
+  },
+  {
+    "name": "Godspawn",
+    "ssh_url": "git@github.com:rickballard/Godspawn.git",
+    "clone_url": "https://github.com/rickballard/Godspawn.git",
+    "default_branch": "main",
+    "archived": false,
+    "disabled": false,
+    "updated_at": "2025-10-22T20:18:07Z"
+  },
+  {
+    "name": "GroupBuild",
+    "ssh_url": "git@github.com:rickballard/GroupBuild.git",
+    "clone_url": "https://github.com/rickballard/GroupBuild.git",
+    "default_branch": "polish/bootstrap-20250915",
+    "archived": false,
+    "disabled": false,
+    "updated_at": "2025-09-19T01:31:46Z"
+  },
+  {
+    "name": "GroupBuild-website",
+    "ssh_url": "git@github.com:rickballard/GroupBuild-website.git",
+    "clone_url": "https://github.com/rickballard/GroupBuild-website.git",
+    "default_branch": "main",
+    "archived": false,
+    "disabled": false,
+    "updated_at": "2025-09-19T01:22:36Z"
+  },
+  {
+    "name": "InSeed",
+    "ssh_url": "git@github.com:rickballard/InSeed.git",
+    "clone_url": "https://github.com/rickballard/InSeed.git",
+    "default_branch": "main",
+    "archived": false,
+    "disabled": false,
+    "updated_at": "2025-10-22T18:03:45Z"
+  },
+  {
+    "name": "MeritRank",
+    "ssh_url": "git@github.com:rickballard/MeritRank.git",
+    "clone_url": "https://github.com/rickballard/MeritRank.git",
+    "default_branch": "main",
+    "archived": false,
+    "disabled": false,
+    "updated_at": "2025-09-25T21:18:07Z"
+  },
+  {
+    "name": "Opename",
+    "ssh_url": "git@github.com:rickballard/Opename.git",
+    "clone_url": "https://github.com/rickballard/Opename.git",
+    "default_branch": "main",
+    "archived": false,
+    "disabled": false,
+    "updated_at": "2025-10-22T18:03:48Z"
+  },
+  {
+    "name": "opename-ops",
+    "ssh_url": "git@github.com:rickballard/opename-ops.git",
+    "clone_url": "https://github.com/rickballard/opename-ops.git",
+    "default_branch": "main",
+    "archived": false,
+    "disabled": false,
+    "updated_at": "2025-10-22T18:03:51Z"
+  },
+  {
+    "name": "rickballard",
+    "ssh_url": "git@github.com:rickballard/rickballard.git",
+    "clone_url": "https://github.com/rickballard/rickballard.git",
+    "default_branch": "main",
+    "archived": false,
+    "disabled": false,
+    "updated_at": "2025-09-19T01:22:25Z"
+  },
+  {
+    "name": "RickPublic",
+    "ssh_url": "git@github.com:rickballard/RickPublic.git",
+    "clone_url": "https://github.com/rickballard/RickPublic.git",
+    "default_branch": "main",
+    "archived": false,
+    "disabled": false,
+    "updated_at": "2025-10-25T03:56:47Z"
+  }
+]

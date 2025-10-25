@@ -1,0 +1,10 @@
+{
+  "_spanky/_copayload.meta.json": "8b5a948e6c6acf8fefcabfc748b5ec859a590d9bcbedf958a82efe5ef10e50bb",
+  "_spanky/_wrap.manifest.json": "7c8e2315e187d7a689348640dbb803ea9a11f7fb6be248c13813bffbbf350479",
+  "summaries/SESSION_SUMMARY.md": "666ed064e42c1efbbc578aa3b162582b462fedf1884130b7260444237be67ed9",
+  "payload/DO-CoCacheHandoff.ps1": "107252f87601806c15ceeb489c370faaf769688f97b06ef00fb6ef6d5afe2bd2",
+  "notes/ADVICE_NOTES.md": "a3658fddd123de72126cecf1abedb2b4bf2d5c786084de70c5d1b449d08aa6fc",
+  "prompts/DEPLOY_PROMPT.txt": "0e9c845fe9d03abc1fa1a2192cbc24474b0af771f1d5c57eb962b09702eeec70",
+  "checklists/REPO_DROP.md": "f07c55f39771b277ce8d5773c57c01ceb8c214b14cfaed62aec7319b13cb6b64",
+  "checklists/HANDOFF_IMPL.md": "9d1d6f7b83c1c06aca2957bf4fd083bbb312cb32dc3e45f6fcf1485c9c3b8ca9"
+}

@@ -1,0 +1,18 @@
+{
+  "short_name": "CoPolitic_TOSAI",
+  "generated_utc": "20251009_183331",
+  "origin": "ChatGPT session export",
+  "repo_focus": "CoPolitic (GitHub Pages)",
+  "key_outputs": [
+    "TOS-AI rename & docs",
+    "Homepage explainer + checklist + CTA",
+    "Roles landing + footer link + legacy redirect",
+    "Logo normalization pipeline (scripts)",
+    "CoWrap bundles with action deck and manifest"
+  ],
+  "known_gaps": [
+    "Logo candidates not embedded (user-local)",
+    "Roles index in CoPolitic optional",
+    "One-pager PDF, link-checker action not implemented"
+  ]
+}

@@ -1,0 +1,3 @@
+- [x] Create CoWrap Spec
+- [x] Package AdviceBomb
+- [ ] Automate CoWrap push (Unfinished)

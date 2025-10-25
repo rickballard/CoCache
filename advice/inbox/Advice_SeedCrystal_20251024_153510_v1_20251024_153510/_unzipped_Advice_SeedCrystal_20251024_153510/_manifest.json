@@ -1,0 +1,13 @@
+{
+  "name": "SeedCrystal Advice Bomb",
+  "timestamp": "20251024_153510",
+  "target": "CoCache/docs/staging",
+  "recommended_repo": "CoCache",
+  "auto_ingest": true,
+  "files": [
+    "README_SeedCrystal.md",
+    "GIB_SeedCrystal_Definition.md",
+    "CoTheory_Integration.md",
+    "CoCore_Hooks.md"
+  ]
+}

@@ -1,0 +1,23 @@
+# LOOP_GUIDE.md
+
+## CoEvoLoop Definition
+
+A **CoEvolutionary Loop** is a session-guided, multi-agent feedback cycle that evolves artifacts (docs/code/indexes) while maintaining:
+
+- Conceptual congruence
+- Human-traceable rationale
+- Agent-mediated feedback routing
+
+### Loop Properties
+
+- **Versioned**: All states commit to durable logs (e.g., CoCache)
+- **Auditable**: Digest trails trace back to origination
+- **Governed**: BPOE policies constrain scope, pacing, trust
+
+### Loop Risks
+
+- 🌀 Runaway divergence
+- 🚀 Productivity drift beyond sustainability
+- ⚠️ Coherence erosion (drift from core principles)
+
+---

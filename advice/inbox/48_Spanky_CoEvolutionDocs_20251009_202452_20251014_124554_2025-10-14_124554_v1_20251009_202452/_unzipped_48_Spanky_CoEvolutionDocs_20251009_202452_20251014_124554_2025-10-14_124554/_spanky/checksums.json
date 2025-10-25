@@ -1,0 +1,47 @@
+{
+  "_spanky/_copayload.meta.json": {
+    "sha256": "e351b5f10d8acfa332199167369041fa787e2e3f90394acf2501f0a3e3f09368"
+  },
+  "_spanky/_wrap.manifest.json": {
+    "sha256": "2a938ea5692bb12f942740788471e36f07eec7809566073269242845e6c04bf4"
+  },
+  "transcripts/session.md": {
+    "sha256": "0088f25989ee74f4169b7f84c43bd90b3d2b60398a97844704769f980592bf7a"
+  },
+  "notes/BPOE.md": {
+    "sha256": "5d35b3fa9fb0feae5b2169ae6effe32ab6bb85fc6a8623c129792fd3d89681f6"
+  },
+  "notes/INTENTIONS.md": {
+    "sha256": "a3486d55321bf96262a588b0f85db3c3b3b9c550a5dd997f95143eab351574a2"
+  },
+  "notes/DEPENDENCIES.md": {
+    "sha256": "dc447ac1f3aab2c5c52ee13b6294f1348a60a0a1394e5549c5246c8df3a0318a"
+  },
+  "notes/DECISIONS.md": {
+    "sha256": "a530b782db3b20aa62a1bd0820ca1fb86898c7373ef99f6f25876fa33e54afe1"
+  },
+  "notes/ASSUMPTIONS.md": {
+    "sha256": "3352c8a7868023337e2f9ea24c6090162158c2aa915b403d4ccdbf4e161fe04f"
+  },
+  "notes/RISKS.md": {
+    "sha256": "f61e88c33c327b3f4dffc90538c80cfdfc32c47c3f86c1e0a8d755a6babe8855"
+  },
+  "notes/GLOSSARY.md": {
+    "sha256": "d2c802dec5ae81058577d04c5116e9b7892ae46ee10c7e3a9216caab68538910"
+  },
+  "notes/WEBSITE_MANIFEST.md": {
+    "sha256": "fe1c81800e5f4c5395966e4b8ac542545e6e29bc4fc04a83b09cfbde390e8320"
+  },
+  "notes/DEPRECATED.md": {
+    "sha256": "5f418298a816f460673597ef259541906175755ffbf125bc6ee07555882150a2"
+  },
+  "summaries/TLDR.md": {
+    "sha256": "5b0ed297191e3dc27495a52359618d19bd87a0ba803eb4968ef5b015ac3eecc5"
+  },
+  "summaries/ROADMAP_NOTES.md": {
+    "sha256": "72bf11046395f6912a8acbb1a2f576e268f934f1a213f06b178305aa81de4c92"
+  },
+  "summaries/SOURCES.md": {
+    "sha256": "58dc2073139f7a447748cd4786f47d2214833ac9a5c6f3197b66f8eb1ea76418"
+  }
+}

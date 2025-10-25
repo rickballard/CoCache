@@ -1,0 +1,27 @@
+{
+  "wrap_version": "2.2",
+  "session_title": "CoCivium: Faiths in Dialogue, Congruence Doctrine, CoRef, CoRender, CoWrap",
+  "session_id": "CIV-FID-J6IY4N",
+  "source": "ChatGPT",
+  "created_utc": "2025-10-08T01:59:09Z",
+  "tags": [
+    "Spanky",
+    "CoWrap",
+    "CoCivium",
+    "Faiths",
+    "Doctrine",
+    "CoRef",
+    "BPOE"
+  ],
+  "targets": {
+    "preferred_repo": "rickballard/CoCivium",
+    "preferred_path": "insights/Reports/Spanky"
+  },
+  "counts": {
+    "items": 17,
+    "transcripts": 1,
+    "payload": 2,
+    "notes": 9,
+    "summaries": 3
+  }
+}

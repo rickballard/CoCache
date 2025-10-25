@@ -1,0 +1,11 @@
+{
+  "package": "Spanky_CoSuite-Summary_20251014_161916",
+  "includes": [
+    "summaries/SESSION_SUMMARY.md",
+    "notes/ADVICE_NOTES.md",
+    "prompts/DEPLOY_PROMPT.txt",
+    "checklists/REPO_DROP.md",
+    "checklists/HANDOFF_IMPL.md",
+    "payload/DO-CoCacheHandoff.ps1"
+  ]
+}

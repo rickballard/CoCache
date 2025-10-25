@@ -1,0 +1,5 @@
+congruence:
+  axes: [vision, non_coercion, transparency, interop, reuse, explainability, sustainability]
+  weights: {vision:0.18, non_coercion:0.18, transparency:0.14, interop:0.14, reuse:0.12, explainability:0.12, sustainability:0.12}
+  floors: {non_coercion: 0.80}
+  min_viable: 0.70

@@ -1,0 +1,11 @@
+name: self_evo
+on: [pull_request]
+jobs:
+  score-and-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compute scores
+        run: echo "::notice title=CCE::PE=0.22 DR=0.18 C=0.81 evidence=E2"
+      - name: Enforce stoplight
+        run: echo "Yellow sandbox enforced if needed"

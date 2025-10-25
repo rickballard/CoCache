@@ -1,0 +1,90 @@
+{
+  "package": "Spanky_CoCivium",
+  "version_ts": "20251008_020616",
+  "files": [
+    {
+      "path": "MISSING_CC_INLINECORES_PARAMS",
+      "bytes": 88
+    },
+    {
+      "path": "_spanky/_copayload.meta.json",
+      "bytes": 424
+    },
+    {
+      "path": "transcripts/session.md",
+      "bytes": 1493
+    },
+    {
+      "path": "payload/Run-CoCiviumCycle.ps1",
+      "bytes": 2760
+    },
+    {
+      "path": "payload/Run-CoCiviumPackage.ps1",
+      "bytes": 863
+    },
+    {
+      "path": "payload/do_cowrap.ps1",
+      "bytes": 1701
+    },
+    {
+      "path": "payload/CC_InlineCores.ps1",
+      "bytes": 220
+    },
+    {
+      "path": "payload/BN_Canonical_Pull.ps1",
+      "bytes": 456
+    },
+    {
+      "path": "payload/.github_workflow_civium-safety.yml",
+      "bytes": 245
+    },
+    {
+      "path": "notes/BPOE.md",
+      "bytes": 137
+    },
+    {
+      "path": "notes/INTENTIONS.md",
+      "bytes": 253
+    },
+    {
+      "path": "notes/DEPENDENCIES.md",
+      "bytes": 62
+    },
+    {
+      "path": "notes/DECISIONS.md",
+      "bytes": 123
+    },
+    {
+      "path": "notes/ASSUMPTIONS.md",
+      "bytes": 74
+    },
+    {
+      "path": "notes/RISKS.md",
+      "bytes": 83
+    },
+    {
+      "path": "notes/GLOSSARY.md",
+      "bytes": 88
+    },
+    {
+      "path": "notes/WEBSITE_MANIFEST.md",
+      "bytes": 61
+    },
+    {
+      "path": "notes/DEPRECATED.md",
+      "bytes": 70
+    },
+    {
+      "path": "summaries/TLDR.md",
+      "bytes": 133
+    },
+    {
+      "path": "summaries/ROADMAP_NOTES.md",
+      "bytes": 111
+    },
+    {
+      "path": "summaries/SOURCES.md",
+      "bytes": 63
+    }
+  ]
+}

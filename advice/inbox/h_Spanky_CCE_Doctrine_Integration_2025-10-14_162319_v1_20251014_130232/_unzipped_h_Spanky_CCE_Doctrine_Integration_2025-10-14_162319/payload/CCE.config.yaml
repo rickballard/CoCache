@@ -1,0 +1,11 @@
+cce:
+  thresholds: {theta_value: 0.15, theta_risk: 0.40, trust_radius: 0.35}
+  merge_threshold: 0.75
+  race_threshold: 0.45
+  bandit: {algo: "thompson", horizon_days: 28, min_evidence: 0.5}
+  credits: {Idea:10, Proposal:6, Plan:4, Initiative:2}
+  sde:
+    enabled: true
+    triggers: [ids_alert, cve_critical, key_anomaly, injection_drift, abnormal_nudge_cadence]
+    actions: [Quarantine, Fence, Rollback, KeyRotate, Attest]
+    require_two_key_to_unfreeze: true

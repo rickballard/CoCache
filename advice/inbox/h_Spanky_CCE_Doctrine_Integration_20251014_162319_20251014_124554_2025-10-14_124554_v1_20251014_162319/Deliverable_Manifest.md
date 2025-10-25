@@ -1,0 +1,6 @@
+filename: h_Spanky_CCE_Doctrine_Integration_20251014_162319_20251014_124554_2025-10-14_124554_v1_20251014_162319.zip
+version: v1
+timestamp: 20251014_162319
+source_session: Backfill
+target_session: CoPrime
+status: ready-for-ingestion

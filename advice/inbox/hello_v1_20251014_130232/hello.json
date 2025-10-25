@@ -1,0 +1,3 @@
+{ "id":"coagent-arch-hello","title":"CoAgent Minimal Box/Arrow","direction":"LR",
+  "nodes":[ {"id":"user","label":"User"},{"id":"coagent","label":"CoAgent App"},{"id":"cocivium","label":"CoCivium.org"} ],
+  "edges":[ {"from":"user","to":"coagent","label":"opens"},{"from":"coagent","to":"cocivium","label":"congruence"} ] }

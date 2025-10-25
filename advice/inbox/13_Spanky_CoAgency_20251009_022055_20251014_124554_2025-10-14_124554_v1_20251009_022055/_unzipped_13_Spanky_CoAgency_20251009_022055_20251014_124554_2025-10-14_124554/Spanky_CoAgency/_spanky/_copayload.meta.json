@@ -1,0 +1,11 @@
+{
+  "short_name": "CoAgency",
+  "created_utc": "2025-10-09T02:20:55.898506Z",
+  "generator": "Spanky Session Exporter",
+  "structure": {
+    "transcripts": "transcripts/session.md",
+    "payload": "payload/**",
+    "notes": "notes/*.md",
+    "summaries": "summaries/*.md"
+  }
+}

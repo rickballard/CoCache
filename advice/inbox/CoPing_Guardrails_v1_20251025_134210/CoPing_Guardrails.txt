@@ -1,0 +1,12 @@
+ADVICE BOMB DROPPED
+--------------------
+Session:    CoCivium/AI_Guardrails
+Timestamp:  2025-10-25T13:42:10.2789909-04:00
+Filename:   CoCivium_AI_Guardrails_PublicPromise_v1.2_20251025_173628.zip
+Location:   advice/inbox/
+Verified:   Yes (raw URL 200 OK)
+
+Instructions:
+- See inbox/README.md for prompt.
+- This version supersedes v1.1
+- Markdown summary included: guardrails-promise-v2.md

@@ -1,0 +1,12 @@
+{
+  "name": "CoSteward Advice Bomb (Upgraded)",
+  "slug": "AB_CoSteward_Spine_UPG_20251014_224344",
+  "generated": "20251014_224344",
+  "entrypoint": "DO_InstallTo_CoCache_and_PR.ps1",
+  "notes": "Repo-reorg-friendly; creates a branch and PR automatically if gh is present.",
+  "artifacts": [
+    "out.txt",
+    "status.json"
+  ],
+  "non_destructive": true
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Star Wars Empire (Fictional)",
+  "version": "demo",
+  "scores": {
+    "copolitic": 30,
+    "cofinance": 30,
+    "cosociety": 30,
+    "coinnovate": 60,
+    "cosustain": 30,
+    "cohealth": 30,
+    "coeducate": 30,
+    "coculture": 30,
+    "cosafe": 30,
+    "codiversity": 30
+  }
+}

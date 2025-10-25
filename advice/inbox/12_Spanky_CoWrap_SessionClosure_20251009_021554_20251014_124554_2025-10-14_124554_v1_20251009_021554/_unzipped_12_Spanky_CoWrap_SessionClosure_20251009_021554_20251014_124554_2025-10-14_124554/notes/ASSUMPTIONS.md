@@ -1,0 +1,1 @@
+- User will transfer zip manually if needed

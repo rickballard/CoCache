@@ -1,0 +1,20 @@
+{
+  "_spanky/_copayload.meta.json": "70f87c0006de219a7f02b4012f657091408ccf6db27863b0ed2fca8b0d04815a",
+  "_spanky/_wrap.manifest.json": "1e6ad1a3397319408e4de686dc1b3eac69e77b895d5aa988f08b09b188cd9d13",
+  "transcripts/session.md": "7a6d397708baedaab6c193b899da56452184557074270ddcf8f7ba8860539dbd",
+  "payload/consensus-dates.js": "d45c8f814a006ff059016fac67dc5fd058c22350720f47ea6c9084ca28bcf9c2",
+  "payload/pages.yml": "f1b349270ad3750678b6cf6c3d7ee4a1a1d67464174c7f34771bd1d62ef850ad",
+  "payload/problems.section.html": "ea0d2510c8a187e009a59690fac7d883df7471e3450e1687adfbacf6324aa6b5",
+  "notes/INTENTIONS.md": "b097d819d23840b62c43d8ed6178cdc3ad19d25a0c13b47a7b3bf77a31e9c2ce",
+  "notes/BPOE.md": "ca344c60b36ee9f666023c75b5abc4bcbbca8cd795297e679aac087f6ca76e74",
+  "notes/DEPENDENCIES.md": "b6d6460003a04baaa07401095c6c1522314852a508ee6048f9eb16b5d09e9c54",
+  "notes/DECISIONS.md": "20596eb89163e794c50c202e35c350169de333c54ccc2ecba563f437bc7e378f",
+  "notes/ASSUMPTIONS.md": "6d9f45995ce5de09cc32055dd506af42bab3281418d476b22ca4b9745a62a393",
+  "notes/RISKS.md": "c524f46fcd11eaf2ab4e7b6e552caba260c75d08d5bb462285a05dedd6330bbb",
+  "notes/GLOSSARY.md": "fb3448c27e214a3ef3ae2cd72c02794899643762dc56e7d10057a867c84fcf46",
+  "notes/WEBSITE_MANIFEST.md": "46b4ed793ff5dfb345cf377811f86e312c2746ca3a0cfe44d5828e3b8ef337cd",
+  "notes/DEPRECATED.md": "4890d90c72243cbe1de41252ff3426d094882e30e73080032c322dcae6a45f9a",
+  "summaries/TLDR.md": "dfa2a75b97d619e8faab7ed808c6de8cd587289b56c11b3a6d65d9c81ec91c64",
+  "summaries/ROADMAP_NOTES.md": "34626547c96bb95802e8c7b893306b133bc283c706f9d3b0e6b15d9eebe33a0c",
+  "summaries/SOURCES.md": "8997fe3d65a3718be03b1ca0a5e6a725238e6396b33cf9e6fa550da251f0aa66"
+}

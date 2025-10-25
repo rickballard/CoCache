@@ -1,0 +1,1 @@
+{ "includes": ["session.md", "*.md", "*.ps1"] }

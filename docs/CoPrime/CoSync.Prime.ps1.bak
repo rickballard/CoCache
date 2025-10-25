@@ -1,0 +1,106 @@
+Set-StrictMode -Version Latest
+$ErrorActionPreference="Stop"; $ProgressPreference="SilentlyContinue"
+function V([string]$s){ Write-Host $s -ForegroundColor Magenta }
+$GH      = Join-Path $HOME "Documents\GitHub"
+$CoCache = Join-Path $GH   "CoCache"
+$Prime   = Join-Path $CoCache "docs\CoPrime"
+New-Item -ItemType Directory -Force -Path $Prime | Out-Null
+$ABS = @(
+  "https://github.com/rickballard/CoCache/blob/main/docs/intent/NEXT_SESSION_START_ABS.md",
+  "https://github.com/rickballard/CoCache/blob/main/docs/intent/SESSION_INDEX.md",
+  "https://github.com/rickballard/CoCache/tree/main/docs/intent",
+  "https://raw.githubusercontent.com/rickballard/CoCache/main/site/cosync_feed/top50.json",
+  "https://github.com/rickballard/CoCache/blob/main/docs/intent/COSYNC_GAPS.md",
+  "https://raw.githubusercontent.com/rickballard/CoCache/main/docs/dashboards/cosync_validation.csv",
+  (Join-Path $CoCache "tools\Start-New-Session.ps1")
+)
+$PromptPacks = @(
+  (Join-Path $CoCache "docs\intent\SESSION_PLAN_CURRENT.md"),
+  (Join-Path $CoCache "docs\intent\SESSION_INDEX.md"),
+  (Join-Path $CoCache "docs\intent\COPRIME_RULES.md"),
+  (Join-Path $CoCache "docs\intent\COPINGPONG_RULES.md")
+)
+$PromptPacks = @($PromptPacks | Where-Object { Test-Path $_ })
+function Probe([string]$u){
+  if($u -match "^(https?://)"){
+    try{ $r = Invoke-WebRequest -Uri $u -Method Head -UseBasicParsing -TimeoutSec 15;
+         @{url=$u; ok=$true; code=$r.StatusCode} }
+    catch{ @{url=$u; ok=$false; code="err"} }
+  } else { @{url=$u; ok=(Test-Path $u); code=$(if(Test-Path $u){"exists"}else{"missing"})} }
+}
+$absProbe = $ABS | ForEach-Object { Probe $_ }
+$dashNow    = Get-ChildItem $Prime -Filter "CoPrime.DASHBOARD*.md"   -ErrorAction SilentlyContinue | Sort-Object LastWriteTime -Desc | Select-Object -First 1
+$backlogNow = Get-ChildItem $Prime -Filter "CoPrime.BACKLOG*.json"  -ErrorAction SilentlyContinue | Sort-Object LastWriteTime -Desc | Select-Object -First 1
+$probeNow   = Get-ChildItem $Prime -Filter "ABS_PROBE*.json"        -ErrorAction SilentlyContinue | Sort-Object LastWriteTime -Desc | Select-Object -First 1
+$ok = 0; $fail = 0; foreach($p in $absProbe){ if($p.ok){$ok++}else{$fail++} }
+V "==================== CoSync.Prime — Session Hydrated (read-only) ===================="
+$tmp = "CoCache:           {0}" -f $CoCache; V $tmp
+$tmp = "CoPrime:           {0}" -f $Prime; V $tmp
+if($dashNow){  $tmp = "DASHBOARD:        {0}" -f $dashNow.FullName; V $tmp }
+if($backlogNow){$tmp = "BACKLOG JSON:     {0}" -f $backlogNow.FullName; V $tmp }
+if($probeNow){ $tmp = "ABS PROBE JSON:   {0}" -f $probeNow.FullName; V $tmp }
+V ""
+$tmp = "ABS probes: OK={0}  FAIL={1}" -f $ok,$fail; V $tmp
+if($fail -gt 0){
+  $absProbe | Where-Object { -not $_.ok } | Select-Object -First 10 | ForEach-Object { $tmp = "  - {0}" -f $_.url; V $tmp }
+}
+V ""
+if($PromptPacks.Count -gt 0){
+  V "Prompt packs absorbed:"
+  $PromptPacks | ForEach-Object { $tmp = "  - {0}" -f $_; V $tmp }
+} else { V "Prompt packs absorbed: (none found)"}
+V ""
+V "$AdviceIdx = Join-Path (Join-Path $CoCache "docs\intent\advice\index") "advice.index.json"
+$AdvN = 0; $AdvLatest=@()
+if (Test-Path $AdviceIdx) {
+  try { $adv = Get-Content $AdviceIdx -Raw | ConvertFrom-Json; $adv=@($adv); $AdvN = $adv.Count; $AdvLatest = $adv | Sort-Object ts -Descending | Select-Object -First 5 } catch {}
+}
+if ($AdvN -gt 0) {
+  $tmp = "Advice families: {0}; latest:" -f $AdvN; V $tmp
+  foreach($a in $AdvLatest){ $tmp = "  - {0} — {1}" -f $a.latestTs, $a.latestPath; V $tmp }
+} else { V 'Advice: (none indexed yet)' }
+V ""
+Result: READY — Session is synced to repo doctrine and pointers."
+V "===================================================================================="
+
+# --- Advice (safe) ---
+function Show-AdviceIndex {
+  param([string]$Root)
+
+  $AdviceIdx = Join-Path (Join-Path $Root 'docs\intent\advice\index') 'advice.index.json'
+  $AdvN = 0; $AdvLatest = @(); $Overs = @()
+
+  if (Test-Path $AdviceIdx) {
+    try {
+      $adv = @((Get-Content $AdviceIdx -Raw | ConvertFrom-Json))
+      $AdvN = $adv.Count
+      $AdvLatest = $adv | Sort-Object latestTs -Descending | Select-Object -First 5
+      foreach($a in $adv){
+        if ($a.latestPath -and (Test-Path $a.latestPath)) {
+          $szKB = [math]::Round((Get-Item $a.latestPath).Length / 1KB)
+          if ($szKB -gt 256) { $Overs += "$($a.family) ($szKB KB)" }
+        }
+      }
+    } catch {}
+  }
+
+  if ($AdvN -gt 0) {
+    $msg = 'Advice families: {0}; latest:' -f $AdvN
+    V $msg
+    foreach($a in $AdvLatest){
+      $line = '  - {0} — {1}' -f $a.latestTs, $a.latestPath
+      V $line
+    }
+    if ($Overs.Count -gt 0) {
+      $ovr = '  ⚠ Oversized: {0}' -f ($Overs -join ', ')
+      V $ovr
+    }
+  } else {
+    V 'Advice: (none indexed yet)'
+  }
+  V ''
+}
+Show-AdviceIndex -Root $CoCache
+# --- /Advice ---
+
+

@@ -1,0 +1,3 @@
+# Pre-Existence Checklist
+
+Before deploying, search for prior evolution-related scrolls...

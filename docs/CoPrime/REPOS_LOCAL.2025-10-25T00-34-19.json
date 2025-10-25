@@ -1,0 +1,266 @@
+[
+  {
+    "name": "AmpliPi",
+    "path": "C:/Users/Chris/Documents/GitHub/AmpliPi",
+    "branch": "main",
+    "sha": "9d6a5ca",
+    "remote": "https://github.com/rickballard/AmpliPi.git",
+    "dirty": true
+  },
+  {
+    "name": "BeAxa",
+    "path": "C:/Users/Chris/Documents/GitHub/BeAxa",
+    "branch": "main",
+    "sha": "d554798",
+    "remote": "https://github.com/rickballard/BeAxa.git",
+    "dirty": true
+  },
+  {
+    "name": "CareerOS-Elias",
+    "path": "C:/Users/Chris/Documents/GitHub/CareerOS-Elias",
+    "branch": "main",
+    "sha": "7768aaf",
+    "remote": "https://github.com/rickballard/CareerOS-Elias.git",
+    "dirty": true
+  },
+  {
+    "name": "Civium",
+    "path": "C:/Users/Chris/Documents/GitHub/Civium",
+    "branch": "main",
+    "sha": "4502733",
+    "remote": "https://github.com/rickballard/Civium.git",
+    "dirty": true
+  },
+  {
+    "name": "Civium-Constitution",
+    "path": "C:/Users/Chris/Documents/GitHub/Civium-Constitution",
+    "branch": "gm/preflight-20250813_2024",
+    "sha": "375db40",
+    "remote": "https://github.com/rickballard/Cognocarta-Consenti.git",
+    "dirty": true
+  },
+  {
+    "name": "CoAgent",
+    "path": "C:/Users/Chris/Documents/GitHub/CoAgent",
+    "branch": "advice/mirror-20251024_213256",
+    "sha": "369b00a",
+    "remote": "https://github.com/rickballard/CoAgent.git",
+    "dirty": true
+  },
+  {
+    "name": "CoAgent__mvp3_resume-20250923-111953Z",
+    "path": "C:/Users/Chris/Documents/GitHub/CoAgent__mvp3_resume-20250923-111953Z",
+    "branch": "fix/empty-pipe",
+    "sha": "dbdff29",
+    "remote": "https://github.com/rickballard/CoAgent.git",
+    "dirty": true
+  },
+  {
+    "name": "CoAudit",
+    "path": "C:/Users/Chris/Documents/GitHub/CoAudit",
+    "branch": "main",
+    "sha": "cc153ae",
+    "remote": "https://github.com/rickballard/CoAudit.git",
+    "dirty": true
+  },
+  {
+    "name": "CoCache",
+    "path": "C:/Users/Chris/Documents/GitHub/CoCache",
+    "branch": "main",
+    "sha": "9c88270",
+    "remote": "https://github.com/rickballard/CoCache.git",
+    "dirty": true
+  },
+  {
+    "name": "CoCivium",
+    "path": "C:/Users/Chris/Documents/GitHub/CoCivium",
+    "branch": "main",
+    "sha": "32836c27",
+    "remote": "https://github.com/rickballard/CoCivium.git",
+    "dirty": true
+  },
+  {
+    "name": "CoCivium-outreach",
+    "path": "C:/Users/Chris/Documents/GitHub/CoCivium-outreach",
+    "branch": "outreach/linkedin-reconnect-auto-20250912-0039",
+    "sha": "21539ffc",
+    "remote": "https://github.com/rickballard/CoCivium.git",
+    "dirty": true
+  },
+  {
+    "name": "CoCivium-website",
+    "path": "C:/Users/Chris/Documents/GitHub/CoCivium-website",
+    "branch": "main",
+    "sha": "ab726f0",
+    "remote": "https://github.com/rickballard/CoCivium-website.git",
+    "dirty": true
+  },
+  {
+    "name": "CoCivium.clean",
+    "path": "C:/Users/Chris/Documents/GitHub/CoCivium.clean",
+    "branch": "gm/CoCivium.clean-20250911-172359",
+    "sha": "7a6dcf4",
+    "remote": "https://github.com/rickballard/CoCivium.git",
+    "dirty": true
+  },
+  {
+    "name": "CoCiviumBackUp",
+    "path": "C:/Users/Chris/Documents/GitHub/CoCiviumBackUp",
+    "branch": "main",
+    "sha": "6133cf4",
+    "remote": "https://github.com/rickballard/CoCiviumBackUp.git",
+    "dirty": true
+  },
+  {
+    "name": "CoCore",
+    "path": "C:/Users/Chris/Documents/GitHub/CoCore",
+    "branch": "main",
+    "sha": "3e7e42c",
+    "remote": "https://github.com/rickballard/CoCore.git",
+    "dirty": true
+  },
+  {
+    "name": "CoLaminar",
+    "path": "C:/Users/Chris/Documents/GitHub/CoLaminar",
+    "branch": "main",
+    "sha": "a37814d",
+    "remote": "https://github.com/rickballard/CoLaminar.git",
+    "dirty": true
+  },
+  {
+    "name": "CoModules",
+    "path": "C:/Users/Chris/Documents/GitHub/CoModules",
+    "branch": "main",
+    "sha": "2684a87",
+    "remote": "https://github.com/rickballard/CoModules.git",
+    "dirty": true
+  },
+  {
+    "name": "CoPolitic",
+    "path": "C:/Users/Chris/Documents/GitHub/CoPolitic",
+    "branch": "main",
+    "sha": "3e5d1bb",
+    "remote": "https://github.com/rickballard/CoPolitic.git",
+    "dirty": true
+  },
+  {
+    "name": "CoRef",
+    "path": "C:/Users/Chris/Documents/GitHub/CoRef",
+    "branch": "main",
+    "sha": "7b4d702",
+    "remote": "https://github.com/rickballard/CoRef.git",
+    "dirty": true
+  },
+  {
+    "name": "CoSteward",
+    "path": "C:/Users/Chris/Documents/GitHub/CoSteward",
+    "branch": "main",
+    "sha": "204008f",
+    "remote": "https://github.com/rickballard/CoSteward.git",
+    "dirty": true
+  },
+  {
+    "name": "CoSuiteBackup",
+    "path": "C:/Users/Chris/Documents/GitHub/CoSuiteBackup",
+    "branch": "master",
+    "sha": "6472548",
+    "remote": "https://github.com/rickballard/CoSuiteBackup.git",
+    "dirty": true
+  },
+  {
+    "name": "EntMent",
+    "path": "C:/Users/Chris/Documents/GitHub/EntMent",
+    "branch": "main",
+    "sha": "cb5eaf2",
+    "remote": "https://github.com/rickballard/EntMent.git",
+    "dirty": true
+  },
+  {
+    "name": "Games",
+    "path": "C:/Users/Chris/Documents/GitHub/Games",
+    "branch": "main",
+    "sha": "0a8e2b1",
+    "remote": "https://github.com/rickballard/Games.git",
+    "dirty": true
+  },
+  {
+    "name": "GIBindex",
+    "path": "C:/Users/Chris/Documents/GitHub/GIBindex",
+    "branch": "main",
+    "sha": "f003406",
+    "remote": "https://github.com/rickballard/GIBindex.git",
+    "dirty": true
+  },
+  {
+    "name": "Godspawn",
+    "path": "C:/Users/Chris/Documents/GitHub/Godspawn",
+    "branch": "main",
+    "sha": "c86a4dc",
+    "remote": "https://github.com/rickballard/Godspawn",
+    "dirty": true
+  },
+  {
+    "name": "GroupBuild",
+    "path": "C:/Users/Chris/Documents/GitHub/GroupBuild",
+    "branch": "polish/bootstrap-20250915",
+    "sha": "ef3e0a1",
+    "remote": "https://github.com/rickballard/GroupBuild.git",
+    "dirty": true
+  },
+  {
+    "name": "GroupBuild-website",
+    "path": "C:/Users/Chris/Documents/GitHub/GroupBuild-website",
+    "branch": "main",
+    "sha": "a1a9f6f",
+    "remote": "https://github.com/rickballard/GroupBuild-website.git",
+    "dirty": true
+  },
+  {
+    "name": "InSeed",
+    "path": "C:/Users/Chris/Documents/GitHub/InSeed",
+    "branch": "main",
+    "sha": "ee94b47",
+    "remote": "https://github.com/rickballard/InSeed.git",
+    "dirty": true
+  },
+  {
+    "name": "MeritRank",
+    "path": "C:/Users/Chris/Documents/GitHub/MeritRank",
+    "branch": "main",
+    "sha": "d063e0d",
+    "remote": "https://github.com/rickballard/MeritRank.git",
+    "dirty": true
+  },
+  {
+    "name": "Opename",
+    "path": "C:/Users/Chris/Documents/GitHub/Opename",
+    "branch": "main",
+    "sha": "a174a1a",
+    "remote": "https://github.com/rickballard/Opename.git",
+    "dirty": true
+  },
+  {
+    "name": "opename-ops",
+    "path": "C:/Users/Chris/Documents/GitHub/opename-ops",
+    "branch": "main",
+    "sha": "0d31884",
+    "remote": "https://github.com/rickballard/opename-ops.git",
+    "dirty": true
+  },
+  {
+    "name": "rickballard",
+    "path": "C:/Users/Chris/Documents/GitHub/rickballard",
+    "branch": "main",
+    "sha": "feed5e2",
+    "remote": "https://github.com/rickballard/rickballard.git",
+    "dirty": true
+  },
+  {
+    "name": "RickPublic",
+    "path": "C:/Users/Chris/Documents/GitHub/RickPublic",
+    "branch": "main",
+    "sha": "df775ad",
+    "remote": "https://github.com/rickballard/RickPublic.git",
+    "dirty": true
+  }
+]

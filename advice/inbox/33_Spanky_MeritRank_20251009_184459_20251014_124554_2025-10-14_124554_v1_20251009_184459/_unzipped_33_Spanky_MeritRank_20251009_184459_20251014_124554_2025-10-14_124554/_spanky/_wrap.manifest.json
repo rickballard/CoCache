@@ -1,0 +1,35 @@
+{
+  "name": "Spanky_MeritRank_20251009_184459",
+  "created_utc": "20251009_184459",
+  "structure": {
+    "_spanky": [
+      "_copayload.meta.json",
+      "_wrap.manifest.json",
+      "out.txt",
+      "checksums.json"
+    ],
+    "transcripts": [
+      "session.md"
+    ],
+    "payload": [
+      "DO_BLOCKS.ps1",
+      "Spanky_Request_Pack_v2_2_2025-10-08.zip"
+    ],
+    "notes": [
+      "ASSUMPTIONS.md",
+      "BPOE.md",
+      "DECISIONS.md",
+      "DEPENDENCIES.md",
+      "DEPRECATED.md",
+      "GLOSSARY.md",
+      "INTENTIONS.md",
+      "RISKS.md",
+      "WEBSITE_MANIFEST.md"
+    ],
+    "summaries": [
+      "ROADMAP_NOTES.md",
+      "SOURCES.md",
+      "TLDR.md"
+    ]
+  }
+}

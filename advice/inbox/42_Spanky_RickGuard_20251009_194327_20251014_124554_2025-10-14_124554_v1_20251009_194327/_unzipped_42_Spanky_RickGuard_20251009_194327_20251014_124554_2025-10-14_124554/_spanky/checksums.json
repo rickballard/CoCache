@@ -1,0 +1,82 @@
+{
+  "_spanky/_copayload.meta.json": {
+    "sha256": "8145d9d4f021ecb538c18d2af9fbb6bff369bf39a30bd81c21dde9ff57c5a542",
+    "bytes": 377
+  },
+  "notes/ASSUMPTIONS.md": {
+    "sha256": "7e373fcc545873265c0d6c8c8ca57bee87f400cb766b243856d55fc0e7295e19",
+    "bytes": 242
+  },
+  "notes/BPOE.md": {
+    "sha256": "39f7aff16a493a38370566834bb38cd7be50d2ac671310e00e1248324e64974d",
+    "bytes": 549
+  },
+  "notes/DECISIONS.md": {
+    "sha256": "511cb62265fe2a7b6dad8c1a479f7e52bccb8dc6cb71b6d04e551a2c2fe923c8",
+    "bytes": 453
+  },
+  "notes/DEPENDENCIES.md": {
+    "sha256": "153f35ae83067317d2486f5858d3d3295e1db431da512ad832a793856596d63b",
+    "bytes": 270
+  },
+  "notes/DEPRECATED.md": {
+    "sha256": "ae4e1d96b1831215fd7697e4d98f7f519b675d869a7f8efa8e70f30d8ffc3a01",
+    "bytes": 167
+  },
+  "notes/GLOSSARY.md": {
+    "sha256": "6ec72c808fd86b509fa52d0d2bdd951e6cbf38bd44e7e26b693424aea639c2a5",
+    "bytes": 287
+  },
+  "notes/INTENTIONS.md": {
+    "sha256": "a8586f4f80578c2d7dbd025d929cb56f54dc01610e127fea7966256b2d1002ae",
+    "bytes": 807
+  },
+  "notes/RISKS.md": {
+    "sha256": "81d78acaba69b198d8f9624008dc2d9b6bfbda05171a511605832c206b084c89",
+    "bytes": 328
+  },
+  "notes/WEBSITE_MANIFEST.md": {
+    "sha256": "60ba88931c9c0096fe46e3d0cc6fd009644ea4f13ab514b5b590e22170bfcc4d",
+    "bytes": 235
+  },
+  "payload/CODEOWNERS": {
+    "sha256": "f8c312939fa11363f075fd675bae73786786c7a6fffe7524465385eccc036c00",
+    "bytes": 15
+  },
+  "payload/ChromeExtensions_20251008_195356.md": {
+    "sha256": "c7bce43db83572db7e1dc0b2585c722ca0f7286e7202801e772d78fc2476c968",
+    "bytes": 1817
+  },
+  "payload/ISSUE_TEMPLATE/launch.md": {
+    "sha256": "93b42f8362e1527801171f464672239aba639b007847c0375b6700b9867c0286",
+    "bytes": 288
+  },
+  "payload/MISSING_PS7OutputLatest.odt.txt": {
+    "sha256": "d100a310dbaf012141c58f63aa07ee7e9a4c38e531b8cf16d1d6fdce0ba10ecf",
+    "bytes": 70
+  },
+  "payload/PULL_REQUEST_TEMPLATE.md": {
+    "sha256": "b648b66d318ae21853cdeb7c9aec413880cac7972b6a233012330f084105c96d",
+    "bytes": 358
+  },
+  "payload/RickGuard.ps1": {
+    "sha256": "70413a0bfb1a3cc6eb7a7cc820092654899c29ecc4d852a46572e4f6981db4d3",
+    "bytes": 6528
+  },
+  "summaries/ROADMAP_NOTES.md": {
+    "sha256": "308926fe2894cff6c32afdc6531c027e7f138cb2d50c927a6fa5df1da4d00cf2",
+    "bytes": 228
+  },
+  "summaries/SOURCES.md": {
+    "sha256": "122e7370a1aaabef94abce11efda0fc89dd1d2bf72483959fd7c0b4c54e0a55b",
+    "bytes": 198
+  },
+  "summaries/TLDR.md": {
+    "sha256": "7d821d30d0cbca13f19d3c17315026b356a409dacbcad25e770d306673eaad0e",
+    "bytes": 318
+  },
+  "transcripts/session.md": {
+    "sha256": "04d4904589f926f19aa6665ce02d37382bc2eb466dc4c4581f86ed74f2b2af4b",
+    "bytes": 2213
+  }
+}

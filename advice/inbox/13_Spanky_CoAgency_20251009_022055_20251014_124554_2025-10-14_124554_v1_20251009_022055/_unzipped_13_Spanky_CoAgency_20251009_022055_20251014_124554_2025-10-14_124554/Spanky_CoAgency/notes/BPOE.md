@@ -1,0 +1,3 @@
+- Inkscape = **Required** dependency for graphics toolchain (local SVG→PNG renders).
+- Purpose: keep local checks consistent with CI for diagram assets.
+- Placement: CoCache/bpoe/Dependencies.md (recorded).
