@@ -43,3 +43,17 @@
   "source": "agent"
 }
 
+{
+  "repo": "CoCache",
+  "when": "2025-10-25T01:50:11.0279060Z",
+  "area": "plan",
+  "type": "note",
+  "summary": "Session plan frozen + backlog + next-session checklist",
+  "data": {
+    "backlog": "docs/intent/PLAN_BACKLOG.md",
+    "start": "docs/intent/NEXT_SESSION_START.md",
+    "plan": "docs/intent/SESSION_PLAN_20251025_0150.md"
+  },
+  "source": "agent"
+}
+
