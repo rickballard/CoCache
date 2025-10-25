@@ -1,0 +1,45 @@
+{
+  "repo": "CoCache",
+  "commit": "fcda9da",
+  "when": "2025-10-25T01:32:40.4390713Z",
+  "area": "handoff",
+  "type": "note",
+  "summary": "Session handoff recorded",
+  "data": {
+    "tools": [
+      "tools/Housekeep-Bloat.ps1",
+      "tools/Mirror-AdviceBombs.ps1",
+      "tools/Systematization-Scan.ps1"
+    ],
+    "workflows": [
+      "cosync-feed.yml",
+      "systematization-scan.yml",
+      "hero-monthly.yml"
+    ],
+    "handoff_md": "CoCache\\docs\\intent\\session_handoff_20251025_0132.md",
+    "advice": [
+      {
+        "file": "RP_AdviceBomb_v1.zip",
+        "sha": "B0323B4E6919FE1A6090FF80EE7B141F5D063933E150122AC3ABC646C91C3399",
+        "bytes": 2620
+      },
+      {
+        "file": "AdviceBomb_CoTheory_Mythos_20251024.zip",
+        "sha": "22536F4EDBFAE8E918ED689007F0AD99FE34D260BA7AAAE2EAAF91AB37B797CE",
+        "bytes": 2177
+      },
+      {
+        "file": "AdviceBomb_CoAgent_Outreach_CLRIM_20251024_124930.zip",
+        "sha": "682D92EC3744961E9C244511173FEDC9944B3607B1327BFD4DE6A7FBC47559D5",
+        "bytes": 10871
+      },
+      {
+        "file": "Advice_SeedCrystal_20251024_153510.zip",
+        "sha": "CEA1FF83C8200616CF8B0870621D26967F29B48BF5D685BE3B39C65948A6E32E",
+        "bytes": 3179
+      }
+    ]
+  },
+  "source": "agent"
+}
+

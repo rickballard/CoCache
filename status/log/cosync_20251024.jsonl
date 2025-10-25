@@ -936,3 +936,113 @@
   "source": "agent"
 }
 
+{
+  "repo": "CoAgent",
+  "commit": "369b00a",
+  "when": "2025-10-24T17:00:17.7676068Z",
+  "area": "advice",
+  "type": "progress",
+  "summary": "AdviceBomb mirrored to CoAgent",
+  "data": {
+    "bytes": 3179,
+    "rel": "advice/incoming/Advice_SeedCrystal_20251024_153510.zip",
+    "file": "Advice_SeedCrystal_20251024_153510.zip",
+    "sha256": "CEA1FF83C8200616CF8B0870621D26967F29B48BF5D685BE3B39C65948A6E32E"
+  },
+  "source": "agent"
+}
+
+{
+  "repo": "CoAgent",
+  "commit": "369b00a",
+  "when": "2025-10-24T17:00:18.0212637Z",
+  "area": "advice",
+  "type": "progress",
+  "summary": "AdviceBomb mirrored to CoAgent",
+  "data": {
+    "bytes": 10871,
+    "rel": "advice/incoming/AdviceBomb_CoAgent_Outreach_CLRIM_20251024_124930.zip",
+    "file": "AdviceBomb_CoAgent_Outreach_CLRIM_20251024_124930.zip",
+    "sha256": "682D92EC3744961E9C244511173FEDC9944B3607B1327BFD4DE6A7FBC47559D5"
+  },
+  "source": "agent"
+}
+
+{
+  "repo": "CoAgent",
+  "commit": "369b00a",
+  "when": "2025-10-24T17:00:18.6680380Z",
+  "area": "advice",
+  "type": "progress",
+  "summary": "AdviceBomb mirrored to CoAgent",
+  "data": {
+    "bytes": 2177,
+    "rel": "advice/incoming/AdviceBomb_CoTheory_Mythos_20251024.zip",
+    "file": "AdviceBomb_CoTheory_Mythos_20251024.zip",
+    "sha256": "22536F4EDBFAE8E918ED689007F0AD99FE34D260BA7AAAE2EAAF91AB37B797CE"
+  },
+  "source": "agent"
+}
+
+{
+  "repo": "CoAgent",
+  "commit": "369b00a",
+  "when": "2025-10-24T17:00:18.8603465Z",
+  "area": "advice",
+  "type": "progress",
+  "summary": "AdviceBomb mirrored to CoAgent",
+  "data": {
+    "bytes": 8790,
+    "rel": "advice/incoming/AdviceBomb_WealthMgmt_AI_Shock_Pivot_20251023_143006.zip",
+    "file": "AdviceBomb_WealthMgmt_AI_Shock_Pivot_20251023_143006.zip",
+    "sha256": "93FF68847A9BBE08EB4F7A26704839AB7AA3A5BDFA23D5195B917350FC917CAE"
+  },
+  "source": "agent"
+}
+
+{
+  "repo": "CoAgent",
+  "commit": "369b00a",
+  "when": "2025-10-24T17:00:19.0301740Z",
+  "area": "advice",
+  "type": "progress",
+  "summary": "AdviceBomb mirrored to CoAgent",
+  "data": {
+    "bytes": 2620,
+    "rel": "advice/incoming/RP_AdviceBomb_v1.zip",
+    "file": "RP_AdviceBomb_v1.zip",
+    "sha256": "B0323B4E6919FE1A6090FF80EE7B141F5D063933E150122AC3ABC646C91C3399"
+  },
+  "source": "agent"
+}
+
+{
+  "repo": "CoCache",
+  "when": "2025-10-24T17:02:22.6662808Z",
+  "area": "systematization",
+  "type": "progress",
+  "summary": "Scan complete",
+  "data": {
+    "csv": "CoCache\\docs\\dashboards\\systematization_scan.csv",
+    "downloaded": false,
+    "manifest": "CoCache\\docs\\intent\\systematization_manifest.json",
+    "topics": [
+      "link-checker",
+      "markdown-linter",
+      "docusaurus",
+      "mkdocs",
+      "mdbook",
+      "knowledge-graph",
+      "graphviz",
+      "mermaid",
+      "site-search",
+      "algolia-docsearch",
+      "documentation-generator",
+      "static-analysis",
+      "table-of-contents",
+      "sitemap"
+    ]
+  },
+  "source": "agent"
+}
+
