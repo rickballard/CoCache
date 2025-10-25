@@ -1,0 +1,20 @@
+name: CoSync Validate
+on:
+  push: { branches: ["**"] }
+  pull_request:
+permissions: { contents: read }
+jobs:
+  validate:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run validator
+        shell: pwsh
+        run: pwsh -NoLogo -NoProfile -File "tools/CoSync-Validate.ps1"
+      - name: Upload validation report
+        uses: actions/upload-artifact@v4
+        with:
+          name: cosync-validation
+          path: |
+            docs/dashboards/cosync_validation.csv
+            docs/intent/COSYNC_GAPS.md

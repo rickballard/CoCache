@@ -57,3 +57,35 @@
   "source": "agent"
 }
 
+{
+  "repo": "CoCache",
+  "commit": "9f56541",
+  "when": "2025-10-25T02:28:30.4015993Z",
+  "area": "handoff",
+  "type": "note",
+  "summary": "Final CoSync sweep (closing session)",
+  "data": {
+    "csv": "docs/dashboards/docs\\dashboards\\cosync_validation.csv",
+    "note": "Final sweep from closing session (report-only).",
+    "counts": {
+      "plans": 1,
+      "gaps": 3,
+      "handoffs": 1
+    },
+    "gaps": "docs/intent/docs\\intent\\COSYNC_GAPS.md",
+    "index": "docs/intent/docs\\intent\\SESSION_INDEX.md"
+  },
+  "user": {
+    "hint": "Chris@local",
+    "anon": true
+  },
+  "session": {
+    "role": "CoPrime"
+  },
+  "actor": {
+    "name": "GPT-5 Thinking",
+    "type": "ai"
+  },
+  "source": "cosync-emit"
+}
+
