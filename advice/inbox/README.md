@@ -1,7 +1,9 @@
 # Advice Bomb Inbox (CoSuite)
 
 Drop a single advice bomb (`.md`, `.txt`, `.json`) or a `.zip` containing only those types.
-Reuse the **same filename** when iterating — each change becomes a new version.
+Use **versioned filenames** while iterating, e.g.:
+- `coevo-looping-v1.md`, `coevo-looping-v2.md`
+- Or zip: `coevo-looping-v3.zip` (contains only .md/.txt/.json)
 
 ## CoEvo Looping — working rules
 - Max size: **≤ 256 KB**
@@ -24,8 +26,8 @@ Change-Notes:
   - <one line>
 
 ## Examples
-- `coevo-looping.md` (iterative)
-- `copingpong-habits.md` (static guidance)
+- `coevo-looping-v1.md` → `coevo-looping-v2.md`
+- `copingpong-habits-v1.md`
 
 > This inbox is auto-indexed to `docs/intent/advice/index`. Older inbox items may be cleaned after 90 days;
 > all processed versions are archived with history.
