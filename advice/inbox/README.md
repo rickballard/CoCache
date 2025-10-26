@@ -37,3 +37,5 @@ Change-Notes:
 - Families are grouped by filename stem (`topic-vN` -> family `topic`).
 - Inbox may be cleaned after 90 days; history is kept in processed/archive.
 - If your first drop wasn’t versioned, it is treated as `v1`. Rename to `-vN` to continue.
+
+🔗 [CoSteward Profile Template (ChatGPT Settings)](assets/CoSteward.ProfileTemplate.md)
