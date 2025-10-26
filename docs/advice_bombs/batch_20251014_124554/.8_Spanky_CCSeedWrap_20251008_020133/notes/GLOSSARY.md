@@ -4,3 +4,4 @@
 - **BPOE**: operational wisdom and constraints emphasizing human limits.
 - **DO block**: packaged, deterministic action sequence runnable from Downloads.
 - **CoWrap**: end-of-session wrap that moves artifacts into repo.
+

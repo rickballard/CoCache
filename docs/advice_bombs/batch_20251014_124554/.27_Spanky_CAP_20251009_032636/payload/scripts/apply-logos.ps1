@@ -52,3 +52,4 @@ if($CommitAndPush){
     else { Write-Host "apply-logos: no changes to commit." }
   } finally { Pop-Location }
 }
+

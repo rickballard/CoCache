@@ -8,3 +8,4 @@ Planned (including early intentions and pivots):
 - Complete logo set; ensure 160×160 PNGs in /assets/img/exemplars.
 - Create /roles/index.html (CoPolitic) and propagate role pattern to other repos.
 - Add one-pager PDF build, link-checker action, and a11y polish.
+

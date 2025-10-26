@@ -18,3 +18,4 @@ Score each item 0–3 (0 = missing, 3 = crisp). Total /48.
 14) Legal footnotes present  
 15) Repatriated data line included  
 16) Optional enterprise appendix
+

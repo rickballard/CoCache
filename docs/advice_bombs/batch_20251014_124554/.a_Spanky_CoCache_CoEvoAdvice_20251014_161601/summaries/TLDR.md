@@ -5,3 +5,4 @@
 4) Define guardrails and consent in `.cocache.yml` per repo.
 5) Prepare CoCacheGlobal for ballots on interface changes.
 6) Publish CoCivia `intent.manifest.json` when governance is live.
+

@@ -60,3 +60,4 @@ if ($PSVersionTable.PSEdition -ne "Core"){ Write-Warning "Start PowerShell 7+: t
 - Use separate `if` blocks instead of `-and`/`elseif` at the console.
 - Search literals with `-SimpleMatch`; file ops use `-LiteralPath`.
 - Prefer arrays-of-lines over here-strings when pasting big blocks.
+

@@ -39,3 +39,4 @@ foreach ($s in $slugs) {
 }
 $rows | Export-Csv (Join-Path $logos 'audit.csv') -NoTypeInformation -Encoding UTF8
 Write-Host "Refreshed logos audit at $logos\audit.csv; staged: $((Get-ChildItem $staged -File | Measure-Object).Count)"
+

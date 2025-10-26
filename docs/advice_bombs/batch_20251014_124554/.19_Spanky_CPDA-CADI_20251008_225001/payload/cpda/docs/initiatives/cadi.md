@@ -14,3 +14,4 @@
 - Open threat models contextualising Sentry/Scout/Torino/Palermo
 - Deflection feasibility maps (kinetic, tugboat, nuclear policy-gated)
 - Readiness dashboards (launch windows, comms templates, treaty scaffolds)
+

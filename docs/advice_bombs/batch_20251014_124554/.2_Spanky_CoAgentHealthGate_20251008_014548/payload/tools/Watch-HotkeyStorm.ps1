@@ -10,3 +10,4 @@ Register-CimIndicationEvent -Query "SELECT * FROM Win32_ProcessStartTrace WHERE 
     $line | Out-File $log -Append -Encoding utf8
   } | Out-Null
 Write-Host "Hotkey storm watch started. Stop with: Unregister-Event -SourceIdentifier CalcWatch"
+

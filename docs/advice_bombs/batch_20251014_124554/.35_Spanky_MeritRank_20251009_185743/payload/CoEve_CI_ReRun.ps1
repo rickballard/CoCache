@@ -6,3 +6,4 @@ Write-Host ("Re-running: {0} · #{1} · {2}" -f $Workflow,$run.databaseId,$run.u
 gh run rerun $run.databaseId -R $Repo | Out-Null
 if ($Open) { Start-Process $run.url | Out-Null }
 if ($Watch) { gh run watch $run.databaseId -R $Repo --exit-status }
+

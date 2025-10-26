@@ -17,3 +17,4 @@ We adopt **Regime** (configuration) and **Epoch** (period) instead of â€œages,â€
 
 ## HumanGate
 Changes to scoring rules or falsifiers require explicit human review and a version bump.
+

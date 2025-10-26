@@ -4,7 +4,7 @@ on:
     branches: [ "main" ]
     paths:
       - "advice/inbox/**"
-      - ".github/workflows/advice-inbox-guard.yml"
+      - "tools/cosuite/1\\.0/ci/advice-inbox-guard\\.yml"
       - "advice/INBOX_LOG.md"
 
 jobs:
@@ -86,3 +86,4 @@ jobs:
               fi
             fi
           done
+

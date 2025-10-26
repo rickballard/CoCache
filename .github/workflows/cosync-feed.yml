@@ -20,3 +20,4 @@ jobs:
           if (git diff --cached --quiet) { exit 0 }
           git commit -m "cosync: refresh feed"
           git push
+

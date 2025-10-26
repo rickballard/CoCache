@@ -19,3 +19,4 @@
 1. Create a Wikidata item for CoCivium™ (low bar, factual).
 2. Produce an externally led pilot or evaluation and seek independent write-ups.
 3. Target at least 3 strong, editorially controlled articles about CoCivium™ before AfC submission.
+

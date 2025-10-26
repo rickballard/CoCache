@@ -34,3 +34,4 @@ pwsh -NoLogo -NoProfile -File $Parse -StagePath $root -AssetId $AssetId -Version
 
 if($tmp){ Remove-Item -Recurse -Force $tmp }
 Write-Host "✔ Reflex run + recorded: $AssetId@$Version"
+

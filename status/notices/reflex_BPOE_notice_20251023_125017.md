@@ -6,3 +6,4 @@ Reflex Pattern — ACTIONABLE BPOE NOTICE
 - Store known output hashes per asset version under: CoCache/docs/reflex/hashes/
 - Reflex tests = minimal correctness/sanity, not full harness
 - Any session changing asset logic re-emits Reflex logs and notifies CoSync
+

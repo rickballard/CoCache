@@ -45,3 +45,4 @@ foreach ($kv in $copyMap.GetEnumerator()) {
 }
 
 Write-Host "Done. Consider committing with a message like: 'Add CoAgent branding/messaging package (v1.1)'"
+

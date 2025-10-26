@@ -17,3 +17,4 @@ $obj = [pscustomobject]@{ ts=$ts; repo=$repoName; event=$Event; data=$data }
 $log = Join-Path $logDir ((Get-Date -Format "yyyyMMdd") + ".jsonl")
 ($obj | ConvertTo-Json -Depth 24) | Add-Content -LiteralPath $log -Encoding UTF8
 "Global receipt: {0}" -f $log
+

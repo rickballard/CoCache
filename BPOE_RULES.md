@@ -13,3 +13,4 @@
   - `git config core.hooksPath .githooks`
 
 **Rule #5: Prefer HTTPS remotes** for CI/automation unless SSH keys are guaranteed.
+

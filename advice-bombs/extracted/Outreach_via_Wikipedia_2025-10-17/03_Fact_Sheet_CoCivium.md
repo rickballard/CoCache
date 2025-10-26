@@ -22,3 +22,4 @@ CoCivium — open‑source, consent‑first governance for hybrid (human+AI) tea
 - Logo (PNG + SVG)  
 - 1920×1080 banner (alt text in `07_Assets/alt-text.txt`)  
 - This 1‑page fact sheet (export as PDF)  
+

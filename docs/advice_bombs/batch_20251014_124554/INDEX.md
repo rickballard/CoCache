@@ -127,3 +127,4 @@
 - [m_Spanky_ExemplarCanon_2025-10-14_181108.md](../../docs/advice_bombs/batch_20251014_124554/index/m_Spanky_ExemplarCanon_2025-10-14_181108.md)
 - [n_AB_CoSteward_Spine_UPG_2025-10-14_224344.md](../../docs/advice_bombs/batch_20251014_124554/index/n_AB_CoSteward_Spine_UPG_2025-10-14_224344.md)
 - [o_CoSuite_Insights_EpochsRegimes_2025-10-14_232531.md](../../docs/advice_bombs/batch_20251014_124554/index/o_CoSuite_Insights_EpochsRegimes_2025-10-14_232531.md)
+

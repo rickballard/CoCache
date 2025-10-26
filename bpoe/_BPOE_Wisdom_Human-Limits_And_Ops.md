@@ -16,3 +16,4 @@ status: draft
 ## Optional Hook Ideas
 - Pre-commit nudge between 01:00–05:00 local.
 - Block merges to `main` if `CoCivium-Cooloff: true` without a second approval.
+

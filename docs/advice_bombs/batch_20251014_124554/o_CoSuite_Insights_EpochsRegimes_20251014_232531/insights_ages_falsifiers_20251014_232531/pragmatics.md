@@ -92,3 +92,4 @@ We track each dimension with Lagging Outcomes, Leading Indicators, Stress Tests,
 - **Change Policy:** Backwards‑incompatible changes require a major version bump.
 - **Safeguards:** Run stress‑tests before scaling. See `pragmatics.md` §B5 for kill‑switches.
 - **Contact:** Open a discussion in the CoSuite repos with tag `insights-epochs-regimes`.
+

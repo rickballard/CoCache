@@ -15,3 +15,4 @@
 - Enable hygiene workflow across CoPolitic/CoRef.
 - Add scripts/diag/pages-status.ps1 + optional smoke-test job.
 - (If using a CDN) add cache purge after Pages deploy.
+

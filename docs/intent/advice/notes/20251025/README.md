@@ -24,3 +24,4 @@
 - Public, verifiable facts unless explicit consent.
 - Two‑reviewer rule before publishing any halo.
 - Time‑decay: re‑review annually or upon material change.
+

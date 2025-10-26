@@ -3,3 +3,4 @@
 - Privacy/license leaks → schema validation + redaction at ingestion edges.
 - Governance capture → rotate stewards; reputation-weighted ballots with transparency.
 - Cultural misalignment → publish CoCivia intents; invite human review and veto.
+

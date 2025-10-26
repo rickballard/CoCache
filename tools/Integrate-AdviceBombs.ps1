@@ -46,3 +46,4 @@ $take = $current | Sort-Object ts -Descending
 foreach($r in $take){ $lines += ("- {0} — {1}" -f $r.ts, $r.out) }
 $lines -join "`r`n" | Out-File -Encoding utf8 $idxMd
 Write-Host ("Advice integrated: {0} new file(s)" -f ($ingested.Count))
+

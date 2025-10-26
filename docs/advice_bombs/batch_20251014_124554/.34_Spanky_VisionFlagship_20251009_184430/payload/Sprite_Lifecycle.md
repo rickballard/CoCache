@@ -24,3 +24,4 @@ A cluster of linked cards that is strong enough to stand on its own.
 
 ## Minimal schema note
 We keep the JSON schema small: id, title, kind, waypoint, authors, timestamps, links, reptag, media. Enough for machines to help without scaring humans away.
+

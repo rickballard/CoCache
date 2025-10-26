@@ -6,3 +6,4 @@
 - Deprecate Civium (private + archived) (**Done**).
 - Wire OmniBar v2 KPIs to live metrics (**Unfinished**) → CoCache issue #26.
 - Replace SMTP placeholders & validate digest Action (**Unfinished**) → CoCache issue #27.
+

@@ -2649,3 +2649,4 @@
 | cosync_20251025.jsonl | 90 | ? | ? | ? | Conversion from JSON failed with error: Unexpected character encountered while parsing value: }. Path '', line 0, position 0..Replace('|','\|') |
 | cosync_24%2025%10.jsonl | 1 | ? | ? | ? | Conversion from JSON failed with error: Invalid property identifier character: \. Path '', line 1, position 1..Replace('|','\|') |
 
+

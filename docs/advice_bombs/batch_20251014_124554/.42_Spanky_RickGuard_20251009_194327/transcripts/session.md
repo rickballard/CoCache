@@ -28,3 +28,4 @@ Key themes: **frictionless seeding**, **automerge (squash)**, **CODEOWNERS notif
 - During seeding, _notify-first_ via CODEOWNERS, but keep friction low.
 - For CoCivium™, keep Critical guard until site stewards take over or site-only editing is enforced.
 - `rg-off` keeps Critical set locked while relaxing others.
+

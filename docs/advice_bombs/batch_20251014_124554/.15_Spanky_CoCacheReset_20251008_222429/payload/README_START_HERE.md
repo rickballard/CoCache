@@ -16,3 +16,4 @@ This directory contains an **Advice Bomb** from the **CoCache Reset session** to
 1. Drag this package (or its zip sibling) into the **CoAgent Productization** workflow.
 2. Review `Advice_CoAgent_GrandReset.md` for narrative detail.
 3. Use `_advisory.manifest.json` for structured ingestion.
+

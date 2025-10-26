@@ -9,3 +9,4 @@ cce:
     triggers: [ids_alert, cve_critical, key_anomaly, injection_drift, abnormal_nudge_cadence]
     actions: [Quarantine, Fence, Rollback, KeyRotate, Attest]
     require_two_key_to_unfreeze: true
+

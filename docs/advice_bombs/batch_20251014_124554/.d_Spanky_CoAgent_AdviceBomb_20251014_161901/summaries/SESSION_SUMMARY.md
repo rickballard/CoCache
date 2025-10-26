@@ -34,3 +34,4 @@
 - 95% of tasks complete without re-inlining >2k tokens of history.
 - Recall@K ≥ 0.8 on golden sets; SummaryLoss < 2%; median CFR ≤ 0.6.
 - Essence Preservation ≥ 4/5; Regret Rate ≤ 5% at 14 days.
+

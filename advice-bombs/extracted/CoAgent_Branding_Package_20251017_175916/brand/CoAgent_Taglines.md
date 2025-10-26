@@ -29,3 +29,4 @@ Sub: Take your rules and receipts wherever you run AI.
 **Variant C**  
 H1: Any model. Your governance.  
 Sub: One set of rules. Many providers. Proof on demand.
+

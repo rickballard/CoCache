@@ -13,3 +13,4 @@
 ## 6 Weeks
 - **Autonomy Loop Pilots:** constrained CoAgent loops with logged safeguards.
 - **Metrics Dashboard (lite):** exposure of ingest rates, congruence deltas, and adoption of alignment playbooks.
+

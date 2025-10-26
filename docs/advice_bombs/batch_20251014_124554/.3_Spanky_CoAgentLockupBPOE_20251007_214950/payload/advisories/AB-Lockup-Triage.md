@@ -18,3 +18,4 @@
 ## Output Artifacts
 - `continuity/ResumeFlow.md` protocol
 - HealthGate preflight checks
+

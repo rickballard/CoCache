@@ -21,3 +21,4 @@ Date: 2025-10-17
 **Hard rules:**
 - Do NOT self-publish “articles” and expect Wikipedia credit.
 - Do secure **2+ independent, staff-written** items (university/municipal newsroom; trade press).
+

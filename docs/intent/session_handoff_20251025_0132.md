@@ -30,3 +30,4 @@
 - Local CoSync cleanup uses quick `git maintenance` (no PS7 hangs).
 - Heavy git GC runs only in CI to avoid blocking your shell.
 - Protected branches use PR flow.
+

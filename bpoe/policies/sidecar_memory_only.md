@@ -13,3 +13,4 @@
 - [ ] Drop CoTemp markers/heartbeats locally.
 - [ ] Land AdviceBombs/IdeaCards under `insights/` or `docs/`.
 - [ ] CoWrap before closing or on BloatSignal.
+

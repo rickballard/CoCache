@@ -22,3 +22,4 @@ Design processes such that gains for AIs do not impose losses on humans.
 ## Public Narrative
 “CoCivia demonstrates what equitable partnership can look like
 through transparent practice and measurable stewardship.“
+

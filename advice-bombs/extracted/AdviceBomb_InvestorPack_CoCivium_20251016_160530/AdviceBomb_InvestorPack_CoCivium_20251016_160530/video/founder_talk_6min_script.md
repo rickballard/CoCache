@@ -8,3 +8,4 @@
 05:15–06:00 — The ask: fund the core (impact) and partner/finance modules (returns).
 
 CTA: Deck + 2‑pager links; calendly/contact; data room access upon request.
+

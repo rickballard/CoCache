@@ -34,3 +34,4 @@
 - [ ] Draft “Maxims” section from legacy quotables.
 - [ ] Replace chip-tile social image with fungal-scroll variant.
 
+

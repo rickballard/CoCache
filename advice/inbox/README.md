@@ -38,7 +38,7 @@
      git ls-tree --name-only -r HEAD | Select-String ("advice/inbox/{0}" -f $slug)
      ```
    - If you keep only `coevo-1/2/3/MANIFEST.json`, that’s OK. If you also want a single root file,
-     generate `INBOX_MANIFEST.json` with `tools/New-InboxManifest.ps1`.
+     generate `INBOX_MANIFEST.json` with `tools/cosuite/1\\.0/ps/New-InboxManifest\\.ps1`.
 
 Troubleshooting
 - If the shell prints “term not recognized”, you’re probably in `cmd.exe`. Run `pwsh` first.
@@ -46,3 +46,4 @@ Troubleshooting
 Start-Job -Name scan -ScriptBlock { & "$env:USERPROFILE\Documents\GitHub\CoCache\tools\Scan-CoAdvice.ps1" -Root "$env:USERPROFILE\Documents\GitHub\CoCache" }
 Receive-Job -Name scan -AutoRemoveJob -Wait
 - CI noise: mark docs-only or add `paths-ignore: advice/inbox/**` to workflows if needed.
+

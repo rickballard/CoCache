@@ -23,3 +23,4 @@ try{ if($hadChanges){ git push | Out-Null; $pushed=$true } }catch{}
 $cdi="n/a"; $stat="n/a"
 if(Test-Path "status/codrift.json"){ try{ $j=Get-Content "status/codrift.json" -Raw | ConvertFrom-Json; $cdi=[int]$j.score; $stat=[string]$j.status }catch{} }
 Write-Host ("CoUp: CDI {0}% ({1}); committed: {2}; pushed: {3}" -f $cdi,$stat,([bool]$hadChanges),([bool]$pushed))
+

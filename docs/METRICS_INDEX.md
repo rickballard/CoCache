@@ -170,3 +170,4 @@ _Generated: 2025-10-17 22:53:29Z_
 - Regenerate: pwsh -File scripts/metrics_index.ps1
 - Retention: 90 days via scripts/metrics_harvest.ps1
 - Staged scripts manifest: metrics/coops_manifest.json
+

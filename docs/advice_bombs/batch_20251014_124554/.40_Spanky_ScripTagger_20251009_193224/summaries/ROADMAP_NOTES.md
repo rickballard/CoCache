@@ -5,3 +5,4 @@
 - Headless API & robot runner for curated public datasets.
 - Seed launch with non-controversial exemplars; publish governance docs.
 - Store listings + screenshots; instrumentation for privacy-first metrics.
+

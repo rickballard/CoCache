@@ -64,3 +64,4 @@ foreach($m in $registry){
 $latestPath = Join-Path $Root "metrics\latest.json"
 ($latestAll | ConvertTo-Json -Depth 6) | Set-Content -Encoding UTF8 $latestPath
 Write-Host "✅ Harvested -> $latestPath"
+

@@ -110,3 +110,4 @@ git add advice-bombs/index.json
 if(git diff --cached --name-only){ git commit -m "catalog: rebuild advice-bombs/index.json" | Out-Null; git push origin main | Out-Null }
 
 if($results.Count){ $results | Format-Table -AutoSize } else { Write-Host "Nothing added (missing or duplicates)." -ForegroundColor Yellow }
+

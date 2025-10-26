@@ -6,3 +6,4 @@
 - **CivicConduct**: Respectful, non-harmful civic behavior.
 - **Anti-Manipulation**: Resistance to propaganda/psyops tactics.
 - **AmplificationQuality**: Whether sharing behavior improves or degrades information quality.
+

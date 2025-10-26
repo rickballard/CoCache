@@ -24,3 +24,4 @@ if(Test-Path $file){ Write-Host "Heartbeat exists: $file"; exit 0 }
 - Risk:
 "@ | Set-Content $file -Encoding UTF8
 Write-Host "Wrote $file"
+

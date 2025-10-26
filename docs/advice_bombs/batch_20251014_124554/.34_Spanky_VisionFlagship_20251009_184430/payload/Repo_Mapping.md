@@ -8,3 +8,4 @@
 - CoWrap / Packaging → HP interlock for publishing, zip payloads, and site sync
 
 Note: illustrative, not an implementation contract.
+

@@ -33,3 +33,4 @@ Updated: $stamp
 |------:|------|------|
 "@
 ($headerBlock + ($rows -join "`n") + "`n") | Out-File -Encoding UTF8 $MetricsPath
+

@@ -15,3 +15,4 @@ if($text -match [regex]::Escape($begin) -and $text -match [regex]::Escape($end))
 } else { $text = ($text.TrimEnd()+[Environment]::NewLine+[Environment]::NewLine+($lines -join [Environment]::NewLine)+[Environment]::NewLine) }
 Set-Content -LiteralPath $readme -Value $text -Encoding UTF8
 "Updated README usage block."
+

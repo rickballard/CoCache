@@ -3,3 +3,4 @@
 - `cpda/docs/initiatives/cadi.md` — CADI showcase
 - Assets: quadrant-plot.svg, radar-readiness.svg
 - Future: portfolio wheel, timeline strip, transparency dashboards
+

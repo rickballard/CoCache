@@ -1,1 +1,2 @@
 - Derived from working session; no external sources.
+

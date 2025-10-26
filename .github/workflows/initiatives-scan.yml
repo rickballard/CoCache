@@ -21,3 +21,4 @@ jobs:
           git add docs/dashboards/initiatives_scan.*
           git commit -m "metrics: refresh initiatives scan" || echo "no changes"
           git push origin HEAD
+

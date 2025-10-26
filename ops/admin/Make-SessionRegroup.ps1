@@ -42,3 +42,4 @@ $sb.AppendLine("- CoRef cross-repo index design → incremental adoption.") | Ou
 [IO.File]::WriteAllText($OutPath,$sb.ToString(),(New-Object System.Text.UTF8Encoding($false)))
 Write-Host "Wrote $OutPath" -ForegroundColor Green
 
+

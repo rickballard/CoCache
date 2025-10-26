@@ -22,3 +22,4 @@
 ## License & Ethics
 - Open-core: permissive client, transparent methodology; contributions logged via CoCache/CoWraps.
 - No coercive “congruence”; transparency-first scoring with rationale and sources.
+

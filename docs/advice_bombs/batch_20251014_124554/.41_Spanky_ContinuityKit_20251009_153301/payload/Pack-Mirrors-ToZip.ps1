@@ -12,3 +12,4 @@ Get-ChildItem -Path $MirrorsRoot -Directory -Filter "*.git" | ForEach-Object {
   Compress-Archive -Path $_.FullName -DestinationPath $zip -Force
 }
 Write-Host "Done. Copy zips from $OutRoot to your Synology share."
+

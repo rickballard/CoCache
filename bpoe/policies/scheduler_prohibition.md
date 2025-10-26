@@ -20,3 +20,4 @@ Allowed only for trivial, disposable reminders (e.g., single ping within 24h).
 **Enforcement**
 - Default max in-app tasks per session: **0**.
 - Any exception must be documented in PR description + added to `bpoe-status.md`.
+

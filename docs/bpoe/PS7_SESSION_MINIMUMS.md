@@ -3,3 +3,4 @@
 - Import CoPanic + CoRun; append DONE sentinel.
 - Prefer explicit paths; avoid silent endings.
 - When blocked switching branches: stash, fetch, switch main, ff-only pull, drop stash.
+

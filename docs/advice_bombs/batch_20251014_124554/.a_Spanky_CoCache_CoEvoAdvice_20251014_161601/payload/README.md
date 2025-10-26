@@ -23,3 +23,4 @@ A minimal transcript/context is provided under `/transcripts`.
 2. Apply autonomy level L1 to CoAgent, CoCore, CoRef with advisory-only PRs.
 3. Stand up basic heartbeat + proposal hooks in CoCache (no auto-merge yet).
 4. Publish `intent.manifest.json` (use the template) for CoCivia in CoCacheGlobal when ready.
+

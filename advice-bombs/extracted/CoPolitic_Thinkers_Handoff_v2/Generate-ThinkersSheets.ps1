@@ -83,3 +83,4 @@ Write-Host "Sheets generated in $SheetsDir"
 Write-Host "Updated dataset written to $JsonIn"
 Write-Host "Next: commit & push CoCore, e.g.:"
 Write-Host "  cd `"$CoCore`"; git add `"$SheetsRel`" `"$JsonRel`"; git commit -m `"feat(thinkers): generate sheets + sheet_url`"; git push"
+

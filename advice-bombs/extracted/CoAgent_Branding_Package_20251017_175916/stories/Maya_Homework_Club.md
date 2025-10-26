@@ -8,3 +8,4 @@
 - Faster prep time for volunteers.
 - One folder of receipts for audits.
 - Freedom to try new AI providers without losing control.
+

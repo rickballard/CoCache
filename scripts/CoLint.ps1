@@ -12,3 +12,4 @@ if($bad.Count){
   Write-Error ("Emdashes found:" + [Environment]::NewLine + " - " + ($bad -join ([Environment]::NewLine + " - ")))
   exit 1
 } else { "No emdashes found." }
+

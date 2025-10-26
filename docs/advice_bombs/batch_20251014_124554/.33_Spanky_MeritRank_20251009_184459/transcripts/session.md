@@ -16,3 +16,4 @@
 - `gh run list` CLI parsing: use `--limit 1` and `--json` rather than brittle `-q` in PS.
 - Branch protection API required `contexts` as an **array** even for one item.
 - Avoided Pages deployment on PR to prevent environment contention.
+

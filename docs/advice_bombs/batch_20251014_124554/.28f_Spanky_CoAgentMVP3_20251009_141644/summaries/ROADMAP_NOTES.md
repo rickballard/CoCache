@@ -3,3 +3,4 @@
 - Add CI: release guard + SHA256 publish.
 - Add adapter: schema validation + Evidence Ledger stubs + CoWrap auto-append.
 - Enforce `.editorconfig` / `.gitattributes` (UTF-8, LF).
+

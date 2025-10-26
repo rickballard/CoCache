@@ -12,3 +12,4 @@ ground the technical stack in lived, felt experience._
 ---
 
 *Open with the market scene… (draft your story here)*
+

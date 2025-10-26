@@ -9,3 +9,4 @@
 - Congruence metric deep-dive session
 - Live repo sweep via GitHub connector
 - FTWTG exemplar spec details
+

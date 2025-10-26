@@ -6,3 +6,4 @@
 4. **Explain:** Hover a vertex to read metric definition and “how to improve” tips.
 5. **Export/Share:** PNG, JSON, Embed. Auto-watermark + link-back.
 6. **(Optional) Publish:** Post to gallery; receive a shareable link + RepTag hook.
+

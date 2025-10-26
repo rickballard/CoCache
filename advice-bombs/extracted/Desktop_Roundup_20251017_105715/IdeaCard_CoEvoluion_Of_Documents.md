@@ -72,3 +72,4 @@ Repo files maintain `*.cogene.json` span maps; org‑wide registry at `/cogenes/
 
 ---
 **Intent:** Capture the essence of this session for later execution. No hard decisions on exact numbers/time windows here; those belong in the Governance Spec PR.
+

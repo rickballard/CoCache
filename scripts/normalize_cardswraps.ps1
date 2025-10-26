@@ -159,3 +159,4 @@ $rows | Add-Content -Encoding UTF8 $mapPath
 Write-Host ("Normalized: {0} IdeaCards, {1} CoWraps, {2} unknowns/assets." -f $cards,$cwraps,$uncls)
 Write-Host ("Index: {0}" -f $mapPath)
 Write-Host ("BPOE log: {0}" -f $BpoeErrPath)
+

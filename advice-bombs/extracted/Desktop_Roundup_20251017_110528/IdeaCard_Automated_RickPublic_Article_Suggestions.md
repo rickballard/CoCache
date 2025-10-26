@@ -93,3 +93,4 @@ After 10–12 issues with stable Resonance Score > baseline, prepare a one-pager
 3. Draft and publish Week-1 baseline article.  
 4. Begin metrics log.  
 5. Plan W5–W12 experiment knobs (one each).  
+

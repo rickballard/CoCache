@@ -4,3 +4,4 @@
 - Reversibility: Any publish step must be roll‑backable.
 - Evidence Trails: auto logs, manifests, checksums.
 - Consent-before-coercion embedded across UX and API terms.
+

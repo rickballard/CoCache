@@ -30,3 +30,4 @@ Space risk and AI operations both demand verifiable, audit‑ready collaboration
 - **Commercial lane:** pre‑seed/seed or strategic pilots for CoAgent hardening.
 
 **Contact:** info@cocivium.org (placeholder) | rickballard (GitHub)
+

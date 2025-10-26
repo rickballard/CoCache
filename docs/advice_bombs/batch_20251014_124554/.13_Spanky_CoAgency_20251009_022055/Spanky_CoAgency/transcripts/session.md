@@ -14,3 +14,4 @@
 - Local Inkscape absent -> CI renders PNG; OK.
 - README newline/LF normalized.
 
+

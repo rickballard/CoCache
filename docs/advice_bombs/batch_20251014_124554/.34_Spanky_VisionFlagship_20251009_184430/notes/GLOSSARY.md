@@ -6,3 +6,4 @@
 - Idea Card — leaf card with words in veins and schema in core.
 - Concept Node — cluster of cards strong enough to stand; aura + lineage.
 - Aura — small signal for maturity and credibility (RepTag).
+

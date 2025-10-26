@@ -6,3 +6,4 @@ $cache = Join-Path $CacheRepo 'ExemplarCanon\runs'
 $docs  = Join-Path $CoreRepo 'Docs\ExemplarCanon'
 foreach($d in @($exRoot,$cache,$docs)){ if($WhatIf){Write-Host "[WhatIf] mkdir $d"} else {New-Item -ItemType Directory -Force -Path $d | Out-Null} }
 Write-Host "Scaffold ready. Copy pack contents as needed." -ForegroundColor Green
+

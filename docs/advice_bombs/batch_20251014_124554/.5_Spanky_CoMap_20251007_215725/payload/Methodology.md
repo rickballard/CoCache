@@ -21,3 +21,4 @@
 **Ethical Guardrails**
 - No ranking without sources; highlight uncertainty.
 - Open rebuttal mechanism via gallery comments and versioned PRs.
+

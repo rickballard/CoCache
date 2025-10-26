@@ -20,3 +20,4 @@ $dest = Join-Path $env:TEMP ("ci_run_{0}.log" -f $run.databaseId)
 $body | Set-Content -Encoding UTF8 $dest
 Write-Host "[LOG] Full logs -> $dest"
 if ($Open) { Start-Process $run.url | Out-Null }
+

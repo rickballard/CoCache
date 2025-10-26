@@ -13,3 +13,4 @@ _Generated: 2025-10-15 22:21:40 -04:00_
 - CoTouch branding: tag propagation + surfaces in CC.
 - HP57 targeted packs (curate globs).
 - CoRef cross-repo index design → incremental adoption.
+

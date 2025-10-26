@@ -6,3 +6,4 @@ The CoCivium™ repo is now **private + archived**.
 - Session plan & leftovers: see `docs/bpoe/SESSION_PLAN_GrandMigration.md` and `docs/migration/LEFTOVERS_Register.md`
 
 Reason: migrated working docs/process into **CoCache**; Civium is no longer used.
+

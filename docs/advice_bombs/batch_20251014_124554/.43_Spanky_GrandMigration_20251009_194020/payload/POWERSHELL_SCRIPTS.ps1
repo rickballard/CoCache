@@ -41,3 +41,4 @@ function Start-CoTempHandoffWatcher {
   }
   Write-Host "Watching CoTemp handoffs under $base for session '$Session'…" -ForegroundColor Green
 }
+

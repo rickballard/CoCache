@@ -6,3 +6,4 @@
 - Congruence dashboard and scoring pipeline — **(Unfinished)**.
 - Enterprise workspace (multi-tenant, secrets vault, compliance) — **(Unfinished)**.
 - MCP-first tooling adapter library — **(Unfinished)**.
+

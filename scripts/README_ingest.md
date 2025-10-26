@@ -17,3 +17,4 @@ pwsh -File scripts/CoCache.Ingest.ps1 -UseLfs
 - Writes manifests to advice-bombs/catalog/*.manifest.json
 - Rebuilds advice-bombs/index.json
 - Tags each ZIP as advicebomb/<sanitized-zip-name>
+

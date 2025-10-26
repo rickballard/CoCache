@@ -12,3 +12,4 @@
 - API design for headless/robot mode; rate limits & sandbox datasets.
 - App store packaging, screenshots, store copy, and review compliance.
 - Neutrality evaluations, red-team tests, and documented test plan.
+

@@ -23,3 +23,4 @@
 - Local/internal changes → L1/L2 path
 - Interface-affecting changes → CoCacheGlobal ballot (approval/ranked/quadratic)
 - Reputation signals (MeritRank/RepTag) weight votes where enabled
+

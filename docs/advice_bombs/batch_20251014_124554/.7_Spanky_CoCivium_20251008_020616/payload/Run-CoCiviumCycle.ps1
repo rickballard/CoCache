@@ -47,3 +47,4 @@ foreach($pkg in $chosen){
   Get-ChildItem -Path $Downloads -Filter "$base*_v*.zip" -File | Remove-Item -Force -ErrorAction SilentlyContinue
   Write-Host "🧹 Cleaned older/used zips for $base." -ForegroundColor DarkGreen
 }
+

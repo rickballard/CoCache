@@ -27,3 +27,4 @@ This section distills practical guidance other sessions can apply immediately wi
 ## F) For Community/Outreach (CoPolitic, InSeed, GroupBuild)
 - Use **stage-aware feedback forms**; require delta-focused responses and a “next-step proposal”.
 - Recognize contributors via badges and *Built-on work by …* attributions.
+

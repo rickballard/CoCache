@@ -13,3 +13,4 @@ git add $dest
 git commit -m "assets: normalize exemplar logos (Spanky bundle)"
 if($Push){ git push }
 Write-Host "Applied and (optionally) pushed normalized logos."
+

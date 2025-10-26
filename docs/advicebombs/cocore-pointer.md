@@ -13,3 +13,4 @@ jobs:
       write: false   # set true in maintenance branches only
       strict: false  # allow missing/partial while seeding
 Reference code (read-only): CoCore → tools/congruence/
+
