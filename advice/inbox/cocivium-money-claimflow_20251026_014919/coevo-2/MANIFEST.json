@@ -1,0 +1,29 @@
+{
+  "created": "2025-10-26T01:49:19.408349Z",
+  "entries": [
+    {
+      "path": "README.md",
+      "sha256": "39018492e05797cdb8e7aee4a234f07aaea8952e04982767d812ec871bb0da7e"
+    },
+    {
+      "path": "docs/AXIOMS.md",
+      "sha256": "9ba442cd106f592c7711cec71a67e9eede2abf488e062cf80379354c2013db8d"
+    },
+    {
+      "path": "docs/THEOREMS.md",
+      "sha256": "d45fc926133d6daca72decaff587085a93e20431dc055add24b45d8e0029cce0"
+    },
+    {
+      "path": "docs/SFC_TABLE_SPEC.md",
+      "sha256": "fa89951aa279f235a482482c8a4d2c943623060b1502650f391b2594b3f1d228"
+    },
+    {
+      "path": "docs/PAYMENT_QUEUE_AND_LSM_SPEC.md",
+      "sha256": "8d97257280488e1d59707a9e33ea6c5bdb688324f63b2ea57a18d429db160b21"
+    },
+    {
+      "path": "docs/FALSIFICATION_AND_CALIBRATION.md",
+      "sha256": "a64e78eca75dcda026fadb11244b13f0deff6afabfc0f01cd81d80798a1d3f09"
+    }
+  ]
+}

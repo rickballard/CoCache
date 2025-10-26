@@ -1,0 +1,4 @@
+openapi: 3.0.3
+info:
+  title: CoCivium API
+  version: v0.1
