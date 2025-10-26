@@ -20,3 +20,4 @@ jobs:
         run: |
           HL=docs/HANDOFFS/HANDOFF_LATEST.md
           if grep -q '```' "$HL"; then echo "Code fence found in handoff"; exit 1; fi
+

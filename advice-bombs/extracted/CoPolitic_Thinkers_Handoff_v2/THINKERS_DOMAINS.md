@@ -48,3 +48,4 @@ Add two fields next to the existing ones:
   - `sustainability.*` (e.g., `sustainability.boundaries`)
 
 Keep expanding both lists as needed, but **don’t overload** the UI set; keep it approachable.
+

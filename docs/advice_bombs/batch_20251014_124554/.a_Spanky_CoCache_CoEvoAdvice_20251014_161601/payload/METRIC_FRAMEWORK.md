@@ -10,3 +10,4 @@
 | Onboarding | Time to first PR | ≤ 30 minutes |
 | Sharing | Templates adopted cross-repo | ≥ 70% of candidates |
 | Autonomy | Auto-PR success rate | trending up with zero safety regressions |
+

@@ -14,3 +14,4 @@ A vendor-neutral AI Trust Container. Keep your rules, your records, and your opt
 *Continuously evolving support; integrates with your existing processes, workflows, systems, and apps.*
 
 **Footnote (legal-safe):** Works with supported providers and models; coverage expands over time.
+

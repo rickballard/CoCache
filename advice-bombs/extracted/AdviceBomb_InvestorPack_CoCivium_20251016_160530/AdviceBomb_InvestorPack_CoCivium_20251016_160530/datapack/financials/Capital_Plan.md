@@ -5,3 +5,4 @@
 - **Milestone C (12–18 mo):** Scale pilots; broaden funding mix; publish Year‑1 impact report.
 
 **Use of funds** mapped to milestones; maintain ≥6‑month runway; monthly KPI cadences.
+

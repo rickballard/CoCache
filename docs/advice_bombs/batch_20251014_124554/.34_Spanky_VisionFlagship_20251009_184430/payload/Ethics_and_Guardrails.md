@@ -20,3 +20,4 @@ This is an illustration, not a product claim. Treat it like a storyboard for goo
 - Clear retention: compost old or deprecated ideas to the idea_dump.
 
 > The grove holds us to the standard we declare here.
+

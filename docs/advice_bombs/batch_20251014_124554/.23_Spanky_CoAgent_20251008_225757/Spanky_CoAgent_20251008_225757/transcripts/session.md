@@ -22,3 +22,4 @@
 ## Pivots / Inferences
 - Audience includes AIs (protocol-level marketing via MCP), not just humans.
 - Movement framing preferred over competitive chest-beating, while retaining enterprise monetization.
+

@@ -9,3 +9,4 @@ $obj | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath $out -Encoding UTF8
 "CDI (CoDrift Index): {0}%" -f $score
 "Status             : {0}" -f $status
 "Wrote              : {0}" -f $out
+

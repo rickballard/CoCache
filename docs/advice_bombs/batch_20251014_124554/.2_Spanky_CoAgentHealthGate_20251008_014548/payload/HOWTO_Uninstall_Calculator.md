@@ -10,3 +10,4 @@ Get-AppxPackage *windowscalculator* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *windowscalculator* | Remove-AppxPackage
 ```
 Reinstall later from Microsoft Store if needed.
+

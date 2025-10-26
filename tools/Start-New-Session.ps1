@@ -17,3 +17,4 @@ foreach($u in $urls){ Write-Host " - $u" }
 if($Open){
   foreach($u in $urls){ try { Start-Process $u } catch {} }
 }
+

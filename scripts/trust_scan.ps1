@@ -63,3 +63,4 @@ if($flags.Count -eq 0){ $lines += "- No questionable sources detected for this s
 $lines -join "`n" | Set-Content -Encoding UTF8 $trustMd
 
 Write-Host ("Trust: {0} • flags {1}" -f $summary, $flags.Count)
+

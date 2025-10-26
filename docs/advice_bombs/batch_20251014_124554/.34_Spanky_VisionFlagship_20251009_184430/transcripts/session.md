@@ -12,3 +12,4 @@
 - Created paper outline with <details> blocks; seeded full vision_paper.md.
 - Built pre-final ZIP for HP; tagged v0.1-visionflagship.
 - Plan: flesh paper prose; JSON appendix; invitation; figure callouts; educator kit.
+

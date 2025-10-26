@@ -29,3 +29,4 @@ version: v1
 
 ## Result
 - Session **closed**; Civium archived; artifacts in **CoCache**; follow-ups moved to issues (#26, #27).
+

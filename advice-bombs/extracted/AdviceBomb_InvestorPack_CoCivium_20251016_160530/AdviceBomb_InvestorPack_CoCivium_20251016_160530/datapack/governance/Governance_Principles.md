@@ -6,3 +6,4 @@
 - **Transparency**: quarterly public reports; open metrics; public issue tracking.
 - **Diversity of funding**: no single source >20% of operating budget.
 - **Conflict policies**: public declarations; recusals; independent audits.
+

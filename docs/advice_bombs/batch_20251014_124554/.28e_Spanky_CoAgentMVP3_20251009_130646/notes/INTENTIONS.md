@@ -7,3 +7,4 @@
 - Watchdog implementation.
 - CI jobs (artifact build/size, release guard).
 - Add `_schema` folder + adapter.
+

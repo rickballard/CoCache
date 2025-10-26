@@ -7,3 +7,4 @@
   - Services: ModuleCo ↔ NPO for shared services at fair market value.
 - **Compliance**: Maintain separate accounts, boards, and filings; document transfer pricing.
 Consult counsel for your jurisdiction (Ontario/Canada; cross‑border if US investors).
+

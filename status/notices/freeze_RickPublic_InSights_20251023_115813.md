@@ -24,3 +24,4 @@ Exit criteria:
 - SOTW #0001 merged (rickpublic/sotw/0001-sachs) with post.md + meta.json
 - insights-index.json populated & referenced by #0001
 - SUBSTACK_MAPPING.md + TEMPLATE_post.md validated with first post
+

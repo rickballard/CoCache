@@ -35,3 +35,4 @@ foreach($t in $data){
 }
 
 if ($fail -eq 0){ Write-Host "Validation OK ($i records)" -f Green } else { exit 1 }
+

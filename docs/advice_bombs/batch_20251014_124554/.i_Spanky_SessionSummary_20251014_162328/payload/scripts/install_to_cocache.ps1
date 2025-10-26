@@ -30,3 +30,4 @@ $idx = @"
 $idx | Set-Content -Encoding UTF8 (Join-Path $AdviceDest "README.md")
 
 Write-Host "Installed summary and unpacked bundled zips (if present) into $AdviceDest" -ForegroundColor Green
+

@@ -6,3 +6,4 @@
 - On any red: **stop + CoPong**; CoPanic captures error+git state to repo.
 - Never rely on chat memory: INTENT/BPOE go under docs/advicebombs/ and docs/bpoe/.
 - Orchestrate repos via ops/CoSuite/Invoke-CoSuiteSeed.ps1.
+

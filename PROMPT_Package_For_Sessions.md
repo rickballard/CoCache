@@ -18,3 +18,4 @@ I (Chris) crashed from fatigue; thanks for your patience. CoCivium™ is a *mult
 **Filename markers (proposal)**
 - Use front-matter: `canon_level: pillar|chartered|guideline|experiment`.
 - Optional prefixes: `.name` → canon/pillar; `..name` → CC component (also canon); `_name` → highlighted readable.
+

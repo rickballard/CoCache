@@ -17,3 +17,4 @@
 
 ## Generated Assets
 - See `/payload/branding/`.
+

@@ -13,3 +13,4 @@ $seven = (Get-Command 7z -ErrorAction SilentlyContinue) ?? (Get-Command 7za -Err
 if(-not $seven){ throw "7-Zip CLI (7z/7za) not found in PATH." }
 & $seven.Source a -p"$pw" -mhe=on -tzip -- "$OutZip" $($files.FullName) | Out-Null
 Write-Host "HP57 Vault written: $OutZip" -f Green
+

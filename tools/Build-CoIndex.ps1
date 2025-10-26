@@ -141,3 +141,4 @@ New-Item -ItemType Directory -Force -Path $indexDir | Out-Null
 $MasterOut = Join-Path $indexDir 'coindex_master.json'
 $master | ConvertTo-Json -Depth 4 | Set-Content -Encoding UTF8 $MasterOut
 Write-Host ("Master index: {0}" -f $MasterOut)
+

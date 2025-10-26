@@ -5,3 +5,4 @@
 4) Disclose any COI if you have one. Keep tone descriptive and dry.
 5) Submit via Articles for Creation (AfC).
 6) Address reviewer notes; remove promotional wording; ensure every non‑obvious claim is cited.
+

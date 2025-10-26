@@ -24,3 +24,4 @@ jobs:
       - name: Render sparklines (sanity)
         shell: pwsh
         run: ./scripts/render_sparklines.ps1 -HistoryDir "$PWD/metrics/history" -OutDir "$PWD/docs/assets/metrics"
+

@@ -27,3 +27,4 @@ if (Has gh) {
 }
 git fetch --prune; git switch main; git branch --set-upstream-to=origin/main main 2>$null; git pull --ff-only
 if ($VerboseOut){ Write-Host "Merged $local to main." -ForegroundColor Green }
+

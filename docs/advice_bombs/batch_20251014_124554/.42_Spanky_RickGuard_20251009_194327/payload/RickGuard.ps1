@@ -152,3 +152,4 @@ function rg-status {
   gh api "repos/$($global:RickGuardOwner)/CoCache" `
     --jq "{allow_auto_merge,delete_branch_on_merge,allow_squash_merge,allow_merge_commit,allow_rebase_merge}"
 }
+

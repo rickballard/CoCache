@@ -39,3 +39,4 @@ A second card joins the first, then a third. Links appear: relates to, contrasts
 Frustration spikes once. Someone names it. The pause returns. The circle holds. They laugh, then continue.
 
 By the end they have five cards, linked and ranked, with clear next steps. The meeting ends early. People leave with energy, not drain. From Mudfling to Lightring.
+

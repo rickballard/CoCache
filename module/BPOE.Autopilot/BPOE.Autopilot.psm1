@@ -1,4 +1,4 @@
-﻿function Invoke-BPOEAssetsManifest {
+function Invoke-BPOEAssetsManifest {
   param([string]$Repo = (Resolve-Path .))
   $img = @(".png",".jpg",".jpeg",".webp",".svg",".gif")
   $out = Join-Path $Repo 'docs\assets'
@@ -36,3 +36,4 @@ function Test-BPOERepoSmoke {
 }
 
 Export-ModuleMember -Function Invoke-BPOEAssetsManifest, Test-BPOERepoSmoke
+

@@ -25,3 +25,4 @@ and learning from outcomes — while preserving human safety, agency, and clarit
 - Cross-repo resonance (template propagation)
 - Self-regulation (autonomy backoff on instability)
 - Quarterly evolution reports and lineage graphs
+

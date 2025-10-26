@@ -8,3 +8,4 @@
 **Initiatives:** CoCore (rules/guardrails), GIBindex (lexicon/ontologies), CoCache (memory/provenance), CoModules (tool lab incl. FTWTG), CoCivAI (AI auditor/operator of .com), Debate Arena (Trojan horse), CME Staging (future core).
 
 **Flow:** Stage 0–1 (Debate Arena) → Stage 2 (Congruence + personas) → Stage 3 (CME tools) → Stage 4–5 (Policy/CME).
+

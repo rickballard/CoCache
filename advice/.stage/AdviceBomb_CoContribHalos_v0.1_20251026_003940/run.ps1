@@ -48,3 +48,4 @@ $reminders | ForEach-Object { Write-Status "NOTE: $_" }
 
 Write-Status "DONE"
 Write-Host "Completed. See out.txt for the status log."
+

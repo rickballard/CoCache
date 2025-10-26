@@ -174,3 +174,4 @@ $entry  = [pscustomobject]@{
 if($tmp){ Remove-Item -Recurse -Force $tmp }
 Write-Host ("✔ Reflex captured: {0}@{1}  SHA256={2}  {3:N0} bytes" -f $AssetId,$Version,$hash,$size)
 
+

@@ -17,3 +17,4 @@ Compress-Archive -Path (Join-Path $dir '*') -DestinationPath (Join-Path $dir "sc
 $sha = (Get-FileHash (Join-Path $dir 'scripttagger-demo-windows-x64.zip') -Algorithm SHA256).Hash.ToLower()
 "$sha  scripttagger-demo-windows-x64.zip" | Set-Content -Encoding ASCII (Join-Path $dir 'checksums.txt')
 gh release create $Tag (Join-Path $dir 'scripttagger-demo-windows-x64.zip') (Join-Path $dir 'checksums.txt') -R $Repo -t "ScripTagger demo $Tag (placeholder)" -n "Opens the hosted demo in an app-style window."
+

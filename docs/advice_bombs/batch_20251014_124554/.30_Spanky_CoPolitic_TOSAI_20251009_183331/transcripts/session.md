@@ -19,3 +19,4 @@
 - Fill remaining exemplar logos and normalize to 160×160 transparent PNG (dark-on-white).
 - Add `/roles/index.html` hub in CoPolitic (optional).
 - Optional one-pager PDF autobuild and link-checker action.
+

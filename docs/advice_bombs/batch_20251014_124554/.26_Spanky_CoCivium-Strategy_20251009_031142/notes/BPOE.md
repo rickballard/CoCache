@@ -4,3 +4,4 @@
 - CoAgent normalizes AI flows; humans use native GitHub vectors with templates.
 - Avoid relaxed branches beyond curated patterns; enforce archetypes.
 - Capture everything as AdviceBombs and stubs; never lose raw ideas.
+

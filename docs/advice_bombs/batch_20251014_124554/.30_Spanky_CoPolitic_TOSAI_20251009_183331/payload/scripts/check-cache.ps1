@@ -6,3 +6,4 @@ $node = ($h.Headers["X-Served-By"]| Select-Object -First 1)
 "Age=$age  ETag=$etag  Node=$node"
 if ([int]($age | ForEach-Object { $_ -as [int] }) -gt 5) { Write-Warning "Edge cache looks warm (>5s). Try again shortly." }
 if ($h.Content -notmatch '<section id="exemplars"') { Write-Warning "Exemplar grid not detected in HTML." }
+

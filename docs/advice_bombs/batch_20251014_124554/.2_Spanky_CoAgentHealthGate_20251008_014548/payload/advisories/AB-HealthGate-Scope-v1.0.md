@@ -29,3 +29,4 @@ Physical keyboard/mouse faults can mimic software bugs. Include:
 ## Roadmap Nudge
 - Add `modules/HealthGate.ps1` and call it before any heavy run.
 - Ship a “Diagnostic Mode” toggle that (on consent) fetches portable tools and cleans them up after.
+

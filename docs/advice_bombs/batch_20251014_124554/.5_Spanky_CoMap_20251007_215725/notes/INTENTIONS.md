@@ -6,3 +6,4 @@
 - Implement **gallery** + **AI suggest** features. *(Unfinished)*
 - Package as **downloadable app** with simple backend. *(Unfinished)*
 - Stage as **CoModule**; evaluate promotion to standalone repo post-MVP. *(Unfinished)*
+

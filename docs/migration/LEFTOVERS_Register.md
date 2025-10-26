@@ -16,3 +16,4 @@ Track anything not finished here, assign an owner/session, and move items to iss
 | L-002 | CoAgent  | OmniBar v2 KPIs live wiring | app  | med | Prod | Productization | open | Await backend URL |
 
 _Status:_ `open` / `in-progress` / `done` / `dropped`
+

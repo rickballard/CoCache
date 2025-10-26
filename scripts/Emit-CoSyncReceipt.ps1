@@ -13,3 +13,4 @@ New-Item -ItemType Directory -Force -Path $logDir | Out-Null
 $log = Join-Path $logDir ((Get-Date -Format "yyyyMMdd") + ".jsonl")
 ($obj | ConvertTo-Json -Depth 10) | Add-Content -LiteralPath $log -Encoding UTF8
 "Wrote: {0}" -f $log
+

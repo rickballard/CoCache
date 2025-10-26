@@ -12,3 +12,4 @@
 - `loop_manifest.yaml`: Used to track live loops, actors, roles, TTLs.
 - `watcher-CoEvo.ps1`: Local repo watcher for CoEvo loop heartbeat.
 - `CoSign-AI.ps1`: Loop checkpointing with witness signatures.
+

@@ -1,4 +1,4 @@
-﻿name: bpoe-smoke
+name: bpoe-smoke
 on:
   workflow_call:
     inputs:
@@ -19,4 +19,5 @@ jobs:
         run: |
           Import-Module "$PWD/module/BPOE.Autopilot/BPOE.Autopilot.psd1"
           Test-BPOERepoSmoke -Repo $PWD @(if ("${{ inputs.fail_external }}" -eq "true") { "-FailOnExternalLinks" })
+
 

@@ -1,1 +1,2 @@
 CoPolitic pivoted CoCEO → **TOS-AI** and wired the homepage (explainer, checklist, CTA). A roles page and redirect were added. Logo system is in place (fallback badges + normalization scripts), but many logos still need sourcing and standardizing to 160×160 PNGs. CoWrap bundles (v2/v3/v3.1) were produced with manifests, action deck, and scripts. Next session should: (1) source/normalize missing logos; (2) add roles hub; (3) consider one‑pager PDF and link‑checker action.
+

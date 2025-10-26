@@ -1,4 +1,4 @@
-﻿name: bpoe-self-evolve
+name: bpoe-self-evolve
 on:
   workflow_call: {}
   schedule:
@@ -40,3 +40,4 @@ jobs:
           else
             echo "Auto-commits disabled; set repo variable ENABLE_AUTOCOMMITS=true to enable."
           fi
+

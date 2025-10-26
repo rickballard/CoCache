@@ -25,3 +25,4 @@ jobs:
           git add docs/index_manifest.json docs/METRICS_INDEX.md
           git diff --cached --quiet || git commit -m "indexer: refresh manifest/metrics"
           git push
+

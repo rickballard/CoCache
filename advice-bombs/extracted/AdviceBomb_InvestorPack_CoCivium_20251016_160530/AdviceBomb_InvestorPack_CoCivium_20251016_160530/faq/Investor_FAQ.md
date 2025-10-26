@@ -11,3 +11,4 @@ Module company outcomes: dividends, buybacks, acquisitions; or revenue‑based i
 
 **What proofs can we see?**  
 Artifacts in data room, pilot MOUs/LOIs, governance doc, quarterly reports.
+

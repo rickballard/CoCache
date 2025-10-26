@@ -52,3 +52,4 @@ if($Full){
   (Build-One -isPublic:$false) | Set-Content -Encoding UTF8 -LiteralPath $fullOut
   Write-Host "Wrote $fullOut  (NOT added to Git)"
 }
+

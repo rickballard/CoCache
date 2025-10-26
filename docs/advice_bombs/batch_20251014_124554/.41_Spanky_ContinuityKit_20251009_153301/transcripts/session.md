@@ -22,3 +22,4 @@
 - Hardware shortlist for the small LAN server (Tier-1 box).
 - Printable 1-page registrar hardening + restore cheat sheet.
 - Finalize CoCacheGlobal hosting plan (interim LAN + later Scandinavia host).
+

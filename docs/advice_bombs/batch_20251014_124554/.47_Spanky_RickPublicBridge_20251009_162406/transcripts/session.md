@@ -14,3 +14,4 @@
 ## Constraints
 - No background execution; everything produced as downloadable artifacts.
 - Experiments measured only **between** separate articles; baseline frozen for first four issues.
+

@@ -12,3 +12,4 @@ foreach($f in $files){
   }
 }
 if($missing){ $missing | Format-Table -AutoSize; Write-Error "Front matter missing required keys." } else { Write-Host "All exemplar files passed basic lint." -ForegroundColor Green }
+

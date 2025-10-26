@@ -4,3 +4,4 @@
 - “Empty pipe” errors corrected in 	ools/Start-MVP3-Orchestrator.ps1.
 - BPOE guardrails established; docs added (Plan, Help, Training, Product Description).
 - Active branch: ix/empty-pipe.
+

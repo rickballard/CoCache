@@ -4,3 +4,4 @@
 - Small-scale: minimal favicon (head + 3 arcs only), no torso, no bolt.
 - Motion: bolt animation only for live handshake/sync states.
 - Versioning: include palette.json; vector sources under version control.
+

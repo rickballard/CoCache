@@ -17,3 +17,4 @@
 - Faster ingest into CoCache with fewer mismatches.
 - Predictable CoAgent productization path and vendor‑friendly outreach narrative.
 - Lower friction for future automation and cross‑session reuse.
+

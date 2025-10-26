@@ -6,3 +6,4 @@ Actions: Quarantine (sandbox/lock), Fence (trust_radius≈0.05), Rollback, KeyRo
 
 Authority: SDE can freeze self‑evolution & meta‑tuning. Thaw requires two‑key + attestations.
 Logs: tamper‑evident hash chain; evidence packs captured on trigger.
+

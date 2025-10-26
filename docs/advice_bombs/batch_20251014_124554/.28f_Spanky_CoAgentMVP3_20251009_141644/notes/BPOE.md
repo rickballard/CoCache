@@ -4,3 +4,4 @@
 - CI: PowerShell lint + here-string sanity (present); PR artifacts + size gates (next); release guards (next).
 - PR checklist enforces “close strings / encoding / deterministic output”.
 - CoCache as single source of truth; RESUME.md for new sessions; release-pinned comms.
+

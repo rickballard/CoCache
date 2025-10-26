@@ -4,3 +4,4 @@
 3) Extend megascroll to assemble additional CC components by include manifest.
 4) Promote BPOE guidance into PR templates and CI checks.
 5) Introduce version catalog for DO packages.
+

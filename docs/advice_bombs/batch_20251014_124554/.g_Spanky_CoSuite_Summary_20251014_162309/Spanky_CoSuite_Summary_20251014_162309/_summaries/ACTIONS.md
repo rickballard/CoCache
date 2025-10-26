@@ -5,3 +5,4 @@
 - Publish InSeed Capstone v0.5 + pledge (if mentioned). Owner: InSeed web. Due: +5d.
 - Prepare Evidence shelf (2‑pager, demo, metrics). Owner: Rick. Due: +5d.
 - Send outreach email; log CRM; schedule follow‑ups. Owner: Rick. Due: +6d.
+

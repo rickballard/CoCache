@@ -13,3 +13,4 @@ See `docs/assets/quad.svg` and `docs/index.md` for annotated graphic.
 
 ## Governance (no kings)
 **Circles** run workstreams; **Stewards** execute time-bound **Mandates**; DAO/mesh rules inherited from CPDA.
+

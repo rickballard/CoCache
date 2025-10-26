@@ -57,3 +57,4 @@ if(Test-Path $giCsv){
 }
 
 Write-Host "✅ Sparklines rendered -> $OutDir"
+

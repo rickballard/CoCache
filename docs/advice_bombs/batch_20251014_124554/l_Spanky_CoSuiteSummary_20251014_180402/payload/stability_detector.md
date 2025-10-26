@@ -4,3 +4,4 @@
 - CI tightening: width_t / width_{t-1} < 0.9 across 2 versions → improving certainty.
 - Tempo: days between versions (<30d → emergent).
 States: emergent, fast-evolving, converging, plateaued, regressing.
+

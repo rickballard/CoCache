@@ -1,4 +1,4 @@
-﻿name: bpoe-safety-gate
+name: bpoe-safety-gate
 on:
   workflow_call: {}
 jobs:
@@ -19,3 +19,4 @@ jobs:
           path: .
           base: ${{ github.event.pull_request.base.sha }}
           head: ${{ github.sha }}
+

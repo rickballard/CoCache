@@ -1,3 +1,4 @@
 - Reframe format: Original → Reframe → Bullets
 - Praise exemplars even if we disagree
 - Hex-swap for SVG recolor (GitHub-safe)
+

@@ -4,3 +4,4 @@
 - JSON‑LD, schema.org, civic datasets, open API
 - Repo as source of truth; CI/CD sync; reversibility
 - A/B toggles; gamified feedback; telemetry
+

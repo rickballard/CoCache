@@ -31,3 +31,4 @@ Key fields:
 - `alignment.fit|summary`,
 - `logo_url`, `website`, `sheet_url`,
 - `sources[]`, `provenance.last_checked`.
+

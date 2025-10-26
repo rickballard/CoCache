@@ -23,3 +23,4 @@ coevo   = $co
 $target = Join-Path $path "INBOX_MANIFEST.json"
 $summary | ConvertTo-Json -Depth 10 | Set-Content -Encoding utf8 $target
 Write-Host "Wrote $target" -ForegroundColor Green
+

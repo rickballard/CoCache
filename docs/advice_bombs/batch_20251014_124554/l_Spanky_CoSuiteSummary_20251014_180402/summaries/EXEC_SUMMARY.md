@@ -9,3 +9,4 @@
 - Congruence scoring (Impact/Rights/Equity/Feasibility/Reversibility) with confidence bands.
 - Repo & flow: CoCore records; CoCache runs/dashboards; CoAgent watcher + lints; `.github` intake & PR templates.
 - Discipline: WIP limits, stale-data watchdogs, renewal cadence.
+

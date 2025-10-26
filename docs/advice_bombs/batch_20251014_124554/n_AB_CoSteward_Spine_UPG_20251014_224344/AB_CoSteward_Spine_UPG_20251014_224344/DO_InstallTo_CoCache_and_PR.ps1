@@ -31,3 +31,4 @@ if (-not $NoPR) {
 }
 Pop-Location
 Write-Host "Done. Branch: $Branch"
+

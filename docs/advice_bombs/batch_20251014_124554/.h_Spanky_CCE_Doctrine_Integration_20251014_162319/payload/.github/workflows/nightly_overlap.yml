@@ -8,3 +8,4 @@ jobs:
       - uses: actions/checkout@v4
       - name: Calc overlap
         run: python tools/calc_overlap.py
+

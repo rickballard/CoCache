@@ -19,3 +19,4 @@ No partisan advocacy; technical recommendations only within initiative scopes.
 
 ## Article 5 — Fork & Continuity
 All materials licensed to permit lawful forks; continuity runbooks documented.
+

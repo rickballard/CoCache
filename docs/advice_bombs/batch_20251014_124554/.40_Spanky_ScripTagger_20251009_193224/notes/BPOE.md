@@ -3,3 +3,4 @@
 - Positive-only public crediting via RepTag; honors good behavior without amplifying harm.
 - Local-first, consent-driven contributions; privacy-first engineering.
 - Open standards + portability → durable public good.
+

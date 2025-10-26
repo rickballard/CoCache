@@ -21,3 +21,4 @@
 4. Track funnel in **outreach/Funnel_KPIs.csv** weekly.
 
 > **Non‑legal disclaimer:** This material is not legal, financial, or investment advice. Retain qualified counsel for entity, exemption, and cross‑border matters.
+

@@ -13,3 +13,4 @@ python .\components\seeder\seeder.py --mapper basic --allowlist "$allow" --out "
 Pop-Location
 python "$RepoRoot\tools\score_demo\score.py" --in "$out" --out "$score"
 Get-Content "$score"
+

@@ -8,3 +8,4 @@ $result = [pscustomobject]@{
   pwsh = (Get-Command pwsh -ErrorAction SilentlyContinue | Select -Expand Source -First 1)
 }
 if (-not $Silent) { $result | ConvertTo-Json -Depth 5 }
+

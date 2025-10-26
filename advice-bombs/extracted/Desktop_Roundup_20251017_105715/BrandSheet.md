@@ -40,3 +40,4 @@ From this perspective, CoAgent’s parent — a nonprofit, ownerless, open‑sou
 - Civic, not corporate.
 - Short contrasts for impact.
   > “Not in their box. In yours.”
+

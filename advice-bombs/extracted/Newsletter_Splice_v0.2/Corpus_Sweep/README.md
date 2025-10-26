@@ -7,3 +7,4 @@ Defines how CoSuite ingests latest wisdom, curates it, and converts it into conc
 - Two-tier policy: CoCache (rotating ingest) vs CoCore/Corpus_Sweep (durable, human-reviewed).
 
 See `livewisdom.policy.yml` and `live_sources.yml`.
+

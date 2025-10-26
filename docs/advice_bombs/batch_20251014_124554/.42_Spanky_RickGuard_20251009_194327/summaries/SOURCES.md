@@ -1,3 +1,4 @@
 - This chat session (PowerShell + gh-cli commands and outputs).
 - Attachment: ChromeExtensions_20251008_195356.md (legacy extension list).
 - GitHub REST via `gh api` responses observed during runs.
+

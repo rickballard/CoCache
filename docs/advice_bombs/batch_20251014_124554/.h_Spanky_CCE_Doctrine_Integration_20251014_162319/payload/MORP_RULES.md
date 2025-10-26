@@ -6,3 +6,4 @@ Similarity S = 0.5·cosine(embedding) + 0.5·Jaccard(objectives)
 - Else independent
 
 End race with Expected Value of Information (EVI): stop if EVI < Cost_of_Dual_Path.
+

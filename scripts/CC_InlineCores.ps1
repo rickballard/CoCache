@@ -55,3 +55,4 @@ if($megaText -notmatch "<!--\s*BEGIN:CORE_EXCERPTS\s*-->"){
 # Save
 Set-Content -LiteralPath $Megascroll -Value $megaText -Encoding UTF8
 Write-Host "Megascroll updated."
+

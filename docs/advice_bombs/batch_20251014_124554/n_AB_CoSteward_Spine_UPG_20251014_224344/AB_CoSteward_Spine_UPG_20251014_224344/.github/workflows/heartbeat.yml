@@ -11,3 +11,4 @@ jobs:
         run: |
           d=$(date -u +"%Y-%m-%d")
           test -f heartbeats/$d.md || (echo "Missing heartbeats/$d.md" && exit 1)
+

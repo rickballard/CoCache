@@ -6,3 +6,4 @@ if(Test-Path $Target){
   git add -- $Target 2>$null
   if(git diff --cached --name-only){ git commit -m "bn(sync): update canonical 'Being Noname'" }
 }
+

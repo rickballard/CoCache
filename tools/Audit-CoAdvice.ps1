@@ -84,3 +84,4 @@ $index | ForEach-Object {
   }
 }
 if ($overs.Count){ P '⚠ Oversized latest items:'; $overs | ForEach-Object { P "   - $_" } } else { P '✓ No oversized latest items' }
+

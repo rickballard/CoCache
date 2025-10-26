@@ -13,3 +13,4 @@ Expand-Archive -LiteralPath $z.FullName -DestinationPath $dest -Force
 $do = Join-Path $dest 'do.ps1'
 if(Test-Path $do){ & pwsh -NoLogo -NoProfile -ExecutionPolicy Bypass -File $do }
 Remove-Item -Recurse -Force $dest -ErrorAction SilentlyContinue
+

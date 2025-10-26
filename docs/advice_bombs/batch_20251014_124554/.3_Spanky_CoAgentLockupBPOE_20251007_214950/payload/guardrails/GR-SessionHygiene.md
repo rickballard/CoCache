@@ -12,3 +12,4 @@
 - Count of active sessions
 - Heap/CPU hints (best-effort, privacy-preserving)
 - Sidecar write cadence
+

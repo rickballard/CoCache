@@ -10,3 +10,4 @@ if (-not (git rev-parse --verify $Base 2>$null)) { git checkout -b $Base origin/
 try { git rebase origin/$Base; Write-Host "[OK] $Base rebased onto origin/$Base" -ForegroundColor Green }
 catch { git rebase --abort 2>$null; Write-Host "[WARN] Rebase conflict. Resolve or reset to origin/$Base." -ForegroundColor Yellow }
 Pop-Location
+

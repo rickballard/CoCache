@@ -8,3 +8,4 @@
 - [ ] Add notes/* (BPOE, INTENTIONS, RISKS, DECISIONS, ASSUMPTIONS)
 - [ ] Open PR with labels: `advicebomb`, `spec`, `bpoe`
 - [ ] Run local smoke checks (JSON validity; presence checks)
+
