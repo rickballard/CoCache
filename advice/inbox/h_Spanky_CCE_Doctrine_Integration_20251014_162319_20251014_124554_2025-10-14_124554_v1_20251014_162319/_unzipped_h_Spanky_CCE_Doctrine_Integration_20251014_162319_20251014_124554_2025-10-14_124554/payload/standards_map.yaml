@@ -1,0 +1,28 @@
+standards_map:
+  governance: {iso_42001: required, nist_ai_rmf: required, iso_23894: required}
+  security_supply_chain:
+    nist_ssdf: required
+    slsa_level: 2
+    attestations: in-toto
+    signing: cosign
+    sbom: [spdx, cyclonedx]
+    appsec: [owasp_asvs, owasp_llm_top10]
+  reliability_change:
+    sre: {slos: required, error_budget_policy: required, canary: required}
+    dora_metrics: [deploy_freq, lead_time, change_fail_rate, mttr]
+    telemetry: opentelemetry
+    feature_flags: openfeature
+  transparency_interpretability:
+    model_cards: required
+    datasheets: required
+  privacy_accessibility:
+    iso_27001: required
+    iso_27701: required
+    wcag_22: aa
+governor_hooks:
+  before_merge:
+    - check_contract_tests
+    - check_attestations
+    - check_sbom
+    - check_evidence_level>=E3
+    - check_slo_error_budget

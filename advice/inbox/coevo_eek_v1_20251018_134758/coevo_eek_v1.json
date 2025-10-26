@@ -1,0 +1,7 @@
+{
+  "id": "coevo-eek-v1",
+  "title": "CoEvo EEL Enforcement Kit v1",
+  "path": "docs/coevo/eek_v1",
+  "tags": ["HP57:DSE","SAFETY","EEL"],
+  "updated": "' + (Get-Date -Format o) + '"
+}

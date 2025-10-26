@@ -1,0 +1,14 @@
+{
+  "name": "Spanky_CoAgent-BPOE-MVP3_20251009_025257",
+  "short_name": "CoAgent-BPOE-MVP3",
+  "created_iso": "2025-10-09T02:52:57.225864",
+  "spec": {
+    "folders": [
+      "_spanky",
+      "transcripts",
+      "payload",
+      "notes",
+      "summaries"
+    ]
+  }
+}

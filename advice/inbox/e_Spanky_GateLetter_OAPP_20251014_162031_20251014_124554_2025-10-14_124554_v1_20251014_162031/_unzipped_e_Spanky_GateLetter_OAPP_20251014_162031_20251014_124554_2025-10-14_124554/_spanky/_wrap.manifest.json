@@ -1,0 +1,21 @@
+{
+  "name": "Spanky_GateLetter_OAPP_20251014_162031.zip",
+  "created": "20251014_162031",
+  "intent": "Package canonical Gate Letter and OAPP stamp for CoSuite ingestion",
+  "payload_files": [
+    "SUMMARY.md",
+    "ADVICE.md",
+    "RISKS.md",
+    "DECISIONS.md",
+    "DO.ps1",
+    "OAPP_STAMP.gib",
+    "Gate-Letter_v1.7.2.md"
+  ],
+  "notes_files": [
+    "RECEIPTS.md",
+    "CHANGELOG.md"
+  ],
+  "transcripts_files": [
+    "session.md"
+  ]
+}

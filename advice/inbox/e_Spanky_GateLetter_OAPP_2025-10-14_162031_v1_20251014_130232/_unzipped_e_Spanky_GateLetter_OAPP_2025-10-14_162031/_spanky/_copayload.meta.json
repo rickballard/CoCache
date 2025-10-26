@@ -1,0 +1,6 @@
+{
+  "runner": "CoPayloadRunner",
+  "entrypoint": "DO.ps1",
+  "status": "PRE_CONTACT",
+  "brand": "CoSym"
+}

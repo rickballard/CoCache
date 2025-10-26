@@ -1,0 +1,16 @@
+{
+  "name": "CoCivium Ideal (Benchmark)",
+  "version": "demo",
+  "scores": {
+    "copolitic": 95,
+    "cofinance": 95,
+    "cosociety": 95,
+    "coinnovate": 95,
+    "cosustain": 95,
+    "cohealth": 95,
+    "coeducate": 95,
+    "coculture": 95,
+    "cosafe": 95,
+    "codiversity": 95
+  }
+}

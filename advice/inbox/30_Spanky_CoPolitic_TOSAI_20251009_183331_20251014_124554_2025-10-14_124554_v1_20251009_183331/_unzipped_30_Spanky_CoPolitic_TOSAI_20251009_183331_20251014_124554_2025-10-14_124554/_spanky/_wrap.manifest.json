@@ -1,0 +1,41 @@
+{
+  "pack_name": "Spanky_CoPolitic_TOSAI_20251009_183331",
+  "structure": {
+    "_spanky": [
+      "_copayload.meta.json",
+      "_wrap.manifest.json",
+      "out.txt",
+      "checksums.json"
+    ],
+    "transcripts": [
+      "session.md"
+    ],
+    "payload": [
+      "README.txt",
+      "scripts/*"
+    ],
+    "notes": [
+      "ASSUMPTIONS.md",
+      "BPOE.md",
+      "DECISIONS.md",
+      "DEPENDENCIES.md",
+      "DEPRECATED.md",
+      "GLOSSARY.md",
+      "INTENTIONS.md",
+      "RISKS.md",
+      "WEBSITE_MANIFEST.md"
+    ],
+    "summaries": [
+      "ROADMAP_NOTES.md",
+      "SOURCES.md",
+      "TLDR.md"
+    ]
+  },
+  "scripts": [
+    "logo-audit.ps1",
+    "prep-logo.ps1",
+    "check-cache.ps1",
+    "pages-status.ps1",
+    "apply-logos.ps1"
+  ]
+}

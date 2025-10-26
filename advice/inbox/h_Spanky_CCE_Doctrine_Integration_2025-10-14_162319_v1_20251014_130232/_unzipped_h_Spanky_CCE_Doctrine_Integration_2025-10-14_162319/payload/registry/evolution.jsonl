@@ -1,0 +1,1 @@
+{"id":"EVO-EXAMPLE-2025-001","repo":"CoAgent","state":"proposal","intent":"UX","C":0.82,"C_axes":{"vision":0.8,"non_coercion":0.9},"PE":0.21,"DR":{"semantic":0.12,"contract":0.00},"evidence":{"level":"E2"},"trust_radius":0.30,"contracts":["StatusPanel:1.2"],"overlap_vector":[0.12,0.05,0.0],"race":{"evi":0.08},"sde":{"state":"idle"},"policy_version":"0.1.0","audit":{"hash":"TBD"}}

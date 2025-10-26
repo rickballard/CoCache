@@ -1,0 +1,24 @@
+meta_cce:
+  tuneables:
+    theta_value: {min: 0.10, max: 0.30, start: 0.15}
+    theta_risk:  {min: 0.25, max: 0.50, start: 0.40}
+    trust_radius:{min: 0.10, max: 0.45, start: 0.35}
+    merge_threshold: {min: 0.65, max: 0.85, start: 0.75}
+    race_threshold:  {min: 0.35, max: 0.60, start: 0.45}
+    credits:
+      Idea: {min: 6, max: 14, start: 10}
+      Proposal: {min: 4, max: 10, start: 6}
+      Plan: {min: 2, max: 6, start: 4}
+      Initiative: {min: 1, max: 4, start: 2}
+  invariants:
+    C_min: 0.70
+    forbid: [disable_audit, bypass_two_key_on_sde, pivot_without_owner]
+  optimizer:
+    kind: "bayes"
+    horizon_days: 28
+    shadow_fraction: 0.25
+    promote_min_effect: 0.05
+    max_weekly_changes: 1
+  governance:
+    require_two_key_for_policy_relax: true
+    evidence_pack: true

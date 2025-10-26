@@ -1,0 +1,1 @@
+_This is a fallback Spanky. Session content was unrecoverable._

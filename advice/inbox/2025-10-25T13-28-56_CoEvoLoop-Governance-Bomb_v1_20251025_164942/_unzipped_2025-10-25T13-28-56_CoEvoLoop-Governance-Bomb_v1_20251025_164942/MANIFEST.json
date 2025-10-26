@@ -1,0 +1,14 @@
+# MANIFEST.json
+{
+  "name": "CoEvoLoop-Governance-Bomb_v1",
+  "version": "1.0",
+  "date": "2025-10-25",
+  "files": [
+    "README.md",
+    "LOOP_GUIDE.md",
+    "GOVERNANCE_PLAN.md"
+  ],
+  "target_repo": "rickballard/CoCache",
+  "target_path": "advice/inbox",
+  "trigger": "CoPing/Watcher/Advice-Inbox"
+}

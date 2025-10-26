@@ -1,0 +1,38 @@
+{
+  "package": "Spanky_CoAgentBranding_20251009_022926",
+  "structure": {
+    "_spanky": [
+      "_copayload.meta.json",
+      "_wrap.manifest.json",
+      "out.txt",
+      "checksums.json"
+    ],
+    "transcripts": [
+      "session.md"
+    ],
+    "payload": [
+      "branding/*"
+    ],
+    "notes": [
+      "BPOE.md",
+      "INTENTIONS.md",
+      "DEPENDENCIES.md",
+      "DECISIONS.md",
+      "ASSUMPTIONS.md",
+      "RISKS.md",
+      "GLOSSARY.md",
+      "WEBSITE_MANIFEST.md",
+      "DEPRECATED.md"
+    ],
+    "summaries": [
+      "TLDR.md",
+      "ROADMAP_NOTES.md",
+      "SOURCES.md"
+    ]
+  },
+  "rules": [
+    "Re-read from the start; include early intentions, inferences, pivots.",
+    "Mark unfinished items in INTENTIONS.md (Unfinished).",
+    "If anything\u2019s missing, include a file named MISSING_<WHAT>."
+  ]
+}

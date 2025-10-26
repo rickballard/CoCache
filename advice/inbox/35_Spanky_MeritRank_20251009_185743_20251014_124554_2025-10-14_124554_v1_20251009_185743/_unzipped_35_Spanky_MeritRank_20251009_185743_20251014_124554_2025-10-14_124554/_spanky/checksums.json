@@ -1,0 +1,86 @@
+{
+  "transcripts/session.md": {
+    "sha256": "57d100c462dffb78c0e72d31075a1f489d7d2aa1e7f2de23349ebcdf2382c51f",
+    "bytes": 464
+  },
+  "payload/REFERENCE_Attached.zip": {
+    "sha256": "fbd18d0a01dd9074298d053c41f757ae5f708226d2ace4000f2e5127a7e7cd7f",
+    "bytes": 3420
+  },
+  "payload/CoEve_SyncMain.ps1": {
+    "sha256": "bc21a6f3391ee3ee341b0c5923313ba0eec86226553008b05e6fa2374b002373",
+    "bytes": 652
+  },
+  "payload/CoEve_Smoke.ps1": {
+    "sha256": "3e3d2e96c264fc2d0ac953797e1cc5ade0038740de70148ed7d5377cc6f8ac7f",
+    "bytes": 730
+  },
+  "payload/CoEve_AllIn.ps1": {
+    "sha256": "4f47056ee741b999e3ab5b7af40cbfd0f584fb083b47b756c0da37646ff9ec5d",
+    "bytes": 277
+  },
+  "payload/CoEve_WatchLatestCI_v3.ps1": {
+    "sha256": "8f5a99944a2cdcc9bfd001f640601b415d6ad3de98cf79cf3fc6b9b175b7f6e7",
+    "bytes": 1226
+  },
+  "payload/CoEve_CI_Triage.ps1": {
+    "sha256": "09511f39c72366337e5d8b2e1b254af17eab9301c1f6a012f1a5adb60bafd292",
+    "bytes": 1122
+  },
+  "payload/CoEve_CI_ReRun.ps1": {
+    "sha256": "24e1ffda2c2ca46caf20d8a1c87645a17d60dfc002982ba8e35aa3c41ef56a51",
+    "bytes": 585
+  },
+  "payload/CoEve_Branding_PR_snippet.md": {
+    "sha256": "c86a9e2b11f0b7d44dbcf0b39638f57253d56d2a1a907ad1735ea0666e900fc1",
+    "bytes": 59
+  },
+  "notes/BPOE.md": {
+    "sha256": "863b16652ddd3615f524760a612507bc12bb00c024d768ddcd8da12ae98c1541",
+    "bytes": 220
+  },
+  "notes/INTENTIONS.md": {
+    "sha256": "548ead519478c670eb6d545761640c569277029b6ff024f748c2c6c0c21104dd",
+    "bytes": 366
+  },
+  "notes/DEPENDENCIES.md": {
+    "sha256": "fdb59e4b0303458125425b5df503b74d6ac09b72d3a1d38c9f5910ed041deed0",
+    "bytes": 61
+  },
+  "notes/DECISIONS.md": {
+    "sha256": "c9949fd4ded29650f1876faef7fbfc21dd4ca7acf401d6be32f789768e641d10",
+    "bytes": 87
+  },
+  "notes/ASSUMPTIONS.md": {
+    "sha256": "1172fdc9978691169c12f93c18075b5f4651f22028524ca9640f1d49638aa796",
+    "bytes": 56
+  },
+  "notes/RISKS.md": {
+    "sha256": "4748e4e20851e00724860217fa019c56580d6bae105d626d7dff86f65126b86c",
+    "bytes": 82
+  },
+  "notes/GLOSSARY.md": {
+    "sha256": "79b225751e588d7f75f5de30947d0503ad97da8fcdc6c3c27cf688fb71464af6",
+    "bytes": 41
+  },
+  "notes/WEBSITE_MANIFEST.md": {
+    "sha256": "5660bd3b637fbfe627d436879387cf5e66836ab7685ae7b3ecde79e08c478d1b",
+    "bytes": 49
+  },
+  "notes/DEPRECATED.md": {
+    "sha256": "8c428ca142988db746eec9bdd81b2e2aaa1014ee3eb352646672ea7c7c27b172",
+    "bytes": 82
+  },
+  "summaries/TLDR.md": {
+    "sha256": "a7d8280a8e09a1c96f95d600a9c30d7026b0d04c97206fb052b45c443b992d69",
+    "bytes": 70
+  },
+  "summaries/ROADMAP_NOTES.md": {
+    "sha256": "f51830bc11d632b60b4584713b89699d0037ed3c0ed0ece44e809741f0a2c83a",
+    "bytes": 77
+  },
+  "summaries/SOURCES.md": {
+    "sha256": "4712f855a078f4743bbbe0aa5bf143ecd72722a0a55b53d5ed96d4ae78321e98",
+    "bytes": 78
+  }
+}

@@ -1,0 +1,5 @@
+[STATUS] items=24 transcripts=1 payload=11 notes=9 summaries=3
+Artifacts generated at 2025-10-09T03:11:42.080723 local time.
+ShortName: CoCivium-Strategy
+Session scope: Strategy advisory scaffolding for CoCivium Debate Arena & Dual-Layer design.
+Open items: Congruence deep-dive; live repo sweep; FTWTG spec.

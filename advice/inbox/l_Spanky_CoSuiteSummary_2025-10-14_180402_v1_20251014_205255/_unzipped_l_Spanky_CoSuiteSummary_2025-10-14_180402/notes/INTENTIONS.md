@@ -1,0 +1,1 @@
+Ship HOW (schemas, gates, metrics spine) for immediate ingestion; avoid policy endorsement.

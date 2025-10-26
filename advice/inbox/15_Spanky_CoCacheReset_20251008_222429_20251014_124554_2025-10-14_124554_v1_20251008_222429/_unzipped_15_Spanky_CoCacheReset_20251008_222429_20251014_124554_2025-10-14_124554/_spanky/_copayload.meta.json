@@ -1,0 +1,13 @@
+{
+  "short_name": "CoCacheReset",
+  "created_at": "2025-10-08T22:24:29.159892-04:00",
+  "session": "CoCache Reset",
+  "purpose": "Package session outputs and guidance for transfer into repos via later session.",
+  "counts": {
+    "items": 19,
+    "transcripts": 1,
+    "payload": 6,
+    "notes": 9,
+    "summaries": 3
+  }
+}

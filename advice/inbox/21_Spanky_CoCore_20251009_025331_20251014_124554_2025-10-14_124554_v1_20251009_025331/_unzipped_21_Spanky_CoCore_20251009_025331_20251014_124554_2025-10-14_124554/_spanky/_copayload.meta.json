@@ -1,0 +1,18 @@
+{
+  "shortname": "CoCore",
+  "timestamp": "20251009_025331",
+  "version": "1.0",
+  "missing_files": [
+    "session.md",
+    "BPOE.md",
+    "INTENTIONS.md",
+    "DEPENDENCIES.md",
+    "DECISIONS.md",
+    "ASSUMPTIONS.md",
+    "RISKS.md",
+    "GLOSSARY.md",
+    "TLDR.md",
+    "ROADMAP_NOTES.md",
+    "SOURCES.md"
+  ]
+}

@@ -1,0 +1,1 @@
+- Home, Docs, Policy; include tagline and badges.

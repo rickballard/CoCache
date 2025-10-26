@@ -1,0 +1,16 @@
+{
+  "CoTheory_ReflexHooks": [
+    "divergence_from_congruence_vector",
+    "neutrality_claim_with_legacy_bias",
+    "model_drift_outside_core_lineage"
+  ],
+  "GIBindex_Seed_Terms": [
+    "CoTheory.CoreAssumption",
+    "CoTheory.Congruence",
+    "CoTheory.EvolutionaryGovernance"
+  ],
+  "Links": {
+    "CoReflex": "https://github.com/rickballard/CoCache/docs/Reflex/",
+    "CoCore":   "https://github.com/rickballard/CoCore/"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "manifest_version": "0.2",
+  "adapters": [
+    {
+      "id": "adapter.wikidata.entities",
+      "auth": "none",
+      "rate_limit": "polite"
+    },
+    {
+      "id": "adapter.openalex.graph",
+      "auth": "none",
+      "rate_limit": "100k/day"
+    },
+    {
+      "id": "adapter.crossref.doi",
+      "auth": "none",
+      "headers": {
+        "User-Agent": "CoSuite (mailto:ops@example.org)"
+      }
+    },
+    {
+      "id": "adapter.gleif.lei",
+      "auth": "none"
+    },
+    {
+      "id": "adapter.opencorporates.registry",
+      "auth": "key"
+    },
+    {
+      "id": "adapter.sec.edgar",
+      "auth": "key"
+    },
+    {
+      "id": "adapter.ia.cdx",
+      "auth": "none"
+    }
+  ]
+}

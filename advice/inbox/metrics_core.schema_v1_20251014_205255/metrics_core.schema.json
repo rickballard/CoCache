@@ -1,0 +1,175 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Metrics Core for Exemplars (v0.1)",
+  "type": "object",
+  "required": [
+    "kpis",
+    "comparability_class",
+    "denominator",
+    "evidence_grade",
+    "version_semver",
+    "stability_state"
+  ],
+  "properties": {
+    "kpis": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "definition",
+          "unit",
+          "direction",
+          "collection_method",
+          "refresh_cadence",
+          "source_dataset_id"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "definition": {
+            "type": "string"
+          },
+          "unit": {
+            "type": "string"
+          },
+          "direction": {
+            "enum": [
+              "up_is_better",
+              "down_is_better",
+              "target_range"
+            ]
+          },
+          "collection_method": {
+            "type": "string"
+          },
+          "refresh_cadence": {
+            "type": "string"
+          },
+          "source_dataset_id": {
+            "type": "string"
+          },
+          "equity_breakouts": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "normalization": {
+            "type": "object",
+            "properties": {
+              "denominator": {
+                "type": "string"
+              },
+              "transform": {
+                "type": "string"
+              }
+            }
+          },
+          "quality_grade": {
+            "type": "string",
+            "enum": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "U"
+            ]
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "comparability_class": {
+      "type": "string"
+    },
+    "denominator": {
+      "type": "string"
+    },
+    "baseline": {
+      "type": "object"
+    },
+    "effect_model": {
+      "type": "string",
+      "enum": [
+        "BeforeAfter",
+        "DiD",
+        "RCT",
+        "SyntheticControl",
+        "Modelled"
+      ]
+    },
+    "uncertainty": {
+      "type": "object"
+    },
+    "evidence_grade": {
+      "type": "string",
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "U"
+      ]
+    },
+    "equity_breakouts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rights_burden_index": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "feasibility_index": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "reversibility_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "ops_cost": {
+      "type": "object"
+    },
+    "version_semver": {
+      "type": "string"
+    },
+    "change_log": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "stability_state": {
+      "type": "string",
+      "enum": [
+        "emergent",
+        "fast-evolving",
+        "converging",
+        "plateaued",
+        "regressing"
+      ]
+    },
+    "flags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "provenance": {
+      "type": "object"
+    }
+  }
+}

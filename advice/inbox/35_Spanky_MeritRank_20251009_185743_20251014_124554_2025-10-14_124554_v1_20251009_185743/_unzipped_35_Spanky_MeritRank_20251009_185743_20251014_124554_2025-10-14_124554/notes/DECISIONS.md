@@ -1,0 +1,1 @@
+- Use tamper-evident claims; negative-dominance; minimal smoke; python -m pytest in CI.

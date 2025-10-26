@@ -1,0 +1,19 @@
+{
+  "name": "Spanky_GrandMigration_20251009_194020.zip",
+  "short_name": "GrandMigration",
+  "created_utc": "2025-10-09T19:40:20Z",
+  "schema": "spanky.v1",
+  "session": {
+    "title": "Grand Migration (CoCivium \u2192 CoCache)",
+    "actor": "GPT-5 Thinking (ChatGPT) + Chris",
+    "status": "closed",
+    "final_recommendation": "Make Civium private + archived (done)."
+  },
+  "folders": [
+    "_spanky",
+    "transcripts",
+    "payload",
+    "notes",
+    "summaries"
+  ]
+}

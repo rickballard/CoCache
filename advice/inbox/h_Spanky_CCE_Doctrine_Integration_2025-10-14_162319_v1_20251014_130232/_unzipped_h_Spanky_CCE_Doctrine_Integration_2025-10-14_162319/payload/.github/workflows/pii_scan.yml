@@ -1,0 +1,8 @@
+name: pii_scan
+on: [pull_request]
+jobs:
+  pii:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "Scan for PII (placeholder)"

@@ -1,0 +1,1 @@
+Next: Browser panel UI, JSON feature flags, LAN heartbeat server spec & procurement, safe-haven migration.

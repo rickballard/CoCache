@@ -1,0 +1,12 @@
+{
+  "created": "20251014_161623",
+  "build": [
+    "Write summary docs",
+    "Stage metadata",
+    "Zip for handoff"
+  ],
+  "checks": [
+    "Files present",
+    "Metadata valid JSON"
+  ]
+}

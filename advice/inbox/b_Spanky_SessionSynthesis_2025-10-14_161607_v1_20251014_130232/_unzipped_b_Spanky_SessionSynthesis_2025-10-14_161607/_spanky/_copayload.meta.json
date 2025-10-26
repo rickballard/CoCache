@@ -1,0 +1,21 @@
+{
+  "name": "Session Synthesis Advice Bomb",
+  "version": "1.0.0",
+  "created_utc": "2025-10-14T16:16:07.447279Z",
+  "intent": [
+    "synthesis",
+    "alignment",
+    "handoff"
+  ],
+  "source_session": "current",
+  "rules": {
+    "congruence_first": true,
+    "transparency_default": true,
+    "safety_preflight_required": true
+  },
+  "outputs": {
+    "tldr": "summaries/TLDR.md",
+    "main_summary": "payload/MAIN_SUMMARY.md",
+    "strategy": "payload/ADVICE_AND_STRATEGY.md"
+  }
+}

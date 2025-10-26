@@ -1,0 +1,70 @@
+{
+  "updated": "2025-10-18T10:22:33.1502571-04:00",
+  "repos": [
+    {
+      "name": "CoAgent",
+      "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoAgent",
+      "role": "agent/product"
+    },
+    {
+      "name": "CoAgent__mvp3_resume-20250923-111953Z",
+      "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoAgent__mvp3_resume-20250923-111953Z",
+      "role": "unknown"
+    },
+    {
+      "name": "CoCache",
+      "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache",
+      "role": "index/canon"
+    },
+    {
+      "name": "CoCivium",
+      "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoCivium",
+      "role": "ethos/civium"
+    },
+    {
+      "name": "CoCivium-outreach",
+      "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoCivium-outreach",
+      "role": "unknown"
+    },
+    {
+      "name": "CoCivium-website",
+      "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoCivium-website",
+      "role": "unknown"
+    },
+    {
+      "name": "CoCivium.clean",
+      "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoCivium.clean",
+      "role": "unknown"
+    },
+    {
+      "name": "CoCore",
+      "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoCore",
+      "role": "unknown"
+    },
+    {
+      "name": "CoLaminar",
+      "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoLaminar",
+      "role": "unknown"
+    },
+    {
+      "name": "CoModules",
+      "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoModules",
+      "role": "unknown"
+    },
+    {
+      "name": "CoPolitic",
+      "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoPolitic",
+      "role": "policy"
+    },
+    {
+      "name": "CoRef",
+      "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoRef",
+      "role": "unknown"
+    },
+    {
+      "name": "CoSteward",
+      "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoSteward",
+      "role": "ops/steward"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Could not open the user-attached ZIP inside this environment due to interface limitations. Successor session may re-attach unzipped contents or provide Drive link for ingest.

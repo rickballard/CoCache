@@ -1,0 +1,8 @@
+title: "CoSuite High Plan (HP)"
+version: "v0.1"
+sections:
+  - path: "../index/INTRO.md"
+  - path: "../../Games/FTW/design/GameDesignDoc.md"
+  - path: "../index/ROADMAP.md"
+filters:
+  redact_tags: ["HP57"]

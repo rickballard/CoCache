@@ -1,0 +1,4 @@
+- PowerShell 7+
+- git, gh
+- ImageMagick
+- Substack keys/secrets

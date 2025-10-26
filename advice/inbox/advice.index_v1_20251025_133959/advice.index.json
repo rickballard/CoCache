@@ -1,0 +1,224 @@
+[
+  {
+    "family": "AdviceBomb_IngestAssessment",
+    "title": "AdviceBomb_IngestAssessment_v3_20251025_175150",
+    "ext": ".md",
+    "latestTs": "2025-10-25T13-57-19",
+    "latestPath": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-57-19_AdviceBomb_IngestAssessment_v3_20251025_175150.md",
+    "history": [
+      {
+        "ts": "2025-10-25T13-57-19",
+        "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-57-19_AdviceBomb_IngestAssessment_v3_20251025_175150.md",
+        "hash": "73E1DD5CFC0831C1DB0913CEE4346C307C01F507F39294F296742373E8E9FD25",
+        "version": "v3_20251025_175150"
+      }
+    ]
+  },
+  {
+    "family": "AI_BEACON_STRATEGY",
+    "title": "AI_BEACON_STRATEGY_v6",
+    "ext": ".md",
+    "latestTs": "2025-10-25T13-28-56",
+    "latestPath": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-28-56_AI_BEACON_STRATEGY_v6.md",
+    "history": [
+      {
+        "ts": "2025-10-25T13-28-56",
+        "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-28-56_AI_BEACON_STRATEGY_v6.md",
+        "hash": "E53AB5E77551CB967A947754E2334BBB32C9FE510D866BF02ECAEC13589EF05D",
+        "version": "v6"
+      }
+    ]
+  },
+  {
+    "family": "CoSync_OK",
+    "title": "CoSync_OK",
+    "ext": ".txt",
+    "latestTs": "2025-10-25T13-28-56",
+    "latestPath": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-28-56_CoSync_OK.txt",
+    "history": [
+      {
+        "ts": "2025-10-25T13-28-56",
+        "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-28-56_CoSync_OK.txt",
+        "hash": "9481A74B17AA47508DEFC6D52E00043B621A94341CF90FD780570790816FDD9B",
+        "version": "v1"
+      }
+    ]
+  },
+  {
+    "family": "Deliverable_Manifest",
+    "title": "Deliverable_Manifest",
+    "ext": ".md",
+    "latestTs": "2025-10-25T13-57-19",
+    "latestPath": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-57-19_Deliverable_Manifest.md",
+    "history": [
+      {
+        "ts": "2025-10-25T13-57-19",
+        "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-57-19_Deliverable_Manifest.md",
+        "hash": "0DD845C0C86D01C120C6098815585EBF71B4ED2F953C27E20A79907ED8484026",
+        "version": "v1"
+      }
+    ]
+  },
+  {
+    "family": "es",
+    "title": "es",
+    "ext": ".md",
+    "latestTs": "2025-10-25T13-28-56",
+    "latestPath": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-28-56_es.md",
+    "history": [
+      {
+        "ts": "2025-10-25T13-28-56",
+        "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-28-56_es.md",
+        "hash": "0459AE4B5706973C469D4E2224463F58180A5064A0D4E207954385A8EC249D7F",
+        "version": "v1"
+      }
+    ]
+  },
+  {
+    "family": "fr",
+    "title": "fr",
+    "ext": ".md",
+    "latestTs": "2025-10-25T13-28-56",
+    "latestPath": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-28-56_fr.md",
+    "history": [
+      {
+        "ts": "2025-10-25T13-28-56",
+        "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-28-56_fr.md",
+        "hash": "4DF64C8DC9F889A9B5BE74FC9F92D2E184F8BFB3CB108441C68BD2C6252DD3F9",
+        "version": "v1"
+      }
+    ]
+  },
+  {
+    "family": "GOVERNANCE_PLAN",
+    "title": "GOVERNANCE_PLAN",
+    "ext": ".md",
+    "latestTs": "2025-10-25T13-28-56",
+    "latestPath": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-28-56_GOVERNANCE_PLAN.md",
+    "history": [
+      {
+        "ts": "2025-10-25T12-54-41",
+        "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T12-54-41_GOVERNANCE_PLAN.md",
+        "hash": "A44B147566E1853C95D14B4B79F77B59670FBE843365419B84632CECA48E7372",
+        "version": "v1"
+      },
+      {
+        "ts": "2025-10-25T13-28-56",
+        "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-28-56_GOVERNANCE_PLAN.md",
+        "hash": "A44B147566E1853C95D14B4B79F77B59670FBE843365419B84632CECA48E7372",
+        "version": "v1"
+      }
+    ]
+  },
+  {
+    "family": "LOOP_GUIDE",
+    "title": "LOOP_GUIDE",
+    "ext": ".md",
+    "latestTs": "2025-10-25T13-28-56",
+    "latestPath": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-28-56_LOOP_GUIDE.md",
+    "history": [
+      {
+        "ts": "2025-10-25T12-54-41",
+        "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T12-54-41_LOOP_GUIDE.md",
+        "hash": "04F5603767453445E436430BB86250D7788129810C8053F37AFB03730C5C605F",
+        "version": "v1"
+      },
+      {
+        "ts": "2025-10-25T13-28-56",
+        "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-28-56_LOOP_GUIDE.md",
+        "hash": "04F5603767453445E436430BB86250D7788129810C8053F37AFB03730C5C605F",
+        "version": "v1"
+      }
+    ]
+  },
+  {
+    "family": "MANIFEST",
+    "title": "MANIFEST",
+    "ext": ".json",
+    "latestTs": "2025-10-25T13-28-56",
+    "latestPath": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-28-56_MANIFEST.json",
+    "history": [
+      {
+        "ts": "2025-10-25T12-54-41",
+        "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T12-54-41_MANIFEST.json",
+        "hash": "5FDA9B55AB09132BF306B0604D2011059AF2F5831F816A5134C3F0F5BED6AD58",
+        "version": "v1"
+      },
+      {
+        "ts": "2025-10-25T13-28-56",
+        "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-28-56_MANIFEST.json",
+        "hash": "5FDA9B55AB09132BF306B0604D2011059AF2F5831F816A5134C3F0F5BED6AD58",
+        "version": "v1"
+      }
+    ]
+  },
+  {
+    "family": "Public_AI_Guardrails",
+    "title": "Public_AI_Guardrails",
+    "ext": ".json",
+    "latestTs": "2025-10-25T13-28-56",
+    "latestPath": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-28-56_Public_AI_Guardrails.json",
+    "history": [
+      {
+        "ts": "2025-10-25T13-28-56",
+        "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-28-56_Public_AI_Guardrails.json",
+        "hash": "7F4DDE4545F3C87303F3F7C9CE1632A770BF5D2D08651EA6A3BF6A8872E87E6A",
+        "version": "v1"
+      },
+      {
+        "ts": "2025-10-25T13-28-56",
+        "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-28-56_Public_AI_Guardrails.md",
+        "hash": "0632D990AEF06ACA79821928020BD0AC4BEE240D9FC6B67E1E0AC9B3416E3FAF",
+        "version": "v1"
+      }
+    ]
+  },
+  {
+    "family": "README",
+    "title": "README",
+    "ext": ".md",
+    "latestTs": "2025-10-25T14-22-26",
+    "latestPath": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T14-22-26_README.md",
+    "history": [
+      {
+        "ts": "2025-10-25T12-54-41",
+        "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T12-54-41_README.md",
+        "hash": "364137F2B4013A85ED68D800390DCAD2F2931CE5B08D023BD764F3EBF0FC1F94",
+        "version": "v1"
+      },
+      {
+        "ts": "2025-10-25T13-28-56",
+        "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-28-56_README.md",
+        "hash": "58297AB91CB94A0D96C45D6C09BBD6B847A20B824EDA0A1FD7664EC64E5B7F61",
+        "version": "v1"
+      },
+      {
+        "ts": "2025-10-25T13-40-42",
+        "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-40-42_README.md",
+        "hash": "91D243EEEB798379AC2EC8BAFCE19F91B3C711EA7C4AA3F27C799CCD7BFD49C5",
+        "version": "v1"
+      },
+      {
+        "ts": "2025-10-25T14-22-26",
+        "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T14-22-26_README.md",
+        "hash": "C82A67BDFC4A1EEF23623DFC9344E231B85AD9E7DF4345F1FF0F9B540A71BA7B",
+        "version": "v1"
+      }
+    ]
+  },
+  {
+    "family": "zh",
+    "title": "zh",
+    "ext": ".md",
+    "latestTs": "2025-10-25T13-28-56",
+    "latestPath": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-28-56_zh.md",
+    "history": [
+      {
+        "ts": "2025-10-25T13-28-56",
+        "path": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\advice\\processed\\2025-10-25T13-28-56_zh.md",
+        "hash": "153C2C17D8D9709E30319B8D64668B24BB19BA418020F250C0821757F0EAA369",
+        "version": "v1"
+      }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720">
+  <rect width="100%" height="100%" fill="white"/>
+  <text x="640" y="40" font-size="24" text-anchor="middle">Threat vs Mitigation — Warning Time (X) vs Impact Energy (Y)</text>
+  <!-- axes -->
+  <line x1="80" y1="640" x2="1200" y2="640" stroke="black"/>
+  <line x1="80" y1="100" x2="80" y2="640" stroke="black"/>
+  <text x="1180" y="670" font-size="16" text-anchor="end">Warning Time → (hours ... decades)</text>
+  <text x="20" y="110" font-size="16" transform="rotate(-90,20,110)">Impact Energy (local ... global)</text>
+  <!-- zones -->
+  <rect x="80" y="420" width="1120" height="220" fill="#ffcccc" stroke="none" opacity="0.8"/>
+  <rect x="80" y="250" width="740" height="170" fill="#ffe5b4" stroke="none" opacity="0.8"/>
+  <rect x="820" y="100" width="380" height="150" fill="#ccffcc" stroke="none" opacity="0.8"/>
+  <text x="160" y="620" font-size="18">RED: Civil defence only (days/hours)</text>
+  <text x="120" y="300" font-size="18">AMBER: Limited options (months)</text>
+  <text x="900" y="140" font-size="18">GREEN: Deflection feasible (years+)</text>
+</svg>

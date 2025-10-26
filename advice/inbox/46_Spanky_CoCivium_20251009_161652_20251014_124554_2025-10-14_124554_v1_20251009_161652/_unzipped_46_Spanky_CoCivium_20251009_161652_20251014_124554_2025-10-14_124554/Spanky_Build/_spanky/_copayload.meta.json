@@ -1,0 +1,19 @@
+{
+  "kind": "Spanky",
+  "shortname": "CoCivium",
+  "created_local": "2025-10-09T16:16:52-0400",
+  "source_attachment": "Spanky_Request_Pack_v2_2_2025-10-08.zip",
+  "includes": [
+    "advisories V@ pack",
+    "guidance",
+    "snippets",
+    "notes",
+    "summaries",
+    "transcript(manifest)"
+  ],
+  "rules_reminder": [
+    "Re-read early intentions and pivots",
+    "Mark unfinished items in INTENTIONS.md",
+    "Create MISSING_* for gaps"
+  ]
+}

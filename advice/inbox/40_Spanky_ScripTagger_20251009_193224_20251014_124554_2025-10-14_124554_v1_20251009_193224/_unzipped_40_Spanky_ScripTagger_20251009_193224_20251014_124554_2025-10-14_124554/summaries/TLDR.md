@@ -1,0 +1,2 @@
+# TL;DR
+ScripTagger (“Capture. Tag. Think.”) helps people calmly review talks/articles: paste a link or notes, pick simple chips (Truth/Evidence/Conduct/Anti-Manip/Amplif), and get a two-panel summary (Best claims vs Questions to verify). Transcript is optional. Positive-only credits flow to RepTag after consensus. Local-first, opt-in, and vendor-neutral “Ask my AI” handoff. Demo and schema included; app packaging and consensus engine are next.

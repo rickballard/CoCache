@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "session": "CoCivium Dual-Face Sites & Beaconing",
+  "generated_utc": "2025-10-09T20:31:23.566263Z",
+  "files": [
+    "notes/ASSUMPTIONS.md",
+    "notes/BPOE.md",
+    "notes/DECISIONS.md",
+    "notes/DEPENDENCIES.md",
+    "notes/DEPRECATED.md",
+    "notes/GLOSSARY.md",
+    "notes/INTENTIONS.md",
+    "notes/RISKS.md",
+    "notes/WEBSITE_MANIFEST.md",
+    "payload/DO_Build-CoCivium-DualSites.ps1",
+    "payload/IdeaCard_DualFace_Fallback.md",
+    "summaries/ROADMAP_NOTES.md",
+    "summaries/SOURCES.md",
+    "summaries/TLDR.md",
+    "transcripts/session.md"
+  ]
+}

@@ -1,0 +1,7 @@
+id,name,definition,unit,direction,denominator,domain
+KPI-H-01,All-cause mortality rate,Deaths per 100k residents per year,per_100k,down_is_better,per_100k_population,Health
+KPI-J-01,Homicide rate,Intentional homicides per 100k residents,per_100k,down_is_better,per_100k_population,Justice
+KPI-D-01,Data breach incidence,Reportable breaches per 100k org-employee equivalents,per_100k,down_is_better,per_100k_population,DataAI
+KPI-E-01,CO2e intensity,CO2e per unit output,per_unit,down_is_better,per_tonne_co2e,Environment
+KPI-G-01,Service access time,Median days to access service,days,down_is_better,per_case,Governance
+KPI-F-01,Cost per outcome,Total cost divided by primary outcome,$/unit,down_is_better,per_$1M_spend,Finance

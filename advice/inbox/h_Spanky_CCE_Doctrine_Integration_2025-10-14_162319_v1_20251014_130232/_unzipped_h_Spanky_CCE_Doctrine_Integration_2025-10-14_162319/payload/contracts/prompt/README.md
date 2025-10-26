@@ -1,0 +1,1 @@
+# Prompt contract example (placeholder)

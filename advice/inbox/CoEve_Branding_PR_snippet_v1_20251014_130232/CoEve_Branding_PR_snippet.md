@@ -1,0 +1,1 @@
+> **Your digital halo — verifiable kudos, not callouts.**

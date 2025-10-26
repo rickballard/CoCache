@@ -1,0 +1,10 @@
+name: policy_shadow
+on:
+  schedule: [{cron: "30 2 * * 1"}]
+jobs:
+  shadow:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Shadow trial policy changes
+        run: echo "Run shadow meta-CCE with bounded optimizer; emit PolicyCard"

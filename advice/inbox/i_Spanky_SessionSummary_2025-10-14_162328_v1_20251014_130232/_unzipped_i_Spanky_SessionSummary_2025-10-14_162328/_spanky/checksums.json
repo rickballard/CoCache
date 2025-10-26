@@ -1,0 +1,14 @@
+{
+  "_spanky/_copayload.meta.json": "847fd134ff7a48604d0c2320fa0151de975607613582ff6aa31e1471b0bc4da7",
+  "_spanky/out.txt": "bf2db36d95bf82df93b8fd40a026e3a5d9436c2a53057becb34d0a7c97864e23",
+  "payload/summary/SESSION_SUMMARY.md": "00d076d09bc8bc5f4b58316e876820d63734040e7c788026ed6c38601697709a",
+  "payload/advice/README.md": "ad424b7e8b73f5e9e96f75a549d8646f132c8467c497d96af40824262484727b",
+  "payload/inspiration/README.md": "e0edf8ffad1d727ce77c5aa69e7d97daca8f38db1d17b4b54b14e0be076e85ae",
+  "payload/scripts/install_to_cocache.ps1": "28068542c734f5c1f706cf3020726fb14f64263948bdb8f1747df22e111209c3",
+  "notes/DECISIONS.md": "99e55726d98e7dec823f3f31f7dc0e0f9afff8809c34ebf2e75ecb9a01fc4974",
+  "notes/RISKS.md": "56046cf1879638027cee2427e32bcb465140839ef869edd56523f4277eea397e",
+  "notes/BPOE.md": "ac7c3489ba3067d6b5cf8e732433fc0f5f74fbb090c99b0d01c682c881559c50",
+  "summaries/TLDR.md": "48efa00a6d3a3ed6aff361953eb755ea13e6e72dc3aff71f481f70a112416fc2",
+  "summaries/ROADMAP.md": "75332d43c7b5d33786ddc6231208db44a888f9a8f4b3ea3aa1e1748f61dcbe8a",
+  "summaries/INTEGRATION.md": "89f6e041ecbe6128077c0c2512ae9182e0283bf27621d704a3eb8149f5cd7786"
+}

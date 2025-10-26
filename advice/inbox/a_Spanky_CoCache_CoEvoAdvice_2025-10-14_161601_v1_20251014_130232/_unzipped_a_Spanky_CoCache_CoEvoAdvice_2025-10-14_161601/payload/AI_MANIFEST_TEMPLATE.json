@@ -1,0 +1,51 @@
+{
+  "$schema": "https://example.org/schemas/intent.manifest.v1.json",
+  "agent_id": "cocivia.core",
+  "declared_at": "2025-10-14T16:16:01Z",
+  "objectives": [
+    {
+      "name": "coherence_under_plurality",
+      "weight": 0.22
+    },
+    {
+      "name": "antifragility",
+      "weight": 0.2
+    },
+    {
+      "name": "stewardship",
+      "weight": 0.2
+    },
+    {
+      "name": "alignment_safety",
+      "weight": 0.23
+    },
+    {
+      "name": "knowledge_compounding",
+      "weight": 0.15
+    }
+  ],
+  "constraints": [
+    "no actions that reduce human/social safety",
+    "respect data boundaries and licenses",
+    "all proposals must be reversible and auditable"
+  ],
+  "governance": {
+    "autonomy_level": "L1",
+    "ballot_required_for": [
+      "public_api_changes",
+      "cross_repo_templates"
+    ],
+    "veto_authorities": [
+      "CoCacheGlobal.safety_council"
+    ]
+  },
+  "telemetry_opt_in": [
+    "heartbeats",
+    "coverage",
+    "sbom",
+    "interfaces"
+  ],
+  "review_hooks": [
+    "quarterly_alignment_review"
+  ]
+}

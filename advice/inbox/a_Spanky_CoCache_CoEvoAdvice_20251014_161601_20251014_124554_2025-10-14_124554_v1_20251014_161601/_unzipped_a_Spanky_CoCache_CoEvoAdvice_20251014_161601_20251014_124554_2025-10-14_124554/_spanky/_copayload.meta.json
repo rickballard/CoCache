@@ -1,0 +1,20 @@
+{
+  "type": "AdviceBomb",
+  "name": "CoCache_CoEvoAdvice",
+  "generated_at": "2025-10-14T16:16:01Z",
+  "schema_version": "1.0",
+  "targets": [
+    "CoCache",
+    "CoCacheGlobal",
+    "CoAgent",
+    "CoCore",
+    "CoRef"
+  ],
+  "instructions": [
+    "Read /payload/TLDR.md then /payload/README.md",
+    "Apply L1 advisory mode in target repos",
+    "Enable heartbeats and proposal PRs in CoCache",
+    "Prepare CoCacheGlobal for ballots on interface changes",
+    "Publish CoCivia intent manifest using provided template"
+  ]
+}

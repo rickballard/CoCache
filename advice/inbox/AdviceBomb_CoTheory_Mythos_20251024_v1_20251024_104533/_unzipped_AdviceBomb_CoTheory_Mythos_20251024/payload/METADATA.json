@@ -1,0 +1,8 @@
+{
+  "payload": "AdviceBomb_CoTheory_Mythos_20251024",
+  "target_repos": ["CoCache", "CoCore", "CoTheory", "CoCivium"],
+  "status": "staged",
+  "urgency": "high",
+  "focus": ["mythos layer", "seed crystal", "trust-building abstraction", "emotional cognition", "academic outreach"],
+  "created_by": "CoTheory session 20251024"
+}

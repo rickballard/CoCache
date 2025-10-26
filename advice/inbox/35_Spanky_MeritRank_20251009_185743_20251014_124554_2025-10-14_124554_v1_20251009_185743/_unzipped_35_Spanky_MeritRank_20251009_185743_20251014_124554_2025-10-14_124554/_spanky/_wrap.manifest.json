@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "paths": {
+    "spanky": "_spanky/",
+    "transcripts": "transcripts/",
+    "payload": "payload/",
+    "notes": "notes/",
+    "summaries": "summaries/"
+  }
+}

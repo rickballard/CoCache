@@ -1,0 +1,134 @@
+[
+  {
+    "type": "url",
+    "pointer": "https://github.com/rickballard/CoCache/blob/main/docs/intent/NEXT_SESSION_START_ABS.md",
+    "notes": "ABS baton",
+    "action": "open"
+  },
+  {
+    "type": "url",
+    "pointer": "https://github.com/rickballard/CoCache/blob/main/docs/intent/SESSION_INDEX.md",
+    "notes": "ABS baton",
+    "action": "open"
+  },
+  {
+    "type": "url",
+    "pointer": "https://github.com/rickballard/CoCache/tree/main/docs/intent",
+    "notes": "ABS baton",
+    "action": "open"
+  },
+  {
+    "type": "url",
+    "pointer": "https://raw.githubusercontent.com/rickballard/CoCache/main/site/cosync_feed/top50.json",
+    "notes": "ABS baton",
+    "action": "open"
+  },
+  {
+    "type": "url",
+    "pointer": "https://github.com/rickballard/CoCache/blob/main/docs/intent/COSYNC_GAPS.md",
+    "notes": "ABS baton",
+    "action": "open"
+  },
+  {
+    "type": "url",
+    "pointer": "https://raw.githubusercontent.com/rickballard/CoCache/main/docs/dashboards/cosync_validation.csv",
+    "notes": "ABS baton",
+    "action": "open"
+  },
+  {
+    "type": "url",
+    "pointer": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\tools\\Start-New-Session.ps1",
+    "notes": "ABS baton",
+    "action": "open"
+  },
+  {
+    "type": "url",
+    "pointer": "https://github.com/rickballard/RickPublic/blob/main/HANDOFF.md",
+    "notes": "extra link",
+    "action": "open"
+  },
+  {
+    "type": "url",
+    "pointer": "https://github.com/rickballard/CoCivium/blob/main/games/GamesHandoff_20251025_140204/GamesHandoff.md",
+    "notes": "extra link",
+    "action": "open"
+  },
+  {
+    "type": "url",
+    "pointer": "https://github.com/rickballard/CoCivium/tree/main/games/GamesHandoff_20251025_042342_Recovery/GamesHandoff.md",
+    "notes": "extra link",
+    "action": "open"
+  },
+  {
+    "type": "url",
+    "pointer": "https://github.com/rickballard/CoPolitic/blob/main/docs/CoPrime-POINTERS.md",
+    "notes": "extra link",
+    "action": "open"
+  },
+  {
+    "type": "file",
+    "pointer": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\HANDOVER\\CoWrap_CoAxa_20251025\\CoAxa_AdviceBomb_CoWrap_20251025.zip",
+    "notes": "extra local",
+    "action": "open"
+  },
+  {
+    "type": "file",
+    "pointer": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\staging\\CoTheoryAssets\\CoAxa_20251025_022033\\",
+    "notes": "extra local",
+    "action": "open"
+  },
+  {
+    "type": "missing",
+    "pointer": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\HANDOVER\\CoWrap_CoAxa_20251025\\CoAxa_SessionHandoff.md",
+    "notes": "extra local",
+    "action": "locate"
+  },
+  {
+    "type": "missing",
+    "pointer": "/mnt/data/GamesHandoff_20251025_140204/GamesHandoff.md",
+    "notes": "extra local",
+    "action": "locate"
+  },
+  {
+    "type": "zip",
+    "pointer": "C:\\Users\\Chris\\Downloads\\CoTheoryAB_CoAxa_20251025_ScaffoldFix_20251025_022033.zip",
+    "notes": "zip handover",
+    "action": "review"
+  },
+  {
+    "type": "zip",
+    "pointer": "C:\\Users\\Chris\\Downloads\\CoTheoryAB_CoAxa_20251025_20251025_020840.zip",
+    "notes": "zip handover",
+    "action": "review"
+  },
+  {
+    "type": "zip",
+    "pointer": "C:\\Users\\Chris\\Downloads\\CoTheoryAB_BuilderChecklists_20251025_020335.zip",
+    "notes": "zip handover",
+    "action": "review"
+  },
+  {
+    "type": "zip",
+    "pointer": "C:\\Users\\Chris\\Downloads\\CoTheoryAB_CoNeuraDomains_20251025_015728.zip",
+    "notes": "zip handover",
+    "action": "review"
+  },
+  {
+    "type": "zip",
+    "pointer": "C:\\Users\\Chris\\Downloads\\CoPolitic-prime-handoff-20251024-224212.zip",
+    "notes": "zip handover",
+    "action": "review"
+  },
+  {
+    "type": "zip",
+    "pointer": "C:\\Users\\Chris\\Downloads\\CoTheoryAB_CoAxa_20251025_FlatFix.zip",
+    "notes": "zip handover",
+    "action": "review"
+  },
+  {
+    "type": "zip",
+    "pointer": "C:\\Users\\Chris\\Downloads\\CoTheoryAB_CoAxa_20251025_ScaffoldFix_20251025_022033 (1).zip",
+    "notes": "zip handover",
+    "action": "review"
+  }
+]

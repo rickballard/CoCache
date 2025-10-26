@@ -1,0 +1,4 @@
+- Add Guarded tier and per-repo check maps.
+- Integrate notification bots for first-time contributors.
+- Migrate protections to rulesets where/when available.
+- Consider site-only edit flow for CoCivium once stewards appointed.

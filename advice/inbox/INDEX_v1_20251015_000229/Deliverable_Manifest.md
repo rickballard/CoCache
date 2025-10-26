@@ -1,0 +1,6 @@
+filename: INDEX_v1_20251015_000229.zip
+version: v1
+timestamp: 20251015_000229
+source_session: Backfill
+target_session: CoPrime
+status: ready-for-ingestion

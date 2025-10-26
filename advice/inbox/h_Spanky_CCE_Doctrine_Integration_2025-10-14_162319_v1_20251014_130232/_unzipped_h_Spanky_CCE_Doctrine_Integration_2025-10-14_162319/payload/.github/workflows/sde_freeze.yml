@@ -1,0 +1,10 @@
+name: sde_freeze
+on:
+  workflow_dispatch:
+    inputs:
+      trigger: {description: "simulate SDE trigger", required: true, default: "ids_alert"}
+jobs:
+  freeze:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Quarantine branches, rotate keys, require two-key to thaw"

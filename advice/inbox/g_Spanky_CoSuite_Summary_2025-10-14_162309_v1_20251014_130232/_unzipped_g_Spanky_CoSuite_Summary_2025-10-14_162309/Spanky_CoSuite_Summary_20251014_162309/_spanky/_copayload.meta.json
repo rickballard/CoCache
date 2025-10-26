@@ -1,0 +1,25 @@
+{
+  "name": "CoSuite_AdviceBomb_Summary",
+  "version": "0.3.0",
+  "created_local": "2025-10-14T16:23:09.296851",
+  "structure": {
+    "transcripts": [
+      "session.md"
+    ],
+    "payload": [
+      "COAGENT/*",
+      "COMARKETING/*",
+      "PROMPTS/*",
+      "CHECKLISTS/*"
+    ],
+    "notes": [
+      "BPOE.md",
+      "INTENTIONS.md",
+      "DECISIONS.md",
+      "DEPENDENCIES.md",
+      "RISKS.md",
+      "ASSUMPTIONS.md"
+    ]
+  },
+  "runbook": "See payload/CHECKLISTS/AdviceBomb_Runbook.md"
+}

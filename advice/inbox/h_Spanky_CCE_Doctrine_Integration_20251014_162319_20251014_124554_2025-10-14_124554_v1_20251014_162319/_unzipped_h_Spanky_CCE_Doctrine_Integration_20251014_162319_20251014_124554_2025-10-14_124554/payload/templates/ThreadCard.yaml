@@ -1,0 +1,32 @@
+id: EVO-EXAMPLE-2025-001
+brief: "Status Panel: stoplight + SEC counter"
+state: proposal
+north_star: "NORTH_STAR.md#status-panel"
+congruence:
+  vision: 0.8
+  non_coercion: 0.9
+  transparency: 0.9
+  interop: 0.7
+  reuse: 0.8
+  explainability: 0.8
+  sustainability: 0.7
+weights:
+  vision: 0.18
+  non_coercion: 0.18
+  transparency: 0.14
+  interop: 0.14
+  reuse: 0.12
+  explainability: 0.12
+  sustainability: 0.12
+C: 0.82
+evidence:
+  level: E2
+kpis:
+  - name: Decision latency
+    baseline: 45s
+    target: 20s
+contracts: [StatusPanel:1.2]
+deps: [API:coevo/v1]
+interfaces: [StatusPanel:1.2]
+nudge_budget: {polish:2, tighten:2, refactor:1}
+kill_criteria: ["C < 0.7", "no KPI delta in 2 sprints"]

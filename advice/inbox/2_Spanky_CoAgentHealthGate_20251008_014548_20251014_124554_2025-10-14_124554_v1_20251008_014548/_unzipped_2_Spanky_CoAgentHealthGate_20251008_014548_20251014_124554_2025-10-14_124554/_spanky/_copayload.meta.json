@@ -1,0 +1,19 @@
+{
+  "name": "CoAgent HealthGate + Stallouts Pack",
+  "short_name": "CoAgentHealthGate",
+  "timestamp": "20251008_014548",
+  "counts": {
+    "items": 20,
+    "transcripts": 1,
+    "payload": 7,
+    "notes": 9,
+    "summaries": 3
+  },
+  "session_focus": [
+    "HealthGate",
+    "Stallouts",
+    "Hotkey Storm",
+    "AppKey Neutralize",
+    "BPOE Lessons"
+  ]
+}

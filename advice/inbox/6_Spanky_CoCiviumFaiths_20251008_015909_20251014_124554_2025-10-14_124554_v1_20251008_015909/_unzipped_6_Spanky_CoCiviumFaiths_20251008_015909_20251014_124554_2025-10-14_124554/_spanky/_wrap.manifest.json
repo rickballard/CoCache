@@ -1,0 +1,26 @@
+{
+  "transcripts": [
+    "transcripts/session.md"
+  ],
+  "payload": [
+    "payload/*"
+  ],
+  "notes": [
+    "notes/BPOE.md",
+    "notes/INTENTIONS.md",
+    "notes/DEPENDENCIES.md",
+    "notes/DECISIONS.md",
+    "notes/ASSUMPTIONS.md",
+    "notes/RISKS.md",
+    "notes/GLOSSARY.md",
+    "notes/WEBSITE_MANIFEST.md",
+    "notes/DEPRECATED.md"
+  ],
+  "summaries": [
+    "summaries/TLDR.md",
+    "summaries/ROADMAP_NOTES.md",
+    "summaries/SOURCES.md"
+  ],
+  "status": "_spanky/out.txt",
+  "checksums": "_spanky/checksums.json"
+}

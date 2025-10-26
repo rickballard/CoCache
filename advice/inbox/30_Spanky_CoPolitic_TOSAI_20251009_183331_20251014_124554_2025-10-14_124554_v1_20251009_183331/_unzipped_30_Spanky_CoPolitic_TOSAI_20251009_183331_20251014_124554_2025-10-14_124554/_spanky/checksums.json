@@ -1,0 +1,23 @@
+{
+  "transcripts/session.md": "1b449eeaeabc8093d5b41fa49a6771e185b0c5c0e91bcfddfa1d6779db38174a",
+  "payload/README.txt": "4bd59232917a968db56a2c78be0e87f401f9e31b34f0c702d907de21e12ffdbb",
+  "payload/scripts/logo-audit.ps1": "be256cd64d62c227cd11408409c9fffa9a232e079ac15565fb004b8ee82d04cb",
+  "payload/scripts/prep-logo.ps1": "714ac56d32ee02171da713088ab6f973b10dd787fc13ea247e0a9a31e173be91",
+  "payload/scripts/check-cache.ps1": "90eb7be4118c8b5ebabc325789314d85d6dffaaee2bb87ad6ebb3777a673405f",
+  "payload/scripts/pages-status.ps1": "cdf503991e4a8b44bbd45505d23373b60624502dc00e57d5c7003475cbd7641f",
+  "payload/scripts/apply-logos.ps1": "3aa5d4c8e910458550e10594df171e4fa5d8a8a937df76dccd0b18c1695cdaad",
+  "notes/BPOE.md": "dccd6d16dd37c5da5dbb1580a623c7b99c7ee85557d36c4292634ec1044389de",
+  "notes/INTENTIONS.md": "6119cbfd2d71eb1fbcf9476d1ec666b1ac2ebba84c8aff460a98a6464235f2b4",
+  "notes/DEPENDENCIES.md": "91015214cb79b93728a41560bcdcfa64367ae1b7eb46a8380f9d7ed0da40c0f6",
+  "notes/DECISIONS.md": "bebfdae18f4dc5f350a51922a1a0b98aadd1cd4a6a8a11ebfc2ac6c1d300099c",
+  "notes/ASSUMPTIONS.md": "8f5d9230723c96ac9704a5ae20da12ad994db47e17691fb0b062b05bffbfbe1b",
+  "notes/RISKS.md": "b9d1318a9e32a8183ccaed2e87389349d9e9d8af565a7f60bb4254a51a7c0530",
+  "notes/GLOSSARY.md": "b258d7c04cd93e7a82074ebd3192415b8e01351f32ef4785b9fcd7f5742cce22",
+  "notes/WEBSITE_MANIFEST.md": "873e738fc374bc22b8fee6baedcfdadbca0c7c1aa9b4314bc5d4c8a596e34ec4",
+  "notes/DEPRECATED.md": "58332b3234e6204103dce454bf07847a7ec9297b9d224a1579c49f1176defa99",
+  "summaries/TLDR.md": "d5df8156119f8831cbea30106faf8fac2baf33ef1e27f8407706344b534b1f9a",
+  "summaries/ROADMAP_NOTES.md": "8895bd3fa39289d016b687db6d100ac9a46ed9d827e3950cad7e9a7c2d740632",
+  "summaries/SOURCES.md": "bc36f750d180316d1a767a3c596b86bccff8b32da9cd7f756dd839a5db4b6b3b",
+  "_spanky/_copayload.meta.json": "4895aec83be9f3bc3b45129f086fcf1b720c21d9eb2c01437ae6536ae02a7356",
+  "_spanky/_wrap.manifest.json": "14e55664518c8ef243da4d2dd1f9bc4752ebdf654b43c70ea6a85656be06030a"
+}

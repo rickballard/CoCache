@@ -1,0 +1,18 @@
+{
+  "name": "Spanky_CoCiviumWP_20251009_204122",
+  "version": "2.2",
+  "created_utc": "2025-10-09T20:41:22.460180Z",
+  "session": "Wikipedia drafting + COI workflow",
+  "tags": [
+    "Spanky",
+    "CoWrap",
+    "session",
+    "archive",
+    "BPOE"
+  ],
+  "targets": {
+    "preferred_repo": "rickballard/CoCache",
+    "preferred_path": "CoWraps/STACK"
+  },
+  "priority": "Important"
+}

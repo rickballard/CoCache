@@ -1,0 +1,2 @@
+- Future: Auto-CoWrap trigger on session end
+- Integrate AdviceBomb triggers into CoAgent

@@ -1,0 +1,5 @@
+- index.html: includes TOS-AI explainer block, checklist, CTA link to prefilled issue.
+- docs/defs/TOS-AI.md: authoritative role card; docs/defs/CoCEO.md: deprecation stub.
+- roles/tos-ai.html: role landing; footer link added.
+- coceo.html: client-side meta refresh redirect to TOS-AI doc.
+- assets/img/exemplars/: expected final logos `<slug>.png` 160×160.

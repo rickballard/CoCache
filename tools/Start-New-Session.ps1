@@ -17,3 +17,7 @@ foreach($u in $urls){ Write-Host " - $u" }
 if($Open){
   foreach($u in $urls){ try { Start-Process $u } catch {} }
 }
+
+# CoSync gate
+$CoSync = Join-Path $CoCache 'docs\CoPrime\CoSync.Prime.ps1'; if(Test-Path $CoSync){ & $CoSync } else { Write-Host "WARNING: CoSync.Prime not found at $CoSync" -ForegroundColor Yellow }
+

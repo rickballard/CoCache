@@ -1,0 +1,28 @@
+{
+  "adapters": {
+    "GLEIF": {
+      "refresh": "daily",
+      "max_latency_sec": 900
+    },
+    "OpenCorporates": {
+      "refresh": "daily",
+      "max_latency_sec": 1200
+    },
+    "OpenAlex": {
+      "refresh": "daily",
+      "max_latency_sec": 900
+    },
+    "Crossref": {
+      "refresh": "daily",
+      "max_latency_sec": 900
+    },
+    "EDGAR": {
+      "refresh": "hourly",
+      "max_latency_sec": 600
+    },
+    "WaybackCDX": {
+      "refresh": "on_demand",
+      "max_latency_sec": 30
+    }
+  }
+}

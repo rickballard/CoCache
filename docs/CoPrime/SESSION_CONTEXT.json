@@ -1,0 +1,13 @@
+{
+  "stamp": "2025-10-25T01-04-57",
+  "abs_baton": [
+    "https://github.com/rickballard/CoCache/blob/main/docs/intent/NEXT_SESSION_START_ABS.md",
+    "https://github.com/rickballard/CoCache/blob/main/docs/intent/SESSION_INDEX.md",
+    "https://github.com/rickballard/CoCache/tree/main/docs/intent",
+    "https://raw.githubusercontent.com/rickballard/CoCache/main/site/cosync_feed/top50.json",
+    "https://github.com/rickballard/CoCache/blob/main/docs/intent/COSYNC_GAPS.md",
+    "https://raw.githubusercontent.com/rickballard/CoCache/main/docs/dashboards/cosync_validation.csv",
+    "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\tools\\Start-New-Session.ps1"
+  ],
+  "prompt_packs": "C:\\Users\\Chris\\Documents\\GitHub\\CoCache\\docs\\intent\\SESSION_INDEX.md"
+}

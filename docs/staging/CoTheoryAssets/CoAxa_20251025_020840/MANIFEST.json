@@ -1,0 +1,9 @@
+{
+  "name": "CoAxa Domain Theory Seed",
+  "type": "CoTheory/AdviceBomb",
+  "domain": "CoAxa",
+  "timestamp": "20251025_020840",
+  "repo_target": "CoCache/docs/staging/CoTheoryAssets/CoAxa_20251025_020840",
+  "dependencies": ["CoNeura scaffold", "BuilderChecklists"],
+  "outputs": ["README.md", "CoAxa_Primer.md", "CoAxa_Checklist.md", "CoAxa_Subdomain_Scaffolds/*.md"]
+}

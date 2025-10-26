@@ -1,0 +1,1 @@
+- Broaden mapper; dataset/screenshots; CI matrix; schema checks; docs polish.

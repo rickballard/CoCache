@@ -1,0 +1,3 @@
+## CoEvo EEL Enforcement Kit
+
+This package operationalizes evolution enforcement in CoCivium...

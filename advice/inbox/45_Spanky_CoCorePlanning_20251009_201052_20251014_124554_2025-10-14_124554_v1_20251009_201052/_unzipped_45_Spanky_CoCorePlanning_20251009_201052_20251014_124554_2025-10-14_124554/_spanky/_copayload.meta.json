@@ -1,0 +1,8 @@
+{
+  "kind": "Spanky",
+  "version": "v1",
+  "source_session": "CoCore Planning Handoff",
+  "intended_successor": "Post-Grand-Migration Upsweep/Downsweep Session",
+  "machine_readable": true,
+  "public_safe": true
+}

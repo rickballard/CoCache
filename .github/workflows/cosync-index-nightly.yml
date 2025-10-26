@@ -1,0 +1,23 @@
+name: CoSync Index (nightly)
+on:
+  schedule:
+    - cron: "10 3 * * *"
+  workflow_dispatch:
+permissions: { contents: write }
+jobs:
+  index:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build session index
+        shell: pwsh
+        run: pwsh -NoLogo -NoProfile -File "tools/CoSync-Backfill-SessionIndex.ps1"
+      - name: Commit index
+        shell: pwsh
+        run: |
+          git config user.name  "cosync-bot"
+          git config user.email "cosync-bot@users.noreply.github.com"
+          git add docs/intent/SESSION_INDEX.md
+          if (git diff --cached --quiet) { exit 0 }
+          git commit -m "cosync(index): nightly session index refresh"
+          git push

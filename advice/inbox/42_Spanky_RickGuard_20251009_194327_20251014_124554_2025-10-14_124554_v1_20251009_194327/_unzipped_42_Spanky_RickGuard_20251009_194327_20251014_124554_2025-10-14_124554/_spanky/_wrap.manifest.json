@@ -1,0 +1,25 @@
+{
+  "root": "_spanky_build",
+  "files": [
+    "_spanky/_copayload.meta.json",
+    "notes/ASSUMPTIONS.md",
+    "notes/BPOE.md",
+    "notes/DECISIONS.md",
+    "notes/DEPENDENCIES.md",
+    "notes/DEPRECATED.md",
+    "notes/GLOSSARY.md",
+    "notes/INTENTIONS.md",
+    "notes/RISKS.md",
+    "notes/WEBSITE_MANIFEST.md",
+    "payload/CODEOWNERS",
+    "payload/ChromeExtensions_20251008_195356.md",
+    "payload/ISSUE_TEMPLATE/launch.md",
+    "payload/MISSING_PS7OutputLatest.odt.txt",
+    "payload/PULL_REQUEST_TEMPLATE.md",
+    "payload/RickGuard.ps1",
+    "summaries/ROADMAP_NOTES.md",
+    "summaries/SOURCES.md",
+    "summaries/TLDR.md",
+    "transcripts/session.md"
+  ]
+}
