@@ -1,0 +1,20 @@
+name: BPOE Log Append-Only
+on: [pull_request]
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - name: Enforce append-only for docs/bpoe/BPOE_LOG.md
+        shell: bash
+        run: |
+          set -e
+          file="docs/bpoe/BPOE_LOG.md"
+          if git diff --name-only origin/${{ github.base_ref }}... | grep -qx "$file"; then
+            # Fail if any deletion/modification appears (allow only added lines)
+            if git diff --unified=0 origin/${{ github.base_ref }}... -- "$file" | grep -E '^\-|^@@' | grep -v '^---' ; then
+              echo "::error file=$file::BPOE_LOG.md must be append-only (only added lines allowed)."
+              exit 1
+            fi
+          fi
