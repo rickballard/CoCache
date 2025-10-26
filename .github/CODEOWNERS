@@ -1,1 +1,6 @@
-* @rickballard
+# Require review on core ops areas
+advice/inbox/*                                @rickballard
+tools/*                                       @rickballard
+.github/workflows/*                           @rickballard
+docs/systemization/*                          @rickballard
+docs/bpoe/*                                   @rickballard
