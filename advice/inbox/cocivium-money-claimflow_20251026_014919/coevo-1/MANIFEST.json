@@ -1,0 +1,33 @@
+{
+  "created": "2025-10-26T01:49:19.408349Z",
+  "entries": [
+    {
+      "path": "README.md",
+      "sha256": "89cfe79411f1caa9d28f5571235a339332d071b286fed26a5eb77170adb20d0f"
+    },
+    {
+      "path": "monograph/main.tex",
+      "sha256": "2a05e8b0cf37650c40ca4bbce01fa92e73401739df2ffdc6136a63274d5b8f7c"
+    },
+    {
+      "path": "monograph/chapters/00_abstract.tex",
+      "sha256": "b2d80b5188b372a771919671ece69d1f0a4a9cd76250aa5eba8ca1f10f54eb52"
+    },
+    {
+      "path": "apis/openapi.yaml",
+      "sha256": "78bff67ca48b119e62d6ca86e9312e9277bbe38cf3d05968906c18343bb6fe48"
+    },
+    {
+      "path": "schemas/ress.schema.json",
+      "sha256": "e92910cccb72e74902d1855bd8119a105cb8deefba95425faee76fc145790bf6"
+    },
+    {
+      "path": "runbooks/incident_response.md",
+      "sha256": "68798317069392c1d2c2937e7fa8beec7ca486c776e0eb99de35d83341b0f3e6"
+    },
+    {
+      "path": "adrs/ADR_no_par_ious.md",
+      "sha256": "1401a0ba4059db90b2577cc18d3ea4aa55ddce016f439ab58533dd3d8c625b56"
+    }
+  ]
+}
