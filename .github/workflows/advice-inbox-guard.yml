@@ -61,3 +61,28 @@ jobs:
               echo "::error file=$f::Missing notes/CHANGELOG.md"; exit 1
             fi
           done
+      - name: Enforce INBOX_MANIFEST for coevo-only slugs + INBOX_LOG row for new ZIPs
+        shell: bash
+        run: |
+          set -e
+          changed=$(git diff --name-only HEAD~1 HEAD || true)
+
+          # Require INBOX_LOG row containing each new ZIP filename
+          for z in $(echo "$changed" | grep '^advice/inbox/.*\.zip$' || true); do
+            base=$(basename "$z")
+            if ! grep -q "$base" advice/INBOX_LOG.md; then
+              echo "::error file=advice/INBOX_LOG.md::Missing log row for $base in same commit"; exit 1
+            fi
+          done
+
+          # If a slug dir contains only coevo-*/ and no INBOX_MANIFEST.json → fail
+          for d in $(echo "$changed" | grep '^advice/inbox/[^/]\+/' | cut -d/ -f1-3 | sort -u || true); do
+            # slug directories look like advice/inbox/<slug>_YYYYMMDD_HHMMSS
+            if [ -d "$d" ]; then
+              has_coevo=0
+              for n in 1 2 3; do [ -d "$d/coevo-$n" ] && has_coevo=1; done
+              if [ "$has_coevo" = "1" ] && [ ! -f "$d/INBOX_MANIFEST.json" ]; then
+                echo "::error file=$d::coevo-only bundle missing INBOX_MANIFEST.json"; exit 1
+              fi
+            fi
+          done
