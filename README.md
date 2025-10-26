@@ -99,17 +99,10 @@ Asset | Uses | Last
 - Last change to FTW/: 2025-10-22T17:46:00-04:00 (31fa822)
 <!-- END: FTW_STATUS -->
 
+## Ops entry (CoPrime/CoSync)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+- CoPrime Plan: docs/systemization/PLAN_coprime_governance.md
+- Handoff notes: docs/intent/advice/notes/YYYYMMDD/SESSION_HANDOFF_<UTCSTAMP>.md
+- CoSync notes:  docs/intent/advice/notes/
+- Advice Inbox:  advice/inbox/README.md
+- CI Guard:      .github/workflows/advice-inbox-guard.yml
