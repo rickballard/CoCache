@@ -26,3 +26,4 @@
 - Prompt + runbook (Markdown), example inputs/outputs, and a short “how‑we‑did‑it” note.
 - Before/after time logs and a 1‑page readout.
 - Everything licensed permissively; artifacts remain with Grant Thornton.
+

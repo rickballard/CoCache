@@ -5,3 +5,4 @@
 - No silent failures: $ErrorActionPreference='Stop', Set-StrictMode -Version Latest.
 - Visible automation & logs for auditability.
 
+

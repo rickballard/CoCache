@@ -4,3 +4,4 @@
 - MORP prevents option-killing; bandit allocates attention fairly.
 - SDE lane can freeze and roll back instantly; tamper-evident logs.
 - Meta‑CCE self‑tunes within bounds via shadow trials.
+

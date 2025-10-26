@@ -47,3 +47,4 @@ for($i=0;$i -lt $lines.Count;$i++){
 
 $new | Set-Content -Encoding UTF8 $IndexPath
 Write-Host "✅ Injected status badges into METRICS_INDEX.md"
+

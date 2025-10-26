@@ -24,3 +24,4 @@ if (-not $runs) { throw "No runs found for $slug on $Branch" }
 $run = $runs[0]
 Write-Host ("Watching: {0} · #{1} · {2} · {3}" -f ($run.workflowName ?? $run.displayTitle), $run.databaseId, $run.status, $run.url)
 Write-Host ("Run {0} ({1}) has already completed with '{2}'" -f ($run.workflowName ?? $run.displayTitle), $run.databaseId, $run.conclusion)
+

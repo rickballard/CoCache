@@ -15,3 +15,4 @@
 - Decisions stick because links are visible
 
 > From meeting to meaning.
+

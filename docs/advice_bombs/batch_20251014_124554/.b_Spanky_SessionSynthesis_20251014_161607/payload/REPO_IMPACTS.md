@@ -19,3 +19,4 @@
 ## CoCivium™
 - **Role:** governance + public‑facing articulation.
 - **Action:** publish transparency charter and AI partnership declaration (draft here).
+

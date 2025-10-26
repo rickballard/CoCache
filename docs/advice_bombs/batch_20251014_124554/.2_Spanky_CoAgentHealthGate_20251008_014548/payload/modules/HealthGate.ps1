@@ -125,3 +125,4 @@ $md -join $nl | Set-Content $mdPath -Encoding UTF8
 $report | ConvertTo-Json -Depth 6 | Set-Content $jsPath -Encoding UTF8
 
 if ($Json) { $report | ConvertTo-Json -Depth 6 } else { Write-Host "Report written:`n$mdPath`n$jsPath"; if ($report.Verdict -ne 'PASS') { exit 2 } }
+

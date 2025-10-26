@@ -9,3 +9,4 @@ jobs:
         run: |
           test -f standards_map.yaml || (echo "missing standards_map.yaml" && exit 1)
           echo "OK"
+

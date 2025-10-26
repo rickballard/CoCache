@@ -5,3 +5,4 @@
 - COI: disclose & score (negative weights for conflicts).
 - Right to reply: issues/PRs accepted; corrections within 14 days.
 - No pay-to-play; disclose funding & ties in `conflicts_risks`.
+

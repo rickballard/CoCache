@@ -30,3 +30,4 @@ $AppDir = Join-Path $Tmp 'app'
 Expand-Archive (Join-Path $Tmp $Zip) -DestinationPath $AppDir -Force
 $Launcher = Join-Path $AppDir 'scripttagger.cmd'
 Unblock-File $Launcher; & $Launcher
+

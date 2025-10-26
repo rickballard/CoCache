@@ -6,3 +6,4 @@
 
 **Streams:** playful badges, serious RepTags, pet avatars (system-issued), contribution streaks, congruence sparks.  
 **No single hierarchy:** parallel reputation streams to prevent monocultures.
+

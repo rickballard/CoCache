@@ -5,3 +5,4 @@
 - `/docs/scripttagger/demo.html` — interactive demo
 - `/sw.js` — PWA service worker
 - `/downloads/scripttagger.html` — apology/early-access + now download buttons
+

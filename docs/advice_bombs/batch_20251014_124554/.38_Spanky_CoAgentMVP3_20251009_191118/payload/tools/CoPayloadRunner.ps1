@@ -92,3 +92,4 @@ Register-ObjectEvent -InputObject $fsw -EventName Created -SourceIdentifier "Zip
 } | Out-Null
 
 while ($true) { Start-Sleep 1 }
+

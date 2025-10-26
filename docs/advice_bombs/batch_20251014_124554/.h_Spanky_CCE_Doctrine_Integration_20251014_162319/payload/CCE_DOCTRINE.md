@@ -31,3 +31,4 @@ Interfaces/prompts/datasets are contracts with tests. Any failing contract force
 
 ## PRs as Decisions
 PR template records: intent, state, C before/after, lens deltas, Evidence level, PE, DR split, Trust‑radius Δ, Kill criteria, Rollback ID.
+

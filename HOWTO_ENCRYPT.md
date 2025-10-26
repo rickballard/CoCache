@@ -8,3 +8,4 @@ age -R .secure\agekey.pub -o .secure/HP_plan.md.age HP_plan.md
 
 # Decrypt (local only):
 age -d -i $HOME\.age\id.txt -o HP_plan.md .secure/HP_plan.md.age
+

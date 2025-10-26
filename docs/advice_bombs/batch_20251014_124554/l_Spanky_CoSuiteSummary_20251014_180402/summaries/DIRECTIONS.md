@@ -5,3 +5,4 @@
 4) Make uncertainty explicit (evidence ≠ measurement ≠ effect).
 5) Limit WIP, prefer throughput; kill staleness with watchdogs.
 6) Instrument from day one: minimal dashboards (effect, CI, rights, equity spread, stability, tempo).
+

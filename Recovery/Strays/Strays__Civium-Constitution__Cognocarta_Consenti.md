@@ -61,3 +61,4 @@ No domain is supreme; each is scoped by its coherence.
 
 > Civium’s structure is fractal, not feudal.  
 > Its architecture emerges from patterns of consent, not chains of command.
+

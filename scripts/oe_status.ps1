@@ -67,3 +67,4 @@ $one = "OE Status: Efficiency~{0}% SessionBloat~{1}% ErrorCount~{2} FilesAccesse
 $one | Set-Content -Encoding UTF8 (Join-Path $indexDir 'OE_STATUS.md')
 
 Write-Host $one
+

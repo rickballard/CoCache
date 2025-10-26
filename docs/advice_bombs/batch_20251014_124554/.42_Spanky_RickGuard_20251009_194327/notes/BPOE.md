@@ -8,3 +8,4 @@
   ```
 - Enable `git rerere` to remember conflict resolutions.
 - Keep repos **public** during seeding to allow tooling (PS7, site parsers, CoAgents) to read and scaffold.
+

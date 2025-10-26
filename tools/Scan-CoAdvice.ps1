@@ -41,3 +41,4 @@ New-Item -ItemType Directory -Force -Path (Split-Path $Out) | Out-Null
 $recs | ConvertTo-Json -Depth 6 | Set-Content -Encoding utf8 $Out
 Write-Host "Wrote candidate report: $Out" -ForegroundColor Cyan
 Write-Host ("Counts by level: " + (($recs | Group-Object level | % { "{0}:{1}" -f $_.Name,$_.Count }) -join ", "))
+

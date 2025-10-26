@@ -7,3 +7,4 @@
 - Package DO blocks as versioned zips runnable from Downloads. (Done - DoKit + examples)
 - Ensure GitHub Pages serves `cocivium.org` with HTTPS enforced. (Unfinished: cert pending)
 - Merge PR #417 to main after checks. (Unfinished)
+

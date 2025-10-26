@@ -4,3 +4,4 @@
 - **Store compliance**: microphone/background behavior, overlay/foreground requirements.
 - **Misidentification**: cautious confidence scores; do not publish until independently supported.
 - **Abuse/brigading**: rate limits, independence checks, and weight caps per identity.
+

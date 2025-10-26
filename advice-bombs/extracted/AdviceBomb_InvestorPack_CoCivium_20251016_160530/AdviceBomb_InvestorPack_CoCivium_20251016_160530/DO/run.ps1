@@ -59,3 +59,4 @@ Weekly ritual: review KPIs, refresh 2‑pager, update data room links, publish m
 "@ | Set-Content (Join-Path $TargetRoot "WORKING_INDEX.md")
 
 Write-Host "Done. Open $TargetRoot in your editor."
+

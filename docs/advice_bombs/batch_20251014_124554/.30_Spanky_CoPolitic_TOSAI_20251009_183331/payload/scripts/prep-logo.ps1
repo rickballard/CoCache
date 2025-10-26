@@ -21,3 +21,4 @@ if ($hasMagick) {
   $bmp.Save($Out,[Drawing.Imaging.ImageFormat]::Png);$bmp.Dispose()
 }
 Write-Host "Wrote $Out"
+

@@ -1,0 +1,16 @@
+name: Legacy Paths Guard
+on: [pull_request]
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Block legacy tool paths
+        shell: bash
+        run: |
+          set -e
+          CHANGED=$(git diff --name-only origin/main...HEAD || true)
+          if echo "$CHANGED" | grep -E '^tools/(Unpack|Scan|Backfill|New-InboxManifest)\.ps1$|^\.github/workflows/advice-inbox-guard\.yml$' ; then
+            echo "::error ::Legacy tool path changed; use tools/cosuite/1.0/* instead."
+            exit 1
+          fi

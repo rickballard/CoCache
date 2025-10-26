@@ -30,3 +30,4 @@ deps: [API:coevo/v1]
 interfaces: [StatusPanel:1.2]
 nudge_budget: {polish:2, tighten:2, refactor:1}
 kill_criteria: ["C < 0.7", "no KPI delta in 2 sprints"]
+

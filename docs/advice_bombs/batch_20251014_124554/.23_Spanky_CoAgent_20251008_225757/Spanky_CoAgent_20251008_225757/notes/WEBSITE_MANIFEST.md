@@ -3,3 +3,4 @@
 - Promise: Free forever for individual CoCivites.
 - Tagline paragraph (tri-forcated audiences).
 - Roadmap with in-progress placeholders and rabbit-hole links.
+

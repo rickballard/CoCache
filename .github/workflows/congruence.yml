@@ -18,3 +18,4 @@ jobs:
         patterns/**/congruence.json
       write: false
       strict: false
+

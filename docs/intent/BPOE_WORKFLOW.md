@@ -18,3 +18,4 @@ _Last updated: 2025-10-25T14:17:21_
 - Avoid inline `V("text {0}" -f $x)` → prefer `$t="..."; V $t`
 - Never leave half-lines like `C:\...\advice.index.json = Join-Path (...`
 - Close here-strings cleanly
+

@@ -5,3 +5,4 @@ $logDir=Join-Path $RepoRoot "status\log"; New-Item -ItemType Directory -Force -P
 $log=Join-Path $logDir ((Get-Date -Format "yyyyMMdd") + ".jsonl")
 ($obj | ConvertTo-Json -Depth 6) | Add-Content -LiteralPath $log -Encoding UTF8
 "use logged: {0} ← {1} ({2})" -f $Asset,$Consumer,$Purpose
+

@@ -6,3 +6,4 @@ if(-not $recent){
   Write-Host "[BPOE] No recent dots durations found (last 2h). Consider using Run-WithDotsEx." -ForegroundColor Yellow
 }
 exit 0
+

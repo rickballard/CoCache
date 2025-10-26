@@ -89,3 +89,4 @@ They added **CoAgent**—the **AI Trust Container**. Volunteers still pick which
 
 ## 14) Enterprise appendix (one paragraph)
 CoAgent is a **vendor-neutral AI governance container** that centralizes policy, generates **evidence-grade receipts**, and keeps guardrails **portable across supported models and providers**—so teams can **switch models without losing oversight** while maintaining privacy via **data repatriation**.
+

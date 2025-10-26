@@ -24,3 +24,4 @@ jobs:
             if ([string]::IsNullOrWhiteSpace($strm) -or $strm -match '^(?i)TBD$')  { Write-Error "Stream TBD: $($f.FullName)"; $errs++ }
           }
           if ($errs -gt 0) { throw "Triage guard failed: $errs issue(s)." }
+

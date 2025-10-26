@@ -16,3 +16,4 @@ jobs:
         run: |
           $bad = git ls-files | Where-Object { $_ -match '\.(zip|pdf|md)$' -and $_ -notmatch '_(\d{4}-\d{2}-\d{2}_\d{6})' }
           if($bad){ "Unstamped assets:"; $bad; exit 1 }
+

@@ -18,3 +18,4 @@ $handlers=@(
 )
 Write-Host "Advice watcher running. Drop files into: $Inbox"
 while($true){ Start-Sleep -Seconds 60 }
+

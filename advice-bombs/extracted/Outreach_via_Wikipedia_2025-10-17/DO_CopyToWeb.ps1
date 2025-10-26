@@ -16,3 +16,4 @@ Copy-Item (Join-Path $pressKit "about.html") (Join-Path $WebRoot "about\index.ht
 Copy-Item (Join-Path $pressKit "press.html") (Join-Path $WebRoot "press\index.html") -Force
 
 Write-Host "Staged /about and /press. Review and publish."
+

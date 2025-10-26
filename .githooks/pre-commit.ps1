@@ -7,3 +7,4 @@ if(-not $optin -and ($staged | Where-Object { $_ -like "status/*" -or $_ -eq "RE
   exit 1
 }
 exit 0
+

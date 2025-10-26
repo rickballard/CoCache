@@ -26,3 +26,4 @@ Hi {{Name}},
 We’re aligning CoAgent to enterprise compliance pressures. Looking to co‑design pilots where auditability matters. Minimal integration; clear success criteria. Brief deck attached—open to a technical deep‑dive.
 
 — Rick
+

@@ -1,3 +1,4 @@
 - Missing/incorrect logos can undermine credibility — mitigated via fallback badge + normalization scripts.
 - Edge cache giving stale assets — mitigated via nocache header checks and hard refresh.
 - Protected branches on sibling repos — use PRs where required.
+

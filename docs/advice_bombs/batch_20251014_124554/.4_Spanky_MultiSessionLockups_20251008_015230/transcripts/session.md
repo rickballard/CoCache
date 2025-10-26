@@ -12,3 +12,4 @@ Full raw transcript not available to tool. This file summarizes the current user
 - Hypothesis from assistant: session bloat and browser/client constraints are major contributors; repo-as-truth, short-lived sessions preferred.
 - Action requested: produce Spanky zip now, following the attached pack's rules.
 
+

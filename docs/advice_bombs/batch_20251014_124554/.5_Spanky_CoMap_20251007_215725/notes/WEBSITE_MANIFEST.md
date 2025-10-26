@@ -5,3 +5,4 @@ If integrating with CoCivium™.org later, ensure:
 - Landing page hero CTA (“Map your world”).
 - Embedded widget demo with **CoMap**.
 - Docs links to methodology and sources.
+

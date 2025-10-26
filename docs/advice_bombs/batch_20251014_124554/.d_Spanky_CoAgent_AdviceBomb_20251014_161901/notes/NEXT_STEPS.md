@@ -9,3 +9,4 @@
 2. Add policy stubs (TTL/LRU/pin; creator comfort TTL; safety preflight rules).
 3. Prepare golden-set retrieval QA and a tiny chaos drill (no-web, cold index).
 4. Publish success metrics to the dash and set alert thresholds.
+

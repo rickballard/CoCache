@@ -3,3 +3,4 @@
 - Generate machine-readable repo graph + human keystone index.
 - Seed CoCore minimally; then iterate with demonstrator case studies.
 - Introduce CoIntent protocol + reversible PR flows.
+

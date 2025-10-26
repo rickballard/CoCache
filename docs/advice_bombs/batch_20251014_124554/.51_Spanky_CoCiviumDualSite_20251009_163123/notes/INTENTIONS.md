@@ -5,3 +5,4 @@
 - Trend‑aware SEO via media ingestion.
 - (Unfinished) Define JSON-LD vocab + civic schemas.
 - (Unfinished) Ship CI templates for dual deploy.
+

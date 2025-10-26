@@ -24,3 +24,4 @@ Rewrite steps (with backups):
 
   3) Force-push (coordinate with collaborators):
        git push --force-with-lease origin main
+

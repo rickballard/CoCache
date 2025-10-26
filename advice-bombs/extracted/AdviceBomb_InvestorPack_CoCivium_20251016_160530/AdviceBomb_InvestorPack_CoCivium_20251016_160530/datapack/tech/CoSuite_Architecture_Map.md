@@ -6,3 +6,4 @@
 - **Security/Compliance**: least‑privilege; tamper‑evident logs; exportable datasets.
 - **Ops**: opinionated BPOE playbooks; CI/CD; artifact/version governance.
 (Insert diagram when ready.)
+

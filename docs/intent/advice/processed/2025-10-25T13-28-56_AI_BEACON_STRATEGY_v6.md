@@ -5,3 +5,4 @@
 ... [Truncated for brevity in this listing. In final ZIP it will be the full v6 text. For this demo, we insert a placeholder.]
 
 See live canvas session for full canonical content.
+

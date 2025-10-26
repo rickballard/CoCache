@@ -1,4 +1,4 @@
-﻿# 💣 AdviceBomb — [2025-09-15] — Thread Integration and Repo Wisdom Flow
+# 💣 AdviceBomb — [2025-09-15] — Thread Integration and Repo Wisdom Flow
 
 ## 🧠 Key Insight
 To preserve session wisdom and ensure it flows into durable infrastructure, plant AdviceBombs in CoCache, not individual repos.
@@ -28,3 +28,4 @@ This insight applies broadly:
 
 > Written during session: **co-migrate**, 2025-09-15  
 > Auth: 🧠 Rick + 🤖 CoCivAI
+

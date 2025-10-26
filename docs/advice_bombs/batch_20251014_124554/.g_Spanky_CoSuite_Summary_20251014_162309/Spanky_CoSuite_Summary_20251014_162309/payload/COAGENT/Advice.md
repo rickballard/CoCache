@@ -7,3 +7,4 @@
 
 **Anti‑capture posture:**  
 - Public spec; test fixtures; export logs in vendor‑neutral schemas; forbid opaque “explainability” that cannot be verified.
+

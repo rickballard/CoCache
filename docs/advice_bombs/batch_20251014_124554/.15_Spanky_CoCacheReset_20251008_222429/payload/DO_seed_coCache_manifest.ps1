@@ -153,3 +153,4 @@ Store under `CoCache/GrandReset/intake/session_intake.md`
 - Await CoAgent MVP+ onboarding & session recall.
 - Relaunch this session **inside CoAgent** and proceed with Phase 1 intake.
 '@ | Set-Content -Path $manifestPath -Encoding UTF8
+

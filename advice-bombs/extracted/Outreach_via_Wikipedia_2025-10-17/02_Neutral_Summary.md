@@ -7,3 +7,4 @@ CoCivium is suitable for pilots in nonprofits, open‑source projects, online co
 Project site: https://cocivium.org/  
 Source code and issues: https://github.com/rickballard/CoCivium  
 Press contact: press@cocivium.org (or rballard@inseed.com)
+

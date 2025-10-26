@@ -12,3 +12,4 @@ Artifacts:
 - `status/notices/*` — freezes / coordination notices.
 - `status/governance/coprime_roster.json` — who is CoPrime over what, and until when.
 - `docs/intent/manifest.json` — registered Reflex packages (asset+version).
+

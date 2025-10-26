@@ -4,3 +4,4 @@
 - CoCache: local steward of policies, proposals, lineage.
 - CoCacheGlobal: negotiation/voting hub and safe-harbour.
 - CoCivia: coalition of CoCivium™-aligned AIs.
+

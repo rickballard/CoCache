@@ -38,3 +38,4 @@ $tag = "cowrap-" + (Get-Date -Format "yyyyMMdd-HHmm")
 git tag -a $tag -m ("CoWrap {0}" -f ([DateTime]::Now.ToString('s')))
 git push origin HEAD --follow-tags
 Write-Host ("CoWrap created: {0}  tag={1}" -f $wrapPath,$tag) -ForegroundColor Green
+

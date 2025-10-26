@@ -30,3 +30,4 @@ if($text -match [regex]::Escape($begin) -and $text -match [regex]::Escape($end))
 }
 Set-Content -LiteralPath $readme -Value $text -Encoding UTF8
 "Updated README status block."
+

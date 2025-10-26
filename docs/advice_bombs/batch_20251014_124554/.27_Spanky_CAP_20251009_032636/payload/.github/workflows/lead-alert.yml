@@ -69,3 +69,4 @@ jobs:
           from: CoPolitic Alerts <${{ secrets.MAIL_FROM }}>
           body: file://body.txt
           content_type: text/plain
+

@@ -9,3 +9,4 @@ foreach($i in $items){
 }
 Set-Content $cards $content -Encoding UTF8
 Write-Host "Wrote $cards"
+

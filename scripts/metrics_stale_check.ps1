@@ -27,3 +27,4 @@ $lines=@("# Stale Trackers (>$Days days old)", "", "_Generated: $(Get-Date -Form
 if($stale.Count){ foreach($s in $stale){ $lines += "- **$($s.id)** — $($s.reason) (last: $($s.lastTs))" } } else { $lines += "_None._" }
 $lines -join "`r`n" | Set-Content -Encoding UTF8 $pathMd
 Write-Host "✅ Stale check -> $pathJson; docs/STALE_TRACKERS.md"
+

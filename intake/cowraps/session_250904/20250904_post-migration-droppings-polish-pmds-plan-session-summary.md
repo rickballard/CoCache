@@ -184,3 +184,4 @@ git status -sb
 - Every IdeaCard lists its chat provenance.  
 - Use `RESTRUCTURE-MAP.md` to plan moves before doing them, then record the commit hash under **Applied**.
 
+

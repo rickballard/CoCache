@@ -18,3 +18,4 @@ Set-Content $Page $html -NoNewline
 Write-Host "Patched $Page"
 Write-Host "Next: commit & push CoPolitic, e.g.:"
 Write-Host "  cd `"$CoPolitic`"; git add docs/thinkers/index.html; git commit -m `"feat(thinkers): fetch from CoCore CDN + link card titles`"; git push"
+

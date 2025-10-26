@@ -9,3 +9,4 @@
   - Primary: **Your governance. BYO-AI.**
   - Secondary: **AI Trust Container**
 - **Badge idea:** “Evidence-grade” seal used next to exports/logs.
+

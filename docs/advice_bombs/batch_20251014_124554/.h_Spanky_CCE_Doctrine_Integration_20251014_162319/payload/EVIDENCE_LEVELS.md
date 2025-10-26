@@ -7,3 +7,4 @@
 - E4: live canary + auto rollback; signed provenance (SLSA/in‑toto + cosign).
 
 Promotion rules: Plan/Initiative require E3+, Extraordinary Evolution requires E4.
+

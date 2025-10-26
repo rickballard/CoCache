@@ -73,3 +73,4 @@ Before packaging, re-read from the start and include:
   "status": "_spanky/out.txt",
   "checksums": "_spanky/checksums.json"
 }
+

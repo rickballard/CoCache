@@ -20,3 +20,4 @@ $rows = foreach($g in $byAsset){
 $obj=[pscustomobject]@{ generatedUtc=(Get-Date).ToUniversalTime().ToString("o"); windowDays=$Days; items=$rows }
 $out="status\use-summary.json"; $obj | ConvertTo-Json -Depth 6 | Set-Content -LiteralPath $out -Encoding UTF8
 "Wrote: {0}" -f $out
+

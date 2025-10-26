@@ -42,3 +42,4 @@ date: 2025-10-05
 
 ## Appendix — glossary
 - Term: TODO — definition
+

@@ -8,3 +8,4 @@ Weights (range):
 - recency: -2..+2
 
 Compute: sum → normalize to 0..10. Always store full breakdown next to total.
+

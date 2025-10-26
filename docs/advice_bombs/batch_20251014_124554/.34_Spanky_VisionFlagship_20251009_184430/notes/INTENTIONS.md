@@ -10,3 +10,4 @@
 - Add Concept Node JSON appendix elaboration + examples.
 - Add figure callouts overlay for hero image (labels A–F).
 - Draft sponsor one-pager variant and educator kit.
+

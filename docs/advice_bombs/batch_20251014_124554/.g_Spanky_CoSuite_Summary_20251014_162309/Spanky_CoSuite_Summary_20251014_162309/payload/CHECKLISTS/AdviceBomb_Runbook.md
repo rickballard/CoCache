@@ -6,3 +6,4 @@
 4) Run the **pre‑send verifier** and secrets scan.
 5) Send email (bounded ask). Log in CRM. Schedule follow‑ups.
 6) After critique: capture feedback; open issues; iterate.
+

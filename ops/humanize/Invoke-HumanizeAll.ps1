@@ -20,3 +20,4 @@ docs/**/* linguist-documentation=true
   git push origin HEAD 2>$null
 }
 Write-Host "==> DONE: Humanize-All sweep" -ForegroundColor Green
+

@@ -18,3 +18,4 @@
 5) **Heavy Session UX & Heartbeat:**
    - Watchdog heartbeats; visible progress.
    - If stall: safe refresh guidance or minimal prompt nudge; recover buffers.
+

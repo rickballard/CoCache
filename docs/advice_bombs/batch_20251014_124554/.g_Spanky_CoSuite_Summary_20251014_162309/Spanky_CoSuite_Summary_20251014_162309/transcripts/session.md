@@ -19,3 +19,4 @@ This document condenses recent threads across CoAgent, CoCache, CoMarketing/Outr
 ## Implementation Notes (for ingesting sessions)
 - Treat this pack as **source of truth** for outreach cadence, guardrails metrics, and Capstone copy blocks.
 - Other sessions should copy the checklists and prompts verbatim, then fill in artifact specifics (log lines, SDK tables).
+

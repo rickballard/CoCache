@@ -48,3 +48,4 @@ function Test-BpoeArtifactName {
   & $ExecutionContext.InvokeCommand.GetCommand('Test-BpoeArtifactName','Function') @PSBoundParameters
 }
 # --- /ADVICE_BOMBS_SKIP ---
+

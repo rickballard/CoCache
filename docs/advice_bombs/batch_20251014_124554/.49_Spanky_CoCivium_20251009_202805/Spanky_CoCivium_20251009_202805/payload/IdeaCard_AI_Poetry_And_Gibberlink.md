@@ -24,3 +24,4 @@ A proposal suggested restricting AI from producing poetic captions/callouts unti
 - Lays groundwork for eventual co-authorship as trust and tooling mature.
 
 **Status:** Archived for historical insight.
+

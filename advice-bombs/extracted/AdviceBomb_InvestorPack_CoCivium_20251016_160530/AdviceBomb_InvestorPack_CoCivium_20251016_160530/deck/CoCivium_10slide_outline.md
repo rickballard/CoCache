@@ -33,3 +33,4 @@
 
 10) **Risks & Mitigations**
    - Regulatory, adoption, capture, funding concentration; your mitigations.
+

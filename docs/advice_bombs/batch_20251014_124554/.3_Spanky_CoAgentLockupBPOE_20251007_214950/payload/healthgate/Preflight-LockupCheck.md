@@ -9,3 +9,4 @@ Run before initializing CoAgent orchestration.
 
 ## Action
 - If any check fails, block start and present targeted remediation.
+

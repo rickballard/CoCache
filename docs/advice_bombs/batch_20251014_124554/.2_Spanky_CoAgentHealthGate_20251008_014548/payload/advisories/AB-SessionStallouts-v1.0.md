@@ -21,3 +21,4 @@
 - **Log** stall metadata (payload size, step, time) to run summary.
 - **Offer fallback modes**: summarize-first, chunked generation, or low-verbosity render.
 - Keep HealthGate/local checks **out of** streamed model responses.
+

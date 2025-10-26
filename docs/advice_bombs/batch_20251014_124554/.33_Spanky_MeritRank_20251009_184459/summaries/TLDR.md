@@ -1,1 +1,2 @@
 Workflow fixed: PRs run `badge` only; `deploy` runs on main. Branch protection requires `badge`. README duplicate H1 removed (PR #37). Use `gh workflow run` with `--ref` and watch with `gh run watch`.
+

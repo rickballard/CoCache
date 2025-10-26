@@ -6,3 +6,4 @@ $cacheRun = Join-Path $CacheRepo 'ExemplarCanon\runs'
 foreach($d in @($exRoot,$cacheRun)){ if($WhatIf){ Write-Host "[WhatIf] mkdir $d"} else { New-Item -ItemType Directory -Force -Path $d | Out-Null } }
 Copy-Item -Path "$PSScriptRoot\..\payload\EXEMPLAR_TEMPLATE.md" -Destination (Join-Path $exRoot 'EXEMPLAR_TEMPLATE.md') -Force
 Copy-Item -Path "$PSScriptRoot\..\payload\exemplar.schema.json" -Destination (Join-Path $exRoot 'exemplar.schema.json') -Force
+

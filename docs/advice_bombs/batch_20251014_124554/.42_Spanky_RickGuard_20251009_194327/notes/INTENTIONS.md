@@ -11,3 +11,4 @@
 - [ ] Expand Guarded middle-tier for staging repos (define checks).
 - [ ] Decide which additional repos join the Critical set at launch time.
 - [ ] Formalize notification hooks (e.g., actions that post to chat/email on first-time contributors).
+
