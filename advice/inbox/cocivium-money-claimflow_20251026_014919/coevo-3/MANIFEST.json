@@ -1,0 +1,25 @@
+{
+  "created": "2025-10-26T01:49:19.408349Z",
+  "entries": [
+    {
+      "path": "README.md",
+      "sha256": "ff931b6590f14dad6080ff985df943aee0eef751b7e23655982398174f7a422e"
+    },
+    {
+      "path": "schemas/rar.schema.json",
+      "sha256": "dbf4d5ca09a855c411d7fa96cdc7d2a329175c6e1b2bdf6ccf29925fdf316338"
+    },
+    {
+      "path": "evaluation/KPIs.md",
+      "sha256": "0df50c0f077a88c295c296f1b76ba531cfd5d09df44ad9a94da222a3b013bb3d"
+    },
+    {
+      "path": "distributional/INCIDENCE_NOTES.md",
+      "sha256": "d98212d85d4f4aafe55ad3928ed6c99edce8be8bc40ac44aaad852fc0a3dd3e5"
+    },
+    {
+      "path": "ops/PLAYBOOKS.md",
+      "sha256": "bde8c0f25e91e890934210eb40d1c31bc4f02c0bc4c7e4ed5b3371a0c4bf3e49"
+    }
+  ]
+}

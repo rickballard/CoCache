@@ -1,0 +1,5 @@
+- CPI band adherence
+- Claim latency
+- Queue resilience
+- Slash rate
+- Audit coverage
