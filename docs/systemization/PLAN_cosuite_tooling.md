@@ -11,4 +11,3 @@ tools/cosuite/README.md
 3) Bulk-repoint all callsites (scripts + CI + docs)
 4) Add CI guard denying writes to legacy paths
 5) Tag rollback point; open migration PR
-
