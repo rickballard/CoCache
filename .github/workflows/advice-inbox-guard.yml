@@ -46,3 +46,18 @@ jobs:
               echo "::error ::RAW HEAD failed for $url (code $code)"; exit 1
             fi
           done
+      - name: Validate ZIP contents (manifest + changelog)
+        shell: bash
+        run: |
+          set -e
+          changed=$(git diff --name-only HEAD~1 HEAD || true)
+          for f in $(echo "$changed" | grep '^advice/inbox/.*\.zip$' || true); do
+            tdir=$(mktemp -d)
+            unzip -qq "$f" -d "$tdir"
+            if [ ! -f "$tdir/_hp.manifest.json" ]; then
+              echo "::error file=$f::Missing _hp.manifest.json in ZIP root"; exit 1
+            fi
+            if [ ! -f "$tdir/notes/CHANGELOG.md" ]; then
+              echo "::error file=$f::Missing notes/CHANGELOG.md"; exit 1
+            fi
+          done
