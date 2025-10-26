@@ -1,0 +1,48 @@
+name: Advice Inbox Guard
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - "advice/inbox/**"
+      - ".github/workflows/advice-inbox-guard.yml"
+      - "advice/INBOX_LOG.md"
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate filenames & sha sidecars
+        shell: bash
+        run: |
+          set -e
+          bad=0
+          changed=$(git diff --name-only HEAD~1 HEAD || true)
+          for f in $(echo "$changed" | grep '^advice/inbox/.*\.zip$' || true); do
+            base=$(basename "$f")
+            if ! echo "$base" | grep -E '^AdviceBomb_[A-Za-z0-9]+_v[0-9]+\.[0-9]+(\.[0-9]+)?_[0-9]{8}_[0-9]{6}\.zip$' >/dev/null; then
+              echo "::error file=$f::Bad filename format"; bad=1
+            fi
+            if [ ! -f "${f}.sha256" ]; then
+              echo "::error file=$f::Missing .sha256 sidecar"; bad=1
+            fi
+          done
+          if ! echo "$changed" | grep -q '^advice/INBOX_LOG.md$'; then
+            echo "::error ::INBOX_LOG.md must be updated with this inbox addition"; bad=1
+          fi
+          if [ "$bad" -ne 0 ]; then exit 1; fi
+
+      - name: RAW HEAD check for new ZIPs
+        if: always()
+        shell: bash
+        run: |
+          set -e
+          for f in $(git diff --name-only HEAD~1 HEAD | grep '^advice/inbox/.*\.zip$' || true); do
+            base=$(basename "$f")
+            url="https://raw.githubusercontent.com/rickballard/CoCache/main/advice/inbox/$base"
+            code=$(curl -s -o /dev/null -w "%{http_code}" -I "$url")
+            if [ "$code" != "200" ]; then
+              echo "::error ::RAW HEAD failed for $url (code $code)"; exit 1
+            fi
+          done
