@@ -1,0 +1,24 @@
+{
+  "subject_id": "example-person",
+  "version": 1,
+  "claims": [
+    {
+      "type": "skill",
+      "name": "security-engineering",
+      "level": "advanced"
+    }
+  ],
+  "attestations": [],
+  "proofs": [],
+  "timebox": {
+    "issued": "2025-10-26",
+    "review_by": "2026-10-26"
+  },
+  "revocation": {
+    "policy": "maintainer+2 reviewers"
+  },
+  "privacy": {
+    "consent": false
+  },
+  "hash": "sha256:TODO"
+}

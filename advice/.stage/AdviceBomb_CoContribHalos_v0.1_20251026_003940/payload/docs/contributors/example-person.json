@@ -1,0 +1,22 @@
+{
+  "id": "example-person",
+  "name": "Example Person",
+  "primary_category": "Builders",
+  "tags": [
+    "oss",
+    "security"
+  ],
+  "short_profile": "Security-focused OSS maintainer.",
+  "why_them_for_CoCivium": [
+    "Shipped audited code",
+    "Civic-minded track record"
+  ],
+  "evidence_links": [
+    "https://github.com/example"
+  ],
+  "conflicts_risks": [],
+  "contact_policy": "public email",
+  "status": "proposed",
+  "maintainer": "rb",
+  "updated_utc": "2025-10-26T00:39:40Z"
+}
