@@ -1,0 +1,10 @@
+{
+  "sha256": "f855a87e9e4a1371072d1e487bb918f0daf2b4c53d5388e866d4e658d643430e",
+  "inbox_file": "AdviceBomb_CoSuiteExternalAssets_v0_2_2025-10-26T000056Z.zip",
+  "size_bytes": 2751,
+  "source_path": "(inbox copy; original not recorded)",
+  "notes": "Backfilled receipt for v0.2; manual copy bypassed ingest script.",
+  "created_utc": "2025-10-26T00:08:22.3476392Z",
+  "name": "AdviceBomb_CoSuiteExternalAssets_v0_2_2025-10-26T000056Z",
+  "kind": "AdviceBombReceipt"
+}
