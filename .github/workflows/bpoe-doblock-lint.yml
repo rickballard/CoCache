@@ -1,0 +1,50 @@
+name: BPOE DO-Block Lint
+on:
+  pull_request:
+    paths:
+      - '**/*.md'
+      - 'tools/**.ps1'
+      - '.github/workflows/bpoe-doblock-lint.yml'
+  workflow_dispatch: {}
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Scan for broken PowerShell here-strings in DO blocks
+        shell: pwsh
+        run: |
+          $ErrorActionPreference='Stop'
+          $bad = 0
+          # Match fenced pwsh blocks and check here-strings header/closer placement
+          $mds = Get-ChildItem -Recurse -File -Include *.md
+          foreach($m in $mds){
+            $content = Get-Content $m.FullName -Raw
+            $blocks = [regex]::Matches($content, '(?s)```pwsh\n(.*?)\n```')
+            foreach($b in $blocks){
+              $code = $b.Groups[1].Value -split "\r?\n"
+              for($i=0; $i -lt $code.Count; $i++){
+                $line = $code[$i]
+                if($line -match "(@'|@\")\s*\S"){
+                  Write-Host "::error file=$($m.FullName),line=$($i+1)::Here-string header must be alone on its line"
+                  $bad++
+                }
+                if($line -match "\S+\s*'@|\S+\s*\"@"){
+                  Write-Host "::error file=$($m.FullName),line=$($i+1)::Here-string closing marker must be alone on its line"
+                  $bad++
+                }
+              }
+            }
+          }
+          if($bad -gt 0){ throw "Here-string lint failed: $bad issue(s)" }
+      - name: Lint runner scripts for param duplication
+        shell: pwsh
+        run: |
+          $ErrorActionPreference='Stop'
+          $ps = Get-ChildItem -Recurse -File -Include *.ps1,*.psm1 | Where-Object { $_.FullName -notmatch '\.git\' }
+          foreach($p in $ps){
+            $txt = Get-Content $p.FullName -Raw
+            if($txt -match '-PR\s+[^\n]*-PR'){
+              Write-Host "::warning file=$($p.FullName)::Multiple -PR occurrences detected; prefer array/CSV parsing."
+            }
+          }
