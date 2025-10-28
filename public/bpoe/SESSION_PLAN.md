@@ -104,3 +104,15 @@ This plan expects ingestion from three sources:
 - `scripts/ci/bpoe-render.ts`   → render public/BPOE_Rules.md and public/bpoe/index.json
 - `scripts/ci/org-drift.ts`     → scan for stray `docs/bpoe/**`, open issues
 - `scripts/hp57/ingest.ts`      → ledger → HP_MASTER updates, move zip to `advice/deprecated/`, create stub
+
+## Megascroller — Linked Assets (discovered)
+
+- Latest harvest inventory: private/bpoe/harvest/20251028/megascroller/  
+  - JSON: private/bpoe/harvest/20251028/megascroller/inventory.megascroller.20251028_192027Z.json
+  - Index: private/bpoe/harvest/20251028/megascroller/INDEX.megascroller.20251028_192027Z.md
+
+### Next actions
+- [ ] Review linked assets and decide **evolve vs deprecate**.
+- [ ] If evolvable, reference canonical file(s) here and retire duplicates.
+- [ ] If deprecated, add a short tombstone note in-place and point to canonical.
+
