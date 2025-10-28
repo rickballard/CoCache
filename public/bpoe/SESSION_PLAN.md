@@ -104,3 +104,34 @@ This plan expects ingestion from three sources:
 - `scripts/ci/bpoe-render.ts`   → render public/BPOE_Rules.md and public/bpoe/index.json
 - `scripts/ci/org-drift.ts`     → scan for stray `docs/bpoe/**`, open issues
 - `scripts/hp57/ingest.ts`      → ledger → HP_MASTER updates, move zip to `advice/deprecated/`, create stub
+
+## Megascroller — CoPrime20251028
+
+> Rolling, repo-first checklist; use **[P1] [P2] [P3]** tags; tick as you land. (Auto-extended by CoPrime sessions.)
+
+### Governance & BPOE ([P1])
+- [ ] CODEOWNERS applied repo-wide where missing ([P1])
+- [ ] BPOE rules synced across /public/bpoe & /private/bpoe ([P1])
+- [ ] SESSION_PLAN.md pinned in repo README pointers ([P2])
+
+### Receipts & Audit Trail ([P1])
+- [ ] Ensure **all** receipts under public/bpoe/receipts/YYYY/MM/DD/ ([P1])
+- [ ] Add daily CoSync note under docs/intent/advice/notes/YYYYMMDD/ ([P2])
+- [ ] Run drift-scan on receipts tree; open issue if anomalies found ([P2])
+
+### CI / IssueOps ([P1])
+- [ ] #126 — schemas + render-diff + org drift-scan wired ([P1])
+- [ ] #127 — sops/age + redact pipeline + ingest integration ([P1])
+- [ ] #128 — parallelism (GIBindex → human MD → multilingual) ([P2])
+
+### Pointers & Indexing ([P2])
+- [ ] Re-run pointer PR sweep (docs/bpoe-pointer-*) and merge green ([P2])
+- [ ] hp57 index refresh (public/hp57/_index.md) verified ([P2])
+- [ ] Update cross-repo pointer README seeds where missing ([P3])
+
+### Smoke Checks ([P1])
+- [ ] public/bpoe/BPOE_Rules.md present ([P1])
+- [ ] private/bpoe/registry.json present ([P1])
+- [ ] Latest receipt present for **today** ([P1])
+
+
