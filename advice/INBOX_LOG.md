@@ -6,3 +6,4 @@
 | 2025-10-26T02:36:45Z | AdviceBomb_CoContribHalos_v0.1_20251026_003940.zip | v0.1 | producer | awaiting-copong | seeded by session |
 
 | 2025-10-28T03:27:21Z | AdviceBomb_CoCiviaOutreach_v1.0_LaunchPrep_20251027_232056Z.zip | 6C783D703AB7D266AAF4C37B56AC9462DC4867F9996BF9B9656937F5FF041E7D | CoCivia launch-prep v1.0 AdviceBomb |
+| AdviceBomb_RickPublic_YouTubePlan_20251028T032452Z.zip | 10549 | a5a98cfca4726a6e22add74fd9478789b196f7da396b0d6d1437e68068d9f9af | 2025-10-28T03:28:08.1286839Z |
