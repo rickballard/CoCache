@@ -1,0 +1,5 @@
+{
+  "topics": ["megascroller","issueops","hp57","cocache"],
+  "excludes": [".git/*",".github/workflows/*","node_modules/*"],
+  "include_harvest": true
+}
