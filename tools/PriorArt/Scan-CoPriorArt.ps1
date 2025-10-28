@@ -51,7 +51,7 @@ if($cfg.include_harvest -ne $false){
     $inv = Get-ChildItem -Path $hDir -Recurse -File -Filter "inventory.*.json" -ErrorAction SilentlyContinue
     foreach($j in $inv){
       try{
-        $json = Get-Content $j.FullName -Raw | ConvertFrom-Json
+$json = @(); try { $json = Get-Content $j.FullName -Raw | ConvertFrom-Json } catch {}
         foreach($row in $json){
           if([string]::IsNullOrWhiteSpace($Topic) -or ($row.line -match [regex]::Escape($Topic))){
             $hits.Add([pscustomobject]@{
@@ -100,3 +100,4 @@ if($inCI -and $ackNeeded -and -not $prHasAck){
 }
 
 Write-Host "Prior-art check: OK"
+
