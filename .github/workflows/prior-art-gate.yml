@@ -1,0 +1,20 @@
+name: BPOE Prior-Art Gate
+on:
+  pull_request:
+    types: [opened, synchronize, edited, reopened]
+  workflow_dispatch:
+jobs:
+  prior-art:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install PowerShell
+        uses: PowerShell/PowerShell@v1
+        with:
+          version: '7.4.4'
+      - name: Run Prior-Art Scan
+        shell: pwsh
+        env:
+          PRIORART_ACK: ${{ contains(join(github.event.pull_request.labels.*.name, ','), 'PRIORART_ACK') && 'I_KNOW' || '' }}
+        run: |
+          ./tools/PriorArt/Scan-CoPriorArt.ps1 -Topic ""
