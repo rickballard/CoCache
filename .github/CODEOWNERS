@@ -1,1 +1,5 @@
-* @rickballard
+# Canonical ownership for BPOE + HP57 (machine-first canonical)
+/private/bpoe/**           @rickballard
+/public/bpoe/**            @rickballard
+/private/hp57/**           @rickballard
+/public/hp57/**            @rickballard
