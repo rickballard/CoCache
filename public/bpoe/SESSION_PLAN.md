@@ -134,4 +134,12 @@ This plan expects ingestion from three sources:
 - [ ] private/bpoe/registry.json present ([P1])
 - [ ] Latest receipt present for **today** ([P1])
 
+## Patience/Second-Dots — Linked Assets (discovered)
+
+- Inventory: $invJson
+- Index: $idxMd
+
+### Decision gate
+- [ ] Review hits. If **prior helper exists**, **evolve that** and tombstone duplicates.
+- [ ] If **no prior art**, proceed to add 	ools/UX/CoPatience.ps1 as canonical, with docs.
 
