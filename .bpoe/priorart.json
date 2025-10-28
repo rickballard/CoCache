@@ -1,5 +1,22 @@
 {
-  "topics": ["megascroller","issueops","hp57","cocache"],
-  "excludes": [".git/*",".github/workflows/*","node_modules/*"],
+  "topics": [
+    "cocache",
+    "CoPatience",
+    "heartbeat",
+    "hp57",
+    "issueops",
+    "megascroller",
+    "patience",
+    "progress dots",
+    "second dots",
+    "second-dots",
+    "spinner",
+    "wait dots"
+  ],
+  "excludes": [
+    ".git/*",
+    ".github/workflows/*",
+    "node_modules/*"
+  ],
   "include_harvest": true
 }
