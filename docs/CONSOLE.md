@@ -40,3 +40,5 @@ _Feedback routes:_ open an Issue in **CoSteward** (preferred), or in the relevan
 
 - Manual publish via Substack; no auto-publish
 
+[![heartbeat](https://img.shields.io/badge/heartbeat-scheduled-blue)](../../actions/workflows/heartbeat.yml)
+
