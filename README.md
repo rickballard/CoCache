@@ -1,3 +1,5 @@
+[Megascroll — Intents](docs/megascroll/INTENTS.md) · [Cognocarta Consenti](docs/megascroll/COGNOCARTA_CONSENTI.md) · [CoTheory](docs/megascroll/COTHEORY.md) · [Console Heartbeat Legend](docs/CONSOLE_LEGEND.md)
+
 ## CoAgent • Start Here (MANDATORY)
 
 [![Metrics Index](https://github.com/rickballard/CoCache/actions/workflows/metrics-index.yml/badge.svg)](https://github.com/rickballard/CoCache/actions/workflows/metrics-index.yml)
@@ -98,6 +100,7 @@ Asset | Uses | Last
 - Latest tag: ftw-milestone-20251022-162550
 - Last change to FTW/: 2025-10-22T17:46:00-04:00 (31fa822)
 <!-- END: FTW_STATUS -->
+
 
 
 
