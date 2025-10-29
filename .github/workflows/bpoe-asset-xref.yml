@@ -1,0 +1,24 @@
+name: bpoe-asset-xref
+on:
+  pull_request:
+    paths:
+      - "**/*.md"
+      - "**/*.ps1"
+      - "docs/bpoe/ASSET_XREF_SPEC.md"
+      - "docs/bpoe/ASSET_XREF_SCHEMA.json"
+  workflow_dispatch: {}
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: PowerShell — validate XREFs + render graph
+        shell: pwsh
+        run: |
+          pwsh -NoProfile -File tools/BPOE/Lint-AssetXref.ps1 -Root . -Spec docs/bpoe/ASSET_XREF_SPEC.md -Schema docs/bpoe/ASSET_XREF_SCHEMA.json
+          pwsh -NoProfile -File tools/BPOE/Render-XrefGraph.ps1 -Root . -Out docs/bpoe/xref-graph.mmd
+      - name: Upload graph artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: xref-graph
+          path: docs/bpoe/xref-graph.*

@@ -1,35 +1,24 @@
-# BPOE Asset Cross-Reference Spec (v0.1)
+# Asset Cross-Reference — Spec (v0.1)
 
-**Goal:** keep critical assets co-evolving by embedding lightweight cross-references directly in files, then validating in CI.
+This file defines which assets **must** carry an XREF footer and are checked in CI.
 
-## Footer marker
-Add a JSON block between the markers at the end of any critical asset:
-
-```html
-<!-- XREF
+```json xref-spec
 {
-  "title": "CoPatience helper",
-  "type": "helper",
-  "repo": "CoCache",
-  "tags": ["ux","patience","dots"],
-  "depends_on": [
-    "tools/BPOE/Scan-DoBlocks.ps1"
-  ],
-  "see_also": [
+  "critical": [
+    "tools/BPOE/Lint-HereStrings.ps1",
+    "docs/bpoe/BPOE_CHANGELOG.md",
+    "public/bpoe/SESSION_PLAN.md",
     "public/bpoe/HELPERS_REGISTRY.md"
   ]
 }
-XREF -->
 ```
 
-- `depends_on`: assets this file logically depends on.
-- `see_also`: neighbors that should be updated/reviewed together.
-- CI emits a **warning** if `A.depends_on B` but `B.see_also` does not include `A`. Tighten later to errors.
+## Footer format
+Place a JSON block inside an HTML comment, exactly:
 
-## Outputs
-- `public/bpoe/ASSET_GRAPH.json` — machine graph (nodes/edges/warnings)
-- `public/bpoe/ASSET_GRAPH.md` — human summary
-
-## Rollout notes
-- Start as **non-blocking**; flip to blocking after coverage improves.
-- Prefer adding markers to **systematization-layer** assets first: guards, schemas, registries, governance docs.
+```
+<!-- XREF
+{ "title": "...", "type": "...", "repo": "CoCache",
+  "tags": [], "depends_on": [], "see_also": [] }
+XREF -->
+```
