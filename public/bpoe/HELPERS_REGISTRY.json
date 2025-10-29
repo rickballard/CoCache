@@ -1,0 +1,186 @@
+[
+  {
+    "path": "tools/Audit-CoAdvice.ps1",
+    "description": "0) Sanity: inbox README",
+    "functions": [],
+    "tags": [],
+    "sha1": "B26596B90FE266A8C9EE5A4034180DD19F783197"
+  },
+  {
+    "path": "tools/Backfill-CoAdvice.ps1",
+    "description": "",
+    "functions": [],
+    "tags": [],
+    "sha1": "22C316F1C781178BF68C7E9FDAAF1145F446283E"
+  },
+  {
+    "path": "tools/Build-CoIndex.ps1",
+    "description": "",
+    "functions": [
+      "Get-Yfm",
+      "Get-H1",
+      "Infer-Role",
+      "Is-TextLike"
+    ],
+    "tags": [],
+    "sha1": "9B9BA9396AB0D60369061E449E2880D810063843"
+  },
+  {
+    "path": "tools/Build-CoSyncFeed.ps1",
+    "description": "(your working code you just ran) ↓",
+    "functions": [],
+    "tags": [],
+    "sha1": "131FFF01760E9CB3CA2FAC9126C465B2AB2D55F0"
+  },
+  {
+    "path": "tools/Build-PlaneData.ps1",
+    "description": "TODO: replace with real CoSuite pulls",
+    "functions": [],
+    "tags": [],
+    "sha1": "838F51F0CA49AD7D40A223BA1E612D44786304B1"
+  },
+  {
+    "path": "tools/CoPasteEnvelope.ps1",
+    "description": "Write with BOM so WinPS 5.1 parses UTF-8 safely if we ever fall back.",
+    "functions": [
+      "Invoke-CoEnvelope"
+    ],
+    "tags": [],
+    "sha1": "798A9190202E9416DAFD8EB58EE3A9826FB29123"
+  },
+  {
+    "path": "tools/CoSync-Emit.ps1",
+    "description": "CoCache base (receipts live here)",
+    "functions": [],
+    "tags": [],
+    "sha1": "25CEF628BED463EDAC396CDC33B8409FD919C575"
+  },
+  {
+    "path": "tools/CoSync-Validate.ps1",
+    "description": "",
+    "functions": [],
+    "tags": [],
+    "sha1": "62249E53DA013532F7FB4080612CDDB9CF98D698"
+  },
+  {
+    "path": "tools/CoTip.ps1",
+    "description": "$Title",
+    "functions": [
+      "Add-CoTip"
+    ],
+    "tags": [],
+    "sha1": "5FE4DED2EAA7C61EA2D902F5AAF81D7FFBDEEA8E"
+  },
+  {
+    "path": "tools/CoWrap.ps1",
+    "description": "",
+    "functions": [],
+    "tags": [],
+    "sha1": "9288FE7DD965BB8BECFB5C075F15927F8F4C7C82"
+  },
+  {
+    "path": "tools/DO-AdviceBomb-Merge.ps1",
+    "description": "",
+    "functions": [],
+    "tags": [],
+    "sha1": "DA39A3EE5E6B4B0D3255BFEF95601890AFD80709"
+  },
+  {
+    "path": "tools/Housekeep-Bloat.ps1",
+    "description": "ultra-fast: no --aggressive",
+    "functions": [],
+    "tags": [],
+    "sha1": "9DECCE7C655BBE6A350C94D34D928D196EC02E99"
+  },
+  {
+    "path": "tools/Integrate-AdviceBombs.ps1",
+    "description": "",
+    "functions": [],
+    "tags": [],
+    "sha1": "44D693A66EDBBBD73F10D18A5A2C4763EC49A0CE"
+  },
+  {
+    "path": "tools/Mirror-AdviceBombs.ps1",
+    "description": "",
+    "functions": [],
+    "tags": [],
+    "sha1": "6F2E25CD810347C6BAED2E92FD11FB4E71159082"
+  },
+  {
+    "path": "tools/New-InboxManifest.ps1",
+    "description": "Collect coevo manifests if present",
+    "functions": [],
+    "tags": [],
+    "sha1": "EC6DF4865AA145BDD84277A9C31A70473FA7C0EB"
+  },
+  {
+    "path": "tools/Parse-Reflex.ps1",
+    "description": "If zip, expand to temp",
+    "functions": [],
+    "tags": [],
+    "sha1": "14207822002E137C4DCD364E80AF06119DD8FE67"
+  },
+  {
+    "path": "tools/PriorArt/Scan-CoPriorArt.ps1",
+    "description": "Load JSON config (topics/excludes/include_harvest)",
+    "functions": [],
+    "tags": [],
+    "sha1": "9D220ADDFA5E804E66886F888D7C7F7D27298624"
+  },
+  {
+    "path": "tools/Promote-Insight-EpochsRegimes.ps1",
+    "description": "",
+    "functions": [],
+    "tags": [],
+    "sha1": "B4D61892BADACBC4109AA7839C6298D85964F20B"
+  },
+  {
+    "path": "tools/Run-Reflex.ps1",
+    "description": "run smoke test if present",
+    "functions": [],
+    "tags": [],
+    "sha1": "D665E9C89C74297C56967E63D278EC5B9AD31E05"
+  },
+  {
+    "path": "tools/Scan-CoAdvice.ps1",
+    "description": "",
+    "functions": [],
+    "tags": [],
+    "sha1": "3036140FA68CC133093F1DEDA6CA31C55892AD52"
+  },
+  {
+    "path": "tools/Show-CoAdvice.ps1",
+    "description": "",
+    "functions": [],
+    "tags": [],
+    "sha1": "52359DB63CC75FB11574F0EFF847FAB153B1B72D"
+  },
+  {
+    "path": "tools/Start-New-Session.ps1",
+    "description": "",
+    "functions": [],
+    "tags": [],
+    "sha1": "93318C0E968E99AFE367E20EBEF6146962F22060"
+  },
+  {
+    "path": "tools/Systematization-Scan.ps1",
+    "description": "",
+    "functions": [],
+    "tags": [],
+    "sha1": "B6A9D74D458AA73F546E9FAD56608CBBD59955D0"
+  },
+  {
+    "path": "tools/Unpack-CoInbox.ps1",
+    "description": "",
+    "functions": [],
+    "tags": [],
+    "sha1": "98D9E2999715F01A0D19EDF9776D5A0D3D51206A"
+  },
+  {
+    "path": "tools/Watch-AdviceBombs.ps1",
+    "description": "",
+    "functions": [],
+    "tags": [],
+    "sha1": "E49E64802D1A1EF0A976FB0D9AB0334CCE3C1668"
+  }
+]

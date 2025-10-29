@@ -3,18 +3,27 @@ on:
   pull_request:
     types: [opened, synchronize, edited, reopened]
   workflow_dispatch:
+permissions:
+  contents: read
+  pull-requests: read
+concurrency:
+  group: prior-art-${{ github.ref }}
+  cancel-in-progress: true
 jobs:
   prior-art:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Install PowerShell
         uses: PowerShell/PowerShell@v1
         with:
-          version: '7.4.4'
+          version: '7.4.x'
       - name: Run Prior-Art Scan
         shell: pwsh
         env:
-          PRIORART_ACK: ${{ contains(join(github.event.pull_request.labels.*.name, ','), 'PRIORART_ACK') && 'I_KNOW' || '' }}
+          # Only look at PR labels when this is a PR; otherwise pass ''.
+          PRIORART_ACK: ${{ github.event_name == 'pull_request' && contains(join(github.event.pull_request.labels.*.name, ','), 'PRIORART_ACK') && 'I_KNOW' || '' }}
         run: |
           ./tools/PriorArt/Scan-CoPriorArt.ps1 -Topic ""
