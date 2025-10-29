@@ -36,3 +36,7 @@ _Feedback routes:_ open an Issue in **CoSteward** (preferred), or in the relevan
 
 **Trends:** see [docs/TOP_MOVERS.md](TOP_MOVERS.md)
 
+
+
+- Manual publish via Substack; no auto-publish
+
