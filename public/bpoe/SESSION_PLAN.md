@@ -134,4 +134,18 @@ This plan expects ingestion from three sources:
 - [ ] private/bpoe/registry.json present ([P1])
 - [ ] Latest receipt present for **today** ([P1])
 
+## Patience/Second-Dots — Linked Assets & Decision
 
+- Inventory (registry+repo): `private/bpoe/harvest/20251028/patience-registry/inventory.patience-registry.20251028_231432Z.json`
+- Helpers registry: `public/bpoe/HELPERS_REGISTRY.json` / `public/bpoe/HELPERS_REGISTRY.md`
+
+### Decision
+- [ ] If **registry or repo hits exist**, **evolve the prior helper** and **tombstone duplicates** with a receipt.
+- [ ] If **no hits**, proceed to add `tools/UX/CoPatience.ps1` + `docs/ux/CoPatience.md` (canonical).
+
+## Here-String Guard — Plan Gate
+
+- [ ] **Local**: `Microsoft.PowerShell_profile.ps1` dot-sources `Profile.BPOE.HereStrings.ps1`.
+- [ ] **CI**: `bpoe-here-strings.yml` present; red PRs until violations fixed.
+- [ ] **Scope**: apply to `*.ps1, *.psm1, *.md` (tighten later per repo).
+- [ ] **CoSync Drift Signal**: panel warnings imply BPOE re-align needed.

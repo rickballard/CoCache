@@ -8,3 +8,9 @@ _Auto-seeded 20251028_233414Z — capture workflow learnings and guards as they 
 - **Patience UX ("second dots")**: canonical `tools/UX/CoPatience.ps1` + `docs/ux/CoPatience.md`; prefer evolve-over-new via SESSION_PLAN gate.
 - **DO-block hygiene**: CI workflow `bpoe-doblock-lint.yml` + `tools/BPOE/Scan-DoBlocks.ps1` to enforce here-string rules.
 - **Merge Train**: runner improved to accept multiple `-PR` forms; prefer **auto-merge (squash + delete)** for green PRs.
+
+## 2025-10-29 — Here-String Guard (local + CI)
+- Local PSReadLine hook warns on malformed here-strings and prompt cruft.
+- CI (`bpoe-here-strings.yml`) fails PRs on violations with file:line diagnostics.
+- Rationale: drift detector for CoSync; prevents DO-block collapse due to here-string mistakes.
+
